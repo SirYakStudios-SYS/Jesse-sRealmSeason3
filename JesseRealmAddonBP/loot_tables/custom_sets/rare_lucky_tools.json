@@ -1,0 +1,288 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:fishing_rod",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Rod(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "lure",
+									"level": 5
+								},
+								{
+									"id": "luck_of_the_sea",
+									"level": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bow",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Bow(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "power",
+									"level": 7
+								},
+								{
+									"id": "punch",
+									"level": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:crossbow",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Crossbow(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "quick_charge",
+									"level": 5
+								},
+								{
+									"id": "piercing",
+									"level": 6
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:trident",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Trident(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "impaling",
+									"level": 7
+								},
+								{
+									"id": "riptide",
+									"level": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_sword",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Diamond Sword(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "looting",
+									"level": 5
+								},
+								{
+									"id": "sharpness",
+									"level": 7
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_shovel",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Diamond Shovel(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "efficiency",
+									"level": 7
+								},
+								{
+									"id": "fortune",
+									"level": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Diamond Pickaxe(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "efficiency",
+									"level": 7
+								},
+								{
+									"id": "fortune",
+									"level": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_Axe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Diamond Axe(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "efficiency",
+									"level": 7
+								},
+								{
+									"id": "fortune",
+									"level": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_hoe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "§3Lucky Diamond Hoe(+2)"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							}
+						},
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "unbreaking",
+									"level": 5
+								},
+								{
+									"id": "power",
+									"level": 7
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

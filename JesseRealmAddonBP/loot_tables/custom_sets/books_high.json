@@ -1,0 +1,168 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"min": 40,
+								"max": 60
+							}
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bLevel 50 Enchant"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "lure",
+									"level": 5
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bLure V"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "luck_of_the_sea",
+									"level": 5
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bLuck of the Sea V"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "power",
+									"level": 7
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bPower VII"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "fortune",
+									"level": 5
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bFortune V"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "unbreaking",
+									"level": 5
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bUnbreaking V"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "sharpness",
+									"level": 7
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bSharpness VII"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "protection",
+									"level": 6
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name": "§l§bProtection VI"
+						}
+					]
+				}
+			]
+		}
+	]
+}

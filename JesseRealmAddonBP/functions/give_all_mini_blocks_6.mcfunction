@@ -1,0 +1,15 @@
+give @s bt:mb.spruce_planks
+give @s bt:mb.sticky_piston
+give @s bt:mb.stone
+give @s bt:mb.stone_bricks
+give @s bt:mb.target
+give @s bt:mb.terracotta
+give @s bt:mb.tnt
+give @s bt:mb.tube_coral_block
+give @s bt:mb.warped_nylium
+give @s bt:mb.warped_planks
+give @s bt:mb.warped_stem
+give @s bt:mb.warped_wart_block
+give @s bt:mb.white_concrete
+give @s bt:mb.white_wool
+give @s bt:mb.yellow_concrete

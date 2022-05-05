@@ -1,0 +1,72 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bt:thunder_shrine",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": ["shrine_tick", { "start_thunder": "query.variant == 1" }]
+      },
+      "animations": {
+        "shrine_tick": "animation.bp.thunder_shrine.tick",
+        "start_thunder": "animation.bp.thunder_shrine.start_storm"
+      }
+    },
+    "components": {
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:movement": {
+        "value": -1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "any",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "thunder_start"
+            },
+            "event": "bt:start_thunder"
+          }
+        ]
+      }
+    },
+    "component_groups": {
+      "bt:start_thunder": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "bt:reset": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      }
+    },
+    "events": {
+      "bt:start_thunder": {
+        "add": {
+          "component_groups": ["bt:start_thunder"]
+        }
+      },
+      "bt:reset": {
+        "add": {
+          "component_groups": ["bt:reset"]
+        }
+      }
+    }
+  }
+}

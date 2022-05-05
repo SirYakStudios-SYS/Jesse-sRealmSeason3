@@ -1,0 +1,23 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:skull",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "random_aux_value",
+							"values": {
+								"min": 0,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

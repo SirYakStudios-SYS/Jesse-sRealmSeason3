@@ -1,0 +1,31 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.bp.thunder_shrine.tick": {
+            "loop": true,
+            "timeline": {
+                "0.0": [
+                    "/execute @e[type=item,name=\"Nether Star\",tag=!gen_thunder] ~ ~ ~ /execute @e[type=bt:thunder_shrine,r=2,c=1] ~ ~ ~ tag @s add thunder_start",
+                    "/execute @e[type=bt:thunder_shrine] ~ ~ ~ particle minecraft:end_chest ~ ~ ~"
+                ]
+            },
+            "animation_length": 0.05
+        },
+        "animation.bp.thunder_shrine.start_storm": {
+            "loop": true,
+            "timeline": {
+                "0.01": [
+                    "/tag @e[type=item,name=\"Nether Star\",tag=!gen_thunder,c=1] add gen_thunder",
+                    "/weather thunder",
+                    "/summon lightning_bolt",
+                    "/playsound mob.ghast.fireball @a[r=5] ~ ~ ~ 1.0 1.0 1.0",
+                    "/tellraw @a[r=5] { \"rawtext\" : [ { \"text\" : \"§4A great storm has been initiated by the ritual\" } ] }",
+                    "/kill @e[tag=gen_thunder]",
+                    "/tag @s remove thunder_start",
+                    "@s bt:reset"
+                ]
+            },
+            "animation_length": 0.05
+        }
+    }
+}

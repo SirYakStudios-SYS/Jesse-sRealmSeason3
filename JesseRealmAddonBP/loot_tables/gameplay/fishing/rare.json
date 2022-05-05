@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/custom_sets/rare_disk.json",
+					"weight": 10,
+					"quality": -2
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/custom_sets/rare_head.json",
+					"weight": 5,
+					"quality": 0
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/custom_sets/rare_leaderPuff.json",
+					"weight": 10,
+					"quality": -1
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/custom_sets/rare_misc.json",
+					"weight": 10,
+					"quality": 0
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/custom_sets/rare_lucky_tools.json",
+					"weight": 10,
+					"quality": 0
+				}
+			]
+		}
+	]
+}

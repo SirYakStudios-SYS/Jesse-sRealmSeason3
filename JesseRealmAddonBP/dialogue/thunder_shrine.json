@@ -1,0 +1,22 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "ts_config",
+        "npc_name": "Thunder Shrine Config",
+        "text": "§lThunder Shrine help:§r\nThis is the Thunder Shrine settings menu, use the buttons below to use the addon.\n\nOnce the shrine is create throw a Nether Star onto it to start a storm.\n\n§l§5by DrAv0011§r",
+        "buttons": [
+          {
+            "name": "§eCreate Shrine",
+            "commands": ["/function ts/create_thunder_shrine"]
+          },
+          {
+            "name": "§eDelete Shrine",
+            "commands": ["/function ts/remove_thunder_shrine"]
+          }
+        ]
+      }
+    ]
+  }
+}

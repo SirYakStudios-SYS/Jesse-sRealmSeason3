@@ -1,0 +1,212 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 9,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.coal_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.iron_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.gold_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.lapis_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.redstone_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.emerald_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.diamond_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.quartz_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "bt:tg.ruby_gem",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "bt:mb.netherite_block",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_lore",
+                      "lore": ["Craft me to get a helmet!"]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 999999999,
+              "reward_exp": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
