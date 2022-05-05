@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "we:inventory",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:inventory": {
+				"inventory_size": 27,
+				"container_type": "inventory"
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "all"
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

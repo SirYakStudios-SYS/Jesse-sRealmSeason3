@@ -419,8 +419,7 @@
    },
       "soulstone_breakable" : {
          "textures" : "textures/blocks/soulstone_breakable.png"
-      }
-   },
+      },
    "trident_table_down": {
       "textures": "textures/blocks/trident_table_down"
     },

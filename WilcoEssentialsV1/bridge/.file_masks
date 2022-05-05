@@ -1,0 +1,31 @@
+{
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"55e671f2_c421_434c_8c0c_5ef3987549f6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/diamond_pickaxe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/pickaxe.json": {
+		"data": {}
+	},
+	"BP/functions/tick.json": {
+		"data": {}
+	},
+	"BP/entities/inventory.json": {
+		"data": {}
+	}
+}

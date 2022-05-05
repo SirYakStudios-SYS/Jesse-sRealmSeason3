@@ -1,0 +1,1 @@
+This is a module that uses a marketplace manifest to fix the problem. the manifest has been improved and polish to be better. in some devices when you go to a realm with this pack it will turn sonix textures. this only happens in some devices. i heavly try to fix that but i think it isnt possible.

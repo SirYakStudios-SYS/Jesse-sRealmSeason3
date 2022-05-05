@@ -1,3 +1,4 @@
+//bridge-file-version: #1
 {
 	"format_version": 1,
 	"header": {
@@ -20,12 +21,6 @@
 			],
 			"type": "data",
 			"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
-		},
-		{
-			"description": "Importblockgeo", 
-			"type": "resources", 
-			"uuid": "c6a4c8e5-b3cc-5754-b7fd-b7d0f544caf7", 
-			"version": [0, 0, 1] 
 		},
 		{
 			"description": "Script that implements basic starter tests.",

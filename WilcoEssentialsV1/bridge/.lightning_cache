@@ -1,0 +1,57 @@
+{
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"pick"
+			],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/inventory.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"we:inventory"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/diamond_pickaxe.json": {
+			"identifiers": [
+				"minecraft:diamond_pickaxe"
+			],
+			"custom_commands": []
+		}
+	},
+	"function": {
+		"c258165d_c697_486a_86d0_8f919acca4ed": {},
+		"BP/functions/tick.mcfunction": {
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/pickaxe.json": {
+			"ids": [
+				"controller.animation.pickaxe"
+			],
+			"custom_commands": []
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"file_path": "C:\\Users\\silly\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\WilcoEssentials\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "df538e52_693d_47ec_bb29_af4e7871f340",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"tick"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"tick"
+				]
+			}
+		]
+	}
+}

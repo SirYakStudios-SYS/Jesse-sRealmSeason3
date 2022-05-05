@@ -15,27 +15,6 @@
     ]
   },
 
-  "salvodizzy_watermark": {
-    "type": "label",
-    "text": "Mo'Dungeons§ev1.5.0§r\nMade by §b@PegasusLighty",
-    "color": [ 1.0, 1.0, 1.0 ],
-    "shadow": true,
-    "font_size": "small",
-    "anchor_from": "top_right",
-    "anchor_to": "top_right",
-    "alpha": 10
-  },
-
-  "salvodizzy_watermark_image": {
-    "type": "image",
-    "texture": "textures/logo/MD",
-    "layer": 3,
-    "offset": [-65, 0],
-    "anchor_from": "top_right",
-    "anchor_to": "top_right",
-    "size": [ 12, 12 ]
-  },
-
   "special_render": {
     "type": "custom",
     "renderer": "debug_screen_renderer"
