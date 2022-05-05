@@ -134,10 +134,8 @@ World.events.beforeChat.subscribe(evd => {
     else {
         if (sender.name == 'Wilco2933' || sender.name == 'WilcoDev') sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§aCreator§8] §r<${sender.name}> ${msg}"}]}`)
         else if (sender.hasTag('owner')) sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§4Owner§8] §r<${sender.name}> ${msg}"}]}`)
-        else if (sender.hasTag('admin')) sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§bAdmin§8] §r<${sender.name}> ${msg}"}]}`)
-        else if (sender.hasTag('mod')) sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§dMod§8] §r<${sender.name}> ${msg}"}]}`)
-        else if (sender.hasTag('vip')) sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§gVIP§8] §r<${sender.name}> ${msg}"}]}`)
-        else sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§7Member§8] §r<${sender.name}> ${msg}"}]}`)
+        else if (sender.hasTag('developer')) sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§aDeveloper§8] §r<${sender.name}> ${msg}"}]}`)
+        else sender.runCommand(`tellraw @a {"rawtext":[{"text":"§8[§7NoTeam§8] §r<${sender.name}> ${msg}"}]}`)
     }
 })
 

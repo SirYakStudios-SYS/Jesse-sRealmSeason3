@@ -22,6 +22,12 @@
 			"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
 		},
 		{
+			"description": "Importblockgeo", 
+			"type": "resources", 
+			"uuid": "c6a4c8e5-b3cc-5754-b7fd-b7d0f544caf7", 
+			"version": [0, 0, 1] 
+		},
+		{
 			"description": "Script that implements basic starter tests.",
 			"type": "javascript",
 			"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",

@@ -11,6 +11,11 @@
     "ticks_per_frame": 15
   },
   {
+    "flipbook_texture": "textures/blocks/soul_ore",
+    "atlas_tile": "soul_ore",
+    "ticks_per_frame": 42
+  },
+  {
     "flipbook_texture": "textures/blocks/pa_infected_wood",
     "atlas_tile": "ani_pa_infected_wood",
     "ticks_per_frame": 42
