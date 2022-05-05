@@ -20,6 +20,28 @@
 			],
 			"type": "data",
 			"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
+		},
+		{
+			"description": "Script that implements basic starter tests.",
+			"type": "javascript",
+			"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/index.js"
+		},
+		{
+			"description": "scripts",
+			"type": "javascript",
+			"uuid": "7f97c5a5-a9ec-4773-b29f-a26e0f653ee2",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/server/index.js"
 		}
 	],
 	"metadata": {
