@@ -1,0 +1,51 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:glass_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 20,
+				"slot": "armor_feet"
+			},
+			"minecraft:durability": {
+				"max_durability": 15,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"sp:glass_boots",
+							"sp:glass_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.boots"
+			},
+			"minecraft:icon": {
+				"texture": "sp_glass_boots"
+			},
+			"minecraft:display_name": {
+				"value": "Glass Boots"
+			},
+			"minecraft:render_offsets": "boots",
+			"minecraft:armor": {
+				"protection": 2
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			}
+		},
+		"events": {}
+	}
+}

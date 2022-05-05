@@ -1,0 +1,46 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:sodium_tnt_active"
+		},
+		"components": {
+			"minecraft:destroy_time": 9999,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "sodium_tnt_side_on"
+				},
+				"down": {
+					"texture": "sodium_tnt_bottom_on"
+				},
+				"up": {
+					"texture": "sodium_tnt_top_on"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:ticking": {
+				"range": [
+					3,
+					3
+				],
+				"on_tick": {
+					"event": "fuse"
+				}
+			},
+			"minecraft:explosion_resistance": 9999
+		},
+		"events": {
+			"fuse": {
+				"run_command": {
+					"command": [
+						"summon m:sodium_tnt",
+						"setblock ~~~air",
+						"fill ~4 ~4 ~4 ~-4 ~-3 ~-4 m:sodium_tnt_quick_active 0 replace m:sodium_tnt"
+					]
+				}
+			}
+		}
+	}
+}

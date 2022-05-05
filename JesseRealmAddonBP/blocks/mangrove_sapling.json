@@ -1,0 +1,131 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:mangrove_sapling"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.2,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mangrove_sapling",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:geometry": "geometry.fixed_cross",
+			"minecraft:loot": "loot_tables/mangrove_sapling.json",
+			"minecraft:entity_collision": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand",
+							"minecraft:grass",
+							"minecraft:mycelium",
+							"minecraft:dirt",
+							"minecraft:podzol",
+							"minecraft:water",
+							"minecraft:flowing_water"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:on_interact": {
+				"event": "mv:multi_interact"
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "mv:randomize_grow"
+				}
+			}
+		},
+		"events": {
+			"mv:multi_interact": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						},
+						"condition": "query.get_equipped_item_name =='bone_meal'",
+						"decrement_stack": {},
+						"trigger": {
+							"event": "mv:randomize_grow"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"structure load mangrove_sapling ~~~"
+							]
+						},
+						"condition": "query.get_equipped_item_name =='water_bucket'"
+					}
+				]
+			},
+			"mv:randomize_grow": {
+				"randomize": [
+					{
+						"weight": 30,
+						"run_command": {
+							"command": [
+								"setblock ~~~ air"
+							]
+						},
+						"trigger": {
+							"event": "mv:grow_tree"
+						}
+					},
+					{
+						"weight": 70
+					}
+				]
+			},
+			"mv:grow_tree": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"structure load mangrove_tree1 ~-2 ~ ~-2"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"structure load mangrove_tree2 ~-2 ~ ~-2"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"structure load mangrove_tree3 ~-2 ~ ~-2"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"structure load mangrove_tree4 ~-2 ~ ~-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

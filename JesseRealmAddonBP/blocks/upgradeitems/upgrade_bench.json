@@ -1,0 +1,133 @@
+//bridge-file-version: #0
+{
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "sp:upgrade_bench"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"tag:wood": {},
+			"tag:stone": {},
+			"minecraft:explosion_resistance": 0.5,
+			"minecraft:creative_category": {
+				"category": "Construction"
+			},
+			"minecraft:destroy_time": 2.2,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:map_color": "#29160A",
+			"minecraft:geometry": "geometry.upgrade_bench",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "smithing_table_top",
+					"render_method": "opaque"
+				},
+				"smithing_table_bottom": {
+					"texture": "smithing_table_bottom",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				},
+				"smithing_table_front": {
+					"texture": "smithing_table_front",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				},
+				"smithing_table_top": {
+					"texture": "smithing_table_top",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				},
+				"smithing_table_side": {
+					"texture": "smithing_table_side",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				},
+				"crafting_table_side": {
+					"texture": "crafting_table_side",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				},
+				"crafting_table_front": {
+					"texture": "crafting_table_front",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:crafting_table": {
+				"custom_description": "Upgrade Bench",
+				"grid_size": 3,
+				"crafting_tags": [
+					"upgrade_bench",
+					"emerald_upgrade",
+					"steel_upgrade",
+					"enderite_upgrade"
+				]
+			}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	},
+	"format_version": "1.16.100"
+}

@@ -1,0 +1,365 @@
+{
+	"format_version": "1.16.210",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "m:chest_container",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"iron": {
+				"minecraft:inventory": {
+					"inventory_size": 54,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"gold": {
+				"minecraft:inventory": {
+					"inventory_size": 81,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"copper": {
+				"minecraft:inventory": {
+					"inventory_size": 43,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"diamond": {
+				"minecraft:inventory": {
+					"inventory_size": 108,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"netherite": {
+				"minecraft:inventory": {
+					"inventory_size": 164,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"rose_gold": {
+				"minecraft:inventory": {
+					"inventory_size": 108,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"tin": {
+				"minecraft:inventory": {
+					"inventory_size": 54,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"zirconium": {
+				"minecraft:inventory": {
+					"inventory_size": 81,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			},
+			"Duralumin": {
+				"minecraft:inventory": {
+					"inventory_size": 164,
+					"can_be_siphoned_from": true,
+					"container_type": "container"
+				}
+			}
+		},
+		"components": {
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.4,
+				"height": 0.4
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:type_family": {
+				"family": [
+					"chest",
+					"inanimate"
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "lava"
+					},
+					{
+						"deals_damage": false,
+						"cause": "entity_attack",
+						"on_damage": {
+							"event": "ded",
+							"filters": {
+								"test": "is_sneaking",
+								"operator": "==",
+								"value": true,
+								"subject": "other"
+							}
+						}
+					},
+					{
+						"deals_damage": false,
+						"cause": "projectile"
+					},
+					{
+						"deals_damage": false,
+						"cause": "fall"
+					},
+					{
+						"deals_damage": false,
+						"cause": "magic"
+					},
+					{
+						"deals_damage": false,
+						"cause": "lightning"
+					},
+					{
+						"deals_damage": false,
+						"cause": "entity_attack"
+					},
+					{
+						"deals_damage": false,
+						"cause": "suffocation"
+					}
+				]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 27,
+				"can_be_siphoned_from": true,
+				"container_type": "container"
+			},
+			"minecraft:nameable": {
+				"name_actions": [
+					{
+						"name_filter": "Maganese_Chest",
+						"on_named": {
+							"event": "iron"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_Gold",
+						"on_named": {
+							"event": "gold"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_Copper",
+						"on_named": {
+							"event": "copper"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_Diamond",
+						"on_named": {
+							"event": "diamond"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_Netherite",
+						"on_named": {
+							"event": "netherite"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_Rose_gold",
+						"on_named": {
+							"event": "rose_gold"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_tin",
+						"on_named": {
+							"event": "tin"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_zirconium",
+						"on_named": {
+							"event": "zirconium"
+						}
+					},
+					{
+						"name_filter": "Maganese_Chest_Duralumin",
+						"on_named": {
+							"event": "Duralumin"
+						}
+					}
+				],
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "m:maganese_chest_gold"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:maganese_chest"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:maganese_chest_copper"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:maganese_chest_diamond"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:maganese_chest_netherite"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:manganese_chest_rose_gold"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:maganese_chest_zirconium"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:maganese_chest_duralumin"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					},
+					{
+						"block": {
+							"name": "m:manganese_chest_tin"
+						},
+						"exited_block_event": {
+							"event": "ded"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"iron": {
+				"add": {
+					"component_groups": [
+						"iron"
+					]
+				}
+			},
+			"gold": {
+				"add": {
+					"component_groups": [
+						"gold"
+					]
+				}
+			},
+			"ded": {
+				"run_command": {
+					"command": [
+						"kill @s",
+						"setblock ~ ~ ~ air 0 destroy"
+					]
+				}
+			},
+			"copper": {
+				"add": {
+					"component_groups": [
+						"copper"
+					]
+				}
+			},
+			"diamond": {
+				"add": {
+					"component_groups": [
+						"diamond"
+					]
+				}
+			},
+			"netherite": {
+				"add": {
+					"component_groups": [
+						"netherite"
+					]
+				}
+			},
+			"rose_gold": {
+				"add": {
+					"component_groups": [
+						"rose_gold"
+					]
+				}
+			},
+			"tin": {
+				"add": {
+					"component_groups": [
+						"tin"
+					]
+				}
+			},
+			"zirconium": {
+				"add": {
+					"component_groups": [
+						"zirconium"
+					]
+				}
+			},
+			"Duralumin": {
+				"add": {
+					"component_groups": [
+						"Duralumin"
+					]
+				}
+			}
+		}
+	}
+}

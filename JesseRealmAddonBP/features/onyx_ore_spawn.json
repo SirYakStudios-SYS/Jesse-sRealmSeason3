@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "m:onyx_ore_spawn"
+		},
+		"count": 9,
+		"replace_rules": [
+			{
+				"places_block": "m:onyx_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:end_stone",
+						"states": {}
+					}
+				]
+			}
+		]
+	}
+}

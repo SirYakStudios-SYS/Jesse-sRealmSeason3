@@ -1,0 +1,26 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:duralumin_head_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			" # ",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:duralumin_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:duralumin_head"
+			}
+		]
+	}
+}

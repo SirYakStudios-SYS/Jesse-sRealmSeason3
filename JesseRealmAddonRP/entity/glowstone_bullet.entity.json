@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nether:glowstone_bullet",
+			"materials": {
+				"default": "arrow"
+			},
+			"textures": {
+				"default": "textures/blocks/glowstone"
+			},
+			"geometry": {
+				"default": "geometry.glowstone_bullet"
+			},
+			"render_controllers": [
+				"controller.render.arrow"
+			]
+		}
+	}
+}

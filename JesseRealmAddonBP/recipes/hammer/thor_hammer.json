@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:thor_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:iron_block"
+			},
+			"O": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"result": {
+			"item": "sp:thor_hammer"
+		}
+	}
+}

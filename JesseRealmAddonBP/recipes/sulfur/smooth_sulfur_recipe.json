@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:smooth_sulfur_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "m:sulfur_dust"
+			}
+		},
+		"result": [
+			{
+				"item": "m:smooth_sulfur",
+				"count": 4
+			}
+		]
+	}
+}

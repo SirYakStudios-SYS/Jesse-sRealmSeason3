@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "stonebrick:cyan_stonebrick_cracked_7",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cyan_stonebrick_cracked_7",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destroy_time": 1.2,
+			"minecraft:explosion_resistance": 6.0,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.cyanStonebrickCracked"
+			},
+			"minecraft:block_light_absorption": 15,
+			"minecraft:map_color": "#009687",
+			"minecraft:block_light_emission": 0.0
+		}
+	}
+}

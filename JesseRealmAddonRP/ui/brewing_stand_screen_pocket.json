@@ -1,0 +1,34 @@
+/*********************************************************************************
++*   © LansUilson. Modification and use for your own purposes IS FORBIDDEN   *
++*********************************************************************************/
+
+{
+  "namespace": "brewing_stand_pocket",
+
+  // Guide //
+
+  "pocket_wall": {
+    "type": "image",
+    "layer": 2,
+    "texture": "textures/ui/pocket_wall",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 59 ],
+    "size": [ "65%", "65%" ]
+  },
+
+  // Brewing Stand Panel //
+
+  "brewing_stand_contents_panel": {
+    "type": "panel",
+    "offset": [ 0, "default-4px" ],
+    "controls": [
+      {
+        "slots_panel@slots_panel": {
+          "offset": [ -5, -10 ]
+        }
+      },
+      { "pocket_wall@brewing_stand_pocket.pocket_wall": { } }
+    ]
+  }
+}

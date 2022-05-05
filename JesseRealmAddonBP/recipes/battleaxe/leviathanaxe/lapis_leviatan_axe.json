@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:lapis_leviathan_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WX",
+			"X#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"X": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"result": {
+			"item": "sp:lapis_leviathan_axe"
+		}
+	}
+}

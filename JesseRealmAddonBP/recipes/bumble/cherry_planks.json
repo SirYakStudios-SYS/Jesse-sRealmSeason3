@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:cherry_planks_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:cherry_log"
+			}
+		],
+		"result": {
+			"item": "bumble:cherry_planks",
+			"count": 4
+		}
+	}
+}

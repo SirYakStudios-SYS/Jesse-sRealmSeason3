@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:horsestatue6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+ "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:horsestatue3"
+      },
+      "B": {
+        "item": "minecraft:vine"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:horsestatue6"
+    }
+  }
+}

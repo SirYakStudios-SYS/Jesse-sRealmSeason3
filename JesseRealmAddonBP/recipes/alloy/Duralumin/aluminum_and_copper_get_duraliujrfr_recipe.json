@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "m:aluminum_and_copper_get_duraliujrfr_recipe"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "m:aluminum_and_copper_and_manganese_ingot",
+		"output": "m:duralumin_ingot"
+	}
+}

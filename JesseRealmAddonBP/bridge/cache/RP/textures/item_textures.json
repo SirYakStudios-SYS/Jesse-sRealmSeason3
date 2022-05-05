@@ -1,0 +1,182 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\textures\\item_textures.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "02bbbbe9_25f6_45d7_97d2_f431015c467c",
+	"file_version": 36,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17",
+				"key": "format_version"
+			},
+			{
+				"data": "NETHERPLUS",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"format_version": 1.17,
+					"resource_pack_name": "NETHERPLUS",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"sould_rod": {
+							"textures": "textures/items/sould_rod"
+						},
+						"torcido_rod": {
+							"textures": "textures/items/torcido_rod"
+						},
+						"carmesi_rod": {
+							"textures": "textures/items/carmesi_rod"
+						},
+						"basal_rod": {
+							"textures": "textures/items/basal_rod"
+						},
+						"creepercarmesi": {
+							"textures": [
+								"textures/items/carmesicreeper"
+							]
+						},
+						"creepertwisted": {
+							"textures": [
+								"textures/items/twistedcreeper"
+							]
+						},
+						"patitasblack": {
+							"textures": [
+								"textures/items/patitasblack"
+							]
+						},
+						"blazeblack": {
+							"textures": [
+								"textures/items/blazebasalto"
+							]
+						},
+						"blazecarmesi": {
+							"textures": [
+								"textures/items/blazecarmesi"
+							]
+						},
+						"blazearena": {
+							"textures": [
+								"textures/items/blazearenadealma"
+							]
+						},
+						"blazeretorcido": {
+							"textures": [
+								"textures/items/blazeretorcido"
+							]
+						},
+						"ojo": {
+							"textures": [
+								"textures/items/ojodecutulhu"
+							]
+						},
+						"demonioazul": {
+							"textures": [
+								"textures/items/demonioazul"
+							]
+						},
+						"demoniorojo": {
+							"textures": [
+								"textures/items/demoniorojo",
+								{}
+							]
+						},
+						"soulstrider": {
+							"textures": [
+								"textures/items/stridersoul"
+							]
+						},
+						"infernal": {
+							"textures": [
+								"textures/items/infernal"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"is_minified": true,
+				"children": {
+					"sould_rod": {
+						"textures": "textures/items/sould_rod"
+					},
+					"torcido_rod": {
+						"textures": "textures/items/torcido_rod"
+					},
+					"carmesi_rod": {
+						"textures": "textures/items/carmesi_rod"
+					},
+					"basal_rod": {
+						"textures": "textures/items/basal_rod"
+					},
+					"creepercarmesi": {
+						"textures": [
+							"textures/items/carmesicreeper"
+						]
+					},
+					"creepertwisted": {
+						"textures": [
+							"textures/items/twistedcreeper"
+						]
+					},
+					"patitasblack": {
+						"textures": [
+							"textures/items/patitasblack"
+						]
+					},
+					"blazeblack": {
+						"textures": [
+							"textures/items/blazebasalto"
+						]
+					},
+					"blazecarmesi": {
+						"textures": [
+							"textures/items/blazecarmesi"
+						]
+					},
+					"blazearena": {
+						"textures": [
+							"textures/items/blazearenadealma"
+						]
+					},
+					"blazeretorcido": {
+						"textures": [
+							"textures/items/blazeretorcido"
+						]
+					},
+					"ojo": {
+						"textures": [
+							"textures/items/ojodecutulhu"
+						]
+					},
+					"demonioazul": {
+						"textures": [
+							"textures/items/demonioazul"
+						]
+					},
+					"demoniorojo": {
+						"textures": [
+							"textures/items/demoniorojo",
+							{}
+						]
+					},
+					"soulstrider": {
+						"textures": [
+							"textures/items/stridersoul"
+						]
+					},
+					"infernal": {
+						"textures": [
+							"textures/items/infernal"
+						]
+					}
+				}
+			}
+		]
+	}
+}

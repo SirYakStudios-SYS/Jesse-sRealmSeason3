@@ -1,0 +1,58 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "sp:uranium_ore_feature"
+		},
+
+		"count": 6,
+		"replace_rules": [
+			{
+				"places_block": "sp:andesite_uranium_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "andesite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:diorite_uranium_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "diorite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:granite_uranium_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "granite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:deepslate_uranium_ore",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": "sp:uranium_ore",
+				"may_replace": [
+					"minecraft:tuff"
+				]
+			}
+		]
+	}
+}

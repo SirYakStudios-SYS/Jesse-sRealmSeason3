@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:furnace_corn"
+    },
+
+    
+    "tags": ["furnace", "smoker"],
+    "input": "bumble:corn",
+    "output": "bumble:cooked_corn"
+  }
+  
+}

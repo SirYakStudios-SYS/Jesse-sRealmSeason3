@@ -1,0 +1,43 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:smithsonite_charm_diamond",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "Smithsonite_charm_diamond"
+			},
+			"minecraft:display_name": {
+				"value": "Smithsonite Charm (Diamond) \n§7Teleports you where you look (20 Blocks)\n Durability: 20"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:durability": {
+				"max_durability": 20
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "use"
+				}
+			},
+			"minecraft:max_stack_size": 1
+		},
+		"events": {
+			"use": {
+				"run_command": {
+					"command": [
+						"execute @a[r=1] ~ ~ ~ tp @s ^^^20"
+					]
+				},
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

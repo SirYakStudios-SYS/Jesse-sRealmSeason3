@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "itctudd_5e9a520d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      " AA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:tfxr7dxr8dtd8x",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:itctudd",
+      "count": 1
+    }
+  }
+}

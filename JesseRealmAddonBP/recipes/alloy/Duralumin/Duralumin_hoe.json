@@ -1,0 +1,29 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:duralumin_pickaxe"
+		},
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "m:duralumin_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:duralumin_hoe"
+			}
+		]
+	}
+}

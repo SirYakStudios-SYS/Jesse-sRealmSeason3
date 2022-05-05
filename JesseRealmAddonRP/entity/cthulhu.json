@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sc:cthulhu",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/ghast/cthulu"
+			},
+			"geometry": {
+				"default": "geometry.cthulu"
+			},
+			"animations": {
+				"move": "animation.ghast.move",
+				"scale": "animation.ghast.scale"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.ghast.move"
+				},
+				{
+					"scale": "controller.animation.ghast.scale"
+				}
+			],
+			"render_controllers": [
+				"controller.render.cow"
+			],
+			"spawn_egg": {
+				"texture": "ojo"
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:udiamond_sword"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:quartz"
+			},
+			"Y": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"result": {
+			"item": "sp:udiamond_sword"
+		}
+	}
+}

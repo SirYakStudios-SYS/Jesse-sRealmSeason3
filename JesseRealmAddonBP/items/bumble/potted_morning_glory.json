@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:potted_morning_glory",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:pot_morning_glory"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:potted_morning_glory"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:potted_morning_glory"
+			}
+        }
+    }
+}

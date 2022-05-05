@@ -1,0 +1,172 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:jellyfish",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:squid_baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.4
+        }
+      }
+    },
+        "components": {
+      "minecraft:nameable": {
+        "alwaysShow": false,
+        "allowNameTagRenaming": true
+      },
+      "minecraft:type_family": {
+        "family": [
+          "jellyfish",
+          "mob"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 0.6
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesAir": false,
+        "breathesWater": true
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": false,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": false,
+        "can_breach": false,
+        "can_sink": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:behavior.random_swim": {
+        "priority": 7,
+        "interval": 0,
+        "xz_dist": 30,
+        "y_dist": 15
+      },
+      "minecraft:balloonable": {},
+      "minecraft:behavior.squid_move_away_from_ground": {
+        "priority": 1
+      },
+      "minecraft:behavior.squid_flee": {
+        "priority": 2
+      },
+      "minecraft:behavior.squid_idle": {
+        "priority": 2
+      },
+      "minecraft:behavior.squid_dive": {
+        "priority": 2
+      },
+      "minecraft:behavior.squid_out_of_water": {
+        "priority": 2
+      },
+      "minecraft:physics": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 : 0"
+      },
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:attack": {
+        "damage": 5
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "target_dist": 0.0,
+        "max_dist": 3,
+        "random_stop_interval": 100,
+        "track_target": true,
+        "reach_multiplier": 1.4
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "within_radius": 25,
+        "must_reach": false,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "turtle"
+                }
+              ]
+            },
+            "max_dist": 6,
+            "must_see": false
+          }
+        ],
+        "must_see": false,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3
+      },
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/pa_jellyfish.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 95,
+            "remove": {},
+            "add": {}
+          },
+          {
+            "weight": 5,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "minecraft:squid_baby"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

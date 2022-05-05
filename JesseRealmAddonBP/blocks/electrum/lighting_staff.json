@@ -1,0 +1,75 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:lighting_staff"
+		},
+		"components": {
+			"minecraft:entity_collision": {
+				"origin": [
+					-1.5,
+					0,
+					-1.5
+				],
+				"size": [
+					3,
+					16,
+					3
+				]
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:geometry": "geometry.staff_lighting",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "lighting_staff"
+				}
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					4,
+					13
+				],
+				"on_tick": {
+					"event": "staff"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:pick_collision": {
+				"origin": [
+					-1.5,
+					0,
+					-1.5
+				],
+				"size": [
+					3,
+					16,
+					3
+				]
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.block",
+				"category": "construction"
+			},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"staff": {
+				"run_command": {
+					"command": [
+						"execute @e[r=25,type=item,name=\"copper ingot\"] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=item,name=\"iron ingot\"] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=item,name=\"electrum ingot\"] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=item,name=\"electrum nugget\"] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=item,name=\"iron nugget\"] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=zombie] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=husk] ~~~ summon lightning_bolt",
+						"execute @e[r=25,type=drowned] ~~~ summon lightning_bolt"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17\\items\\crimson_rod.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "568daf15_59e7_4587_93b6_16157bf9a519",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "tt:crimson_rod",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "carmesi_rod"
+							},
+							"minecraft:enchantable": {
+								"slot": "axe",
+								"value": 1
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:crimson_rod",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "carmesi_rod"
+								},
+								"minecraft:enchantable": {
+									"slot": "axe",
+									"value": 1
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tt:crimson_rod",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:crimson_rod",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "carmesi_rod"
+								},
+								"minecraft:enchantable": {
+									"slot": "axe",
+									"value": 1
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": {
+								"texture": "carmesi_rod"
+							},
+							"minecraft:enchantable": {
+								"slot": "axe",
+								"value": 1
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

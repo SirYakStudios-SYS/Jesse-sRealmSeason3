@@ -1,0 +1,42 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "§6An AddonPack built for Jesse's Realm Season 3,\n§acreated/compiled by SirYakStudios",
+		"name": "§l§bJesseRealmS3 BP",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"uuid": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155"
+	},
+	"modules": [
+		{
+			"description": "JesseRealmS3 Behavior Pack",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"type": "data",
+			"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	},
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+		}
+	]
+}

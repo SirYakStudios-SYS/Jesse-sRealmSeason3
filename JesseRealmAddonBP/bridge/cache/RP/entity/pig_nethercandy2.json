@@ -1,0 +1,263 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\pig_nethercandy2.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "bfe77a73_655f_44a3_97ba_ac1dcd0a349f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:pig_nethercandy2",
+							"materials": {
+								"default": "pig"
+							},
+							"textures": {
+								"default": "textures/entity/pig_nethercandy2",
+								"saddled": "textures/entity/pig_nethercandy2"
+							},
+							"geometry": {
+								"default": "geometry.pig.v1.7"
+							},
+							"animations": {
+								"setup": "animation.nether2.new",
+								"walk": "animation.quadruped.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.pig.baby_transform"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									},
+									"look_at_target",
+									{
+										"baby_transform": "query.is_baby"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.pig"
+							],
+							"spawn_egg": {
+								"texture": "twistedcerdo"
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:pig_nethercandy2",
+							"materials": {
+								"default": "pig"
+							},
+							"textures": {
+								"default": "textures/entity/pig_nethercandy2",
+								"saddled": "textures/entity/pig_nethercandy2"
+							},
+							"geometry": {
+								"default": "geometry.pig.v1.7"
+							},
+							"animations": {
+								"setup": "animation.nether2.new",
+								"walk": "animation.quadruped.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.pig.baby_transform"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									},
+									"look_at_target",
+									{
+										"baby_transform": "query.is_baby"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.pig"
+							],
+							"spawn_egg": {
+								"texture": "twistedcerdo"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:pig_nethercandy2",
+								"materials": {
+									"default": "pig"
+								},
+								"textures": {
+									"default": "textures/entity/pig_nethercandy2",
+									"saddled": "textures/entity/pig_nethercandy2"
+								},
+								"geometry": {
+									"default": "geometry.pig.v1.7"
+								},
+								"animations": {
+									"setup": "animation.nether2.new",
+									"walk": "animation.quadruped.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.pig.baby_transform"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target",
+										{
+											"baby_transform": "query.is_baby"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.pig"
+								],
+								"spawn_egg": {
+									"texture": "twistedcerdo"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:pig_nethercandy2",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "pig"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/pig_nethercandy2",
+									"saddled": "textures/entity/pig_nethercandy2"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.pig.v1.7"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"setup": "animation.nether2.new",
+									"walk": "animation.quadruped.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.pig.baby_transform"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target",
+										{
+											"baby_transform": "query.is_baby"
+										}
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pig"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:pig_nethercandy2",
+									"materials": {
+										"default": "pig"
+									},
+									"textures": {
+										"default": "textures/entity/pig_nethercandy2",
+										"saddled": "textures/entity/pig_nethercandy2"
+									},
+									"geometry": {
+										"default": "geometry.pig.v1.7"
+									},
+									"animations": {
+										"setup": "animation.nether2.new",
+										"walk": "animation.quadruped.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.pig.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pig"
+									],
+									"spawn_egg": {
+										"texture": "twistedcerdo"
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#1BF7C5",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#A117D2",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"data": "twistedcerdo",
+										"key": "texture"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

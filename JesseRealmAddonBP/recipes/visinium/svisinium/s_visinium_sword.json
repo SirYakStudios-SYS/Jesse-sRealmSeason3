@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:steel_visinium_sword"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"X",
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:steel_stick"
+			},
+			"X": {
+				"item": "sp:visinium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:steel_visinium_sword",
+				"count": 1
+			}
+		]
+	}
+}

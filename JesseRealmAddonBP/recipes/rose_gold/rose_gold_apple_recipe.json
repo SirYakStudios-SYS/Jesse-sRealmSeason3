@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:rose_gold_apple_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:rose_gold_ingot"
+			},
+			"X": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "m:rose_gold_apple",
+			"data": 0
+		}
+	}
+}

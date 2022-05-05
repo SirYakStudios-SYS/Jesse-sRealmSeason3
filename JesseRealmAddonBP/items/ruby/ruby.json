@@ -1,0 +1,19 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:ruby",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sp_ruby"
+			},
+			"minecraft:display_name": {
+				"value": "Ruby"
+			}
+		},
+		"events": {}
+	}
+}

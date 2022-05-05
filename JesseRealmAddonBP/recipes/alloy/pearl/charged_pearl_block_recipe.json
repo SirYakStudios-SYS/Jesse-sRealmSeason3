@@ -1,0 +1,27 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:charged_pearl_block_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "m:smooth_pearl_block"
+			}
+		},
+		"result": [
+			{
+				"item": "m:charged_pearl_block",
+				"count": 9
+			}
+		]
+	}
+}

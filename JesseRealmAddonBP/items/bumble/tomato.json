@@ -1,0 +1,31 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "bumble:tomato"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 5,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.crop"
+      },
+	  "minecraft:icon": {
+		"texture": "bumble:tomato"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:tomato"
+	  },
+      "minecraft:foil": false,
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "bumble:thrown_tomato"
+      }
+    }
+  }
+} 

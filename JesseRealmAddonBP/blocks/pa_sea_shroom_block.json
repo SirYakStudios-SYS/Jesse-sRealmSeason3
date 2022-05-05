@@ -1,0 +1,82 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:sea_shroom_block",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/pa_sea_shroom_block.json",
+      "minecraft:destroy_time": 0.1,
+      "minecraft:friction": 0.7,
+      "minecraft:map_color": "#4540D5",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 1.0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_sea_shroom_block",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:geometry": "geometry.block",
+      "minecraft:on_placed": {
+        "event": "size:block",
+        "target": "self"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "remove:block",
+        "target": "self"
+      },
+      "minecraft:on_step_on": {
+        "event": "step:on",
+        "target": "self"
+      },
+      "minecraft:on_step_off": {
+        "event": "step:off",
+        "target": "self"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          10,
+          10
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      }
+    },
+    "minecraft:creative_category": {
+      "category": "nature"
+    },
+    "events": {
+      "on_tick": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "size:block": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "remove:block": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "step:on": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "step:off": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

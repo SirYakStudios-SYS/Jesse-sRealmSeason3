@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:rose_gold_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "sp:rose_gold_block"
+			},
+			"O": {
+				"item": "sp:rose_gold_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:rose_gold_hammer"
+		}
+	}
+}

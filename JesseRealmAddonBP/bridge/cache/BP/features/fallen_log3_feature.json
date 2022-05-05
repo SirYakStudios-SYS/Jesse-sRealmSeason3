@@ -1,0 +1,71 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\fallen_log3_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "acbf5de0_42b6_4302_b017_3a2cd7e68e2b",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "mv:fallen_log3_feature"
+						},
+						"structure_name": "mystructure:fallen_log3",
+						"adjustment_radius": 1,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:fallen_log3_feature"
+							},
+							"structure_name": "mystructure:fallen_log3",
+							"adjustment_radius": 1,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:fallen_log3_feature"
+						}
+					},
+					{
+						"data": "mystructure:fallen_log3",
+						"key": "structure_name"
+					},
+					{
+						"data": "1",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"key": "constraints",
+						"is_minified": true,
+						"children": {
+							"grounded": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

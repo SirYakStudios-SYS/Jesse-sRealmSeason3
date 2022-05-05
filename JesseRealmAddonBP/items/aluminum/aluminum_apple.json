@@ -1,0 +1,61 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:aluminum_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "aluminum_apple"
+			},
+			"minecraft:display_name": {
+				"value": "Aluminum Apple \n§7Effects: \n-Regeneration II (0:10) \n-Resistance III (0:50) \n-Haste III (1:20)"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 6,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 10,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 50,
+							"amplifier": 2,
+							"target": "holder",
+							"effect": "resistance"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 70,
+							"amplifier": 2,
+							"target": "holder",
+							"effect": "haste"
+						}
+					}
+				]
+			}
+		}
+	}
+}

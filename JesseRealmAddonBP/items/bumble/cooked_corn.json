@@ -1,0 +1,32 @@
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:cooked_corn"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.cookedFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:cooked_corn"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:cooked_corn"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation_modifier": "good",
+        "can_always_eat": false
+	  }
+	}
+  }
+}		

@@ -1,0 +1,101 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17\\items\\basalt_rod.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "ded8e132_c807_42c1_b328_9d71caf4ef41",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "tt:basalt_rod",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "basal_rod"
+							},
+							"minecraft:enchantable": {
+								"slot": "axe",
+								"value": 1
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:basalt_rod",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "basal_rod"
+								},
+								"minecraft:enchantable": {
+									"slot": "axe",
+									"value": 1
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tt:basalt_rod",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:basalt_rod",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "basal_rod"
+								},
+								"minecraft:enchantable": {
+									"slot": "axe",
+									"value": 1
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": {
+								"texture": "basal_rod"
+							},
+							"minecraft:enchantable": {
+								"slot": "axe",
+								"value": 1
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

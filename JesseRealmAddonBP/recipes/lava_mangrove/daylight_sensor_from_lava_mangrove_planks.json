@@ -1,0 +1,31 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:daylight_sensor_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "!!!", 
+            "###",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_slab"
+            },
+            "#": {
+                "item": "minecraft:quartz"
+            },
+            "!": {
+                "item": "minecraft:glass"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:daylight_detector",
+				"count": 1
+			}
+		]
+    }
+}

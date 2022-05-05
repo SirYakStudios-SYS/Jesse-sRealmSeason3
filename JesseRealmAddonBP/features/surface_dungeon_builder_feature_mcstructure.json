@@ -1,0 +1,21 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "minecraft:surface_dungeon_builder_feature_mcstructure"
+        },
+        "structure_name": "mystructure:surface_dungeon_builder",
+		"adjustment_radius": 8,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:air",
+                    "minecraft:grass" //The structure can only replace air
+				]
+			}
+		}
+	}
+}

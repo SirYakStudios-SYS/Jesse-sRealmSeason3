@@ -1,0 +1,248 @@
+{
+	"file_path": "C:\\Users\\Marco\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17 T\\entity\\chets_carmesi.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "c1aff766_7407_4091_b8be_78372dd2f162",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tt:petcarmesi",
+							"materials": {
+								"default": "cow"
+							},
+							"textures": {
+								"default": "textures/entity/chest/crismonpatitas"
+							},
+							"geometry": {
+								"default": "geometry.patitascrismon"
+							},
+							"animations": {
+								"setup": "animation.patitascrismon.setup",
+								"walk": "animation.patitascrismon.walk",
+								"look_at_target": "animation.common.look_at_target"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									},
+									"look_at_target",
+									{
+										"baby_transform": "query.is_baby"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.chets"
+							],
+							"spawn_egg": {
+								"texture": "patitascarmesi"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:petcarmesi",
+								"materials": {
+									"default": "cow"
+								},
+								"textures": {
+									"default": "textures/entity/chest/crismonpatitas"
+								},
+								"geometry": {
+									"default": "geometry.patitascrismon"
+								},
+								"animations": {
+									"setup": "animation.patitascrismon.setup",
+									"walk": "animation.patitascrismon.walk",
+									"look_at_target": "animation.common.look_at_target"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target",
+										{
+											"baby_transform": "query.is_baby"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.chets"
+								],
+								"spawn_egg": {
+									"texture": "patitascarmesi"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "tt:petcarmesi",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "cow"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/chest/crismonpatitas"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.patitascrismon"
+								}
+							},
+							{
+								"open": {
+									"identifier": "tt:petcarmesi",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/chest/crismonpatitas"
+									},
+									"geometry": {
+										"default": "geometry.patitascrismon"
+									},
+									"animations": {
+										"setup": "animation.patitascrismon.setup",
+										"walk": "animation.patitascrismon.walk",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.chets"
+									],
+									"spawn_egg": {
+										"texture": "patitascarmesi"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"setup": "animation.patitascrismon.setup",
+									"walk": "animation.patitascrismon.walk",
+									"look_at_target": "animation.common.look_at_target"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target",
+										{
+											"baby_transform": "query.is_baby"
+										}
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.chets"
+								]
+							},
+							{
+								"open": {
+									"identifier": "tt:petcarmesi",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/chest/crismonpatitas"
+									},
+									"geometry": {
+										"default": "geometry.patitascrismon"
+									},
+									"animations": {
+										"setup": "animation.patitascrismon.setup",
+										"walk": "animation.patitascrismon.walk",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.chets"
+									],
+									"spawn_egg": {
+										"texture": "patitascarmesi"
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#692600",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#FF0000",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"data": "patitascarmesi",
+										"key": "texture"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

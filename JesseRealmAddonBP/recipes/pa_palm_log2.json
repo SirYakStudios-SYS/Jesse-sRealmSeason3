@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "palm_log2_60adc32e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:palm_log1",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:palm_log2",
+      "count": 1
+    }
+  }
+}

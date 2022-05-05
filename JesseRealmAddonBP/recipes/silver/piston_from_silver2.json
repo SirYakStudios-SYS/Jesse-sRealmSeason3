@@ -1,0 +1,36 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.16.100,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:piston_from_silver2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"OGO",
+			"OHO"
+		],
+		"key": {
+			"H": {
+				"item": "minecraft:redstone"
+			},
+			"G": {
+				"item": "sp:silver_ingot"
+			},
+			"O": {
+				"item": "minecraft:cobblestone"
+			},
+			"#": {
+				"item": "minecraft:warped_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:piston"
+			}
+		]
+	}
+}

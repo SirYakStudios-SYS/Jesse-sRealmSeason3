@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:raw_cesium_block_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:raw_cesium"
+			}
+		},
+		"result": {
+			"item": "m:raw_cesium_block"
+		}
+	}
+}

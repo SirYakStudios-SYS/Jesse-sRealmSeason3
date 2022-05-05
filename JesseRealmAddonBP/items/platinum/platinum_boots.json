@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:platinum_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 8,
+				"slot": "armor_feet"
+			},
+			"minecraft:display_name": {
+				"value": "Platinum Boots"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:platinum_boots",
+							"sp:platinum_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 154,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:icon": {
+				"texture": "sp_platinum_boots"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.08
+			},
+			"minecraft:render_offsets": "boots",
+			"minecraft:armor": {
+				"protection": 2
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			}
+		},
+		"events": {}
+	}
+}//MCPEDL:SorYPMod

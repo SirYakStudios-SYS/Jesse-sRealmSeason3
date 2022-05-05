@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:dragonstatue1"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "dragonstatue1item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:dragonstatue1"
+        }
+      }
+    }
+  }

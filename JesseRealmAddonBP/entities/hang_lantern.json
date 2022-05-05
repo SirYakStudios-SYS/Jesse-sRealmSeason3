@@ -1,0 +1,57 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mc:hang_lantern",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [ "setup" ]
+      },
+      "animations": {
+        "setup": "controller.animation.hang_lantern"
+      }
+    },
+	"component_groups": {},
+	  
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",""
+        ]
+      },
+      "minecraft:breathable": {
+        "breathes_water": true
+      },
+      "minecraft:health": {
+        "value": 4
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 0 : 0"
+      },
+      "minecraft:underwater_movement": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:fire_immune": true,
+      
+      "minecraft:collision_box": {
+        "height": 0.0,
+        "width": 0.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      }
+    },
+    "events": {}
+    }
+}

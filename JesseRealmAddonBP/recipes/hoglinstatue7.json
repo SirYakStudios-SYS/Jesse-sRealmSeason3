@@ -1,0 +1,14 @@
+{
+  "format_version": "1.18.2",
+    "minecraft:recipe_furnace": {
+      "description": {
+        "identifier": "jctstatues:hoglinstatue7"
+      },
+      "tags": [
+        "furnace",
+        "blast_furnace"
+      ],
+      "input": "jctstatues:hoglinstatue1",
+      "output": "jctstatues:hoglinstatue7"
+    }
+  }

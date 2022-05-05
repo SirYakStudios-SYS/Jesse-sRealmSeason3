@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:parrotstatue4"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "parrotstatue4item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:parrotstatue4"
+        }
+      }
+    }
+  }

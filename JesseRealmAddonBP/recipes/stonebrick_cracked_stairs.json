@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stonebrick:stonebrick_cracked_stairs"
+    },
+	"tags": [ "crafting_table" ],
+	"pattern": [
+	  "  #",
+	  " ##",
+	  "###"
+	],
+	"key": {
+	  "#": {
+	    "item": "minecraft:stonebrick",
+	"data": 2
+	  }
+    },
+    "result": {
+      "item": "stonebrick:stonebrick_cracked_stairs",
+	  "count": 4
+    }
+  }
+}

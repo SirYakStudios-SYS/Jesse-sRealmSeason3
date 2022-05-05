@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "roble_cobre:shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#I#",
+			" # "
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:log"
+			},
+			"#": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"result": {
+			"item": "roble_cobre:shield"
+		}
+	}
+}

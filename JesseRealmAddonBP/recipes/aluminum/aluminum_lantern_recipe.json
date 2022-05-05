@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:aluminum_lantern_recipe_hmhm"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+",
+			"+++"
+		],
+		"key": {
+			"+": {
+				"item": "m:aluminum_nugget"
+			},
+			"#": {
+				"item": "minecraft:torch"
+			}
+		},
+		"result": [
+			{
+				"item": "m:aluminum_lantern"
+			}
+		]
+	}
+}

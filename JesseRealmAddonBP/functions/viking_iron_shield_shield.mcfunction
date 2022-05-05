@@ -1,0 +1,1 @@
+give @s viking_iron_shield:shield

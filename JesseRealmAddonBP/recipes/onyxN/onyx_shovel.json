@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:onyx_shovel_new"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "sp:onyx"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:onyx_shovel_new",
+				"count": 1
+			}
+		]
+	}
+}

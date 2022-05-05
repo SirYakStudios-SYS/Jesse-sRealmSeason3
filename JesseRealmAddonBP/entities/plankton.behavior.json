@@ -1,0 +1,80 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "pa:plankton",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "component_groups": {
+        "snowstorms:death":{
+          "instant_despawn": {}
+        }
+      },
+      "components": {
+        "minecraft:physics": {
+          "has_gravity": true,
+          "has_collision": true
+        },
+
+        "minecraft:health": {
+          "value": 1,
+          "max": 1
+        },
+        "minecraft:collision_box": {
+          "width": 3.0,
+          "height": 0.6
+        },
+        "minecraft:breathable": {
+          "totalSupply": 160,
+          "suffocateTime": 0,
+          "breathesWater": true,
+          "breathesAir": false,
+          "generatesBubbles": false
+        },
+        "minecraft:pushable": {
+          "is_pushable": false
+        },
+        "minecraft:push_through": {
+          "value": 1
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "has_equipment",
+                      "domain": "hand",
+                      "subject": "other",
+                      "value": "glass_bottle"
+                    }
+                  ]
+                }
+              },
+              "use_item": true,
+              "transform_to_item": "pa:plankton_bottle",
+              "play_sounds": "milk",
+              "interact_text": "action.interact.milk"
+            }
+          ]
+        }
+      }
+    },
+    "events": {
+      "minecraft:play_death": {
+        "add": {
+          "component_groups": [
+            "snowstorms:death"
+          ]
+        }
+      }
+    }
+}

@@ -1,0 +1,320 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:bronze_furnace",
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"m:first": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1,
+			"tag:fast_pickaxe_mineable": {},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 3.5,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "bronze_furnace_side"
+				},
+				"up": {
+					"texture": "bronze_furnace_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "bronze_furnace_top",
+					"render_method": "opaque"
+				},
+				"north": {
+					"texture": "bronze_furnace_front_off",
+					"render_method": "opaque"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('m:first') == 0",
+				"components": {
+					"minecraft:on_interact": {
+						"event": "placed"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "opaque",
+							"texture": "bronze_furnace_side"
+						},
+						"up": {
+							"texture": "bronze_furnace_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "bronze_furnace_top",
+							"render_method": "opaque"
+						},
+						"north": {
+							"texture": "bronze_furnace_front_off",
+							"render_method": "opaque"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('m:first') == 1",
+				"components": {
+					"minecraft:block_light_emission": 0.7,
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "off"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "smelt"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "opaque",
+							"texture": "bronze_furnace_side"
+						},
+						"up": {
+							"texture": "bronze_furnace_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "bronze_furnace_top",
+							"render_method": "opaque"
+						},
+						"north": {
+							"texture": "bronze_furnace_front_on",
+							"render_method": "opaque"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"bridge:update_rotation": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"bridge:block_rotation": "query.cardinal_facing_2d"
+						}
+					},
+					{
+						"set_block_property": {
+							"m:first": 0
+						}
+					}
+				]
+			},
+			"off": {
+				"set_block_property": {
+					"m:first": 0
+				}
+			},
+			"placed": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name=='sulfuric_coal'",
+						"set_block_property": {
+							"m:first": 1
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"tag @p add oghfjhg",
+								"tellraw @p {\"rawtext\":[{\"text\":\"§7You get the Recipe Book by interacting the turned off Aluminum/Tin/Bronze Furnace\"}]}"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tellraw @p[tag=!oghfjhg] {\"rawtext\":[{\"text\":\"§7Use Sulfuric Coal on it to activate\"}]}",
+								"execute @p[tag=!oghfjhg] ~~~ structure load recipe_book ~ ~2 ~",
+								"tag @p remove oghfjhg"
+							]
+						}
+					}
+				]
+			},
+			"smelt": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound block.furnace.lit @p",
+								"particle minecraft:misc_fire_vapor_particle ~ ~1 ~"
+							]
+						}
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='beef'",
+								"run_command": {
+									"command": [
+										"give @s cooked_beef 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='porkchop'",
+								"run_command": {
+									"command": [
+										"give @s cooked_porkchop 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='chicken'",
+								"run_command": {
+									"command": [
+										"give @s cooked_chicken 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='mutton'",
+								"run_command": {
+									"command": [
+										"give @s cooked_mutton 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='cod'",
+								"run_command": {
+									"command": [
+										"give @s cooked_cod 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='salmon'",
+								"run_command": {
+									"command": [
+										"give @s cooked_salmon 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='rabbit'",
+								"run_command": {
+									"command": [
+										"give @s cooked_rabbit 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='potato'",
+								"run_command": {
+									"command": [
+										"give @s baked_potato 2",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

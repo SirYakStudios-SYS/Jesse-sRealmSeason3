@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:cavern_crab",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "sheep"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/cavern_crab"
+      },
+      "geometry": {
+        "default": "geometry.cavern_crab"
+      },
+      "animations": {
+        "setup": "animation.cavern_crab.setup",
+        "walk": "animation.cavern_crab.move",
+        "look_at_target": "animation.cavern_crab.setup",
+        "move": "animation.cavern_crab.move"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          "look_at_target",
+          "move",
+          {
+            "baby_transform": "query.is_baby"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.sheep"
+      ],
+      "spawn_egg": {
+        "texture": "pa:cavern_crab",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:sodium_nugget",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sodium_nugget"
+			},
+			"minecraft:display_name": {
+				"value": "Sodium Nugget"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

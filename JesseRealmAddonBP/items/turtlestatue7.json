@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:turtlestatue7"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "turtlestatue7item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:turtlestatue7"
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mc:hang_lantern",
+      "min_engine_version": "1.8.0",
+      "materials": {
+	    "default": "entity"
+	  },
+      "textures": {
+        "default": "textures/entity/none"
+      },
+      "geometry": {
+        "default": "geometry.none"
+      },
+      "spawn_egg": {
+        "texture": "mc:hang_lantern",
+        "texture_index": 0
+      }
+    }
+  }
+}

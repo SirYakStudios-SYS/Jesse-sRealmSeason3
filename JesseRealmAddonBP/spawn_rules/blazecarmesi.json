@@ -1,0 +1,33 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "sc:blazecarmesi",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 10
+				},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:crimson_nylium"
+				],
+				"minecraft:biome_filter": {
+					"value": "crimson_forest",
+					"all_of": [
+						{
+							"value": "nether"
+						}
+					]
+				}
+			}
+		]
+	}
+}

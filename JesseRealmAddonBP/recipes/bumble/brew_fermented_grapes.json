@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "bumble:fermented_grapes_brew"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "bumble:activated_yeast",
+    "reagent": "bumble:grapes",
+    "output": "bumble:fermented_grapes"
+  }
+
+}

@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Shields V2\\functions\\tick.mcfunction",
+	"file_type": "function",
+	"format_version": 0,
+	"file_uuid": "a2949b0f_92ae_49d5_bf83_3a43476a013d",
+	"file_version": 33,
+	"cache_content": "scoreboard objectives add summon dummy\r\n\r\nscoreboard players add @a summon 1\r\n\r\n\r\nexecute @a[scores={summon=1}] ~ ~ ~ summon ray:shield_luz\r\nexecute @a[scores={summon=5}] ~ ~ ~ event entity @e[type=ray:shield_luz] despawn\r\nexecute @a[scores={summon=5}] ~ ~ ~ scoreboard players reset @s summon\r\n\r\nexecute @e[type=ray:shield_luz] ~ ~ ~ execute @p ~ ~ ~ tp @e[type=ray:shield_luz,c=1,r=10] ~ ~7 ~ \r\n\r\nscoreboard objectives add luz2 dummy\r\nscoreboard players add @a luz2 1\r\nexecute @a[scores={luz2=0..3}] ~ ~ ~ function luz\r\nexecute @a[scores={luz2=7..}] ~ ~ ~ fill ~10 ~10 ~10 ~-10 ~-8 ~-10 air 0 replace light_block 15\r\n\r\nscoreboard objectives add tick dummy\r\n \r\nscoreboard players add @e tick 1\r\n\r\n \r\nexecute @e[scores={tick=1}] ~ ~ ~ event entity @s sneak\r\nexecute @e[scores={tick=2}] ~ ~ ~ event entity @s slime\r\nexecute @e[scores={tick=3}] ~ ~ ~ event entity @s magma\r\nexecute @e[scores={tick=4}] ~ ~ ~ event entity @s shulker\r\nexecute @e[scores={tick=5}] ~ ~ ~ event entity @s evocation\r\nexecute @e[scores={tick=6}] ~ ~ ~ event entity @s amethyst\r\nexecute @e[scores={tick=7}] ~ ~ ~ event entity @s iron\r\nexecute @e[scores={tick=8}] ~ ~ ~ event entity @s cactus\r\nexecute @e[scores={tick=9}] ~ ~ ~ event entity @s copper\r\n\r\n\r\nexecute @e[scores={tick=9..}] ~ ~ ~ scoreboard players set @s tick 0\r\n\r\nfunction pulsar"
+}

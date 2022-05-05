@@ -1,0 +1,105 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.light_tube",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [
+						9,
+						1,
+						-8
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								14,
+								-8
+							],
+							"size": [
+								2,
+								2,
+								16
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										7
+									],
+									"uv_size": [
+										7,
+										1
+									]
+								},
+								"south": {
+									"uv": [
+										15,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									]
+								},
+								"west": {
+									"uv": [
+										8,
+										7
+									],
+									"uv_size": [
+										7,
+										1
+									]
+								},
+								"up": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										1,
+										7
+									]
+								},
+								"down": {
+									"uv": [
+										8,
+										7
+									],
+									"uv_size": [
+										1,
+										-7
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

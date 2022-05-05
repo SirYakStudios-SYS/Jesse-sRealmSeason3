@@ -1,0 +1,12 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:patch_underground_x_mossy_cobblestone_x_weight"
+    },
+    "features": [
+      ["nicothekid:patch_underground_x_cobblestone_x_ore", 10],
+      ["nicothekid:patch_underground_x_mossy_cobblestone_x_ore", 5]
+    ]
+  }
+}

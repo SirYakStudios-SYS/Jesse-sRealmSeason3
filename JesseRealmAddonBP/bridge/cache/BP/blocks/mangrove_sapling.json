@@ -1,0 +1,1220 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\mangrove_sapling.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "af10f009_d476_42df_a0d5_8658fd720c5b",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:mangrove_sapling"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.2,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mangrove_sapling",
+									"render_method": "alpha_test",
+									"ambient_occlusion": false,
+									"face_dimming": false
+								}
+							},
+							"minecraft:geometry": "geometry.fixed_cross",
+							"minecraft:loot": "loot_tables/mangrove_sapling.json",
+							"minecraft:entity_collision": false,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:grass",
+											"minecraft:mycelium",
+											"minecraft:dirt",
+											"minecraft:podzol",
+											"minecraft:water",
+											"minecraft:flowing_water"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:on_interact": {
+								"event": "mv:multi_interact"
+							},
+							"minecraft:random_ticking": {
+								"on_tick": {
+									"event": "mv:randomize_grow"
+								}
+							}
+						},
+						"events": {
+							"mv:multi_interact": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"particle minecraft:crop_growth_emitter ~~~"
+											]
+										},
+										"condition": "query.get_equipped_item_name =='bone_meal'",
+										"decrement_stack": {},
+										"trigger": {
+											"event": "mv:randomize_grow"
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"structure load mangrove_sapling ~~~"
+											]
+										},
+										"condition": "query.get_equipped_item_name =='water_bucket'"
+									}
+								]
+							},
+							"mv:randomize_grow": {
+								"randomize": [
+									{
+										"weight": 30,
+										"run_command": {
+											"command": [
+												"setblock ~~~ air"
+											]
+										},
+										"trigger": {
+											"event": "mv:grow_tree"
+										}
+									},
+									{
+										"weight": 70
+									}
+								]
+							},
+							"mv:grow_tree": {
+								"randomize": [
+									{
+										"weight": 1,
+										"run_command": {
+											"command": [
+												"structure load mangrove_tree1 ~ ~ ~"
+											]
+										}
+									},
+									{
+										"weight": 1,
+										"run_command": {
+											"command": [
+												"structure load mangrove_tree2 ~ ~ ~"
+											]
+										}
+									},
+									{
+										"weight": 1,
+										"run_command": {
+											"command": [
+												"structure load mangrove_tree3 ~ ~ ~"
+											]
+										}
+									},
+									{
+										"weight": 1,
+										"run_command": {
+											"command": [
+												"structure load mangrove_tree4 ~ ~ ~"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_sapling"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_sapling",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:loot": "loot_tables/mangrove_sapling.json",
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol",
+												"minecraft:water",
+												"minecraft:flowing_water"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "mv:multi_interact"
+								},
+								"minecraft:random_ticking": {
+									"on_tick": {
+										"event": "mv:randomize_grow"
+									}
+								}
+							},
+							"events": {
+								"mv:multi_interact": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"particle minecraft:crop_growth_emitter ~~~"
+												]
+											},
+											"condition": "query.get_equipped_item_name =='bone_meal'",
+											"decrement_stack": {},
+											"trigger": {
+												"event": "mv:randomize_grow"
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"structure load mangrove_sapling ~~~"
+												]
+											},
+											"condition": "query.get_equipped_item_name =='water_bucket'"
+										}
+									]
+								},
+								"mv:randomize_grow": {
+									"randomize": [
+										{
+											"weight": 30,
+											"run_command": {
+												"command": [
+													"setblock ~~~ air"
+												]
+											},
+											"trigger": {
+												"event": "mv:grow_tree"
+											}
+										},
+										{
+											"weight": 70
+										}
+									]
+								},
+								"mv:grow_tree": {
+									"randomize": [
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree1 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree2 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree3 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree4 ~ ~ ~"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:mangrove_sapling"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_sapling"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_sapling",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:loot": "loot_tables/mangrove_sapling.json",
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol",
+												"minecraft:water",
+												"minecraft:flowing_water"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "mv:multi_interact"
+								},
+								"minecraft:random_ticking": {
+									"on_tick": {
+										"event": "mv:randomize_grow"
+									}
+								}
+							},
+							"events": {
+								"mv:multi_interact": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"particle minecraft:crop_growth_emitter ~~~"
+												]
+											},
+											"condition": "query.get_equipped_item_name =='bone_meal'",
+											"decrement_stack": {},
+											"trigger": {
+												"event": "mv:randomize_grow"
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"structure load mangrove_sapling ~~~"
+												]
+											},
+											"condition": "query.get_equipped_item_name =='water_bucket'"
+										}
+									]
+								},
+								"mv:randomize_grow": {
+									"randomize": [
+										{
+											"weight": 30,
+											"run_command": {
+												"command": [
+													"setblock ~~~ air"
+												]
+											},
+											"trigger": {
+												"event": "mv:grow_tree"
+											}
+										},
+										{
+											"weight": 70
+										}
+									]
+								},
+								"mv:grow_tree": {
+									"randomize": [
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree1 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree2 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree3 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree4 ~ ~ ~"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.2",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "mangrove_sapling",
+												"render_method": "alpha_test",
+												"ambient_occlusion": false,
+												"face_dimming": false
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "mangrove_sapling",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.fixed_cross",
+								"key": "minecraft:geometry"
+							},
+							{
+								"data": "loot_tables/mangrove_sapling.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:grass",
+														"minecraft:mycelium",
+														"minecraft:dirt",
+														"minecraft:podzol",
+														"minecraft:water",
+														"minecraft:flowing_water"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:grass",
+															"minecraft:mycelium",
+															"minecraft:dirt",
+															"minecraft:podzol",
+															"minecraft:water",
+															"minecraft:flowing_water"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:grass",
+																"minecraft:mycelium",
+																"minecraft:dirt",
+																"minecraft:podzol",
+																"minecraft:water",
+																"minecraft:flowing_water"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "block_filter",
+														"is_minified": true,
+														"children": [
+															"minecraft:grass",
+															"minecraft:mycelium",
+															"minecraft:dirt",
+															"minecraft:podzol",
+															"minecraft:water",
+															"minecraft:flowing_water"
+														]
+													},
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:grass",
+																"minecraft:mycelium",
+																"minecraft:dirt",
+																"minecraft:podzol",
+																"minecraft:water",
+																"minecraft:flowing_water"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "allowed_faces",
+														"is_minified": true,
+														"children": [
+															"up"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:on_interact",
+								"is_minified": true,
+								"children": {
+									"event": "mv:multi_interact"
+								}
+							},
+							{
+								"key": "minecraft:random_ticking",
+								"children": [
+									{
+										"open": {
+											"on_tick": {
+												"event": "mv:randomize_grow"
+											}
+										},
+										"key": "on_tick",
+										"is_minified": true,
+										"children": {
+											"event": "mv:randomize_grow"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_sapling"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_sapling",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:loot": "loot_tables/mangrove_sapling.json",
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol",
+												"minecraft:water",
+												"minecraft:flowing_water"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "mv:multi_interact"
+								},
+								"minecraft:random_ticking": {
+									"on_tick": {
+										"event": "mv:randomize_grow"
+									}
+								}
+							},
+							"events": {
+								"mv:multi_interact": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"particle minecraft:crop_growth_emitter ~~~"
+												]
+											},
+											"condition": "query.get_equipped_item_name =='bone_meal'",
+											"decrement_stack": {},
+											"trigger": {
+												"event": "mv:randomize_grow"
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"structure load mangrove_sapling ~~~"
+												]
+											},
+											"condition": "query.get_equipped_item_name =='water_bucket'"
+										}
+									]
+								},
+								"mv:randomize_grow": {
+									"randomize": [
+										{
+											"weight": 30,
+											"run_command": {
+												"command": [
+													"setblock ~~~ air"
+												]
+											},
+											"trigger": {
+												"event": "mv:grow_tree"
+											}
+										},
+										{
+											"weight": 70
+										}
+									]
+								},
+								"mv:grow_tree": {
+									"randomize": [
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree1 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree2 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree3 ~ ~ ~"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"run_command": {
+												"command": [
+													"structure load mangrove_tree4 ~ ~ ~"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "mv:multi_interact",
+								"children": [
+									{
+										"key": "sequence",
+										"children": [
+											{
+												"children": [
+													{
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"particle minecraft:crop_growth_emitter ~~~"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"particle minecraft:crop_growth_emitter ~~~"
+																]
+															}
+														]
+													},
+													{
+														"data": "query.get_equipped_item_name =='bone_meal'",
+														"key": "condition"
+													},
+													{
+														"key": "decrement_stack",
+														"is_minified": true,
+														"children": {}
+													},
+													{
+														"key": "trigger",
+														"is_minified": true,
+														"children": {
+															"event": "mv:randomize_grow"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"run_command": {
+																"command": [
+																	"structure load mangrove_sapling ~~~"
+																]
+															},
+															"condition": "query.get_equipped_item_name =='water_bucket'"
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"structure load mangrove_sapling ~~~"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"structure load mangrove_sapling ~~~"
+																]
+															}
+														]
+													},
+													{
+														"data": "query.get_equipped_item_name =='water_bucket'",
+														"key": "condition"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "mv:randomize_grow",
+								"children": [
+									{
+										"open": {
+											"randomize": [
+												{
+													"weight": 30,
+													"run_command": {
+														"command": [
+															"setblock ~~~ air"
+														]
+													},
+													"trigger": {
+														"event": "mv:grow_tree"
+													}
+												},
+												{
+													"weight": 70
+												}
+											]
+										},
+										"key": "randomize",
+										"children": [
+											{
+												"open": [
+													{
+														"weight": 30,
+														"run_command": {
+															"command": [
+																"setblock ~~~ air"
+															]
+														},
+														"trigger": {
+															"event": "mv:grow_tree"
+														}
+													},
+													{
+														"weight": 70
+													}
+												],
+												"children": [
+													{
+														"data": "30",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 30,
+															"run_command": {
+																"command": [
+																	"setblock ~~~ air"
+																]
+															},
+															"trigger": {
+																"event": "mv:grow_tree"
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"setblock ~~~ air"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"setblock ~~~ air"
+																]
+															}
+														]
+													},
+													{
+														"open": {
+															"weight": 30,
+															"run_command": {
+																"command": [
+																	"setblock ~~~ air"
+																]
+															},
+															"trigger": {
+																"event": "mv:grow_tree"
+															}
+														},
+														"key": "trigger",
+														"is_minified": true,
+														"children": {
+															"event": "mv:grow_tree"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 30,
+														"run_command": {
+															"command": [
+																"setblock ~~~ air"
+															]
+														},
+														"trigger": {
+															"event": "mv:grow_tree"
+														}
+													},
+													{
+														"weight": 70
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"weight": 70
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "mv:grow_tree",
+								"children": [
+									{
+										"open": {
+											"randomize": [
+												{
+													"weight": 1,
+													"run_command": {
+														"command": [
+															"structure load mangrove_tree1 ~ ~ ~"
+														]
+													}
+												},
+												{
+													"weight": 1,
+													"run_command": {
+														"command": [
+															"structure load mangrove_tree2 ~ ~ ~"
+														]
+													}
+												},
+												{
+													"weight": 1,
+													"run_command": {
+														"command": [
+															"structure load mangrove_tree3 ~ ~ ~"
+														]
+													}
+												},
+												{
+													"weight": 1,
+													"run_command": {
+														"command": [
+															"structure load mangrove_tree4 ~ ~ ~"
+														]
+													}
+												}
+											]
+										},
+										"key": "randomize",
+										"children": [
+											{
+												"open": [
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree1 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree2 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree3 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree4 ~ ~ ~"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"run_command": {
+																"command": [
+																	"structure load mangrove_tree1 ~ ~ ~"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"structure load mangrove_tree1 ~ ~ ~"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"structure load mangrove_tree1 ~ ~ ~"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree1 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree2 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree3 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree4 ~ ~ ~"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"run_command": {
+																"command": [
+																	"structure load mangrove_tree2 ~ ~ ~"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"structure load mangrove_tree2 ~ ~ ~"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"structure load mangrove_tree2 ~ ~ ~"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree1 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree2 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree3 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree4 ~ ~ ~"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"run_command": {
+																"command": [
+																	"structure load mangrove_tree3 ~ ~ ~"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"structure load mangrove_tree3 ~ ~ ~"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"structure load mangrove_tree3 ~ ~ ~"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree1 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree2 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree3 ~ ~ ~"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"run_command": {
+															"command": [
+																"structure load mangrove_tree4 ~ ~ ~"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"run_command": {
+																"command": [
+																	"structure load mangrove_tree4 ~ ~ ~"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"structure load mangrove_tree4 ~ ~ ~"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"structure load mangrove_tree4 ~ ~ ~"
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

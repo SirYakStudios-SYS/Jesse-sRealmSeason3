@@ -1,0 +1,28 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "netherite_w:shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#D#",
+			"###",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_planks"
+			},
+			"D": {
+				"item": "minecraft:netherite_ingot"
+			}
+		},
+		"result": {
+			"item": "netherite_w:shield"
+		}
+	}
+}

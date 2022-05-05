@@ -1,0 +1,310 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\feature_rules\\chalkstone_towers_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "a5b23e03_4932_45d6_b714_035e53a42d52",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "mv:chalkstone_towers_feature_rule",
+							"places_feature": "mv:weighted_random_chalkstone_towers_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "desert"
+							}
+						},
+						"distribution": {
+							"iterations": "math.random_integer(1,3)",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 10
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:chalkstone_towers_feature_rule",
+								"places_feature": "mv:weighted_random_chalkstone_towers_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "desert"
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(1,3)",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:chalkstone_towers_feature_rule",
+							"places_feature": "mv:weighted_random_chalkstone_towers_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:chalkstone_towers_feature_rule",
+								"places_feature": "mv:weighted_random_chalkstone_towers_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "desert"
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(1,3)",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "desert"
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"is_minified": true,
+								"children": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "desert"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:chalkstone_towers_feature_rule",
+								"places_feature": "mv:weighted_random_chalkstone_towers_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "desert"
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(1,3)",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "math.random_integer(1,3)",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(1,3)",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 10
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"data": "query.heightmap(variable.worldx, variable.worldz)",
+								"key": "y"
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(1,3)",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 10
+									}
+								},
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(1,3)",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 10
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

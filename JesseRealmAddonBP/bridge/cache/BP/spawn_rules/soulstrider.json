@@ -1,0 +1,287 @@
+{
+	"file_path": "C:\\Users\\Marco\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17 B\\spawn_rules\\soulstrider.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "64a41895_bcac_48a3_8b18_f7ba02d610f1",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "tt:soulstrider",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_lava": {},
+								"minecraft:spawns_underground": {},
+								"minecraft:difficulty_filter": {
+									"min": "peaceful",
+									"max": "hard"
+								},
+								"minecraft:weight": {
+									"default": 20
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 2
+								},
+								"minecraft:density_limit": {
+									"surface": 3
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "nether"
+								}
+							}
+						]
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "tt:soulstrider",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_lava": {},
+								"minecraft:spawns_underground": {},
+								"minecraft:difficulty_filter": {
+									"min": "peaceful",
+									"max": "hard"
+								},
+								"minecraft:weight": {
+									"default": 20
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 2
+								},
+								"minecraft:density_limit": {
+									"surface": 3
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "nether"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:soulstrider",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_lava": {},
+									"minecraft:spawns_underground": {},
+									"minecraft:difficulty_filter": {
+										"min": "peaceful",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 20
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 2
+									},
+									"minecraft:density_limit": {
+										"surface": 3
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "nether"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tt:soulstrider",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:soulstrider",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_lava": {},
+									"minecraft:spawns_underground": {},
+									"minecraft:difficulty_filter": {
+										"min": "peaceful",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 20
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 2
+									},
+									"minecraft:density_limit": {
+										"surface": 3
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "nether"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_lava": {},
+										"minecraft:spawns_underground": {},
+										"minecraft:difficulty_filter": {
+											"min": "peaceful",
+											"max": "hard"
+										},
+										"minecraft:weight": {
+											"default": 20
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 2
+										},
+										"minecraft:density_limit": {
+											"surface": 3
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "nether"
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_lava",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:difficulty_filter",
+										"is_minified": true,
+										"children": {
+											"min": "peaceful",
+											"max": "hard"
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_lava": {},
+											"minecraft:spawns_underground": {},
+											"minecraft:difficulty_filter": {
+												"min": "peaceful",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 3
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "nether"
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 20
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_lava": {},
+											"minecraft:spawns_underground": {},
+											"minecraft:difficulty_filter": {
+												"min": "peaceful",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 3
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "nether"
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 2
+										}
+									},
+									{
+										"key": "minecraft:density_limit",
+										"is_minified": true,
+										"children": {
+											"surface": 3
+										}
+									},
+									{
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "nether"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "minecraft:super_birch_tree_feature"
+    },
+    "features": [
+      ["nicothekid:tree_v_birch_x_birch_tree", 10],
+      ["nicothekid:tree_v_birch_x_super_birch_tree", 100],
+      ["nicothekid:tree_x_birch_branched_01", 10],
+      ["nicothekid:tree_x_birch_branched_02", 10],
+      ["nicothekid:tree_x_birch_tall_branched_01", 100],
+      ["nicothekid:tree_x_birch_tall_branched_02", 100],
+      ["nicothekid:tree_x_birch_tall_n_roofed_tree", 25],
+      ["nicothekid:tree_x_birch_tiny_tree", 5]
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:squidstatue7",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/squidstatue7"
+        },
+        "geometry": {
+          "default": "geometry.squidstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "squidstatue7item"
+        }
+      }
+    }
+  }
+  

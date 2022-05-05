@@ -1,0 +1,43 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:cherry_planks"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.wood"
+			},
+			"minecraft:loot": "loot_tables/fruits/cherry_planks.json",
+			"minecraft:destroy_time": 2,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:rotation": [
+				0, 0, 0
+			],
+			"minecraft:explosion_resistance": 2,
+			"minecraft:breathability": "solid"
+		}
+	}
+}

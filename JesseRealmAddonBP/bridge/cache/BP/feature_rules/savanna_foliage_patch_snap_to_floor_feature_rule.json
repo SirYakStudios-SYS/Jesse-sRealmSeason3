@@ -1,0 +1,381 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\feature_rules\\savanna_foliage_patch_snap_to_floor_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "c5bcbbec_8b56_42f4_b89e_5b7b3ef19837",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "mv:savanna_foliage_patch_snap_to_floor_feature_rule",
+							"places_feature": "mv:savanna_foliage_patch_snap_to_surface_feature"
+						},
+						"conditions": {
+							"placement_pass": "after_surface_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "savanna"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": "math.random_integer(3,5)",
+							"x": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									50,
+									90
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:savanna_foliage_patch_snap_to_floor_feature_rule",
+								"places_feature": "mv:savanna_foliage_patch_snap_to_surface_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "savanna"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,5)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:savanna_foliage_patch_snap_to_floor_feature_rule",
+							"places_feature": "mv:savanna_foliage_patch_snap_to_surface_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:savanna_foliage_patch_snap_to_floor_feature_rule",
+								"places_feature": "mv:savanna_foliage_patch_snap_to_surface_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "savanna"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,5)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "after_surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "after_surface_pass",
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "savanna"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "savanna"
+												}
+											]
+										},
+										"key": "any_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "savanna"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "savanna"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:savanna_foliage_patch_snap_to_floor_feature_rule",
+								"places_feature": "mv:savanna_foliage_patch_snap_to_surface_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "savanna"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,5)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "math.random_integer(3,5)",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(3,5)",
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											50,
+											90
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(3,5)",
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											50,
+											90
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												50,
+												90
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											50,
+											90
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(3,5)",
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											50,
+											90
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:onyx_hoe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "sp:quartz_stick"
+			},
+			"X": {
+				"item": "sp:onyx"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:onyx_hoe",
+				"count": 1
+			}
+		]
+	}
+}

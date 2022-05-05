@@ -1,0 +1,33 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:bedrock_helmet",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 5,
+            "slot": "armor_head"
+         },
+         "minecraft:icon": {
+            "texture": "bedrock_helmet"
+         },
+         "minecraft:render_offsets": "helmets",
+         "minecraft:armor": {
+            "protection": 6
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.head"
+         },
+         "minecraft:display_name": {
+            "value": "Bedrock Helmet\n§96 Protection\n§8Unbreakable"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.helmet"
+         }
+      },
+      "events": {}
+   }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "guardian:gold_coin_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "guardian:gold_coin"
+      },
+      "B": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "guardian:gold_coin_block",
+      "count": 1
+    }
+  }
+}

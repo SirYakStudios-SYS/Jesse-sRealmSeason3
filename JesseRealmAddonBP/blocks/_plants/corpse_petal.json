@@ -1,0 +1,87 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:corpse_petal",
+			"properties": {
+				"bumble:block_rotation": [2, 3, 4, 5]
+			}
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature"
+			},
+			"minecraft:geometry": "geometry.corpse_petal",
+			"minecraft:breathability": "air",
+			"minecraft:pick_collision": {
+				"origin": [-8, 0, -8],
+				"size": [16, 3, 16]
+			},
+			"minecraft:entity_collision": {
+				"origin": [-8, 0, -8],
+				"size": [16, 2, 16]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "corpse_petal",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0.1,
+			
+            "minecraft:on_player_placing":{
+                "event": "bumble:update_rotation"
+            }
+        },
+        "permutations":[
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+        ],
+        "events":{
+            "bumble:update_rotation":{
+                "set_block_property":{
+                    "bumble:block_rotation":"(query.cardinal_facing_2d)"
+                }
+            }
+        }
+    }
+}

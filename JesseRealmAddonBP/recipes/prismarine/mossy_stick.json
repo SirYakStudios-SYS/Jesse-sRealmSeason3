@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:mossy_stick"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:vine"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:mossy_stick",
+				"count": 1
+			}
+		]
+	}
+}

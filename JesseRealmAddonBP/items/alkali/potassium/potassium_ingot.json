@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "pm:netherite_ingot"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "potassium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Potassium Ingot \n§7Used for: \n-Tools and Armor \n-Explosives \n-Light Sourche \n§eFound? \n§7Y=50 - 120 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:explodable": false
+		},
+		"events": {}
+	}
+}

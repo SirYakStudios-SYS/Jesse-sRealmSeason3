@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:francium_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"+": {
+				"item": "m:francium_ingot"
+			},
+			"#": {
+				"item": "m:rubidium_ingot"
+			}
+		},
+		"pattern": [
+			"++",
+			"+#",
+			" #"
+		],
+		"result": [
+			{
+				"item": "m:francium_axe"
+			}
+		]
+	}
+}

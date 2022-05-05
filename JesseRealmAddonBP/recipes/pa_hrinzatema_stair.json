@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hrinzatema_stair_a51a5e60"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      " AA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:hrinzatema_fence",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:hrinzatema_stair",
+      "count": 1
+    }
+  }
+}

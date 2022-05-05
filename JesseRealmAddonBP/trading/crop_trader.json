@@ -1,0 +1,532 @@
+
+
+
+
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:yeast",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:shrooms",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:strawberry_seeds",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:pepper_seeds",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:turnip_seeds",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:pineapple_seeds",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:hops_seeds",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:tomato_seeds",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:asparagus_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:red_cabbage_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:rhubarb_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:corn_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:grape_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:zucchini_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "bumble:cherry_sapling",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				
+				
+				
+				
+				
+				{
+					"wants": [
+						{
+							"item": "bumble:strawberry_jam",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:pineapple_jam",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:pepper",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:pineapple",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:turnip",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:hops",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:tomato",
+							"quantity": 48
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:asparagus",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:red_cabbage",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:rhubarb",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:corn",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:grapes",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:zucchini",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:shrooms",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 5
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "bumble:cherry",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 4
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}
+			  ]
+		    }
+		  ]
+		}
+	]
+}

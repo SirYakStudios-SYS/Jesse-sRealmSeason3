@@ -1,0 +1,21 @@
+{
+  "minecraft:item" : {
+    "components" : {
+      "minecraft:icon" : {
+        "texture" : "guardian:turtle_chestplate"
+      },
+      "minecraft:armor" : {
+        "texture_type" : "obsidian"
+      },
+      "minecraft:creative_category" : {
+        "parent" : "itemGroup.name.chestplate"
+      },
+      "minecraft:render_offsets" : "chestplates"
+    },
+    "description" : {
+      "category" : "equipment",
+      "identifier" : "guardian:turtle_chestplate"
+    }
+  },
+  "format_version" : "1.10"
+}

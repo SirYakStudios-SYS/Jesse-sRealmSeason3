@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:mollystatue9",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/mollystatue9"
+        },
+        "geometry": {
+          "default": "geometry.mollystatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "mollystatue9item"
+        }
+      }
+    }
+  }
+  

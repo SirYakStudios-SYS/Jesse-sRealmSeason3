@@ -1,0 +1,31 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:torch_from_carbon_37"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			".",
+			"|",
+			"#"
+		],
+		"key": {
+			".": {
+				"item": "m:carbon_37"
+			},
+			"|": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"item": "minecraft:soul_soil"
+			}
+		},
+		"result": {
+			"item": "minecraft:soul_torch",
+			"count": 16
+		}
+	}
+}

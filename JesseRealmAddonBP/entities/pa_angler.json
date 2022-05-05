@@ -1,0 +1,227 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:angler",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "scale_small": {
+        "minecraft:scale": {
+          "value": 0.8
+        },
+        "minecraft:health": {
+          "value": 5,
+          "max": 5
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/pa_angler.json"
+        }
+      },
+      "scale_normal": {
+        "minecraft:scale": {
+          "value": 1.0
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/pa_angler.json"
+        }
+      },
+      "scale_large": {
+        "minecraft:scale": {
+          "value": 1.1
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/pa_angler.json"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "mob",
+          "angler"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 0.6
+      },
+      "minecraft:breathable": {
+        "totalSupply": 5,
+        "suffocateTime": 0,
+        "breathesAir": false,
+        "breathesWater": true
+      },
+      "minecraft:movement": {
+        "value": 0.12
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.12
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 11.0
+      },
+      "minecraft:balloonable": {
+      },
+        "minecraft:behavior.move_to_water": {
+          "priority": 1,
+          "search_range": 25,
+          "search_height": 10,
+          "goal_radius": 1
+        },
+      "minecraft:navigation.generic": {
+        "is_amphibious": false,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": false,
+        "can_breach": false,
+        "can_sink": false
+      },
+      "minecraft:movement.sway": {
+        "sway_amplitude": 0.0
+      },
+      "minecraft:physics": {},
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "drowned",
+              "other_with_families": [
+                "drowned"
+              ]
+            },
+            "max_dist": 15,
+            "max_flee": 10,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 2.0
+          }
+        ]
+      },
+      "minecraft:behavior.swim_idle": {
+        "priority": 5
+      },
+      "minecraft:behavior.random_swim": {
+        "speed_multiplier": 1.0,
+        "priority": 3,
+        "xz_dist": 16,
+        "y_dist": 4,
+        "interval": 0
+      },
+      "minecraft:behavior.swim_wander": {
+        "priority": 4,
+        "speed_multiplier": 0.014,
+        "interval": 60
+      },
+      "minecraft:nameable": {
+        "alwaysShow": false,
+        "allowNameTagRenaming": true
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 : 0"
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:attack": {
+        "damage": 6
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 0.0,
+        "max_dist": 3,
+        "random_stop_interval": 100,
+        "track_target": true,
+        "reach_multiplier": 1.4
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "within_radius": 25,
+        "must_reach": false,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            },
+            "max_dist": 10,
+            "must_see": false
+          }
+        ],
+        "must_see": false,
+        "speed_multiplier": 1.4
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3
+      },
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 20,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_small"
+              ]
+            }
+          },
+          {
+            "weight": 75,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_normal"
+              ]
+            }
+          },
+          {
+            "weight": 5,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_large"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

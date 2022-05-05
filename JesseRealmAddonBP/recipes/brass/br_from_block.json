@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:brass_ingot_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:brass_block"
+			}
+		},
+		"result": {
+			"item": "sp:brass_ingot",
+			"count": 9
+		}
+	}
+}

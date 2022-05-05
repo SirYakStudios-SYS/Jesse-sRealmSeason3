@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:jasper_shard",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "jasper_crystal"
+			},
+			"minecraft:display_name": {
+				"value": "Jasper \n§7Used for: \n-For Artefacts for: \n-Iron\n-Gold\n-Onyx\n-Tin\n-Resonite\n-Rose Gold \n§eFound? \n§7Y=-20 - 40 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

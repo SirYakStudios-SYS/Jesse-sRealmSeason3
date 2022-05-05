@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nether:nether_sugar",
+      "category": "nature"
+    },
+    "components": {
+	  "minecraft:icon": {
+		"texture": "nether_sugar"
+	  },
+      "minecraft:food": {
+        "saturation_modifier": "normal",
+        "nutrition": 1
+        },
+      "minecraft:use_duration": 0.8,
+      "minecraft:use_animation": "eat"
+    }
+  }
+}

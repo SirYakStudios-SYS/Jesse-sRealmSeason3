@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_pile_x_cobblestone"
+    },
+    "features": [
+      ["nicothekid:structure_x_pile_x_cobblestone_01", 1],
+      ["nicothekid:structure_x_pile_x_cobblestone_02", 1],
+      ["nicothekid:structure_x_pile_x_cobblestone_03", 1],
+      ["nicothekid:structure_x_pile_x_cobblestone_04", 1],
+      ["nicothekid:structure_x_pile_x_cobblestone_05", 1],
+      ["nicothekid:structure_x_pile_x_cobblestone_06", 1]
+    ]
+  }
+}

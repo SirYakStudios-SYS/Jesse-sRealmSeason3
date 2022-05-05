@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "minecraft:undecorated_jungle_tree_with_vines_feature"
+    },
+    "features": [
+      ["nicothekid:tree_v_jungle_x_jungle_tree", 1],
+      ["nicothekid:tree_v_jungle_x_undecorated_jungle_tree_with_vines", 100],
+      ["nicothekid:tree_v_jungle_x_undecorated_jungle_tree", 1],
+      ["nicothekid:tree_x_jungle_branched_vine_tree_01", 35],
+      ["nicothekid:tree_x_jungle_branched_vine_tree_02", 20],
+      ["nicothekid:tree_x_jungle_cap_tree", 25],
+      ["nicothekid:tree_x_jungle_lower_tree", 50],
+      ["nicothekid:tree_x_jungle_roofed_tree_01", 35],
+      ["nicothekid:tree_x_jungle_roofed_tree_02", 20],
+      ["nicothekid:tree_x_jungle_tall_tree_01", 25],
+      ["nicothekid:tree_x_jungle_tall_tree_02", 25],
+      ["nicothekid:tree_x_jungle_tiny_tree", 10]
+    ]
+  }
+}

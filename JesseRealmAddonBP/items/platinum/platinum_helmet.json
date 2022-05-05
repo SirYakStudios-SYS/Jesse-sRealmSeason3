@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:platinum_helmet",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 8,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 170,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:platinum_helmet",
+							"sp:platinum_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:display_name": {
+				"value": "Platinum Helmet"
+			},
+			"minecraft:icon": {
+				"texture": "sp_platinum_helmet"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.08
+			},
+			"minecraft:render_offsets": "helmets",
+			"minecraft:armor": {
+				"protection": 3
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			}
+		},
+		"events": {}
+	}
+}

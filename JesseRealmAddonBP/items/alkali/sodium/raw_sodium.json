@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:raw_sodium",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_sodium"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Sodium \n§eFound? \n§7Y=-20 - 40 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

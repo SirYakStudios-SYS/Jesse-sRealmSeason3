@@ -1,0 +1,114 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:duralumin_shovel",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 7060,
+				"damage_chance": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 4,
+			"minecraft:enchantable": {
+				"value": 17,
+				"slot": "shovel"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+						},
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:coarse_dirt",
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:clay",
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:concretePowder",
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:mycelium",
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 10,
+						"on_dig": {
+							"event": "dam"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dam"
+				}
+			},
+			"tag:minecraft:is_shovel": {},
+			"minecraft:display_name": {
+				"value": "Duralumin Shovel \n§7Durability: 7060 \nMining Speed: 10"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dam"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "Duralumin_shovel"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.shovel"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "dam"
+				}
+			}
+		},
+		"events": {
+			"dam": {
+				"damage": {
+					"type": "magic",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

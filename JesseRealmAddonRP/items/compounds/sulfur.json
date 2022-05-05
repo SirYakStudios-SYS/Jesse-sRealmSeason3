@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:sulfur",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "sulfur",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

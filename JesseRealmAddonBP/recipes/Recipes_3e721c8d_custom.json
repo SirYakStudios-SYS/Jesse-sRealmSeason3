@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_a0fc891d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:goat_scull",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:dye",
+      "count": 4,
+      "data": 15
+    }
+  }
+}

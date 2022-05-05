@@ -1,0 +1,19 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.17.0",
+	"minecraft:weighted_random_feature": {
+		"features": [
+			[
+				"mv:chalkstone_pillar2_feature",
+				1
+			],
+			[
+				"mv:chalkstone_pillar3_feature",
+				1
+			]
+		],
+		"description": {
+			"identifier": "mv:weighted_random_chalkstone_towers_feature"
+		}
+	}
+}

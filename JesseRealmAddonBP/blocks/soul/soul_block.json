@@ -1,0 +1,42 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:sp_soul_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:destroy_time": 0.8,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.soul",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sp_sp_soul_block",
+					"render_method": "blend",
+					"ambient_occlusion": true,
+					"face_dimming": false
+				}
+			},
+			"minecraft:on_step_on": {
+				"event": "particle"
+			}
+		},
+		"events": {
+			"particle": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:soul_particle ~~1~"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

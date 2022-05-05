@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:small_cactus_item",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.grass"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:small_cactus"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:small_cactus_item"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:small_cactus_item"
+			}
+        }
+    }
+}

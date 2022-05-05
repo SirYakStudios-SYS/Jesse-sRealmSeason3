@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:amethyst_shard_from_raw_amethyst"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:raw_amethyst"
+      }
+    },
+    "result": {
+      "item": "minecraft:amethyst_shard",
+      "count": 1
+    }
+  }
+}

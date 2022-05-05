@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mv:ostrich",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ostrich/ostrich"
+			},
+			"geometry": {
+				"default": "geometry.ostrich"
+			},
+			"animations": {
+				"ostrich_controllers": "controller.animation.ostrich.general",
+				"walk": "animation.ostrich.walk",
+				"idle": "animation.ostrich.idle"
+			},
+			"scripts": {
+				"animate": [
+					"ostrich_controllers"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#443838",
+				"overlay_color": "#BBA28E"
+			}
+		}
+	}
+}

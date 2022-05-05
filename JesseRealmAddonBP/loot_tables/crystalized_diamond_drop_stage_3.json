@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 4
+			},
+			"entries": [
+				{
+					"name": "m:crystallized_diamond_shard",
+					"type": "item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

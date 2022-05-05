@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "guardian:leather"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "guardian:leather_flesh"
+      }
+    },
+    "result": {
+      "item": "minecraft:leather",
+      "count": 1
+    }
+  }
+}

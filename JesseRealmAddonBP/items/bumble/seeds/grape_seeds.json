@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:grape_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:grape_crop"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:grape_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:grape_seeds"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.18.2",
+    "minecraft:recipe_furnace": {
+      "description": {
+        "identifier": "jctstatues:parrotstatue9"
+      },
+      "tags": [
+        "furnace",
+        "blast_furnace"
+      ],
+      "input": "jctstatues:parrotstatue3",
+      "output": "jctstatues:parrotstatue9"
+    }
+  }

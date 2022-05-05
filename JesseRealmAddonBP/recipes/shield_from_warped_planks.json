@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:shield_from_warped_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+	  "###",
+	  "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:barrier"
+      }
+    },
+        "result": {
+            "item": "shield",
+            "count": 1
+        },
+        "priority": 2
+    }
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_sword"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"X",
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blaze_rod"
+			},
+			"X": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:quartz_sword",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:udiamond_shovel"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:quartz"
+			},
+			"Y": {
+				"item": "minecraft:diamond_shovel"
+			}
+		},
+		"result": {
+			"item": "sp:udiamond_shovel"
+		}
+	}
+}

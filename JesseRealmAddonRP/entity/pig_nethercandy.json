@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sc:pig_nethercandy",
+			"materials": {
+				"default": "pig"
+			},
+			"textures": {
+				"default": "textures/entity/pig_nethercandy",
+				"saddled": "textures/entity/pig_nethercandy"
+			},
+			"geometry": {
+				"default": "geometry.pig.v1.9"
+			},
+			"animations": {
+				"setup": "animation.pig.v1.8.new",
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.pig.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.pig"
+			],
+			"spawn_egg": {
+				"texture": "carmesicerdo"
+			}
+		}
+	}
+}

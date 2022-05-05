@@ -1,0 +1,29 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:gold_flint_and_steel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X ",
+			" #"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:gold_ingot"
+			},
+			"#": {
+				"item": "minecraft:flint"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:gold_flint_and_steel"
+			}
+		]
+	}
+}

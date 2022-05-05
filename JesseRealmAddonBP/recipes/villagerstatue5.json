@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:villagerstatue5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+ "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:villagerstatue2"
+      },
+      "B": {
+        "item": "minecraft:vine"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:villagerstatue5"
+    }
+  }
+}

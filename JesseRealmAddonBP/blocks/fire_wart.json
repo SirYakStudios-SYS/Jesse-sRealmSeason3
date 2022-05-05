@@ -1,0 +1,115 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:fire_wart",
+			"is_experimental": false,
+			"properties": {
+				"nether:rotation": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nether:rotation') == 1",
+				"components": {}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						180,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 6",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.flora",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:breathability": "air",
+			"minecraft:destroy_time": 0,
+			"minecraft:loot": "loot_tables/blocks/fire_wart.json",
+			"minecraft:material_instances": {
+			    "*": {
+					"texture": "fire_wart",
+					"render_method": "alpha_test",
+              		"ambient_occlusion": false,
+          		    "face_dimming": false
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"nether:fire_wart_block",
+							"minecraft:soul_sand"
+						],
+						"allowed_faces": [
+							"side"
+						]
+					}
+				]
+			},
+			"minecraft:on_player_placing": {
+				"event": "nether:rotation2"
+			}
+		},
+		"events": {
+			"nether:rotation2": {
+				"set_block_property": {
+					"nether:rotation": "query.cardinal_player_facing + 1"
+				}
+			}
+		}
+	}
+}

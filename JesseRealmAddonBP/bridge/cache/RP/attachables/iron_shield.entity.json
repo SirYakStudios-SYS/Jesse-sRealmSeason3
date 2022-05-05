@@ -1,0 +1,609 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Raiyon's More Shield V2\\attachables\\iron_shield.entity.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "96f23def_31f6_4a74_b1a7_c7d8ca4872c1",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "ray:iron_shield",
+							"materials": {
+								"default": "entity_alphatest",
+								"enchanted": "entity_alphatest_glint"
+							},
+							"textures": {
+								"enchanted": "textures/misc/enchanted_item_glint",
+								"default": "textures/entity/iron_shield"
+							},
+							"geometry": {
+								"default": "geometry.iron_shield"
+							},
+							"animations": {
+								"wield": "controller.animation.shield.wield",
+								"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+								"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+								"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+								"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+								"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+								"wield_third_person": "animation.shield.wield_third_person"
+							},
+							"render_controllers": [
+								"controller.render.item_default"
+							],
+							"item": {
+								"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+							},
+							"scripts": {
+								"initialize": [
+									"variable.main_hand_first_person_pos_x =  5.3;",
+									"variable.main_hand_first_person_pos_y = 26.0;",
+									"variable.main_hand_first_person_pos_z = 0.4;",
+									"variable.main_hand_first_person_rot_x = 91.0;",
+									"variable.main_hand_first_person_rot_y = 65.0;",
+									"variable.main_hand_first_person_rot_z = -43.0;",
+									"variable.off_hand_first_person_pos_x = -13.5;",
+									"variable.off_hand_first_person_pos_y = -5.8;",
+									"variable.off_hand_first_person_pos_z = 5.1;",
+									"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+									"variable.off_hand_first_person_rot_x = 1.0;",
+									"variable.off_hand_first_person_rot_y = 176.0;",
+									"variable.off_hand_first_person_rot_z = -2.5;"
+								],
+								"pre_animation": [
+									"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+								],
+								"animate": [
+									"wield"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ray:iron_shield",
+								"materials": {
+									"default": "entity_alphatest",
+									"enchanted": "entity_alphatest_glint"
+								},
+								"textures": {
+									"enchanted": "textures/misc/enchanted_item_glint",
+									"default": "textures/entity/iron_shield"
+								},
+								"geometry": {
+									"default": "geometry.iron_shield"
+								},
+								"animations": {
+									"wield": "controller.animation.shield.wield",
+									"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+									"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+									"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+									"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+									"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+									"wield_third_person": "animation.shield.wield_third_person"
+								},
+								"render_controllers": [
+									"controller.render.item_default"
+								],
+								"item": {
+									"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+								},
+								"scripts": {
+									"initialize": [
+										"variable.main_hand_first_person_pos_x =  5.3;",
+										"variable.main_hand_first_person_pos_y = 26.0;",
+										"variable.main_hand_first_person_pos_z = 0.4;",
+										"variable.main_hand_first_person_rot_x = 91.0;",
+										"variable.main_hand_first_person_rot_y = 65.0;",
+										"variable.main_hand_first_person_rot_z = -43.0;",
+										"variable.off_hand_first_person_pos_x = -13.5;",
+										"variable.off_hand_first_person_pos_y = -5.8;",
+										"variable.off_hand_first_person_pos_z = 5.1;",
+										"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+										"variable.off_hand_first_person_rot_x = 1.0;",
+										"variable.off_hand_first_person_rot_y = 176.0;",
+										"variable.off_hand_first_person_rot_z = -2.5;"
+									],
+									"pre_animation": [
+										"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+									],
+									"animate": [
+										"wield"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "ray:iron_shield",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"enchanted": "textures/misc/enchanted_item_glint",
+										"default": "textures/entity/iron_shield"
+									},
+									"geometry": {
+										"default": "geometry.iron_shield"
+									},
+									"animations": {
+										"wield": "controller.animation.shield.wield",
+										"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+										"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+										"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+										"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+										"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+										"wield_third_person": "animation.shield.wield_third_person"
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									],
+									"item": {
+										"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+									},
+									"scripts": {
+										"initialize": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										],
+										"pre_animation": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										],
+										"animate": [
+											"wield"
+										]
+									}
+								},
+								"data": "ray:iron_shield",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest",
+									"enchanted": "entity_alphatest_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ray:iron_shield",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"enchanted": "textures/misc/enchanted_item_glint",
+										"default": "textures/entity/iron_shield"
+									},
+									"geometry": {
+										"default": "geometry.iron_shield"
+									},
+									"animations": {
+										"wield": "controller.animation.shield.wield",
+										"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+										"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+										"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+										"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+										"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+										"wield_third_person": "animation.shield.wield_third_person"
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									],
+									"item": {
+										"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+									},
+									"scripts": {
+										"initialize": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										],
+										"pre_animation": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										],
+										"animate": [
+											"wield"
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"enchanted": "textures/misc/enchanted_item_glint",
+									"default": "textures/entity/iron_shield"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ray:iron_shield",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"enchanted": "textures/misc/enchanted_item_glint",
+										"default": "textures/entity/iron_shield"
+									},
+									"geometry": {
+										"default": "geometry.iron_shield"
+									},
+									"animations": {
+										"wield": "controller.animation.shield.wield",
+										"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+										"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+										"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+										"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+										"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+										"wield_third_person": "animation.shield.wield_third_person"
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									],
+									"item": {
+										"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+									},
+									"scripts": {
+										"initialize": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										],
+										"pre_animation": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										],
+										"animate": [
+											"wield"
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.iron_shield"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"wield": "controller.animation.shield.wield",
+									"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+									"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+									"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+									"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+									"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+									"wield_third_person": "animation.shield.wield_third_person"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ray:iron_shield",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"enchanted": "textures/misc/enchanted_item_glint",
+										"default": "textures/entity/iron_shield"
+									},
+									"geometry": {
+										"default": "geometry.iron_shield"
+									},
+									"animations": {
+										"wield": "controller.animation.shield.wield",
+										"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+										"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+										"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+										"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+										"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+										"wield_third_person": "animation.shield.wield_third_person"
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									],
+									"item": {
+										"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+									},
+									"scripts": {
+										"initialize": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										],
+										"pre_animation": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										],
+										"animate": [
+											"wield"
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ray:iron_shield",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"enchanted": "textures/misc/enchanted_item_glint",
+										"default": "textures/entity/iron_shield"
+									},
+									"geometry": {
+										"default": "geometry.iron_shield"
+									},
+									"animations": {
+										"wield": "controller.animation.shield.wield",
+										"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+										"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+										"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+										"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+										"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+										"wield_third_person": "animation.shield.wield_third_person"
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									],
+									"item": {
+										"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+									},
+									"scripts": {
+										"initialize": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										],
+										"pre_animation": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										],
+										"animate": [
+											"wield"
+										]
+									}
+								},
+								"key": "item",
+								"is_minified": true,
+								"children": {
+									"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ray:iron_shield",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"enchanted": "textures/misc/enchanted_item_glint",
+										"default": "textures/entity/iron_shield"
+									},
+									"geometry": {
+										"default": "geometry.iron_shield"
+									},
+									"animations": {
+										"wield": "controller.animation.shield.wield",
+										"wield_main_hand_first_person": "animation.shield.wield_main_hand_first_person",
+										"wield_off_hand_first_person": "animation.shield.wield_off_hand_first_person",
+										"wield_first_person_block": "animation.shield.wield_first_person_blocking",
+										"wield_main_hand_first_person_block": "animation.shield.wield_main_hand_first_person_blocking",
+										"wield_off_hand_first_person_block": "animation.shield.wield_off_hand_first_person_blocking",
+										"wield_third_person": "animation.shield.wield_third_person"
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									],
+									"item": {
+										"ray:iron_shield": "query.owner_identifier == 'minecraft:player'"
+									},
+									"scripts": {
+										"initialize": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										],
+										"pre_animation": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										],
+										"animate": [
+											"wield"
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"initialize": [
+												"variable.main_hand_first_person_pos_x =  5.3;",
+												"variable.main_hand_first_person_pos_y = 26.0;",
+												"variable.main_hand_first_person_pos_z = 0.4;",
+												"variable.main_hand_first_person_rot_x = 91.0;",
+												"variable.main_hand_first_person_rot_y = 65.0;",
+												"variable.main_hand_first_person_rot_z = -43.0;",
+												"variable.off_hand_first_person_pos_x = -13.5;",
+												"variable.off_hand_first_person_pos_y = -5.8;",
+												"variable.off_hand_first_person_pos_z = 5.1;",
+												"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+												"variable.off_hand_first_person_rot_x = 1.0;",
+												"variable.off_hand_first_person_rot_y = 176.0;",
+												"variable.off_hand_first_person_rot_z = -2.5;"
+											],
+											"pre_animation": [
+												"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+											],
+											"animate": [
+												"wield"
+											]
+										},
+										"key": "initialize",
+										"is_minified": true,
+										"children": [
+											"variable.main_hand_first_person_pos_x =  5.3;",
+											"variable.main_hand_first_person_pos_y = 26.0;",
+											"variable.main_hand_first_person_pos_z = 0.4;",
+											"variable.main_hand_first_person_rot_x = 91.0;",
+											"variable.main_hand_first_person_rot_y = 65.0;",
+											"variable.main_hand_first_person_rot_z = -43.0;",
+											"variable.off_hand_first_person_pos_x = -13.5;",
+											"variable.off_hand_first_person_pos_y = -5.8;",
+											"variable.off_hand_first_person_pos_z = 5.1;",
+											"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+											"variable.off_hand_first_person_rot_x = 1.0;",
+											"variable.off_hand_first_person_rot_y = 176.0;",
+											"variable.off_hand_first_person_rot_z = -2.5;"
+										]
+									},
+									{
+										"open": {
+											"initialize": [
+												"variable.main_hand_first_person_pos_x =  5.3;",
+												"variable.main_hand_first_person_pos_y = 26.0;",
+												"variable.main_hand_first_person_pos_z = 0.4;",
+												"variable.main_hand_first_person_rot_x = 91.0;",
+												"variable.main_hand_first_person_rot_y = 65.0;",
+												"variable.main_hand_first_person_rot_z = -43.0;",
+												"variable.off_hand_first_person_pos_x = -13.5;",
+												"variable.off_hand_first_person_pos_y = -5.8;",
+												"variable.off_hand_first_person_pos_z = 5.1;",
+												"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+												"variable.off_hand_first_person_rot_x = 1.0;",
+												"variable.off_hand_first_person_rot_y = 176.0;",
+												"variable.off_hand_first_person_rot_z = -2.5;"
+											],
+											"pre_animation": [
+												"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+											],
+											"animate": [
+												"wield"
+											]
+										},
+										"key": "pre_animation",
+										"is_minified": true,
+										"children": [
+											"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+										]
+									},
+									{
+										"open": {
+											"initialize": [
+												"variable.main_hand_first_person_pos_x =  5.3;",
+												"variable.main_hand_first_person_pos_y = 26.0;",
+												"variable.main_hand_first_person_pos_z = 0.4;",
+												"variable.main_hand_first_person_rot_x = 91.0;",
+												"variable.main_hand_first_person_rot_y = 65.0;",
+												"variable.main_hand_first_person_rot_z = -43.0;",
+												"variable.off_hand_first_person_pos_x = -13.5;",
+												"variable.off_hand_first_person_pos_y = -5.8;",
+												"variable.off_hand_first_person_pos_z = 5.1;",
+												"variable.off_hand_first_person_with_bow_pos_z = -25.0;",
+												"variable.off_hand_first_person_rot_x = 1.0;",
+												"variable.off_hand_first_person_rot_y = 176.0;",
+												"variable.off_hand_first_person_rot_z = -2.5;"
+											],
+											"pre_animation": [
+												"variable.is_using_bow = (query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f);"
+											],
+											"animate": [
+												"wield"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"wield"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

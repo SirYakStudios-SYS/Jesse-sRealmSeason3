@@ -1,0 +1,14 @@
+{
+	"format_version": 1.10,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:chorus_fruit_stew",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "chorus_fruit_stew",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:dirtsteve1",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/dirtsteve1"
+        },
+        "geometry": {
+          "default": "geometry.dirtsteve1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "dirtsteve1item"
+        }
+      }
+    }
+  }
+  

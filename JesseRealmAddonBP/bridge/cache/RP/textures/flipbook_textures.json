@@ -1,0 +1,14 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\textures\\flipbook_textures.json",
+	"file_type": "flipbook_texture",
+	"format_version": 1,
+	"file_uuid": "0d6289bb_6cb9_4c1b_8f56_78d153139a84",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"0": {},
+			"format_version": 1.17
+		}
+	}
+}

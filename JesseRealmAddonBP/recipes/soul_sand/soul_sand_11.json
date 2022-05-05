@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "presblock:soul_sand_11"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "presblock:soul_sand_1"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:soul_sand",
+        "count": 9
+      }
+    ]
+  }
+}

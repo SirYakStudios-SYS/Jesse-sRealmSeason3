@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mv:light_pink_mushroom_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:foil": false,
+			"minecraft:render_offsets": "flowers",
+			"minecraft:icon": {
+				"texture": "light_pink_mushroom"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.mushroom"
+			},
+			"minecraft:block_placer": {
+				"use_block_description": true,
+				"block": "mv:light_pink_mushroom"
+			}
+		},
+		"events": {}
+	}
+}

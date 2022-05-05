@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:irongolemstatue5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+ "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:irongolemstatue2"
+      },
+      "B": {
+        "item": "minecraft:vine"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:irongolemstatue5"
+    }
+  }
+}

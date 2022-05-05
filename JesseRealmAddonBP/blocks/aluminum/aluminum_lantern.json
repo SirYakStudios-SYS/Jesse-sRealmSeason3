@@ -1,0 +1,115 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:aluminum_lantern",
+			"properties": {
+				"mb:facing_direction": [
+					0,
+					1
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('mb:facing_direction') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.lanterns",
+					"minecraft:entity_collision": {
+						"origin": [
+							-3,
+							0,
+							-3
+						],
+						"size": [
+							6,
+							9,
+							6
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-3,
+							0,
+							-3
+						],
+						"size": [
+							6,
+							9,
+							6
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('mb:facing_direction') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.lanterns_top",
+					"minecraft:entity_collision": {
+						"origin": [
+							-3,
+							1,
+							-3
+						],
+						"size": [
+							6,
+							9,
+							6
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-3,
+							1,
+							-3
+						],
+						"size": [
+							6,
+							9,
+							6
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "aluminum_lantern"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 1,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up",
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#9cd0fb",
+			"minecraft:geometry": "geometry.lanterns",
+			"minecraft:on_player_placing": {
+				"event": "set_up_down"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"set_up_down": {
+				"set_block_property": {
+					"mb:facing_direction": "query.block_face"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:cobblestone_chestplate",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:durability": {
+            "max_durability": 100,
+            "damage_chance": {
+               "min": 60,
+               "max": 100
+            }
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 12,
+            "slot": "armor_torso"
+         },
+         "minecraft:icon": {
+            "texture": "cobblestone_chestplate"
+         },
+         "minecraft:render_offsets": "chestplates",
+         "minecraft:armor": {
+            "protection": 3
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.chest"
+         },
+         "minecraft:display_name": {
+            "value": "Cobblestone Chestplate\n§93 Protection\n§6100 Durability\n§8Slowness I"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.chestplate"
+         }
+      },
+      "events": {}
+   }
+}

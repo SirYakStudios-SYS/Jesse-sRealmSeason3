@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "recipes_e5101f7a"
+    },
+    "tags": [
+      "brewing_stand"
+    ],
+    "output": "minecraft:potion_type:strong_slowness",
+    "input": "minecraft:potion_type:water",
+    "reagent": "pa:shell"
+  }
+}

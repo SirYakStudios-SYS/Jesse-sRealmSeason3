@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:small_rose_dye"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:small_rose"
+			}
+		],
+		"result": {
+			"item": "red_dye",
+			"count": 1
+		}
+	}
+}

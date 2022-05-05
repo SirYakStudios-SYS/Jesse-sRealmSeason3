@@ -1,0 +1,14 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:salt_bread",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "salt_bread",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

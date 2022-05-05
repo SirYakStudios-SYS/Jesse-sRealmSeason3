@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:resonite_shard",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "resonite_shard"
+			},
+			"minecraft:display_name": {
+				"value": "Resonite Shard \n§7Used for: \n-Crafting Enchanted Books \n§eFound? \n§1Warped Forest"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

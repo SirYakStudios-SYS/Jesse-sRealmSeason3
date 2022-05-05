@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:hoglinstatue4"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+ "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:hoglinstatue1"
+      },
+      "B": {
+        "item": "minecraft:vine"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:hoglinstatue4"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "sp:rose_gold_ingot_from_raw_rose_gold"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "sp:raw_rose_gold",
+		"output": "sp:rose_gold_ingot"
+	}
+}

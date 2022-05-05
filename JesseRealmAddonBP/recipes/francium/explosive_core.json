@@ -1,0 +1,30 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:explosive_core"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" + ",
+			"+#+",
+			" + "
+		],
+		"key": {
+			"+": {
+				"item": "m:francium_ingot"
+			},
+			"#": {
+				"item": "minecraft:gunpowder"
+			}
+		},
+		"result": [
+			{
+				"item": "m:explosivs_core",
+				"count": 4
+			}
+		]
+	}
+}

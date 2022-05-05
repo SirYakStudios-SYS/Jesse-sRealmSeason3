@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pa:nautilus",
+			"materials": {
+				"default": "squid"
+			},
+			"textures": {
+				"default": "textures/entity/nautilus"
+			},
+			"geometry": {
+				"default": "geometry.nautilus"
+			},
+			"animations": {
+				"move": "animation.nautilus.move",
+				"squid_rotate": "animation.nautilus.rotate"
+			},
+			"scripts": {
+				"animate": ["move", "squid_rotate"]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#f0af8b",
+				"overlay_color": "#e67575"
+			}
+		}
+	}
+}

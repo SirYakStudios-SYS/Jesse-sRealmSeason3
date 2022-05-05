@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:cesium_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "cesium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Cesium Ingot \n§7Used for: \n-Light source \n-Explosives \n§eFound? \n§7Y=-30 - 45 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

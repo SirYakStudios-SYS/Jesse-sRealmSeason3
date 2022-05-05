@@ -1,0 +1,48 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:small_flesh_bone_block"
+		},
+		"components": {
+		    "minecraft:destroy_time":0.5,
+		    "minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:breathability": "air",
+			"minecraft:loot": "loot_tables/blocks/bone.json",
+			"minecraft:geometry": "geometry.flora",
+			"minecraft:material_instances": {
+			    "*": {
+					"texture": "small_flesh_bone_block",
+					"render_method": "alpha_test",
+          		    "ambient_occlusion": false,
+          	    	"face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					13,
+					6
+				]
+			},
+      "minecraft:placement_filter": {
+        "conditions": [
+           {
+            "block_filter": [
+              "nether:flesh_block",
+              "nether:flesh_block2",
+              "nether:flesh_bone_block"],
+                    "allowed_faces": [ "up" ]
+                    }
+                ]
+            }
+		}
+	}
+}

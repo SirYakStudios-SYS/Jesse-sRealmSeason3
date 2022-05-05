@@ -1,0 +1,1 @@
+give @s pa:palm_log1

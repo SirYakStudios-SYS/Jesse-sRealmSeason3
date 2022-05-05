@@ -1,0 +1,194 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\render_controllers\\frog.render_controllers.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "5d73440f_adff_42eb_996c_95a24abbd736",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.frog": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.default",
+										"Texture.cold_type",
+										"Texture.tropical_type"
+									]
+								}
+							},
+							"textures": [
+								"Array.skins[query.variant]"
+							],
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.frog": {
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.default",
+											"Texture.cold_type",
+											"Texture.tropical_type"
+										]
+									}
+								},
+								"textures": [
+									"Array.skins[query.variant]"
+								],
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								]
+							}
+						},
+						"key": "controller.render.frog",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.default",
+												"Texture.cold_type",
+												"Texture.tropical_type"
+											]
+										}
+									},
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.default",
+													"Texture.cold_type",
+													"Texture.tropical_type"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.default",
+														"Texture.cold_type",
+														"Texture.tropical_type"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.default",
+													"Texture.cold_type",
+													"Texture.tropical_type"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.default",
+												"Texture.cold_type",
+												"Texture.tropical_type"
+											]
+										}
+									},
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							},
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.default",
+												"Texture.cold_type",
+												"Texture.tropical_type"
+											]
+										}
+									},
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

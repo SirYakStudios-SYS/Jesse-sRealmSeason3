@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "nether:glowbeetle",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+			    "minecraft:spawns_underground": {},
+				"minecraft:difficulty_filter": {
+					"min": "peaceful",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 35
+				},
+				"minecraft:herd": {
+					"min_size": 2,
+					"max_size": 4
+				},
+				"minecraft:biome_filter": {
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "nether_wastes"
+						}
+					]
+				},
+				"minecraft:spawns_on_block_filter": [
+					"nether:fire_grass",
+					"nether:fire_wart_block",
+		            "nether:fire_wart",
+		            "nether:burnt_bush_top",
+		            "nether:fire_wart_stem"
+				]
+			}
+		]
+	}
+}

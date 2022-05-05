@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hrinzatema_fence_256635c2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ABA",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:hrinzatema_fence",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:hrinzatema_fence",
+      "count": 1
+    }
+  }
+}

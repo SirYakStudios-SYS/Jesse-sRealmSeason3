@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:composter_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~ ~", 
+            "~ ~",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_slab"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:composter",
+				"count": 1
+			}
+		]
+    }
+}

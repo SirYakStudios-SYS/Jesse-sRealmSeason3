@@ -1,0 +1,14 @@
+{
+  "format_version": "1.18.2",
+    "minecraft:recipe_furnace": {
+      "description": {
+        "identifier": "jctstatues:pigstatue8"
+      },
+      "tags": [
+        "furnace",
+        "blast_furnace"
+      ],
+      "input": "jctstatues:pigstatue2",
+      "output": "jctstatues:pigstatue8"
+    }
+  }

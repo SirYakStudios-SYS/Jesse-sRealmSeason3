@@ -1,0 +1,9 @@
+execute @s ~~~ detect ~~~ stripped_crimson_stem 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_acacia_log 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_birch_log 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_dark_oak_log 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_oak_log 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_jungle_log 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_spruce_log 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_warped_stem 0 fill ~~32~~~~ air 0 destroy
+execute @s ~~~ detect ~~~ stripped_acacia_log 0 fill ~~32~~~~ air 0 destroy

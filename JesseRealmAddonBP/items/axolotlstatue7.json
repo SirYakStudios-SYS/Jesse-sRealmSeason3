@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:axolotlstatue7"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "axolotlstatue7item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:axolotlstatue7"
+        }
+      }
+    }
+  }

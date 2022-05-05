@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:citrine_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:citrine_block"
+			}
+		},
+		"result": {
+			"item": "sp:citrine",
+			"count": 9
+		}
+	}
+}

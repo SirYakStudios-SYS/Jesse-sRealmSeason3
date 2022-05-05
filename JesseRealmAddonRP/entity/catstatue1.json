@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:catstatue1",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/catstatue1"
+        },
+        "geometry": {
+          "default": "geometry.catstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "catstatue1item"
+        }
+      }
+    }
+  }
+  

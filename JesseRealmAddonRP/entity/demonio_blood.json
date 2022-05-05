@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sc:demonio_blood",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/ghast/ghast_shooting1",
+				"shooting": "textures/entity/ghast/ghast1"
+			},
+			"geometry": {
+				"default": "geometry.ghastmal"
+			},
+			"animations": {
+				"move": "animation.ghast.move",
+				"scale": "animation.ghast.scale"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.ghast.move"
+				},
+				{
+					"scale": "controller.animation.ghast.scale"
+				}
+			],
+			"render_controllers": [
+				"controller.render.ghast"
+			],
+			"spawn_egg": {
+				"texture": "demoniorojo"
+			}
+		}
+	}
+}

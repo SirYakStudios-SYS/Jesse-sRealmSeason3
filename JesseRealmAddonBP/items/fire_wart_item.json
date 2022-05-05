@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nether:fire_wart_item",
+      "category": "nature"
+    },
+    "components": {
+	  "minecraft:icon": {
+		"texture": "fire_wart_item"
+	  },
+      "minecraft:food": {
+        "saturation_modifier": "low",
+        "nutrition": 2
+        },
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "eat"
+    }
+  }
+}

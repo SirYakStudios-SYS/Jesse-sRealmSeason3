@@ -1,0 +1,172 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\items\\dandelion_item.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "0ddf16ed_fafc_468a_af70_9de98f1ec041",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mv:dandelion_item",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false,
+							"minecraft:render_offsets": "flowers",
+							"minecraft:icon": {
+								"texture": "dandelion_top"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.flower"
+							},
+							"minecraft:block_placer": {
+								"use_block_description": true,
+								"block": "mv:dandelion_bottom"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mv:dandelion_item",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false,
+							"minecraft:render_offsets": "flowers",
+							"minecraft:icon": {
+								"texture": "dandelion_top"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.flower"
+							},
+							"minecraft:block_placer": {
+								"use_block_description": true,
+								"block": "mv:dandelion_bottom"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:dandelion_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:render_offsets": "flowers",
+								"minecraft:icon": {
+									"texture": "dandelion_top"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.flower"
+								},
+								"minecraft:block_placer": {
+									"use_block_description": true,
+									"block": "mv:dandelion_bottom"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:dandelion_item",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:dandelion_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:render_offsets": "flowers",
+								"minecraft:icon": {
+									"texture": "dandelion_top"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.flower"
+								},
+								"minecraft:block_placer": {
+									"use_block_description": true,
+									"block": "mv:dandelion_bottom"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"data": "flowers",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:foil": false,
+									"minecraft:render_offsets": "flowers",
+									"minecraft:icon": {
+										"texture": "dandelion_top"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.flower"
+									},
+									"minecraft:block_placer": {
+										"use_block_description": true,
+										"block": "mv:dandelion_bottom"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "dandelion_top"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.flower"
+								}
+							},
+							{
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"use_block_description": true,
+									"block": "mv:dandelion_bottom"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

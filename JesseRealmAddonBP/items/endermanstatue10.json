@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:endermanstatue10"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "endermanstatue10item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:endermanstatue10"
+        }
+      }
+    }
+  }

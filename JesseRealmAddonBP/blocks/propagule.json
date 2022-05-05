@@ -1,0 +1,38 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:propagule"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:geometry": "geometry.propagule",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "propagule",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"mv:mangrove_leaves"
+						],
+						"allowed_faces": [
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/propagule.json",
+			"minecraft:entity_collision": false
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:duralumin_axe"
+		},
+		"pattern": [
+			"XX",
+			"X#",
+			" #"
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "m:duralumin_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:duralumin_axe"
+			}
+		]
+	}
+}

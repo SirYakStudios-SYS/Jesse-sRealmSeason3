@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:manganese_chest_netherite_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"IAI",
+			"A#A",
+			"IAI"
+		],
+		"key": {
+			"A": {
+				"item": "m:maganese_ingot"
+			},
+			"I": {
+				"item": "minecraft:netherite_scrap"
+			},
+			"#": {
+				"item": "m:maganese_chest_diamond"
+			}
+		},
+		"result": {
+			"item": "m:maganese_chest_netherite",
+			"count": 1
+		}
+	}
+}

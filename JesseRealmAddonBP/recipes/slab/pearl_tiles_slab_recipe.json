@@ -1,0 +1,23 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:tiles_pearl_slab_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:pearl_tiles"
+			}
+		},
+		"result": {
+			"count": 6,
+			"item": "m:pearl_tiles_slab"
+		}
+	}
+}

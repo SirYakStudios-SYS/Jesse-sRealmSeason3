@@ -1,0 +1,190 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:sail_fish",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "scale_small": {
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        }
+      },
+      "scale_normal": {
+        "minecraft:scale": {
+          "value": 1
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        }
+      },
+      "scale_large": {
+        "minecraft:scale": {
+          "value": 1.5
+        },
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "fish",
+          "mob"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 1.3,
+        "height": 0.5
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesAir": false,
+        "breathesWater": true
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.4
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": false,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": false,
+        "can_breach": false,
+        "can_sink": false
+      },
+      "minecraft:movement.sway": {
+        "sway_amplitude": 0.0
+      },
+      "minecraft:physics": {},
+      "minecraft:behavior.swim_idle": {
+        "priority": 5
+      },
+      "minecraft:behavior.random_swim": {
+        "speed_multiplier": 1.0,
+        "priority": 3,
+        "xz_dist": 16,
+        "y_dist": 4,
+        "interval": 0
+      },
+      "minecraft:behavior.swim_wander": {
+        "priority": 4,
+        "speed_multiplier": 0.014,
+        "interval": 60
+      },
+      "minecraft:nameable": {
+        "alwaysShow": false,
+        "allowNameTagRenaming": true
+      },
+      "minecraft:health": {
+        "value": 7,
+        "max": 7
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 : 0"
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:attack": {
+        "damage": 8
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "target_dist": 0.0,
+        "max_dist": 3,
+        "random_stop_interval": 100,
+        "track_target": true,
+        "reach_multiplier": 1.4
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "within_radius": 25,
+        "must_reach": false,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "sardine"
+                },
+                
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            },
+            "max_dist": 5,
+            "must_see": false
+          }
+        ],
+        "must_see": false,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3
+      },
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/pa_sail_fish.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 30,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_small"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_normal"
+              ]
+            }
+          },
+          {
+            "weight": 15,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_large"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

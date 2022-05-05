@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:jade_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "sp:jade_block"
+			},
+			"O": {
+				"item": "sp:jade"
+			}
+		},
+		"result": {
+			"item": "sp:jade_hammer"
+		}
+	}
+}

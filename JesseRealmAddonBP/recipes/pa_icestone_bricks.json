@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "icestone_bricks_401e1dcd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:tfxr7dxr8dtd8x",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:icestone_bricks",
+      "count": 1
+    }
+  }
+}

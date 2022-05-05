@@ -1,0 +1,24 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:amber_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "sp:raw_amber"
+			}
+		},
+		"result": {
+			"item": "sp:amber_helmet"
+		}
+	}
+}

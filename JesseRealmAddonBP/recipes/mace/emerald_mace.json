@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:emerald_mace"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"OXO",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:emerald_block"
+			},
+			"O": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"result": {
+			"item": "sp:emerald_mace"
+		}
+	}
+}

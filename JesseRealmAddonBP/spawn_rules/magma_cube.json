@@ -1,0 +1,87 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "minecraft:magma_cube",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {
+        },
+
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight",
+          "nether:flesh_block",
+		  "nether:flesh_block2",
+		  "nether:flesh_bone_block",
+		  "nether:lava_mangrove_leaves",
+		  "nether:fire_grass",
+		  "nether:fire_wart",
+		  "nether:fire_wart_block",
+		  "nether:fire_wart_stem",
+		  "minecraft:gravel"
+        ],
+
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+
+        "minecraft:weight": {
+          "default": 10
+        },
+
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 4
+        },
+
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_magma_cubes"
+        }
+      },
+      {
+        "minecraft:spawns_underground": {
+        },
+
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight",
+          "nether:flesh_block",
+		  "nether:flesh_block2",
+		  "nether:flesh_bone_block",
+		  "nether:lava_mangrove_leaves",
+		  "nether:fire_grass",
+		  "nether:fire_wart",
+		  "nether:fire_wart_block",
+		  "nether:fire_wart_stem",
+		  "minecraft:gravel"
+        ],
+
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+
+        "minecraft:weight": {
+          "default": 100
+        },
+
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 5
+        },
+
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_many_magma_cubes"
+        }
+      }
+    ]
+  }
+}

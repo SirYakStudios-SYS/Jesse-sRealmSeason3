@@ -1,0 +1,183 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Shields V2\\animation_controllers\\attacking.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "eafb35f3_ca5e_4cfb_aa0e_c771291ff88d",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.attacking": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"attacking": "variable.attack_time"
+										}
+									],
+									"on_entry": [
+										"/ "
+									]
+								},
+								"attacking": {
+									"transitions": [
+										{
+											"default": "!variable.attack_time"
+										}
+									],
+									"on_entry": [
+										"/function atk"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.attacking": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"attacking": "variable.attack_time"
+											}
+										],
+										"on_entry": [
+											"/ "
+										]
+									},
+									"attacking": {
+										"transitions": [
+											{
+												"default": "!variable.attack_time"
+											}
+										],
+										"on_entry": [
+											"/function atk"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.attacking",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"attacking": "variable.attack_time"
+												}
+											],
+											"on_entry": [
+												"/ "
+											]
+										},
+										"attacking": {
+											"transitions": [
+												{
+													"default": "!variable.attack_time"
+												}
+											],
+											"on_entry": [
+												"/function atk"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"key": "default",
+										"is_minified": true,
+										"children": {
+											"transitions": [
+												{
+													"attacking": "variable.attack_time"
+												}
+											],
+											"on_entry": [
+												"/ "
+											]
+										}
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"attacking": "variable.attack_time"
+													}
+												],
+												"on_entry": [
+													"/ "
+												]
+											},
+											"attacking": {
+												"transitions": [
+													{
+														"default": "!variable.attack_time"
+													}
+												],
+												"on_entry": [
+													"/function atk"
+												]
+											}
+										},
+										"key": "attacking",
+										"children": [
+											{
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"default": "!variable.attack_time"
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!variable.attack_time"
+														}
+													],
+													"on_entry": [
+														"/function atk"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/function atk"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

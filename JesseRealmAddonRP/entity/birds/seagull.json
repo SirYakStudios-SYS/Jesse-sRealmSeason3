@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "guardian:seagull",
+			"min_engine_version": "1.12.0",
+      "materials": {
+        "default": "phantom",
+        "invisible": "phantom_invisible"
+      },
+			"textures": {
+				"default": "textures/entity/guardian/birds/seagull"
+			},
+			"geometry": {
+				"default": "geometry.seagull"
+			},
+			"scripts": {
+				"initialize": ["variable.runtimeid=0;", "variable.tailrotx=-5.0;", "variable.wingrotz=0.0;"],
+				"animate": ["phantom_base_pose_controller", "move"]
+			},
+			"animations": {
+				"phantom_base_pose": "animation.seagull.base_pose",
+				"phantom_base_pose_controller": "controller.animation.phantom.base_pose",
+				"move": "animation.seagull.move"
+			},
+			"sound_effects": {
+				"flap": "mob.phantom.flap"
+			},
+			"render_controllers": ["controller.render.phantom"],
+			"spawn_egg": {
+				"base_color": "#fffae6",
+				"overlay_color": "#fffec8"
+			}
+		}
+	}
+}

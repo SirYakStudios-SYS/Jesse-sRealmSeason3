@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bear",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 14, -16],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-5.5, 9, -20], "size": [11, 8, 7], "uv": [43, 42], "mirror": false},
+						{"origin": [-2.5, 10.1, -25], "size": [5, 3, 6], "uv": [44, 57], "mirror": false},
+						{"origin": [-2.5, 9.1, -25], "size": [5, 1, 6], "uv": [60, 60], "mirror": false},
+						{"origin": [2.5, 15, -17], "size": [4, 4, 1], "uv": [0, 5], "mirror": false},
+						{"origin": [-6.5, 15, -17], "size": [4, 4, 1], "uv": [0, 0], "mirror": false}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [2, 15, 12],
+					"rotation": [90, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-8, 14, 5], "size": [16, 14, 12], "uv": [0, 0], "mirror": false},
+						{"origin": [-7, 28, 5], "size": [14, 12, 11], "uv": [0, 26], "mirror": false}
+					]
+				},
+				{
+					"name": "leg0",
+					"pivot": [4.5, 10, 6],
+					"mirror": true,
+					"cubes": [
+						{"origin": [2.5, 0, 4], "size": [4, 10, 5], "uv": [51, 21], "mirror": false}
+					]
+				},
+				{
+					"name": "leg1",
+					"pivot": [-4.5, 10, 6],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-6.5, 0, 4], "size": [4, 10, 5], "uv": [50, 21], "mirror": false}
+					]
+				},
+				{
+					"name": "leg2",
+					"pivot": [3.5, 10, -8],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1.5, 0, -10], "size": [4, 10, 6], "uv": [56, 0], "mirror": false}
+					]
+				},
+				{
+					"name": "leg3",
+					"pivot": [-3.5, 10, -8],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-5.5, 0, -10], "size": [4, 10, 6], "uv": [56, 0], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

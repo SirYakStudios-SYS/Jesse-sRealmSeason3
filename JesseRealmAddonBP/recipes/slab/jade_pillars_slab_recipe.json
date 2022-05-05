@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:jade_pillars_slab_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:jade_pillars"
+			}
+		},
+		"result": {
+			"count": 6,
+			"item": "m:jade_pillar_slab"
+		}
+	}
+}

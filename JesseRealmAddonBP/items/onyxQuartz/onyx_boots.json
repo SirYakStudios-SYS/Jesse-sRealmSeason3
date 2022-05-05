@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:onyx_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 12,
+				"slot": "armor_feet"
+			},
+			"minecraft:durability": {
+				"max_durability": 410,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.boots"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:onyx_boots",
+							"sp:onyx"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:display_name": {
+				"value": "§8Onyx Boots"
+			},
+			"minecraft:icon": {
+				"texture": "sp_onyx_boots"
+			},
+			"minecraft:render_offsets": "boots",
+			"minecraft:armor": {
+				"protection": 4
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			}
+		},
+		"events": {}
+	}
+}

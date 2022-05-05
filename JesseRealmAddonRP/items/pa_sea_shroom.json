@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:sea_shroom",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "pa:sea_shroom",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

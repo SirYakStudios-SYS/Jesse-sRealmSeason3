@@ -1,0 +1,54 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:uquartz_chestplate",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 24,
+				"slot": "armor_torso"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:uquartz_chestplate",
+							"minecraft:blaze_powder"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 1100,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:armor": {
+				"protection": 7
+			},
+			"minecraft:icon": {
+				"texture": "uquartz_chestplate"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest"
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.chestplate"
+			},
+			"minecraft:display_name": {
+				"value": "§6Blazed Quartz Chestplate"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.25
+			}
+		},
+		"events": {}
+	}
+}

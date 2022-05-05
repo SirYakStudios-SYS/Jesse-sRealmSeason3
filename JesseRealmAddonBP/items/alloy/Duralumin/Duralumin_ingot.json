@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:duralumin_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "Duralumin_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Duralumin Ingot \n§7Used for: \n-Tools \n-Duralumin Bundle \n-Duralumin Golem \n§eFound? \n§7Alloy out of Copper, Aluminum and Manganese \n§eGolem properties:\n-Health : 700 \n-Attack Damage : 7-22 \n-Abilities : None"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

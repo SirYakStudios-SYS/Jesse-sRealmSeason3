@@ -1,0 +1,29 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:mead_jolly_brew"
+		},
+		"tags": [
+			"keg"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:fermented_honey"
+			},
+			{
+				"item": "minecraft:sugar"
+			},
+			{
+				"item": "minecraft:potion"
+			},
+			{
+				"item": "bumble:rhubarb"
+			}
+		],
+		"result": {
+			"item": "bumble:mead_jolly"
+		}
+	}
+}

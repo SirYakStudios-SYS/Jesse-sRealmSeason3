@@ -1,0 +1,253 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\twistedcreeper.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "694bdb96_1260_4612_b780_feb7e0e242be",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tt:twistedcreeper",
+							"materials": {
+								"default": "creeper",
+								"charged": "charged_creeper"
+							},
+							"textures": {
+								"default": "textures/entity/twistedcreeper",
+								"charged": "textures/entity/creeper/creeper_armor"
+							},
+							"geometry": {
+								"default": "geometry.creepertwisted",
+								"charged": "geometry.creeper.charged"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+									"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+									"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+									"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+									"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+								]
+							},
+							"animations": {
+								"creeper_head": "animation.common.look_at_target",
+								"creeper_legs": "animation.creeper.legs",
+								"creeper_swelling": "animation.creeper.swelling"
+							},
+							"animation_controllers": [
+								{
+									"creeper_head": "controller.animation.creeper.head"
+								},
+								{
+									"creeper_legs": "controller.animation.creeper.legs"
+								},
+								{
+									"creeper_swelling": "controller.animation.creeper.swelling"
+								}
+							],
+							"render_controllers": [
+								"controller.render.creeper",
+								"controller.render.creeper_armor"
+							],
+							"spawn_egg": {
+								"texture": "creepertwisted"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:twistedcreeper",
+								"materials": {
+									"default": "creeper",
+									"charged": "charged_creeper"
+								},
+								"textures": {
+									"default": "textures/entity/twistedcreeper",
+									"charged": "textures/entity/creeper/creeper_armor"
+								},
+								"geometry": {
+									"default": "geometry.creepertwisted",
+									"charged": "geometry.creeper.charged"
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+										"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+										"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+										"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+										"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+									]
+								},
+								"animations": {
+									"creeper_head": "animation.common.look_at_target",
+									"creeper_legs": "animation.creeper.legs",
+									"creeper_swelling": "animation.creeper.swelling"
+								},
+								"animation_controllers": [
+									{
+										"creeper_head": "controller.animation.creeper.head"
+									},
+									{
+										"creeper_legs": "controller.animation.creeper.legs"
+									},
+									{
+										"creeper_swelling": "controller.animation.creeper.swelling"
+									}
+								],
+								"render_controllers": [
+									"controller.render.creeper",
+									"controller.render.creeper_armor"
+								],
+								"spawn_egg": {
+									"texture": "creepertwisted"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "tt:twistedcreeper",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "creeper",
+									"charged": "charged_creeper"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/twistedcreeper",
+									"charged": "textures/entity/creeper/creeper_armor"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.creepertwisted",
+									"charged": "geometry.creeper.charged"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": [
+										"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+										"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+										"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+										"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+										"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+									]
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"creeper_head": "animation.common.look_at_target",
+									"creeper_legs": "animation.creeper.legs",
+									"creeper_swelling": "animation.creeper.swelling"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"creeper_head": "controller.animation.creeper.head"
+									},
+									{
+										"creeper_legs": "controller.animation.creeper.legs"
+									},
+									{
+										"creeper_swelling": "controller.animation.creeper.swelling"
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.creeper",
+									"controller.render.creeper_armor"
+								]
+							},
+							{
+								"open": {
+									"identifier": "tt:twistedcreeper",
+									"materials": {
+										"default": "creeper",
+										"charged": "charged_creeper"
+									},
+									"textures": {
+										"default": "textures/entity/twistedcreeper",
+										"charged": "textures/entity/creeper/creeper_armor"
+									},
+									"geometry": {
+										"default": "geometry.creepertwisted",
+										"charged": "geometry.creeper.charged"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+											"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+											"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+											"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+											"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+										]
+									},
+									"animations": {
+										"creeper_head": "animation.common.look_at_target",
+										"creeper_legs": "animation.creeper.legs",
+										"creeper_swelling": "animation.creeper.swelling"
+									},
+									"animation_controllers": [
+										{
+											"creeper_head": "controller.animation.creeper.head"
+										},
+										{
+											"creeper_legs": "controller.animation.creeper.legs"
+										},
+										{
+											"creeper_swelling": "controller.animation.creeper.swelling"
+										}
+									],
+									"render_controllers": [
+										"controller.render.creeper",
+										"controller.render.creeper_armor"
+									],
+									"spawn_egg": {
+										"texture": "creepertwisted"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "creepertwisted"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

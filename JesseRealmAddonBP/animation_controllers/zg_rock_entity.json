@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zg_rock_entity": {
+      "initial_state": "preshoot",
+      "states": {
+        "preshoot": {
+          "transitions": [
+            {
+              "shoot": "q.get_equipped_item_name(0) == 'rock_entity' && q.is_using_item"
+            }
+          ]
+        },
+        "shooting": {
+          "on_entry": [
+            "v.delaytime = q.life_time;"
+          ],
+          "transitions": [
+            {
+              "preshoot": "q.get_equipped_item_name(0) != 'rock_entity' || !q.is_using_item"
+            },
+            {
+              "shoot": "q.get_equipped_item_name(0) != 'rock_entity' || !q.is_using_item"
+            }
+          ]
+        },
+        "shoot": {
+          "on_entry": [
+            "@s zg:rock_entity_fire",
+            "/playsound zg_rock_entity_shot"
+          ],
+          "transitions": [
+            {
+              "shooting": "1.0"
+            }
+          ],
+          "on_exit": [
+            "v.bullet_fire = q.life_time;",
+            "/clear @s zg:rock_entity 0 1"
+          ]
+        }
+      }
+    }
+  }
+}

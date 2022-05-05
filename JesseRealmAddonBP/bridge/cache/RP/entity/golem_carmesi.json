@@ -1,0 +1,229 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\golem_carmesi.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "b879019b_8873_4cf5_ace0_a3e9404a9254",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:golem_carmesi",
+							"materials": {
+								"default": "iron_golem"
+							},
+							"textures": {
+								"default": "textures/entity/golem/carmesi_golem"
+							},
+							"geometry": {
+								"default": "geometry.carmesigolem"
+							},
+							"animations": {
+								"walk": "animation.iron_golem.walk",
+								"move": "animation.iron_golem.move",
+								"walk_to_target": "animation.iron_golem.walk_to_target",
+								"move_to_target": "animation.iron_golem.move_to_target",
+								"attack": "animation.iron_golem.attack",
+								"flower": "animation.iron_golem.flower",
+								"look_at_target": "animation.common.look_at_target",
+								"move_controller": "controller.animation.iron_golem.move",
+								"arm_controller": "controller.animation.iron_golem.arm_movement"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+								],
+								"animate": [
+									"look_at_target",
+									"move_controller",
+									"arm_controller"
+								]
+							},
+							"render_controllers": [
+								"controller.render.iron_golem"
+							],
+							"spawn_egg": {
+								"texture": "golemcarmesi"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:golem_carmesi",
+								"materials": {
+									"default": "iron_golem"
+								},
+								"textures": {
+									"default": "textures/entity/golem/carmesi_golem"
+								},
+								"geometry": {
+									"default": "geometry.carmesigolem"
+								},
+								"animations": {
+									"walk": "animation.iron_golem.walk",
+									"move": "animation.iron_golem.move",
+									"walk_to_target": "animation.iron_golem.walk_to_target",
+									"move_to_target": "animation.iron_golem.move_to_target",
+									"attack": "animation.iron_golem.attack",
+									"flower": "animation.iron_golem.flower",
+									"look_at_target": "animation.common.look_at_target",
+									"move_controller": "controller.animation.iron_golem.move",
+									"arm_controller": "controller.animation.iron_golem.arm_movement"
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+									],
+									"animate": [
+										"look_at_target",
+										"move_controller",
+										"arm_controller"
+									]
+								},
+								"render_controllers": [
+									"controller.render.iron_golem"
+								],
+								"spawn_egg": {
+									"texture": "golemcarmesi"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:golem_carmesi",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "iron_golem"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/golem/carmesi_golem"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.carmesigolem"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.iron_golem.walk",
+									"move": "animation.iron_golem.move",
+									"walk_to_target": "animation.iron_golem.walk_to_target",
+									"move_to_target": "animation.iron_golem.move_to_target",
+									"attack": "animation.iron_golem.attack",
+									"flower": "animation.iron_golem.flower",
+									"look_at_target": "animation.common.look_at_target",
+									"move_controller": "controller.animation.iron_golem.move",
+									"arm_controller": "controller.animation.iron_golem.arm_movement"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": [
+										"variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+									],
+									"animate": [
+										"look_at_target",
+										"move_controller",
+										"arm_controller"
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.iron_golem"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:golem_carmesi",
+									"materials": {
+										"default": "iron_golem"
+									},
+									"textures": {
+										"default": "textures/entity/golem/carmesi_golem"
+									},
+									"geometry": {
+										"default": "geometry.carmesigolem"
+									},
+									"animations": {
+										"walk": "animation.iron_golem.walk",
+										"move": "animation.iron_golem.move",
+										"walk_to_target": "animation.iron_golem.walk_to_target",
+										"move_to_target": "animation.iron_golem.move_to_target",
+										"attack": "animation.iron_golem.attack",
+										"flower": "animation.iron_golem.flower",
+										"look_at_target": "animation.common.look_at_target",
+										"move_controller": "controller.animation.iron_golem.move",
+										"arm_controller": "controller.animation.iron_golem.arm_movement"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+										],
+										"animate": [
+											"look_at_target",
+											"move_controller",
+											"arm_controller"
+										]
+									},
+									"render_controllers": [
+										"controller.render.iron_golem"
+									],
+									"spawn_egg": {
+										"texture": "golemcarmesi"
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#FFCBAD",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#D21721",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"data": "golemcarmesi",
+										"key": "texture"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

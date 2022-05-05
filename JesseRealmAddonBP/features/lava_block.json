@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "lava_block"
+		},
+		"places_block": {
+			"name": "nether:lava_swamp_moss_block"
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:lava"
+		],
+		"may_attach_to": {
+			"top": [
+				"minecraft:air"
+			]
+		}
+	}
+}

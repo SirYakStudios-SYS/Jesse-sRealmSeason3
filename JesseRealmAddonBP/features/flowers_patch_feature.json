@@ -1,0 +1,34 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "mv:flowers_patch_feature"
+		},
+		"iterations": 20,
+		"coordinate_eval_order": "zyx",
+		"x": {
+			"extent": [
+				-8,
+				8
+			],
+			"distribution": "uniform"
+		},
+		"y": {
+			"extent": [
+				-4,
+				4
+			],
+			"distribution": "uniform"
+		},
+		"z": {
+			"extent": [
+				-8,
+				8
+			],
+			"distribution": "uniform"
+		},
+		"project_input_to_floor": false,
+		"places_feature": "mv:flowers_feature"
+	}
+}

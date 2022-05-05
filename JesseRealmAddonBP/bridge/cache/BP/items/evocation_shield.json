@@ -1,0 +1,530 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Shields V2\\items\\evocation_shield.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "a7e78f52_3bdd_4cf4_be77_8407a1957c9d",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "evocation:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "Evocation Shield"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "evocation_shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 10
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:durability": {
+								"max_durability": 500
+							},
+							"minecraft:repairable": {
+								"1": {
+									"items": [
+										"minecraft:lapis_lazuli"
+									],
+									"repair_amount": 150
+								},
+								"repair_items": [
+									{
+										"items": [
+											"evocation:shield"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "evocation:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "Evocation Shield"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "evocation_shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 10
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:durability": {
+								"max_durability": 500
+							},
+							"minecraft:repairable": {
+								"1": {
+									"items": [
+										"minecraft:lapis_lazuli"
+									],
+									"repair_amount": 150
+								},
+								"repair_items": [
+									{
+										"items": [
+											"evocation:shield"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "Evocation Shield"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "evocation_shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 10
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:durability": {
+									"max_durability": 500
+								},
+								"minecraft:repairable": {
+									"1": {
+										"items": [
+											"minecraft:lapis_lazuli"
+										],
+										"repair_amount": 150
+									},
+									"repair_items": [
+										{
+											"items": [
+												"evocation:shield"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "evocation:shield",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "Evocation Shield"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "evocation_shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 10
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:durability": {
+									"max_durability": 500
+								},
+								"minecraft:repairable": {
+									"1": {
+										"items": [
+											"minecraft:lapis_lazuli"
+										],
+										"repair_amount": 150
+									},
+									"repair_items": [
+										{
+											"items": [
+												"evocation:shield"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Evocation Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "evocation_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 500
+									},
+									"minecraft:repairable": {
+										"1": {
+											"items": [
+												"minecraft:lapis_lazuli"
+											],
+											"repair_amount": 150
+										},
+										"repair_items": [
+											{
+												"items": [
+													"evocation:shield"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Evocation Shield"
+								}
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Evocation Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "evocation_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 500
+									},
+									"minecraft:repairable": {
+										"1": {
+											"items": [
+												"minecraft:lapis_lazuli"
+											],
+											"repair_amount": 150
+										},
+										"repair_items": [
+											{
+												"items": [
+													"evocation:shield"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "evocation_shield"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Evocation Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "evocation_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 500
+									},
+									"minecraft:repairable": {
+										"1": {
+											"items": [
+												"minecraft:lapis_lazuli"
+											],
+											"repair_amount": 150
+										},
+										"repair_items": [
+											{
+												"items": [
+													"evocation:shield"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "shield",
+									"value": 10
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Evocation Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "evocation_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 500
+									},
+									"minecraft:repairable": {
+										"1": {
+											"items": [
+												"minecraft:lapis_lazuli"
+											],
+											"repair_amount": 150
+										},
+										"repair_items": [
+											{
+												"items": [
+													"evocation:shield"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 500
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Evocation Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "evocation_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 500
+									},
+									"minecraft:repairable": {
+										"1": {
+											"items": [
+												"minecraft:lapis_lazuli"
+											],
+											"repair_amount": 150
+										},
+										"repair_items": [
+											{
+												"items": [
+													"evocation:shield"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									}
+								},
+								"key": "minecraft:repairable",
+								"children": [
+									{
+										"open": {
+											"1": {
+												"items": [
+													"minecraft:lapis_lazuli"
+												],
+												"repair_amount": 150
+											},
+											"repair_items": [
+												{
+													"items": [
+														"evocation:shield"
+													],
+													"repair_amount": "query.max_durability"
+												}
+											]
+										},
+										"key": "repair_items",
+										"children": [
+											{
+												"open": [
+													{
+														"items": [
+															"evocation:shield"
+														],
+														"repair_amount": "query.max_durability"
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"evocation:shield"
+															],
+															"repair_amount": "query.max_durability"
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"evocation:shield"
+														]
+													},
+													{
+														"open": {
+															"items": [
+																"evocation:shield"
+															],
+															"repair_amount": "query.max_durability"
+														},
+														"data": "query.max_durability",
+														"key": "repair_amount"
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"1": {
+												"items": [
+													"minecraft:lapis_lazuli"
+												],
+												"repair_amount": 150
+											},
+											"repair_items": [
+												{
+													"items": [
+														"evocation:shield"
+													],
+													"repair_amount": "query.max_durability"
+												}
+											]
+										},
+										"key": "1",
+										"children": [
+											{
+												"open": {
+													"items": [
+														"minecraft:lapis_lazuli"
+													],
+													"repair_amount": 150
+												},
+												"key": "items",
+												"is_minified": true,
+												"children": [
+													"minecraft:lapis_lazuli"
+												]
+											},
+											{
+												"data": "150",
+												"key": "repair_amount"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

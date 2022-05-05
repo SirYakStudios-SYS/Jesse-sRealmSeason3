@@ -1,0 +1,173 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "pa:baffler_hed",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0.0,
+          "max": 15.0,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 5
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 8,
+          "underground": 8
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "hell"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warm"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warped_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "soul_sand_valley"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warped_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "basalt_deltas"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "crimson_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "nether"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "nether_wastes"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "netherwart_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "soulsand_valley"
+              }
+            ]
+          }
+        ],
+        "minecraft:spawns_on_block_filter": "minecraft:lava:0"
+      },
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:brightness_filter": {
+          "min": 1,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 5
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 8,
+          "underground": 8
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "hell"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warm"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warped_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "soul_sand_valley"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warped_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "basalt_deltas"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "crimson_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "nether"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "nether_wastes"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "netherwart_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "soulsand_valley"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

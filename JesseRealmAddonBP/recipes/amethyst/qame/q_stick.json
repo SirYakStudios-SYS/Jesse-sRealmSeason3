@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_stick"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:quartz_stick",
+				"count": 4
+			}
+		]
+	}
+}

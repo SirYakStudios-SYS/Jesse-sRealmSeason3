@@ -1,0 +1,99 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:dry_thatch_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/dry_thatch.json",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "thatch_dry",
+					"render_method": "opaque",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			"tag:wood": {},
+			"minecraft:destroy_time": 0.5,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 1.0,
+				"flame_odds": 1.0
+			},
+			"minecraft:explosion_resistance": 0.2,
+			"minecraft:breathability": "solid",
+		//	"minecraft:breakonpush": false,		removed as of 1.18.30
+		//	"minecraft:immovable": false,		removed as of 1.18.30
+			"minecraft:map_color": "#63ff86",
+			
+			
+            "minecraft:on_interact": {
+				"event": "refresh",
+				"condition": "query.get_equipped_item_name('main_hand') == 'water_bucket'"
+			},
+			
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [4, 8],
+				"on_tick": {
+					"event": "combust_check",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"combust_check": {
+				
+               "randomize": [
+                    {
+                        "weight": 100
+                    },
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function thatchfire"
+                            ]
+                        }
+
+                    }
+                ]				
+				
+			},
+
+			"refresh": {
+               "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+					{
+						"set_block": {
+							"block_type": "bumble:faded_thatch_block"
+						}
+					}
+				]
+            }
+			
+        }
+	}
+}

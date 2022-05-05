@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:stoicstatueprismarine1",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/stoicstatueprismarine1"
+        },
+        "geometry": {
+          "default": "geometry.stoicstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "stoicstatueprismarine1item"
+        }
+      }
+    }
+  }
+  

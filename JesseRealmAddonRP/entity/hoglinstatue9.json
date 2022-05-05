@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:hoglinstatue9",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/hoglinstatue9"
+        },
+        "geometry": {
+          "default": "geometry.hoglinstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "hoglinstatue9item"
+        }
+      }
+    }
+  }
+  

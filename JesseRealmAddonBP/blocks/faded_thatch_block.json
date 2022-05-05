@@ -1,0 +1,95 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:faded_thatch_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/faded_thatch.json",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "thatch_faded",
+					"render_method": "opaque",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			"tag:wood": {},
+			"minecraft:destroy_time": 0.5,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 1
+			},
+			"minecraft:explosion_resistance": 0.2,
+			"minecraft:breathability": "solid",
+		//	"minecraft:breakonpush": false,		removed as of 1.18.30
+		//	"minecraft:immovable": false,		removed as of 1.18.30
+			"minecraft:map_color": "#63ff86",
+			
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [4, 8],
+				"on_tick": {
+					"event": "dry_out",
+					"target": "self"
+				}
+			},
+            "minecraft:on_interact": {
+				"event": "refresh",
+				"condition": "query.get_equipped_item_name('main_hand') == 'water_bucket'"
+			}
+		},
+		"events": {
+			"dry_out": {
+				
+               "randomize": [
+                    {
+                        "weight": 1000
+                    },
+                    {
+                        "weight": 1,
+						"set_block": {
+							"block_type": "bumble:dry_thatch_block"
+						}
+
+                    }
+                ]				
+				
+			},
+
+			"refresh": {
+               "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+					{
+						"set_block": {
+							"block_type": "bumble:fresh_thatch_block"
+						}
+					}
+				]
+            }
+			
+        }
+	}
+}

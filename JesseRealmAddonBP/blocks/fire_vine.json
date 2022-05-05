@@ -1,0 +1,58 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:fire_vine"
+		},
+		"components": {
+		    "minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:breathability": "air",
+			"minecraft:loot": "empty",
+			"minecraft:geometry": "geometry.flora",
+			"minecraft:material_instances": {
+			    "*": {
+					"texture": "fire_vine",
+					"render_method": "alpha_test",
+	          		"ambient_occlusion": false,
+          		    "face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			},
+      "minecraft:placement_filter": {
+        "conditions": [
+           {
+            "block_filter": [
+              "minecraft:netherrack",
+              "nether:fire_vine",
+              "nether:fire_grass"],
+                    "allowed_faces": [ "up" ]
+                    }
+                ]
+            },
+            "minecraft:on_player_destroyed": {
+				"event": "shear",
+				"condition": "query.get_equipped_item_name('main_hand') == 'shears'"
+			}
+		},
+		"events": {
+			"shear": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/fire_vine.json"
+				}
+			}
+		}
+	}
+}

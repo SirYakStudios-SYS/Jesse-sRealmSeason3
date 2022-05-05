@@ -1,0 +1,19 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:raw_cobalt",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sp_raw_cobalt"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Cobalt"
+			}
+		},
+		"events": {}
+	}
+}

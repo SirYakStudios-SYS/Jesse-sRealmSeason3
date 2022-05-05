@@ -1,0 +1,101 @@
+{
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					0,
+					1,
+					2
+				]
+			},
+			"identifier": "m:jade_pillars"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jade_pillar_side"
+				},
+				"up": {
+					"texture": "jade_pillar_top"
+				},
+				"down": {
+					"texture": "jade_pillar_top"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.block",
+				"category": "construction"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "math.floor(query.block_face/2)"
+				}
+			}
+		}
+	},
+	"format_version": "1.17.0"
+}

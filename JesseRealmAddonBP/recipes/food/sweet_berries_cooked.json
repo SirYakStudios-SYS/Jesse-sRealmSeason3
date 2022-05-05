@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "guardian:sweet_berries_cooked"
+    },
+    "tags": [
+      "smoker",
+      "campfire"
+    ],
+    "input": "minecraft:sweet_berries",
+    "output": "guardian:sweet_raisin"
+  }
+}

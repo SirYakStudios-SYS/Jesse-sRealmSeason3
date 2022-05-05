@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:francium_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "francium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Francium Ingot\n§4WARNING:HIGHLY UNSTABLE\n§cingot will explode in 30 seconds \n§7Used for: \n-Tools \n-Francium Bundle \n-Explosive Core  \n§eFound? \n§7Y=10 - 100 \n§eEnd"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

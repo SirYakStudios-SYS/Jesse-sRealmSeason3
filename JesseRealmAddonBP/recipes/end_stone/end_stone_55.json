@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "presblock:end_stone_55"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "presblock:end_stone_5"
+      }
+    },
+    "result": [
+      {
+        "item": "presblock:end_stone_4",
+        "count": 9
+      }
+    ]
+  }
+}

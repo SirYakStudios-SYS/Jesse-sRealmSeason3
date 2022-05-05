@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:cut_sodium_lantern"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#x#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:sodium_nugget"
+			},
+			"x": {
+				"item": "minecraft:torch"
+			}
+		},
+		"result": [
+			{
+				"item": "m:cut_sodium_lantern"
+			}
+		]
+	}
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/soul_magma",
+    "atlas_tile": "soul_magma",
+    "ticks_per_frame": 10,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/crooked/crooked_stem_side",
+    "atlas_tile": "crooked_stem_side",
+    "ticks_per_frame": 15
+  },
+  {
+    "flipbook_texture": "textures/blocks/pa_infected_wood",
+    "atlas_tile": "ani_pa_infected_wood",
+    "ticks_per_frame": 42
+  },
+  {
+    "flipbook_texture": "textures/blocks/pa_ender_wood",
+    "atlas_tile": "ani_pa_ender_wood",
+    "ticks_per_frame": 42
+  },
+  {
+    "flipbook_texture": "textures/blocks/reactor/nether_reactor_off",
+    "atlas_tile": "nether_reactor_off",
+    "frames": [ 0, 1, 2, 3 ],
+    "ticks_per_frame": 8
+  },
+  {
+    "flipbook_texture": "textures/blocks/reactor/nether_reactor_on",
+    "atlas_tile": "nether_reactor_on",
+    "frames": [ 0, 1, 2, 3 ],
+    "ticks_per_frame": 8
+  },
+  {
+    "flipbook_texture": "textures/blocks/mini_cauldron",
+    "atlas_tile": "mini_cauldron",
+    "frames": [ 0, 1 ],
+    "ticks_per_frame": 4
+  },
+  {
+		"flipbook_texture": "textures/blocks/aluminum_furnace_front_on",
+		"atlas_tile": "aluminum_furnace_front_on",
+		"frames": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/tin_furnace_front_on",
+		"atlas_tile": "tin_furnace_front_on",
+		"frames": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/bronze_furnace_front_on",
+		"atlas_tile": "bronze_furnace_front_on",
+		"frames": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/lithium_tnt_bottom_on",
+		"atlas_tile": "lithium_tnt_bottom_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/lithium_tnt_top_on",
+		"atlas_tile": "lithium_tnt_top_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/lithium_tnt_side_on",
+		"atlas_tile": "lithium_tnt_side_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/sodium_tnt_bottom_on",
+		"atlas_tile": "sodium_tnt_bottom_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/sodium_tnt_top_on",
+		"atlas_tile": "sodium_tnt_top_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/sodium_tnt_side_on",
+		"atlas_tile": "sodium_tnt_side_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/cesium_tnt_bottom_on",
+		"atlas_tile": "cesium_tnt_bottom_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/cesium_tnt_top_on",
+		"atlas_tile": "cesium_tnt_top_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	},
+	{
+		"flipbook_texture": "textures/blocks/cesium_tnt_side_on",
+		"atlas_tile": "cesium_tnt_side_on",
+		"frames": [
+			0,
+			1,
+			0,
+			1
+		],
+		"ticks_per_frame": 10
+	}
+]

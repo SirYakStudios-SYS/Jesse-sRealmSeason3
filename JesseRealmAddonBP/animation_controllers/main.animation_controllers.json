@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.rotten_boomerang.return": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"teleport_to_closest_player": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^0.075 ^0.75 facing @p[tag=rotten_boomerang,c=1]"
+					]
+				},
+				"teleport_to_closest_player": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^0.075 ^0.75 facing @p[tag=rotten_boomerang,c=1]"
+					]
+				}
+			}
+		}
+	}
+}

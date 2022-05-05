@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nether:lava_turtle_helmet_item",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_head"
+			},
+			"minecraft:armor": {
+				"protection": 2
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"dispensable": true
+			},
+			"minecraft:durability": {
+              "max_durability": 276,
+                "damage_chance": {
+                  "min": 60,
+                  "max": 100
+              }
+            },
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:icon": {
+				"texture": "lava_turtle_helmet_item"
+			},
+			"minecraft:render_offsets": "helmets"
+		}
+	}
+}

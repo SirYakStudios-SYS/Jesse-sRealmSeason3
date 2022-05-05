@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:brown_stonebrick_carved_slab_14"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "stonebrick:stonebrick_carved_slab",
+               "data": 0
+           }
+       ],
+       "result": {
+           "item": "stonebrick:brown_stonebrick_carved_slab_14",
+           "count": 1
+       }
+   }
+}

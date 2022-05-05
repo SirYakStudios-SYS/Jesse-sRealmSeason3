@@ -1,0 +1,51 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.17.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "mv:grass_with_flowers_patch_snap_to_floor_feature_rule",
+			"places_feature": "mv:grass_with_flowers_patch_snap_to_floor_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "revamped_birch"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "birch"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": "math.random_integer(3,10)",
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					50,
+					90
+				]
+			},
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

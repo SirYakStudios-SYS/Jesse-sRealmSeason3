@@ -1,0 +1,38 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:regal_cheese"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#H#",
+			"GGG",
+			"OOO"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glass"
+			},
+			"G": {
+				"item": "minecraft:bucket",
+				"data": 1
+			},
+			"O": {
+				"item": "minecraft:stone"
+			},
+			"H": {
+				"item": "sp:cheese"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:regal_cheese",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:enchanted_copper_apple"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:copper_block"
+			},
+			"X": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "sp:enchanted_copper_apple"
+		}
+	}
+}

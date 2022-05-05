@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "sp:visinium_from_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "sp:endstone_visinium_ore",
+		"output": "sp:visinium_ingot"
+	}
+}

@@ -1,0 +1,1720 @@
+{
+	"entity": {
+		"BP/entities/kb.json": {
+			"events": [
+				"despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ray:kb"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/item.json": {
+			"events": [
+				"netherite_test",
+				"add_r"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:item"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/pigga.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"spawn_adult_no_hunting",
+				"spawn_adult",
+				"spawn_adult_ranged",
+				"spawn_adult_ranged_no_hunting",
+				"spawn_adult_melee",
+				"spawn_adult_melee_no_hunting",
+				"spawn_baby",
+				"stop_zombification_event",
+				"start_zombification_event",
+				"become_angry_event",
+				"become_calm_event",
+				"attack_cooldown_complete_event",
+				"become_zombie_event",
+				"important_block_destroyed_event",
+				"admire_item_started_event",
+				"admire_item_stopped_event"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:piglin"
+			],
+			"animation_references": [],
+			"families": [
+				"piglin",
+				"piglin_hunter",
+				"monster",
+				"piglin",
+				"monster"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/zombie.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:as_adult",
+				"minecraft:as_baby",
+				"minecraft:start_transforming",
+				"minecraft:stop_transforming",
+				"minecraft:convert_to_drowned",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:zombie"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/phantom.json": {
+			"events": [
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:phantom"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/ravager.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:spawn_for_raid",
+				"minecraft:spawn_for_raid_with_evoker_rider",
+				"minecraft:spawn_for_raid_with_pillager_rider",
+				"minecraft:spawn_with_pillager_rider",
+				"minecraft:spawn_with_pillager_captain_rider",
+				"minecraft:spawn_with_vindicator_rider",
+				"minecraft:spawn_with_vindicator_captain_rider",
+				"minecraft:become_stunned",
+				"minecraft:start_roar",
+				"minecraft:end_roar",
+				"minecraft:start_celebrating",
+				"minecraft:stop_celebrating",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:ravager"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"monster",
+				"illager",
+				"ravager",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/blaze.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"switch_to_melee",
+				"switch_to_ranged",
+				"minecraft:on_hurt_event"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:blaze"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"blaze",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/hoglin.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"spawn_adult",
+				"spawn_baby",
+				"stop_zombification_event",
+				"become_zombie_event",
+				"start_zombification_event",
+				"spawn_adult_unhuntable",
+				"minecraft:ageable_grow_up",
+				"become_angry_event",
+				"become_calm_event",
+				"escaped_event",
+				"attack_cooldown_complete_event",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:hoglin"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"hoglin",
+				"hoglin_baby",
+				"mob",
+				"hoglin",
+				"hoglin_adult",
+				"mob",
+				"hoglin",
+				"hoglin_adult",
+				"hoglin_huntable",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/magma.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_calm",
+				"minecraft:become_aggressive"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:magma_cube"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"magmacube",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/slime.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_calm",
+				"minecraft:become_aggressive"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:slime"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"slime",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/pigman.json": {
+			"events": [
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:spawn_as_strider_jockey",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:zombie_pigman"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"zombie_pigman",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/enderman.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:enderman"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"enderman",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/spider.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_hostile",
+				"minecraft:become_neutral",
+				"minecraft:become_angry",
+				"minecraft:become_calm",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:spider"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"spider",
+				"monster",
+				"mob",
+				"arthropod"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/cave_spider.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_hostile",
+				"minecraft:become_neutral",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:cave_spider"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"cavespider",
+				"monster",
+				"arthropod",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/vex.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:vex"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"vex",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/drowned.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:as_baby",
+				"minecraft:as_adult",
+				"minecraft:switch_to_melee",
+				"minecraft:switch_to_ranged",
+				"minecraft:has_target",
+				"minecraft:lost_target",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:drowned"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"drowned",
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/piglin_brute.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"stop_zombification_event",
+				"start_zombification_event",
+				"become_angry_event",
+				"become_calm_event",
+				"become_zombie_event",
+				"important_block_destroyed_event",
+				"go_back_to_spawn_failed"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:piglin_brute"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"piglin",
+				"adult_piglin",
+				"piglin_brute",
+				"monster"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/piglin.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"spawn_adult_no_hunting",
+				"spawn_adult",
+				"spawn_adult_ranged",
+				"spawn_adult_ranged_no_hunting",
+				"spawn_adult_melee",
+				"spawn_adult_melee_no_hunting",
+				"spawn_baby",
+				"stop_zombification_event",
+				"start_zombification_event",
+				"become_angry_event",
+				"become_calm_event",
+				"attack_cooldown_complete_event",
+				"become_zombie_event",
+				"important_block_destroyed_event",
+				"admire_item_started_event",
+				"admire_item_stopped_event",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:piglin"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"piglin",
+				"piglin_hunter",
+				"monster",
+				"piglin",
+				"monster"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/husk.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:start_transforming",
+				"minecraft:stop_transforming",
+				"minecraft:convert_to_zombie",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:husk"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"husk",
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/luz.json": {
+			"events": [
+				"light",
+				"despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ray:shield_luz"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/vindicator.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:spawn_as_patrol_follower",
+				"minecraft:become_aggro",
+				"minecraft:stop_aggro",
+				"minecraft:start_johnny",
+				"minecraft:stop_johnny",
+				"minecraft:spawn_for_raid",
+				"minecraft:spawn_as_illager_captain",
+				"minecraft:promote_to_illager_captain",
+				"minecraft:promote_to_patrol_captain",
+				"minecraft:start_celebrating",
+				"minecraft:stop_celebrating",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:vindicator"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"vindicator",
+				"monster",
+				"illager",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/wither_skeleton.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:wither_skeleton"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"wither",
+				"monster",
+				"undead",
+				"skeleton",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/zombie_villager.json": {
+			"events": [
+				"villager_converted",
+				"minecraft:entity_spawned",
+				"minecraft:entity_transformed",
+				"minecraft:become_cleric",
+				"from_village",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:zombie_villager"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"farmer",
+				"zombie",
+				"zombie_villager",
+				"undead",
+				"monster",
+				"mob",
+				"fisherman",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"shepherd",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"fletcher",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"librarian",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"cartographer",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"cleric",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"armorer",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"weaponsmith",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"toolsmith",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"butcher",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob",
+				"leatherworker",
+				"zombie_villager",
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/brute.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"stop_zombification_event",
+				"start_zombification_event",
+				"become_angry_event",
+				"become_calm_event",
+				"become_zombie_event",
+				"important_block_destroyed_event",
+				"go_back_to_spawn_failed",
+				"slime",
+				"slime_add",
+				"magma",
+				"magma_add",
+				"shulker",
+				"shulker_add",
+				"evocation",
+				"evocation_add",
+				"amethyst",
+				"amethyst_add",
+				"iron",
+				"iron_add",
+				"cactus_add",
+				"cactus",
+				"sneak_remove",
+				"sneak",
+				"copper",
+				"copper_add"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:piglin_brute"
+			],
+			"animation_references": [
+				"atk"
+			],
+			"families": [
+				"piglin",
+				"adult_piglin",
+				"piglin_brute",
+				"monster"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/evocation_shield.json": {
+			"identifiers": [
+				"evocation:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/diamond_shield.json": {
+			"identifiers": [
+				"diamond:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cactus_shield.json": {
+			"identifiers": [
+				"cactus:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_shield.json": {
+			"identifiers": [
+				"amethyst:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/netherite_shield.json": {
+			"identifiers": [
+				"netherite_c:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/roble/roble_hierro.json": {
+			"identifiers": [
+				"roble_hierro:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/roble/roble_cobre.json": {
+			"identifiers": [
+				"roble_cobre:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/roble/roble_oro.json": {
+			"identifiers": [
+				"roble_oro:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/netherite_shield_2.json": {
+			"identifiers": [
+				"netherite_w:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woood_shield.json": {
+			"identifiers": [
+				"log:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gold_combat_shield.json": {
+			"identifiers": [
+				"gold_black:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/light_shield.json": {
+			"identifiers": [
+				"light:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_shield.json": {
+			"identifiers": [
+				"iron:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woooden_shield.json": {
+			"identifiers": [
+				"wooden:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slime_shield.json": {
+			"identifiers": [
+				"slime:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shulker_shield.json": {
+			"identifiers": [
+				"shulker:shield"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magma_shield.json": {
+			"identifiers": [
+				"magma:shield"
+			],
+			"custom_commands": []
+		}
+	},
+	"attachable": {
+		"RP/attachables/evocation_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/evocation_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/diamond_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/cactus_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/amethyst_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/netherite_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/oak_iron_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/oak_copper_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/oak_gold_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/netherite_shield_2.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/wood_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/gold_combat_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/light_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/iron_shield.entity.json": {
+			"texture_references": [
+				"enchanted",
+				"default"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/magma_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/amethyst_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/wooden_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/log_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/cactus_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/iron_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/diamond_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/gold_black_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/netherite_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/netherite_2shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/light_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/shulker_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/slimne_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/roble_hierro_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/roble_oro_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/roble_cobre_shield.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"function": {
+		"1d774ade_4874_4057_9c02_9d6e5244a3dd": {},
+		"BP/functions/tick.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"summon",
+				"luz2",
+				"tick"
+			]
+		},
+		"a16aa0de_9314_4514_8ddf_b7811519ec41": {},
+		"a55e5ef7_f425_4a14_84be_cb6875eb1358": {
+			"tags": [
+				"netherite"
+			]
+		},
+		"eafb35f3_ca5e_4cfb_aa0e_c771291ff88d": {},
+		"BP/functions/atk.mcfunction": {
+			"custom_commands": []
+		},
+		"449080be_bdf2_42a5_a3c0_249cd1ddb693": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"d18157e2_41fd_43cd_a236_b534c77a81b2": {},
+		"55d2b681_7605_4bee_81f8_e34e0cd37891": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"3cae8f15_112d_4d7f_b0ed_f829482909c6": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"61a5318f_1032_4a07_9944_e896094cae7d": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"94d42f05_213d_4096_b29f_43e6cee7fbe8": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"823b69b5_1b30_41ea_a9d6_12da98e0c466": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"1de7e7e4_fa36_414d_94fd_304c4c8976be": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"b6121040_32d6_49f8_91b4_98e359e91875": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"f5464204_517f_4599_8a3b_140e54dd2ce0": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"aaad07ea_0a3b_4105_befa_11f8965da269": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"b4e35b89_ea98_4f03_915e_1f2ed5e68f8d": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"09c16970_e86c_4e25_bc2f_b68d7bc01f85": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"b91d1f66_c35c_44dc_90bd_8a7609692330": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"e70a7d66_d0cb_4419_8c30_17cd3f4e017f": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		},
+		"d60d00a9_3ce1_4bc2_91f6_dbce346b1f3d": {
+			"tags": [
+				"magma",
+				"slime",
+				"evocation",
+				"shulker",
+				"amethyst",
+				"iron",
+				"cactus",
+				"copper"
+			]
+		}
+	},
+	"recipe": {
+		"BP/recipes/roble_cobre.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/roble_oro.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/roble_hierro.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/amethyst_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/cactus_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/evocation_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/iron_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/light_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/magma_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/shulker_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/slime_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/wood_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/wooden_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/diamond_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/gold_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/netherite_shield.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/netherite_shield_2.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"client_entity": {},
+	"animation_controller": {
+		"BP/animation_controllers/attacking.json": {
+			"ids": [
+				"controller.animation.attacking"
+			],
+			"custom_commands": []
+		}
+	}
+}

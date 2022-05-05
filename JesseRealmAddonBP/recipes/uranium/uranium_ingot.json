@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:uranium_ingot_1"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"###",
+			"# G",
+			"GGG"
+		],
+		"key": {
+			"#": {
+				"item": "sp:uranium_scrap"
+			},
+			"G": {
+				"item": "sp:sulfur"
+			}
+		},
+		"result": {
+			"item": "sp:refined_uranium",
+			"count": 1
+		}
+	}
+}

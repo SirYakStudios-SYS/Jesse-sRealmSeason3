@@ -1,0 +1,60 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:sweet_rose_gold_berry",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sweet_Rose_Gold_berries"
+			},
+			"minecraft:display_name": {
+				"value": "Sweet Rose Gold Berry \n§7Effects: \n-Regeneration III (2:30) \n-Absorption III (5:00) \n-Jump Boost III (2:00)"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 10,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consume"
+				}
+			}
+		},
+		"events": {
+			"consume": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 150,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 300,
+							"amplifier": 2,
+							"target": "holder",
+							"effect": "absorption"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 120,
+							"amplifier": 2,
+							"target": "holder",
+							"effect": "jump_boost"
+						}
+					}
+				]
+			}
+		}
+	}
+}

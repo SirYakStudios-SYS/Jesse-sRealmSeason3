@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:irongolemstatue4"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "irongolemstatue4item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:irongolemstatue4"
+        }
+      }
+    }
+  }

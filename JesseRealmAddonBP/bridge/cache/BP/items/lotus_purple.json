@@ -1,0 +1,178 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\items\\lotus_purple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "84fb8552_0bb4_4879_bccb_be1aaaf77ffe",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mv:lotus_purple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false,
+							"minecraft:render_offsets": "flowers",
+							"minecraft:icon": {
+								"texture": "lotus_purple"
+							},
+							"minecraft:block_placer": {
+								"use_block_description": true,
+								"block": "mv:lotus_purplea"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.flower"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:lotus_purple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:render_offsets": "flowers",
+								"minecraft:icon": {
+									"texture": "lotus_purple"
+								},
+								"minecraft:block_placer": {
+									"use_block_description": true,
+									"block": "mv:lotus_purplea"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.flower"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:lotus_purple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:lotus_purple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:render_offsets": "flowers",
+								"minecraft:icon": {
+									"texture": "lotus_purple"
+								},
+								"minecraft:block_placer": {
+									"use_block_description": true,
+									"block": "mv:lotus_purplea"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.flower"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"data": "flowers",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:foil": false,
+									"minecraft:render_offsets": "flowers",
+									"minecraft:icon": {
+										"texture": "lotus_purple"
+									},
+									"minecraft:block_placer": {
+										"use_block_description": true,
+										"block": "mv:lotus_purplea"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.flower"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "lotus_purple"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:foil": false,
+									"minecraft:render_offsets": "flowers",
+									"minecraft:icon": {
+										"texture": "lotus_purple"
+									},
+									"minecraft:block_placer": {
+										"use_block_description": true,
+										"block": "mv:lotus_purplea"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.flower"
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"use_block_description": true,
+									"block": "mv:lotus_purplea"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:foil": false,
+									"minecraft:render_offsets": "flowers",
+									"minecraft:icon": {
+										"texture": "lotus_purple"
+									},
+									"minecraft:block_placer": {
+										"use_block_description": true,
+										"block": "mv:lotus_purplea"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.flower"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.flower"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

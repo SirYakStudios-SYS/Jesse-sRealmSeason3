@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:rabbitstatue3"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "rabbitstatue3item"
+        },
+        "minecraft:fuel": {
+          "duration": 120.0
+       },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:rabbitstatue3"
+        }
+      }
+    }
+  }

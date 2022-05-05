@@ -1,0 +1,61 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.trident_particle": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"trident": "1.0"
+						}
+					]
+				},
+				"trident": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry":[
+						"@s new:particle"
+					]
+				}
+			}
+		},
+		"controller.animation.fire_inmune": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"trident": "1.0"
+						}
+					]
+				},
+				"trident": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry":[
+						"/tag @s[name=\"Netherite Trident Edge\"] add fire_inmune",
+                        "/tag @s[name=\"Netherite Trident\"] add fire_inmune",
+                        "/tag @s[name=\"Netherite Miner Trident\"] add fire_inmune",
+                        "/tag @s[name=\"Netherite Miner Trident Edge\"] add fire_inmune",
+
+                        "/tag @s[name=\"Obsidian Trident Edge\"] add fire_inmune",
+                        "/tag @s[name=\"Obsidian Trident\"] add fire_inmune",
+
+                        "/tag @s[name=\"Filo de Tridente de Netherite\"] add fire_inmune",
+                        "/tag @s[name=\"Filo de Tridente de Netherite\"] add fire_inmune",
+                        "/tag @s[name=\"Tridente de Netherite\"] add fire_inmune",
+                        "/tag @s[name=\"Filo de Tridente Minero de Netherite\"] add fire_inmune",
+
+                        "/tag @s[name=\"Filo de Tridente de Obsidiana\"] add fire_inmune",
+                        "/tag @s[name=\"Tridente de Obsidiana\"] add fire_inmune"
+					]
+				}
+			}
+		}
+	}
+}

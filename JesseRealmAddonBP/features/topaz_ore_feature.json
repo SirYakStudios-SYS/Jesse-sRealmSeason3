@@ -1,0 +1,67 @@
+{
+	"format_version": "1.18.0",
+
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "sp:topaz_ore_feature"
+		},
+
+		"count": 8,
+		"discard_chance_on_air_exposure": 0.5,
+		"replace_rules": [
+			{
+				"places_block": "sp:topaz_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states" : {
+							"stone_type": "stone"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:andesite_topaz_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "andesite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:diorite_topaz_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "diorite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:granite_topaz_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "granite"
+						}
+					}
+				]
+			},
+			{
+				"places_block": "sp:deepslate_topaz_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate",
+						"states" : {}
+					}
+				]
+			}
+		]
+	}
+}

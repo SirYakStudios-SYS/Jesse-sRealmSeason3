@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "wb:air_exp"
+		},
+		"components": {
+			"minecraft:creative_category": {
+                "category": "null"
+            },
+			"minecraft:destroy_time": 999999,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "air",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:on_placed": {
+				"event": "cbw:break",
+				"target": "self"
+			},
+			"minecraft:ticking": {
+				"range": [0.1,0.1],
+				"on_tick": {
+				  "event": "death_gem",
+				  "target": "self"
+				}
+			  },
+			"minecraft:pick_collision": false,
+			"minecraft:entity_collision": false
+		},
+		"events": {
+			"cbw:break": {
+				"run_command": {
+					"command": [
+						"summon xp_orb",
+						"setblock ~ ~ ~ air 0"
+					]
+				}
+			}
+		}
+	}
+}

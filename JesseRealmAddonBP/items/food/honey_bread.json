@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:honey_bread"
+    },
+
+    "components": {
+      "minecraft:use_duration": 40,
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": "normal"
+      }
+    }
+  }
+}

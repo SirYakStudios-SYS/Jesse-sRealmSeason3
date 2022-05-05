@@ -1,0 +1,17 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.17.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "mv:lotus_white_feature"
+		},
+		"places_block": {
+			"name": "mv:lotus_whitea"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

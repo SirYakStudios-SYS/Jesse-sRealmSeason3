@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:purple_stonebrick_11"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "minecraft:stonebrick",
+               "data": 0
+           }
+       ],
+       "result": {
+           "item": "stonebrick:purple_stonebrick_11",
+           "count": 1
+       }
+   }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version":"1.12.0",
+  "minecraft:block":{
+    "description":{
+      "identifier":"nether:fire_grass",
+      "register_to_creative_menu":true,
+      "is_experimental":false
+    },
+    "components":{
+      "minecraft:destroy_time":1,
+        "minecraft:creative_category": {
+          "group": "itemGroup.name.nature",
+		  "category": "nature"
+		},
+      "minecraft:map_color":"#C8371F",
+      "minecraft:loot":"loot_tables/blocks/netherrack.json",
+      "minecraft:explosion_resistance":1,
+        "minecraft:on_interact": {
+			"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shovel')",
+			"event": "nether:fire_path"
+            }
+        },
+		"events": {
+			"nether:fire_path": {
+				"set_block": {
+					"block_type": "nether:fire_path"
+				},
+                "damage": {
+                    "amount": 1,
+                    "type": "durability",
+                    "target": "item"
+                }
+			}
+		}
+    }
+}

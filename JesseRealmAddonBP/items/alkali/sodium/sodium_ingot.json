@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:sodium_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sodium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Sodium Ingot \n§7Used for: \n-Decoration \n-Explosives \n§eFound? \n§7Y=-20 - 40 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

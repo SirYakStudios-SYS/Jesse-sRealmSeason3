@@ -1,0 +1,13 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:iron_coin",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "iron_coin",
+                "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

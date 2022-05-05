@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"geometry.taigabear": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3.5,
+		"visible_bounds_offset": [0, 1.25, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [-2, 15, 12]
+			},
+			{
+				"name": "body2",
+				"parent": "body",
+				"pivot": [-2, 14, 8],
+				"rotation": [90, 0, 0],
+				"cubes": [
+					{"origin": [-9.5, 8, 1], "size": [19, 26, 13], "uv": [0, 25]}
+				]
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0, 12, -11],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-6.5, 7, -20], "size": [13, 10, 9], "uv": [0, 6], "mirror": false},
+					{"origin": [-7.5, 15, -18], "size": [5, 4, 1], "uv": [52, 25], "mirror": false},
+					{"origin": [2.5, 15, -18], "size": [5, 4, 1], "uv": [52, 25], "mirror": false},
+					{"origin": [-3.5, 7, -22], "size": [7, 5, 2], "uv": [45, 16], "mirror": false}
+				],
+				"locators": {
+					"lead": [0, 12, -16]
+				}
+			},
+			{
+				"name": "leg0",
+				"parent": "body",
+				"pivot": [-6.5, 10, 10],
+				"cubes": [
+					{"origin": [-8.5, 0, 6.5], "size": [6, 9, 6], "uv": [40, 0]}
+				]
+			},
+			{
+				"name": "leg1",
+				"parent": "body",
+				"pivot": [6.5, 10, 10],
+				"cubes": [
+					{"origin": [2.5, 0, 6.5], "size": [6, 9, 6], "uv": [40, 0]}
+				]
+			},
+			{
+				"name": "leg2",
+				"parent": "body",
+				"pivot": [-5.5, 10, -7],
+				"cubes": [
+					{"origin": [-8.5, 0, -10.5], "size": [6, 9, 6], "uv": [40, 0]}
+				]
+			},
+			{
+				"name": "leg3",
+				"parent": "body",
+				"pivot": [5.5, 10, -7],
+				"cubes": [
+					{"origin": [2.5, 0, -10.5], "size": [6, 9, 6], "uv": [40, 0]}
+				]
+			}
+		]
+	}
+}

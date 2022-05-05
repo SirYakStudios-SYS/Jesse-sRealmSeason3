@@ -1,0 +1,82 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.old.strider",
+				"texture_width": 68,
+				"texture_height": 52,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "right_leg",
+					"pivot": [-4, 16, 0],
+					"cubes": [
+						{"origin": [-5, 0, -1], "size": [2, 10, 2], "uv": [0, 15]},
+						{"origin": [4, 0, 5], "size": [2, 10, 2], "uv": [0, 15]},
+						{"origin": [4, 0, -7], "size": [2, 10, 2], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"pivot": [4, 16, 0],
+					"cubes": [
+						{"origin": [4, 0, -1], "size": [2, 10, 2], "uv": [0, 15]},
+						{"origin": [-5, 0, 5], "size": [2, 10, 2], "uv": [0, 15]},
+						{"origin": [-5, 0, -7], "size": [2, 10, 2], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "head",
+					"pivot": [0, 15, 5],
+					"cubes": [
+						{"origin": [-5, 5, -13], "size": [10, 12, 3], "uv": [0, 0]},
+						{"origin": [-5, 12, -14], "size": [10, 5, 1], "uv": [2, 2]},
+						{"origin": [-5, 11, -13], "size": [0, 4, 2], "pivot": [-5, 15, -11], "rotation": [0, 0, 25], "uv": [0, 27]},
+						{"origin": [5, 11, -13], "size": [0, 4, 2], "pivot": [5, 15, -11], "rotation": [0, 0, -25], "uv": [0, 27], "mirror": true},
+						{"origin": [-2, 6, -14], "size": [4, 2, 1], "uv": [53, 0]},
+						{"origin": [-6, 5, 10], "size": [12, 13, 3], "uv": [26, 0]},
+						{"origin": [-3, 5, 13], "size": [6, 10, 3], "uv": [48, 23]},
+						{"origin": [-7, 4, -10], "size": [14, 16, 20], "uv": [0, 16]}
+					],
+					"locators": {
+						"lead": [0, 14, 4]
+					}
+				},
+				{
+					"name": "bristle5",
+					"parent": "head",
+					"pivot": [8, 18, 5]
+				},
+				{
+					"name": "bristle4",
+					"parent": "head",
+					"pivot": [8, 23, 5]
+				},
+				{
+					"name": "bristle3",
+					"parent": "head",
+					"pivot": [8, 27, 5]
+				},
+				{
+					"name": "bristle2",
+					"parent": "head",
+					"pivot": [-8, 27, 5]
+				},
+				{
+					"name": "bristle1",
+					"parent": "head",
+					"pivot": [-8, 23, 5]
+				},
+				{
+					"name": "bristle0",
+					"parent": "head",
+					"pivot": [-8, 18, 5]
+				}
+			]
+		}
+	]
+}

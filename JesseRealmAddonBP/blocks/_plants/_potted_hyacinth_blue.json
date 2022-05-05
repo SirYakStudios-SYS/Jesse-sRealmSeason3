@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:pot_hyacinth_blue"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.bum_flower_pot",
+			"minecraft:breathability": "air",
+			"minecraft:pick_collision": {
+				"origin": [-3, 0, -3],
+				"size": [6, 6, 6]
+			},
+			"minecraft:entity_collision": {
+				"origin": [-3, 0, -3],
+				"size": [6, 6, 6]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bum_pot_hyacinth_blue",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:loot": "loot_tables/plants/potted_hyacinth_blue.json"
+		}
+	}
+}

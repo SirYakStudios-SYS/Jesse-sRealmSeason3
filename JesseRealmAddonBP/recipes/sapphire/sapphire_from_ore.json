@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "sp:sapphire_from_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "sp:sapphire_ore",
+		"output": "sp:sapphire"
+	}
+}

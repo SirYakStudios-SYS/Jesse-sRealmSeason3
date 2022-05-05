@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:crystallizeddiamond_shard_to_cut"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "m:crystallized_diamond_shard"
+			}
+		],
+		"result": [
+			{
+				"item": "m:cut_crystallized_diamond_shard"
+			}
+		]
+	}
+}

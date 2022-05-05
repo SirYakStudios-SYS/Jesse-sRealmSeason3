@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:cut_lithium_chains"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"x",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "m:lithium_nugget"
+			},
+			"x": {
+				"item": "m:lithium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:cut_lithium_chains"
+			}
+		]
+	}
+}

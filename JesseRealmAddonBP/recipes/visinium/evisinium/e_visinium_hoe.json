@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:ender_visinium_hoe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "sp:ender_stick"
+			},
+			"X": {
+				"item": "sp:visinium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:ender_visinium_hoe",
+				"count": 1
+			}
+		]
+	}
+}

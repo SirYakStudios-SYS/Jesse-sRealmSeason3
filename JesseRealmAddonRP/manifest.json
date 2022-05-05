@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 2,
+	"header": {
+		"description": "§6An AddonPack built for Jesse's Realm Season 3,\n§acreated/compiled by SirYakStudios",
+		"name": "§l§bJesseRealmS3 RP",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			14,
+			0
+		],
+		"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+	},
+	"modules": [
+		{
+			"description": "JesseRealmS3 Resource Pack",
+			"type": "resources",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e"
+		}
+	]
+}

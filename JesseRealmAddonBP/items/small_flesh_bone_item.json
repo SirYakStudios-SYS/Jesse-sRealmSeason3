@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nether:small_flesh_bone_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"use_block_description": true,
+				"block": "nether:small_flesh_bone_block"
+			},
+			"minecraft:icon": {
+				"texture": "small_flesh_bone_block_item"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.grass"
+			}
+		}
+	}
+}

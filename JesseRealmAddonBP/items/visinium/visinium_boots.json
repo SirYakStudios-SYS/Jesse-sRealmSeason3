@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:visinium_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 19,
+				"slot": "armor_feet"
+			},
+			"minecraft:display_name": {
+				"value": "Visinium Boots"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:visinium_boots",
+							"sp:visinium_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 388,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.13
+			},
+			"minecraft:icon": {
+				"texture": "sp_visinium_boots"
+			},
+			"minecraft:render_offsets": "boots",
+			"minecraft:armor": {
+				"protection": 4
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			}
+		},
+		"events": {}
+	}
+}//MCPEDL:SorYPMod

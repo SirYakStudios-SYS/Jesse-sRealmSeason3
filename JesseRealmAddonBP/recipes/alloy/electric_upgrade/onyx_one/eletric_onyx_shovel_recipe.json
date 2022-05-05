@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:eletric_onyx_recipe_shovel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#+#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:electrum_nugget"
+			},
+			"+": {
+				"item": "m:onyx_shovel"
+			}
+		},
+		"result": [
+			{
+				"item": "m:electric_onyx_shovel"
+			}
+		]
+	}
+}

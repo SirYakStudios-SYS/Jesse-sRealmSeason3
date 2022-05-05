@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:magma_cream_sword"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"X",
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blaze_rod"
+			},
+			"X": {
+				"item": "minecraft:magma_cream"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:magma_cream_sword",
+				"count": 1
+			}
+		]
+	}
+}

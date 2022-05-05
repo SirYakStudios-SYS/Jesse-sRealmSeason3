@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:gunpowder_sulphur"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:coal"
+			},
+			"Y": {
+				"item": "sp:sulfur"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:gunpowder",
+				"count": 4
+			}
+		]
+	}
+}

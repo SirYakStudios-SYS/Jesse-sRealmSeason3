@@ -1,0 +1,30 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:bed_orange_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "###", 
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_planks",
+                "data": 0
+            },
+            "#": {
+                "item": "minecraft:wool",
+                "data": 1
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:bed",
+                "data": 1,
+				"count": 1
+			}
+		]
+    }
+}

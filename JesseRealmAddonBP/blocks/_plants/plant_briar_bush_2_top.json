@@ -1,0 +1,50 @@
+
+
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:briar_bush_2_top"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.crop.cross",
+            "minecraft:entity_collision": false,
+            "minecraft:pick_collision": {
+                "origin": [-8,0,-8],
+                "size": [0,0,0]
+            },
+            "minecraft:breathability": "air",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "briar_bush_top",
+					"render_method": "alpha_test"
+				}
+			},
+            "minecraft:destroy_time": 1.5,
+            "minecraft:block_light_absorption": 0.0,
+			"minecraft:loot": "loot_tables/plants/plant_briar_bush.json",
+			
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["bumble:briar_bush_2"]
+                    }
+                ]
+            },
+			"minecraft:on_player_destroyed": {
+				"event": "reset_bottom"
+			}
+        },
+		
+		"events": {
+			
+			"reset_bottom": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:air",
+					"block_offset": [0,-1,0]
+				}
+            }
+        }
+    }
+}

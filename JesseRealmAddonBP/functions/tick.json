@@ -1,0 +1,14 @@
+{
+	"values": [
+		"blockarmorrun",
+		"effectcheck",
+		"fog",
+		"main",
+		"warden_armor",
+		"tick",
+		"nocommandspog",
+		"countdown",
+		"self_destruct",
+		"timerloop"
+	]
+}

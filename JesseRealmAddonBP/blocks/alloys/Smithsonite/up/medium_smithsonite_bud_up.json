@@ -1,0 +1,41 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:medium_smithsonite_bud"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "medium_smithsonite_bud"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					7,
+					6
+				]
+			},
+			"minecraft:geometry": "geometry.crooos",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.6,
+			"minecraft:entity_collision": false,
+			"minecraft:loot": "empty"
+		},
+		"events": {
+			"pick": {
+				"spawn_loot": {
+					"table": "loot_tables/crystalized_diamond_drop_2.json"
+				}
+			}
+		}
+	}
+}

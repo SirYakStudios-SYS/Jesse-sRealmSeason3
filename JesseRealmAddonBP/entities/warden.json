@@ -1,0 +1,478 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mv:warden",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"minecraft:emerge_animation": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						5.5,
+						5.5
+					],
+					"time_down_event": {
+						"event": "minecraft:on_finished_animation"
+					}
+				},
+				"minecraft:can_power_jump": {}
+			},
+			"minecraft:warden_components": {
+				"minecraft:experience_reward": {
+					"on_death": "query.last_hit_by_player ? 15 : 0"
+				},
+				"minecraft:on_target_acquired": {
+					"event": "minecraft:on_target_acquired_event"
+				},
+				"minecraft:type_family": {
+					"family": [
+						"warden",
+						"monster",
+						"mob"
+					]
+				},
+				"minecraft:breathable": {
+					"total_supply": 25,
+					"suffocate_time": 0,
+					"breathes_air": true,
+					"breathes_water": true
+				},
+				"minecraft:nameable": {},
+				"minecraft:attack": {
+					"damage": {
+						"range_min": 60,
+						"range_max": 65
+					}
+				},
+				"minecraft:movement": {
+					"value": 0.25
+				},
+				"minecraft:health": {
+					"value": 100,
+					"max": 100
+				},
+				"minecraft:collision_box": {
+					"width": 1.4,
+					"height": 2.9
+				},
+				"minecraft:movement.basic": {},
+				"minecraft:navigation.walk": {
+					"can_path_over_water": false,
+					"avoid_water": true,
+					"avoid_damage_blocks": true
+				},
+				"minecraft:jump.static": {},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"cause": "fall",
+						"deals_damage": true
+					}
+				},
+				"minecraft:behavior.float": {
+					"priority": 0
+				},
+				"minecraft:can_climb": {},
+				"minecraft:behavior.hurt_by_target": {
+					"priority": 1,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"operator": "!=",
+								"value": "warden"
+							},
+							"max_dist": 64
+						}
+					]
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 8,
+					"speed_multiplier": 0.8
+				},
+				"minecraft:behavior.look_at_entity": {
+					"priority": 9,
+					"look_distance": 8,
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "warden"
+					}
+				},
+				"minecraft:behavior.random_look_around": {
+					"priority": 10
+				},
+				"minecraft:knockback_resistance": {
+					"value": 1
+				},
+				"minecraft:home": {
+					"home_block_list": [
+						"minecraft:sculk"
+					]
+				},
+				"minecraft:burns_in_daylight": {},
+				"minecraft:hurt_on_condition": {
+					"damage_conditions": [
+						{
+							"cause": "lava",
+							"damage_per_tick": 2,
+							"filters": {
+								"test": "in_lava",
+								"subject": "self",
+								"operator": "==",
+								"value": true
+							}
+						}
+					]
+				},
+				"minecraft:balloonable": {},
+				"minecraft:pushable": {
+					"is_pushable": true,
+					"is_pushable_by_piston": true
+				},
+				"minecraft:physics": {},
+				"minecraft:follow_range": {
+					"value": 64
+				}
+			},
+			"minecraft:dissapear": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						0,
+						0
+					],
+					"time_down_event": {
+						"event": "minecraft:start_to_vanish"
+					}
+				}
+			},
+			"minecraft:despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"minecraft:countdown_to_dissapear": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						3.6,
+						3.6
+					],
+					"time_down_event": {
+						"event": "minecraft:despawn_event"
+					}
+				}
+			},
+			"minecraft:has_target": {
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 2.5,
+					"outside_range": 7.5,
+					"on_inside_range": {
+						"event": "minecraft:decrease_speed"
+					},
+					"on_outside_range": {
+						"event": "minecraft:increase_speed"
+					}
+				},
+				"minecraft:on_target_escape": {
+					"filters": {
+						"test": "distance_to_nearest_player",
+						"operator": "==",
+						"value": 20
+					},
+					"event": "minecraft:search_for_home_event"
+				}
+			},
+			"minecraft:decreased_speed": {
+				"minecraft:movement": {
+					"value": 0.25
+				}
+			},
+			"minecraft:increased_speed": {
+				"minecraft:movement": {
+					"value": 0.3
+				}
+			},
+			"minecraft:normal_speed": {
+				"minecraft:movement": {
+					"value": 0.25
+				}
+			},
+			"minecraft:search_for_home": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 0,
+					"speed_multiplier": 0.2,
+					"on_reach": {
+						"event": "minecraft:buried_itself"
+					},
+					"target_blocks": [
+						"minecraft:sculk"
+					],
+					"goal_radius": 10,
+					"target_selection_method": "nearest",
+					"search_range": 10,
+					"search_height": 10
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {},
+			"minecraft:behavior.nearest_prioritized_attackable_target": {
+				"priority": 2,
+				"set_persistent": true,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"priority": 0,
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"any_of": [
+										{
+											"all_of": [
+												{
+													"test": "is_moving",
+													"subject": "other",
+													"operator": "==",
+													"value": true
+												},
+												{
+													"test": "is_sneaking",
+													"subject": "other",
+													"operator": "==",
+													"value": false
+												}
+											]
+										},
+										{
+											"test": "has_container_open",
+											"subject": "other",
+											"operator": "==",
+											"value": true
+										}
+									]
+								}
+							]
+						},
+						"must_see": true,
+						"max_dist": 15
+					},
+					{
+						"priority": 1,
+						"filters": {
+							"all_of": [
+								{
+									"all_of": [
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "mob"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"operator": "!=",
+											"value": "warden"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"operator": "!=",
+											"value": "player"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"operator": "!=",
+											"value": "fish"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"operator": "!=",
+											"value": "turtle"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"operator": "!=",
+											"value": "squid"
+										}
+									]
+								},
+								{
+									"any_of": [
+										{
+											"all_of": [
+												{
+													"test": "is_moving",
+													"subject": "other",
+													"operator": "==",
+													"value": true
+												},
+												{
+													"test": "is_sneaking",
+													"subject": "other",
+													"operator": "==",
+													"value": false
+												}
+											]
+										},
+										{
+											"test": "has_container_open",
+											"subject": "other",
+											"operator": "==",
+											"value": true
+										}
+									]
+								}
+							]
+						},
+						"must_see": true,
+						"max_dist": 16
+					},
+					{
+						"priority": 2,
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "sound"
+								},
+								{
+									"test": "is_underwater",
+									"subject": "other",
+									"operator": "==",
+									"value": false
+								}
+							]
+						},
+						"must_see": false,
+						"max_dist": 16
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"minecraft:emerge_animation"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:warden_components",
+						"minecraft:dissapear",
+						"minecraft:despawn"
+					]
+				}
+			},
+			"minecraft:on_finished_animation": {
+				"remove": {
+					"component_groups": [
+						"minecraft:emerge_animation"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:warden_components",
+						"minecraft:normal_speed"
+					]
+				}
+			},
+			"minecraft:start_to_vanish": {
+				"add": {
+					"component_groups": [
+						"minecraft:countdown_to_dissapear",
+						"minecraft:search_for_home"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:dissapear"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playanimation @e[type=mv:warden,r=1] animation.warden.dissapear"
+					]
+				}
+			},
+			"minecraft:buried_itself": {
+				"add": {
+					"component_groups": [
+						"minecraft:dissapear"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:warden_components",
+						"minecraft:emerge_animation"
+					]
+				}
+			},
+			"minecraft:despawn_event": {
+				"add": {
+					"component_groups": [
+						"minecraft:despawn"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:countdown_to_dissapear"
+					]
+				}
+			},
+			"minecraft:on_target_acquired_event": {
+				"add": {
+					"component_groups": [
+						"minecraft:has_target"
+					]
+				}
+			},
+			"minecraft:decrease_speed": {
+				"add": {
+					"component_groups": [
+						"minecraft:decreased_speed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:increased_speed",
+						"minecraft:normal_speed"
+					]
+				}
+			},
+			"minecraft:increase_speed": {
+				"add": {
+					"component_groups": [
+						"minecraft:increased_speed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:decreased_speed",
+						"minecraft:normal_speed"
+					]
+				}
+			},
+			"minecraft:search_for_home_event": {
+				"add": {
+					"component_groups": [
+						"minecraft:search_for_home"
+					]
+				}
+			}
+		}
+	}
+}

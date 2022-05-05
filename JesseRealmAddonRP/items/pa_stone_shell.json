@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:stone_shell",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:stone_shell",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

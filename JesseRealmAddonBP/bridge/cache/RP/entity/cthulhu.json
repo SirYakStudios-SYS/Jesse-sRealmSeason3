@@ -1,0 +1,181 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\cthulhu.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "99c556b0_07b3_4678_9bb1_37182d76a667",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:cthulhu",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/ghast/cthulu"
+							},
+							"geometry": {
+								"default": "geometry.cthulu"
+							},
+							"animations": {
+								"move": "animation.ghast.move",
+								"scale": "animation.ghast.scale"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.ghast.move"
+								},
+								{
+									"scale": "controller.animation.ghast.scale"
+								}
+							],
+							"render_controllers": [
+								"controller.render.cow"
+							],
+							"spawn_egg": {
+								"texture": "ojo"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:cthulhu",
+								"materials": {
+									"default": "entity_emissive_alpha"
+								},
+								"textures": {
+									"default": "textures/entity/ghast/cthulu"
+								},
+								"geometry": {
+									"default": "geometry.cthulu"
+								},
+								"animations": {
+									"move": "animation.ghast.move",
+									"scale": "animation.ghast.scale"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.ghast.move"
+									},
+									{
+										"scale": "controller.animation.ghast.scale"
+									}
+								],
+								"render_controllers": [
+									"controller.render.cow"
+								],
+								"spawn_egg": {
+									"texture": "ojo"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:cthulhu",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_emissive_alpha"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/ghast/cthulu"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.cthulu"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.ghast.move",
+									"scale": "animation.ghast.scale"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"move": "controller.animation.ghast.move"
+									},
+									{
+										"scale": "controller.animation.ghast.scale"
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.cow"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:cthulhu",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/ghast/cthulu"
+									},
+									"geometry": {
+										"default": "geometry.cthulu"
+									},
+									"animations": {
+										"move": "animation.ghast.move",
+										"scale": "animation.ghast.scale"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.ghast.move"
+										},
+										{
+											"scale": "controller.animation.ghast.scale"
+										}
+									],
+									"render_controllers": [
+										"controller.render.cow"
+									],
+									"spawn_egg": {
+										"texture": "ojo"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "ojo"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

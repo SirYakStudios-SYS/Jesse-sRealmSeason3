@@ -1,0 +1,152 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\savanna_foliage_patch_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "5beabb33_8658_4203_b61d_13888c7a01c1",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:vegetation_patch_feature": {
+						"description": {
+							"identifier": "mv:savanna_foliage_patch_feature"
+						},
+						"replaceable_blocks": [
+							"minecraft:grass"
+						],
+						"ground_block": "minecraft:grass",
+						"vegetation_feature": "mv:weighted_random_savanna_foliage_feature",
+						"surface": "floor",
+						"depth": 1,
+						"vertical_range": 5,
+						"vegetation_chance": 0.08,
+						"horizontal_radius": {
+							"range_min": 5,
+							"range_max": 7
+						},
+						"extra_edge_column_chance": 1
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:vegetation_patch_feature": {
+						"description": {
+							"identifier": "mv:savanna_foliage_patch_feature"
+						},
+						"replaceable_blocks": [
+							"minecraft:grass"
+						],
+						"ground_block": "minecraft:grass",
+						"vegetation_feature": "mv:weighted_random_savanna_foliage_feature",
+						"surface": "floor",
+						"depth": 1,
+						"vertical_range": 5,
+						"vegetation_chance": 0.08,
+						"horizontal_radius": {
+							"range_min": 5,
+							"range_max": 7
+						},
+						"extra_edge_column_chance": 1
+					}
+				},
+				"key": "minecraft:vegetation_patch_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:savanna_foliage_patch_feature"
+							},
+							"replaceable_blocks": [
+								"minecraft:grass"
+							],
+							"ground_block": "minecraft:grass",
+							"vegetation_feature": "mv:weighted_random_savanna_foliage_feature",
+							"surface": "floor",
+							"depth": 1,
+							"vertical_range": 5,
+							"vegetation_chance": 0.08,
+							"horizontal_radius": {
+								"range_min": 5,
+								"range_max": 7
+							},
+							"extra_edge_column_chance": 1
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:savanna_foliage_patch_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:savanna_foliage_patch_feature"
+							},
+							"replaceable_blocks": [
+								"minecraft:grass"
+							],
+							"ground_block": "minecraft:grass",
+							"vegetation_feature": "mv:weighted_random_savanna_foliage_feature",
+							"surface": "floor",
+							"depth": 1,
+							"vertical_range": 5,
+							"vegetation_chance": 0.08,
+							"horizontal_radius": {
+								"range_min": 5,
+								"range_max": 7
+							},
+							"extra_edge_column_chance": 1
+						},
+						"key": "replaceable_blocks",
+						"is_minified": true,
+						"children": [
+							"minecraft:grass"
+						]
+					},
+					{
+						"data": "minecraft:grass",
+						"key": "ground_block"
+					},
+					{
+						"data": "mv:weighted_random_savanna_foliage_feature",
+						"key": "vegetation_feature"
+					},
+					{
+						"data": "floor",
+						"key": "surface"
+					},
+					{
+						"data": "1",
+						"key": "depth"
+					},
+					{
+						"data": "5",
+						"key": "vertical_range"
+					},
+					{
+						"data": "0.08",
+						"key": "vegetation_chance"
+					},
+					{
+						"key": "horizontal_radius",
+						"is_minified": true,
+						"children": {
+							"range_min": 5,
+							"range_max": 7
+						}
+					},
+					{
+						"data": "1",
+						"key": "extra_edge_column_chance"
+					}
+				]
+			}
+		]
+	}
+}

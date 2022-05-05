@@ -1,0 +1,23 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:francium_ingot_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:francium_block",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "m:francium_ingot",
+				"count": 9
+			}
+		]
+	}
+}

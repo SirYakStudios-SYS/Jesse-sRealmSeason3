@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "guardian:mobstand",
+      "materials": {
+        "default": "boat"
+      "textures": {
+        "default": "textures/entity/guardian/mobstand"
+      },
+      "geometry": {
+        "default": "geometry.mobstand"
+      "render_controllers": [ "controller.render.armor_stand" ],
+      "enable_attachables": true
+     }
+   }
+ }
+}

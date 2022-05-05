@@ -1,0 +1,273 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:orca",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "scale_small": {
+        "minecraft:scale": {
+          "value": 1.0
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        }
+      },
+      "scale_normal": {
+        "minecraft:scale": {
+          "value": 1.6
+        },
+        "minecraft:health": {
+          "value": 12,
+          "max": 12
+        }
+      },
+      "scale_large": {
+        "minecraft:scale": {
+          "value": 2.1
+        },
+        "minecraft:health": {
+          "value": 15,
+          "max": 15
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          
+          "orca",
+          "mob"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 1.4
+      },
+      "minecraft:breathable": {
+        "totalSupply": 30,
+        "suffocateTime": 0,
+        "breathesAir": true,
+        "breathesWater": true
+      },
+      "minecraft:movement": {
+        "value": 0.12
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.6
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 11.0
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:jump.static": {
+        "jump_power": 1.2
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:behavior.swim_with_entity": {
+        "priority": 4,
+        "success_rate": 0.5,
+        "chance_to_stop": 0.0333,
+        "state_check_interval": 0.5,
+        "catch_up_threshold": 12.0,
+        "match_direction_threshold": 2.0,
+        "catch_up_multiplier": 2.5,
+        "speed_multiplier": 1.5,
+        "search_range": 20.0,
+        "stop_distance": 5.0,
+
+        "entity_types": [
+          {
+            "filters": { "test": "is_family", "subject": "other", "value": "player" }
+          }
+        ]
+      },
+        "minecraft:behavior.move_to_water": {
+          "priority": 1,
+          "search_range": 25,
+          "search_height": 10,
+          "goal_radius": 1
+        },
+       "minecraft:navigation.generic": { 
+        "is_amphibious": false,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": true,
+        "can_breach": false,
+        "can_sink": false
+      },
+      "minecraft:movement.sway": {
+        "sway_amplitude": 0.0
+      },
+      
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": { 
+          "min_distance": 32,
+          "max_distance": 40
+        }
+      },
+      "minecraft:physics": {},
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player",
+              "other_with_families": [
+                "cat",
+                "drowned"
+              ]
+            },
+            "max_dist": 3,
+            "max_flee": 10,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 2.0
+          }
+        ]
+      },
+      "minecraft:behavior.swim_idle": {
+        "priority": 5
+      },
+       "minecraft:behavior.random_swim": { 
+        "speed_multiplier": 1.0,
+        "priority": 3,
+        "xz_dist": 32,
+        "y_dist": 10,
+        "interval": 0
+      },
+      "minecraft:behavior.swim_wander": {
+        "priority": 4,
+        "speed_multiplier": 0.014,
+        "interval": 60
+      },
+      "minecraft:flocking": {
+        "in_water": true,
+        "match_variants": false,
+        "use_center_of_mass": false,
+        "low_flock_limit": 4,
+        "high_flock_limit": 8,
+        "goal_weight": 2.0,
+        "loner_chance": 0.1,
+        "influence_radius": 3.0,
+        "breach_influence": 7.0,
+        "separation_weight": 0.65,
+        "separation_threshold": 0.15,
+        "cohesion_weight": 2.25,
+        "cohesion_threshold": 1.5,
+        "innner_cohesion_threshold": 1.5,
+        "min_height": 4.0,
+        "max_height": 4.0,
+        "block_distance": 1.0,
+        "block_weight": 0.75
+      },
+      "minecraft:nameable": {
+        "alwaysShow": false,
+        "allowNameTagRenaming": true
+      },
+      "minecraft:health": {
+        "value": 15,
+        "max": 15
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 6 : 0"
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:attack": {
+        "damage": 7
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "target_dist": 0.0,
+        "max_dist": 3,
+        "random_stop_interval": 100,
+        "track_target": true,
+        "reach_multiplier": 1.4
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "within_radius": 25,
+        "must_reach": false,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pufferfish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snake"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "shark"
+                }
+              ]
+            },
+            "max_dist": 10,
+            "must_see": false
+          }
+        ],
+        "must_see": false,
+        "speed_multiplier": 3.0
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/dolphin.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 30,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_small"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_normal"
+              ]
+            }
+          },
+          {
+            "weight": 15,
+            "add": {
+              "component_groups": [
+                "adult",
+                "scale_large"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

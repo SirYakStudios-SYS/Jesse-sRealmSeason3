@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 4
+			},
+			"entries": [
+				{
+					"name": "m:turquoise_shard",
+					"type": "item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

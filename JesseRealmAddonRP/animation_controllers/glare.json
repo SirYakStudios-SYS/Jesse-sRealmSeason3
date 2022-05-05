@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.glare": {
+			"states": {
+				"default": {
+					"animations": [
+						"idle"
+					],
+					"transitions": [
+						{
+							"move": "q.is_moving"
+						}
+					],
+					"blend_transition": 0.5
+				},
+				"move": {
+					"animations": [
+						"move"
+					],
+					"transitions": [
+						{
+							"default": "!q.is_moving"
+						}
+					],
+					"blend_transition": 0.5
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+	  "format_version": "1.12.0",
+	  "minecraft:recipe_shaped": {
+		"description": {
+		"identifier": "mc:soul_sword"
+		},
+	
+		"tags": [ "crafting_table" ],
+		"pattern": [
+		  "a",
+		  "a",
+		  "b"
+		],
+		"key": {"a":{"item":"mc:soul_ingot"},"b":{"item":"minecraft:stick"}},
+		"result": {
+		  "item": "mc:soul_sword",
+		  "data": 0,
+		  "count": 1
+		}
+	  }
+	  
+	}

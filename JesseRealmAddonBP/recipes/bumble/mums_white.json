@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:mums_white_dye"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:mums_white"
+			}
+		],
+		"result": {
+			"item": "white_dye",
+			"count": 1
+		}
+	}
+}

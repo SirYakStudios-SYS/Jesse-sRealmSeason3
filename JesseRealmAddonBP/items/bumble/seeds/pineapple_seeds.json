@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:pineapple_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:pineapple_crop"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:pineapple_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:pineapple_seeds"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

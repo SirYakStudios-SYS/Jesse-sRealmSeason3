@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:spiderstatue10"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "spiderstatue10item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:spiderstatue10"
+        }
+      }
+    }
+  }

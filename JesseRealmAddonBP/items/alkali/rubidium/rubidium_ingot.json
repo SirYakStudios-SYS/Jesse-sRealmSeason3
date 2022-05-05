@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:rubidium_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "rubidium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Rubidium Ingot \n§7Used for: \n-Tools and Armor \n-Rubidium Bundle \n-Explosives \n§eFound? \n§7Y=-64 - 5 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:explodable": false
+		},
+		"events": {}
+	}
+}

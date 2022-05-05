@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:unpot_lupines_blue_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:potted_lupines_blue"
+			}
+		],
+		"result": {
+			"item": "minecraft:flower_pot",
+			"count": 1
+		}
+	}
+}

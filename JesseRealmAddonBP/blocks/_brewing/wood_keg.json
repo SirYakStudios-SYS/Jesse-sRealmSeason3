@@ -1,0 +1,149 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:wood_keg",
+			"properties": {
+				"bumble:block_rotation": [2, 3, 4, 5]
+			}
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:loot": "loot_tables/brewing/wood_keg.json",
+			"minecraft:unit_cube": {},
+            "minecraft:material_instances":{
+                "*":{
+                    "texture":"keg_side",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                },
+                "up":{
+                    "texture":"keg_top",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                },
+                "down":{
+                    "texture":"keg_bottom",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                },
+                "east":{
+                    "texture":"keg_back",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                },
+                "north":{
+                    "texture":"keg_side",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                },
+                "south":{
+                    "texture":"keg_side",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                },
+                "west":{
+                    "texture":"keg_front",
+                    "render_method":"opaque",
+                    "ambient_occlusion":false,
+                    "face_dimming":true
+                }
+            },
+			"tag:wood": {},
+			"minecraft:destroy_time": 0.5,
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"custom_description": "Wooden Keg",
+				"crafting_tags": [
+					"keg"
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 2,
+				"flame_odds": 2
+			},
+			"minecraft:explosion_resistance": 0.1,
+			"minecraft:breathability": "solid",
+		//	"minecraft:breakonpush": false,		removed as of 1.18.30
+		//	"minecraft:immovable": false,		removed as of 1.18.30
+			"minecraft:map_color": "#F7E9A3",
+			
+            "minecraft:on_player_placing":{
+                "event": "bumble:update_rotation"
+            }
+        },
+        "permutations":[
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			}
+        ],
+        "events":{
+            "bumble:update_rotation":{
+                "set_block_property":{
+                    "bumble:block_rotation":"(query.cardinal_facing_2d)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "guardian:iron_coin_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "guardian:iron_coin",
+        "data": 11
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "guardian:iron_coin_block",
+      "count": 1
+    }
+  }
+}

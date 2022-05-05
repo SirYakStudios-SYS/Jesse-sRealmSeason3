@@ -1,0 +1,436 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\spawn_rules\\firefly.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "70cd2ec2_a8a8_42d1_b959_0afef3e2f71f",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mv:firefly",
+							"population_control": "ambient"
+						},
+						"conditions": [
+							{
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 7
+								},
+								"minecraft:weight": {
+									"default": 10
+								},
+								"minecraft:herd": {
+									"min_size": 3,
+									"max_size": 10
+								},
+								"minecraft:density_limit": {
+									"surface": 5
+								},
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "mangrove_swamp"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "river"
+									}
+								],
+								"minecraft:spawns_on_surface": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:firefly",
+								"population_control": "ambient"
+							},
+							"conditions": [
+								{
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 3,
+										"max_size": 10
+									},
+									"minecraft:density_limit": {
+										"surface": 5
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "river"
+										}
+									],
+									"minecraft:spawns_on_surface": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:firefly",
+							"population_control": "ambient"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:firefly",
+								"population_control": "ambient"
+							},
+							"conditions": [
+								{
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 3,
+										"max_size": 10
+									},
+									"minecraft:density_limit": {
+										"surface": 5
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "river"
+										}
+									],
+									"minecraft:spawns_on_surface": {}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 7
+										},
+										"minecraft:weight": {
+											"default": 10
+										},
+										"minecraft:herd": {
+											"min_size": 3,
+											"max_size": 10
+										},
+										"minecraft:density_limit": {
+											"surface": 5
+										},
+										"minecraft:biome_filter": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "mangrove_swamp"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "river"
+											}
+										],
+										"minecraft:spawns_on_surface": {}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 3,
+												"max_size": 10
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											],
+											"minecraft:spawns_on_surface": {}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 7
+										}
+									},
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 3,
+												"max_size": 10
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											],
+											"minecraft:spawns_on_surface": {}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 10
+										}
+									},
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 3,
+												"max_size": 10
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											],
+											"minecraft:spawns_on_surface": {}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 3,
+											"max_size": 10
+										}
+									},
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 3,
+												"max_size": 10
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											],
+											"minecraft:spawns_on_surface": {}
+										},
+										"key": "minecraft:density_limit",
+										"is_minified": true,
+										"children": {
+											"surface": 5
+										}
+									},
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 3,
+												"max_size": 10
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											],
+											"minecraft:spawns_on_surface": {}
+										},
+										"key": "minecraft:biome_filter",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "mangrove_swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "river"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "mangrove_swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "river"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											}
+										]
+									},
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 3,
+												"max_size": 10
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											],
+											"minecraft:spawns_on_surface": {}
+										},
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

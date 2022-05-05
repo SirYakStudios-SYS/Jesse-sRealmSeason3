@@ -1,0 +1,14 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:long_tongue_raw",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "long_tongue_raw",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

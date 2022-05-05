@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+                "identifier": "pa:death_reef_a_feature"
+        },
+        "structure_name": "mystructure:death_reef_a",
+        "adjustment_radius": 4,
+        "facing_direction": "random",
+        "constraints": {
+            "grounded": {},
+            "block_intersection": {
+                "block_allowlist": [
+                        "minecraft:water"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,254 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Glare Test\\entity\\glare.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "d160ef54_61a5_4fc2_b022_a89d668e3d57",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:glare",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"glare_normal": "textures/entity/glare",
+								"glare_grumpy": "textures/entity/glare_grumpy"
+							},
+							"geometry": {
+								"default": "geometry.glare"
+							},
+							"render_controllers": [
+								"controller.render.glare"
+							],
+							"spawn_egg": {
+								"base_color": "#2A4D13",
+								"overlay_color": "#1A2E0D"
+							},
+							"animations": {
+								"move": "animation.glare.move",
+								"idle": "animation.glare.idle",
+								"glare_controller": "controller.animation.glare"
+							},
+							"scripts": {
+								"animate": [
+									"glare_controller"
+								]
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:glare",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"glare_normal": "textures/entity/glare",
+								"glare_grumpy": "textures/entity/glare_grumpy"
+							},
+							"geometry": {
+								"default": "geometry.glare"
+							},
+							"render_controllers": [
+								"controller.render.glare"
+							],
+							"spawn_egg": {
+								"base_color": "#2A4D13",
+								"overlay_color": "#1A2E0D"
+							},
+							"animations": {
+								"move": "animation.glare.move",
+								"idle": "animation.glare.idle",
+								"glare_controller": "controller.animation.glare"
+							},
+							"scripts": {
+								"animate": [
+									"glare_controller"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:glare",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"glare_normal": "textures/entity/glare",
+									"glare_grumpy": "textures/entity/glare_grumpy"
+								},
+								"geometry": {
+									"default": "geometry.glare"
+								},
+								"render_controllers": [
+									"controller.render.glare"
+								],
+								"spawn_egg": {
+									"base_color": "#2A4D13",
+									"overlay_color": "#1A2E0D"
+								},
+								"animations": {
+									"move": "animation.glare.move",
+									"idle": "animation.glare.idle",
+									"glare_controller": "controller.animation.glare"
+								},
+								"scripts": {
+									"animate": [
+										"glare_controller"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:glare",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"glare_normal": "textures/entity/glare",
+									"glare_grumpy": "textures/entity/glare_grumpy"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.glare"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.glare"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#2A4D13",
+									"overlay_color": "#1A2E0D"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller"
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.glare.move",
+									"idle": "animation.glare.idle",
+									"glare_controller": "controller.animation.glare"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller"
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"glare_controller"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"glare_controller"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

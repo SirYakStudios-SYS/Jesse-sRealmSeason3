@@ -1,0 +1,360 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\ostrich.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "d6c61e31_775d_48b1_bc8b_31732fb09e9b",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:ostrich",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/entity/ostrich/ostrich"
+							},
+							"geometry": {
+								"default": "geometry.ostrich"
+							},
+							"animations": {
+								"ostrich_controllers": "controller.animation.ostrich.general",
+								"walk": "animation.ostrich.walk",
+								"idle": "animation.ostrich.idle"
+							},
+							"scripts": {
+								"animate": [
+									"ostrich_controllers"
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"base_color": "#443838",
+								"overlay_color": "#BBA28E"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:ostrich",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/entity/ostrich/ostrich"
+								},
+								"geometry": {
+									"default": "geometry.ostrich"
+								},
+								"animations": {
+									"ostrich_controllers": "controller.animation.ostrich.general",
+									"walk": "animation.ostrich.walk",
+									"idle": "animation.ostrich.idle"
+								},
+								"scripts": {
+									"animate": [
+										"ostrich_controllers"
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"base_color": "#443838",
+									"overlay_color": "#BBA28E"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:ostrich",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/ostrich/ostrich"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.ostrich"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"ostrich_controllers": "controller.animation.ostrich.general",
+									"walk": "animation.ostrich.walk",
+									"idle": "animation.ostrich.idle"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"ostrich_controllers"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"ostrich_controllers"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:ostrich",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/ostrich/ostrich"
+									},
+									"geometry": {
+										"default": "geometry.ostrich"
+									},
+									"animations": {
+										"ostrich_controllers": "controller.animation.ostrich.general",
+										"walk": "animation.ostrich.walk",
+										"idle": "animation.ostrich.idle"
+									},
+									"scripts": {
+										"animate": [
+											"ostrich_controllers"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#443838",
+										"overlay_color": "#BBA28E"
+									}
+								},
+								"data": "443838",
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#443838",
+									"overlay_color": "#BBA28E"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

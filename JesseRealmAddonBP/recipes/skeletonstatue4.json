@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:skeletonstatue4"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+ "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:skeletonstatue1"
+      },
+      "B": {
+        "item": "minecraft:vine"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:skeletonstatue4"
+    }
+  }
+}

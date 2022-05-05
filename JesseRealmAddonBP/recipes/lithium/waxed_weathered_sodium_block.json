@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:waxed_weathered_sodium_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:honeycomb"
+			},
+			{
+				"item": "m:weathered_sodium_block"
+			}
+		],
+		"result": [
+			{
+				"item": "m:waxed_weathered_sodium_block"
+			}
+		]
+	}
+}

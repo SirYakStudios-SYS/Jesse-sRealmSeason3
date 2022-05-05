@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diamond_viking_chestplate_07582085"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "viking:viking_chestplate",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "viking:diamond_viking_chestplate",
+      "count": 1
+    }
+  }
+}

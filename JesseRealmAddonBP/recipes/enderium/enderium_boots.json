@@ -1,0 +1,24 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:enderium_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "sp:enderium_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:enderium_boots"
+		}
+	}
+}

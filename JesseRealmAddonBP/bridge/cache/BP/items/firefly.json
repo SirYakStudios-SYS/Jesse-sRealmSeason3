@@ -1,0 +1,135 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\items\\firefly.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "15681434_3ca9_4caa_82b7_79beef3585b9",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mv:firefly",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false,
+							"minecraft:render_offsets": "flowers",
+							"minecraft:icon": {
+								"texture": "firefly"
+							},
+							"minecraft:entity_placer": {
+								"entity": "mv:firefly"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:firefly",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:render_offsets": "flowers",
+								"minecraft:icon": {
+									"texture": "firefly"
+								},
+								"minecraft:entity_placer": {
+									"entity": "mv:firefly"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:firefly",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:firefly",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:render_offsets": "flowers",
+								"minecraft:icon": {
+									"texture": "firefly"
+								},
+								"minecraft:entity_placer": {
+									"entity": "mv:firefly"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"data": "flowers",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:foil": false,
+									"minecraft:render_offsets": "flowers",
+									"minecraft:icon": {
+										"texture": "firefly"
+									},
+									"minecraft:entity_placer": {
+										"entity": "mv:firefly"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "firefly"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:foil": false,
+									"minecraft:render_offsets": "flowers",
+									"minecraft:icon": {
+										"texture": "firefly"
+									},
+									"minecraft:entity_placer": {
+										"entity": "mv:firefly"
+									}
+								},
+								"key": "minecraft:entity_placer",
+								"is_minified": true,
+								"children": {
+									"entity": "mv:firefly"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

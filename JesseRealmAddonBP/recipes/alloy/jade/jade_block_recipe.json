@@ -1,0 +1,26 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:jade_block_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "m:jade"
+			}
+		},
+		"result": [
+			{
+				"item": "m:jade_block",
+				"count": 4
+			}
+		]
+	}
+}

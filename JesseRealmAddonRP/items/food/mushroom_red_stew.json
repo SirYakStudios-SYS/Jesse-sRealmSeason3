@@ -1,0 +1,14 @@
+{
+	"format_version": 1.10,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:mushroom_red_stew",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "mushroom_red_stew",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

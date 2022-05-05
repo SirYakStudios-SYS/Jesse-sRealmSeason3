@@ -1,0 +1,69 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ray:slime",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:behavior.knockback_roar": {
+				"priority": 5,
+				"attack_time": 0.1,
+				"cooldown_time": 0.1,
+				"duration": 1,
+				"knockback_damage": 0,
+				"knockback_strength": 10,
+				"knockback_range": 5,
+				"knockback_filters": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"operator": "!=",
+							"subject": "other",
+							"value": "player"
+						}
+					]
+				},
+				"damage_filters": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"operator": "==",
+							"subject": "other",
+							"value": "sexo"
+						}
+					]
+				},
+				"on_roar_end": {
+					"event": "despawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

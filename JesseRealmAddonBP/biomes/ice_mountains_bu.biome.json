@@ -1,0 +1,53 @@
+{
+  "format_version": "1.15.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "ice_mountains_bu"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 5.0,
+        "snow_accumulation": [
+          0.0,
+          0.0
+        ],
+        "temperature": 2.0,
+        "blue_spores": 0,
+        "red_spores": 0,
+        "white_ash": 0,
+        "ash": 0
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "default"
+      },
+      "animal": {},
+      "monster": {},
+      "overworld": {},
+      "ice_mountains_bu": {},
+      "minecraft:surface_parameters": {
+        "top_material": "pa:icestone",
+        "mid_material": "pa:icestone",
+        "foundation_material": "pa:icestone",
+        "sea_floor_material": "pa:icestone",
+        "sea_material": "minecraft:water",
+        "sea_floor_depth": 7
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "ice_mountains",
+        "river_transformation": "frozen_river",
+        "generate_for_climates": [
+          [
+            "cold",
+            10
+          ],
+          [
+            "medium",
+            30
+          ]
+        ],
+        "mutate_transformation": "ice_mountains",
+        "shore_transformation": "stone_beach"
+      }
+    }
+  }
+}

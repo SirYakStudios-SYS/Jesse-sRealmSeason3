@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "banana_block_d3f022da"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:banana",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:banana_block",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{  
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "flesh_flora"
+    },
+    "features": [
+      [ "flesh_bone_str1", 2 ],
+      [ "flesh_bone_str2", 2 ],
+      [ "flesh_bone_str3", 1 ],
+      [ "small_flesh_bone_block", 9 ]
+    ]
+  }
+}

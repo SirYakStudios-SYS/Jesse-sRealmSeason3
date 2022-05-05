@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "amethyst:shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#I#",
+			"c#c",
+			" # "
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"#": {
+				"item": "minecraft:amethyst_block"
+			},
+			"c": {
+				"item": "minecraft:amethyst_cluster"
+			}
+		},
+		"result": {
+			"item": "amethyst:shield"
+		}
+	}
+}

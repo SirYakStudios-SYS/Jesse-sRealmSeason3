@@ -1,0 +1,196 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:uemerald_axe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 1795,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 7,
+			"minecraft:enchantable": {
+				"value": 20,
+				"slot": "axe"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:uemerald_axe",
+							"minecraft:quartz"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+						},
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_trapdoor",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_trapdoor",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_door",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_double_slab",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_door",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_double_slab",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 9,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dmg"
+				}
+			},
+			"tag:minecraft:is_axe": {},
+			"minecraft:icon": {
+				"texture": "uemerald_axe"
+			},
+			"minecraft:display_name": {
+				"value": "§aEmerald Quartz Axe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_not_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_hit_block": {
+					"event": "dmg"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			}
+		},
+		"events": {
+			"dmg": {
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

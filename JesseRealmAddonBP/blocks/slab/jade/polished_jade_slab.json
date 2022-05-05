@@ -1,0 +1,195 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"minecraft:direction": {}
+			},
+			"identifier": "m:polished_jade_slab"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "polished_jade"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_interact": {
+				"event": "full",
+				"condition": "query.get_equipped_item_name=='polished_jade_slab'"
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.slab",
+				"category": "construction"
+			},
+			"minecraft:on_player_placing": {
+				"event": "what_now?"
+			},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"full": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~ ~ m:polished_jade"
+					]
+				},
+				"decrement_stack": {}
+			},
+			"what_now?": {
+				"set_block_property": {
+					"minecraft:direction": "query.block_face"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('minecraft:direction') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.slabedy_top",
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:direction') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.slabedy",
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:direction') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.slabedy_top",
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:direction') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.slabedy_top",
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			}
+		]
+	}
+}

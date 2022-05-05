@@ -1,0 +1,1 @@
+give @s viking_netherite_shield:shield

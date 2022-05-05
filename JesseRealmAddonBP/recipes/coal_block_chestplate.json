@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "vatonage:coal_block_chestplate"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:coal_block"
+      }
+    },
+    "result": {
+      "item": "vatonage:coal_block_chestplate"
+    }
+  }
+}

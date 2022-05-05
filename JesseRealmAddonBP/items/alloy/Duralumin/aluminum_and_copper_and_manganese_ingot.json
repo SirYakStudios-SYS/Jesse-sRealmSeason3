@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:aluminum_and_copper_and_manganese_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "aluminum_and_copper_and_manganese_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Copper and Aluminum And Manganese Ingot\n§7put it in a Furnace/blast Furnace to get Duralumin"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

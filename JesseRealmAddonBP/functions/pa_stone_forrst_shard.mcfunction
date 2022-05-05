@@ -1,0 +1,1 @@
+give @s pa:stone_forrst_shard

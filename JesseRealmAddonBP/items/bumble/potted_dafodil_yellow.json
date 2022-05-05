@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:potted_dafodil_yellow",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:pot_dafodil_yellow"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:potted_dafodil_yellow"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:potted_dafodil_yellow"
+			}
+        }
+    }
+}

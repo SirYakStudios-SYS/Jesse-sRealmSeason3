@@ -1,0 +1,32 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.16.100,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:zinc_rail_activator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#G#",
+			"#H#",
+			"#G#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:zinc_ingot"
+			},
+			"G": {
+				"item": "minecraft:stick"
+			},
+			"H": {
+				"item": "minecraft:redstone_torch"
+			}
+		},
+		"result": {
+			"item": "minecraft:activator_rail",
+			"count": 6
+		}
+	}
+}

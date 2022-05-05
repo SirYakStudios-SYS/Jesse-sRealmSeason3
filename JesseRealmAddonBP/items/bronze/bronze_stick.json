@@ -1,0 +1,21 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:bronze_stick",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sp_bronze_stick"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:display_name": {
+				"value": "Bronze Stick"
+			},
+			"minecraft:render_offsets": "stick"
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "tt:creepycreeper",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 10
+				},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:soul_sand",
+					"minecraft:soul_soil"
+				],
+				"minecraft:biome_filter": {
+					"value": "soulsand_valley",
+					"all_of": [
+						{
+							"value": "nether"
+						}
+					]
+				}
+			}
+		]
+	}
+}

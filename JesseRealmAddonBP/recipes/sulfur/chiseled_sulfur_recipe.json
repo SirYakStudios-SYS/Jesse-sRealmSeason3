@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:chiseled_sulfur_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "m:smooth_sulfur_slab"
+			}
+		},
+		"result": [
+			{
+				"count": 1,
+				"item": "m:chiseled_sulfur"
+			}
+		]
+	}
+}

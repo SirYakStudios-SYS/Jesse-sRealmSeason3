@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "guardian:glow_berries_cooked"
+    },
+    "tags": [
+      "smoker",
+      "campfire"
+    ],
+    "input": "minecraft:glow_berries",
+    "output": "guardian:glow_raisin"
+  }
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:piglin_totem"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"OXO",
+			"X#X",
+			"OXO"
+		],
+		"key": {
+			"O": {
+				"item": "minecraft:gold_ingot"
+			},
+			"X": {
+				"item": "minecraft:gold_block"
+			},
+			"#": {
+				"item": "minecraft:porkchop"
+			}
+		},
+		"result": {
+			"item": "sp:piglin_totem"
+		}
+	}
+}

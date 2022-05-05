@@ -1,0 +1,43 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:uranium_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Construction"
+			},
+			"minecraft:destroy_time": 2.7,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#CD1616",
+			"tag:stone": {},
+			"minecraft:on_step_on": {
+				"event": "effect"
+			}
+		},
+		"events": {
+			"effect": {
+				"randomize": [
+					{
+						"add_mob_effect": {
+							"effect": "nausea",
+							"target": "other",
+							"duration": 15,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "poison",
+							"target": "other",
+							"duration": 8,
+							"amplifier": 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

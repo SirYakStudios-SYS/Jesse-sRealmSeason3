@@ -1,0 +1,30 @@
+//bridge-file-version: #21
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:carbonized_iron_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" O",
+			"YYY"
+		],
+		"key": {
+			"Y": {
+				"item": "minecraft:iron_ingot"
+			},
+			"O": {
+				"item": "minecraft:coal"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:carbonized_iron_ingot",
+				"count": 3
+			}
+		]
+	}
+}

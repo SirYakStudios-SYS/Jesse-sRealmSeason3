@@ -1,0 +1,51 @@
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:strawberry_jam"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": false,
+      "minecraft:use_duration": 2,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.miscFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:strawberry_jam"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:strawberry_jam"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation_modifier": "good",
+        "can_always_eat": true,
+		"using_converts_to": "glass_bottle",
+		"on_consume": {
+			"event": "on_consume",
+			"target": "self"
+		}      
+	  }
+	},
+	"events": {
+	  "on_consume": {
+		"remove_mob_effect": {
+		  "effect": "poison",
+		  "target": "holder"
+		},
+        "add_mob_effect": {
+            "effect": "regeneration",
+            "target": "holder",
+            "duration": 5,
+            "amplifier": 1
+        }
+	  }
+    }
+  }
+}		

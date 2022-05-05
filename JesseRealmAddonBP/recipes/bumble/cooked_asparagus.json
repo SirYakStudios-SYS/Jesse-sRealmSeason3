@@ -1,0 +1,12 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:furnace_asparagus"
+    },
+    
+    "tags": ["furnace", "smoker"],
+    "input": "bumble:asparagus",
+    "output": "bumble:cooked_asparagus"
+  }
+}

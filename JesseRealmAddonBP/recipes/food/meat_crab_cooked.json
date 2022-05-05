@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "guardian:meat_crab_cooked"
+    },
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire"
+    ],
+    "input": "guardian:meat_crab_raw",
+    "output": "guardian:meat_crab_cooked"
+  }
+}

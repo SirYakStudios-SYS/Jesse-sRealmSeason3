@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:electrum_nugget",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "Electrum Nugget \n§eFound? \n§7Y=-64 - 64 \n§2Overworld"
+			},
+			"minecraft:icon": {
+				"texture": "electrum_nugget"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:fuel": {
+				"duration": 200
+			}
+		},
+		"events": {}
+	}
+}

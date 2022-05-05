@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "guardian:beach_stone_3_feature_mcstructure"
+    },
+    "structure_name": "mystructure:beach_stone_3",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+        "constraints": {
+            "grounded": {}
+        }
+    }
+}

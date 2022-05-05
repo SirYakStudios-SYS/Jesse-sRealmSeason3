@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:quartzpedestal1"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "quartzpedestal1"
+        }
+      }
+    }
+  }

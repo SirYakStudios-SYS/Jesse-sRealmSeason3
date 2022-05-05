@@ -1,0 +1,18 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+	"format_version": "1.17.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mc:rainbow_planks"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.6,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks" 
+			},
+			"minecraft:explosion_resistance": 12,
+			"minecraft:loot": "loot_tables/blocks/rainbow_planks_drop.json"
+		}
+	}
+ }

@@ -1,0 +1,177 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.pa_rasplastan",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 5,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "section_1",
+          "pivot": [
+            0,
+            2,
+            -4.9
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -7.0,
+                0.0,
+                -10.4
+              ],
+              "size": [
+                14.0,
+                12.0,
+                13.0
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "section_0",
+          "pivot": [
+            0,
+            1.75,
+            -9.9
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5.5,
+                0.0,
+                -16.4
+              ],
+              "size": [
+                11.0,
+                10.5,
+                8.0
+              ],
+              "uv": [
+                0,
+                45
+              ],
+              "inflate": 0
+            }
+          ],
+          "parent": "section_1"
+        },
+        {
+          "name": "section_2",
+          "pivot": [
+            0,
+            1.75,
+            5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6.0,
+                0.0,
+                1.5
+              ],
+              "size": [
+                12.0,
+                10.5,
+                8.0
+              ],
+              "uv": [
+                0,
+                25
+              ],
+              "inflate": 0
+            }
+          ],
+          "parent": "section_1"
+        },
+        {
+          "name": "section_3",
+          "pivot": [
+            0,
+            1.5,
+            14
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5.0,
+                0.0,
+                9.5
+              ],
+              "size": [
+                10.0,
+                10.0,
+                9.0
+              ],
+              "uv": [
+                31,
+                34
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -5.0,
+                10.0,
+                10.6
+              ],
+              "size": [
+                10.0,
+                1.0,
+                2.0
+              ],
+              "uv": [
+                96,
+                0
+              ],
+              "inflate": 0
+            }
+          ],
+          "parent": "section_2"
+        },
+        {
+          "name": "section_4",
+          "pivot": [
+            0,
+            1.5,
+            20
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.5,
+                0.0,
+                17.5
+              ],
+              "size": [
+                9.0,
+                8.5,
+                7.0
+              ],
+              "uv": [
+                47,
+                18
+              ],
+              "inflate": 0
+            }
+          ],
+          "parent": "section_3"
+        }
+      ]
+    }
+  ]
+}

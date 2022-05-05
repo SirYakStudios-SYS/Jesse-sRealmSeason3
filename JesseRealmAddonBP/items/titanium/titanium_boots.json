@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:titanium_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 12,
+				"slot": "armor_feet"
+			},
+			"minecraft:display_name": {
+				"value": "Titanium Boots"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:titanium_boots",
+							"sp:titanium_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 348,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.17
+			},
+			"minecraft:icon": {
+				"texture": "sp_titanium_boots"
+			},
+			"minecraft:render_offsets": "boots",
+			"minecraft:armor": {
+				"protection": 3
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			}
+		},
+		"events": {}
+	}
+}//MCPEDL:SorYPMod

@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:hyacinth_purple_dye"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:hyacinth_purple"
+			}
+		],
+		"result": {
+			"item": "purple_dye",
+			"count": 1
+		}
+	}
+}

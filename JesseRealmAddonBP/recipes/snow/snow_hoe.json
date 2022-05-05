@@ -1,0 +1,34 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:snow_hoe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XO",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:snowball"
+			},
+			"O": {
+				"item": "minecraft:snow"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:snow_hoe",
+				"count": 1
+			}
+		]
+	}
+}

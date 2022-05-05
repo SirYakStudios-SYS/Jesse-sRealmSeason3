@@ -1,0 +1,67 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:cattail_reed",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.crop"
+            },
+			"minecraft:stacked_by_data": true,
+			"minecraft:icon": {
+                "texture": "bumble:cattail_reed"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:cattail_reed"
+			},
+			"minecraft:fuel": {
+				"duration": 5
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:food": {
+				"nutrition": 1,
+				"on_consume": {
+					"event": "puff"
+				},
+				"can_always_eat": true,
+				"saturation_modifier": "poor"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:use_duration": 1.6
+		},
+		"events": {
+			"puff": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "nausea",
+							"duration": 3,
+							"target": "holder",
+							"amplifier": 3
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "hunger",
+							"target": "holder",
+							"duration": 3,
+							"amplifier": 3
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:snowflake_particle ~ ~ ~",
+								"particle minecraft:snowflake_particle ~ ~ ~",
+								"particle minecraft:snowflake_particle ~ ~ ~",
+								"particle minecraft:snowflake_particle ~ ~ ~"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

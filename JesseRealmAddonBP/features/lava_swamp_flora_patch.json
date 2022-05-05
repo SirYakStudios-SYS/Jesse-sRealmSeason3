@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+      "identifier": "lava_swamp_flora_patch"
+    },
+    "replaceable_blocks": [
+		"nether:lava_swamp_moss_block"
+    ],
+    "ground_block": "nether:lava_swamp_moss_block",
+    "vegetation_feature": "lava_swamp_flora", 
+    "surface": "floor",
+    "vegetation_chance": 0.04,
+    "depth": {
+      "range_min": 1,
+      "range_max": 1
+    },
+    "vertical_range": 5,
+    "horizontal_radius": {
+      "range_min": 1,
+      "range_max": 1
+    }
+  }
+}

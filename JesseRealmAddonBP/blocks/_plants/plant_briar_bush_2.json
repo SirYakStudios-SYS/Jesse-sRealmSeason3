@@ -1,0 +1,121 @@
+
+
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:briar_bush_2"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.crop.hash",
+            "minecraft:entity_collision": false,
+            "minecraft:friction": 0.6,
+		//	"minecraft:preventsjumping": true,		removed as of 1.18.30
+            "minecraft:pick_collision": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:breathability": "air",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "briar_bush_2",
+					"render_method": "alpha_test"
+				}
+			},
+            "minecraft:destroy_time": 1.5,
+            "minecraft:block_light_absorption": 0.2,
+			"minecraft:loot": "loot_tables/plants/plant_briar_bush.json",
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["grass", "dirt", "sand", "podzol"]
+                    }
+                ]
+            },
+			"minecraft:on_player_destroyed": {
+				"event": "reset_top"
+			},
+			"minecraft:on_placed": {
+				"event": "set_top"
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [4, 4],
+                "on_tick": {
+                    "event": "clear_snow"
+                }
+            },
+			"minecraft:on_interact": {
+				"event": "pot_check",
+				"target": "self"
+			}
+        },
+        "events": {
+ 
+ 
+			"clear_snow": {
+				"run_command": {
+					"command": [
+						"fill ~ ~1 ~ ~ ~2 ~ air 0 replace snow_layer"
+					]
+				}
+            },
+			
+			"reset_top": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:air",
+					"block_offset": [0,1,0]
+				}
+			},			
+			
+			
+			"set_top": {
+				"set_block_at_pos": {
+					"block_type": "bumble:briar_bush_2_top",
+					"block_offset": [0,1,0]
+				}
+			},
+
+			"flowerpot": {
+               "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+					{
+						"set_block_at_pos": {
+							"block_type": "minecraft:air",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s bumble:potted_briar"
+							],
+							"target": "other"
+						}
+					},
+					{
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					}
+				]
+            },
+			
+			
+            "pot_check": {
+                "sequence": [
+                    {
+						"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:flower_pot') == true",
+                        "trigger": {
+                            "event": "flowerpot"
+                        }
+                    }
+                ]
+            }
+
+        }
+    }
+}

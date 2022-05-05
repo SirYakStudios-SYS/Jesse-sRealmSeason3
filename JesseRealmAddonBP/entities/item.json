@@ -1,0 +1,62 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:item",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"netherite": {
+				"minecraft:fire_immune": true
+			}
+		},
+		"components": {
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "netherite_test",
+						"target": "self"
+					},
+					{
+						"event": "add_r",
+						"target": "self"
+					}
+				]
+			}
+		},
+		"events": {
+			"netherite_test": {
+				"run_command": {
+					"command": [
+						"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+						"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+					]
+				}
+			},
+			"add_r": {
+				"sequence": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"subject": "self",
+									"value": "netherite"
+								}
+							]
+						},
+						"add": {
+							"component_groups": [
+								"netherite"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

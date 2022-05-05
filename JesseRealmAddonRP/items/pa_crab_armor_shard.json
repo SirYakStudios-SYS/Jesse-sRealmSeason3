@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:crab_armor_shard",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:crab_armor_shard",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

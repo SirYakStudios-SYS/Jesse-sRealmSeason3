@@ -1,0 +1,355 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:tin_furnace",
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"m:first": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1,
+			"tag:fast_pickaxe_mineable": {},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "tin_furnace_side"
+				},
+				"up": {
+					"texture": "tin_furnace_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "tin_furnace_top",
+					"render_method": "opaque"
+				},
+				"north": {
+					"texture": "tin_furnace_front_off",
+					"render_method": "opaque"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('m:first') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "opaque",
+							"texture": "tin_furnace_side"
+						},
+						"up": {
+							"texture": "tin_furnace_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "tin_furnace_top",
+							"render_method": "opaque"
+						},
+						"north": {
+							"texture": "tin_furnace_front_off",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "placed"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('m:first') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "opaque",
+							"texture": "tin_furnace_side"
+						},
+						"up": {
+							"texture": "tin_furnace_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "tin_furnace_top",
+							"render_method": "opaque"
+						},
+						"north": {
+							"texture": "tin_furnace_front_on",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:block_light_emission": 0,
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "off"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "smelt"
+					}
+				}
+			}
+		],
+		"events": {
+			"bridge:update_rotation": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"bridge:block_rotation": "query.cardinal_facing_2d"
+						}
+					},
+					{
+						"set_block_property": {
+							"m:first": 0
+						}
+					}
+				]
+			},
+			"off": {
+				"set_block_property": {
+					"m:first": 0
+				}
+			},
+			"smelt": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound block.furnace.lit @p",
+								"particle minecraft:misc_fire_vapor_particle ~ ~1 ~",
+								"summon xp_orb",
+								"summon xp_orb",
+								"summon xp_orb"
+							]
+						}
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='soul_sand'",
+								"run_command": {
+									"command": [
+										"give @s glass"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='sand'",
+								"run_command": {
+									"command": [
+										"give @s glass"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='red_sand'",
+								"run_command": {
+									"command": [
+										"give @s glass"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='clay_ball'",
+								"run_command": {
+									"command": [
+										"give @s brick"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='clay'",
+								"run_command": {
+									"command": [
+										"give @s hardened_clay"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='netherrack'",
+								"run_command": {
+									"command": [
+										"give @s netherbrick"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='cobblestone'",
+								"run_command": {
+									"command": [
+										"give @s stone"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='stone'",
+								"run_command": {
+									"command": [
+										"give @s smooth_stone"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='basalt'",
+								"run_command": {
+									"command": [
+										"give @s smooth_basalt"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='log'",
+								"run_command": {
+									"command": [
+										"give @s charcoal"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='log2'",
+								"run_command": {
+									"command": [
+										"give @s charcoal"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='sponge'",
+								"run_command": {
+									"command": [
+										"give @s sponge"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					}
+				]
+			},
+			"placed": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name=='sulfuric_coal'",
+						"set_block_property": {
+							"m:first": 1
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"tag @p add oghfjhg",
+								"tellraw @p {\"rawtext\":[{\"text\":\"§7You get the Recipe Book by interacting the turned off Aluminum/Tin Furnace\"}]}"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tellraw @p[tag=!oghfjhg] {\"rawtext\":[{\"text\":\"§7Use Sulfuric Coal on it to activate\"}]}",
+								"execute @p[tag=!oghfjhg] ~~~ structure load recipe_book ~ ~2 ~",
+								"tag @p remove oghfjhg"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

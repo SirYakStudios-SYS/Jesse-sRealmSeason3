@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "sp:cookedbeef_sword"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "sp:beef_iron_sword",
+		"output": "sp:cookedbeed_iron_sword"
+	}
+}

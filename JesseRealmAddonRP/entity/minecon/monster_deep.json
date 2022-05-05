@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "guardian:monster_deep",
+      "materials": {
+        "default": "enderman",
+        "invisible": "enderman_invisible"
+},
+      "textures": {
+        "default": "textures/entity/guardian/minecon/monster_deep"
+      },
+      "geometry": {
+        "default": "geometry.monster.deep"
+      },
+      "animations": {
+        "move": "animation.dolphin.move"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.dolphin.general" }
+      ],
+      "render_controllers": [ "controller.render.dolphin" ],
+		"spawn_egg": {
+			"base_color": "#51561e",
+			"overlay_color": "#d8ffd6"
+      }
+    }
+  }
+}

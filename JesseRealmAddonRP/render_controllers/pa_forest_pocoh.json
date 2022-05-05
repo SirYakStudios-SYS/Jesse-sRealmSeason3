@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pa_forest_pocoh": {
+      "textures": [
+        "Texture.pa_forest_pocoh_3d"
+      ],
+      "geometry": "Geometry.pa_forest_pocoh",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    }
+  }
+}

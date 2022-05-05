@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:raw_potassium_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "raw_potassium_block"
+				}
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.block",
+				"category": "construction"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {},
+			"minecraft:explosion_resistance": 1000,
+			"minecraft:block_light_emission": 0
+		},
+		"events": {}
+	}
+}

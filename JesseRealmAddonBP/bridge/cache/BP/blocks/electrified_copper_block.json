@@ -1,0 +1,309 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\electrified_copper_block.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "76027fe1_3999_433a_82aa_ac9660dd1412",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:electrified_copper_block"
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"category": "Items",
+								"group": "itemGroup.name.none"
+							},
+							"minecraft:destroy_time": 1,
+							"minecraft:breathability": "solid",
+							"minecraft:on_placed": {
+								"event": "dettect_and_spawn"
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"on_tick": {
+									"event": "dettect_and_spawn"
+								},
+								"range": [
+									0,
+									0
+								]
+							}
+						},
+						"events": {
+							"dettect_and_spawn": {
+								"run_command": {
+									"command": [
+										"summon mv:dettect_blocks ~ ~ ~",
+										"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+										"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+										"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Items",
+									"group": "itemGroup.name.none"
+								},
+								"minecraft:destroy_time": 1,
+								"minecraft:breathability": "solid",
+								"minecraft:on_placed": {
+									"event": "dettect_and_spawn"
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"on_tick": {
+										"event": "dettect_and_spawn"
+									},
+									"range": [
+										0,
+										0
+									]
+								}
+							},
+							"events": {
+								"dettect_and_spawn": {
+									"run_command": {
+										"command": [
+											"summon mv:dettect_blocks ~ ~ ~",
+											"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+											"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+											"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:electrified_copper_block"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Items",
+									"group": "itemGroup.name.none"
+								},
+								"minecraft:destroy_time": 1,
+								"minecraft:breathability": "solid",
+								"minecraft:on_placed": {
+									"event": "dettect_and_spawn"
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"on_tick": {
+										"event": "dettect_and_spawn"
+									},
+									"range": [
+										0,
+										0
+									]
+								}
+							},
+							"events": {
+								"dettect_and_spawn": {
+									"run_command": {
+										"command": [
+											"summon mv:dettect_blocks ~ ~ ~",
+											"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+											"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+											"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"category": "Items",
+									"group": "itemGroup.name.none"
+								}
+							},
+							{
+								"data": "1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "solid",
+								"key": "minecraft:breathability"
+							},
+							{
+								"key": "minecraft:on_placed",
+								"is_minified": true,
+								"children": {
+									"event": "dettect_and_spawn"
+								}
+							},
+							{
+								"key": "minecraft:ticking",
+								"children": [
+									{
+										"data": "true",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": true,
+											"on_tick": {
+												"event": "dettect_and_spawn"
+											},
+											"range": [
+												0,
+												0
+											]
+										},
+										"key": "on_tick",
+										"is_minified": true,
+										"children": {
+											"event": "dettect_and_spawn"
+										}
+									},
+									{
+										"open": {
+											"looping": true,
+											"on_tick": {
+												"event": "dettect_and_spawn"
+											},
+											"range": [
+												0,
+												0
+											]
+										},
+										"key": "range",
+										"is_minified": true,
+										"children": [
+											0,
+											0
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Items",
+									"group": "itemGroup.name.none"
+								},
+								"minecraft:destroy_time": 1,
+								"minecraft:breathability": "solid",
+								"minecraft:on_placed": {
+									"event": "dettect_and_spawn"
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"on_tick": {
+										"event": "dettect_and_spawn"
+									},
+									"range": [
+										0,
+										0
+									]
+								}
+							},
+							"events": {
+								"dettect_and_spawn": {
+									"run_command": {
+										"command": [
+											"summon mv:dettect_blocks ~ ~ ~",
+											"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+											"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+											"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"dettect_and_spawn": {
+										"run_command": {
+											"command": [
+												"summon mv:dettect_blocks ~ ~ ~",
+												"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+												"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+												"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+											]
+										}
+									}
+								},
+								"key": "dettect_and_spawn",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"summon mv:dettect_blocks ~ ~ ~",
+													"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+													"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+													"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"summon mv:dettect_blocks ~ ~ ~",
+														"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+														"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+														"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"summon mv:dettect_blocks ~ ~ ~",
+													"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+													"execute @e[type=mv:dettect_blocks, c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+													"event entity @e[type=mv:dettect_blocks, c=1] mv:despawn"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1110 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\mangrove_log.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "39b5b3b9_adca_4793_8096_159c19dff853",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:mangrove_log",
+							"properties": {
+								"mv:rotation": [
+									0,
+									1,
+									2
+								]
+							}
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.log"
+							},
+							"minecraft:destroy_time": 2,
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:unit_cube": {},
+							"minecraft:on_player_placing": {
+								"event": "mv:place_rotation",
+								"target": "self"
+							},
+							"minecraft:flammable": {
+								"burn_odds": 5,
+								"flame_odds": 5
+							},
+							"minecraft:rotation": [
+								0,
+								0,
+								0
+							],
+							"minecraft:explosion_resistance": 2,
+							"minecraft:breathability": "solid",
+							"minecraft:map_color": "#645B48",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mangrove_log_side",
+									"render_method": "opaque"
+								},
+								"up": {
+									"texture": "mangrove_log_top",
+									"render_method": "opaque"
+								},
+								"down": {
+									"texture": "mangrove_log_top",
+									"render_method": "opaque"
+								},
+								"side": {
+									"texture": "mangrove_log_side",
+									"render_method": "opaque"
+								}
+							},
+							"tag:wood": {}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('mv:rotation') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('mv:rotation') == 1",
+								"components": {
+									"minecraft:rotation": [
+										90,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('mv:rotation') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										90
+									]
+								}
+							}
+						],
+						"events": {
+							"mv:place_rotation": {
+								"set_block_property": {
+									"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_log",
+								"properties": {
+									"mv:rotation": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.log"
+								},
+								"minecraft:destroy_time": 2,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:unit_cube": {},
+								"minecraft:on_player_placing": {
+									"event": "mv:place_rotation",
+									"target": "self"
+								},
+								"minecraft:flammable": {
+									"burn_odds": 5,
+									"flame_odds": 5
+								},
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								],
+								"minecraft:explosion_resistance": 2,
+								"minecraft:breathability": "solid",
+								"minecraft:map_color": "#645B48",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									},
+									"up": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"down": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"side": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									}
+								},
+								"tag:wood": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('mv:rotation') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							],
+							"events": {
+								"mv:place_rotation": {
+									"set_block_property": {
+										"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:mangrove_log",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:mangrove_log",
+									"properties": {
+										"mv:rotation": [
+											0,
+											1,
+											2
+										]
+									}
+								},
+								"key": "properties",
+								"children": [
+									{
+										"open": {
+											"mv:rotation": [
+												0,
+												1,
+												2
+											]
+										},
+										"key": "mv:rotation",
+										"is_minified": true,
+										"children": [
+											0,
+											1,
+											2
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_log",
+								"properties": {
+									"mv:rotation": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.log"
+								},
+								"minecraft:destroy_time": 2,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:unit_cube": {},
+								"minecraft:on_player_placing": {
+									"event": "mv:place_rotation",
+									"target": "self"
+								},
+								"minecraft:flammable": {
+									"burn_odds": 5,
+									"flame_odds": 5
+								},
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								],
+								"minecraft:explosion_resistance": 2,
+								"minecraft:breathability": "solid",
+								"minecraft:map_color": "#645B48",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									},
+									"up": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"down": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"side": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									}
+								},
+								"tag:wood": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('mv:rotation') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							],
+							"events": {
+								"mv:place_rotation": {
+									"set_block_property": {
+										"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"category": "Nature",
+										"group": "itemGroup.name.log"
+									},
+									"minecraft:destroy_time": 2,
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:unit_cube": {},
+									"minecraft:on_player_placing": {
+										"event": "mv:place_rotation",
+										"target": "self"
+									},
+									"minecraft:flammable": {
+										"burn_odds": 5,
+										"flame_odds": 5
+									},
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									],
+									"minecraft:explosion_resistance": 2,
+									"minecraft:breathability": "solid",
+									"minecraft:map_color": "#645B48",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "mangrove_log_side",
+											"render_method": "opaque"
+										},
+										"up": {
+											"texture": "mangrove_log_top",
+											"render_method": "opaque"
+										},
+										"down": {
+											"texture": "mangrove_log_top",
+											"render_method": "opaque"
+										},
+										"side": {
+											"texture": "mangrove_log_side",
+											"render_method": "opaque"
+										}
+									},
+									"tag:wood": {}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"category": "Nature",
+									"group": "itemGroup.name.log"
+								}
+							},
+							{
+								"data": "2",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"key": "minecraft:entity_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								}
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								}
+							},
+							{
+								"key": "minecraft:unit_cube",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "mv:place_rotation",
+									"target": "self"
+								}
+							},
+							{
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"burn_odds": 5,
+									"flame_odds": 5
+								}
+							},
+							{
+								"key": "minecraft:rotation",
+								"is_minified": true,
+								"children": [
+									0,
+									0,
+									0
+								]
+							},
+							{
+								"data": "2",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"data": "solid",
+								"key": "minecraft:breathability"
+							},
+							{
+								"data": "#645B48",
+								"key": "minecraft:map_color"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											},
+											"up": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"down": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"side": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "mangrove_log_side",
+											"render_method": "opaque"
+										}
+									},
+									{
+										"open": {
+											"*": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											},
+											"up": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"down": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"side": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											}
+										},
+										"key": "up",
+										"is_minified": true,
+										"children": {
+											"texture": "mangrove_log_top",
+											"render_method": "opaque"
+										}
+									},
+									{
+										"open": {
+											"*": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											},
+											"up": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"down": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"side": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											}
+										},
+										"key": "down",
+										"is_minified": true,
+										"children": {
+											"texture": "mangrove_log_top",
+											"render_method": "opaque"
+										}
+									},
+									{
+										"open": {
+											"*": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											},
+											"up": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"down": {
+												"texture": "mangrove_log_top",
+												"render_method": "opaque"
+											},
+											"side": {
+												"texture": "mangrove_log_side",
+												"render_method": "opaque"
+											}
+										},
+										"key": "side",
+										"is_minified": true,
+										"children": {
+											"texture": "mangrove_log_side",
+											"render_method": "opaque"
+										}
+									}
+								]
+							},
+							{
+								"key": "tag:wood",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_log",
+								"properties": {
+									"mv:rotation": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.log"
+								},
+								"minecraft:destroy_time": 2,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:unit_cube": {},
+								"minecraft:on_player_placing": {
+									"event": "mv:place_rotation",
+									"target": "self"
+								},
+								"minecraft:flammable": {
+									"burn_odds": 5,
+									"flame_odds": 5
+								},
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								],
+								"minecraft:explosion_resistance": 2,
+								"minecraft:breathability": "solid",
+								"minecraft:map_color": "#645B48",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									},
+									"up": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"down": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"side": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									}
+								},
+								"tag:wood": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('mv:rotation') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							],
+							"events": {
+								"mv:place_rotation": {
+									"set_block_property": {
+										"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+									}
+								}
+							}
+						},
+						"key": "permutations",
+						"children": [
+							{
+								"open": [
+									{
+										"condition": "query.block_property('mv:rotation') == 0",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('mv:rotation') == 1",
+										"components": {
+											"minecraft:rotation": [
+												90,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('mv:rotation') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												90
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"data": "query.block_property('mv:rotation') == 0",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('mv:rotation') == 0",
+											"components": {
+												"minecraft:rotation": [
+													0,
+													0,
+													0
+												]
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									}
+								]
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('mv:rotation') == 0",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('mv:rotation') == 1",
+										"components": {
+											"minecraft:rotation": [
+												90,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('mv:rotation') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												90
+											]
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('mv:rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('mv:rotation') == 0",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('mv:rotation') == 1",
+										"components": {
+											"minecraft:rotation": [
+												90,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('mv:rotation') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												90
+											]
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('mv:rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_log",
+								"properties": {
+									"mv:rotation": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.log"
+								},
+								"minecraft:destroy_time": 2,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:unit_cube": {},
+								"minecraft:on_player_placing": {
+									"event": "mv:place_rotation",
+									"target": "self"
+								},
+								"minecraft:flammable": {
+									"burn_odds": 5,
+									"flame_odds": 5
+								},
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								],
+								"minecraft:explosion_resistance": 2,
+								"minecraft:breathability": "solid",
+								"minecraft:map_color": "#645B48",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									},
+									"up": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"down": {
+										"texture": "mangrove_log_top",
+										"render_method": "opaque"
+									},
+									"side": {
+										"texture": "mangrove_log_side",
+										"render_method": "opaque"
+									}
+								},
+								"tag:wood": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('mv:rotation') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('mv:rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							],
+							"events": {
+								"mv:place_rotation": {
+									"set_block_property": {
+										"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"mv:place_rotation": {
+										"set_block_property": {
+											"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+										}
+									}
+								},
+								"key": "mv:place_rotation",
+								"children": [
+									{
+										"open": {
+											"set_block_property": {
+												"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+											}
+										},
+										"key": "set_block_property",
+										"is_minified": true,
+										"children": {
+											"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

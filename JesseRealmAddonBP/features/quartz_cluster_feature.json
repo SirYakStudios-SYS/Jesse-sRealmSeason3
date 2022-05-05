@@ -1,0 +1,21 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+                "identifier": "pa:quartz_cluster_feature"
+        },
+        "structure_name": "mystructure:quartz_cluster",
+        "adjustment_radius": 8,
+        "facing_direction": "random",
+        "constraints": {
+            "grounded": {},
+            "block_intersection": {
+                "block_allowlist": [
+                        "minecraft:water",
+                        "minecraft:sand",
+                        "minecraft:gravel"
+                ]
+            }
+        }
+    }
+}

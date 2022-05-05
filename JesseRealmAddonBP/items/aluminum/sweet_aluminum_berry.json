@@ -1,0 +1,60 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:sweet_aluminum_berry",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sweet_aluminum_berries"
+			},
+			"minecraft:display_name": {
+				"value": "Sweet Aluminum Berry \n§7Effects: \n-Regeneration II (0:15) \n-Health Boost V (5:00) \n-Haste V (2:00)"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 9,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consume"
+				}
+			}
+		},
+		"events": {
+			"consume": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 15,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 300,
+							"amplifier": 2,
+							"target": "holder",
+							"effect": "health_boost"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 120,
+							"amplifier": 4,
+							"target": "holder",
+							"effect": "haste"
+						}
+					}
+				]
+			}
+		}
+	}
+}

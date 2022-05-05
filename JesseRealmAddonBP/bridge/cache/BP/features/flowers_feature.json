@@ -1,0 +1,81 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\flowers_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "c35d5576_3d71_4634_b0d1_a9724898670c",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "mv:flowers_feature"
+						},
+						"features": [
+							[
+								"mv:cornflower_feature",
+								1
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:flowers_feature"
+							},
+							"features": [
+								[
+									"mv:cornflower_feature",
+									1
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:flowers_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:flowers_feature"
+							},
+							"features": [
+								[
+									"mv:cornflower_feature",
+									1
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"mv:cornflower_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:cornflower_feature",
+									1
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

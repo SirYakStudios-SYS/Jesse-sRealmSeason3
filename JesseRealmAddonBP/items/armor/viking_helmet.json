@@ -1,0 +1,51 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:viking_helmet",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 12,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 165,
+				"damage_chance": {
+					"min": 75,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:iron_ignot",
+							"guardian:viking_helmet"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:armor": {
+				"protection": 2
+			},
+			"minecraft:icon": {
+				"texture": "viking_helmet"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:allow_off_hand": false,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.5
+			}
+		},
+		"events": {}
+	}
+}

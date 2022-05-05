@@ -1,0 +1,14 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:salt_fish_cooked",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "salt_fish_cooked",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

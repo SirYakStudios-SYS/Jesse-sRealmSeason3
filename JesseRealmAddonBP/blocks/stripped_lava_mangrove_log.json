@@ -1,0 +1,72 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:stripped_lava_mangrove_log",
+			"properties": {
+				"nether:rotation": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.log",
+				"category": "nature"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "stripped_lava_mangrove_log_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "stripped_lava_mangrove_log_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "stripped_lava_mangrove_log_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:unit_cube": {},
+			"minecraft:map_color": "#ff78f8",
+			"minecraft:on_player_placing": {
+				"event": "nether:rotation",
+				"target": "self"
+			},
+			"tag:wood": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nether:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"events": {
+			"nether:rotation": {
+				"set_block_property": {
+					"nether:rotation": "math.floor( query.block_face / 2.0 )"
+				}
+			}
+		}
+	}
+}

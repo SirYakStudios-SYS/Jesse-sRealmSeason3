@@ -1,0 +1,149 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:ukraine_apple",
+			"category": "empty"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.5,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "ukraine_apple"
+			},
+			"minecraft:display_name": {
+				"value": "§9Ukraine §eApple \n §724 February 2022 \n §cRussia §7began a large military invasion of Ukraine. \n §bGod bless people of Ukraine!"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 280,
+							"amplifier": 5,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "strength",
+							"duration": 460,
+							"amplifier": 8,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "resistence",
+							"duration": 550,
+							"amplifier": 8,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "conduit_power",
+							"duration": 550,
+							"amplifier": 4,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "luck",
+							"duration": 350,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "haste",
+							"duration": 420,
+							"amplifier": 4,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"duration": 550,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "jump_boost",
+							"duration": 450,
+							"amplifier": 6,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "health_boost",
+							"duration": 600,
+							"amplifier": 6,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "night_vision",
+							"duration": 350,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "hero_of_the_village",
+							"duration": 350,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "speed",
+							"duration": 450,
+							"amplifier": 3,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "water_breathing",
+							"duration": 350,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "absorption",
+							"duration": 500,
+							"amplifier": 6,
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

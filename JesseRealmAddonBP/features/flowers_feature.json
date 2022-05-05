@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "mv:flowers_feature"
+		},
+		"features": [
+			[
+				"mv:cornflower_feature",
+				1
+			]
+		]
+	}
+}

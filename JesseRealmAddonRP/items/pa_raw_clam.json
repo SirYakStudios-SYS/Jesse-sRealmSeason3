@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:raw_clam",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "pa:raw_clam",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

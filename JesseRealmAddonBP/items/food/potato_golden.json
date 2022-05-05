@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:potato_golden"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "supernatural",
+        "effects": [
+          {
+            "name": "regeneration",
+            "chance": 1.0,
+            "duration": 5,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2337 @@
+{
+  "format_version": "1.11",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "walk",
+          "pa:komos",
+          "pa:forest_pocoh",
+          "pa:sxuna",
+          "pa:ll",
+          "viking:iron_viking_helmet",
+          "viking:gold_viking_helmet",
+          "viking:viking_helmet",
+          "viking:diamond_viking_helmet",
+          "viking:iron_viking_chestplate",
+          "viking:gold_viking_chestplate",
+          "viking:viking_chestplate",
+          "viking:diamond_viking_chestplate",
+          "viking:netherite_viking_chestplate",
+          "viking:viking_boots",
+          "viking:diamond_viking_boots",
+          "viking:gold_viking_boots",
+          "viking:iron_viking_boots",
+          "viking:netherite_viking_boots",
+          "viking:netherite_viking_helmet",
+          "viking:diamond_viking_leggings",
+          "viking:gold_viking_leggings",
+          "viking:viking_leggings",
+          "viking:iron_viking_leggings",
+          "viking:netherite_viking_leggings"
+        ]
+      },
+      "animations": {
+        "walk": "controller.animation.walk",
+        "pa:komos": "controller.animation.pa_komos",
+        "pa:forest_pocoh": "controller.animation.pa_forest_pocoh",
+        "pa:sxuna": "controller.animation.pa_sxuna",
+        "pa:ll": "controller.animation.pa_ll",
+        "viking:iron_viking_helmet": "controller.animation.viking_iron_viking_helmet",
+        "viking:gold_viking_helmet": "controller.animation.viking_gold_viking_helmet",
+        "viking:viking_helmet": "controller.animation.viking_viking_helmet",
+        "viking:diamond_viking_helmet": "controller.animation.viking_diamond_viking_helmet",
+        "viking:iron_viking_chestplate": "controller.animation.viking_iron_viking_chestplate",
+        "viking:gold_viking_chestplate": "controller.animation.viking_gold_viking_chestplate",
+        "viking:viking_chestplate": "controller.animation.viking_viking_chestplate",
+        "viking:diamond_viking_chestplate": "controller.animation.viking_diamond_viking_chestplate",
+        "viking:netherite_viking_chestplate": "controller.animation.viking_netherite_viking_chestplate",
+        "viking:viking_boots": "controller.animation.viking_viking_boots",
+        "viking:diamond_viking_boots": "controller.animation.viking_diamond_viking_boots",
+        "viking:gold_viking_boots": "controller.animation.viking_gold_viking_boots",
+        "viking:iron_viking_boots": "controller.animation.viking_iron_viking_boots",
+        "viking:netherite_viking_boots": "controller.animation.viking_netherite_viking_boots",
+        "viking:netherite_viking_helmet": "controller.animation.viking_netherite_viking_helmet",
+        "viking:diamond_viking_leggings": "controller.animation.viking_diamond_viking_leggings",
+        "viking:gold_viking_leggings": "controller.animation.viking_gold_viking_leggings",
+        "viking:viking_leggings": "controller.animation.viking_viking_leggings",
+        "viking:iron_viking_leggings": "controller.animation.viking_iron_viking_leggings",
+        "viking:netherite_viking_leggings": "controller.animation.viking_netherite_viking_leggings"
+      }
+    },
+    "component_groups": {
+	   "nether:glow_staff_timer": {
+        "minecraft:timer": {
+          "time": 35,
+          "looping": true,
+          "time_down_event": {
+            "event": "nether:glow_staff_timer_end",
+            "target": "self"
+          }
+        }
+      },
+      "neptunes_dry" : {
+				"minecraft:spell_effects" : {
+					"remove_effects" : [
+						"night_vision",
+						"water_breathing",
+						"slow_falling",
+						"speed",
+						"strength",
+						"haste"
+					]
+				}
+			},
+			"neptunes_armor" : {
+				"minecraft:spell_effects" : {
+					"add_effects" : [
+						{
+							"effect" : "night_vision",
+							"duration" : 600000,
+							"amplifier" : 0,
+							"display_on_screen_animation" : false,
+							"visible" : false
+						},
+						{
+							"effect" : "water_breathing",
+							"duration" : 600000,
+							"amplifier" : 0,
+							"display_on_screen_animation" : false,
+							"visible" : false
+						},
+						{
+							"effect" : "slow_falling",
+							"duration" : 600000,
+							"amplifier" : 0,
+							"display_on_screen_animation" : false,
+							"visible" : false
+						},
+						{
+							"effect" : "speed",
+							"duration" : 600000,
+							"amplifier" : 5,
+							"display_on_screen_animation" : false,
+							"visible" : false
+						}
+					],
+					"remove_effects" : [ "strength", "haste" ]
+				}
+			},
+			"neptunes_might" : {
+				"minecraft:spell_effects" : {
+					"add_effects" : [
+						{
+							"effect" : "strength",
+							"duration" : 600000,
+							"amplifier" : 1,
+							"display_on_screen_animation" : false,
+							"visible" : false
+						},
+						[]
+					],
+					"remove_effects" : [ "night_vision", "water_breathing", "slow_falling", "speed", "haste" ]
+				}
+			},
+			"neptunes_grace" : {
+				"minecraft:spell_effects" : {
+					"add_effects" : [
+						{
+							"effect" : "haste",
+							"duration" : 600000,
+							"amplifier" : 2,
+							"display_on_screen_animation" : false,
+							"visible" : false
+						}
+					],
+					"remove_effects" : [
+						"night_vision",
+						"water_breathing",
+						"slow_falling",
+						"speed",
+						"strength"
+					]
+				}
+			},
+      "viking:viking_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:iron_viking_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:gold_viking_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:diamond_viking_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:netherite_viking_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:iron_viking_helmet_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:gold_viking_helmet_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:viking_helmet_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:diamond_viking_helmet_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:iron_viking_chestplate_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:gold_viking_chestplate_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:viking_chestplate_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:diamond_viking_chestplate_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:netherite_viking_chestplate_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:viking_boots_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:diamond_viking_boots_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:gold_viking_boots_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:iron_viking_boots_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:netherite_viking_boots_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:netherite_viking_helmet_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:diamond_viking_leggings_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:gold_viking_leggings_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:viking_leggings_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:iron_viking_leggings_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "viking:netherite_viking_leggings_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "sp:add_effect": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "fire_resistance",
+							"display_on_screen_animation": true,
+							"duration": 6000
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time_down_event": {
+						"event": "sp:clear",
+						"target": "self"
+					}
+				}
+			},
+      "nether:lava_turtle_shield_on": {
+          "minecraft:damage_sensor": {
+          "triggers": [
+		    {
+		  	  "cause": "projectile",
+		  	  "damage_multiplier": 0.2,
+              "deals_damage": true,
+              "on_damage": {
+                "event": "nether:lava_turtle_shield"
+              }
+		    },
+		    {
+			  "cause": "entity_attack",
+			  "damage_multiplier": 0.2,
+              "deals_damage": true,
+              "on_damage": {
+                "event": "nether:lava_turtle_shield"
+              }
+		    },
+		    {
+			  "cause": "entity_explosion",
+			  "damage_multiplier": 0.2,
+              "deals_damage": true,
+              "on_damage": {
+                "event": "nether:lava_turtle_shield"
+              }
+		    },
+		    {
+			  "cause": "block_explosion",
+			  "damage_multiplier": 0.2,
+              "deals_damage": true,
+              "on_damage": {
+                "event": "nether:lava_turtle_shield"
+              }
+		    }
+          ]
+        }
+      },
+      "nether:lava_turtle_shield_off": {
+          "minecraft:damage_sensor": {
+          "triggers": [
+		    {
+		  	  "cause": "projectile",
+              "deals_damage": true
+		    },
+		    {
+			  "cause": "entity_attack",
+              "deals_damage": true
+		    },
+		    {
+			  "cause": "entity_explosion",
+              "deals_damage": true
+		    },
+		    {
+			  "cause": "block_explosion",
+              "deals_damage": true
+		    }
+          ]
+        }
+      },
+      "pamobile:respawn": {
+        "minecraft:mark_variant": {
+          "value": 99999
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": [
+            "slowness",
+            "fire_resistance",
+            "conduit_power"
+          ]
+        }
+      },
+      "ammo:1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "pa:ice_axe": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:rod": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:blaze_sword": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:komos_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "pa:komos",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "pa:forest_pocoh_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "pa:forest_pocoh",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "pa:sxuna_event_play": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "conduit_power",
+              "duration": 60000,
+              "amplifier": 1
+            }
+          ]
+        }
+      },
+      "pa:ll_event_play": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "conduit_power",
+              "duration": 60000,
+              "amplifier": 1
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "pamobile:refresh_player"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:viking_axe"
+                }
+              ]
+            },
+            "event": "viking:viking_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:iron_viking_axe"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_axe_event"
+          }
+        },
+        {
+					"on_environment" : {
+						"filters" : {
+							"any_of" : [
+								{
+									"test" : "is_family",
+									"subject" : "self",
+									"value" : "player"
+								},
+								{
+									"test" : "on_ground",
+									"subject" : "self",
+									"value" : true
+								}
+							]
+						},
+						"event" : "neptunes_dry"
+					}
+				},
+				{
+					"on_environment" : {
+						"filters" : {
+							"all_of" : [
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "head",
+									"value" : "azc:neptunium_helmet"
+								},
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "torso",
+									"value" : "azc:neptunium_chestplate"
+								},
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "leg",
+									"value" : "azc:neptunium_leggings"
+								},
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "feet",
+									"value" : "azc:neptunium_boots"
+								},
+								{
+									"test" : "is_underwater",
+									"subject" : "self",
+									"value" : true
+								}
+							]
+						},
+						"event" : "neptunes_armor"
+					}
+				},
+				{
+					"on_environment" : {
+						"filters" : {
+							"all_of" : [
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "hand",
+									"value" : "azc:neptunium_sword"
+								},
+								{
+									"test" : "is_underwater",
+									"subject" : "self",
+									"value" : true
+								}
+							]
+						},
+						"event" : "neptunes_might"
+					}
+				},
+				{
+					"on_environment" : {
+						"filters" : {
+							"all_of" : [
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "hand",
+									"value" : "azc:neptunium_axe"
+								},
+								{
+									"test" : "is_underwater",
+									"subject" : "self",
+									"value" : true
+								}
+							]
+						},
+						"event" : "neptunes_might"
+					}
+				},
+				{
+					"on_environment" : {
+						"filters" : {
+							"all_of" : [
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "hand",
+									"value" : "azc:neptunium_pickaxe"
+								},
+								{
+									"test" : "is_underwater",
+									"subject" : "self",
+									"value" : true
+								}
+							]
+						},
+						"event" : "neptunes_grace"
+					}
+				},
+				{
+					"on_environment" : {
+						"filters" : {
+							"all_of" : [
+								{
+									"test" : "has_equipment",
+									"subject" : "self",
+									"domain" : "hand",
+									"value" : "azc:neptunium_shovel"
+								},
+								{
+									"test" : "is_underwater",
+									"subject" : "self",
+									"value" : true
+								}
+							]
+						},
+						"event" : "neptunes_grace"
+					}
+				},
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:gold_viking_axe"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:diamond_viking_axe"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:netherite_viking_axe"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:iron_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:iron_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_helmet_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:gold_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:gold_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_helmet_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:viking_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:viking_helmet_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:diamond_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:diamond_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_helmet_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:iron_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_chestplate_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:iron_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_chestplate_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:gold_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_chestplate_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:gold_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_chestplate_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:viking_chestplate_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:viking_chestplate_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:diamond_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_chestplate_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:diamond_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_chestplate_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:netherite_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_chestplate_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:netherite_viking_chestplate"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_chestplate_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:viking_boots"
+                }
+              ]
+            },
+            "event": "viking:viking_boots_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:viking_boots"
+                }
+              ]
+            },
+            "event": "viking:viking_boots_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:diamond_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_boots_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:diamond_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_boots_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:gold_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_boots_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:gold_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_boots_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:iron_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_boots_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:iron_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_boots_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:netherite_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_boots_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:netherite_viking_boots"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_boots_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:netherite_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:netherite_viking_helmet"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_helmet_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:diamond_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_leggings_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:diamond_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:diamond_viking_leggings_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:gold_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_leggings_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:gold_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:gold_viking_leggings_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:viking_leggings_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:viking_leggings_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:iron_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_leggings_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:iron_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:iron_viking_leggings_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "viking:netherite_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_leggings_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "viking:netherite_viking_leggings"
+                }
+              ]
+            },
+            "event": "viking:netherite_viking_leggings_event_play"
+          }
+        },
+        {
+			"filters":{
+				"all_of": [
+					{
+					  "test": "has_equipment",
+					  "subject": "self",
+					  "domain": "head",
+					  "operator": "==",
+				      "value": "nether:lava_turtle_helmet_item"
+					},
+					{
+                      "test": "in_lava",
+                      "subject": "self",
+                      "operator": "!=",
+                      "value": true
+                    },
+                    {
+					  "test": "is_block",
+				      "subject": "self",
+				      "operator": "!=",
+					  "value": "minecraft:fire"
+					}
+		    	]
+		    },
+			"event":"nether:lava_turtle_helmet"
+          },
+          {
+			"filters":{
+				"any_of": [
+				    {
+				      "test": "is_sneaking",
+				  	  "operator": "!=",
+					  "subject": "self",
+					  "value": true
+				    },
+					{
+					  "test": "has_equipment",
+					  "subject": "self",
+					  "domain": "hand",
+					  "operator": "!=",
+				      "value": "nether:lava_turtle_shield"
+					}
+		    	]
+		    },
+			"event":"nether:off_lava_turtle_shield"
+          },
+          {
+			"filters":{
+				"all_of": [
+				    {
+				      "test": "is_sneaking",
+				  	  "operator": "==",
+					  "subject": "self",
+					  "value": true
+				    },
+					{
+					  "test": "has_equipment",
+					  "subject": "self",
+					  "domain": "hand",
+					  "operator": "==",
+				      "value": "nether:lava_turtle_shield"
+					}
+		    	]
+		    },
+			"event":"nether:on_lava_turtle_shield"
+          },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:ice_axe"
+                }
+              ]
+            },
+            "event": "pa:ice_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:rod"
+                }
+              ]
+            },
+            "event": "pa:rod_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:blaze_sword"
+                }
+              ]
+            },
+            "event": "pa:blaze_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:komos"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:forest_pocoh"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:sxuna"
+                }
+              ]
+            },
+            "event": "pa:sxuna_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:sxuna"
+                }
+              ]
+            },
+            "event": "pa:sxuna_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:ll"
+                }
+              ]
+            },
+            "event": "pa:ll_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:ll"
+                }
+              ]
+            },
+            "event": "pa:ll_event_play"
+          }
+        }
+      ],
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {}
+    },
+    "events": {
+      "pamobile:refresh_player": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "pa:ice_axe",
+            "pa:rod",
+            "pa:blaze_sword",
+            "pa:sxuna_event_hold",
+            "pa:sxuna_event_play",
+            "pa:ll_event_hold",
+            "pa:ll_event_play",
+            "viking:viking_axe",
+            "viking:iron_viking_axe",
+            "viking:gold_viking_axe",
+            "viking:diamond_viking_axe",
+            "viking:netherite_viking_axe",
+            "viking:iron_viking_helmet_event_hold",
+            "viking:iron_viking_helmet_event_play",
+            "viking:gold_viking_helmet_event_hold",
+            "viking:gold_viking_helmet_event_play",
+            "viking:viking_helmet_event_hold",
+            "viking:viking_helmet_event_play",
+            "viking:diamond_viking_helmet_event_hold",
+            "viking:diamond_viking_helmet_event_play",
+            "viking:iron_viking_chestplate_event_hold",
+            "viking:iron_viking_chestplate_event_play",
+            "viking:gold_viking_chestplate_event_hold",
+            "viking:gold_viking_chestplate_event_play",
+            "viking:viking_chestplate_event_hold",
+            "viking:viking_chestplate_event_play",
+            "viking:diamond_viking_chestplate_event_hold",
+            "viking:diamond_viking_chestplate_event_play",
+            "viking:netherite_viking_chestplate_event_hold",
+            "viking:netherite_viking_chestplate_event_play",
+            "viking:viking_boots_event_hold",
+            "viking:viking_boots_event_play",
+            "viking:diamond_viking_boots_event_hold",
+            "viking:diamond_viking_boots_event_play",
+            "viking:gold_viking_boots_event_hold",
+            "viking:gold_viking_boots_event_play",
+            "viking:iron_viking_boots_event_hold",
+            "viking:iron_viking_boots_event_play",
+            "viking:netherite_viking_boots_event_hold",
+            "viking:netherite_viking_boots_event_play",
+            "viking:netherite_viking_helmet_event_hold",
+            "viking:netherite_viking_helmet_event_play",
+            "viking:diamond_viking_leggings_event_hold",
+            "viking:diamond_viking_leggings_event_play",
+            "viking:gold_viking_leggings_event_hold",
+            "viking:gold_viking_leggings_event_play",
+            "viking:viking_leggings_event_hold",
+            "viking:viking_leggings_event_play",
+            "viking:iron_viking_leggings_event_hold",
+            "viking:iron_viking_leggings_event_play",
+            "viking:netherite_viking_leggings_event_hold",
+            "viking:netherite_viking_leggings_event_play"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {}
+      },
+      "ammo:1": {
+        "remove": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        }
+      },
+      "viking:viking_axe_event": {
+        "add": {
+          "component_groups": [
+            "viking:viking_axe"
+          ]
+        }
+      },
+      "viking:iron_viking_axe_event": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_axe"
+          ]
+        }
+      },
+      "viking:gold_viking_axe_event": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_axe"
+          ]
+        }
+      },
+      "viking:diamond_viking_axe_event": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_axe"
+          ]
+        }
+      },
+      "viking:netherite_viking_axe_event": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_axe"
+          ]
+        }
+      },
+      "viking:iron_viking_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_helmet_event_hold"
+          ]
+        }
+      },
+      "neptunes_dry" : {
+				"add" : {
+					"component_groups" : [ "neptunes_dry" ]
+				}
+			},
+			"neptunes_armor" : {
+				"add" : {
+					"component_groups" : [ "neptunes_armor" ]
+				}
+			},
+			"neptunes_might" : {
+				"add" : {
+					"component_groups" : [ "neptunes_might" ]
+				}
+			},
+			"neptunes_grace" : {
+				"add" : {
+					"component_groups" : [ "neptunes_grace" ]
+				}
+			},
+      "viking:iron_viking_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_helmet_event_play"
+          ]
+        }
+      },
+      "viking:gold_viking_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_helmet_event_hold"
+          ]
+        }
+      },
+      "viking:gold_viking_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_helmet_event_play"
+          ]
+        }
+      },
+      "viking:viking_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:viking_helmet_event_hold"
+          ]
+        }
+      },
+      "viking:viking_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:viking_helmet_event_play"
+          ]
+        }
+      },
+      "viking:diamond_viking_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_helmet_event_hold"
+          ]
+        }
+      },
+      "viking:diamond_viking_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_helmet_event_play"
+          ]
+        }
+      },
+      "viking:iron_viking_chestplate_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_chestplate_event_hold"
+          ]
+        }
+      },
+      "viking:iron_viking_chestplate_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_chestplate_event_play"
+          ]
+        }
+      },
+      "viking:gold_viking_chestplate_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_chestplate_event_hold"
+          ]
+        }
+      },
+      "viking:gold_viking_chestplate_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_chestplate_event_play"
+          ]
+        }
+      },
+      "viking:viking_chestplate_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:viking_chestplate_event_hold"
+          ]
+        }
+      },
+      "viking:viking_chestplate_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:viking_chestplate_event_play"
+          ]
+        }
+      },
+      "viking:diamond_viking_chestplate_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_chestplate_event_hold"
+          ]
+        }
+      },
+      "viking:diamond_viking_chestplate_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_chestplate_event_play"
+          ]
+        }
+      },
+      "viking:netherite_viking_chestplate_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_chestplate_event_hold"
+          ]
+        }
+      },
+      "viking:netherite_viking_chestplate_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_chestplate_event_play"
+          ]
+        }
+      },
+      "viking:viking_boots_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:viking_boots_event_hold"
+          ]
+        }
+      },
+      "viking:viking_boots_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:viking_boots_event_play"
+          ]
+        }
+      },
+      "viking:diamond_viking_boots_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_boots_event_hold"
+          ]
+        }
+      },
+      "viking:diamond_viking_boots_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_boots_event_play"
+          ]
+        }
+      },
+      "viking:gold_viking_boots_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_boots_event_hold"
+          ]
+        }
+      },
+      "viking:gold_viking_boots_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_boots_event_play"
+          ]
+        }
+      },
+      "viking:iron_viking_boots_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_boots_event_hold"
+          ]
+        }
+      },
+      "viking:iron_viking_boots_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_boots_event_play"
+          ]
+        }
+      },
+      "viking:netherite_viking_boots_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_boots_event_hold"
+          ]
+        }
+      },
+      "viking:netherite_viking_boots_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_boots_event_play"
+          ]
+        }
+      },
+      "viking:netherite_viking_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_helmet_event_hold"
+          ]
+        }
+      },
+      "viking:netherite_viking_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_helmet_event_play"
+          ]
+        }
+      },
+      "viking:diamond_viking_leggings_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_leggings_event_hold"
+          ]
+        }
+      },
+      "viking:diamond_viking_leggings_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:diamond_viking_leggings_event_play"
+          ]
+        }
+      },
+      "viking:gold_viking_leggings_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_leggings_event_hold"
+          ]
+        }
+      },
+      "viking:gold_viking_leggings_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:gold_viking_leggings_event_play"
+          ]
+        }
+      },
+      "viking:viking_leggings_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:viking_leggings_event_hold"
+          ]
+        }
+      },
+      "viking:viking_leggings_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:viking_leggings_event_play"
+          ]
+        }
+      },
+      "viking:iron_viking_leggings_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_leggings_event_hold"
+          ]
+        }
+      },
+      "viking:iron_viking_leggings_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:iron_viking_leggings_event_play"
+          ]
+        }
+      },
+      "viking:netherite_viking_leggings_event_hold": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_leggings_event_hold"
+          ]
+        }
+      },
+      "viking:netherite_viking_leggings_event_play": {
+        "add": {
+          "component_groups": [
+            "viking:netherite_viking_leggings_event_play"
+          ]
+        }
+      },
+      "ammo:2": {
+        "remove": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        }
+      },
+      "pa:ice_axe_event": {
+        "add": {
+          "component_groups": [
+            "pa:ice_axe"
+          ]
+        }
+      },
+      "pa:rod_event": {
+        "add": {
+          "component_groups": [
+            "pa:rod"
+          ]
+        }
+      },
+      "pa:blaze_sword_event": {
+        "add": {
+          "component_groups": [
+            "pa:blaze_sword"
+          ]
+        }
+      },
+      "pa:komos_fire": {
+        "add": {
+          "component_groups": [
+            "pa:komos_fire"
+          ]
+        }
+      },
+      "pa:forest_pocoh_fire": {
+        "add": {
+          "component_groups": [
+            "pa:forest_pocoh_fire"
+          ]
+        }
+      },
+      "pa:sxuna_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:sxuna_event_hold"
+          ]
+        }
+      },
+      "pa:sxuna_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:sxuna_event_play"
+          ]
+        }
+      },
+      "pa:ll_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:ll_event_hold"
+          ]
+        }
+      },
+      "nether:lava_turtle_helmet": {
+        "run_command": {
+		  "command": ["effect @s fire_resistance 10 0 true"]
+		}
+      },
+      "nether:on_lava_turtle_shield": {
+        "add": {
+          "component_groups": [ "nether:lava_turtle_shield_on" ]
+        }
+      },
+      "nether:off_lava_turtle_shield": {
+        "add": {
+          "component_groups": [ "nether:lava_turtle_shield_off" ]
+        }
+      },
+      "nether:lava_turtle_shield": {
+        "run_command": {
+		  "command": [
+		    "execute @e[family=!inanimate,rm=0.5,r=3,c=1] ~~~ summon nether:custom_fire",
+		    "playsound item.shield.block",
+		    "playsound mob.blaze.shoot"
+		  ]
+		}
+      },
+      "nether:glow_staff_timer_start": {
+        "add": {
+          "component_groups": [ "nether:glow_staff_timer" ]
+        }
+      },
+      "nether:glow_staff_timer_end": {
+        "remove": {
+          "component_groups": [ "nether:glow_staff_timer" ]
+        },
+        "run_command": {
+		  "command": [
+		    "tag @s remove glow_staff"
+		  ]
+		}
+      },
+      "minecraft:on_prime": {
+				"add": {
+					"component_groups": [
+						"sp:add_effect"
+					]
+				}
+			},
+			"sp:clear": {
+				"remove": {
+					"component_groups": [
+						"sp:add_effect"
+					]
+				}
+			},
+      "pa:ll_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:ll_event_play"
+          ]
+        }
+      }
+    }
+  }
+}

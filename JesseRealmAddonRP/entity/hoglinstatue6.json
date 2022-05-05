@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:hoglinstatue6",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/hoglinstatue6"
+        },
+        "geometry": {
+          "default": "geometry.hoglinstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "hoglinstatue6item"
+        }
+      }
+    }
+  }
+  

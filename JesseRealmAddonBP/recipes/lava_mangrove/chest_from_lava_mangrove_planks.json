@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:chest_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~", 
+            "~ ~",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_planks"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:chest",
+				"count": 1
+			}
+		]
+    }
+}

@@ -1,0 +1,110 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:cherry_sapling"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.crop.cross",
+			"minecraft:loot": "loot_tables/cherry_sapling.json",
+			"minecraft:breathability": "air",
+			"minecraft:destroy_time": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+		//	"minecraft:breakonpush": true,		removed as of 1.18.30
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cherry_sapling",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-4, 0, -4
+				],
+				"size": [
+					8, 13, 8
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt",
+							"minecraft:podzol"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 45,
+				"flame_odds": 80
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "grow_stage",
+					"target": "self"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "meal",
+				"target": "self",
+				"condition": "query.get_equipped_item_name('main_hand') == 'bone_meal'"
+			}
+		},
+		"events": {
+			"grow_stage": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"structure load cherryTree ~-3 ~ ~-3"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"weight": 35
+					}
+				]
+			},
+			"meal": {
+				"sequence": [
+					{
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"randomize": [
+							{
+								"weight": 1,
+								"run_command": {
+									"command": [
+										"structure load cherryTree ~-3 ~ ~-3"
+									],
+									"target": "self"
+								}
+							},
+							{
+								"weight": 5
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

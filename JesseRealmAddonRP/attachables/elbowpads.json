@@ -1,0 +1,22 @@
+{
+  "minecraft:attachable" : {
+    "description" : {
+      "textures" : {
+        "default" : "textures/models/armor/elbowpads.png",
+        "enchanted" : "textures/misc/enchanted_item_glint"
+      },
+      "materials" : {
+        "default" : "armor",
+        "enchanted" : "armor_enchanted"
+      },
+      "identifier" : "guardian:elbowpads",
+      "geometry" : {
+        "default" : "geometry.player.armor.chestplate"
+      },
+      "render_controllers" : [
+        "controller.render.armor"
+      ]
+    }
+  },
+  "format_version" : "1.8.0"
+}

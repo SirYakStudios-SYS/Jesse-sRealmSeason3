@@ -1,0 +1,31 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bumble:sweet_berry_jam"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SXS",
+			"XGX",
+			"SXS"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:sugar"
+			},
+			"X": {
+				"item": "minecraft:sweet_berries"
+			},
+			"G": {
+				"item": "minecraft:glass_bottle"
+			}
+		},
+		"result": {
+			"item": "bumble:sweet_berry_jam"
+		}
+	}
+}

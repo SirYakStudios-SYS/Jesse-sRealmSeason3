@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.creepycreeper": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.body"
+				},
+				{
+					"head": "material.head"
+				}
+			],
+			"textures": [
+				"texture.default"
+			],
+			"overlay_color": {
+				"r": "((variable.flash==0)||(query.swelling_dir<0))?this:1",
+				"g": "((variable.flash==0)||(query.swelling_dir<0))?this:1",
+				"b": "((variable.flash==0)||(query.swelling_dir<0))?this:1",
+				"a": "((variable.flash==0)||(query.swelling_dir<0))?this:1"
+			}
+		}
+	}
+}

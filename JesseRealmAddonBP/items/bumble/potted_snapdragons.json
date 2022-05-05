@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:potted_snapdragons",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:pot_snapdragons"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:potted_snapdragons"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:potted_snapdragons"
+			}
+        }
+    }
+}

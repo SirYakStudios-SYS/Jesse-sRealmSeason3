@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "vatonage:iron_block_chestplate"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "vatonage:iron_block_chestplate"
+    }
+  }
+}

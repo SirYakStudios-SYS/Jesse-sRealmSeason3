@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:leather_from_saddle"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "minecraft:saddle",
+    "output": "minecraft:leather"
+  }
+}

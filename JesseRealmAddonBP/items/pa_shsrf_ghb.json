@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:shsrf_ghb",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "pa:shsrf_ghb"
+      },
+      "minecraft:display_name": {
+        "value": "Handle of the Staff of the Forest"
+      }
+    }
+  }
+}

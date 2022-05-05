@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:beestatue7"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "beestatue7item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:beestatue7"
+        }
+      }
+    }
+  }

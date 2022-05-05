@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:battle_axe_diamond"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WXW",
+			"X#X",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:diamond"
+			},
+			"W": {
+				"item": "minecraft:diamond_block"
+			}
+		},
+		"result": {
+			"item": "sp:battle_axe_diamond"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "mc:soul_ore_feature"
+		},
+		"count": 8, // Placement attempts
+		"replace_rules": [
+			{
+				// Replace all stone variant (andesite, granite,diorite) with soul ore ore
+				"places_block": "mc:soul_ore",
+				"may_replace": ["minecraft:stone"]
+			},
+			{
+				// Replace deepslate with deepslate soul ore ore
+				"places_block": "mc:soul_ore",
+				"may_replace": ["minecraft:deepslate"]
+			}
+		]
+	}
+}

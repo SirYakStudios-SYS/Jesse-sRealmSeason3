@@ -1,0 +1,18 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:ruby_ore"
+		},
+		"components": {
+			"minecraft:creative_category": { "category": "Construction" },
+			"minecraft:destroy_time": 2.3,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#484242",
+			"tag:stone": {},
+			"minecraft:loot": "loot_tables/ruby_ore.json"
+		},
+		"events": {}
+	}
+}

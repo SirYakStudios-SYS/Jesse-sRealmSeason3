@@ -1,0 +1,376 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\biomes\\revamped_birch_forest.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "d457969e_9923_4b42_afb9_e8ed54b32a11",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "revamped_birch_forest"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0.6,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 0.6
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "default"
+							},
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 7,
+								"sea_floor_material": "minecraft:gravel",
+								"foundation_material": "minecraft:stone",
+								"mid_material": "minecraft:dirt",
+								"top_material": "minecraft:grass",
+								"sea_material": "minecraft:water"
+							},
+							"minecraft:overworld_generation_rules": {
+								"generate_for_climates": [
+									[
+										"medium",
+										2
+									],
+									[
+										"cold",
+										1
+									],
+									[
+										"warm",
+										1
+									]
+								],
+								"hills_transformation": [
+									"revamped_birch_forest_hills"
+								],
+								"mutate_transformation": [
+									"revamped_birch_forest_mutated"
+								]
+							},
+							"animal": {},
+							"revamped_birch": {},
+							"monster": {},
+							"overworld": {},
+							"bee_habitat": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "revamped_birch_forest"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "revamped_birch_forest"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0.6,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.6
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "default"
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "minecraft:grass",
+									"sea_material": "minecraft:water"
+								},
+								"minecraft:overworld_generation_rules": {
+									"generate_for_climates": [
+										[
+											"medium",
+											2
+										],
+										[
+											"cold",
+											1
+										],
+										[
+											"warm",
+											1
+										]
+									],
+									"hills_transformation": [
+										"revamped_birch_forest_hills"
+									],
+									"mutate_transformation": [
+										"revamped_birch_forest_mutated"
+									]
+								},
+								"animal": {},
+								"revamped_birch": {},
+								"monster": {},
+								"overworld": {},
+								"bee_habitat": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:climate",
+								"is_minified": true,
+								"children": {
+									"downfall": 0.6,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.6
+								}
+							},
+							{
+								"key": "minecraft:overworld_height",
+								"is_minified": true,
+								"children": {
+									"noise_type": "default"
+								}
+							},
+							{
+								"key": "minecraft:surface_parameters",
+								"is_minified": true,
+								"children": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "minecraft:grass",
+									"sea_material": "minecraft:water"
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0.6,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 0.6
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "default"
+									},
+									"minecraft:surface_parameters": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "minecraft:gravel",
+										"foundation_material": "minecraft:stone",
+										"mid_material": "minecraft:dirt",
+										"top_material": "minecraft:grass",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"generate_for_climates": [
+											[
+												"medium",
+												2
+											],
+											[
+												"cold",
+												1
+											],
+											[
+												"warm",
+												1
+											]
+										],
+										"hills_transformation": [
+											"revamped_birch_forest_hills"
+										],
+										"mutate_transformation": [
+											"revamped_birch_forest_mutated"
+										]
+									},
+									"animal": {},
+									"revamped_birch": {},
+									"monster": {},
+									"overworld": {},
+									"bee_habitat": {}
+								},
+								"key": "minecraft:overworld_generation_rules",
+								"children": [
+									{
+										"key": "generate_for_climates",
+										"children": [
+											{
+												"open": [
+													[
+														"medium",
+														2
+													],
+													[
+														"cold",
+														1
+													],
+													[
+														"warm",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"medium",
+													2
+												]
+											},
+											{
+												"open": [
+													[
+														"medium",
+														2
+													],
+													[
+														"cold",
+														1
+													],
+													[
+														"warm",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"cold",
+													1
+												]
+											},
+											{
+												"open": [
+													[
+														"medium",
+														2
+													],
+													[
+														"cold",
+														1
+													],
+													[
+														"warm",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"warm",
+													1
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"generate_for_climates": [
+												[
+													"medium",
+													2
+												],
+												[
+													"cold",
+													1
+												],
+												[
+													"warm",
+													1
+												]
+											],
+											"hills_transformation": [
+												"revamped_birch_forest_hills"
+											],
+											"mutate_transformation": [
+												"revamped_birch_forest_mutated"
+											]
+										},
+										"key": "hills_transformation",
+										"is_minified": true,
+										"children": [
+											"revamped_birch_forest_hills"
+										]
+									},
+									{
+										"open": {
+											"generate_for_climates": [
+												[
+													"medium",
+													2
+												],
+												[
+													"cold",
+													1
+												],
+												[
+													"warm",
+													1
+												]
+											],
+											"hills_transformation": [
+												"revamped_birch_forest_hills"
+											],
+											"mutate_transformation": [
+												"revamped_birch_forest_mutated"
+											]
+										},
+										"key": "mutate_transformation",
+										"is_minified": true,
+										"children": [
+											"revamped_birch_forest_mutated"
+										]
+									}
+								]
+							},
+							{
+								"key": "animal",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "revamped_birch",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "monster",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "overworld",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "bee_habitat",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

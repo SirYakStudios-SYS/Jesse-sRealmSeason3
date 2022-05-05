@@ -1,0 +1,16 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:hoglin_cooked"
+		},
+		"components": {
+			"minecraft:use_duration": 35,
+      	"minecraft:max_stack_size": 64,
+			"minecraft:food": {
+				"can_always_eat": false,
+				"nutrition": 16,
+				"saturation_modifier": "normal"		       	          }
+		}
+	}
+}

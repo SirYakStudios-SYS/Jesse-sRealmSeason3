@@ -1,0 +1,370 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Lost Update RES\\entity\\glare.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "dcf78b29_835d_43ec_9865_c3d542b9852a",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:glare",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"glare_normal": "textures/entity/glare",
+								"glare_grumpy": "textures/entity/glare_grumpy",
+								"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+								"glare_grumpy_tamed": "textures/entity/glare_tamed"
+							},
+							"geometry": {
+								"default": "geometry.glare"
+							},
+							"render_controllers": [
+								"controller.render.glare"
+							],
+							"spawn_egg": {
+								"base_color": "#2A4D13",
+								"overlay_color": "#1A2E0D"
+							},
+							"animations": {
+								"move": "animation.glare.move",
+								"idle": "animation.glare.idle",
+								"grumpy": "animation.glare.grumpy",
+								"glare_controller": "controller.animation.glare"
+							},
+							"scripts": {
+								"animate": [
+									"glare_controller",
+									{
+										"grumpy": "query.is_sheared"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:glare",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"glare_normal": "textures/entity/glare",
+									"glare_grumpy": "textures/entity/glare_grumpy",
+									"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+									"glare_grumpy_tamed": "textures/entity/glare_tamed"
+								},
+								"geometry": {
+									"default": "geometry.glare"
+								},
+								"render_controllers": [
+									"controller.render.glare"
+								],
+								"spawn_egg": {
+									"base_color": "#2A4D13",
+									"overlay_color": "#1A2E0D"
+								},
+								"animations": {
+									"move": "animation.glare.move",
+									"idle": "animation.glare.idle",
+									"grumpy": "animation.glare.grumpy",
+									"glare_controller": "controller.animation.glare"
+								},
+								"scripts": {
+									"animate": [
+										"glare_controller",
+										{
+											"grumpy": "query.is_sheared"
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:glare",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy",
+										"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+										"glare_grumpy_tamed": "textures/entity/glare_tamed"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"grumpy": "animation.glare.grumpy",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller",
+											{
+												"grumpy": "query.is_sheared"
+											}
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"glare_normal": "textures/entity/glare",
+									"glare_grumpy": "textures/entity/glare_grumpy",
+									"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+									"glare_grumpy_tamed": "textures/entity/glare_tamed"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.glare"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy",
+										"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+										"glare_grumpy_tamed": "textures/entity/glare_tamed"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"grumpy": "animation.glare.grumpy",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller",
+											{
+												"grumpy": "query.is_sheared"
+											}
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.glare"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy",
+										"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+										"glare_grumpy_tamed": "textures/entity/glare_tamed"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"grumpy": "animation.glare.grumpy",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller",
+											{
+												"grumpy": "query.is_sheared"
+											}
+										]
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#2A4D13",
+									"overlay_color": "#1A2E0D"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy",
+										"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+										"glare_grumpy_tamed": "textures/entity/glare_tamed"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"grumpy": "animation.glare.grumpy",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller",
+											{
+												"grumpy": "query.is_sheared"
+											}
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.glare.move",
+									"idle": "animation.glare.idle",
+									"grumpy": "animation.glare.grumpy",
+									"glare_controller": "controller.animation.glare"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:glare",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"glare_normal": "textures/entity/glare",
+										"glare_grumpy": "textures/entity/glare_grumpy",
+										"glare_normal_tamed": "textures/entity/glare_grumpy_tamed",
+										"glare_grumpy_tamed": "textures/entity/glare_tamed"
+									},
+									"geometry": {
+										"default": "geometry.glare"
+									},
+									"render_controllers": [
+										"controller.render.glare"
+									],
+									"spawn_egg": {
+										"base_color": "#2A4D13",
+										"overlay_color": "#1A2E0D"
+									},
+									"animations": {
+										"move": "animation.glare.move",
+										"idle": "animation.glare.idle",
+										"grumpy": "animation.glare.grumpy",
+										"glare_controller": "controller.animation.glare"
+									},
+									"scripts": {
+										"animate": [
+											"glare_controller",
+											{
+												"grumpy": "query.is_sheared"
+											}
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"glare_controller",
+												{
+													"grumpy": "query.is_sheared"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"data": "glare_controller"
+											},
+											{
+												"open": [
+													"glare_controller",
+													{
+														"grumpy": "query.is_sheared"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"grumpy": "query.is_sheared"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

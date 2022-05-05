@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "pa:nautilus_meal",
+      "data": 0
+    },
+    "input": {
+      "item": "pa:stone_shell",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_26eede34"
+    }
+  }
+}

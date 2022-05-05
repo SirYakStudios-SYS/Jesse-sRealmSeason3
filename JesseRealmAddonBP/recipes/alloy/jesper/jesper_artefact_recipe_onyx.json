@@ -1,0 +1,29 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:jesper_artefact_recipe_onyx"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" G",
+			"GJG",
+			" G"
+		],
+		"key": {
+			"G": {
+				"item": "m:onyx"
+			},
+			"J": {
+				"item": "m:jasper_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "m:jasper_artefact_onyx"
+			}
+		]
+	}
+}

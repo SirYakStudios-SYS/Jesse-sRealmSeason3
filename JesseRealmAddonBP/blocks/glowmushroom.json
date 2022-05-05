@@ -1,0 +1,125 @@
+{
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "tt:glowmushroom",
+			"is_experimental": false
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:explosion_resistance": 1,
+			"minecraft:geometry": "geometry.glowmushroom",
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "block"
+				}
+			},
+			"minecraft:ticking": {
+				"on_tick": {
+					"event": "test_event"
+				},
+				"looping": true,
+				"range": [
+					2,
+					3
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					0,
+					1,
+					0
+				],
+				"size": [
+					0,
+					4,
+					0
+				]
+			},
+			"minecraft:block_light_absorption": 0.9,
+			"minecraft:pick_collision": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					4,
+					12
+				]
+			}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_facing_2d"
+				}
+			},
+			"test_event": {
+				"run_command": {
+					"command": [
+						"particle tt:glow ~ ~0.1 ~",
+						"effect @e[r=1] wither 5 1 true"
+					]
+				}
+			}
+		}
+	},
+	"format_version": 1.17
+}

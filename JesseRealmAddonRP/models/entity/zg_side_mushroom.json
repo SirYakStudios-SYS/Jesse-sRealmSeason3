@@ -1,0 +1,199 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.zg_side_mushroom",
+        "texture_width": 32,
+        "texture_height": 32,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "ModelFolder",
+          "cubes": [
+            {
+              "origin": [
+                -5.0,
+                1.0,
+                -8.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                2.0
+              ],
+              "uv": [
+                12,
+                18
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -7.0,
+                2.0,
+                -8.0
+              ],
+              "size": [
+                5.0,
+                1.0,
+                5.0
+              ],
+              "uv": [
+                0,
+                12
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -6.0,
+                3.0,
+                -7.0
+              ],
+              "size": [
+                3.0,
+                1.0,
+                3.0
+              ],
+              "uv": [
+                15,
+                12
+              ],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "ModelFolder2",
+          "pivot": [
+            9,
+            5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4.0,
+                6.0,
+                -8.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                2.0
+              ],
+              "uv": [
+                6,
+                18
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                2.0,
+                7.0,
+                -8.0
+              ],
+              "size": [
+                5.0,
+                1.0,
+                5.0
+              ],
+              "uv": [
+                0,
+                6
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                3.0,
+                8.0,
+                -7.0
+              ],
+              "size": [
+                3.0,
+                1.0,
+                3.0
+              ],
+              "uv": [
+                15,
+                6
+              ],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "ModelFolder3",
+          "pivot": [
+            2,
+            11,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3.0,
+                12.0,
+                -8.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                2.0
+              ],
+              "uv": [
+                0,
+                18
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -5.0,
+                13.0,
+                -8.0
+              ],
+              "size": [
+                5.0,
+                1.0,
+                5.0
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -4.0,
+                14.0,
+                -7.0
+              ],
+              "size": [
+                3.0,
+                1.0,
+                3.0
+              ],
+              "uv": [
+                15,
+                0
+              ],
+              "inflate": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:steel_shovel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:steel_stick"
+			},
+			"X": {
+				"item": "sp:steel_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:steel_shovel",
+				"count": 1
+			}
+		]
+	}
+}

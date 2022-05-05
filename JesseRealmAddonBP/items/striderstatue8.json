@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:striderstatue8"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "striderstatue8item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:striderstatue8"
+        }
+      }
+    }
+  }

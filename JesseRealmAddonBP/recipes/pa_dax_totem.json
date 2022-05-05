@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dax_totem_4600736a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:polished_pilestone",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:pumpkin_pie",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:dax_totem",
+      "count": 1
+    }
+  }
+}

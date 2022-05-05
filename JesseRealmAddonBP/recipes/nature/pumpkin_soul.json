@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:pumpkin_soul"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:carved_pumpkin"
+      },
+      "B": {
+        "item": "minecraft:soul_torch"
+      }
+    },
+    "result": {
+      "item": "guardian:pumpkin_soul"
+    }
+  }
+}

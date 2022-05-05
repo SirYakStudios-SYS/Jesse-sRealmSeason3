@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:onyx_apple"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#G#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "sp:onyx"
+			},
+			"G": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "sp:onyx_apple"
+		}
+	}
+}

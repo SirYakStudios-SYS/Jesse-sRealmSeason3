@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "iogurt_bucket_86009108"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sweet_berries",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:bucket",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "pa:iogurt_bucket",
+      "count": 1
+    }
+  }
+}

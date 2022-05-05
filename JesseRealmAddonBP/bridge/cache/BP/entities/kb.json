@@ -1,0 +1,923 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shield V2\\entities\\kb.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "158876a2_b042_4ad1_a228_2f9fc1379c61",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "ray:kb",
+							"runtime_identifier": {},
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {
+							"despawn": {
+								"minecraft:instant_despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "all",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:behavior.knockback_roar": {
+								"priority": 5,
+								"attack_time": 0.1,
+								"cooldown_time": 0.1,
+								"duration": 1,
+								"knockback_damage": 0,
+								"knockback_strength": 1,
+								"knockback_range": 2,
+								"knockback_filters": {
+									"all_of": [
+										{
+											"test": "is_family",
+											"operator": "!=",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "has_component",
+											"operator": "!=",
+											"subject": "other",
+											"value": "minecraft:shooter"
+										}
+									]
+								},
+								"on_roar_end": {
+									"event": "despawn",
+									"target": "self"
+								},
+								"damage_filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "el_pepe_ete_sech"
+										}
+									]
+								}
+							}
+						},
+						"events": {
+							"despawn": {
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "ray:kb",
+							"runtime_identifier": {},
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {
+							"despawn": {
+								"minecraft:instant_despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "all",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:behavior.knockback_roar": {
+								"priority": 5,
+								"attack_time": 0.1,
+								"cooldown_time": 0.1,
+								"duration": 1,
+								"knockback_damage": 0,
+								"knockback_strength": 1,
+								"knockback_range": 2,
+								"knockback_filters": {
+									"all_of": [
+										{
+											"test": "is_family",
+											"operator": "!=",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "has_component",
+											"operator": "!=",
+											"subject": "other",
+											"value": "minecraft:shooter"
+										}
+									]
+								},
+								"on_roar_end": {
+									"event": "despawn",
+									"target": "self"
+								},
+								"damage_filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "el_pepe_ete_sech"
+										}
+									]
+								}
+							}
+						},
+						"events": {
+							"despawn": {
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ray:kb",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:behavior.knockback_roar": {
+									"priority": 5,
+									"attack_time": 0.1,
+									"cooldown_time": 0.1,
+									"duration": 1,
+									"knockback_damage": 0,
+									"knockback_strength": 1,
+									"knockback_range": 2,
+									"knockback_filters": {
+										"all_of": [
+											{
+												"test": "is_family",
+												"operator": "!=",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "has_component",
+												"operator": "!=",
+												"subject": "other",
+												"value": "minecraft:shooter"
+											}
+										]
+									},
+									"on_roar_end": {
+										"event": "despawn",
+										"target": "self"
+									},
+									"damage_filters": {
+										"all_of": [
+											{
+												"test": "has_tag",
+												"operator": "==",
+												"subject": "other",
+												"value": "el_pepe_ete_sech"
+											}
+										]
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ray:kb",
+							"runtime_identifier": {},
+							"is_summonable": true,
+							"is_spawnable": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ray:kb",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:behavior.knockback_roar": {
+									"priority": 5,
+									"attack_time": 0.1,
+									"cooldown_time": 0.1,
+									"duration": 1,
+									"knockback_damage": 0,
+									"knockback_strength": 1,
+									"knockback_range": 2,
+									"knockback_filters": {
+										"all_of": [
+											{
+												"test": "is_family",
+												"operator": "!=",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "has_component",
+												"operator": "!=",
+												"subject": "other",
+												"value": "minecraft:shooter"
+											}
+										]
+									},
+									"on_roar_end": {
+										"event": "despawn",
+										"target": "self"
+									},
+									"damage_filters": {
+										"all_of": [
+											{
+												"test": "has_tag",
+												"operator": "==",
+												"subject": "other",
+												"value": "el_pepe_ete_sech"
+											}
+										]
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"minecraft:instant_despawn": {}
+									}
+								},
+								"key": "despawn",
+								"is_minified": true,
+								"children": {
+									"minecraft:instant_despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ray:kb",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:behavior.knockback_roar": {
+									"priority": 5,
+									"attack_time": 0.1,
+									"cooldown_time": 0.1,
+									"duration": 1,
+									"knockback_damage": 0,
+									"knockback_strength": 1,
+									"knockback_range": 2,
+									"knockback_filters": {
+										"all_of": [
+											{
+												"test": "is_family",
+												"operator": "!=",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "has_component",
+												"operator": "!=",
+												"subject": "other",
+												"value": "minecraft:shooter"
+											}
+										]
+									},
+									"on_roar_end": {
+										"event": "despawn",
+										"target": "self"
+									},
+									"damage_filters": {
+										"all_of": [
+											{
+												"test": "has_tag",
+												"operator": "==",
+												"subject": "other",
+												"value": "el_pepe_ete_sech"
+											}
+										]
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false
+											}
+										]
+									},
+									"minecraft:behavior.knockback_roar": {
+										"priority": 5,
+										"attack_time": 0.1,
+										"cooldown_time": 0.1,
+										"duration": 1,
+										"knockback_damage": 0,
+										"knockback_strength": 1,
+										"knockback_range": 2,
+										"knockback_filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"operator": "!=",
+													"subject": "other",
+													"value": "player"
+												},
+												{
+													"test": "has_component",
+													"operator": "!=",
+													"subject": "other",
+													"value": "minecraft:shooter"
+												}
+											]
+										},
+										"on_roar_end": {
+											"event": "despawn",
+											"target": "self"
+										},
+										"damage_filters": {
+											"all_of": [
+												{
+													"test": "has_tag",
+													"operator": "==",
+													"subject": "other",
+													"value": "el_pepe_ete_sech"
+												}
+											]
+										}
+									}
+								},
+								"key": "minecraft:damage_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": [
+												{
+													"cause": "all",
+													"deals_damage": false
+												}
+											]
+										},
+										"key": "triggers",
+										"children": [
+											{
+												"open": [
+													{
+														"cause": "all",
+														"deals_damage": false
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"cause": "all",
+													"deals_damage": false
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false
+											}
+										]
+									},
+									"minecraft:behavior.knockback_roar": {
+										"priority": 5,
+										"attack_time": 0.1,
+										"cooldown_time": 0.1,
+										"duration": 1,
+										"knockback_damage": 0,
+										"knockback_strength": 1,
+										"knockback_range": 2,
+										"knockback_filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"operator": "!=",
+													"subject": "other",
+													"value": "player"
+												},
+												{
+													"test": "has_component",
+													"operator": "!=",
+													"subject": "other",
+													"value": "minecraft:shooter"
+												}
+											]
+										},
+										"on_roar_end": {
+											"event": "despawn",
+											"target": "self"
+										},
+										"damage_filters": {
+											"all_of": [
+												{
+													"test": "has_tag",
+													"operator": "==",
+													"subject": "other",
+													"value": "el_pepe_ete_sech"
+												}
+											]
+										}
+									}
+								},
+								"key": "minecraft:behavior.knockback_roar",
+								"children": [
+									{
+										"data": "5",
+										"key": "priority"
+									},
+									{
+										"data": "0.1",
+										"key": "attack_time"
+									},
+									{
+										"data": "0.1",
+										"key": "cooldown_time"
+									},
+									{
+										"data": "1",
+										"key": "duration"
+									},
+									{
+										"data": "0",
+										"key": "knockback_damage"
+									},
+									{
+										"data": "1",
+										"key": "knockback_strength"
+									},
+									{
+										"data": "2",
+										"key": "knockback_range"
+									},
+									{
+										"open": {
+											"priority": 5,
+											"attack_time": 0.1,
+											"cooldown_time": 0.1,
+											"duration": 1,
+											"knockback_damage": 0,
+											"knockback_strength": 1,
+											"knockback_range": 2,
+											"knockback_filters": {
+												"all_of": [
+													{
+														"test": "is_family",
+														"operator": "!=",
+														"subject": "other",
+														"value": "player"
+													},
+													{
+														"test": "has_component",
+														"operator": "!=",
+														"subject": "other",
+														"value": "minecraft:shooter"
+													}
+												]
+											},
+											"on_roar_end": {
+												"event": "despawn",
+												"target": "self"
+											},
+											"damage_filters": {
+												"all_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "other",
+														"value": "el_pepe_ete_sech"
+													}
+												]
+											}
+										},
+										"key": "knockback_filters",
+										"children": [
+											{
+												"open": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"operator": "!=",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "has_component",
+															"operator": "!=",
+															"subject": "other",
+															"value": "minecraft:shooter"
+														}
+													]
+												},
+												"key": "all_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "is_family",
+																"operator": "!=",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_component",
+																"operator": "!=",
+																"subject": "other",
+																"value": "minecraft:shooter"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "is_family",
+															"operator": "!=",
+															"subject": "other",
+															"value": "player"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "is_family",
+																"operator": "!=",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_component",
+																"operator": "!=",
+																"subject": "other",
+																"value": "minecraft:shooter"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_component",
+															"operator": "!=",
+															"subject": "other",
+															"value": "minecraft:shooter"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"priority": 5,
+											"attack_time": 0.1,
+											"cooldown_time": 0.1,
+											"duration": 1,
+											"knockback_damage": 0,
+											"knockback_strength": 1,
+											"knockback_range": 2,
+											"knockback_filters": {
+												"all_of": [
+													{
+														"test": "is_family",
+														"operator": "!=",
+														"subject": "other",
+														"value": "player"
+													},
+													{
+														"test": "has_component",
+														"operator": "!=",
+														"subject": "other",
+														"value": "minecraft:shooter"
+													}
+												]
+											},
+											"on_roar_end": {
+												"event": "despawn",
+												"target": "self"
+											},
+											"damage_filters": {
+												"all_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "other",
+														"value": "el_pepe_ete_sech"
+													}
+												]
+											}
+										},
+										"key": "on_roar_end",
+										"is_minified": true,
+										"children": {
+											"event": "despawn",
+											"target": "self"
+										}
+									},
+									{
+										"open": {
+											"priority": 5,
+											"attack_time": 0.1,
+											"cooldown_time": 0.1,
+											"duration": 1,
+											"knockback_damage": 0,
+											"knockback_strength": 1,
+											"knockback_range": 2,
+											"knockback_filters": {
+												"all_of": [
+													{
+														"test": "is_family",
+														"operator": "!=",
+														"subject": "other",
+														"value": "player"
+													},
+													{
+														"test": "has_component",
+														"operator": "!=",
+														"subject": "other",
+														"value": "minecraft:shooter"
+													}
+												]
+											},
+											"on_roar_end": {
+												"event": "despawn",
+												"target": "self"
+											},
+											"damage_filters": {
+												"all_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "other",
+														"value": "el_pepe_ete_sech"
+													}
+												]
+											}
+										},
+										"key": "damage_filters",
+										"children": [
+											{
+												"open": {
+													"all_of": [
+														{
+															"test": "has_tag",
+															"operator": "==",
+															"subject": "other",
+															"value": "el_pepe_ete_sech"
+														}
+													]
+												},
+												"key": "all_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "has_tag",
+																"operator": "==",
+																"subject": "other",
+																"value": "el_pepe_ete_sech"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_tag",
+															"operator": "==",
+															"subject": "other",
+															"value": "el_pepe_ete_sech"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ray:kb",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:behavior.knockback_roar": {
+									"priority": 5,
+									"attack_time": 0.1,
+									"cooldown_time": 0.1,
+									"duration": 1,
+									"knockback_damage": 0,
+									"knockback_strength": 1,
+									"knockback_range": 2,
+									"knockback_filters": {
+										"all_of": [
+											{
+												"test": "is_family",
+												"operator": "!=",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "has_component",
+												"operator": "!=",
+												"subject": "other",
+												"value": "minecraft:shooter"
+											}
+										]
+									},
+									"on_roar_end": {
+										"event": "despawn",
+										"target": "self"
+									},
+									"damage_filters": {
+										"all_of": [
+											{
+												"test": "has_tag",
+												"operator": "==",
+												"subject": "other",
+												"value": "el_pepe_ete_sech"
+											}
+										]
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"add": {
+											"component_groups": [
+												"despawn"
+											]
+										}
+									}
+								},
+								"key": "despawn",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"despawn"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"despawn"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"despawn"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,47 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:orange"
+		},
+		"components": {
+			"minecraft:use_duration": 1.7,
+			"minecraft:food": {
+				"nutrition": 8,
+				"saturation_modifier": "good",
+				"effects": [
+					{
+						"name": "speed",
+						"chance": 1,
+						"duration": 40,
+						"amplifier": 2
+					},
+					{
+						"name": "resistance",
+						"chance": 1,
+						"duration": 30,
+						"amplifier": 0
+					},
+					{
+						"name": "fire_resistance",
+						"chance": 1,
+						"duration": 200,
+						"amplifier": 0
+					}
+				]
+			},//MCPEDL:SorYPMod
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"texture": "orange"
+			},
+			"minecraft:display_name": {
+				"value": "Orange"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			}
+		},
+		"events": {}
+	}
+}

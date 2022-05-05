@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:topaz_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:topaz_block"
+			}
+		},
+		"result": {
+			"item": "sp:topaz",
+			"count": 9
+		}
+	}
+}

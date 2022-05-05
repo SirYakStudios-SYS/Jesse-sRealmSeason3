@@ -1,0 +1,49 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:burnt_bush_top"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:geometry": "geometry.flora",
+			"minecraft:breathability": "air",
+            "minecraft:loot": "empty",
+			"minecraft:entity_collision": false,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "burnt_bush_top",
+					"ambient_occlusion": false,
+					"face_dimming": false					
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"nether:burnt_bush_bottom"
+						]
+					}
+				]
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "nether:bottom_break"
+			}
+		},
+		"events": {
+			"nether:bottom_break": {
+				"run_command": {
+					"command": [
+						"setblock ~~-1~ air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

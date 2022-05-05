@@ -1,0 +1,90 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\chalk_stone.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "ee3317cf_d417_457c_b4b0_37bdcf30d3a9",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:chalk_stone"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.stone"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:chalk_stone"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.stone"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:chalk_stone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:chalk_stone"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.stone"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:creative_category": {
+										"category": "Nature",
+										"group": "itemGroup.name.stone"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"category": "Nature",
+									"group": "itemGroup.name.stone"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

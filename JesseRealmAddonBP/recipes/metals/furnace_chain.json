@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:furnace_chain"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "minecraft:chain",
+    "output": "minecraft:iron_nugget"
+  }
+  
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "none",
+			"identifier": "v:test_ore_deleter"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "youmom"
+			}
+		},
+		"events": {}
+	}
+}

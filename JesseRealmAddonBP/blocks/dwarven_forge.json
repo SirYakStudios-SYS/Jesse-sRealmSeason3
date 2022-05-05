@@ -1,0 +1,23 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+	"format_version": "1.17.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mc:dwarven_forge"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.6,
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:explosion_resistance": 12,
+			"minecraft:loot": "loot_tables/blocks/dwarven_forge_drop.json"
+		},
+		"minecraft:crafting_table": {
+			"grid_size": 3,
+			"crafting_tags": [
+				"crafting_table"
+			]
+		}
+		}
+	}

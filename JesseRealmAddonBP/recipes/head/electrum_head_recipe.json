@@ -1,0 +1,28 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:electrum_head_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#E",
+			"E#"
+		],
+		"key": {
+			"#": {
+				"item": "m:electrum_ingot"
+			},
+			"E": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": [
+			{
+				"item": "m:electrum_head"
+			}
+		]
+	}
+}

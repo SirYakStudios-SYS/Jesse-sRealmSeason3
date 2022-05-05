@@ -1,0 +1,1124 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Raiyon's More Shield V2\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "4af078b4_6cab_4aa6_acfb_87b22fec5c3c",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"evocation_shield": {
+							"textures": [
+								"textures/items/evocation_shield"
+							]
+						},
+						"diamond_shield": {
+							"textures": [
+								"textures/items/diamond_shield"
+							]
+						},
+						"cactus_shield": {
+							"textures": [
+								"textures/items/cactus_shield"
+							]
+						},
+						"amethyst_shield": {
+							"textures": [
+								"textures/items/amethyst_shield"
+							]
+						},
+						"netherite_shield": {
+							"textures": [
+								"textures/items/netherite_shield"
+							]
+						},
+						"oak_copper_shield": {
+							"textures": [
+								"textures/items/copper_oak"
+							]
+						},
+						"oak_gold_shield": {
+							"textures": [
+								"textures/items/gold_oak"
+							]
+						},
+						"oak_iron_shield": {
+							"textures": [
+								"textures/items/iron_oak"
+							]
+						},
+						"wood_shield": {
+							"textures": [
+								"textures/items/wood_shield"
+							]
+						},
+						"gold_combat_shield": {
+							"textures": [
+								"textures/items/gold_combat_shield"
+							]
+						},
+						"light_shield": {
+							"textures": [
+								"textures/items/light_shield"
+							]
+						},
+						"iron_shield": {
+							"textures": [
+								"textures/items/iron_shield"
+							]
+						},
+						"wooden_shield": {
+							"textures": [
+								"textures/items/wooden_shield"
+							]
+						},
+						"magma_shield": {
+							"textures": [
+								"textures/items/magma_shield"
+							]
+						},
+						"shulker_shield": {
+							"textures": [
+								"textures/items/shulker_shield"
+							]
+						},
+						"slime_shield": {
+							"textures": [
+								"textures/items/slime_shield"
+							]
+						}
+					}
+				},
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"evocation_shield": {
+							"textures": [
+								"textures/items/evocation_shield"
+							]
+						},
+						"diamond_shield": {
+							"textures": [
+								"textures/items/diamond_shield"
+							]
+						},
+						"cactus_shield": {
+							"textures": [
+								"textures/items/cactus_shield"
+							]
+						},
+						"amethyst_shield": {
+							"textures": [
+								"textures/items/amethyst_shield"
+							]
+						},
+						"netherite_shield": {
+							"textures": [
+								"textures/items/netherite_shield"
+							]
+						},
+						"oak_copper_shield": {
+							"textures": [
+								"textures/items/copper_oak"
+							]
+						},
+						"oak_gold_shield": {
+							"textures": [
+								"textures/items/gold_oak"
+							]
+						},
+						"oak_iron_shield": {
+							"textures": [
+								"textures/items/iron_oak"
+							]
+						},
+						"wood_shield": {
+							"textures": [
+								"textures/items/wood_shield"
+							]
+						},
+						"gold_combat_shield": {
+							"textures": [
+								"textures/items/gold_combat_shield"
+							]
+						},
+						"light_shield": {
+							"textures": [
+								"textures/items/light_shield"
+							]
+						},
+						"iron_shield": {
+							"textures": [
+								"textures/items/iron_shield"
+							]
+						},
+						"wooden_shield": {
+							"textures": [
+								"textures/items/wooden_shield"
+							]
+						},
+						"magma_shield": {
+							"textures": [
+								"textures/items/magma_shield"
+							]
+						},
+						"shulker_shield": {
+							"textures": [
+								"textures/items/shulker_shield"
+							]
+						},
+						"slime_shield": {
+							"textures": [
+								"textures/items/slime_shield"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "evocation_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/evocation_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/evocation_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "diamond_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/diamond_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/diamond_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "cactus_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/cactus_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/cactus_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "amethyst_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/amethyst_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/amethyst_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "netherite_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/netherite_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/netherite_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "oak_copper_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/copper_oak"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/copper_oak"
+								]
+							}
+						]
+					},
+					{
+						"key": "oak_gold_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/gold_oak"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/gold_oak"
+								]
+							}
+						]
+					},
+					{
+						"key": "oak_iron_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_oak"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/iron_oak"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "wood_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wood_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wood_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "gold_combat_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/gold_combat_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/gold_combat_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "light_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/light_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/light_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "iron_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/iron_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "wooden_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wooden_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wooden_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "magma_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/magma_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/magma_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "shulker_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/shulker_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/shulker_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"evocation_shield": {
+								"textures": [
+									"textures/items/evocation_shield"
+								]
+							},
+							"diamond_shield": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"cactus_shield": {
+								"textures": [
+									"textures/items/cactus_shield"
+								]
+							},
+							"amethyst_shield": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"netherite_shield": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"oak_copper_shield": {
+								"textures": [
+									"textures/items/copper_oak"
+								]
+							},
+							"oak_gold_shield": {
+								"textures": [
+									"textures/items/gold_oak"
+								]
+							},
+							"oak_iron_shield": {
+								"textures": [
+									"textures/items/iron_oak"
+								]
+							},
+							"wood_shield": {
+								"textures": [
+									"textures/items/wood_shield"
+								]
+							},
+							"gold_combat_shield": {
+								"textures": [
+									"textures/items/gold_combat_shield"
+								]
+							},
+							"light_shield": {
+								"textures": [
+									"textures/items/light_shield"
+								]
+							},
+							"iron_shield": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"wooden_shield": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"magma_shield": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"shulker_shield": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"slime_shield": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							}
+						},
+						"key": "slime_shield",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/slime_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/slime_shield"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

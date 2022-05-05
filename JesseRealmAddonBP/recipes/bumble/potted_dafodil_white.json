@@ -1,0 +1,24 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:potted_dafodil_white_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:dafodil_white"
+			},
+			{
+				"item": "minecraft:flower_pot"
+			}
+		],
+		"result": {
+			"item": "bumble:potted_dafodil_white",
+			"count": 1
+		}
+	}
+}

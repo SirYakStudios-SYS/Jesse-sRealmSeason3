@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "zg:rock_entity",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "zg:rock_entity",
+      "minecraft:use_animation": "bow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:creepycreeper",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"body": "blaze_body",
+				"head": "blaze_head",
+				"charged": "charged_creeper",
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/creepycreeper"
+			},
+			"geometry": {
+				"default": "geometry.creepycreeper"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+					"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+					"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+					"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+					"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+				]
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.creepycreeper.move",
+				"creeper_swelling": "animation.creeper.swelling",
+				"creeper_legs": "animation.creeper.legs",
+				"creeper_head": "animation.common.look_at_target"
+			},
+			"particle_effects": {
+				"charged_flames": "minecraft:mobflame_emitter"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.creepycreeper.move"
+				},
+				{
+					"flame": "controller.animation.creepycreeper.flame"
+				},
+				{
+					"creeper_legs": "controller.animation.creeper.legs"
+				}
+			],
+			"render_controllers": [
+				"controller.render.creepycreeper"
+			],
+			"spawn_egg": {
+				"texture": "creepycreeper"
+			}
+		}
+	}
+}

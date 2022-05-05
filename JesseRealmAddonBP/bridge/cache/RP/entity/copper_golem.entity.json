@@ -1,0 +1,427 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\copper_golem.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "3f97b30b_6458_48b9_95c4_8cb799a53d01",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:copper_golem",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"geometry": {
+								"default": "geometry.copper_golem"
+							},
+							"textures": {
+								"copper_stage": "textures/entity/copper_golem",
+								"exposed_stage": "textures/entity/exposed_copper_golem",
+								"weathered_stage": "textures/entity/weathered_copper_golem",
+								"oxidized_stage": "textures/entity/oxidized_copper_golem"
+							},
+							"render_controllers": [
+								"controller.render.copper_golem"
+							],
+							"animations": {
+								"idle": "animation.copper_golem.idle",
+								"walk": "animation.copper_golem.walk",
+								"press_button": "animation.copper_golem.press_button",
+								"rotate_head": "animation.copper_golem.rotate_head",
+								"oxidized": "animation.copper_golem.oxidized",
+								"controllers": "controller.animation.copper_golem.walk"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"press_button": "query.can_fly"
+									},
+									{
+										"rotate_head": "query.can_power_jump"
+									},
+									{
+										"idle": "!(query.modified_move_speed > 0.1)"
+									},
+									{
+										"walk": "query.modified_move_speed"
+									},
+									{
+										"oxidized": "query.is_saddled"
+									}
+								]
+							},
+							"spawn_egg": {
+								"base_color": "#C87456",
+								"overlay_color": "#59B292"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:copper_golem",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"geometry": {
+									"default": "geometry.copper_golem"
+								},
+								"textures": {
+									"copper_stage": "textures/entity/copper_golem",
+									"exposed_stage": "textures/entity/exposed_copper_golem",
+									"weathered_stage": "textures/entity/weathered_copper_golem",
+									"oxidized_stage": "textures/entity/oxidized_copper_golem"
+								},
+								"render_controllers": [
+									"controller.render.copper_golem"
+								],
+								"animations": {
+									"idle": "animation.copper_golem.idle",
+									"walk": "animation.copper_golem.walk",
+									"press_button": "animation.copper_golem.press_button",
+									"rotate_head": "animation.copper_golem.rotate_head",
+									"oxidized": "animation.copper_golem.oxidized",
+									"controllers": "controller.animation.copper_golem.walk"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"press_button": "query.can_fly"
+										},
+										{
+											"rotate_head": "query.can_power_jump"
+										},
+										{
+											"idle": "!(query.modified_move_speed > 0.1)"
+										},
+										{
+											"walk": "query.modified_move_speed"
+										},
+										{
+											"oxidized": "query.is_saddled"
+										}
+									]
+								},
+								"spawn_egg": {
+									"base_color": "#C87456",
+									"overlay_color": "#59B292"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:copper_golem",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.copper_golem"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"copper_stage": "textures/entity/copper_golem",
+									"exposed_stage": "textures/entity/exposed_copper_golem",
+									"weathered_stage": "textures/entity/weathered_copper_golem",
+									"oxidized_stage": "textures/entity/oxidized_copper_golem"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.copper_golem"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:copper_golem",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.copper_golem"
+									},
+									"textures": {
+										"copper_stage": "textures/entity/copper_golem",
+										"exposed_stage": "textures/entity/exposed_copper_golem",
+										"weathered_stage": "textures/entity/weathered_copper_golem",
+										"oxidized_stage": "textures/entity/oxidized_copper_golem"
+									},
+									"render_controllers": [
+										"controller.render.copper_golem"
+									],
+									"animations": {
+										"idle": "animation.copper_golem.idle",
+										"walk": "animation.copper_golem.walk",
+										"press_button": "animation.copper_golem.press_button",
+										"rotate_head": "animation.copper_golem.rotate_head",
+										"oxidized": "animation.copper_golem.oxidized",
+										"controllers": "controller.animation.copper_golem.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"press_button": "query.can_fly"
+											},
+											{
+												"rotate_head": "query.can_power_jump"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"oxidized": "query.is_saddled"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#C87456",
+										"overlay_color": "#59B292"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"idle": "animation.copper_golem.idle",
+									"walk": "animation.copper_golem.walk",
+									"press_button": "animation.copper_golem.press_button",
+									"rotate_head": "animation.copper_golem.rotate_head",
+									"oxidized": "animation.copper_golem.oxidized",
+									"controllers": "controller.animation.copper_golem.walk"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:copper_golem",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.copper_golem"
+									},
+									"textures": {
+										"copper_stage": "textures/entity/copper_golem",
+										"exposed_stage": "textures/entity/exposed_copper_golem",
+										"weathered_stage": "textures/entity/weathered_copper_golem",
+										"oxidized_stage": "textures/entity/oxidized_copper_golem"
+									},
+									"render_controllers": [
+										"controller.render.copper_golem"
+									],
+									"animations": {
+										"idle": "animation.copper_golem.idle",
+										"walk": "animation.copper_golem.walk",
+										"press_button": "animation.copper_golem.press_button",
+										"rotate_head": "animation.copper_golem.rotate_head",
+										"oxidized": "animation.copper_golem.oxidized",
+										"controllers": "controller.animation.copper_golem.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"press_button": "query.can_fly"
+											},
+											{
+												"rotate_head": "query.can_power_jump"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"oxidized": "query.is_saddled"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#C87456",
+										"overlay_color": "#59B292"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"press_button": "query.can_fly"
+												},
+												{
+													"rotate_head": "query.can_power_jump"
+												},
+												{
+													"idle": "!(query.modified_move_speed > 0.1)"
+												},
+												{
+													"walk": "query.modified_move_speed"
+												},
+												{
+													"oxidized": "query.is_saddled"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"press_button": "query.can_fly"
+													},
+													{
+														"rotate_head": "query.can_power_jump"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"oxidized": "query.is_saddled"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"press_button": "query.can_fly"
+												}
+											},
+											{
+												"open": [
+													{
+														"press_button": "query.can_fly"
+													},
+													{
+														"rotate_head": "query.can_power_jump"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"oxidized": "query.is_saddled"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"rotate_head": "query.can_power_jump"
+												}
+											},
+											{
+												"open": [
+													{
+														"press_button": "query.can_fly"
+													},
+													{
+														"rotate_head": "query.can_power_jump"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"oxidized": "query.is_saddled"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"idle": "!(query.modified_move_speed > 0.1)"
+												}
+											},
+											{
+												"open": [
+													{
+														"press_button": "query.can_fly"
+													},
+													{
+														"rotate_head": "query.can_power_jump"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"oxidized": "query.is_saddled"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"walk": "query.modified_move_speed"
+												}
+											},
+											{
+												"open": [
+													{
+														"press_button": "query.can_fly"
+													},
+													{
+														"rotate_head": "query.can_power_jump"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"oxidized": "query.is_saddled"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"oxidized": "query.is_saddled"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#C87456",
+									"overlay_color": "#59B292"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

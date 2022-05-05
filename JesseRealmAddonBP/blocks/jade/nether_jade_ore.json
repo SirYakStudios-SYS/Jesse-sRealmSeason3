@@ -1,0 +1,19 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:netherrack_jade_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:creative_category": { "category": "Construction" },
+			"minecraft:destroy_time": 1.9,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/nether_jade_ore.json",
+			"minecraft:map_color": "#E88831",
+			"tag:stone": {}
+		},
+		"events": {}
+	}
+}

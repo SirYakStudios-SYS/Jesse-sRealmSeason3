@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "komos_9517fb0e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:kokos_milk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:komos",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:tin_lantern_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+",
+			"+++"
+		],
+		"key": {
+			"+": {
+				"item": "m:tin_nugget"
+			},
+			"#": {
+				"item": "minecraft:torch"
+			}
+		},
+		"result": [
+			{
+				"item": "m:tin_lantern"
+			}
+		]
+	}
+}

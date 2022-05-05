@@ -1,0 +1,11 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "m:resonite_crystal_up_snap_to_surface"
+		},
+		"feature_to_snap": "m:resonite_crystal_up",
+		"vertical_search_range": 8,
+		"surface": "floor"
+	}
+}

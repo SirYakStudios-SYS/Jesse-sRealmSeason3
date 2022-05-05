@@ -1,0 +1,16 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:butoi"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.4,
+			"minecraft:friction": 0.6,
+			"minecraft:explosion_resistance": 0.6,
+			"minecraft:loot": "loot_tables/butoi.json"
+		},
+		"events": {}
+	}
+}

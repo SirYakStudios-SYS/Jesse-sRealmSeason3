@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "guardian:duck_cooked"
+    },
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire"
+    ],
+    "input": "guardian:duck_raw",
+    "output": "guardian:duck_cooked"
+  }
+}

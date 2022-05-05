@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "warden_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CBC",
+			"A A"
+		],
+		"key": {
+      "A": {
+				"item": "minecraft:sculk"
+			},
+			"B": {
+				"item": "minecraft:sculk_catalyst"
+			},
+      "C": {
+				"item": "minecraft:sculk_sensor"
+			}
+		},
+		"result": {
+			"item": "wb:warden_helmet"
+		}
+	}
+}

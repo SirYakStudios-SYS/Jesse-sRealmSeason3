@@ -1,0 +1,19 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:glowing_ice"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_emission": 0.8,
+			"minecraft:friction": 0.8,
+			"minecraft:explosion_resistance": 12
+		},
+		"events": {}
+	}
+}

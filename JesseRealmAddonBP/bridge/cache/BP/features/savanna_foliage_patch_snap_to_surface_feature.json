@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\savanna_foliage_patch_snap_to_surface_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "8914a0df_94eb_4ee4_902f_0579c24e0c45",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:snap_to_surface_feature": {
+						"description": {
+							"identifier": "mv:savanna_foliage_patch_snap_to_surface_feature"
+						},
+						"feature_to_snap": "mv:savanna_foliage_patch_feature",
+						"vertical_search_range": 12,
+						"surface": "floor"
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:snap_to_surface_feature": {
+						"description": {
+							"identifier": "mv:savanna_foliage_patch_snap_to_surface_feature"
+						},
+						"feature_to_snap": "mv:savanna_foliage_patch_feature",
+						"vertical_search_range": 12,
+						"surface": "floor"
+					}
+				},
+				"key": "minecraft:snap_to_surface_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:savanna_foliage_patch_snap_to_surface_feature"
+							},
+							"feature_to_snap": "mv:savanna_foliage_patch_feature",
+							"vertical_search_range": 12,
+							"surface": "floor"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:savanna_foliage_patch_snap_to_surface_feature"
+						}
+					},
+					{
+						"data": "mv:savanna_foliage_patch_feature",
+						"key": "feature_to_snap"
+					},
+					{
+						"data": "12",
+						"key": "vertical_search_range"
+					},
+					{
+						"data": "floor",
+						"key": "surface"
+					}
+				]
+			}
+		]
+	}
+}

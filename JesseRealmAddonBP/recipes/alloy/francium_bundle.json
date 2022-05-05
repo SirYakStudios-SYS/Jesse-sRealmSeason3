@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:francium_bundle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#+#",
+			"+o+",
+			"+++"
+		],
+		"key": {
+			"#": {
+				"item": "m:maganese_nugget"
+			},
+			"+": {
+				"item": "m:francium_ingot"
+			},
+			"o": {
+				"item": "duralumin_bundle:netherite_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "francium_bundle:netherite_ingot"
+			}
+		]
+	}
+}

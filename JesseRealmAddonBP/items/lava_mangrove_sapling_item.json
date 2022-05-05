@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nether:lava_mangrove_sapling_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"use_block_description": true,
+				"block": "nether:lava_mangrove_sapling"
+		    },
+			"minecraft:icon": {
+				"texture": "lava_mangrove_sapling_item"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			}
+		}
+	}
+}

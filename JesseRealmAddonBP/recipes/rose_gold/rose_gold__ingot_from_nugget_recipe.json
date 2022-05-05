@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:rose_gold__ingot_from_nugget_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"count": 9,
+				"item": "m:rose_gold_nugget"
+			}
+		],
+		"result": [
+			{
+				"count": 1,
+				"item": "m:rose_gold_ingot"
+			}
+		]
+	}
+}

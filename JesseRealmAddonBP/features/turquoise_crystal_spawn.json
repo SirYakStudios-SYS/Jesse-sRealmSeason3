@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "m:turquoise_crystal_spawn"
+		},
+		"places_block": "m:turquoise_crystal",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

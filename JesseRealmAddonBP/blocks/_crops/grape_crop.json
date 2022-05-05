@@ -1,0 +1,269 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:grape_crop",
+            "properties": {
+                "bumble:growth_stage": [0, 1, 2, 3, 4, 5, 6]
+            }
+        },
+		
+        "components": {
+            "minecraft:loot": "loot_tables/crops/grape_seeds.json",
+            "minecraft:geometry": "geometry.crop.hash",
+            "minecraft:breathability": "air",
+            "minecraft:entity_collision": true,
+            "minecraft:destroy_time": 0.5,
+            "minecraft:friction": 0.2,
+		//	"minecraft:preventsjumping": true,  removed as of 1.18.30
+            "minecraft:map_color": "#000000",
+            "minecraft:block_light_absorption": 0.0,
+            "minecraft:pick_collision": {
+                "origin": [-5,0,-5],
+                "size": [10,16,10]
+            },
+			"minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+							"up"
+						],
+                        "block_filter": [
+							"farmland",
+							"podzol",
+							"dirt"
+						]
+                    }
+                ]
+            },
+			"minecraft:flammable": {
+				"burn_odds": 45,
+				"flame_odds": 80
+			},
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "grow_stage"
+                }
+            },
+            "minecraft:on_interact": {
+                "event": "meal",
+                "condition": "query.get_equipped_item_name('main_hand') == 'bone_meal'"
+            },
+			"minecraft:on_player_destroyed": {
+				"event": "reset_top"
+			},
+			"minecraft:on_placed": {
+				"event": "update_top"
+			}
+        },
+		
+		
+		
+		
+        "events": {	
+            "grow_stage": {
+                "randomize": [
+                    {
+                        "weight": 1
+                    },
+                    {
+                        "weight": 1,
+                        "set_block_property": {
+                            "bumble:growth_stage": "(query.block_property('bumble:growth_stage')<6) ? query.block_property('bumble:growth_stage') + 1 : 6"
+                        },
+						"trigger": {
+							"event": "update_top"
+						}
+                    }
+                ]
+            },
+			
+			"reset_top": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:air",
+					"block_offset": [0,1,0]
+				}
+			},			
+			
+			
+			"update_top": {
+				"sequence": [
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 0",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_1",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 1",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_2",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 2",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_3",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 3",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_4",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 4",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_5",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 5",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_6",
+							"block_offset": [0,1,0]
+						}
+					},
+					{
+						"condition": "query.block_property('bumble:growth_stage') == 6",
+						"set_block_at_pos": {
+							"block_type": "bumble:grape_crop_top_7",
+							"block_offset": [0,1,0]
+						}
+					}
+				]
+			},
+			
+			
+			
+			
+            "final_drop": {
+                "spawn_loot": {
+                    "table": "loot_tables/crops/grape_crop.json"
+                },
+				"set_block_at_pos": {
+					"block_type": "bumble:grape_crop_top_1",
+					"block_offset": [0,1,0]
+				},
+				"set_block": {
+					"block_type": "bumble:grape_crop"
+				}
+            },
+            "meal": {
+                "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "particle minecraft:crop_growth_emitter ~~~"
+                            ]
+                        }
+                    },
+                    {
+                        "trigger": {
+                            "event": "grow_stage"
+                        }
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_0",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_1",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_2",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_3",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_4",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_5",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:growth_stage') == 6",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grape_crop_6",
+                            "render_method": "alpha_test"
+                        }
+                    },
+					"minecraft:loot": "loot_tables/crops/grape_crop.json",
+                    "minecraft:on_interact": {
+                        "event": "final_drop",
+                        "target": "self"
+                    }
+                }
+            }
+        ]
+    }
+}

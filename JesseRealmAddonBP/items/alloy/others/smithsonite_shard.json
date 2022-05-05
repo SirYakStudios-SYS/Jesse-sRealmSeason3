@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:smithsonite_shard",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "smithsonite_shard"
+			},
+			"minecraft:display_name": {
+				"value": "Smithsonite Shard \n§7Used for: \n-Smithsonite Charm \n-Healing III Potions \n§eFound? \n§7Y=10 - 120 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:pandastatue1",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/pandastatue1"
+        },
+        "geometry": {
+          "default": "geometry.pandastatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "pandastatue1item"
+        }
+      }
+    }
+  }
+  

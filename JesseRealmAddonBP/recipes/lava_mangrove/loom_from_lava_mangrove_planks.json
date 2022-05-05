@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:loom_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "##", 
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_planks"
+            },
+            "#": {
+                "item": "minecraft:string"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:loom",
+				"count": 1
+			}
+		]
+    }
+}

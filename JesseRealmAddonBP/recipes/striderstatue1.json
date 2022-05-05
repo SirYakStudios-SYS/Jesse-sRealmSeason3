@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:striderstatue1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " B ",
+      " P ",
+      "   "
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:stonepedestal1"
+      },
+      "B": {
+        "item": "minecraft:warped_fungus"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:striderstatue1"
+    }
+  }
+}

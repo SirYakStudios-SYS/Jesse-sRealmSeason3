@@ -1,0 +1,14 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:hoglin_raw",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "hoglin_raw",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "meats"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"format_version": "1.8.0",
+	"geometry.monster.deep": {
+		"texturewidth": 64,
+		"textureheight": 76,
+		"visible_bounds_width": 7,
+		"visible_bounds_height": 7,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 6, 12],
+				"rotation": [-90, 0, 0],
+				"cubes": [
+					{"origin": [-4, 6, 8], "size": [8, 8, 8], "uv": [32, 4]},
+					{"origin": [-4, 14, 8], "size": [8, 12, 8], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "tail",
+				"parent": "body",
+				"pivot": [0, 6, 12],
+				"cubes": [
+					{"origin": [-0.5, -36, 11.5], "size": [1, 42, 1], "uv": [12, 26]}
+				]
+			},
+			{
+				"name": "tentacle2",
+				"parent": "body",
+				"pivot": [3.5, 6, 15.5],
+				"rotation": [20, 0, -20],
+				"cubes": [
+					{"origin": [0, -15, 12], "size": [6, 21, 6], "uv": [16, 48]}
+				]
+			},
+			{
+				"name": "tentacle4",
+				"parent": "body",
+				"pivot": [-3.5, 6, 15.5],
+				"rotation": [20, 0, 20],
+				"cubes": [
+					{"origin": [-6, -15, 12], "size": [6, 21, 6], "uv": [40, 20]}
+				]
+			},
+			{
+				"name": "tentacle6",
+				"parent": "body",
+				"pivot": [-3.5, 6, 8.5],
+				"rotation": [-20, 0, 20],
+				"cubes": [
+					{"origin": [-6, -15, 6], "size": [6, 21, 6], "uv": [16, 20]}
+				]
+			},
+			{
+				"name": "tentacle8",
+				"parent": "body",
+				"pivot": [3.5, 6, 8.5],
+				"rotation": [-20, 0, -20],
+				"cubes": [
+					{"origin": [0, -15, 6], "size": [6, 21, 6], "uv": [40, 49]}
+				]
+			}
+		]
+	}
+}

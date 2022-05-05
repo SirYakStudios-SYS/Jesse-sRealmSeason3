@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:sodium_ingot_from_nugget"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:sodium_nugget",
+				"count": 9
+			}
+		],
+		"result": [
+			{
+				"item": "m:sodium_ingot",
+				"count": 1
+			}
+		]
+	}
+}

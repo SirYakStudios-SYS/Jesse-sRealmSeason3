@@ -1,0 +1,461 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\flower_cover4.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "9b920e70_e7d7_4aca_8fb9_3985c75ea096",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:flower_cover4a"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "flower_cover2",
+									"render_method": "alpha_test",
+									"ambient_occlusion": false,
+									"face_dimming": false
+								}
+							},
+							"minecraft:geometry": "geometry.flower_cover2",
+							"minecraft:entity_collision": false,
+							"minecraft:breakonpush": true,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:oak_log",
+											"minecraft:birch_log",
+											"minecraft:spruce_log",
+											"minecraft:dark_oak_log",
+											"minecraft:jungle_log",
+											"minecraft:acacia_log",
+											"minecraft:stone",
+											"minecraft:grass",
+											"minecraft:dirt",
+											"minecraft:cobblestone"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:loot": "loot_tables/flower_cover4.json",
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									1,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:flower_cover4a"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "flower_cover2",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.flower_cover2",
+								"minecraft:entity_collision": false,
+								"minecraft:breakonpush": true,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:oak_log",
+												"minecraft:birch_log",
+												"minecraft:spruce_log",
+												"minecraft:dark_oak_log",
+												"minecraft:jungle_log",
+												"minecraft:acacia_log",
+												"minecraft:stone",
+												"minecraft:grass",
+												"minecraft:dirt",
+												"minecraft:cobblestone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:loot": "loot_tables/flower_cover4.json",
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										1,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:flower_cover4a"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:flower_cover4a"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "flower_cover2",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.flower_cover2",
+								"minecraft:entity_collision": false,
+								"minecraft:breakonpush": true,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:oak_log",
+												"minecraft:birch_log",
+												"minecraft:spruce_log",
+												"minecraft:dark_oak_log",
+												"minecraft:jungle_log",
+												"minecraft:acacia_log",
+												"minecraft:stone",
+												"minecraft:grass",
+												"minecraft:dirt",
+												"minecraft:cobblestone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:loot": "loot_tables/flower_cover4.json",
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										1,
+										16
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "flower_cover2",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:geometry": "geometry.flower_cover2",
+									"minecraft:entity_collision": false,
+									"minecraft:breakonpush": true,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:oak_log",
+													"minecraft:birch_log",
+													"minecraft:spruce_log",
+													"minecraft:dark_oak_log",
+													"minecraft:jungle_log",
+													"minecraft:acacia_log",
+													"minecraft:stone",
+													"minecraft:grass",
+													"minecraft:dirt",
+													"minecraft:cobblestone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:loot": "loot_tables/flower_cover4.json",
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											1,
+											16
+										]
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "flower_cover2",
+												"render_method": "alpha_test",
+												"ambient_occlusion": false,
+												"face_dimming": false
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "flower_cover2",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.flower_cover2",
+								"key": "minecraft:geometry"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:breakonpush"
+							},
+							{
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:oak_log",
+														"minecraft:birch_log",
+														"minecraft:spruce_log",
+														"minecraft:dark_oak_log",
+														"minecraft:jungle_log",
+														"minecraft:acacia_log",
+														"minecraft:stone",
+														"minecraft:grass",
+														"minecraft:dirt",
+														"minecraft:cobblestone"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:oak_log",
+															"minecraft:birch_log",
+															"minecraft:spruce_log",
+															"minecraft:dark_oak_log",
+															"minecraft:jungle_log",
+															"minecraft:acacia_log",
+															"minecraft:stone",
+															"minecraft:grass",
+															"minecraft:dirt",
+															"minecraft:cobblestone"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"children": [
+													{
+														"key": "block_filter",
+														"is_minified": true,
+														"children": [
+															"minecraft:oak_log",
+															"minecraft:birch_log",
+															"minecraft:spruce_log",
+															"minecraft:dark_oak_log",
+															"minecraft:jungle_log",
+															"minecraft:acacia_log",
+															"minecraft:stone",
+															"minecraft:grass",
+															"minecraft:dirt",
+															"minecraft:cobblestone"
+														]
+													},
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:oak_log",
+																"minecraft:birch_log",
+																"minecraft:spruce_log",
+																"minecraft:dark_oak_log",
+																"minecraft:jungle_log",
+																"minecraft:acacia_log",
+																"minecraft:stone",
+																"minecraft:grass",
+																"minecraft:dirt",
+																"minecraft:cobblestone"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "allowed_faces",
+														"is_minified": true,
+														"children": [
+															"up"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "flower_cover2",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:geometry": "geometry.flower_cover2",
+									"minecraft:entity_collision": false,
+									"minecraft:breakonpush": true,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:oak_log",
+													"minecraft:birch_log",
+													"minecraft:spruce_log",
+													"minecraft:dark_oak_log",
+													"minecraft:jungle_log",
+													"minecraft:acacia_log",
+													"minecraft:stone",
+													"minecraft:grass",
+													"minecraft:dirt",
+													"minecraft:cobblestone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:loot": "loot_tables/flower_cover4.json",
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											1,
+											16
+										]
+									}
+								},
+								"data": "loot_tables/flower_cover4.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										1,
+										16
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

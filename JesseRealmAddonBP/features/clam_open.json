@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "m:clam_open"
+		},
+		"structure_name": "mystructure:clam_open",
+		"adjustment_radius": 128,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_e28707c3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:waalal",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:string",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

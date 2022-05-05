@@ -1,0 +1,196 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shield V2\\recipes\\wood_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "5e9970da_478a_4a12_a7b1_fad8b833859f",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "log:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"# #",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:log"
+							}
+						},
+						"result": {
+							"item": "log:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "log:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"# #",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:log"
+								}
+							},
+							"result": {
+								"item": "log:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "log:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "log:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"# #",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:log"
+								}
+							},
+							"result": {
+								"item": "log:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "log:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"# #",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:log"
+								}
+							},
+							"result": {
+								"item": "log:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"# #",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "log:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"# #",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:log"
+								}
+							},
+							"result": {
+								"item": "log:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:log"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:log"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "log:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"# #",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:log"
+								}
+							},
+							"result": {
+								"item": "log:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "log:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

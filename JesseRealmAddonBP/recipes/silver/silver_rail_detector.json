@@ -1,0 +1,32 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.16.100,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:silver_rail_detector"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"# #",
+			"#G#",
+			"#H#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:silver_ingot"
+			},
+			"G": {
+				"item": "minecraft:stone_pressure_plate"
+			},
+			"H": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": {
+			"item": "minecraft:detector_rail",
+			"count": 6
+		}
+	}
+}

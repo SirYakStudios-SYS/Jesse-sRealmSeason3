@@ -1,0 +1,40 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:end_stone_boots",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:durability": {
+            "max_durability": 250,
+            "damage_chance": {
+               "min": 60,
+               "max": 100
+            }
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 12,
+            "slot": "armor_feet"
+         },
+         "minecraft:icon": {
+            "texture": "end_stone_boots"
+         },
+         "minecraft:render_offsets": "boots",
+         "minecraft:armor": {
+            "protection": 2
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.feet"
+         },
+         "minecraft:display_name": {
+            "value": "End Stone Boots\n§92 Protection\n§6250 Durability\n§dLevitation"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.boots"
+         }
+      },
+      "events": {}
+   }
+}

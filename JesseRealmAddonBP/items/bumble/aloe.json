@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:aloe_item",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.grass"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:aloe"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:aloe_item"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:aloe_item"
+			}
+        }
+    }
+}

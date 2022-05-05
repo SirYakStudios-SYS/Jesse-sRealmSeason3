@@ -1,0 +1,28 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:mangrove_roots"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Nature",
+				"group": "itemGroup.name.log"
+			},
+			"minecraft:destroy_time": 0.2,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mangrove_roots",
+					"render_method": "blend",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:entity_collision": false
+		},
+		"events": {}
+	}
+}

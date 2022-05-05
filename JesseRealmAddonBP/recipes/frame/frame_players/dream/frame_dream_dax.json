@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:frame_dream_dax"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "guardian:frame_dream"
+      },
+      {
+        "item": "minecraft:pumpkin_pie"
+      }
+    ],
+    "result": {
+      "item": "guardian:frame_dream_dax"
+    }
+  }
+}

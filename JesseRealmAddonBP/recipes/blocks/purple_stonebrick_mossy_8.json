@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:purple_stonebrick_mossy_8"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "minecraft:stonebrick",
+               "data": 1
+           }
+       ],
+       "result": {
+           "item": "stonebrick:purple_stonebrick_mossy_8",
+           "count": 1
+       }
+   }
+}

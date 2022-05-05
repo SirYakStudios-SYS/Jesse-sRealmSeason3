@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:bamboo_from_bamboo_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:bamboo_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:bamboo",
+      "count": 9
+    }
+  }
+}

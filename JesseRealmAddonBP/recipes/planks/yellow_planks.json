@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:yellow_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#O"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks"
+			},
+			"O": {
+				"item": "minecraft:yellow_dye"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:yellow_planks"
+			}
+		]
+	}
+}

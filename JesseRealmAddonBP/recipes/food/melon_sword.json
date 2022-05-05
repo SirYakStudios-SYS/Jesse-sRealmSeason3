@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:melon_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"XD",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:iron_ingot"
+			},
+			"D": {
+				"item": "minecraft:melon"
+			}
+		},
+		"result": {
+			"item": "sp:melon_sword"
+		}
+	}
+}

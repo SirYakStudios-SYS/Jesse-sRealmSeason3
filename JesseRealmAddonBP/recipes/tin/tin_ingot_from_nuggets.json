@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:tin_ingot_from_nuggets"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "sp:tin_nugget"
+			}
+		},
+		"result": {
+			"item": "sp:tin_ingot"
+		}
+	}
+}

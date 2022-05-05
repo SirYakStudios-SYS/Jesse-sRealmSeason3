@@ -1,0 +1,232 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shield V2\\recipes\\evocation_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9a88764a_891e_4ee9_9af6_c701e281813e",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "evocation:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#L#",
+							"L#L",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:iron_ingot"
+							},
+							"L": {
+								"item": "minecraft:lapis_lazuli"
+							}
+						},
+						"result": {
+							"item": "evocation:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#L#",
+								"L#L",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"L": {
+									"item": "minecraft:lapis_lazuli"
+								}
+							},
+							"result": {
+								"item": "evocation:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "evocation:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#L#",
+								"L#L",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"L": {
+									"item": "minecraft:lapis_lazuli"
+								}
+							},
+							"result": {
+								"item": "evocation:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#L#",
+								"L#L",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"L": {
+									"item": "minecraft:lapis_lazuli"
+								}
+							},
+							"result": {
+								"item": "evocation:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#L#",
+							"L#L",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#L#",
+								"L#L",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"L": {
+									"item": "minecraft:lapis_lazuli"
+								}
+							},
+							"result": {
+								"item": "evocation:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:iron_ingot"
+									},
+									"L": {
+										"item": "minecraft:lapis_lazuli"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:iron_ingot"
+									},
+									"L": {
+										"item": "minecraft:lapis_lazuli"
+									}
+								},
+								"key": "L",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:lapis_lazuli"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "evocation:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#L#",
+								"L#L",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"L": {
+									"item": "minecraft:lapis_lazuli"
+								}
+							},
+							"result": {
+								"item": "evocation:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "evocation:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

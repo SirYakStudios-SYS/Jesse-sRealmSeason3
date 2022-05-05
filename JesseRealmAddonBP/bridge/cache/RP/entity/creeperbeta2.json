@@ -1,0 +1,522 @@
+{
+	"file_path": "C:\\Users\\Marco\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17 T\\entity\\creeperbeta2.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "85997e74_5574_45fb_ad94_746193a3d82f",
+	"file_version": 54,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tt:creeperbeta2",
+							"min_engine_version": "1.8.0",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/twisted_creeper_pet"
+							},
+							"geometry": {
+								"default": "geometry.warped_creeper"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+									"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+									"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+									"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+									"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+								]
+							},
+							"animations": {
+								"creeper_head": "animation.common.look_at_targett",
+								"creeper_legs": "animation.crimson_creeperpet.legs",
+								"creeper_swelling": "animation.crimson_creeperpet.swelling"
+							},
+							"animation_controllers": [
+								{
+									"creeper_head": "controller.animation.creeper.head"
+								},
+								{
+									"creeper_legs": "controller.animation.creeper.legs"
+								},
+								{
+									"creeper_swelling": "controller.animation.creeper.swelling"
+								}
+							],
+							"render_controllers": [
+								"controller.render.creeper"
+							],
+							"spawn_egg": {
+								"texture": "beta"
+							},
+							"sound_effects": {
+								"creeper": "mob.creeper.say"
+							},
+							"particle_effects": {
+								"prueba": "tt:prueba",
+								"prueba2": "tt:prueba"
+							},
+							"particle_emitters": {
+								"prueba": "tt:prueba"
+							}
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tt:creeperbeta2",
+							"min_engine_version": "1.8.0",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/twisted_creeper_pet"
+							},
+							"geometry": {
+								"default": "geometry.warped_creeper"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+									"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+									"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+									"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+									"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+								]
+							},
+							"animations": {
+								"creeper_head": "animation.common.look_at_targett",
+								"creeper_legs": "animation.crimson_creeperpet.legs",
+								"creeper_swelling": "animation.crimson_creeperpet.swelling"
+							},
+							"animation_controllers": [
+								{
+									"creeper_head": "controller.animation.creeper.head"
+								},
+								{
+									"creeper_legs": "controller.animation.creeper.legs"
+								},
+								{
+									"creeper_swelling": "controller.animation.creeper.swelling"
+								}
+							],
+							"render_controllers": [
+								"controller.render.creeper"
+							],
+							"spawn_egg": {
+								"texture": "beta"
+							},
+							"sound_effects": {
+								"creeper": "mob.creeper.say"
+							},
+							"particle_effects": {
+								"prueba": "tt:prueba",
+								"prueba2": "tt:prueba"
+							},
+							"particle_emitters": {
+								"prueba": "tt:prueba"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:creeperbeta2",
+								"min_engine_version": "1.8.0",
+								"materials": {
+									"default": "entity_emissive_alpha"
+								},
+								"textures": {
+									"default": "textures/entity/twisted_creeper_pet"
+								},
+								"geometry": {
+									"default": "geometry.warped_creeper"
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+										"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+										"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+										"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+										"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+									]
+								},
+								"animations": {
+									"creeper_head": "animation.common.look_at_targett",
+									"creeper_legs": "animation.crimson_creeperpet.legs",
+									"creeper_swelling": "animation.crimson_creeperpet.swelling"
+								},
+								"animation_controllers": [
+									{
+										"creeper_head": "controller.animation.creeper.head"
+									},
+									{
+										"creeper_legs": "controller.animation.creeper.legs"
+									},
+									{
+										"creeper_swelling": "controller.animation.creeper.swelling"
+									}
+								],
+								"render_controllers": [
+									"controller.render.creeper"
+								],
+								"spawn_egg": {
+									"texture": "beta"
+								},
+								"sound_effects": {
+									"creeper": "mob.creeper.say"
+								},
+								"particle_effects": {
+									"prueba": "tt:prueba",
+									"prueba2": "tt:prueba"
+								},
+								"particle_emitters": {
+									"prueba": "tt:prueba"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "tt:creeperbeta2",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/twisted_creeper_pet"
+									},
+									"geometry": {
+										"default": "geometry.warped_creeper"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+											"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+											"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+											"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+											"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+										]
+									},
+									"animations": {
+										"creeper_head": "animation.common.look_at_targett",
+										"creeper_legs": "animation.crimson_creeperpet.legs",
+										"creeper_swelling": "animation.crimson_creeperpet.swelling"
+									},
+									"animation_controllers": [
+										{
+											"creeper_head": "controller.animation.creeper.head"
+										},
+										{
+											"creeper_legs": "controller.animation.creeper.legs"
+										},
+										{
+											"creeper_swelling": "controller.animation.creeper.swelling"
+										}
+									],
+									"render_controllers": [
+										"controller.render.creeper"
+									],
+									"spawn_egg": {
+										"texture": "beta"
+									},
+									"sound_effects": {
+										"creeper": "mob.creeper.say"
+									},
+									"particle_effects": {
+										"prueba": "tt:prueba",
+										"prueba2": "tt:prueba"
+									},
+									"particle_emitters": {
+										"prueba": "tt:prueba"
+									}
+								},
+								"data": "tt:creeperbeta2",
+								"key": "identifier"
+							},
+							{
+								"data": "1.8.0",
+								"key": "min_engine_version"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_emissive_alpha"
+								}
+							},
+							{
+								"open": {
+									"identifier": "tt:creeperbeta2",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/twisted_creeper_pet"
+									},
+									"geometry": {
+										"default": "geometry.warped_creeper"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+											"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+											"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+											"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+											"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+										]
+									},
+									"animations": {
+										"creeper_head": "animation.common.look_at_targett",
+										"creeper_legs": "animation.crimson_creeperpet.legs",
+										"creeper_swelling": "animation.crimson_creeperpet.swelling"
+									},
+									"animation_controllers": [
+										{
+											"creeper_head": "controller.animation.creeper.head"
+										},
+										{
+											"creeper_legs": "controller.animation.creeper.legs"
+										},
+										{
+											"creeper_swelling": "controller.animation.creeper.swelling"
+										}
+									],
+									"render_controllers": [
+										"controller.render.creeper"
+									],
+									"spawn_egg": {
+										"texture": "beta"
+									},
+									"sound_effects": {
+										"creeper": "mob.creeper.say"
+									},
+									"particle_effects": {
+										"prueba": "tt:prueba",
+										"prueba2": "tt:prueba"
+									},
+									"particle_emitters": {
+										"prueba": "tt:prueba"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/twisted_creeper_pet"
+								}
+							},
+							{
+								"open": {
+									"identifier": "tt:creeperbeta2",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/twisted_creeper_pet"
+									},
+									"geometry": {
+										"default": "geometry.warped_creeper"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+											"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+											"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+											"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+											"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+										]
+									},
+									"animations": {
+										"creeper_head": "animation.common.look_at_targett",
+										"creeper_legs": "animation.crimson_creeperpet.legs",
+										"creeper_swelling": "animation.crimson_creeperpet.swelling"
+									},
+									"animation_controllers": [
+										{
+											"creeper_head": "controller.animation.creeper.head"
+										},
+										{
+											"creeper_legs": "controller.animation.creeper.legs"
+										},
+										{
+											"creeper_swelling": "controller.animation.creeper.swelling"
+										}
+									],
+									"render_controllers": [
+										"controller.render.creeper"
+									],
+									"spawn_egg": {
+										"texture": "beta"
+									},
+									"sound_effects": {
+										"creeper": "mob.creeper.say"
+									},
+									"particle_effects": {
+										"prueba": "tt:prueba",
+										"prueba2": "tt:prueba"
+									},
+									"particle_emitters": {
+										"prueba": "tt:prueba"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.warped_creeper"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": [
+										"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+										"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+										"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+										"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+										"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+									]
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"creeper_head": "animation.common.look_at_targett",
+									"creeper_legs": "animation.crimson_creeperpet.legs",
+									"creeper_swelling": "animation.crimson_creeperpet.swelling"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"children": [
+									{
+										"open": [
+											{
+												"creeper_head": "controller.animation.creeper.head"
+											},
+											{
+												"creeper_legs": "controller.animation.creeper.legs"
+											},
+											{
+												"creeper_swelling": "controller.animation.creeper.swelling"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"creeper_head": "controller.animation.creeper.head"
+										}
+									},
+									{
+										"open": [
+											{
+												"creeper_head": "controller.animation.creeper.head"
+											},
+											{
+												"creeper_legs": "controller.animation.creeper.legs"
+											},
+											{
+												"creeper_swelling": "controller.animation.creeper.swelling"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"creeper_legs": "controller.animation.creeper.legs"
+										}
+									},
+									{
+										"open": [
+											{
+												"creeper_head": "controller.animation.creeper.head"
+											},
+											{
+												"creeper_legs": "controller.animation.creeper.legs"
+											},
+											{
+												"creeper_swelling": "controller.animation.creeper.swelling"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"creeper_swelling": "controller.animation.creeper.swelling"
+										}
+									},
+									{
+										"open": [
+											{
+												"creeper_head": "controller.animation.creeper.head"
+											},
+											{
+												"creeper_legs": "controller.animation.creeper.legs"
+											},
+											{
+												"creeper_swelling": "controller.animation.creeper.swelling"
+											}
+										],
+										"is_active": false,
+										"is_minified": true,
+										"children": {
+											"creeper_move": "controller.animation.creeperpet.move"
+										}
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.creeper"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "beta"
+								}
+							},
+							{
+								"key": "sound_effects",
+								"is_minified": true,
+								"children": {
+									"creeper": "mob.creeper.say"
+								}
+							},
+							{
+								"key": "particle_effects",
+								"is_minified": true,
+								"children": {
+									"prueba": "tt:prueba",
+									"prueba2": "tt:prueba"
+								}
+							},
+							{
+								"key": "particle_emitters",
+								"is_minified": true,
+								"children": {
+									"prueba": "tt:prueba"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

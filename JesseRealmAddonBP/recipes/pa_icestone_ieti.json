@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "icestone_ieti_74f25fe8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:fxtfxdxilcd",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:icestone_ieti",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,47 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cactus:shield",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Cactus Shield"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "cactus_shield"
+			},
+			"minecraft:enchantable": {
+				"slot": "shield",
+				"value": 10
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:durability": {
+				"max_durability": 336
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"cactus:shield"
+						],
+						"repair_amount": "query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:cactus"
+						],
+						"repair_amount": 150
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

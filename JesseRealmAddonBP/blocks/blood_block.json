@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "tt:blood_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0.1,
+			"minecraft:block_light_absorption": 0.3,
+			"minecraft:explosion_resistance": 0.7,
+			"minecraft:geometry": "geometry.block_of",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "blood_block",
+					"render_method": "opaque"
+				}
+			}
+		},
+		"events": {}
+	}
+}

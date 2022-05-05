@@ -1,0 +1,33 @@
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:sweet_berry_jam"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": false,
+      "minecraft:use_duration": 2,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.miscFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:sweet_berry_jam"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:sweet_berry_jam"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": "low",
+        "can_always_eat": false,
+		"using_converts_to": "glass_bottle"
+	  }
+    }
+  }
+}		

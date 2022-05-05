@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:iogurt_bucket",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "pa:iogurt_bucket",
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

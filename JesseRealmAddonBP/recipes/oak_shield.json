@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "vp_oak:shield"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#I#",
+	  "###",
+	  " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:planks",
+		"data": 0
+      },
+	  "I":{
+		"item": "minecraft:iron_ingot"
+	  }
+    },
+    "result": {
+      "item": "vp_oak:shield"
+    }
+  } 
+}

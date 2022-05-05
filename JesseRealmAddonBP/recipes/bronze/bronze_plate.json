@@ -1,0 +1,28 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:bronze_plate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"###",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "sp:bronze_ingot"
+			},
+			"X": {
+				"item": "sp:bronze_stick"
+			}
+		},
+		"result": {
+			"item": "sp:bronze_plate"
+		}
+	}
+}

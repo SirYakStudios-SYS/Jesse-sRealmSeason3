@@ -1,0 +1,23 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:smooth_pearl_slab_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:smooth_pearl_block"
+			}
+		},
+		"result": {
+			"count": 6,
+			"item": "m:smooth_pearl_block_slab"
+		}
+	}
+}

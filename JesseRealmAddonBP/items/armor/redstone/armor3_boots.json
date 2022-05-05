@@ -1,0 +1,50 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:redstone_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "armor_feet"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:redstone_boots",
+							"minecraft:redstone"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 120,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:armor": {
+				"protection": 2
+			},
+			"minecraft:icon": {
+				"texture": "redstone_boots"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.boots"
+			},
+			"minecraft:display_name": {
+				"value": "Redstone Boots"
+			}
+		},
+		"events": {}
+	}
+}

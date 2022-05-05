@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:zucchini_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:zucchini_crop"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:zucchini_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:zucchini_seeds"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

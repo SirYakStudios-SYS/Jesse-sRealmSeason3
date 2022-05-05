@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "new:copper_trident_edge"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+            "PCP"
+        ],
+		"key": {
+			"P": {
+				"item": "minecraft:copper_ingot"
+			},
+			"C": {
+				"item": "minecraft:lightning_rod"
+			}
+		},
+		"result": {
+			"item": "new:copper_trident_edge"
+		}
+	}
+}

@@ -1,0 +1,405 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\warden.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "32e74288_3db1_426e_b08c_bcb387ce79e3",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:warden",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/entity/warden/warden"
+							},
+							"geometry": {
+								"default": "geometry.warden"
+							},
+							"animations": {
+								"walk": "animation.warden.walk",
+								"emerge": "animation.warden.emerge",
+								"dissapear": "animation.warden.dissapear"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"walk": "query.modified_move_speed"
+									},
+									{
+										"emerge": "query.can_power_jump"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:warden",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/entity/warden/warden"
+								},
+								"geometry": {
+									"default": "geometry.warden"
+								},
+								"animations": {
+									"walk": "animation.warden.walk",
+									"emerge": "animation.warden.emerge",
+									"dissapear": "animation.warden.dissapear"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"walk": "query.modified_move_speed"
+										},
+										{
+											"emerge": "query.can_power_jump"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"data": "mv:warden",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/warden/warden"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.warden"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.warden.walk",
+									"emerge": "animation.warden.emerge",
+									"dissapear": "animation.warden.dissapear"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"walk": "query.modified_move_speed"
+												},
+												{
+													"emerge": "query.can_power_jump"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"emerge": "query.can_power_jump"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"walk": "query.modified_move_speed"
+												}
+											},
+											{
+												"open": [
+													{
+														"walk": "query.modified_move_speed"
+													},
+													{
+														"emerge": "query.can_power_jump"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"emerge": "query.can_power_jump"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:warden",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/warden/warden"
+									},
+									"geometry": {
+										"default": "geometry.warden"
+									},
+									"animations": {
+										"walk": "animation.warden.walk",
+										"emerge": "animation.warden.emerge",
+										"dissapear": "animation.warden.dissapear"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"emerge": "query.can_power_jump"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

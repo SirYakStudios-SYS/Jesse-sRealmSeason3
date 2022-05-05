@@ -1,0 +1,120 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "m:francium_shovel"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 64,
+				"damage_chance": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 11,
+			"minecraft:enchantable": {
+				"value": 17,
+				"slot": "shovel"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+						},
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:coarse_dirt",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:clay",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:concretePowder",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:mycelium",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dam"
+				}
+			},
+			"tag:minecraft:is_shovel": {},
+			"minecraft:display_name": {
+				"value": "Francium Shovel \n§7Durability: 64 \nMining Speed: 25 \n-Explodes when mining"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dam"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "francium_shovel"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.shovel"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "dam"
+				}
+			}
+		},
+		"events": {
+			"dam": {
+				"damage": {
+					"type": "magic",
+					"amount": 1,
+					"target": "self"
+				},
+				"run_command": {
+					"command": [
+						"summon m:francium_explode"
+					],
+					"target": "block"
+				}
+			}
+		}
+	}
+}

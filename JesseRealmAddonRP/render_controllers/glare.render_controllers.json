@@ -1,0 +1,27 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.glare": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.glare_grumpy",
+						"Texture.glare_normal",
+						"Texture.glare_normal_tamed",
+						"Texture.glare_grumpy_tamed"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "mv:birch_tree3_feature_rule",
+			"places_feature": "mv:birch_tree3_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": {
+				"all_of": [
+					{
+						"any_of": [
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "revamped_birch"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "birch"
+							}
+						]
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 6,
+			"scatter_chance": 35.5,
+			"x": 4,
+			"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+			"z": -5
+		}
+	}
+}

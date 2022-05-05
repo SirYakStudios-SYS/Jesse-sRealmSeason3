@@ -1,0 +1,13 @@
+{  
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "firelands_flora"
+    },
+    "features": [
+      [ "fire_vine_snap_to_surface", 1 ],
+      [ "big_fire_wart", 1 ],
+      [ "burnt_bush", 9 ]
+    ]
+  }
+}

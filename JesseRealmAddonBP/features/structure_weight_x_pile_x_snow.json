@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_pile_x_snow"
+    },
+    "features": [
+      ["nicothekid:structure_x_pile_x_snow_01", 1],
+      ["nicothekid:structure_x_pile_x_snow_02", 1],
+      ["nicothekid:structure_x_pile_x_snow_03", 1],
+      ["nicothekid:structure_x_pile_x_snow_04", 1],
+      ["nicothekid:structure_x_pile_x_snow_05", 1],
+      ["nicothekid:structure_x_pile_x_snow_06", 1],
+      ["nicothekid:structure_x_pile_x_snow_07", 1],
+      ["nicothekid:structure_x_pile_x_snow_08", 1]
+    ]
+  }
+}

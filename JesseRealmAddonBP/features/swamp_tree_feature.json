@@ -1,0 +1,17 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "minecraft:swamp_tree_feature"
+    },
+    "features": [
+      ["nicothekid:tree_v_swamp_tree", 100],
+      ["nicothekid:tree_x_swampy_branched_vine_tree_01", 10],
+      ["nicothekid:tree_x_swampy_branched_vine_tree_02", 10],
+      ["nicothekid:tree_x_swampy_lower_tree", 25],
+      ["nicothekid:tree_x_swampy_roofed_tree_01", 25],
+      ["nicothekid:tree_x_swampy_tiny_tree", 25],
+      ["nicothekid:tree_x_swampy_tree", 10]
+    ]
+  }
+}

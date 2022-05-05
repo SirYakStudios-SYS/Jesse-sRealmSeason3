@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:green_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XD"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:planks"
+			},
+			"D": {
+				"item": "minecraft:lime_dye"
+			}
+		},
+		"result": {
+			"item": "sp:green_planks"
+		}
+	}
+}

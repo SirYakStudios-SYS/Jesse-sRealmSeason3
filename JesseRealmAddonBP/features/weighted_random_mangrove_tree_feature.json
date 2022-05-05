@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "mv:weighted_random_mangrove_tree_feature"
+		},
+		"features": [
+			[
+				"mv:mangrove_tree1_feature",
+				1
+			],
+			[
+				"mv:mangrove_tree2_feature",
+				1
+			],
+			[
+				"mv:mangrove_tree3_feature",
+				1
+			],
+			[
+				"mv:mangrove_tree4_feature",
+				1
+			]
+		]
+	}
+}

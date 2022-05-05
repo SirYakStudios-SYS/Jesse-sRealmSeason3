@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:carbon_38_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:carbon_38",
+				"count": 9
+			}
+		],
+		"result": [
+			{
+				"item": "m:carbon_38_block"
+			}
+		]
+	}
+}

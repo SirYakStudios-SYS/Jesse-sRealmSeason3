@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:uemerald_pickaxe"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:quartz"
+			},
+			"Y": {
+				"item": "sp:emerald_pickaxe"
+			}
+		},
+		"result": {
+			"item": "sp:uemerald_pickaxe"
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "pa:sail_fish",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underwater": {},
+        "minecraft:brightness_filter": {
+          "min": 0.0,
+          "max": 15.0,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 8
+        },
+        "minecraft:herd": {
+          "min_size": 4,
+          "max_size": 7
+        },
+        "minecraft:density_limit": {
+          "surface": 7,
+          "underground": 0
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "ocean"
+              }
+            ]
+          }
+        ]
+      }
+      
+    ]
+  }
+}

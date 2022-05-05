@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "guardian:eldermite",
+      "materials": {
+        "default": "enderman",
+        "invisible": "enderman_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/guardian/eldermite"
+      },
+      "geometry": {
+        "default": "geometry.eldermite"
+      },
+      "animations": {
+        "move": "animation.endermite.move"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.endermite.move" }
+      ],
+      "render_controllers": [ "controller.render.endermite" ],
+	"spawn_egg": {
+		"base_color": "#000000",
+		"overlay_color": "#636363"
+	}
+    }
+  }
+}

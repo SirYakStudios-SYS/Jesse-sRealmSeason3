@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_stick"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"# ",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:quartz_stick",
+				"count": 4
+			}
+		]
+	}
+}

@@ -1,0 +1,262 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\shelf_mushroom.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "35f16200_c7a3_457e_a956_8dccfc571d8a",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:shelf_mushroom"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.3,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "shelf_mushroom",
+									"render_method": "alpha_test",
+									"ambient_occlusion": false,
+									"face_dimming": false
+								}
+							},
+							"minecraft:geometry": "geometry.shelf_mushroom",
+							"bridge:rotate_y_on_place": {
+								"flip": true
+							},
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.mushroom"
+							},
+							"minecraft:entity_collision": false
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:shelf_mushroom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "shelf_mushroom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.shelf_mushroom",
+								"bridge:rotate_y_on_place": {
+									"flip": true
+								},
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.mushroom"
+								},
+								"minecraft:entity_collision": false
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:shelf_mushroom"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:shelf_mushroom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "shelf_mushroom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:geometry": "geometry.shelf_mushroom",
+								"bridge:rotate_y_on_place": {
+									"flip": true
+								},
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.mushroom"
+								},
+								"minecraft:entity_collision": false
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "shelf_mushroom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:geometry": "geometry.shelf_mushroom",
+									"bridge:rotate_y_on_place": {
+										"flip": true
+									},
+									"minecraft:creative_category": {
+										"category": "Nature",
+										"group": "itemGroup.name.mushroom"
+									},
+									"minecraft:entity_collision": false
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "shelf_mushroom",
+												"render_method": "alpha_test",
+												"ambient_occlusion": false,
+												"face_dimming": false
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "shelf_mushroom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "shelf_mushroom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:geometry": "geometry.shelf_mushroom",
+									"bridge:rotate_y_on_place": {
+										"flip": true
+									},
+									"minecraft:creative_category": {
+										"category": "Nature",
+										"group": "itemGroup.name.mushroom"
+									},
+									"minecraft:entity_collision": false
+								},
+								"data": "geometry.shelf_mushroom",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "shelf_mushroom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:geometry": "geometry.shelf_mushroom",
+									"bridge:rotate_y_on_place": {
+										"flip": true
+									},
+									"minecraft:creative_category": {
+										"category": "Nature",
+										"group": "itemGroup.name.mushroom"
+									},
+									"minecraft:entity_collision": false
+								},
+								"key": "bridge:rotate_y_on_place",
+								"is_minified": true,
+								"children": {
+									"flip": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "shelf_mushroom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:geometry": "geometry.shelf_mushroom",
+									"bridge:rotate_y_on_place": {
+										"flip": true
+									},
+									"minecraft:creative_category": {
+										"category": "Nature",
+										"group": "itemGroup.name.mushroom"
+									},
+									"minecraft:entity_collision": false
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"category": "Nature",
+									"group": "itemGroup.name.mushroom"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

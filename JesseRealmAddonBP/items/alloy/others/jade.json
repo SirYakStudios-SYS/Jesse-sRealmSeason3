@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:jade"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "jade"
+			},
+			"minecraft:display_name": {
+				"value": "Jade \n§7Used for: \n-Decoration \n§eFound? \n§7Y=-16 - 70 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

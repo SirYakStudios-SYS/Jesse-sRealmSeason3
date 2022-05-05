@@ -1,0 +1,19 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mc:grey_log"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.6,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			},
+			"minecraft:explosion_resistance": 12,
+			"minecraft:loot": "loot_tables/blocks/grey_log_drop.json"
+		},
+		"events": {}
+	}
+}

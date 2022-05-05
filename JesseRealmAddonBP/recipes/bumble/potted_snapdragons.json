@@ -1,0 +1,24 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:potted_snapdragons_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:snapdragons"
+			},
+			{
+				"item": "minecraft:flower_pot"
+			}
+		],
+		"result": {
+			"item": "bumble:potted_snapdragons",
+			"count": 1
+		}
+	}
+}

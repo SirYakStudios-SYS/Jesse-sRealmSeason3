@@ -1,0 +1,40 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:rose_gold_carrot",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "Rose_Gold_carrot"
+			},
+			"minecraft:display_name": {
+				"value": "Rose Gold Carrot \n§7Effects: \n-Regeneration IV (1:00)"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 23,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed"
+				}
+			}
+		},
+		"events": {
+			"consumed": {
+				"add_mob_effect": {
+					"effect": "regeneration",
+					"target": "holder",
+					"duration": 60,
+					"amplifier": 3
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\grass_with_flowers_patch_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "9f44701d_45db_47bc_abc9_e4fc05839fe5",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:vegetation_patch_feature": {
+						"description": {
+							"identifier": "mv:grass_with_flowers_patch_feature"
+						},
+						"replaceable_blocks": [
+							"minecraft:grass"
+						],
+						"ground_block": "minecraft:grass",
+						"vegetation_feature": "mv:weighted_random_flowers_vegetation_feature",
+						"surface": "floor",
+						"depth": 1,
+						"vertical_range": 5,
+						"vegetation_chance": 0.05,
+						"horizontal_radius": {
+							"range_min": 5,
+							"range_max": 7
+						},
+						"extra_edge_column_chance": 1
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:vegetation_patch_feature": {
+						"description": {
+							"identifier": "mv:grass_with_flowers_patch_feature"
+						},
+						"replaceable_blocks": [
+							"minecraft:grass"
+						],
+						"ground_block": "minecraft:grass",
+						"vegetation_feature": "mv:weighted_random_flowers_vegetation_feature",
+						"surface": "floor",
+						"depth": 1,
+						"vertical_range": 5,
+						"vegetation_chance": 0.05,
+						"horizontal_radius": {
+							"range_min": 5,
+							"range_max": 7
+						},
+						"extra_edge_column_chance": 1
+					}
+				},
+				"key": "minecraft:vegetation_patch_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:grass_with_flowers_patch_feature"
+							},
+							"replaceable_blocks": [
+								"minecraft:grass"
+							],
+							"ground_block": "minecraft:grass",
+							"vegetation_feature": "mv:weighted_random_flowers_vegetation_feature",
+							"surface": "floor",
+							"depth": 1,
+							"vertical_range": 5,
+							"vegetation_chance": 0.05,
+							"horizontal_radius": {
+								"range_min": 5,
+								"range_max": 7
+							},
+							"extra_edge_column_chance": 1
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:grass_with_flowers_patch_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:grass_with_flowers_patch_feature"
+							},
+							"replaceable_blocks": [
+								"minecraft:grass"
+							],
+							"ground_block": "minecraft:grass",
+							"vegetation_feature": "mv:weighted_random_flowers_vegetation_feature",
+							"surface": "floor",
+							"depth": 1,
+							"vertical_range": 5,
+							"vegetation_chance": 0.05,
+							"horizontal_radius": {
+								"range_min": 5,
+								"range_max": 7
+							},
+							"extra_edge_column_chance": 1
+						},
+						"key": "replaceable_blocks",
+						"is_minified": true,
+						"children": [
+							"minecraft:grass"
+						]
+					},
+					{
+						"data": "minecraft:grass",
+						"key": "ground_block"
+					},
+					{
+						"data": "mv:weighted_random_flowers_vegetation_feature",
+						"key": "vegetation_feature"
+					},
+					{
+						"data": "floor",
+						"key": "surface"
+					},
+					{
+						"data": "1",
+						"key": "depth"
+					},
+					{
+						"data": "5",
+						"key": "vertical_range"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:grass_with_flowers_patch_feature"
+							},
+							"replaceable_blocks": [
+								"minecraft:grass"
+							],
+							"ground_block": "minecraft:grass",
+							"vegetation_feature": "mv:weighted_random_flowers_vegetation_feature",
+							"surface": "floor",
+							"depth": 1,
+							"vertical_range": 5,
+							"vegetation_chance": 0.05,
+							"horizontal_radius": {
+								"range_min": 5,
+								"range_max": 7
+							},
+							"extra_edge_column_chance": 1
+						},
+						"data": "0.05",
+						"key": "vegetation_chance"
+					},
+					{
+						"key": "horizontal_radius",
+						"is_minified": true,
+						"children": {
+							"range_min": 5,
+							"range_max": 7
+						}
+					},
+					{
+						"data": "1",
+						"key": "extra_edge_column_chance"
+					}
+				]
+			}
+		]
+	}
+}

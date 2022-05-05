@@ -1,0 +1,68 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:grape_crop_top_2"
+        },
+		
+        "components": {
+            "minecraft:geometry": "geometry.crop.cross",
+            "minecraft:breathability": "air",
+            "minecraft:destroy_time": 0.5,
+            "minecraft:friction": 0.2,
+		//	"minecraft:preventsjumping": true,		removed as of 1.18.30
+            "minecraft:map_color": "#000000",
+            "minecraft:block_light_absorption": 0.0,
+            "minecraft:entity_collision": {
+                "origin": [-2,0,-2],
+                "size": [4,16,4]
+            },
+			"minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+							"up"
+						],
+                        "block_filter": [
+							"bumble:grape_crop"
+						]
+                    }
+                ]
+            },
+			"minecraft:flammable": {
+				"burn_odds": 45,
+				"flame_odds": 80
+			},
+	
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "grape_crop_1_top",
+					"render_method": "alpha_test"
+				}
+			},
+            "minecraft:pick_collision": {
+                "origin": [-8,0,-8],
+                "size": [0,0,0]
+            },
+			"minecraft:on_player_destroyed": {
+				"event": "reset_bottom"
+			},
+			
+			
+			"minecraft:loot": "loot_tables/crops/grape_seeds.json"
+			
+        },
+        "events": {
+ 
+			"reset_bottom": {
+				"set_block_at_pos": {
+					"block_type": "bumble:grape_crop",
+					"block_offset": [0,-1,0]
+				},
+				"set_block": {
+					"block_type": "bumble:grape_crop_top_2"
+				}
+            }
+        }
+    }
+}

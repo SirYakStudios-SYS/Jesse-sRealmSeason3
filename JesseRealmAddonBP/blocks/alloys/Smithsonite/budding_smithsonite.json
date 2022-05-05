@@ -1,0 +1,74 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:budding_smithsonite"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "smithsonite_block"
+				},
+				"up": {
+					"texture": "budding_smithsonite"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "stage"
+				}
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.amethyst",
+				"category": "nature"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"stage": {
+				"randomize": [
+					{
+						"weight": 90
+					},
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~1 ~ ~ ~1 ~ m:smithsonite_cluster 0 replace m:large_smithsonite_bud",
+								"fill ~ ~1 ~ ~ ~1 ~ m:large_smithsonite_bud 0 replace m:medium_smithsonite_bud",
+								"fill ~ ~1 ~ ~ ~1 ~ m:medium_smithsonite_bud 0 replace m:small_smithsonite_bud",
+								"fill ~ ~1 ~ ~ ~1 ~ m:small_smithsonite_bud 0 replace air"
+							]
+						},
+						"weight": 10
+					}
+				]
+			}
+		}
+	}
+}

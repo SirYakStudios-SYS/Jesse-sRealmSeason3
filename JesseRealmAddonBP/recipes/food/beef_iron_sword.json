@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:beef_iron_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"XD",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:iron_ingot"
+			},
+			"D": {
+				"item": "minecraft:beef"
+			}
+		},
+		"result": {
+			"item": "sp:beef_iron_sword"
+		}
+	}
+}

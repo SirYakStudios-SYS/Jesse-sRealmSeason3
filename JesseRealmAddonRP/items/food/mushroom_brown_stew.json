@@ -1,0 +1,14 @@
+{
+	"format_version": 1.10,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:mushroom_brown_stew",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "mushroom_brown_stew",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

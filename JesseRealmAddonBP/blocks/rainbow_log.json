@@ -1,0 +1,18 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+	"format_version": "1.17.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mc:rainbow_log"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.6,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log" 
+			},
+			"minecraft:explosion_resistance": 12,
+			"minecraft:loot": "loot_tables/blocks/rainbow_log_drop.json"
+		}
+	}
+ }

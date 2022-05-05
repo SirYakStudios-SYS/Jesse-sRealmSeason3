@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "twat:copper_golem_spawn_egg"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#",
+      "A",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:lightning_rod"
+      },
+      "A": {
+        "item": "minecraft:carved_pumpkin"
+      },
+      "X": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "result": {
+      "item": "twot:copper_golem_spawn_egg"
+    }
+  }
+}

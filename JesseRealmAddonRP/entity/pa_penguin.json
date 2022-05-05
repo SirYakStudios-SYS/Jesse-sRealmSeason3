@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:penguin",
+      "materials": {
+        "default": "polar_bear"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/penguin"
+      },
+      "geometry": {
+        "default": "geometry.penguin"
+      },
+      "animations": {
+        "walk": "animation.penguin.move",
+        "move": "animation.penguin.default",
+        "look_at_target": "animation.penguin.default"
+      },
+      "scripts": {
+        "scale": "1.0"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.polarbear.move"
+        },
+        {
+          "baby": "controller.animation.polarbear.baby"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.polarbear"
+      ],
+      "spawn_egg": {
+        "texture": "pa:penguin",
+        "texture_index": 0
+      }
+    }
+  }
+}

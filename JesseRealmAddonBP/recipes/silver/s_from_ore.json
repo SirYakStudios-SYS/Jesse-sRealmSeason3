@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "sp:silver_from_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "sp:silver_ore",
+		"output": "sp:silver_ingot"
+	}
+}

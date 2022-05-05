@@ -1,0 +1,122 @@
+
+
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:hyacinth_pink"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.crop.cross",
+            "minecraft:entity_collision": false,
+            "minecraft:breathability": "air",
+            "minecraft:pick_collision": {
+                "origin": [-4,0,-4],
+                "size": [8,8,8]
+            },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "hyacinth_pink",
+					"render_method": "alpha_test"
+				}
+			},
+            "minecraft:destroy_time": 0.1,
+            "minecraft:block_light_absorption": 0.0,
+            
+			"minecraft:loot": "loot_tables/plants/flower_hyacinth_pink.json",
+			
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["grass", "podzol"]
+                    }
+                ]
+            },
+            "minecraft:on_interact": {
+				"event": "meal"
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [4, 4],
+                "on_tick": {
+                    "event": "clear_snow"
+                }
+            }
+        },
+        "events": {
+ 
+ 
+			"clear_snow": {
+				"run_command": {
+					"command": [
+						"fill ~ ~1 ~ ~ ~1 ~ air 0 replace snow_layer"
+					]
+				}
+            },
+			
+ 
+			
+			"bonemeal": {
+               "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "particle minecraft:crop_growth_emitter ~~~"
+                            ]
+                        }
+                    },
+                    {
+						"spawn_loot": {
+							"table": "loot_tables/plants/flower_hyacinth_pink.json"
+						}
+					}
+				]
+            },
+			
+			
+			"flowerpot": {
+               "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+					{
+						"run_command": {
+							"command": [
+								"give @s bumble:potted_hyacinth_pink"
+							],
+							"target": "other"
+						}
+					},
+					{
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					}
+				]
+            },
+			
+			
+            "meal": {
+                "sequence": [
+                    {
+						"condition": "query.get_equipped_item_name('main_hand') == 'bone_meal'",
+                        "trigger": {
+                            "event": "bonemeal"
+                        }
+                    },
+                    {
+						"condition": "query.get_equipped_item_name('main_hand') == 'flower_pot'",
+                        "trigger": {
+                            "event": "flowerpot"
+                        }
+                    }
+                ]
+            }
+			
+        }
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:tourmaline_leggings",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_legs"
+			},
+			"minecraft:durability": {
+				"max_durability": 372,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:tourmaline_leggings",
+							"sp:tourmaline"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},//MCPEDL:SorYPMod
+			"minecraft:icon": {
+				"texture": "sp_tourmaline_leggings"
+			},
+			"minecraft:render_offsets": "leggings",
+			"minecraft:armor": {
+				"protection": 5
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			}
+		},
+		"events": {}
+	}
+}//SorYPMod

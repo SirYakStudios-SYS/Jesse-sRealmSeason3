@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "fire_vine"
+    },
+    "height_distribution":  [
+      [{"range_min": 6, "range_max": 8}, 3],
+      [{"range_min": 4, "range_max": 6}, 2]
+    ],
+    "growth_direction": "up",
+    "age": {"range_min": 4, "range_max": 8},
+    "body_blocks": [
+      ["nether:fire_vine", 4]
+    ],
+    "head_blocks": [
+      ["minecraft:glowstone", 1]
+    ]
+  }
+}

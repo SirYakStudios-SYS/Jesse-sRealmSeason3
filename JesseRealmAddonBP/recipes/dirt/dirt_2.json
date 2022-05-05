@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "presblock:dirt_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "presblock:dirt_1"
+      }
+    },
+    "result": [
+      {
+        "item": "presblock:dirt_2"
+      }
+    ]
+  }
+}

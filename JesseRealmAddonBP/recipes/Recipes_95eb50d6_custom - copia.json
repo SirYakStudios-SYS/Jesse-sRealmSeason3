@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_b6h6hy52"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#A#",
+      "#A#",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:pearl",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_nugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:pearled_rod",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

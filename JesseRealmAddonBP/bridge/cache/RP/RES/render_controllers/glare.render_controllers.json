@@ -1,0 +1,202 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Lost Update RES\\render_controllers\\glare.render_controllers.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "d58bc81a_b3c4_4b33_b0ab_e1763ea716d8",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.glare": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							],
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.glare_grumpy",
+										"Texture.glare_normal",
+										"Texture.glare_normal_tamed",
+										"Texture.glare_grumpy_tamed"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.glare": {
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.skins[query.variant]"
+								],
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.glare_grumpy",
+											"Texture.glare_normal",
+											"Texture.glare_normal_tamed",
+											"Texture.glare_grumpy_tamed"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.render.glare",
+						"children": [
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.glare_grumpy",
+												"Texture.glare_normal",
+												"Texture.glare_normal_tamed",
+												"Texture.glare_grumpy_tamed"
+											]
+										}
+									}
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.glare_grumpy",
+												"Texture.glare_normal",
+												"Texture.glare_normal_tamed",
+												"Texture.glare_grumpy_tamed"
+											]
+										}
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.glare_grumpy",
+												"Texture.glare_normal",
+												"Texture.glare_normal_tamed",
+												"Texture.glare_grumpy_tamed"
+											]
+										}
+									}
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.glare_grumpy",
+													"Texture.glare_normal",
+													"Texture.glare_normal_tamed",
+													"Texture.glare_grumpy_tamed"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.glare_grumpy",
+														"Texture.glare_normal",
+														"Texture.glare_normal_tamed",
+														"Texture.glare_grumpy_tamed"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.glare_grumpy",
+													"Texture.glare_normal",
+													"Texture.glare_normal_tamed",
+													"Texture.glare_grumpy_tamed"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

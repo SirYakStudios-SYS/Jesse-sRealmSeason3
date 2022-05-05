@@ -1,0 +1,24 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:potted_small_rose_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:small_rose"
+			},
+			{
+				"item": "minecraft:flower_pot"
+			}
+		],
+		"result": {
+			"item": "bumble:potted_small_rose",
+			"count": 1
+		}
+	}
+}

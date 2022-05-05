@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "viking_helmet_1d5dba8f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "B B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:leather",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "viking:viking_helmet",
+      "count": 1
+    }
+  }
+}

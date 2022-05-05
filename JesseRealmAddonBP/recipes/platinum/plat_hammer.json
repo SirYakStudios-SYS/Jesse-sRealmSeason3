@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:platinum_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "sp:platinum_block"
+			},
+			"O": {
+				"item": "sp:platinum_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:platinum_hammer"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.copper_golem.walk": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": [
+                        "idle"
+                    ],
+                    "transitions": [
+                        { "walk": "(query.modified_move_speed > 0.1)" }                  
+                    ],
+                    "blend_transition": 0.2
+                },
+                "walk": {
+                    "animations": [
+                        "walk"
+                    ],
+                    "transitions": [
+                        { "idle": "!(query.modified_move_speed > 0.1)" }                      
+                    ],
+                    "blend_transition": 0.2
+                }          
+            }
+        }
+    }
+}

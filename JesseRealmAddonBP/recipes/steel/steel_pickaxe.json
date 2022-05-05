@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:steel_pickaxe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "sp:steel_stick"
+			},
+			"X": {
+				"item": "sp:steel_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:steel_pickaxe",
+				"count": 1
+			}
+		]
+	}
+}

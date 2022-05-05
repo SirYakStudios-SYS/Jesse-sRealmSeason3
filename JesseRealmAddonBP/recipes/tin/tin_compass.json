@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.16.100,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:tin_compass"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"#H#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "sp:tin_ingot"
+			},
+			"H": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": {
+			"item": "minecraft:compass"
+		}
+	}
+}

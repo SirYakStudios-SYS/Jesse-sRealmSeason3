@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "new:gold_trident"
+    },
+    "tags": ["trident_table"],
+    "pattern": [
+      "   ",
+      "PPC",
+      "   "
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "new:gold_trident_edge"
+      }
+    },
+    "result": {
+      "item": "new:gold_trident"
+    }
+  }
+}

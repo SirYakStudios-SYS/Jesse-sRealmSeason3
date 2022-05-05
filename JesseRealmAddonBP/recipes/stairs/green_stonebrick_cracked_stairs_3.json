@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:green_stonebrick_cracked_stairs_3"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "stonebrick:stonebrick_cracked_stairs",
+               "data": 0
+           }
+       ],
+       "result": {
+           "item": "stonebrick:green_stonebrick_cracked_stairs_3",
+           "count": 1
+       }
+   }
+}

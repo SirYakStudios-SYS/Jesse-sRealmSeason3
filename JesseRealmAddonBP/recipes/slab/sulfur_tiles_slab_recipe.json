@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:tiles_sulfur_slab_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:sulfur_tiles"
+			}
+		},
+		"result": {
+			"count": 6,
+			"item": "m:sulfur_tiles_slab"
+		}
+	}
+}

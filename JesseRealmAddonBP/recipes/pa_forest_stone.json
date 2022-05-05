@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "forest_stone_cd1e6198"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:stone_forrst_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:forest_stone",
+      "count": 1
+    }
+  }
+}

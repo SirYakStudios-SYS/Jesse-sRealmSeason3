@@ -1,0 +1,185 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\demonio.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "7b64ae69_b09b_4d69_9803_21cad05b6919",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:demonio",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"default": "textures/entity/ghast/ghast1",
+								"shooting": "textures/entity/ghast/ghast_shooting1"
+							},
+							"geometry": {
+								"default": "geometry.ghastmal"
+							},
+							"animations": {
+								"move": "animation.ghast.move",
+								"scale": "animation.ghast.scale"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.ghast.move"
+								},
+								{
+									"scale": "controller.animation.ghast.scale"
+								}
+							],
+							"render_controllers": [
+								"controller.render.ghast"
+							],
+							"spawn_egg": {
+								"texture": "demonioazul"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:demonio",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"default": "textures/entity/ghast/ghast1",
+									"shooting": "textures/entity/ghast/ghast_shooting1"
+								},
+								"geometry": {
+									"default": "geometry.ghastmal"
+								},
+								"animations": {
+									"move": "animation.ghast.move",
+									"scale": "animation.ghast.scale"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.ghast.move"
+									},
+									{
+										"scale": "controller.animation.ghast.scale"
+									}
+								],
+								"render_controllers": [
+									"controller.render.ghast"
+								],
+								"spawn_egg": {
+									"texture": "demonioazul"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:demonio",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/ghast/ghast1",
+									"shooting": "textures/entity/ghast/ghast_shooting1"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.ghastmal"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.ghast.move",
+									"scale": "animation.ghast.scale"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"move": "controller.animation.ghast.move"
+									},
+									{
+										"scale": "controller.animation.ghast.scale"
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.ghast"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:demonio",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/ghast/ghast1",
+										"shooting": "textures/entity/ghast/ghast_shooting1"
+									},
+									"geometry": {
+										"default": "geometry.ghastmal"
+									},
+									"animations": {
+										"move": "animation.ghast.move",
+										"scale": "animation.ghast.scale"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.ghast.move"
+										},
+										{
+											"scale": "controller.animation.ghast.scale"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ghast"
+									],
+									"spawn_egg": {
+										"texture": "demonioazul"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "demonioazul"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

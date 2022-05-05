@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:horsestatue2"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "horsestatue2item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:horsestatue2"
+        }
+      }
+    }
+  }

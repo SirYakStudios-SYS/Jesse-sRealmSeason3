@@ -1,0 +1,77 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\jade.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "fb5219dd_4f23_4011_bd6b_fda0c04e51b6",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:jade"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.stone"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:jade"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.stone"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:jade"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:jade"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.stone"
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.stone"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

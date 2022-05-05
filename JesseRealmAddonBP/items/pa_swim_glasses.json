@@ -1,0 +1,53 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:swim_glasses",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "pa_swim_glasses"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 200,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.0
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      },
+      "minecraft:render_offsets": "helmets",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "pa:latex",
+              "pa:swim_glasses"
+            ],
+            "repair_amount": 10
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 4
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:magma_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XX",
+			"X#",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "sp:quartz_stick"
+			},
+			"X": {
+				"item": "minecraft:magma"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:magma_axe",
+				"count": 1
+			}
+		]
+	}
+}

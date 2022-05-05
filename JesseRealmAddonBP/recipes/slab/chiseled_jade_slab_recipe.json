@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:chiseled_jade_slab_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:chiseled_jade"
+			}
+		},
+		"result": {
+			"count": 6,
+			"item": "m:chiseled_jade_slab"
+		}
+	}
+}

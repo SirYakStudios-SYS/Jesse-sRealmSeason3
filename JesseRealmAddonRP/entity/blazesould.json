@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sc:blazesould",
+			"materials": {
+				"body": "blaze_head",
+				"head": "blaze_body",
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/blazesould"
+			},
+			"geometry": {
+				"default": "geometry.blazesould"
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.blaze.move"
+			},
+			"particle_effects": {
+				"charged_flames": "minecraft:mobflame_emitter"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.blaze.move"
+				},
+				{
+					"flame": "controller.animation.blaze.flame"
+				}
+			],
+			"render_controllers": [
+				"controller.render.blaze"
+			],
+			"spawn_egg": {
+				"texture": "blazearena"
+			}
+		}
+	}
+}

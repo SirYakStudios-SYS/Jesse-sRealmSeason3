@@ -1,0 +1,172 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\flowers_patch_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "8638dd83_e9f6_43eb_b282_68131996cee0",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "mv:flowers_patch_feature"
+						},
+						"iterations": 20,
+						"coordinate_eval_order": "zyx",
+						"x": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						},
+						"y": {
+							"extent": [
+								-4,
+								4
+							],
+							"distribution": "uniform"
+						},
+						"z": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						},
+						"project_input_to_floor": false,
+						"places_feature": "mv:flowers_feature"
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "mv:flowers_patch_feature"
+						},
+						"iterations": 20,
+						"coordinate_eval_order": "zyx",
+						"x": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						},
+						"y": {
+							"extent": [
+								-4,
+								4
+							],
+							"distribution": "uniform"
+						},
+						"z": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						},
+						"project_input_to_floor": false,
+						"places_feature": "mv:flowers_feature"
+					}
+				},
+				"key": "minecraft:scatter_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:flowers_patch_feature"
+							},
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									-4,
+									4
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"project_input_to_floor": false,
+							"places_feature": "mv:flowers_feature"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:flowers_patch_feature"
+						}
+					},
+					{
+						"data": "20",
+						"key": "iterations"
+					},
+					{
+						"data": "zyx",
+						"key": "coordinate_eval_order"
+					},
+					{
+						"key": "x",
+						"is_minified": true,
+						"children": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						}
+					},
+					{
+						"key": "y",
+						"is_minified": true,
+						"children": {
+							"extent": [
+								-4,
+								4
+							],
+							"distribution": "uniform"
+						}
+					},
+					{
+						"key": "z",
+						"is_minified": true,
+						"children": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						}
+					},
+					{
+						"data": "false",
+						"key": "project_input_to_floor"
+					},
+					{
+						"data": "mv:flowers_feature",
+						"key": "places_feature"
+					}
+				]
+			}
+		]
+	}
+}

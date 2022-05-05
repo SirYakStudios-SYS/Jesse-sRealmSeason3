@@ -1,0 +1,127 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"mb:facing_direction": [
+					0,
+					1
+				]
+			},
+			"identifier": "m:aluminum_cesium_tube"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "aluminum_cesium_tube"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 1,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up",
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#9cd0fb",
+			"minecraft:geometry": "geometry.light_tube",
+			"minecraft:destroy_time": 1,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			},
+			"tag:fast_pickaxe_mineable": {},
+			"tag:non_full": {},
+			"minecraft:pick_collision": {
+				"origin": [
+					-1,
+					14,
+					-8
+				],
+				"size": [
+					2,
+					2,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"size": [
+					2,
+					2,
+					16
+				],
+				"origin": [
+					-1,
+					14,
+					-8
+				]
+			},
+			"tag:aluminumsound": {}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

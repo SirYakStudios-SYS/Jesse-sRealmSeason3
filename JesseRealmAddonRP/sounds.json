@@ -1,0 +1,7078 @@
+// This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission.
+{
+	"block_sounds" : {
+	   
+      "bumble:zucchini_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+      "soul_soil": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.soul_soil",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.soul_soil",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.soul_soil",
+					"volume": 0.17,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.soul_soil",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"nylium": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.nylium",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.nylium",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.nylium",
+					"volume": 0.23,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.nylium",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						0.8
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"roots": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.roots",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.roots",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.roots",
+					"volume": 0.3,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.roots",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"fungus": {
+			"volume": 0.85,
+			"pitch": 0.9,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "dig.fungus",
+					"pitch": 1
+				},
+				"break": {
+					"sound": "dig.fungus",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "dig.fungus",
+					"volume": 0.25,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.fungus",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.6
+				}
+			}
+		},
+		"stem": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.stem",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.stem",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.stem",
+					"volume": 0.34,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.stem",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"shroomlight": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.shroomlight",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.shroomlight",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.shroomlight",
+					"volume": 0.35,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.shroomlight",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"basalt": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.basalt",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.basalt",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.basalt",
+					"volume": 0.23,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.basalt",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"bone_block": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.bone_block",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.bone_block",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.bone_block",
+					"volume": 0.38,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.bone_block",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"nether_brick": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.nether_brick",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.nether_brick",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.nether_brick",
+					"volume": 0.25,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.nether_brick",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"netherrack": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.netherrack",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.netherrack",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.netherrack",
+					"volume": 0.22,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.netherrack",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"nether_sprouts": {
+			"volume": 1,
+			"pitch": 1.5,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.nether_sprouts",
+					"pitch": 1.2
+				},
+				"break": {
+					"sound": "dig.nether_sprouts",
+					"volume": 1,
+					"pitch": [
+						1.1,
+						1.2
+					]
+				},
+				"hit": {
+					"sound": "hit.nether_sprouts",
+					"volume": 0.3,
+					"pitch": 0.75
+				},
+				"place": {
+					"sound": "dig.nether_sprouts",
+					"volume": 1,
+					"pitch": [
+						1.2,
+						1.25
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"nether_wart": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.nether_wart",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.nether_wart",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.nether_wart",
+					"volume": 0.32,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.nether_wart",
+					"volume": 0.7,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"nether_gold_ore": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.nether_gold_ore",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.nether_gold_ore",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.nether_gold_ore",
+					"volume": 0.23,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.nether_gold_ore",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"ancient_debris": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.ancient_debris",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.ancient_debris",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.ancient_debris",
+					"volume": 0.23,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.ancient_debris",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"honey_block": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.honey_block",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.honey_block",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.honey_block",
+					"volume": 0.23,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.honey_block",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"coral": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.coral",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.coral",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.coral",
+					"volume": 0.3,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.coral",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"netherite": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.netherite",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.netherite",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.netherite",
+					"volume": 0.3,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.netherite",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"lodestone": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "dig.stone",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.stone",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.stone",
+					"volume": 0.3,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.lodestone",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"chain": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.chain",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.chain",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.chain",
+					"volume": 0.3,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.chain",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"vines": {
+			"volume": 1,
+			"pitch": 1,
+			"events": {
+				"default": {},
+				"item.use.on": {
+					"sound": "use.vines",
+					"pitch": 0.8
+				},
+				"break": {
+					"sound": "dig.vines",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"hit": {
+					"sound": "hit.vines",
+					"volume": 0.3,
+					"pitch": 0.5
+				},
+				"place": {
+					"sound": "dig.vines",
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1
+					]
+				},
+				"power.on": {
+					"sound": "random.click",
+					"pitch": 0.6
+				},
+				"power.off": {
+					"sound": "random.click",
+					"pitch": 0.5
+				}
+			}
+		},
+		"anvil": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.anvil",
+					"volume": 0.35
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.stone"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "random.anvil_land",
+					"volume": 0.5
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"bamboo": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.bamboo.break",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "block.bamboo.hit",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "block.bamboo.place"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.bamboo.place",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"bamboo_sapling": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.bamboo_sapling.break",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": {},
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "block.bamboo_sapling.place"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.bamboo_sapling.place",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"cloth": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.cloth",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.cloth",
+					"volume": 0.35
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.cloth"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.cloth",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"glass": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "random.glass",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.6,
+					"sound": "hit.stone",
+					"volume": 0.4
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.stone"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"grass": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.grass",
+					"volume": 0.7
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.grass",
+					"volume": 0.3
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.grass"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.grass",
+					"volume": 0.8
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"gravel": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.gravel",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.gravel",
+					"volume": 0.17
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.gravel"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.gravel",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"itemframe": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.itemframe.break",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.wood",
+					"volume": 0.22
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "block.itemframe.place"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.itemframe.place",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"ladder": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.wood",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.ladder",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.ladder"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.wood",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"lantern": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.lantern.break",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "block.lantern.hit",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 1.1,
+					"sound": "block.lantern.place"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.lantern.place",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"metal": {
+			"events": {
+				"break": {
+					"pitch": [
+						1.1,
+						1.2
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.75,
+					"sound": "hit.stone",
+					"volume": 0.3
+				},
+				"item.use.on": {
+					"pitch": 1.2,
+					"sound": "use.anvil"
+				},
+				"place": {
+					"pitch": [
+						1.2,
+						1.25
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1.5,
+			"volume": 1
+		},
+		"normal": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.stone",
+					"volume": 0.27
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.stone"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"sand": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.sand",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.sand",
+					"volume": 0.23
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.sand"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.sand",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"scaffolding": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.scaffolding.break",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "block.scaffolding.hit",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "block.scaffolding.place"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						0.9
+					],
+					"sound": "block.scaffolding.place",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"slime": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "mob.slime.big",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.slime",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.slime"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "mob.slime.big",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"snow": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.snow",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.snow",
+					"volume": 0.35
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.snow"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.snow",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"soul_sand": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.soul_sand",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.soul_sand",
+					"volume": 0.21
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.soul_sand"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.soul_sand",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"stone": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.stone",
+					"volume": 0.37
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.stone"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"sweet_berry_bush": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.sweet_berry_bush.break",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.grass",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "block.sweet_berry_bush.place"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "block.sweet_berry_bush.place",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+		"turtle_egg": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": {},
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.stone",
+					"volume": 0.25
+				},
+				"item.use.on": {
+					"pitch": 1,
+					"sound": "use.stone"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.stone",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 0.9,
+			"volume": 0.85
+		},
+		"wood": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "dig.wood",
+					"volume": 1
+				},
+				"default": {},
+				"hit": {
+					"pitch": 0.5,
+					"sound": "hit.wood",
+					"volume": 0.23
+				},
+				"item.use.on": {
+					"pitch": 0.8,
+					"sound": "use.wood"
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						0.8
+					],
+					"sound": "dig.wood",
+					"volume": 1
+				},
+				"power.off": {
+					"pitch": 0.5,
+					"sound": "random.click"
+				},
+				"power.on": {
+					"pitch": 0.6,
+					"sound": "random.click"
+				}
+			},
+			"pitch": 1,
+			"volume": 1
+		},
+      "bumble:asparagus_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:corn_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:grape_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:hops_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:pepper_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:pineapple_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:red_cabbage_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:rhubarb_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:strawberry_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:tomato_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      },
+	  
+	  
+      "bumble:turnip_crop" : {
+         "events" : {
+            "break" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.70
+            },
+            "default" : "",
+            "hit" : {
+               "pitch" : 0.50,
+               "sound" : "hit.grass",
+               "volume" : 0.30
+            },
+            "item.use.on" : {
+               "pitch" : 0.80,
+               "sound" : "use.grass"
+            },
+            "place" : {
+               "pitch" : [ 0.80, 1.0 ],
+               "sound" : "dig.grass",
+               "volume" : 0.80
+            },
+            "power.off" : {
+               "pitch" : 0.50,
+               "sound" : "random.click"
+            },
+            "power.on" : {
+               "pitch" : 0.60,
+               "sound" : "random.click"
+            }
+         },
+         "pitch" : 1.0,
+         "volume" : 1.0
+      }
+   },
+	"entity_sounds": {
+		"defaults": {
+      "volume": 1.0,
+      "pitch": [ 0.8, 1.2 ],
+      "events": {
+        "fall.big": {"sound": "damage.fallbig", "volume": 0.75, "pitch": 1.0},
+        "fall.small": {"sound": "damage.fallsmall","volume": 0.75, "pitch": 1.0},
+        "splash": {"sound": "random.splash","pitch": [ 0.6, 1.4 ]},
+        "swim": {"sound": "random.swim","pitch": [ 0.6, 1.4 ]},
+        "fizz": {"sound": "random.fizz","volume": 0.7,"pitch": [ 1.2, 2.0 ]},
+        "drink": {"sound": "random.drink","volume": 0.5,"pitch": [ 0.9, 1.0 ]},
+        "eat": {"sound": "random.eat","volume": [ 0.5, 1.5 ],"pitch": [ 0.8, 1.2 ]},
+        "ambient": "",
+        "flop":  "",
+        "hurt": "game.player.hurt",
+        "death": "game.player.die",
+        "ambient.in.water": "",
+        "hurt.in.water": "",
+        "death.in.water": "",
+        "ambient.in.raid": ""
+      }
+    },
+		"entities": {
+			"honkit26113:shroom_elf": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt"
+				},
+				"pitch": [
+					0.35,
+					0.45
+				],
+				"volume": 1
+			},
+			"m:tin_golem": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"m:rose_gold_golem": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"m:bronze_golem": {
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1,
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				}
+			},
+			"m:electrum_golem": {
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"volume": 1
+			},
+			"bat": {
+				"events": {
+					"ambient": "mob.bat.idle",
+					"death": "mob.bat.death",
+					"hurt": "mob.bat.hurt",
+					"takeoff": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.bat.takeoff",
+						"volume": 0.05
+					}
+				},
+				"pitch": [
+					0.76,
+					1.14
+				],
+				"volume": 0.1
+			},
+			"bee": {
+				"events": {
+					"ambient.pollinate": {
+						"sound": "mob.bee.pollinate",
+						"volume": 0.85
+					},
+					"attack": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "mob.bee.sting"
+					},
+					"death": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.bee.death",
+						"volume": 0.6
+					},
+					"hurt": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.bee.hurt",
+						"volume": 0.6
+					}
+				},
+				"pitch": 1,
+				"volume": 0.6
+			},
+			"sc:blazecarmesi": {
+				"events": {
+					"ambient": "mob.blaze.breathe",
+					"death": "mob.blaze.death",
+					"hurt": "mob.blaze.hit",
+					"shoot": "mob.blaze.shoot"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:blazesould": {
+				"events": {
+					"ambient": "mob.blaze.breathe",
+					"death": "mob.blaze.death",
+					"hurt": "mob.blaze.hit",
+					"shoot": "mob.blaze.shoot"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:blazeretorcido": {
+				"events": {
+					"ambient": "mob.blaze.breathe",
+					"death": "mob.blaze.death",
+					"hurt": "mob.blaze.hit",
+					"shoot": "mob.blaze.shoot"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:blazebasalto": {
+				"events": {
+					"ambient": "mob.blaze.breathe",
+					"death": "mob.blaze.death",
+					"hurt": "mob.blaze.hit",
+					"shoot": "mob.blaze.shoot"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"cave_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": "mob.spider.say",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.spider.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"chicken": {
+				"events": {
+					"ambient": "mob.chicken.say",
+					"death": "mob.chicken.hurt",
+					"hurt": "mob.chicken.hurt",
+					"plop": "mob.chicken.plop",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.chicken.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"guardian:beach_crab": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "step": {
+            "sound": "mob.spider.step",
+            "volume": 0.35,
+            "pitch": [ 0.9, 1.1 ]
+          }
+        }
+      },
+      "twot:copper_golem": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:redstone_silverfish": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.silverfish.say",
+          "hurt": "mob.silverfish.hit",
+          "death": "mob.silverfish.kill",
+          "step": {
+            "sound": "mob.silverfish.step",
+            "volume": 0.35,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:brute_enderman": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.endermen.idle",
+          "hurt": "mob.endermen.hit",
+          "death": "mob.endermen.death",
+          "mad": "mob.endermen.scream",
+          "stare": {
+            "sound": "mob.endermen.stare",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:captain_pirats": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:drowned_dev": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "hurt": "mob.drowned.hurt",
+          "death": "mob.drowned.death",
+          "ambient.in.water": "mob.drowned.say_water",
+          "hurt.in.water": "mob.drowned.hurt_water",
+          "death.in.water": "mob.drowned.death_water",
+          "step": "mob.drowned.step"
+        }
+      },
+      "guardian:drowned_husk": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "hurt": "mob.drowned.hurt",
+          "death": "mob.drowned.death",
+          "ambient.in.water": "mob.drowned.say_water",
+          "hurt.in.water": "mob.drowned.hurt_water",
+          "death.in.water": "mob.drowned.death_water",
+          "step": "mob.drowned.step"
+        }
+      },
+      "guardian:drowned_skeleton": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:drowned_steve": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "hurt": "mob.drowned.hurt",
+          "death": "mob.drowned.death",
+          "ambient.in.water": "mob.drowned.say_water",
+          "hurt.in.water": "mob.drowned.hurt_water",
+          "death.in.water": "mob.drowned.death_water",
+          "step": "mob.drowned.step"
+        }
+      },
+      "guardian:drowned_taiga": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "hurt": "mob.drowned.hurt",
+          "death": "mob.drowned.death",
+          "ambient.in.water": "mob.drowned.say_water",
+          "hurt.in.water": "mob.drowned.hurt_water",
+          "death.in.water": "mob.drowned.death_water",
+          "step": "mob.drowned.step"
+        }
+      },
+      "guardian:elderender": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.endermen.idle",
+          "hurt": "mob.endermen.hit",
+          "death": "mob.endermen.death",
+          "mad": "mob.endermen.scream",
+          "stare": {
+            "sound": "mob.endermen.stare",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:enderman_infected": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.endermen.idle",
+          "hurt": "mob.endermen.hit",
+          "death": "mob.endermen.death",
+          "mad": "mob.endermen.scream",
+          "stare": {
+            "sound": "mob.endermen.stare",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:endermare": {
+        "volume": 10.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.phantom.idle",
+          "hurt": "mob.phantom.hurt",
+          "death": "mob.phantom.death",
+          "attack": "mob.phantom.bite",
+          "swoop": {
+            "sound": "mob.phantom.swoop",
+            "pitch": [ 0.95, 1.05 ]
+          }
+        }
+      },
+      "guardian:glare": {
+        "volume": 0.1,
+        "pitch": [ 0.76, 1.14 ],
+        "events": {
+          "ambient": "mob.glare.idle",
+          "hurt": "mob.glare.hurt",
+          "death": "mob.glare.death",
+          "takeoff": {
+            "sound": "mob.glare.takeoff",
+            "volume": 0.05,
+            "pitch": [ 0.8, 1.2 ]
+          }
+        }
+      },
+      "guardian:king_blaze": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.blaze.breathe",
+          "hurt": "mob.blaze.hit",
+          "death": "mob.blaze.death",
+          "shoot": "mob.blaze.shoot"
+        }
+      },
+      "guardian:monster_deep": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.guardian.land_idle",
+          "hurt": "mob.guardian.land_hit",
+          "death": "mob.elderguardian.death",
+          "ambient.in.water": "mob.elderguardian.idle",
+          "hurt.in.water": "mob.elderguardian.hit",
+          "death.in.water": "mob.elderguardian.death",
+          "guardian.flop": {
+            "sound": "mob.guardian.flop",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:nautilus": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "hurt": "mob.fish.hurt",
+          "hurt.in.water": "mob.fish.hurt",
+          "flop": {
+            "sound": "mob.fish.flop",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "step": {
+            "sound": "mob.fish.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:nautilus_crab": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "step": {
+            "sound": "mob.spider.step",
+            "volume": 0.35,
+            "pitch": [ 0.9, 1.1 ]
+          }
+        }
+      },
+      "guardian:old_spider": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.spider.say",
+          "hurt": "mob.spider.say",
+          "death": "mob.spider.death",
+          "step": {
+            "sound": "mob.spider.step",
+            "volume": 0.35,
+            "pitch": [ 0.9, 1.1 ]
+          }
+        }
+      },
+      "guardian:old_strider": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.strider.idle",
+          "hurt": "mob.strider.hurt",
+          "death": "mob.strider.death",
+          "step": {
+            "sound": "mob.strider.step",
+            "volume": 0.25,
+            "pitch": 1.0
+          },
+          "step_lava": {
+            "sound": "mob.strider.step_lava",
+            "volume": 0.2,
+            "pitch": 1.0
+          },
+          "eat": "mob.strider.eat",
+          "tempt": "mob.strider.tempt",
+          "panic": "mob.strider.panic"
+        }
+      },
+      "guardian:red_phantom": {
+        "volume": 10.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.phantom.idle",
+          "hurt": "mob.phantom.hurt",
+          "death": "mob.phantom.death",
+          "attack": "mob.phantom.bite",
+          "swoop": {
+            "sound": "mob.phantom.swoop",
+            "pitch": [ 0.95, 1.05 ]
+          }
+        }
+      },
+      "guardian:stray_skeleton": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:skeleton_quiver_for_arrows": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:swordsman_pillager": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "hurt": "mob.pillager.hurt",
+          "death": "mob.pillager.death",
+          "ambient.in.raid": {"sound": "mob.pillager.idle", "volume": 3.0, "pitch": [ 0.8, 1.2 ]},
+          "celebrate": "mob.pillager.celebrate"
+        }
+      },
+      "guardian:pirate_pillager": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "hurt": "mob.pillager.hurt",
+          "death": "mob.pillager.death",
+          "ambient.in.raid": {"sound": "mob.pillager.idle", "volume": 3.0, "pitch": [ 0.8, 1.2 ]},
+          "celebrate": "mob.pillager.celebrate"
+        }
+      },
+      "guardian:pirate_pillager_snow": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "hurt": "mob.pillager.hurt",
+          "death": "mob.pillager.death",
+          "ambient.in.raid": {"sound": "mob.pillager.idle", "volume": 3.0, "pitch": [ 0.8, 1.2 ]},
+          "celebrate": "mob.pillager.celebrate"
+        }
+      },
+      "guardian:tadpole": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "hurt": "mob.fish.hurt",
+          "hurt.in.water": "mob.fish.hurt",
+          "flop": {
+            "sound": "mob.fish.flop",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "step": {
+            "sound": "mob.fish.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:taiga_bear": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.polarbear.idle",
+          "ambient.baby": "mob.polarbear_baby.idle",
+          "hurt": {
+            "sound": "mob.polarbear.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.polarbear.death",
+          "step": {
+            "sound": "mob.polarbear.step",
+            "volume": 0.7,
+            "pitch": 1.0
+          },
+          "mob.warning": {
+            "sound": "mob.polarbear.warning",
+            "volume": 1.2,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:white_enderman": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.endermen.idle",
+          "hurt": "mob.endermen.hit",
+          "death": "mob.endermen.death",
+          "mad": "mob.endermen.scream",
+          "stare": {
+            "sound": "mob.endermen.stare",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:zombiee_dev": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "guardian:zombiee_taiga": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+                    }
+                }
+            },
+			"cod": {
+				"events": {
+					"flop": {
+						"pitch": 1,
+						"sound": "mob.fish.flop",
+						"volume": 1
+					},
+					"hurt": "mob.fish.hurt",
+					"hurt.in.water": "mob.fish.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.fish.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"cow": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"dolphin": {
+				"events": {
+					"ambient": "mob.dolphin.idle",
+					"ambient.in.water": "mob.dolphin.idle_water",
+					"attack": "mob.dolphin.attack",
+					"breathe": "mob.dolphin.blowhole",
+					"death": "mob.dolphin.death",
+					"death.in.water": "mob.dolphin.death",
+					"eat": {
+						"pitch": 1,
+						"sound": "mob.dolphin.eat",
+						"volume": 0.7
+					},
+					"hurt": "mob.dolphin.hurt",
+					"hurt.in.water": "mob.dolphin.hurt",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.dolphin.jump",
+						"volume": 0.7
+					},
+					"splash": "mob.dolphin.splash",
+					"swim": "mob.dolphin.swim"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"donkey": {
+				"events": {
+					"add.chest": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.horse.donkey.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.horse.armor",
+						"volume": 0.6
+					},
+					"breathe": {
+						"pitch": 1,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"death": "mob.horse.donkey.death",
+					"eat": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.eat",
+						"volume": [
+							0.5,
+							1.5
+						]
+					},
+					"hurt": "mob.horse.donkey.hit",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 1,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"mad": "mob.horse.donkey.angry",
+					"saddle": {
+						"pitch": 1,
+						"sound": "mob.horse.leather",
+						"volume": 0.5
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"drowned": {
+				"events": {
+					"ambient": "mob.drowned.say",
+					"ambient.in.water": "mob.drowned.say_water",
+					"death": "mob.drowned.death",
+					"death.in.water": "mob.drowned.death_water",
+					"hurt": "mob.drowned.hurt",
+					"hurt.in.water": "mob.drowned.hurt_water",
+					"step": "mob.drowned.step"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"elder_guardian": {
+				"events": {
+					"ambient": "mob.guardian.land_idle",
+					"ambient.in.water": "mob.elderguardian.idle",
+					"death": "mob.elderguardian.death",
+					"death.in.water": "mob.elderguardian.death",
+					"guardian.flop": {
+						"pitch": 1,
+						"sound": "mob.guardian.flop",
+						"volume": 1
+					},
+					"hurt": "mob.guardian.land_hit",
+					"hurt.in.water": "mob.elderguardian.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"ender_dragon": {
+				"events": {
+					"death": "mob.enderdragon.death",
+					"flap": "mob.enderdragon.flap",
+					"hurt": "mob.enderdragon.hit",
+					"mad": "mob.enderdragon.growl"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 80
+			},
+			"enderman": {
+				"events": {
+					"ambient": "mob.endermen.idle",
+					"death": "mob.endermen.death",
+					"hurt": "mob.endermen.hit",
+					"mad": "mob.endermen.scream",
+					"stare": {
+						"pitch": 1,
+						"sound": "mob.endermen.stare",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"endermite": {
+				"events": {
+					"ambient": "mob.endermite.say",
+					"death": "mob.endermite.kill",
+					"hurt": "mob.endermite.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.endermite.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"evocation_fang": {
+				"events": {
+					"fang": "mob.evocation_fangs.attack"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"evocation_illager": {
+				"events": {
+					"ambient": "mob.evocation_illager.ambient",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.evocation_illager.ambient",
+						"volume": 3
+					},
+					"cast.spell": "mob.evocation_illager.cast_spell",
+					"celebrate": "mob.evocation_illager.celebrate",
+					"death": "mob.evocation_illager.death",
+					"hurt": "mob.evocation_illager.hurt",
+					"prepare.attack": "mob.evocation_illager.prepare_attack",
+					"prepare.summon": "mob.evocation_illager.prepare_summon",
+					"prepare.wololo": "mob.evocation_illager.prepare_wololo"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"fox": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:demonio": {
+				"events": {
+					"ambient": "mob.ghast.moan",
+					"death": "mob.ghast.death",
+					"hurt": "mob.ghast.scream",
+					"scream": "mob.ghast.affectionate_scream",
+					"shoot": {
+						"sound": "mob.ghast.fireball",
+						"volume": 0.7
+					},
+					"warn": "mob.ghast.charge"
+				},
+				"pitch": [
+					0.2,
+					0.6
+				],
+				"volume": 600
+			},
+			"sc:demonio_blood": {
+				"events": {
+					"ambient": "mob.ghast.moan",
+					"death": "mob.ghast.death",
+					"hurt": "mob.ghast.scream",
+					"scream": "mob.ghast.affectionate_scream",
+					"shoot": {
+						"sound": "mob.ghast.fireball",
+						"volume": 0.7
+					},
+					"warn": "mob.ghast.charge"
+				},
+				"pitch": [
+					0.1,
+					0.2
+				],
+				"volume": 600
+			},
+			"guardian": {
+				"events": {
+					"ambient": "mob.guardian.land_idle",
+					"ambient.in.water": "mob.guardian.ambient",
+					"death": "mob.guardian.land_death",
+					"death.in.water": "mob.guardian.death",
+					"guardian.flop": {
+						"pitch": 1,
+						"sound": "mob.guardian.flop",
+						"volume": 1
+					},
+					"hurt": "mob.guardian.land_hit",
+					"hurt.in.water": "mob.guardian.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"hoglin": {
+				"events": {
+					"ambient": "mob.hoglin.ambient",
+					"angry": "mob.hoglin.angry",
+					"attack": "mob.hoglin.attack",
+					"death": "mob.hoglin.death",
+					"hurt": "mob.hoglin.hurt",
+					"retreat": "mob.hoglin.retreat",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.hoglin.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"horse": {
+				"events": {
+					"add.chest": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.horse.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.horse.armor",
+						"volume": 0.6
+					},
+					"breathe": {
+						"pitch": 1,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"death": "mob.horse.death",
+					"eat": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.eat",
+						"volume": [
+							0.5,
+							1.5
+						]
+					},
+					"hurt": "mob.horse.hit",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 1,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"mad": "mob.horse.angry",
+					"saddle": {
+						"pitch": 1,
+						"sound": "mob.horse.leather",
+						"volume": 0.6
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"husk": {
+				"events": {
+					"ambient": "mob.husk.ambient",
+					"death": "mob.husk.death",
+					"hurt": "mob.husk.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.husk.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:golem_carmesi2": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:golem_retorcido2": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:golem_retorcido": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:golem_carmesi": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"item": {
+				"events": {
+					"fizz": {
+						"pitch": [
+							2,
+							2.4
+						],
+						"sound": "random.fizz",
+						"volume": 0.4
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"lightning_bolt": {
+				"events": {
+					"explode": {
+						"pitch": [
+							0.3,
+							0.7
+						],
+						"sound": "ambient.weather.lightning.impact"
+					},
+					"thunder": {
+						"pitch": [
+							0.6,
+							1
+						],
+						"sound": "ambient.weather.thunder"
+					}
+				},
+				"volume": 1000
+			},
+			"llama": {
+				"events": {
+					"add.chest": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.llama.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.llama.swag",
+						"volume": 0.5
+					},
+					"death": "mob.llama.death",
+					"eat": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.llama.eat",
+						"volume": [
+							0.5,
+							1.5
+						]
+					},
+					"hurt": "mob.llama.hurt",
+					"mad": "mob.llama.angry",
+					"shoot": "mob.llama.spit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.llama.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"magma_cube": {
+				"events": {
+					"ambient": {},
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.attack"
+					},
+					"death": "mob.magmacube.small",
+					"hurt": "mob.magmacube.small",
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.magmacube.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.magmacube.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"minecart": {
+				"events": {
+					"step": {}
+				}
+			},
+			"minecraft:npc": {
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "dig.wood",
+					"hurt": "mob.villager.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mooshroom": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"eat": "mob.mooshroom.eat",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mule": {
+				"events": {
+					"add.chest": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.horse.donkey.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.horse.armor",
+						"volume": 0.6
+					},
+					"breathe": {
+						"pitch": 1,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"death": "mob.horse.donkey.death",
+					"eat": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.eat",
+						"volume": [
+							0.5,
+							1.5
+						]
+					},
+					"hurt": "mob.horse.donkey.hit",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 1,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"mad": "mob.horse.donkey.angry",
+					"saddle": {
+						"pitch": 1,
+						"sound": "mob.horse.leather",
+						"volume": 0.6
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"ocelot": {
+				"events": {
+					"ambient": "mob.ocelot.idle",
+					"death": "mob.ocelot.death",
+					"eat": "mob.cat.eat",
+					"hurt": {
+						"sound": "mob.cat.hit",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"panda": {
+				"events": {
+					"ambient": "mob.panda.idle",
+					"ambient.aggressive": "mob.panda.idle.aggressive",
+					"ambient.baby": "mob.panda_baby.idle",
+					"ambient.worried": "mob.panda.idle.worried",
+					"attack": "mob.panda.bite",
+					"cant_breed": "mob.panda.cant_breed",
+					"death": {
+						"sound": "mob.panda.death",
+						"volume": 0.82
+					},
+					"eat": "mob.panda.eat",
+					"hurt": {
+						"sound": "mob.panda.hurt",
+						"volume": 0.82
+					},
+					"presneeze": "mob.panda.presneeze",
+					"sneeze": "mob.panda.sneeze",
+					"step": {
+						"sound": "mob.panda.step",
+						"volume": 0.4
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"parrot": {
+				"events": {
+					"ambient": {
+						"sound": "mob.parrot.idle",
+						"volume": 0.7
+					},
+					"death": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "mob.parrot.death",
+						"volume": 1
+					},
+					"eat": "mob.parrot.eat",
+					"fly": "mob.parrot.fly",
+					"hurt": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "mob.parrot.hurt",
+						"volume": 1
+					},
+					"imitate.blaze": {
+						"pitch": 1.8,
+						"sound": "mob.blaze.ambient",
+						"volume": 0.4
+					},
+					"imitate.cave_spider": {
+						"pitch": 1.8,
+						"sound": "mob.spider.say",
+						"volume": 0.6
+					},
+					"imitate.creeper": {
+						"pitch": 1.8,
+						"sound": "random.fuse",
+						"volume": 0.6
+					},
+					"imitate.drowned": {
+						"pitch": 1.8,
+						"sound": "mob.zombie.say",
+						"volume": 0.6
+					},
+					"imitate.elder_guardian": {
+						"pitch": 1.7,
+						"sound": "mob.guardian.land_idle",
+						"volume": 0.7
+					},
+					"imitate.ender_dragon": {
+						"pitch": 1.8,
+						"sound": "mob.enderdragon.growl",
+						"volume": 0.2
+					},
+					"imitate.enderman": {
+						"pitch": 1.7,
+						"sound": "mob.endermen.idle",
+						"volume": 0.5
+					},
+					"imitate.endermite": {
+						"pitch": 1.8,
+						"sound": "mob.endermite.say",
+						"volume": 0.7
+					},
+					"imitate.evocation_illager": {
+						"pitch": 1.8,
+						"sound": "mob.evocation_illager.ambient",
+						"volume": 0.6
+					},
+					"imitate.ghast": {
+						"pitch": 1.8,
+						"sound": "mob.ghast.moan",
+						"volume": 0.7
+					},
+					"imitate.husk": {
+						"pitch": 1.8,
+						"sound": "mob.husk.ambient",
+						"volume": 0.6
+					},
+					"imitate.illusion_illager": {
+						"pitch": 1.8,
+						"sound": "mob.illusion_illager.ambient",
+						"volume": 0.7
+					},
+					"imitate.magma_cube": {
+						"pitch": 1.8,
+						"sound": "mob.magmacube.big",
+						"volume": 0.6
+					},
+					"imitate.panda": {
+						"pitch": 0.8,
+						"sound": "mob.panda.idle",
+						"volume": 0.7
+					},
+					"imitate.polar_bear": {
+						"pitch": 0.8,
+						"sound": "mob.polarbear.idle",
+						"volume": 0.7
+					},
+					"imitate.shulker": {
+						"pitch": 1.7,
+						"sound": "mob.shulker.ambient",
+						"volume": 0.4
+					},
+					"imitate.silverfish": {
+						"pitch": 1.8,
+						"sound": "mob.silverfish.say",
+						"volume": 0.7
+					},
+					"imitate.skeleton": {
+						"pitch": 1.7,
+						"sound": "mob.skeleton.say",
+						"volume": 1
+					},
+					"imitate.slime": {
+						"pitch": 1.8,
+						"sound": "mob.slime.big",
+						"volume": 0.6
+					},
+					"imitate.spider": {
+						"pitch": 1.8,
+						"sound": "mob.spider.say",
+						"volume": 0.6
+					},
+					"imitate.stray": {
+						"pitch": 1.6,
+						"sound": "mob.stray.ambient",
+						"volume": 0.6
+					},
+					"imitate.vex": {
+						"pitch": 1.6,
+						"sound": "mob.vex.ambient",
+						"volume": 0.8
+					},
+					"imitate.vindication_illager": {
+						"pitch": 1.7,
+						"sound": "mob.vindicator.idle",
+						"volume": 0.6
+					},
+					"imitate.witch": {
+						"pitch": 1.8,
+						"sound": "mob.witch.ambient",
+						"volume": 0.5
+					},
+					"imitate.wither": {
+						"pitch": 1.8,
+						"sound": "mob.wither.ambient",
+						"volume": 0.2
+					},
+					"imitate.wither_skeleton": {
+						"pitch": 1.8,
+						"sound": "mob.skeleton.say",
+						"volume": 0.7
+					},
+					"imitate.wolf": {
+						"pitch": 1.8,
+						"sound": "mob.wolf.bark",
+						"volume": 0.6
+					},
+					"imitate.zombie": {
+						"pitch": 1.8,
+						"sound": "mob.zombie.say",
+						"volume": 0.6
+					},
+					"imitate.zombie_pigman": {
+						"pitch": 1.8,
+						"sound": "mob.zombiepig.zpig",
+						"volume": 0.4
+					},
+					"imitate.zombie_villager": {
+						"pitch": 1.8,
+						"sound": "mob.zombie_villager.say",
+						"volume": 0.6
+					},
+					"step": "mob.parrot.step"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"phantom": {
+				"events": {
+					"ambient": "mob.phantom.idle",
+					"attack": "mob.phantom.bite",
+					"death": "mob.phantom.death",
+					"hurt": "mob.phantom.hurt",
+					"swoop": {
+						"pitch": [
+							0.95,
+							1.05
+						],
+						"sound": "mob.phantom.swoop"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 10
+			},
+			"sc:pig_nethercandy3": {
+				"events": {
+					"ambient": "mob.pig.say",
+					"boost": {
+						"pitch": 1,
+						"sound": "mob.pig.boost",
+						"volume": 1
+					},
+					"death": "mob.pig.death",
+					"death.to.zombie": {
+						"sound": "mob.pig.death",
+						"volume": 2
+					},
+					"hurt": "mob.pig.say",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.pig.step",
+						"volume": 0.2
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:pig_nethercandy2": {
+				"events": {
+					"ambient": "mob.pig.say",
+					"boost": {
+						"pitch": 1,
+						"sound": "mob.pig.boost",
+						"volume": 1
+					},
+					"death": "mob.pig.death",
+					"death.to.zombie": {
+						"sound": "mob.pig.death",
+						"volume": 2
+					},
+					"hurt": "mob.pig.say",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.pig.step",
+						"volume": 0.2
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:pig_nethercandy4": {
+				"events": {
+					"ambient": "mob.pig.say",
+					"boost": {
+						"pitch": 1,
+						"sound": "mob.pig.boost",
+						"volume": 1
+					},
+					"death": "mob.pig.death",
+					"death.to.zombie": {
+						"sound": "mob.pig.death",
+						"volume": 2
+					},
+					"hurt": "mob.pig.say",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.pig.step",
+						"volume": 0.2
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sc:pig_nethercandy": {
+				"events": {
+					"ambient": "mob.pig.say",
+					"boost": {
+						"pitch": 1,
+						"sound": "mob.pig.boost",
+						"volume": 1
+					},
+					"death": "mob.pig.death",
+					"death.to.zombie": {
+						"sound": "mob.pig.death",
+						"volume": 2
+					},
+					"hurt": "mob.pig.say",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.pig.step",
+						"volume": 0.2
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"piglin": {
+				"events": {
+					"ambient": "mob.piglin.ambient",
+					"angry": "mob.piglin.angry",
+					"attack": "mob.piglin.attack",
+					"celebrate": "mob.piglin.celebrate",
+					"hurt": "mob.piglin.hurt",
+					"death": "mob.piglin.death",
+					"retreat": "mob.piglin.retreat",
+					"jealous": "mob.piglin.jealous",
+					"admire": "mob.piglin.admiring_item",
+					"step": {
+						"sound": "mob.piglin.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"piglin_brute": {
+				"events": {
+					"ambient": "mob.piglin_brute.ambient",
+					"angry": "mob.piglin_brute.angry",
+					"hurt": "mob.piglin_brute.hurt",
+					"death": "mob.piglin_brute.death",
+					"step": {
+						"sound": "mob.piglin_brute.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pillager": {
+				"events": {
+					"ambient": "mob.pillager.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.pillager.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.pillager.celebrate",
+					"death": "mob.pillager.death",
+					"hurt": "mob.pillager.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"player": {
+				"events": {
+					"attack.nodamage": "game.player.attack.nodamage",
+					"attack.strong": "game.player.attack.strong",
+					"death": "game.player.die",
+					"death.in.water": "game.player.die",
+					"elderguardian.curse": {
+						"pitch": 1,
+						"sound": "mob.elderguardian.curse",
+						"volume": 1
+					},
+					"hurt": "game.player.hurt",
+					"hurt.in.water": "game.player.hurt",
+					"throw": {
+						"pitch": [
+							0.33,
+							0.5
+						],
+						"sound": "random.bow",
+						"volume": 0.5
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"polar_bear": {
+				"events": {
+					"ambient": "mob.polarbear.idle",
+					"ambient.baby": "mob.polarbear_baby.idle",
+					"death": "mob.polarbear.death",
+					"hurt": {
+						"sound": "mob.polarbear.hurt",
+						"volume": 0.7
+					},
+					"mob.warning": {
+						"pitch": 1,
+						"sound": "mob.polarbear.warning",
+						"volume": 1.2
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.polarbear.step",
+						"volume": 0.7
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pufferfish": {
+				"events": {
+					"flop": {
+						"pitch": 1,
+						"sound": "mob.fish.flop",
+						"volume": 1
+					},
+					"hurt": "mob.fish.hurt",
+					"hurt.in.water": "mob.fish.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.fish.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"rabbit": {
+				"events": {
+					"ambient": "mob.rabbit.idle",
+					"death": "mob.rabbit.death",
+					"hurt": "mob.rabbit.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"ravager": {
+				"events": {
+					"ambient": "mob.ravager.ambient",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.ravager.ambient",
+						"volume": 3
+					},
+					"attack.strong": "mob.ravager.bite",
+					"celebrate": "mob.ravager.celebrate",
+					"death": "mob.ravager.death",
+					"hurt": "mob.ravager.hurt",
+					"roar": "mob.ravager.roar",
+					"step": "mob.ravager.step",
+					"stun": "mob.ravager.stun"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"salmon": {
+				"events": {
+					"flop": {
+						"pitch": 1,
+						"sound": "mob.fish.flop",
+						"volume": 1
+					},
+					"hurt": "mob.fish.hurt",
+					"hurt.in.water": "mob.fish.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.fish.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"sheep": {
+				"events": {
+					"ambient": "mob.sheep.say",
+					"death": "mob.sheep.say",
+					"hurt": "mob.sheep.say",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.sheep.step",
+						"volume": 0.4
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"shulker": {
+				"events": {
+					"ambient": "mob.shulker.ambient",
+					"death": "mob.shulker.death",
+					"hurt": "mob.shulker.hurt",
+					"shoot": "mob.shulker.shoot",
+					"shulker.close": "mob.shulker.close",
+					"shulker.open": "mob.shulker.open"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"silverfish": {
+				"events": {
+					"ambient": "mob.silverfish.say",
+					"death": "mob.silverfish.kill",
+					"hurt": "mob.silverfish.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.silverfish.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"skeleton_horse": {
+				"events": {
+					"add.chest": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.horse.skeleton.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.horse.armor",
+						"volume": 0.6
+					},
+					"breathe": {
+						"pitch": 1,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"death": "mob.horse.skeleton.death",
+					"hurt": "mob.horse.skeleton.hit",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 1,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"saddle": {
+						"pitch": 1,
+						"sound": "mob.horse.leather",
+						"volume": 0.6
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.8
+			},
+			"sc:hongo_carmesi": {
+				"events": {
+					"ambient": {},
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.attack"
+					},
+					"death": "mob.slime.small",
+					"hurt": "mob.slime.small",
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					3,
+					2
+				],
+				"volume": 1
+			},
+			"slime": {
+				"events": {
+					"ambient": {},
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.attack"
+					},
+					"death": "mob.slime.small",
+					"hurt": "mob.slime.small",
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"snow_golem": {
+				"events": {
+					"death": "mob.snowgolem.death",
+					"hurt": "mob.snowgolem.hurt",
+					"shoot": "mob.snowgolem.shoot"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": "mob.spider.say",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.spider.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"squid": {
+				"events": {
+					"ambient": "mob.squid.ambient",
+					"death": "mob.squid.death",
+					"hurt": "mob.squid.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 0.4
+			},
+			"stray": {
+				"events": {
+					"ambient": "mob.stray.ambient",
+					"death": "mob.stray.death",
+					"hurt": "mob.stray.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.stray.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"strider": {
+				"events": {
+					"ambient": "mob.strider.idle",
+					"death": "mob.strider.death",
+					"eat": "mob.strider.eat",
+					"hurt": "mob.strider.hurt",
+					"panic": "mob.strider.panic",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.strider.step",
+						"volume": 0.25
+					},
+					"step_lava": {
+						"pitch": 1,
+						"sound": "mob.strider.step_lava",
+						"volume": 0.2
+					},
+					"tempt": "mob.strider.tempt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"tropicalfish": {
+				"events": {
+					"flop": {
+						"pitch": 1,
+						"sound": "mob.fish.flop",
+						"volume": 1
+					},
+					"hurt": "mob.fish.hurt",
+					"hurt.in.water": "mob.fish.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.fish.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"turtle": {
+				"events": {
+					"ambient": "mob.turtle.ambient",
+					"born": {
+						"pitch": 1,
+						"sound": "mob.turtle_baby.born",
+						"volume": 1
+					},
+					"death": "mob.turtle.death",
+					"death.baby": "mob.turtle_baby.death",
+					"hurt": "mob.turtle.hurt",
+					"hurt.baby": "mob.turtle_baby.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.turtle.step",
+						"volume": 1
+					},
+					"step.baby": {
+						"pitch": 1,
+						"sound": "mob.turtle_baby.step",
+						"volume": 1
+					},
+					"swim": {
+						"pitch": [
+							0.6,
+							1.4
+						],
+						"sound": "mob.turtle.swim"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"vex": {
+				"events": {
+					"ambient": "mob.vex.ambient",
+					"charge": "mob.vex.charge",
+					"death": "mob.vex.death",
+					"hurt": "mob.vex.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"villager": {
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"haggle.no": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"villager_v2": {
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"haggle.no": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"vindicator": {
+				"events": {
+					"ambient": "mob.vindicator.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.vindicator.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.vindicator.celebrate",
+					"death": "mob.vindicator.death",
+					"hurt": "mob.vindicator.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"wandering_trader": {
+				"events": {
+					"ambient": "mob.wanderingtrader.idle",
+					"death": "mob.wanderingtrader.death",
+					"disappeared": "mob.wanderingtrader.disappeared",
+					"drink": "mob.wanderingtrader.drink_potion",
+					"haggle": "mob.wanderingtrader.haggle",
+					"haggle.no": "mob.wanderingtrader.no",
+					"haggle.yes": "mob.wanderingtrader.yes",
+					"hurt": "mob.wanderingtrader.hurt",
+					"reappeared": "mob.wanderingtrader.reappeared"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"witch": {
+				"events": {
+					"ambient": "mob.witch.ambient",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.witch.ambient",
+						"volume": 3
+					},
+					"celebrate": "mob.witch.celebrate",
+					"death": "mob.witch.death",
+					"drink": {
+						"pitch": 1,
+						"sound": "mob.witch.drink",
+						"volume": 1
+					},
+					"hurt": "mob.witch.hurt",
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.witch.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"wither": {
+				"events": {
+					"ambient": "mob.wither.ambient",
+					"break.block": {
+						"pitch": 1,
+						"sound": "mob.wither.break_block",
+						"volume": 1
+					},
+					"death": "mob.wither.death",
+					"death.mid.volume": {
+						"sound": "mob.wither.death",
+						"volume": 0.75
+					},
+					"death.min.volume": {
+						"sound": "mob.wither.death",
+						"volume": 0.5
+					},
+					"hurt": "mob.wither.hurt",
+					"shoot": {
+						"pitch": 1,
+						"sound": "mob.wither.shoot",
+						"volume": 3
+					},
+					"spawn": {
+						"pitch": 1,
+						"sound": "mob.wither.spawn",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"wither_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"wolf": {
+				"events": {
+					"ambient": "mob.wolf.bark",
+					"death": "mob.wolf.death",
+					"growl": "mob.wolf.growl",
+					"hurt": "mob.wolf.hurt",
+					"pant": "mob.wolf.panting",
+					"shake": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.wolf.shake"
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.wolf.step",
+						"volume": 0.65
+					},
+					"whine": "mob.wolf.whine"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"xp_orb": {
+				"events": {
+					"fizz": {
+						"pitch": [
+							2,
+							2.4
+						],
+						"sound": "random.fizz",
+						"volume": 0.4
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"zoglin": {
+				"events": {
+					"ambient": "mob.zoglin.idle",
+					"angry": "mob.zoglin.angry",
+					"hurt": "mob.zoglin.hurt",
+					"death": "mob.zoglin.death",
+					"attack": "mob.zoglin.attack",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zoglin.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"bridge:bloodymeat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bloodymeat.say",
+					"hurt": "mob.bloodymeat.hurt",
+					"death": "mob.bloodymeat.hurt",
+					"step": {
+						"sound": "mob.bloodymeat.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			},
+			"bridge:infernalgolem1": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.infernalgolem1.say",
+					"hurt": "mob.infernalgolem1.hurt",
+					"death": "mob.infernalgolem1.hurt",
+					"step": {
+						"sound": "mob.infernalgolem1.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			},
+			"tt:creepycreeper": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.creepycreeper.breathe",
+					"hurt": "mob.creepycreeper.hit",
+					"death": "mob.creepycreeper.death",
+					"shoot": "mob.creepycreeper.shoot"
+				}
+			},
+			"m:duralumin_golem": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"m:aluminum_golem": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"v:ore_item_deleter": {
+				"volume": [
+					0,
+					0
+				],
+				"pitch": [
+					0,
+					0
+				],
+				"events": {
+					"death": "mob.ur_entity.death"
+				}
+			},
+			"m:chest_container": {
+				"volume": [
+					0,
+					0
+				],
+				"pitch": [
+					0,
+					0
+				],
+				"events": {
+					"death": "mob.ur_entity.death"
+				}
+			},
+			"bumble:crop_dealer": {
+        "volume": 1.0,
+        "pitch": [ 1.6, 2.0 ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "hurt": "mob.villager.hit",
+          "death": "mob.villager.death",
+          "mad": {
+            "sound": "mob.villager.no",
+            "volume": 1.5,
+            "pitch": [ 0.6, 0.7 ]
+          }
+        }
+      },
+			"nether:rotten_skeleton": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nether:lava_turtle": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.turtle.ambient",
+          "hurt": "mob.turtle.hurt",
+          "hurt.baby": "mob.turtle_baby.hurt",
+          "death": "mob.turtle.death",
+          "death.baby": "mob.turtle_baby.death",
+          "step": {
+            "sound": "mob.turtle.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "step.baby": {
+            "sound": "mob.turtle_baby.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "swim": {
+            "sound": "mob.turtle.swim",
+            "pitch": [ 0.6, 1.4 ]
+          },
+          "born": {
+            "sound": "mob.turtle_baby.born",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nether:glowbeetle": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.spider.say",
+          "hurt": "mob.spider.say",
+          "death": "mob.spider.death",
+          "step": {
+            "sound": "mob.spider.step",
+            "volume": 0.35,
+            "pitch": [ 0.9, 1.1 ]
+          }
+        }
+      },
+			"honkit26113:slimy_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt"
+				},
+				"pitch": [
+					0.65,
+					0.75
+				],
+				"volume": 1
+			},
+			"pa:ris": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pa_ris.say",
+          "hurt": "mob.pa_ris.say",
+          "death": "mob.pa_ris.death",
+          "step": {
+            "sound": "mob.pig.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "boost": {
+            "sound": "mob.pig.boost",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "death.to.zombie": {
+            "sound": "mob.pig.death",
+            "volume": 2.0
+          }
+        }
+      },
+      "pa:moolip": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.cow.say",
+          "hurt": "mob.cow.hurt",
+          "death": "mob.cow.hurt",
+          "step": {
+            "sound": "mob.cow.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "pa:moobloom": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.cow.say",
+          "hurt": "mob.cow.hurt",
+          "death": "mob.cow.hurt",
+          "step": {
+            "sound": "mob.cow.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "pa:bug": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.spider.say",
+          "hurt": "mob.spider.say",
+          "death": "mob.spider.death",
+          "step": {
+            "sound": "mob.spider.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "pa:rasplastan": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.axolotl.idle",
+          "ambient.in.water": "mob.axolotl.idle_water",
+          "attack": "mob.axolotl.attack",
+          "death": "mob.axolotl.death",
+          "hurt": "mob.axolotl.hurt",
+          "splash": "mob.axolotl.splash",
+          "swim": "mob.axolotl.swim"
+        }
+      },
+      "pa:axolotlu": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pa_axolotlu.idle",
+          "ambient.in.water": "mob.pa_axolotlu.idle_water",
+          "attack": "mob.pa_axolotlu.attack",
+          "death": "mob.pa_axolotlu.death",
+          "hurt": "mob.pa_axolotlu.hurt",
+          "splash": "mob.pa_axolotlu.splash",
+          "swim": "mob.pa_axolotlu.swim"
+        }
+      },
+      "pa:soul": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pa_soul.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pa_soul.hit"
+        }
+      },
+			"honkit26113:scorpion": {
+				"events": {
+					"ambient": "mob.silverfish.say",
+					"death": "mob.silverfish.kill",
+					"hurt": "mob.silverfish.hit",
+					"attack": "mob.bee.sting"
+				},
+				"pitch": [
+					0.65,
+					0.75
+				],
+				"volume": 1
+			},
+			"honkit26113:penguin": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt"
+				},
+				"pitch": [
+					0.25,
+					0.5
+				],
+				"volume": 1
+			},
+      		"honkit26113:lost_explorer": {
+        		"volume": 0.8,
+        		"pitch": [ 0.75, 0.9 ],
+       			"events": {
+          			"ambient": "mob.wanderingtrader.idle",
+          			"death": "mob.wanderingtrader.death",
+          			"disappeared": "mob.wanderingtrader.disappeared",
+          			"drink": "mob.wanderingtrader.drink_potion",
+          			"haggle": "mob.wanderingtrader.haggle",
+          			"haggle.yes": "mob.wanderingtrader.yes",
+          			"haggle.no": "mob.wanderingtrader.no",
+          			"hurt": "mob.wanderingtrader.hurt",
+          			"reappeared": "mob.wanderingtrader.reappeared"
+        		}
+      		},
+      		"honkit26113:luminous_mooshroom": {
+        		"volume": 1.0,
+        		"pitch": [ 0.8, 1.2 ],
+        		"events": {
+          			"ambient": "mob.cow.say",
+          			"eat": "mob.mooshroom.eat",
+          			"hurt": "mob.cow.hurt",
+          			"death": "mob.cow.hurt",
+          			"step": {
+            			"sound": "mob.cow.step",
+            			"volume": 0.65,
+            			"pitch": [ 0.9, 1.1 ]
+          			}
+        		}
+      		}
+		}
+	},
+	"individual_event_sounds": {
+		"events": {
+			"respawn_anchor.charge": {
+				"sound": "respawn_anchor.charge",
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"respawn_anchor.deplete": {
+				"sound": "respawn_anchor.deplete",
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"respawn_anchor.set_spawn": {
+				"sound": "respawn_anchor.set_spawn",
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"lodestone_compass.link_compass_to_lodestone": {
+				"sound": "lodestone_compass.link_compass_to_lodestone",
+				"volume": 1,
+				"pitch": [
+					0.85,
+					0.95
+				]
+			},
+			"record.pigstep": {
+				"sound": "record.pigstep",
+				"volume": 1,
+				"pitch": 1
+			},
+			"smithing_table.use": {
+				"sound": "smithing_table.use",
+				"volume": 1,
+				"pitch": 1
+			},
+			"ambient.basalt_deltas.mood": {
+				"pitch": [
+					0.5,
+					1.2
+				],
+				"sound": "ambient.basalt_deltas.mood",
+				"volume": 0.8
+			},
+			"ambient.cave": {
+				"pitch": [
+					0.8,
+					1
+				],
+				"sound": "ambient.cave",
+				"volume": 0.7
+			},
+			"ambient.crimson_forest.mood": {
+				"pitch": [
+					0.5,
+					1.2
+				],
+				"sound": "ambient.crimson_forest.mood",
+				"volume": 0.8
+			},
+			"ambient.nether_wastes.mood": {
+				"pitch": [
+					0.5,
+					1.2
+				],
+				"sound": "ambient.nether_wastes.mood",
+				"volume": 0.8
+			},
+			"ambient.soulsand_valley.mood": {
+				"pitch": [
+					0.5,
+					1.2
+				],
+				"sound": "ambient.soulsand_valley.mood",
+				"volume": 0.8
+			},
+			"ambient.warped_forest.mood": {
+				"pitch": [
+					0.5,
+					1.2
+				],
+				"sound": "ambient.warped_forest.mood",
+				"volume": 0.8
+			},
+			"armor.equip_chain": {
+				"pitch": 1,
+				"sound": "armor.equip_chain",
+				"volume": 1
+			},
+			"armor.equip_diamond": {
+				"pitch": 1,
+				"sound": "armor.equip_diamond",
+				"volume": 1
+			},
+			"armor.equip_elytra": {
+				"pitch": 1,
+				"sound": "armor.equip_leather",
+				"volume": 1
+			},
+			"armor.equip_generic": {
+				"pitch": 1,
+				"sound": "armor.equip_generic",
+				"volume": 1
+			},
+			"armor.equip_gold": {
+				"pitch": 1,
+				"sound": "armor.equip_gold",
+				"volume": 1
+			},
+			"armor.equip_iron": {
+				"pitch": 1,
+				"sound": "armor.equip_iron",
+				"volume": 1
+			},
+			"armor.equip_leather": {
+				"pitch": 1,
+				"sound": "armor.equip_leather",
+				"volume": 1
+			},
+			"attach": {
+				"pitch": 0.7,
+				"sound": "random.click",
+				"volume": 1
+			},
+			"beacon.activate": {
+				"pitch": 1,
+				"sound": "beacon.activate",
+				"volume": 1
+			},
+			"beacon.ambient": {
+				"pitch": 1,
+				"sound": "beacon.ambient",
+				"volume": 1
+			},
+			"beacon.deactivate": {
+				"pitch": 1,
+				"sound": "beacon.deactivate",
+				"volume": 1
+			},
+			"beacon.power": {
+				"pitch": 1,
+				"sound": "beacon.power",
+				"volume": 1
+			},
+			"blast": {
+				"pitch": 1,
+				"sound": "firework.blast",
+				"volume": 1
+			},
+			"block.bamboo_sapling.place": {
+				"pitch": 0.8,
+				"sound": "block.bamboo_sapling.place",
+				"volume": 0.8
+			},
+			"block.barrel.close": {
+				"pitch": 1,
+				"sound": "block.barrel.close",
+				"volume": 1
+			},
+			"block.barrel.open": {
+				"pitch": 1,
+				"sound": "block.barrel.open",
+				"volume": 1
+			},
+			"block.beehive.drip": {
+				"pitch": [
+					0.7,
+					0.9
+				],
+				"sound": "block.beehive.drip",
+				"volume": 0.3
+			},
+			"block.beehive.enter": {
+				"pitch": [
+					0.7,
+					0.8
+				],
+				"sound": "block.beehive.enter",
+				"volume": 0.75
+			},
+			"block.beehive.exit": {
+				"pitch": [
+					0.9,
+					1.1
+				],
+				"sound": "block.beehive.exit",
+				"volume": 0.75
+			},
+			"block.beehive.shear": {
+				"pitch": [
+					0.8,
+					1
+				],
+				"sound": "block.beehive.shear",
+				"volume": 0.8
+			},
+			"block.beehive.work": {
+				"pitch": 1,
+				"sound": "block.beehive.work",
+				"volume": 0.6
+			},
+			"block.bell.hit": {
+				"pitch": 1,
+				"sound": "block.bell.hit",
+				"volume": 1
+			},
+			"block.blastfurnace.fire_crackle": {
+				"pitch": 0.6,
+				"sound": "block.blastfurnace.fire_crackle",
+				"volume": 3
+			},
+			"block.campfire.crackle": {
+				"pitch": 1,
+				"sound": "block.campfire.crackle",
+				"volume": 1
+			},
+			"block.cartography_table.use": {
+				"pitch": 1,
+				"sound": "block.cartography_table.use",
+				"volume": 0.8
+			},
+			"block.composter.empty": {
+				"pitch": 1,
+				"sound": "block.composter.empty",
+				"volume": 1
+			},
+			"block.composter.fill": {
+				"pitch": 1,
+				"sound": "block.composter.fill",
+				"volume": 1
+			},
+			"block.composter.fill_success": {
+				"pitch": 1,
+				"sound": "block.composter.fill_success",
+				"volume": 1
+			},
+			"block.composter.ready": {
+				"pitch": 1,
+				"sound": "block.composter.ready",
+				"volume": 1
+			},
+			"block.end_portal.spawn": {
+				"pitch": 1,
+				"sound": "block.end_portal.spawn",
+				"volume": 0.7
+			},
+			"block.end_portal_frame.fill": {
+				"pitch": 1,
+				"sound": "block.end_portal_frame.fill",
+				"volume": 0.3
+			},
+			"block.fletching_table.use": {
+				"pitch": 1,
+				"sound": "dig.wood",
+				"volume": 12
+			},
+			"block.furnace.lit": {
+				"pitch": 1,
+				"sound": "block.furnace.lit",
+				"volume": 3
+			},
+			"block.grindstone.use": {
+				"pitch": 1,
+				"sound": "block.grindstone.use",
+				"volume": 1
+			},
+			"block.loom.use": {
+				"pitch": 1,
+				"sound": "block.loom.use",
+				"volume": 0.75
+			},
+			"block.scaffolding.climb": {
+				"pitch": 1,
+				"sound": "block.scaffolding.climb",
+				"volume": 1
+			},
+			"block.smithing_table.use": {
+				"pitch": 1,
+				"sound": "random.anvil_use",
+				"volume": 0.25
+			},
+			"block.smoker.smoke": {
+				"pitch": 1,
+				"sound": "block.smoker.smoke",
+				"volume": 3
+			},
+			"block.stonecutter.use": {
+				"pitch": 1,
+				"sound": "block.stonecutter.use",
+				"volume": 0.7
+			},
+			"block.sweet_berry_bush.hurt": {
+				"pitch": 1,
+				"sound": "block.sweet_berry_bush.hurt",
+				"volume": 1
+			},
+			"block.sweet_berry_bush.pick": {
+				"pitch": 1,
+				"sound": "block.sweet_berry_bush.pick",
+				"volume": 1
+			},
+			"block.turtle_egg.attack": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "fall.egg",
+				"volume": 0.5
+			},
+			"block.turtle_egg.break": {
+				"pitch": 0.9,
+				"sound": "block.turtle_egg.break",
+				"volume": 0.85
+			},
+			"block.turtle_egg.crack": {
+				"pitch": 0.9,
+				"sound": "block.turtle_egg.crack",
+				"volume": 0.85
+			},
+			"block.turtle_egg.hatch": {
+				"pitch": 0.9,
+				"sound": "block.turtle_egg.drop",
+				"volume": 0.85
+			},
+			"bottle.dragonbreath": {
+				"pitch": 1,
+				"sound": "bottle.dragonbreath",
+				"volume": 0.7
+			},
+			"bow": {
+				"pitch": [
+					0.83,
+					1.25
+				],
+				"sound": "random.bow",
+				"volume": 1
+			},
+			"bow.hit": {
+				"pitch": [
+					1.09,
+					1.3
+				],
+				"sound": "random.bowhit",
+				"volume": 1
+			},
+			"break": {
+				"pitch": 0.9,
+				"sound": "random.break",
+				"volume": 1
+			},
+			"bubble.down": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "bubble.down",
+				"volume": [
+					0.4,
+					0.6
+				]
+			},
+			"bubble.downinside": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "bubble.downinside",
+				"volume": [
+					1,
+					1.5
+				]
+			},
+			"bubble.pop": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "bubble.pop",
+				"volume": [
+					0.4,
+					0.6
+				]
+			},
+			"bubble.up": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "bubble.up",
+				"volume": [
+					0.4,
+					0.6
+				]
+			},
+			"bubble.upinside": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "bubble.upinside",
+				"volume": [
+					1,
+					1.5
+				]
+			},
+			"bucket.empty.fish": {
+				"pitch": 1,
+				"sound": "bucket.empty_fish",
+				"volume": 1
+			},
+			"bucket.empty.lava": {
+				"pitch": 1,
+				"sound": "bucket.empty_lava",
+				"volume": 1
+			},
+			"bucket.empty.water": {
+				"pitch": 1,
+				"sound": "bucket.empty_water",
+				"volume": 1
+			},
+			"bucket.fill.fish": {
+				"pitch": 1,
+				"sound": "bucket.fill_fish",
+				"volume": 1
+			},
+			"bucket.fill.lava": {
+				"pitch": 1,
+				"sound": "bucket.fill_lava",
+				"volume": 1
+			},
+			"bucket.fill.water": {
+				"pitch": 1,
+				"sound": "bucket.fill_water",
+				"volume": 1
+			},
+			"bullet.hit": {
+				"pitch": 1,
+				"sound": "mob.shulker.bullet.hit",
+				"volume": 1
+			},
+			"burp": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.burp",
+				"volume": 0.5
+			},
+			"camera.take_picture": {
+				"pitch": 1,
+				"sound": "camera.take_picture",
+				"volume": 1
+			},
+			"chest.closed": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.chestclosed",
+				"volume": 0.5
+			},
+			"chest.open": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.chestopen",
+				"volume": 0.5
+			},
+			"chorusdeath": {
+				"pitch": 1,
+				"sound": "block.chorusflower.death",
+				"volume": 1
+			},
+			"chorusgrow": {
+				"pitch": 1,
+				"sound": "block.chorusflower.grow",
+				"volume": 1
+			},
+			"conduit.activate": {
+				"pitch": 1,
+				"sound": "conduit.activate",
+				"volume": 1
+			},
+			"conduit.ambient": {
+				"pitch": 1,
+				"sound": "conduit.ambient",
+				"volume": 1
+			},
+			"conduit.attack": {
+				"pitch": 1,
+				"sound": "conduit.attack",
+				"volume": 1
+			},
+			"conduit.deactivate": {
+				"pitch": 1,
+				"sound": "conduit.deactivate",
+				"volume": 1
+			},
+			"conduit.short": {
+				"pitch": 1,
+				"sound": "conduit.short",
+				"volume": 1
+			},
+			"convert_mooshroom": {
+				"pitch": 1,
+				"sound": "mob.mooshroom.convert",
+				"volume": 1
+			},
+			"convert_to_drowned": {
+				"pitch": [
+					0.3,
+					1
+				],
+				"sound": "mob.zombie.converted_to_drowned",
+				"volume": [
+					1,
+					2
+				]
+			},
+			"converted_to_zombified": {
+				"pitch": [
+					0.9,
+					1.1
+				],
+				"sound": "mob.piglin.converted_to_zombified",
+				"volume": 1
+			},
+			"crossbow.loading.end": {
+				"pitch": 1,
+				"sound": "crossbow.loading.middle",
+				"volume": 1
+			},
+			"crossbow.loading.middle": {
+				"pitch": 1,
+				"sound": "crossbow.loading.middle",
+				"volume": 1
+			},
+			"crossbow.loading.start": {
+				"pitch": 1,
+				"sound": "crossbow.loading.start",
+				"volume": 1
+			},
+			"crossbow.quick_charge.end": {
+				"pitch": 1,
+				"sound": "crossbow.quick_charge.end",
+				"volume": 1
+			},
+			"crossbow.quick_charge.middle": {
+				"pitch": 1,
+				"sound": "crossbow.quick_charge.middle",
+				"volume": 1
+			},
+			"crossbow.quick_charge.start": {
+				"pitch": 1,
+				"sound": "crossbow.quick_charge.start",
+				"volume": 1
+			},
+			"crossbow.shoot": {
+				"pitch": 1,
+				"sound": "crossbow.shoot",
+				"volume": 1
+			},
+			"deny": {
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"sound": "block.false_permissions",
+				"volume": 0.8
+			},
+			"detach": {
+				"pitch": [
+					1.1,
+					1.33
+				],
+				"sound": "random.bowhit",
+				"volume": 0.4
+			},
+			"drop.slot": {
+				"pitch": [
+					0.55,
+					0.75
+				],
+				"sound": "random.pop",
+				"volume": 0.3
+			},
+			"enderchest.closed": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.enderchestclosed",
+				"volume": 0.5
+			},
+			"enderchest.open": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.enderchestopen",
+				"volume": 0.5
+			},
+			"explode": {
+				"pitch": 1,
+				"sound": "random.explode",
+				"volume": 4
+			},
+			"extinguish.fire": {
+				"pitch": [
+					1.8,
+					2.4
+				],
+				"sound": "random.fizz",
+				"volume": 0.5
+			},
+			"fire": {
+				"pitch": [
+					0.3,
+					1
+				],
+				"sound": "fire.fire",
+				"volume": [
+					1,
+					2
+				]
+			},
+			"fizz": {
+				"pitch": [
+					1.8,
+					2.4
+				],
+				"sound": "random.fizz",
+				"volume": 0.5
+			},
+			"glass": {
+				"pitch": 1,
+				"sound": "random.glass",
+				"volume": 1
+			},
+			"ignite": {
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"sound": "fire.ignite",
+				"volume": 1
+			},
+			"item.book.put": {
+				"pitch": 1,
+				"sound": "item.book.put",
+				"volume": 1.2
+			},
+			"item.shield.block": {
+				"pitch": 1,
+				"sound": "item.shield.block",
+				"volume": 0.7
+			},
+			"item.trident.hit": {
+				"pitch": 1,
+				"sound": "item.trident.hit",
+				"volume": 1
+			},
+			"item.trident.hit_ground": {
+				"pitch": 1,
+				"sound": "item.trident.hit_ground",
+				"volume": 1
+			},
+			"item.trident.return": {
+				"pitch": 1,
+				"sound": "item.trident.return",
+				"volume": 10
+			},
+			"item.trident.riptide_1": {
+				"pitch": 1,
+				"sound": "item.trident.riptide_1",
+				"volume": 1
+			},
+			"item.trident.riptide_2": {
+				"pitch": 1,
+				"sound": "item.trident.riptide_2",
+				"volume": 1
+			},
+			"item.trident.riptide_3": {
+				"pitch": 1,
+				"sound": "item.trident.riptide_3",
+				"volume": 1
+			},
+			"item.trident.throw": {
+				"pitch": 1,
+				"sound": "item.trident.throw",
+				"volume": 1
+			},
+			"item.trident.thunder": {
+				"pitch": 1,
+				"sound": "item.trident.thunder",
+				"volume": 1
+			},
+			"large.blast": {
+				"pitch": 1,
+				"sound": "firework.large_blast",
+				"volume": 1
+			},
+			"launch": {
+				"pitch": 1,
+				"sound": "firework.launch",
+				"volume": 1
+			},
+			"lava": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "liquid.lava",
+				"volume": [
+					0.4,
+					0.6
+				]
+			},
+			"lava.pop": {
+				"pitch": [
+					0.9,
+					1.05
+				],
+				"sound": "liquid.lavapop",
+				"volume": [
+					0.4,
+					0.6
+				]
+			},
+			"leashknot.break": {
+				"pitch": 1,
+				"sound": "leashknot.break",
+				"volume": 1
+			},
+			"leashknot.place": {
+				"pitch": 1,
+				"sound": "leashknot.place",
+				"volume": 1
+			},
+			"levelup": {
+				"pitch": 1,
+				"sound": "random.levelup"
+			},
+			"milk": {
+				"pitch": 1,
+				"sound": "mob.cow.milk",
+				"volume": 1
+			},
+			"milk_suspiciously": {
+				"pitch": 1,
+				"sound": "mob.mooshroom.suspicious_milk",
+				"volume": 1
+			},
+			"mob.armor_stand.break": {
+				"pitch": 1,
+				"sound": "mob.armor_stand.break",
+				"volume": 1
+			},
+			"mob.armor_stand.hit": {
+				"pitch": 1,
+				"sound": "mob.armor_stand.hit",
+				"volume": 1
+			},
+			"mob.armor_stand.land": {
+				"pitch": 1,
+				"sound": "mob.armor_stand.land",
+				"volume": 1
+			},
+			"mob.armor_stand.place": {
+				"pitch": 1,
+				"sound": "mob.armor_stand.place",
+				"volume": 1
+			},
+			"note": {
+				"sound": {},
+				"volume": 3
+			},
+			"particle.soul_escape.loud": {
+				"pitch": [
+					0.6,
+					1
+				],
+				"sound": "particle.soul_escape",
+				"volume": [
+					1,
+					3
+				]
+			},
+			"particle.soul_escape.quiet": {
+				"pitch": [
+					0.6,
+					1
+				],
+				"sound": "particle.soul_escape",
+				"volume": [
+					0,
+					0.4
+				]
+			},
+			"piston.in": {
+				"pitch": [
+					0.6,
+					0.75
+				],
+				"sound": "tile.piston.in",
+				"volume": 0.5
+			},
+			"piston.out": {
+				"pitch": [
+					0.6,
+					0.75
+				],
+				"sound": "tile.piston.out",
+				"volume": 0.5
+			},
+			"pop": {
+				"pitch": [
+					0.6,
+					2.2
+				],
+				"sound": "random.pop",
+				"volume": 0.25
+			},
+			"portal": {
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"sound": "portal.portal",
+				"volume": 0.25
+			},
+			"portal.travel": {
+				"pitch": 1,
+				"sound": "portal.travel",
+				"volume": 1
+			},
+			"potion.brewed": {
+				"pitch": 1,
+				"sound": "random.potion.brewed",
+				"volume": 1
+			},
+			"power.off": {
+				"pitch": 0.5,
+				"sound": "random.click",
+				"volume": 1
+			},
+			"power.on": {
+				"pitch": 0.6,
+				"sound": "random.click",
+				"volume": 1
+			},
+			"raid.horn": {
+				"pitch": 1,
+				"sound": "raid.horn",
+				"volume": 60
+			},
+			"random.anvil_use": {
+				"pitch": 1,
+				"sound": "random.anvil_use",
+				"volume": 0.6
+			},
+			"record.11": {
+				"pitch": 1,
+				"sound": "record.11",
+				"volume": 1
+			},
+			"record.13": {
+				"pitch": 1,
+				"sound": "record.13",
+				"volume": 1
+			},
+			"record.blocks": {
+				"pitch": 1,
+				"sound": "record.blocks",
+				"volume": 1
+			},
+			"record.cat": {
+				"pitch": 1,
+				"sound": "record.cat",
+				"volume": 1
+			},
+			"record.chirp": {
+				"pitch": 1,
+				"sound": "record.chirp",
+				"volume": 1
+			},
+			"record.far": {
+				"pitch": 1,
+				"sound": "record.far",
+				"volume": 1
+			},
+			"record.mall": {
+				"pitch": 1,
+				"sound": "record.mall",
+				"volume": 1
+			},
+			"record.mellohi": {
+				"pitch": 1,
+				"sound": "record.mellohi",
+				"volume": 1
+			},
+			"record.stal": {
+				"pitch": 1,
+				"sound": "record.stal",
+				"volume": 1
+			},
+			"record.strad": {
+				"pitch": 1,
+				"sound": "record.strad",
+				"volume": 1
+			},
+			"record.wait": {
+				"pitch": 1,
+				"sound": "record.wait",
+				"volume": 1
+			},
+			"record.ward": {
+				"pitch": 1,
+				"sound": "record.ward",
+				"volume": 1
+			},
+			"remedy": {
+				"pitch": [
+					0.3,
+					1
+				],
+				"sound": "mob.zombie.remedy",
+				"volume": [
+					1,
+					2
+				]
+			},
+			"respawn_anchor.ambient": {
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"sound": "respawn_anchor.ambient",
+				"volume": 0.5
+			},
+			"saddle": {
+				"pitch": 1,
+				"sound": "mob.horse.leather",
+				"volume": 0.5
+			},
+			"shear": {
+				"pitch": 1,
+				"sound": "mob.sheep.shear",
+				"volume": 1
+			},
+			"shulkerbox.closed": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.shulkerboxclosed",
+				"volume": 0.5
+			},
+			"shulkerbox.open": {
+				"pitch": [
+					0.9,
+					1
+				],
+				"sound": "random.shulkerboxopen",
+				"volume": 0.5
+			},
+			"teleport": {
+				"pitch": 1,
+				"sound": "mob.shulker.teleport",
+				"volume": 1
+			},
+			"thorns": {
+				"pitch": 1,
+				"sound": "damage.thorns",
+				"volume": 0.5
+			},
+			"tripod": {
+				"pitch": [
+					0.9,
+					1.1
+				],
+				"sound": "dig.stone",
+				"volume": 2
+			},
+			"twinkle": {
+				"pitch": 1,
+				"sound": "firework.twinkle",
+				"volume": 1
+			},
+			"ui.cartography_table.take_result": {
+				"pitch": 1,
+				"sound": "ui.cartography_table.take_result",
+				"volume": 0.8
+			},
+			"ui.loom.take_result": {
+				"pitch": 1,
+				"sound": "ui.loom.take_result",
+				"volume": 0.65
+			},
+			"ui.stonecutter.take_result": {
+				"pitch": 1,
+				"sound": "ui.stonecutter.take_result",
+				"volume": 1
+			},
+			"unfect": {
+				"pitch": [
+					0.3,
+					1
+				],
+				"sound": "mob.zombie.unfect",
+				"volume": [
+					1,
+					2
+				]
+			},
+			"water": {
+				"pitch": [
+					0.5,
+					1.5
+				],
+				"sound": "liquid.water",
+				"volume": [
+					0.75,
+					1
+				]
+			}
+		}
+	},
+	"interactive_sounds": {
+		"block_sounds": {
+			"lodestone": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.stone",
+						"volume": 0.4
+					},
+					"step": {
+						"sound": "step.stone",
+						"volume": 0.3
+					},
+					"jump": {
+						"sound": "jump.stone",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.stone",
+						"volume": 0.22
+					}
+				},
+				"volume": 1,
+				"pitch": 1
+			},
+			"chain": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.chain",
+						"volume": 0.4
+					},
+					"step": {
+						"sound": "step.chain",
+						"volume": 0.3
+					},
+					"jump": {
+						"sound": "jump.chain",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.chain",
+						"volume": 0.22
+					}
+				},
+				"volume": 1,
+				"pitch": 1
+			},
+			"vines": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.vines",
+						"volume": 0.4
+					},
+					"step": {
+						"sound": "step.vines",
+						"volume": 0.3
+					},
+					"jump": {
+						"sound": "jump.vines",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.vines",
+						"volume": 0.22
+					}
+				},
+				"volume": 1,
+				"pitch": 1
+			},
+			"ancient_debris": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.ancient_debris",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.ancient_debris",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.ancient_debris",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.ancient_debris",
+						"volume": 0.17
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"anvil": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.anvil",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.anvil",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.anvil",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.anvil",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 0.35
+			},
+			"bamboo": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "block.bamboo.fall",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.wood",
+						"volume": 0.15
+					},
+					"land": {
+						"sound": "block.bamboo.fall",
+						"volume": 0.2
+					},
+					"step": {
+						"sound": "block.bamboo.step",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"basalt": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.basalt",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.basalt",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.basalt",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.basalt",
+						"volume": 0.19
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"bone_block": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.bone_block",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.bone_block",
+						"volume": 0.15
+					},
+					"land": {
+						"sound": "land.bone_block",
+						"volume": 0.18
+					},
+					"step": {
+						"sound": "step.bone_block",
+						"volume": 0.22
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"cloth": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.cloth",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.cloth",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.cloth",
+						"volume": 0.18
+					},
+					"step": {
+						"sound": "step.cloth",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"coral": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.coral",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.coral",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.coral",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.coral",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"fungus": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "dig.fungus",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "dig.fungus",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "dig.fungus",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "dig.fungus",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"glass": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.stone",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.stone",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.stone",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.stone",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"grass": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.grass",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.grass",
+						"volume": 0.11
+					},
+					"land": {
+						"sound": "land.grass",
+						"volume": 0.21
+					},
+					"step": {
+						"sound": "step.grass",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"gravel": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.gravel",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.gravel",
+						"volume": 0.1
+					},
+					"land": {
+						"sound": "land.gravel",
+						"volume": 0.17
+					},
+					"step": {
+						"sound": "step.gravel",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"honey_block": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.honey_block",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.honey_block",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.honey_block",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.honey_block",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"ladder": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.ladder",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.ladder",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.ladder",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.ladder",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"lantern": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "block.lantern.fall",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.metal",
+						"volume": 0.15
+					},
+					"land": {
+						"sound": "block.lantern.fall",
+						"volume": 0.2
+					},
+					"step": {
+						"sound": "block.lantern.step",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"metal": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.stone",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.stone",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.stone",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.stone",
+						"volume": 0.35
+					}
+				},
+				"pitch": 1.5,
+				"volume": 1
+			},
+			"nether_brick": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.nether_brick",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.bone_block",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.nether_brick",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.nether_brick",
+						"volume": 0.16
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"nether_gold_ore": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.nether_gold_ore",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.nether_gold_ore",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.nether_gold_ore",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.nether_gold_ore",
+						"volume": 0.18
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"nether_sprouts": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.nether_sprouts",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.netherrack",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.nether_sprouts",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.nether_sprouts",
+						"volume": 0.17
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"nether_wart": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.nether_wart",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.nether_wart",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.nether_wart",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.nether_wart",
+						"volume": 0.17
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"netherite": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.netherite",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.netherite",
+						"volume": 0.14
+					},
+					"land": {
+						"sound": "land.netherite",
+						"volume": 0.16
+					},
+					"step": {
+						"sound": "step.netherite",
+						"volume": 0.21
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"netherrack": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.netherrack",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.netherrack",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.netherrack",
+						"volume": 0.14
+					},
+					"step": {
+						"pitch": [
+							1,
+							1.1
+						],
+						"sound": "step.netherrack",
+						"volume": 0.13
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"normal": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.stone",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.stone",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.stone",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.stone",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"nylium": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.nylium",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.nylium",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.nylium",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.nylium",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"roots": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.roots",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.roots",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.roots",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.roots",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"sand": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.sand",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.sand",
+						"volume": 0.05
+					},
+					"land": {
+						"sound": "land.sand",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.sand",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"scaffolding": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "block.scaffolding.fall",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.wood",
+						"volume": 0.15
+					},
+					"land": {
+						"sound": "block.scaffolding.fall",
+						"volume": 0.2
+					},
+					"step": {
+						"sound": "block.scaffolding.step",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"shroomlight": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.shroomlight",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.shroomlight",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.shroomlight",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.shroomlight",
+						"volume": 0.17
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"slime": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.slime",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.slime",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.slime",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.slime",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"snow": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.snow",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.snow",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.snow",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.snow",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"soul_sand": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.soul_sand",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.soul_sand",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.soul_sand",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.soul_sand",
+						"volume": 0.15
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"soul_soil": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.soul_soil",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.soul_soil",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.soul_soil",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.soul_soil",
+						"volume": 0.16
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"stem": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.stem",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.stem",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.stem",
+						"volume": 0.14
+					},
+					"step": {
+						"sound": "step.stem",
+						"volume": 0.14
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"stone": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.stone",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.stone",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.stone",
+						"volume": 0.22
+					},
+					"step": {
+						"sound": "step.stone",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			},
+			"turtle_egg": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.egg",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.stone",
+						"volume": 0.15
+					},
+					"land": {
+						"sound": "fall.egg",
+						"volume": 0.2
+					},
+					"step": {
+						"sound": "step.stone",
+						"volume": 0.3
+					}
+				},
+				"pitch": 0.9,
+				"volume": 1
+			},
+			"wood": {
+				"events": {
+					"default": {},
+					"fall": {
+						"sounds": "fall.wood",
+						"volume": 0.4
+					},
+					"jump": {
+						"sound": "jump.wood",
+						"volume": 0.12
+					},
+					"land": {
+						"sound": "land.wood",
+						"volume": 0.18
+					},
+					"step": {
+						"sound": "step.wood",
+						"volume": 0.3
+					}
+				},
+				"pitch": 1,
+				"volume": 1
+			}
+		},
+		"entity_sounds": {
+			"defaults": {
+				"events": {
+					"fall": {
+						"default": {
+							"pitch": 0.75,
+							"sound": {},
+							"volume": 1
+						}
+					},
+					"jump": {
+						"default": {
+							"pitch": 0.75,
+							"sound": {},
+							"volume": 0.25
+						}
+					}
+				},
+				"pitch": 1,
+				"volume": 0.25
+			},
+			"entities": {
+				"donkey": {
+					"events": {
+						"gallop": {
+							"default": "mob.horse.gallop"
+						},
+						"heavy.step": {
+							"default": "mob.horse.wood"
+						},
+						"step": {
+							"default": "mob.horse.soft",
+							"wood": "mob.horse.wood"
+						}
+					},
+					"pitch": [
+						0.9,
+						1.1
+					],
+					"volume": 0.45
+				},
+				"horse": {
+					"events": {
+						"gallop": {
+							"default": "mob.horse.gallop"
+						},
+						"heavy.step": {
+							"default": "mob.horse.wood"
+						},
+						"step": {
+							"default": "mob.horse.soft",
+							"wood": "mob.horse.wood"
+						}
+					},
+					"pitch": [
+						0.9,
+						1.1
+					],
+					"volume": 0.45
+				},
+				"mule": {
+					"events": {
+						"gallop": {
+							"default": "mob.horse.gallop"
+						},
+						"heavy.step": {
+							"default": "mob.horse.wood"
+						},
+						"step": {
+							"default": "mob.horse.soft",
+							"wood": "mob.horse.wood"
+						}
+					},
+					"pitch": [
+						0.9,
+						1.1
+					],
+					"volume": 0.45
+				},
+				"rabbit": {
+					"pitch": 1.5,
+					"volume": 0.0375
+				},
+				"skeleton_horse": {
+					"events": {
+						"gallop": {
+							"default": "mob.horse.gallop"
+						},
+						"heavy.step": {
+							"default": "mob.horse.wood"
+						},
+						"step": {
+							"default": "mob.horse.soft",
+							"wood": "mob.horse.wood"
+						}
+					},
+					"pitch": [
+						0.9,
+						1.1
+					],
+					"volume": 0.45
+				},
+				"zombie_horse": {
+					"events": {
+						"gallop": {
+							"default": "mob.horse.gallop"
+						},
+						"heavy.step": {
+							"default": "mob.horse.wood"
+						},
+						"step": {
+							"default": "mob.horse.soft",
+							"wood": "mob.horse.wood"
+						}
+					},
+					"pitch": [
+						0.9,
+						1.1
+					],
+					"volume": 0.45
+				}
+			}
+		}
+	}
+}

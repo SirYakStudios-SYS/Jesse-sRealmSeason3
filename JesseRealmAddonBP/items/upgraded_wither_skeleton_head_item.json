@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nether:upgraded_wither_skeleton_head_item",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_head"
+			},
+			"minecraft:armor": {
+				"protection": 1
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"dispensable": true
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:icon": {
+				"texture": "upgraded_wither_skeleton_head_item"
+			},
+			"minecraft:render_offsets": "helmets"
+		}
+	}
+}

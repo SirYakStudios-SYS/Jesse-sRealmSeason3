@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:catstatue3"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "catstatue3item"
+        },
+        "minecraft:fuel": {
+          "duration": 120.0
+       },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:catstatue3"
+        }
+      }
+    }
+  }

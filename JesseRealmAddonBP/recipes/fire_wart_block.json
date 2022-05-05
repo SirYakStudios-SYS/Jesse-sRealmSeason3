@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nether:fire_wart_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "nether:fire_wart_item"
+      }
+    },
+    "result": {
+      "item": "nether:fire_wart_block"
+    }
+  }
+}

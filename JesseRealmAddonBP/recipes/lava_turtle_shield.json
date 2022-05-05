@@ -1,0 +1,35 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nether:lava_turtle_shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#?#",
+			"~!~",
+			"#?#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_block"
+			},
+			"~": {
+				"item": "nether:lava_turtle_helmet_item"
+			},
+			"!": {
+				"item": "minecraft:shield"
+			},
+			"?": {
+				"item": "nether:glowcrystal"
+			}
+		},
+		"result": [
+			{
+				"item": "nether:lava_turtle_shield"
+			}
+		]
+	}
+}

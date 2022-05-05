@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:brown_stonebrick_mossy_stairs_12"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "minecraft:mossy_stone_brick_stairs",
+               "data": 0
+           }
+       ],
+       "result": {
+           "item": "stonebrick:brown_stonebrick_mossy_stairs_12",
+           "count": 1
+       }
+   }
+}

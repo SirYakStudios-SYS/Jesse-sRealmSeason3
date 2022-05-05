@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:hyacinth_pink_dye"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:hyacinth_pink"
+			}
+		],
+		"result": {
+			"item": "pink_dye",
+			"count": 1
+		}
+	}
+}

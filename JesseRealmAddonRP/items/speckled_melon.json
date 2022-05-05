@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:speckled_melon",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "melon_speckled",
+      "minecraft:use_animation": "eat"
+    }
+  }
+}

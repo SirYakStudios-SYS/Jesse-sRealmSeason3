@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "warden_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"B B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk_catalyst"
+			},
+      "B": {
+				"item": "minecraft:sculk"
+			}
+		},
+		"result": {
+			"item": "wb:warden_boots"
+		}
+	}
+}

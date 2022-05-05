@@ -1,0 +1,228 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\hongo_torcido.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "962c2ee0_4f31_46b9_a61c_141b9ece1951",
+	"file_version": 16,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:hongo_torcido",
+							"materials": {
+								"default": "cow"
+							},
+							"textures": {
+								"default": "textures/entity/hongo/hongo"
+							},
+							"geometry": {
+								"default": "geometry.hongotorcido"
+							},
+							"animations": {
+								"setup": "animation.retorcido.setup",
+								"walk": "animation.retorcido.walk"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.cow"
+							],
+							"spawn_egg": {
+								"texture": "hongotwistedd"
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:hongo_torcido",
+							"materials": {
+								"default": "cow"
+							},
+							"textures": {
+								"default": "textures/entity/hongo/hongo"
+							},
+							"geometry": {
+								"default": "geometry.hongotorcido"
+							},
+							"animations": {
+								"setup": "animation.retorcido.setup",
+								"walk": "animation.retorcido.walk"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.cow"
+							],
+							"spawn_egg": {
+								"texture": "hongotwistedd"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:hongo_torcido",
+								"materials": {
+									"default": "cow"
+								},
+								"textures": {
+									"default": "textures/entity/hongo/hongo"
+								},
+								"geometry": {
+									"default": "geometry.hongotorcido"
+								},
+								"animations": {
+									"setup": "animation.retorcido.setup",
+									"walk": "animation.retorcido.walk"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.cow"
+								],
+								"spawn_egg": {
+									"texture": "hongotwistedd"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:hongo_torcido",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "cow"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/hongo/hongo"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.hongotorcido"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"setup": "animation.retorcido.setup",
+									"walk": "animation.retorcido.walk"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.cow"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:hongo_torcido",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/hongo/hongo"
+									},
+									"geometry": {
+										"default": "geometry.hongotorcido"
+									},
+									"animations": {
+										"setup": "animation.retorcido.setup",
+										"walk": "animation.retorcido.walk"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.cow"
+									],
+									"spawn_egg": {
+										"texture": "hongotwistedd"
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#008C6D",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#8C17D2",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"data": "hongotwistedd",
+										"key": "texture"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

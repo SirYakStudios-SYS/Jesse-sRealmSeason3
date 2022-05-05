@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:red_dye_from_red_rose"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:red_rose"
+      }
+    },
+    "result": {
+      "item": "minecraft:dye",
+      "data": 1,
+      "count": 1
+    }
+  }
+}

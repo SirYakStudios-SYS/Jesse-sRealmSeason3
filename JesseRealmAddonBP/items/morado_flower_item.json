@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mv:morado_flower_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:foil": false,
+			"minecraft:render_offsets": "flowers",
+			"minecraft:icon": {
+				"texture": "morado_flower"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.flower"
+			},
+			"minecraft:block_placer": {
+				"block": "mv:morado_flower",
+				"use_block_description": true
+			}
+		},
+		"events": {}
+	}
+}

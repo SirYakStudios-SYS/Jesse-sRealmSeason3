@@ -1,0 +1,53 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:sandwich",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"nutrition": 18,
+				"saturation_modifier": "supernatural",
+				"on_consume": {
+					"event": "food",
+					"target": "self"
+				}
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"texture": "sandwich"
+			},
+			"minecraft:display_name": {
+				"value": "Sandwich"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.cookedFood"
+			}
+		},
+		"events": {
+			"food": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "speed",
+							"target": "holder",
+							"duration": 120,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"target": "holder",
+							"duration": 40,
+							"amplifier": 0,
+							"effect": "resistance"
+						}
+					}
+				]
+			}
+		}
+	}
+}

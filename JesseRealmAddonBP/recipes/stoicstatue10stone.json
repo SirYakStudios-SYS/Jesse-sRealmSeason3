@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:stoicstatue10stone"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:stoicstatue1"
+      },
+      "B": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:stoicstatue10"
+    }
+  }
+}

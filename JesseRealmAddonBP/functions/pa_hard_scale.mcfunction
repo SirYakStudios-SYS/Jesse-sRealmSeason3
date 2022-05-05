@@ -1,0 +1,1 @@
+give @s pa:hard_scale

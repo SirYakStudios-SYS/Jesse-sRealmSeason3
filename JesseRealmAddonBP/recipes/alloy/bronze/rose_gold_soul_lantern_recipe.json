@@ -1,0 +1,29 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:rose_gold_soul_lantern_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+",
+			"+++"
+		],
+		"key": {
+			"+": {
+				"item": "m:rose_gold_nugget"
+			},
+			"#": {
+				"item": "minecraft:soul_torch"
+			}
+		},
+		"result": [
+			{
+				"item": "m:soul_rose_gold_lantern"
+			}
+		]
+	}
+}

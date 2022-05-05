@@ -1,0 +1,45 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"identifier": "m:sodium_tnt"
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"tnt",
+					"inanimate"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.98,
+				"height": 0.98
+			},
+			"minecraft:explode": {
+				"fuse_length": 0.1,
+				"fuse_lit": true,
+				"power": 8,
+				"causes_fire": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

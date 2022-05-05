@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "m:rose_gold_ingot"
+				}
+			]
+		}
+	]
+}

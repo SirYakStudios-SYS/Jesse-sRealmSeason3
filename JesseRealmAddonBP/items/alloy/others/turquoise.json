@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:turquoise_shard",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "turquoise_shard"
+			},
+			"minecraft:display_name": {
+				"value": "Turquoise Shard \n§7Used for: \n-Calm Quartz \n-Crafting Enchanted Golden Apples \n§eFound? \n§7Y=0 - 140 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

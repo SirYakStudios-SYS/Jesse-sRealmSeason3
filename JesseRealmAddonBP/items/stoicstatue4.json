@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:stoicstatue4"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "stoicstatue4item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:stoicstatue4"
+        }
+      }
+    }
+  }

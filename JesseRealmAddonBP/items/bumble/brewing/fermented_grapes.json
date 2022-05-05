@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bumble:fermented_grapes",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "bumble:fermented_grapes"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:fermented_grapes"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			},
+			"minecraft:max_stack_size": 8,
+			"minecraft:allow_off_hand": false,
+			"minecraft:foil": false,
+			"minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

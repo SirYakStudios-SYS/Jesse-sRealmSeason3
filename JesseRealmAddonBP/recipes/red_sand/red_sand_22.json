@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "presblock:red_sand_22"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "presblock:red_sand_2"
+      }
+    },
+    "result": [
+      {
+        "item": "presblock:red_sand_1",
+        "count": 9
+      }
+    ]
+  }
+}

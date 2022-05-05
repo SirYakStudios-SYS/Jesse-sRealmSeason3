@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:smithsonite_charm_recipe_gold"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  .",
+			"#+#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_ingot"
+			},
+			"+": {
+				"item": "m:smithsonite_shard"
+			},
+			".": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"result": [
+			{
+				"item": "m:smithsonite_charm_gold"
+			}
+		]
+	}
+}

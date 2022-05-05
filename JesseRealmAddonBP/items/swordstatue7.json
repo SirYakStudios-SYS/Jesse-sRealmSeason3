@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:swordstatue7"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "swordstatue7item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:swordstatue7"
+        }
+      }
+    }
+  }

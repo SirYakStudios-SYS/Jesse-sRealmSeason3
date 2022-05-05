@@ -1,0 +1,1471 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\mangrove_fence.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "e17aa844_490f_4623_8e85_b731a839a8bb",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:mangrove_fence",
+							"properties": {
+								"propertie:connect": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"minecraft:direction": {}
+							}
+						},
+						"components": {
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mangrove_planks",
+									"render_method": "opaque"
+								}
+							},
+							"minecraft:loot": "loot_tables/fences/mangrove_fence.json",
+							"minecraft:geometry": "geometry.fence",
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:part_visibility": {
+								"rules": {
+									"american_fence": "query.block_property('propertie:connect') == 0",
+									"american_fence_left": "query.block_property('propertie:connect') == 1",
+									"american_fence_right": "query.block_property('propertie:connect') == 2",
+									"american_fence_corner": "query.block_property('propertie:connect') == 3",
+									"american_fence_2_sides": "query.block_property('propertie:connect') == 4",
+									"american_fence_3_sides": "query.block_property('propertie:connect') == 5",
+									"american_fence_4_sides": "query.block_property('propertie:connect') == 6"
+								}
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-1,
+									0,
+									-1
+								],
+								"size": [
+									2,
+									16,
+									2
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-1,
+									0,
+									-1
+								],
+								"size": [
+									2,
+									16,
+									2
+								]
+							},
+							"minecraft:friction": 0.6,
+							"minecraft:flammable": {
+								"flame_odds": 5,
+								"burn_odds": 5
+							},
+							"minecraft:block_light_emission": 0,
+							"minecraft:unwalkable": true,
+							"minecraft:ticking": {
+								"looping": false,
+								"range": [
+									0,
+									0
+								],
+								"on_tick": {
+									"event": "event:fence_connect"
+								}
+							},
+							"minecraft:creative_category": {
+								"category": "Construction",
+								"group": "itemGroup.name.fence"
+							},
+							"tag:fence_connect": {}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('minecraft:direction') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									],
+									"tag:fence_connect_0": {}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 1",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									],
+									"tag:fence_connect_1": {}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										270,
+										0
+									],
+									"tag:fence_connect_2": {}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									],
+									"tag:fence_connect_3": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 1",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"tag:fence_left": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 2",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-1,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"tag:fence_right": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 3",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-1,
+											0,
+											-8
+										],
+										"size": [
+											9,
+											16,
+											9
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-8
+										],
+										"size": [
+											9,
+											16,
+											9
+										]
+									},
+									"tag:fence_corner": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 4",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											16,
+											16,
+											4
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											16,
+											16,
+											4
+										]
+									},
+									"tag:fence_2_sides": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 5",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											9
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											9
+										]
+									},
+									"tag:fence_3_sides": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 6",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"tag:fence_4_sides": {}
+								}
+							}
+						],
+						"events": {
+							"event:fence_connect": {
+								"sequence": [
+									{
+										"condition": "!query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "!query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "!query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "!query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' ) && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 4
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' ) && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 4
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 1,
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 3,
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 1,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 3,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 6
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:mangrove_fence",
+							"properties": {
+								"propertie:connect": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"minecraft:direction": {}
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_fence",
+								"properties": {
+									"propertie:connect": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									],
+									"minecraft:direction": {}
+								}
+							},
+							"components": {
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_planks",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:loot": "loot_tables/fences/mangrove_fence.json",
+								"minecraft:geometry": "geometry.fence",
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:part_visibility": {
+									"rules": {
+										"american_fence": "query.block_property('propertie:connect') == 0",
+										"american_fence_left": "query.block_property('propertie:connect') == 1",
+										"american_fence_right": "query.block_property('propertie:connect') == 2",
+										"american_fence_corner": "query.block_property('propertie:connect') == 3",
+										"american_fence_2_sides": "query.block_property('propertie:connect') == 4",
+										"american_fence_3_sides": "query.block_property('propertie:connect') == 5",
+										"american_fence_4_sides": "query.block_property('propertie:connect') == 6"
+									}
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-1,
+										0,
+										-1
+									],
+									"size": [
+										2,
+										16,
+										2
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-1,
+										0,
+										-1
+									],
+									"size": [
+										2,
+										16,
+										2
+									]
+								},
+								"minecraft:friction": 0.6,
+								"minecraft:flammable": {
+									"flame_odds": 5,
+									"burn_odds": 5
+								},
+								"minecraft:block_light_emission": 0,
+								"minecraft:unwalkable": true,
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										0,
+										0
+									],
+									"on_tick": {
+										"event": "event:fence_connect"
+									}
+								},
+								"minecraft:creative_category": {
+									"category": "Construction",
+									"group": "itemGroup.name.fence"
+								},
+								"tag:fence_connect": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('minecraft:direction') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										],
+										"tag:fence_connect_0": {}
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 1",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										],
+										"tag:fence_connect_1": {}
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											270,
+											0
+										],
+										"tag:fence_connect_2": {}
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										],
+										"tag:fence_connect_3": {}
+									}
+								},
+								{
+									"condition": "query.block_property('propertie:connect') == 1",
+									"components": {
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												0,
+												-2
+											],
+											"size": [
+												9,
+												16,
+												4
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												0,
+												-2
+											],
+											"size": [
+												9,
+												16,
+												4
+											]
+										},
+										"tag:fence_left": {}
+									}
+								},
+								{
+									"condition": "query.block_property('propertie:connect') == 2",
+									"components": {
+										"minecraft:entity_collision": {
+											"origin": [
+												-1,
+												0,
+												-2
+											],
+											"size": [
+												9,
+												16,
+												4
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-1,
+												0,
+												-2
+											],
+											"size": [
+												9,
+												16,
+												4
+											]
+										},
+										"tag:fence_right": {}
+									}
+								},
+								{
+									"condition": "query.block_property('propertie:connect') == 3",
+									"components": {
+										"minecraft:entity_collision": {
+											"origin": [
+												-1,
+												0,
+												-8
+											],
+											"size": [
+												9,
+												16,
+												9
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-1,
+												0,
+												-8
+											],
+											"size": [
+												9,
+												16,
+												9
+											]
+										},
+										"tag:fence_corner": {}
+									}
+								},
+								{
+									"condition": "query.block_property('propertie:connect') == 4",
+									"components": {
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												0,
+												-2
+											],
+											"size": [
+												16,
+												16,
+												4
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												0,
+												-2
+											],
+											"size": [
+												16,
+												16,
+												4
+											]
+										},
+										"tag:fence_2_sides": {}
+									}
+								},
+								{
+									"condition": "query.block_property('propertie:connect') == 5",
+									"components": {
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												9
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												9
+											]
+										},
+										"tag:fence_3_sides": {}
+									}
+								},
+								{
+									"condition": "query.block_property('propertie:connect') == 6",
+									"components": {
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"tag:fence_4_sides": {}
+									}
+								}
+							],
+							"events": {
+								"event:fence_connect": {
+									"sequence": [
+										{
+											"condition": "!query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 0
+											}
+										},
+										{
+											"condition": "!query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 0
+											}
+										},
+										{
+											"condition": "!query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 0
+											}
+										},
+										{
+											"condition": "!query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 0
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 1
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 2
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 1
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 2
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' ) && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 4
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 1
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 2
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 1
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 2
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' ) && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 4
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"propertie:connect": 3
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 1,
+												"propertie:connect": 3
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 3
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 3,
+												"propertie:connect": 3
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 5
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 1,
+												"propertie:connect": 5
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 2,
+												"propertie:connect": 5
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 3,
+												"propertie:connect": 5
+											}
+										},
+										{
+											"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+											"set_block_property": {
+												"minecraft:direction": 0,
+												"propertie:connect": 6
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mangrove_planks",
+									"render_method": "opaque"
+								}
+							},
+							"minecraft:loot": "loot_tables/fences/mangrove_fence.json",
+							"minecraft:geometry": "geometry.fence",
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:part_visibility": {
+								"rules": {
+									"american_fence": "query.block_property('propertie:connect') == 0",
+									"american_fence_left": "query.block_property('propertie:connect') == 1",
+									"american_fence_right": "query.block_property('propertie:connect') == 2",
+									"american_fence_corner": "query.block_property('propertie:connect') == 3",
+									"american_fence_2_sides": "query.block_property('propertie:connect') == 4",
+									"american_fence_3_sides": "query.block_property('propertie:connect') == 5",
+									"american_fence_4_sides": "query.block_property('propertie:connect') == 6"
+								}
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-1,
+									0,
+									-1
+								],
+								"size": [
+									2,
+									16,
+									2
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-1,
+									0,
+									-1
+								],
+								"size": [
+									2,
+									16,
+									2
+								]
+							},
+							"minecraft:friction": 0.6,
+							"minecraft:flammable": {
+								"flame_odds": 5,
+								"burn_odds": 5
+							},
+							"minecraft:block_light_emission": 0,
+							"minecraft:unwalkable": true,
+							"minecraft:ticking": {
+								"looping": false,
+								"range": [
+									0,
+									0
+								],
+								"on_tick": {
+									"event": "event:fence_connect"
+								}
+							},
+							"minecraft:creative_category": {
+								"category": "Construction",
+								"group": "itemGroup.name.fence"
+							},
+							"tag:fence_connect": {}
+						}
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('minecraft:direction') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									],
+									"tag:fence_connect_0": {}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 1",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									],
+									"tag:fence_connect_1": {}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										270,
+										0
+									],
+									"tag:fence_connect_2": {}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									],
+									"tag:fence_connect_3": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 1",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"tag:fence_left": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 2",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-1,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-2
+										],
+										"size": [
+											9,
+											16,
+											4
+										]
+									},
+									"tag:fence_right": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 3",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-1,
+											0,
+											-8
+										],
+										"size": [
+											9,
+											16,
+											9
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-8
+										],
+										"size": [
+											9,
+											16,
+											9
+										]
+									},
+									"tag:fence_corner": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 4",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											16,
+											16,
+											4
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-2
+										],
+										"size": [
+											16,
+											16,
+											4
+										]
+									},
+									"tag:fence_2_sides": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 5",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											9
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											9
+										]
+									},
+									"tag:fence_3_sides": {}
+								}
+							},
+							{
+								"condition": "query.block_property('propertie:connect') == 6",
+								"components": {
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"tag:fence_4_sides": {}
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"event:fence_connect": {
+								"sequence": [
+									{
+										"condition": "!query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "!query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "!query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "!query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 0
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' ) && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 4
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 1
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 2
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'fence_left', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' ) && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'fence_right', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner' )",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 4
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 1,
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 3,
+											"propertie:connect": 3
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 1,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 2,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 3,
+											"propertie:connect": 5
+										}
+									},
+									{
+										"condition": "query.block_neighbor_has_any_tag( 1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( -1, 0, 0, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, -1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner') && query.block_neighbor_has_any_tag( 0, 0, 1, 'fence_connect', 'metal', 'wood', 'stone', 'diamond_pick_diggable', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'mob_spawner')",
+										"set_block_property": {
+											"minecraft:direction": 0,
+											"propertie:connect": 6
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

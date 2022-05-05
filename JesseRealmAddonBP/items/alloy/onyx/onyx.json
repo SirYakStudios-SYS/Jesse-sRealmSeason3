@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:onyx",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "onyx"
+			},
+			"minecraft:display_name": {
+				"value": "Onyx \n§7Used for: \n-Tools and armor \n§eFound? \n§7Y=0 - 100 \n§eEnd"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.item"
+			},
+			"minecraft:should_despawn": false,
+			"minecraft:explodable": false
+		},
+		"events": {}
+	}
+}

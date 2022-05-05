@@ -1,0 +1,99 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.stoicstatue1",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-7, 0, -6], "size": [14, 1, 12], "uv": [0, 0]},
+						{"origin": [-7, 7, -6], "size": [14, 1, 12], "uv": [0, 0]},
+						{"origin": [-6, 1, -5], "size": [12, 6, 10], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 32, 0]
+				},
+				{
+					"name": "right_leg",
+					"parent": "bone",
+					"pivot": [1.9, 20, 0],
+					"cubes": [
+						{"origin": [-4, 8, -2], "size": [4, 12, 4], "pivot": [-2, 20, 0], "rotation": [10, 0, 0], "uv": [4, 45]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"parent": "bone",
+					"pivot": [5, 30, 0],
+					"cubes": [
+						{"origin": [-8, 20, -2], "size": [4, 12, 4], "pivot": [-6, 31, 0], "rotation": [0, 0, 7.5], "uv": [44, 13]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "bone",
+					"pivot": [-5, 30, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [4, 20, -1], "size": [4, 12, 4], "pivot": [6, 31, 0], "rotation": [-62.38206, -1.08089, -12.45392], "uv": [44, 13]}
+					]
+				},
+				{
+					"name": "body2",
+					"parent": "left_arm",
+					"pivot": [-14, 33, 2],
+					"rotation": [27.5, 0, 0],
+					"cubes": [
+						{"origin": [6.5, 39, -12.5], "size": [3, 2, 1], "uv": [0, 0]},
+						{"origin": [7.5, 14, -12.5], "size": [1, 25, 1], "uv": [0, 51]},
+						{"origin": [7.5, 41, -12.5], "size": [1, 4, 1], "uv": [0, 46]},
+						{"origin": [5.5, 40, -12.5], "size": [1, 4, 1], "uv": [0, 3]},
+						{"origin": [9.5, 40, -12.5], "size": [1, 4, 1], "uv": [0, 3]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "bone",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-4, 20, -2], "size": [8, 12, 4], "uv": [32, 29]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "body",
+					"pivot": [-1.9, 20, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [0, 8, -3], "size": [4, 12, 4], "pivot": [2, 14, 0], "rotation": [-12.5, 0, 0], "uv": [4, 45]}
+					]
+				},
+				{
+					"name": "headwear",
+					"parent": "bone",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-4, 32, -3], "size": [8, 8, 8], "inflate": 0.25, "pivot": [0, 36, 0], "rotation": [-10, 0, 0], "uv": [0, 29]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "bone",
+					"pivot": [0, 32, 0]
+				}
+			]
+		}
+	]
+}

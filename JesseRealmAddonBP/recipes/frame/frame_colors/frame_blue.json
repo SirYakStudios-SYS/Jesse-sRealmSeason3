@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:frame_blue"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "guardian:frame_1"
+      },
+      {
+        "item": "minecraft:dye",
+        "data": 18
+      }
+    ],
+    "result": {
+      "item": "guardian:frame_blue"
+    }
+  }
+}

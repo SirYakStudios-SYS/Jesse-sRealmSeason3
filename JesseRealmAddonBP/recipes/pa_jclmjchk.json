@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jclmjchk_c5d4a21b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:hrinzatema_wood",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:jclmjchk",
+      "count": 1
+    }
+  }
+}

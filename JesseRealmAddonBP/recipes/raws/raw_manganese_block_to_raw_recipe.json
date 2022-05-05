@@ -1,0 +1,23 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:raw_manganese_block_to_raw_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "m:raw_manganese_block"
+			}
+		},
+		"result": {
+			"item": "m:raw_maganese",
+			"count": 9
+		}
+	}
+}

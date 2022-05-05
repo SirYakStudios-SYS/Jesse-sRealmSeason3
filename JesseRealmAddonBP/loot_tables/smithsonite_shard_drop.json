@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"name": "m:smithsonite_shard",
+					"type": "item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

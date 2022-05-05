@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_54de0772"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:cherry",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:bucket",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "pa:iogurt_bucket",
+      "count": 1
+    }
+  }
+}

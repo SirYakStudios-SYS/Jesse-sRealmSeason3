@@ -1,0 +1,149 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:cherry_log",
+			"properties": {
+				"bumble:rotation": [
+					0, 1, 2
+				],
+				"bumble:is_stripped": [
+					0, 1
+				]
+			}
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			},
+			"minecraft:destroy_time": 1.0,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:on_player_placing": {
+				"event": "bumble:place_rotation"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:rotation": [
+				0, 0, 0
+			],
+			"minecraft:explosion_resistance": 2,
+			"minecraft:breathability": "solid",
+			"tag:wood": {},
+			"tag:log": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bumble:rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0, 0, 0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90, 0, 0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0, 0, 90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:is_stripped') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cherry_bark",
+							"render_method": "opaque"
+						},
+						"up": {
+							"texture": "cherry_tops",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "cherry_tops",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "bumble:turn_into_stripped",
+						"target": "self",
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')"
+					},
+					"minecraft:loot": "loot_tables/fruits/cherry_log.json"
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:is_stripped') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cherry_stripped_bark",
+							"render_method": "opaque"
+						},
+						"up": {
+							"texture": "cherry_stripped_tops",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "cherry_stripped_tops",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:loot": "loot_tables/fruits/cherry_log.json"
+				}
+			}
+		],
+		"events": {
+			"bumble:place_rotation": {
+				"set_block_property": {
+					"bumble:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+				}
+			},
+			"bumble:turn_into_stripped": {
+				"run_command": {
+					"command": [
+						"playsound use.wood @s ~~~ 50"
+					],
+					"target": "other"
+				},
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "item"
+				},
+				"set_block_property": {
+					"bumble:is_stripped": "query.block_property('bumble:is_stripped')+1"
+				}
+			}
+		}
+	}
+}

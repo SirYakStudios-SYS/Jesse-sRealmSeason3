@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "m:jade_ore_spawn"
+		},
+		"count": 6,
+		"replace_rules": [
+			{
+				"places_block": "m:jade_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {}
+					}
+				]
+			},
+			{
+				"places_block": "m:deepslate_jade_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					}
+				]
+			}
+		]
+	}
+}

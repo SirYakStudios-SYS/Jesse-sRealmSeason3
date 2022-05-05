@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_6836cb74"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "zg:rock_entity",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:stone",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

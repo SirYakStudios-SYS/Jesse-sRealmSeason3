@@ -1,0 +1,44 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:sodium_tnt"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "sodium_tnt_side"
+				},
+				"down": {
+					"texture": "sodium_tnt_bottom"
+				},
+				"up": {
+					"texture": "sodium_tnt_top"
+				}
+			},
+			"minecraft:on_interact": {
+				"condition": "query.get_equipped_item_name=='flint_and_steel'",
+				"event": "fuse"
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.glowstone",
+				"category": "items"
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:explosion_resistance": 9999
+		},
+		"events": {
+			"fuse": {
+				"run_command": {
+					"command": [
+						"playsound random.fuse @a[r=30] ~ ~ ~",
+						"setblock ~ ~ ~ m:sodium_tnt_active"
+					]
+				}
+			}
+		}
+	}
+}

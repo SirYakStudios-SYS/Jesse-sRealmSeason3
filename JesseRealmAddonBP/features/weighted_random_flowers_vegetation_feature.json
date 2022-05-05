@@ -1,0 +1,71 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.17.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "mv:weighted_random_flowers_vegetation_feature"
+		},
+		"features": [
+			[
+				"mv:lotus_pink_feature",
+				1
+			],
+			[
+				"mv:lotus_purple_feature",
+				1
+			],
+			[
+				"mv:lotus_white_feature",
+				1
+			],
+			[
+				"mv:flower_cover1_feature",
+				1
+			],
+			[
+				"mv:flower_cover2_feature",
+				1
+			],
+			[
+				"mv:flower_cover3_feature",
+				1
+			],
+			[
+				"mv:flower_cover4_feature",
+				1
+			],
+			[
+				"mv:morado_flower_feature",
+				1
+			],
+			[
+				"mv:dandelion_feature",
+				1
+			],
+			[
+				"mv:rainbow_tail_feature",
+				1
+			],
+			[
+				"mv:tulip_bush_feature",
+				1
+			],
+			[
+				"mv:sun_blossom_feature",
+				1
+			],
+			[
+				"mv:light_pink_mushroom_feature",
+				1
+			],
+			[
+				"mv:light_red_mushroom_feature",
+				1
+			],
+			[
+				"mv:toadshroom_feature",
+				1
+			]
+		]
+	}
+}

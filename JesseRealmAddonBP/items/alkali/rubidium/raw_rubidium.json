@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:raw_rubidium",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_rubidium"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Rubidium \n§eFound? \n§7Y=-64 - 5 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:explodable": false
+		},
+		"events": {}
+	}
+}

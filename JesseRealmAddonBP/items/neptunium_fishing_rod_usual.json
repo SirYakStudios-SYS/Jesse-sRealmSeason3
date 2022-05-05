@@ -1,0 +1,84 @@
+{
+	"format_version" : "1.17.0",
+	"minecraft:item" : {
+		"description" : {
+			"identifier" : "azc:neptunium_fishing_rod_usual",
+			"category" : "equipment"
+		},
+		"components" : {
+			"minecraft:creative_category" : {
+				"parent" : "itemGroup.name.equipment"
+			},
+			"minecraft:max_stack_size" : 1,
+			"minecraft:hand_equipped" : true,
+			"minecraft:durability" : {
+				"max_durability" : 2500
+			},
+			"minecraft:enchantable" : {
+				"slot" : "fishing_rod",
+				"value" : 8
+			},
+			"minecraft:on_use" : {
+				"on_use" : {
+					"event" : "fish"
+				}
+			},
+			"minecraft:cooldown" : {
+				"category" : "chorusfruit",
+				"duration" : 15
+			},
+			"minecraft:icon" : {
+				"texture" : "neptunium_fishing_rod_usual"
+			},
+			"minecraft:repairable" : {
+				"repair_items" : [
+					{
+						"items" : [ "azc:neptunium_ingot" ],
+						"repair_amount" : 625
+					},
+					{
+						"items" : [ "azc:neptunium_fishing_rod_template" ],
+						"repair_amount" : 1250
+					}
+				]
+			}
+		},
+		"events" : {
+			"fish" : {
+				"sequence" : [
+					{
+						"swing" : {}
+					},
+					{
+						"run_command" : {
+							"command" : [ "playsound random.bow @p [r=5]" ]
+						}
+					},
+					{
+						"shoot" : {
+							"projectile" : "azc:iron_hook",
+							"launch_power" : 1
+						}
+					},
+					{
+						"run_command" : {
+							"command" : [ "tp @e [type=item,r=10] @p" ]
+						}
+					},
+					{
+						"run_command" : {
+							"command" : [ "xp 3 @s" ]
+						}
+					},
+					{
+						"damage" : {
+							"type" : "durability",
+							"amount" : 1,
+							"target" : "self"
+						}
+					}
+				]
+			}
+		}
+	}
+}

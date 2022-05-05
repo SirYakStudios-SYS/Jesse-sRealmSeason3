@@ -1,0 +1,37 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mv:warden",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/warden/warden"
+			},
+			"geometry": {
+				"default": "geometry.warden"
+			},
+			"animations": {
+				"walk": "animation.warden.walk",
+				"emerge": "animation.warden.emerge",
+				"dissapear": "animation.warden.dissapear"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.modified_move_speed"
+					},
+					{
+						"emerge": "query.can_power_jump"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {}
+		}
+	}
+}

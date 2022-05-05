@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:raw_lithium",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_lithium"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Lithium \n§eFound? \n§7Y=0 - 120 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:orca",
+      "materials": { "default": "dolphin" },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_orca"
+      },
+      "geometry": {
+        "default": "geometry.orca"
+      },
+      "animations": {
+        "move": "animation.orca.move"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.dolphin.general" }
+      ],
+      "render_controllers": [ "controller.render.dolphin" ],
+      "spawn_egg": {
+        "texture": "pa:orca",
+        "texture_index": 0
+      }
+    }
+  }
+}

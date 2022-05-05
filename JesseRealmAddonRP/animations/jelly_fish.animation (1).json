@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jelly_fish.rotate": {
+			"loop": true,
+			"animation_length": 3.5,
+			"bones": {
+				"jellyfish": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.5": [0, 180, 0],
+						"3.5": [0, 360, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.5": [0, 0, 0],
+						"3.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

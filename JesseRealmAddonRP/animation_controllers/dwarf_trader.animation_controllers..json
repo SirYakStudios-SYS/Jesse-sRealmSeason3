@@ -1,0 +1,17 @@
+{
+	"format_version" : "1.17.30",
+	"animation_controllers" : {
+		"controller.animation.dwarf_trader.move" : {
+			"initial_state" : "walk",
+			"states" : {
+				"walk" : {
+					"animations" : [
+						{ "walk": "query.modified_move_speed"}
+		]
+
+
+		 }
+	     }
+}
+}
+}

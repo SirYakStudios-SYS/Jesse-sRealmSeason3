@@ -1,0 +1,18 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:endstone_aetherium_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:creative_category": { "category": "Construction" },
+			"minecraft:destroy_time": 2.9,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#E88831",
+			"tag:stone": {}
+		},
+		"events": {}
+	}
+}

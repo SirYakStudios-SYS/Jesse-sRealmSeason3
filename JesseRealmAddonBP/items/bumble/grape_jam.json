@@ -1,0 +1,48 @@
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:grape_jam"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": false,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.miscFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:grape_jam"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:grape_jam"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation_modifier": "good",
+        "can_always_eat": true,
+		"using_converts_to": "glass_bottle",
+		"on_consume": {
+			"event": "on_consume",
+			"target": "self"
+		}      
+	  }
+	},
+	"events": {
+	  "on_consume": {
+	  
+        "add_mob_effect": {
+            "effect": "health_boost",
+            "target": "holder",
+            "duration": 4,
+            "amplifier": 1
+        }
+	  }
+    }
+  }
+}		

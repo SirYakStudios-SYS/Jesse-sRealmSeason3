@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:book_for_3"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:resonite_shard"
+			},
+			{
+				"item": "minecraft:book"
+			},
+			{
+				"item": "minecraft:feather"
+			}
+		],
+		"result": [
+			{
+				"count": 1,
+				"item": "m:book_for_feather_falling"
+			}
+		]
+	}
+}

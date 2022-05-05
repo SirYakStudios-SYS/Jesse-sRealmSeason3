@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:raw_amber_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "sp:raw_amber"
+			}
+		},
+		"result": {
+			"item": "sp:raw_amber_block"
+		}
+	}
+}

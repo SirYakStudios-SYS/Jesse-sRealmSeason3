@@ -1,0 +1,185 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nether:rotten_boomerang",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball",
+			"scripts": {
+				"animate": [
+					{
+						"controller_return_to_holder": "query.is_sheared"
+					}
+				]
+			},
+			"animations": {
+				"controller_return_to_holder": "controller.animation.rotten_boomerang.return"
+			}
+		},
+		"component_groups": {
+			"nether:projectile": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 5,
+							"knockback": true,
+							"destroy_on_hit": false
+						},
+						"stick_in_ground": {}
+					},
+					"hit_sound": "bullet.hit",
+					"hit_ground_sound": "bullet.hit",
+					"power": 1.5,
+					"gravity": 0,
+					"anchor": 1,
+					"inertia": 1,
+					"multiple_targets": true,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				},
+				"minecraft:area_attack": {
+					"damage_range": 1,
+					"damage_per_tick": 4,
+					"entity_filter": {
+						"test": "is_family",
+						"subject": "other",
+						"operator": "==",
+						"value": "mob"
+					}
+				},
+				"minecraft:timer": {
+					"looping": false,
+					"time": 0.6,
+					"time_down_event": {
+						"event": "nether:on_return_to_holder",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {}
+			},
+			"nether:return_to_holder": {
+				"minecraft:movement.basic": {},
+				"minecraft:entity_sensor": {
+					"sensor_range": 0.5,
+					"minimum_count": 1,
+					"maximum_count": 1,
+					"require_all": true,
+					"event_filters": {
+						"all_of": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							{
+								"test": "has_tag",
+								"subject": "other",
+								"operator": "==",
+								"value": "rotten_boomerang"
+							}
+						]
+					},
+					"event": "nether:despawn"
+				},
+				"minecraft:behavior.float": {
+					"priority": 0
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": false
+						}
+					]
+				},
+				"minecraft:area_attack": {
+					"damage_range": 1,
+					"damage_per_tick": 6,
+					"entity_filter": {
+						"test": "is_family",
+						"subject": "other",
+						"operator": "==",
+						"value": "mob"
+					}
+				},
+				"minecraft:timer": {
+					"looping": false,
+					"time": 5,
+					"time_down_event": {
+						"event": "nether:on_return_to_holder",
+						"target": "self"
+					}
+				},
+				"minecraft:is_sheared": {},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				}
+			},
+			"nether:despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"rotten_boomerang",
+					"inanimate"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:physics": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"nether:projectile"
+					]
+				}
+			},
+			"nether:on_return_to_holder": {
+				"add": {
+					"component_groups": [
+						"nether:return_to_holder"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"nether:projectile"
+					]
+				}
+			},
+			"nether:despawn": {
+				"add": {
+					"component_groups": [
+						"nether:despawn"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @p[r=2,c=1] remove rotten_boomerang",
+						"playsound random.bow @a[r=3] ~~~ 1 1.5"
+					]
+				}
+			}
+		}
+	}
+}

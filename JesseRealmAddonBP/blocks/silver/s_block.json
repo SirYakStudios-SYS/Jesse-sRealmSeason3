@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:silver_block"
+		},
+		"components": {
+			"minecraft:creative_category": { "category": "Construction" },
+			"minecraft:destroy_time": 2.7,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#CD1616",
+			"tag:stone": {}
+		},
+		"events": {}
+	}
+}

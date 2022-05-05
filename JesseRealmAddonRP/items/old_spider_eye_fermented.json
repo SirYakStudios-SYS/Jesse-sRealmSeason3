@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:old_spider_eye_fermented",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "old_spider_eye_fermented",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

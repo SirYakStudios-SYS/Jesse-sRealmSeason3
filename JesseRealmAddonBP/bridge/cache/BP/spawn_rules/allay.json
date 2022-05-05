@@ -1,0 +1,590 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\spawn_rules\\allay.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "be694358_c2b6_4fe9_a958_726b90a11f80",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mv:allay",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:weight": {
+									"default": 100
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 3
+								},
+								"minecraft:height_filter": {
+									"min": 63,
+									"max": 200
+								},
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "flower_forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:allay",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 3
+									},
+									"minecraft:height_filter": {
+										"min": 63,
+										"max": 200
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "flower_forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:allay",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:allay",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 3
+									},
+									"minecraft:height_filter": {
+										"min": 63,
+										"max": 200
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "flower_forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:weight": {
+											"default": 100
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 3
+										},
+										"minecraft:height_filter": {
+											"min": 63,
+											"max": 200
+										},
+										"minecraft:biome_filter": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "flower_forest"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "birch"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "plains"
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:height_filter": {
+												"min": 63,
+												"max": 200
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													}
+												]
+											}
+										},
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:height_filter": {
+												"min": 63,
+												"max": 200
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													}
+												]
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 100
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:height_filter": {
+												"min": 63,
+												"max": 200
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													}
+												]
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 3
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:height_filter": {
+												"min": 63,
+												"max": 200
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													}
+												]
+											}
+										},
+										"key": "minecraft:height_filter",
+										"is_minified": true,
+										"children": {
+											"min": 63,
+											"max": 200
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:height_filter": {
+												"min": 63,
+												"max": 200
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													}
+												]
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"children": [
+											{
+												"open": {
+													"any_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "flower_forest"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "forest"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "birch"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "plains"
+														}
+													]
+												},
+												"key": "any_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "flower_forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "plains"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "flower_forest"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "flower_forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "plains"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "forest"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "flower_forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "plains"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "birch"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "flower_forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "forest"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "plains"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "plains"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

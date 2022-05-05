@@ -1,0 +1,205 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\firefly.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "1bec4e9e_3ecf_4152_9b0d_7e641fa3bfa1",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:firefly",
+							"materials": {
+								"default": "firefly"
+							},
+							"textures": {
+								"default": "textures/entity/firefly"
+							},
+							"geometry": {
+								"default": "geometry.firefly"
+							},
+							"render_controllers": [
+								"controller.render.firefly"
+							],
+							"spawn_egg": {
+								"base_color": "#FCFD7C",
+								"overlay_color": "#1A2E0D"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:firefly",
+								"materials": {
+									"default": "firefly"
+								},
+								"textures": {
+									"default": "textures/entity/firefly"
+								},
+								"geometry": {
+									"default": "geometry.firefly"
+								},
+								"render_controllers": [
+									"controller.render.firefly"
+								],
+								"spawn_egg": {
+									"base_color": "#FCFD7C",
+									"overlay_color": "#1A2E0D"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:firefly",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:firefly",
+									"materials": {
+										"default": "firefly"
+									},
+									"textures": {
+										"default": "textures/entity/firefly"
+									},
+									"geometry": {
+										"default": "geometry.firefly"
+									},
+									"render_controllers": [
+										"controller.render.firefly"
+									],
+									"spawn_egg": {
+										"base_color": "#FCFD7C",
+										"overlay_color": "#1A2E0D"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "firefly"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:firefly",
+									"materials": {
+										"default": "firefly"
+									},
+									"textures": {
+										"default": "textures/entity/firefly"
+									},
+									"geometry": {
+										"default": "geometry.firefly"
+									},
+									"render_controllers": [
+										"controller.render.firefly"
+									],
+									"spawn_egg": {
+										"base_color": "#FCFD7C",
+										"overlay_color": "#1A2E0D"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/firefly"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:firefly",
+									"materials": {
+										"default": "firefly"
+									},
+									"textures": {
+										"default": "textures/entity/firefly"
+									},
+									"geometry": {
+										"default": "geometry.firefly"
+									},
+									"render_controllers": [
+										"controller.render.firefly"
+									],
+									"spawn_egg": {
+										"base_color": "#FCFD7C",
+										"overlay_color": "#1A2E0D"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.firefly"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:firefly",
+									"materials": {
+										"default": "firefly"
+									},
+									"textures": {
+										"default": "textures/entity/firefly"
+									},
+									"geometry": {
+										"default": "geometry.firefly"
+									},
+									"render_controllers": [
+										"controller.render.firefly"
+									],
+									"spawn_egg": {
+										"base_color": "#FCFD7C",
+										"overlay_color": "#1A2E0D"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.firefly"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:firefly",
+									"materials": {
+										"default": "firefly"
+									},
+									"textures": {
+										"default": "textures/entity/firefly"
+									},
+									"geometry": {
+										"default": "geometry.firefly"
+									},
+									"render_controllers": [
+										"controller.render.firefly"
+									],
+									"spawn_egg": {
+										"base_color": "#FCFD7C",
+										"overlay_color": "#1A2E0D"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#FCFD7C",
+									"overlay_color": "#1A2E0D"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

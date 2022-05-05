@@ -1,0 +1,18 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\texts\\languages.json",
+	"file_type": "client_lang_def",
+	"format_version": 1,
+	"file_uuid": "811d9a94_cf6e_44ce_a4f5_ec59822a11e7",
+	"file_version": 3,
+	"cache_content": {
+		"is_minified": true,
+		"children": [
+			"en_US",
+			"en_GB",
+			"el_GR",
+			"es_ES",
+			"es_MX",
+			"zh_CN"
+		]
+	}
+}

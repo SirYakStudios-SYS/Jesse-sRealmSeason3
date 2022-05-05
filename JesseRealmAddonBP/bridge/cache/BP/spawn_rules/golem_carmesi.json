@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17\\spawn_rules\\golem_carmesi.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "d030a29f_397c_4b7f_b7b7_eef97ba7781c",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "sc:golem_carmesi",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_underground": {},
+								"minecraft:spawns_on_block_prevented_filter": [
+									"minecraft:nether_wart_block",
+									"minecraft:shroomlight"
+								],
+								"minecraft:difficulty_filter": {
+									"min": "peaceful",
+									"max": "hard"
+								},
+								"minecraft:weight": {
+									"default": 20
+								},
+								"minecraft:herd": {
+									"min_size": 0,
+									"max_size": 1
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "crimson_forest"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:golem_carmesi",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:spawns_on_block_prevented_filter": [
+										"minecraft:nether_wart_block",
+										"minecraft:shroomlight"
+									],
+									"minecraft:difficulty_filter": {
+										"min": "peaceful",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 20
+									},
+									"minecraft:herd": {
+										"min_size": 0,
+										"max_size": 1
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "crimson_forest"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "sc:golem_carmesi",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:golem_carmesi",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:spawns_on_block_prevented_filter": [
+										"minecraft:nether_wart_block",
+										"minecraft:shroomlight"
+									],
+									"minecraft:difficulty_filter": {
+										"min": "peaceful",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 20
+									},
+									"minecraft:herd": {
+										"min_size": 0,
+										"max_size": 1
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "crimson_forest"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_underground": {},
+										"minecraft:spawns_on_block_prevented_filter": [
+											"minecraft:nether_wart_block",
+											"minecraft:shroomlight"
+										],
+										"minecraft:difficulty_filter": {
+											"min": "peaceful",
+											"max": "hard"
+										},
+										"minecraft:weight": {
+											"default": 20
+										},
+										"minecraft:herd": {
+											"min_size": 0,
+											"max_size": 1
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "crimson_forest"
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:spawns_on_block_prevented_filter",
+										"is_minified": true,
+										"children": [
+											"minecraft:nether_wart_block",
+											"minecraft:shroomlight"
+										]
+									},
+									{
+										"key": "minecraft:difficulty_filter",
+										"is_minified": true,
+										"children": {
+											"min": "peaceful",
+											"max": "hard"
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:spawns_on_block_prevented_filter": [
+												"minecraft:nether_wart_block",
+												"minecraft:shroomlight"
+											],
+											"minecraft:difficulty_filter": {
+												"min": "peaceful",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 0,
+												"max_size": 1
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "crimson_forest"
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 20
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:spawns_on_block_prevented_filter": [
+												"minecraft:nether_wart_block",
+												"minecraft:shroomlight"
+											],
+											"minecraft:difficulty_filter": {
+												"min": "peaceful",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 0,
+												"max_size": 1
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "crimson_forest"
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 0,
+											"max_size": 1
+										}
+									},
+									{
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "crimson_forest"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

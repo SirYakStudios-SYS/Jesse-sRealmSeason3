@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:furnace_gold_sky_lanterns_0"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "guardian:gold_sky_lanterns_0",
+    "output": "minecraft:gold_nugget"
+  }
+  
+}

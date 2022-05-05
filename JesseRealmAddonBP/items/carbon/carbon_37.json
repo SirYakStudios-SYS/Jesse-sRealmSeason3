@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:carbon_37"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "carbon_37"
+			},
+			"minecraft:display_name": {
+				"value": "Carbon (37) \n§7Used for: \n-Better Coal \n§eFound? \n§7Y=-20 - 40 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:fuel": {
+				"duration": 160
+			}
+		},
+		"events": {}
+	}
+}

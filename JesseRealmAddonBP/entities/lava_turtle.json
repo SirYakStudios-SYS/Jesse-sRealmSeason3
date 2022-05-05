@@ -1,0 +1,694 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nether:lava_turtle",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "minecraft:baby": {
+        "minecraft:type_family": {
+          "family": [ "turtle", "baby_turtle", "lava_turtle", "baby_lava_turtle", "mob" ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.5,
+          "height": 0.4
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.06
+        },
+        "minecraft:is_baby": {
+        },
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.float": {
+          "priority": 0
+        },
+        "minecraft:scale": {
+          "value": 0.25
+        },
+        "minecraft:behavior.panic": {
+          "priority": 0,
+          "prefer_water": false,
+          "speed_multiplier": 1.5
+        },
+        "minecraft:health": {
+          "value": 15
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:lava_movement": {
+		  "value": 0.45
+  	    },
+        "minecraft:behavior.follow_parent": {
+          "priority": 6,
+          "speed_multiplier": 1.5
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:ageable": {
+          "duration": 3600,
+          "feed_items": [
+            "nether:nether_sugar"
+          ],
+          "drop_items": [
+            "nether:lava_turtle_shell_piece"
+          ],
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        }
+      },
+
+      "minecraft:adult": {
+        "minecraft:experience_reward": {
+          "on_bred": "Math.Random(1,7)",
+          "on_death": "query.last_hit_by_player ? 10 : 0"
+        },
+        "minecraft:type_family": {
+          "family": [ "turtle", "lava_turtle", "mob" ]
+        },
+        "minecraft:collision_box": {
+          "width": 1.5,
+          "height": 1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:health": {
+          "value": 50
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.12
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": false
+        },
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.melee_attack": {
+          "priority": 4,
+          "speed_multiplier": 1.25
+        },
+        "minecraft:attack": {
+          "damage": [ 5, 12 ]
+        },
+        "minecraft:behavior.breed": {
+          "priority": 2,
+          "speed_multiplier": 1
+        }
+      },
+      
+      "nether:lava_turtle_unsaddled": {
+        "minecraft:variant": {
+          "value": 0
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "nether:iron_saddle"},
+                "event": "minecraft:on_saddled"
+              },
+              "use_item": true,
+              "play_sounds": "saddle",
+              "interact_text": "action.interact.saddle"
+            }
+          ]
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/lava_turtle.json"
+        }
+      },
+      
+      "nether:lava_turtle_saddled": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/lava_turtle_saddled.json"
+        },
+        "minecraft:boostable": {
+          "speed_multiplier": 1.75,
+          "duration": 5.0,
+          "boost_items": [
+            {
+              "item": "nether:nether_sugar_on_a_stick",
+              "damage": 1,
+              "replace_item": "fishing_rod"
+            }
+          ]
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "interact_text": "action.interact.mount",
+          "family_types": [
+            "player"
+          ],
+          "seats": {
+            "position": [ 0.0, 1.2, 0.0 ]
+          }
+        },
+        "minecraft:item_controllable": {
+          "control_items": "nether:nether_sugar_on_a_stick"
+        },
+        "minecraft:behavior.controlled_by_player": {
+          "priority": 0
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "play_sounds": "armor.equip_generic",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "nether:speed_upgrade_orb"},
+                    { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                    { "test": "is_variant", "subject": "self", "operator": "==", "value": 1 }
+                  ]
+                },
+                "event": "nether:speed_upgrade",
+                "target": "self"
+              },
+              "use_item": true,
+              "interact_text": "action.interact.upgrade"
+            },
+            {
+              "play_sounds": "armor.equip_generic",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "nether:hp_upgrade_orb"},
+                    { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                    { "test": "is_variant", "subject": "self", "operator": "==", "value": 1 }
+                  ]
+                },
+                "event": "nether:hp_upgrade",
+                "target": "self"
+              },
+              "use_item": true,
+              "interact_text": "action.interact.upgrade"
+            },
+            {
+              "play_sounds": "armor.equip_generic",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "nether:fire_immune_upgrade_orb"},
+                    { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                    { "test": "is_variant", "subject": "self", "operator": "==", "value": 1 }
+                  ]
+                },
+                "event": "nether:fire_immune_upgrade",
+                "target": "self"
+              },
+              "use_item": true,
+              "interact_text": "action.interact.upgrade"
+            },
+            {
+                 "use_item": false,
+                 "hurt_item": 0,
+                 "spawn_items": { "table": "loot_tables/entities/iron_saddle.json" },
+                 "play_sounds": "shear",
+                 "interact_text": "action.interact.shear",
+                 "on_interact": {
+                   "filters": {
+                     "all_of": [
+                       { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "stick"},
+                       { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                       { "test": "is_variant", "subject": "self", "operator": "==", "value": 1 }
+                     ]
+                   },
+                   "event": "minecraft:off_saddled",
+                   "target": "self"
+                }
+             }
+          ]
+        }
+      },
+      
+      "nether:no_lava_turtle_speed_upgrade": {
+        "minecraft:movement": {
+          "value": 0.225
+        },
+        "minecraft:lava_movement": {
+		  "value": 0.4
+  	    }
+      },
+      "nether:lava_turtle_speed_upgrade": {
+        "minecraft:variant": {
+          "value": 2
+        },
+        "minecraft:movement": {
+          "value": 0.325
+        },
+        "minecraft:lava_movement": {
+		  "value": 0.48
+  	    },
+  	    "minecraft:loot": {
+          "table": "loot_tables/entities/speed_upgrade.json"
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+                 "use_item": false,
+                 "hurt_item": 0,
+                 "spawn_items": { "table": "loot_tables/entities/speed_upg.json" },
+                 "play_sounds": "shear",
+                 "interact_text": "action.interact.shear",
+                 "on_interact": {
+                   "filters": {
+                     "all_of": [
+                       { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "stick"},
+                       { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                       { "test": "is_variant", "subject": "self", "operator": "!=", "value": 0 }
+                     ]
+                   },
+                   "event": "nether:off_speed_upg",
+                   "target": "self"
+                }
+             }
+          ]
+        }
+      },
+      "nether:no_lava_turtle_hp_upgrade": {
+        "minecraft:knockback_resistance": {
+          "value": 0.4
+        }
+      }, 
+      "nether:lava_turtle_hp_upgrade": {
+        "minecraft:variant": {
+          "value": 3
+        },
+        "minecraft:damage_sensor": {
+			"triggers": {
+				"cause": "all",
+				"damage_multiplier": 0.5,
+				"deals_damage": true
+			}
+		},
+        "minecraft:knockback_resistance": {
+          "value": 0.9
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/hp_upgrade.json"
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+                 "use_item": false,
+                 "hurt_item": 0,
+                 "spawn_items": { "table": "loot_tables/entities/hp_upg.json" },
+                 "play_sounds": "shear",
+                 "interact_text": "action.interact.shear",
+                 "on_interact": {
+                   "filters": {
+                     "all_of": [
+                       { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "stick"},
+                       { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                       { "test": "is_variant", "subject": "self", "operator": "!=", "value": 0 }
+                     ]
+                   },
+                   "event": "nether:off_hp_upg",
+                   "target": "self"
+                }
+             }
+          ]
+        }
+      },
+    
+      "nether:lava_turtle_fire_immune_upgrade": {
+        "minecraft:variant": {
+          "value": 4
+        },
+        "minecraft:timer": {
+            "looping": true,
+            "time": 0,
+            "time_down_event": {
+                "event": "nether:add_fire_immune",
+                "target": "self"
+            }
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/lava_immune_upgrade.json"
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+                 "use_item": false,
+                 "hurt_item": 0,
+                 "spawn_items": { "table": "loot_tables/entities/fire_immune_upg.json" },
+                 "play_sounds": "shear",
+                 "interact_text": "action.interact.shear",
+                 "on_interact": {
+                   "filters": {
+                     "all_of": [
+                       { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "stick"},
+                       { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                       { "test": "is_variant", "subject": "self", "operator": "!=", "value": 0 }
+                     ]
+                   },
+                   "event": "nether:off_fire_immune_upg",
+                   "target": "self"
+                }
+             }
+          ]
+        }
+      },
+      
+      "nether:no_upgrade": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      
+      "nether:lava_turtle_angry": {
+        "minecraft:angry": {
+          "duration": 25,
+          "broadcast_anger": true,
+          "broadcast_range": 20,
+          "broadcast_targets": [
+			"lava_turtle"
+		  ],
+          "calm_event": {
+            "event": "minecraft:on_calm",
+            "target": "self"
+          }
+        }
+      },
+      "nether:lava_turtle_calm": {
+        "minecraft:on_target_acquired": {
+          "event": "minecraft:become_angry",
+          "target": "self"
+        }
+      }
+    },
+    
+    "components": {
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_lava": true,
+        "breathes_water": true
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_contact_with_water",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "drowning",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 9,
+        "interval": 100
+      },
+      "minecraft:healable": {
+        "items": [
+          {
+            "item": "nether:nether_reeds_item",
+            "heal_amount": 5
+          }
+        ]
+      },
+      "minecraft:behavior.rise_to_liquid_level": {
+		"priority": 0,
+		"liquid_y_offset": -0.5,
+		"rise_delta": 0.035,
+		"sink_delta": 0.01
+	  },
+	  "minecraft:breedable": { 
+          "require_tame": false,         
+          "breeds_with": {
+            "mate_type": "nether:lava_turtle",
+            "baby_type": "nether:lava_turtle",
+            "breed_event": {
+              "event": "minecraft:entity_born",
+              "target": "baby"
+            }
+          },
+          "breed_items": [
+            "nether:nether_sugar"
+          ]
+        },
+      "minecraft:nameable": {
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "lightning",
+          "deals_damage": true,
+          "damage_multiplier": 2000
+        }
+      },
+      "minecraft:navigation.generic": {
+        "can_path_over_lava": true,
+		"avoid_water": true,
+		"can_sink": false,
+		"can_walk_in_lava": true
+      },
+      "minecraft:fire_immune": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4,
+        "hard_distance": 6,
+        "max_distance": 10
+      },
+      "minecraft:balloonable": {
+          "mass": 2
+      },
+      "minecraft:follow_range": {
+        "value": 1024
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 3,
+        "speed_multiplier": 1.25,
+        "items": [
+          "nether:nether_sugar",
+          "nether:nether_reeds_item",
+          "nether:nether_sugar_on_a_stick"
+        ],
+        "can_tempt_while_ridden": true
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "target_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 55,
+            "trigger": "spawn_adult"
+          },
+          {
+            "weight": 5,
+            "add": {
+              "component_groups": [
+                "minecraft:baby",
+                "nether:lava_turtle_calm"
+              ]
+            }
+          }
+        ]
+      },
+
+      "minecraft:entity_born": {
+        "add": {
+          "component_groups": [
+            "minecraft:baby",
+            "nether:lava_turtle_calm"
+          ]
+        }
+      },
+
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": [
+            "minecraft:baby"
+          ]
+        },
+        "trigger": "spawn_adult"
+      },
+      "minecraft:on_saddled": {
+        "remove": {
+          "component_groups": [
+            "nether:lava_turtle_unsaddled"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_saddled",
+            "nether:no_upgrade"
+          ]
+        }
+      },
+      "minecraft:off_saddled": {
+        "remove": {
+          "component_groups": [
+            "nether:lava_turtle_saddled",
+            "nether:no_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_unsaddled"
+          ]
+        }
+      },
+      "minecraft:on_calm": {
+        "remove": {
+          "component_groups": [
+            "nether:lava_turtle_angry"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_calm"
+          ]
+        }
+      },
+      "minecraft:become_angry": {
+        "remove": {
+          "component_groups": [
+            "nether:lava_turtle_calm"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_angry"
+          ]
+        }
+      },
+      "nether:speed_upgrade": {
+        "remove": {
+          "component_groups": [
+            "nether:no_lava_turtle_speed_upgrade",
+            "nether:no_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_speed_upgrade"
+          ]
+        }
+      },
+      "nether:hp_upgrade": {
+        "remove": {
+          "component_groups": [ 
+            "nether:no_lava_turtle_hp_upgrade",
+            "nether:no_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_hp_upgrade"
+          ]
+        }
+      },
+      "nether:fire_immune_upgrade": {
+        "remove": {
+          "component_groups": [ 
+            "nether:no_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_fire_immune_upgrade"
+          ]
+        }
+      },
+      "nether:add_fire_immune": {
+        "run_command": {
+		  "command": ["effect @a[r=1.125] fire_resistance 1 0 true"]
+		}
+      },
+      "spawn_adult": {
+        "add": {
+          "component_groups": [
+            "minecraft:adult",
+            "nether:lava_turtle_calm",
+            "nether:lava_turtle_unsaddled",
+            "nether:no_lava_turtle_hp_upgrade",
+            "nether:no_lava_turtle_speed_upgrade"
+          ]
+        }
+      },
+      
+      
+      "nether:off_speed_upg": {
+        "remove": {
+          "component_groups": [ 
+            "nether:lava_turtle_speed_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_saddled",
+            "nether:no_upgrade",
+            "nether:no_lava_turtle_speed_upgrade"
+          ]
+        }
+      },
+      "nether:off_hp_upg": {
+        "remove": {
+          "component_groups": [ 
+            "nether:lava_turtle_hp_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_saddled",  
+            "nether:no_upgrade",
+            "nether:no_lava_turtle_hp_upgrade"
+          ]
+        }
+      },
+      "nether:off_fire_immune_upg": {
+        "remove": {
+          "component_groups": [ 
+            "nether:lava_turtle_fire_immune_upgrade"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "nether:lava_turtle_saddled",  
+            "nether:no_upgrade"
+          ]
+        }
+      }
+    }
+  }
+}

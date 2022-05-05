@@ -1,0 +1,87 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\cornflower_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "a641957c_cf9e_4e62_9bbb_3450ab5c79e7",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "mv::cornflower_feature"
+						},
+						"places_block": {
+							"name": "minecraft:red_flower",
+							"states": {
+								"flower_type": "cornflower"
+							}
+						},
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true,
+						"may_replace": [
+							"minecraft:air"
+						]
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv::cornflower_feature"
+							},
+							"places_block": {
+								"name": "minecraft:red_flower",
+								"states": {
+									"flower_type": "cornflower"
+								}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								"minecraft:air"
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv::cornflower_feature"
+						}
+					},
+					{
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "minecraft:red_flower",
+							"states": {
+								"flower_type": "cornflower"
+							}
+						}
+					},
+					{
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"data": "true",
+						"key": "enforce_placement_rules"
+					},
+					{
+						"key": "may_replace",
+						"is_minified": true,
+						"children": [
+							"minecraft:air"
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,378 @@
+{
+	"file_path": "C:\\Users\\Marco\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17 B\\loot_tables\\entities\\blazebasalto.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "eed1e038_781a_4a9c_b6f5_d958e5b64d77",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "tt:basalt_rod",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "killed_by_player_or_pets"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "tt:basalt_rod",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "tt:basalt_rod",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "tt:basalt_rod",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "tt:basalt_rod",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "tt:basalt_rod",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"data": "tt:basalt_rod",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "tt:basalt_rod",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "tt:basalt_rod",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 0,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "looting_enchant",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "tt:basalt_rod",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "conditions",
+								"children": [
+									{
+										"open": [
+											{
+												"condition": "killed_by_player_or_pets"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "killed_by_player_or_pets"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

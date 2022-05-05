@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:titanium_leggings",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 12,
+				"slot": "armor_legs"
+			},
+			"minecraft:durability": {
+				"max_durability": 384,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:titanium_leggings",
+							"sp:titanium_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},//MCPEDL:SorYPMod
+			"minecraft:icon": {
+				"texture": "sp_titanium_leggings"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.17
+			},
+			"minecraft:display_name": {
+				"value": "Titanium Leggings"
+			},
+			"minecraft:render_offsets": "leggings",
+			"minecraft:armor": {
+				"protection": 5
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			}
+		},
+		"events": {}
+	}
+}

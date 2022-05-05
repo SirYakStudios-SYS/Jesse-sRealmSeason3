@@ -1,0 +1,23 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.17.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "mv:forest_and_savanna_foliage_patch_feature"
+		},
+		"replaceable_blocks": [
+			"minecraft:grass"
+		],
+		"ground_block": "minecraft:grass",
+		"vegetation_feature": "mv:weighted_random_forest_and_savanna_foliage_feature",
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 5,
+		"vegetation_chance": 0.08,
+		"horizontal_radius": {
+			"range_min": 5,
+			"range_max": 7
+		},
+		"extra_edge_column_chance": 1
+	}
+}

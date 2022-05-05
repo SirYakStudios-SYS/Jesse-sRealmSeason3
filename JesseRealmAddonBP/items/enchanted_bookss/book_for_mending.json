@@ -1,0 +1,37 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:book_for_mending",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:foil": true,
+			"minecraft:icon": {
+				"texture": "book_enchanted"
+			},
+			"minecraft:display_name": {
+				"value": "§eEnchanted Book (Mending) \n§7interact to get the Book!"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "givebook"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.enchantedBook"
+			}
+		},
+		"events": {
+			"givebook": {
+				"run_command": {
+					"command": [
+						"structure load mystructure:mending ~ ~ ~"
+					]
+				},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

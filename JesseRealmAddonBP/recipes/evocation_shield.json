@@ -1,0 +1,28 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "evocation:shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#L#",
+			"L#L",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"L": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"result": {
+			"item": "evocation:shield"
+		}
+	}
+}

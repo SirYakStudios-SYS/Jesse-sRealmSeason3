@@ -1,0 +1,65 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:zirconium_ore"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "zirconium_ore"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:on_player_destroyed": {
+				"condition": "query.get_equipped_item_name=='diamond_pickaxe'||query.get_equipped_item_name=='netherite_pickaxe'||query.get_equipped_item_name=='iron_pickaxe'||query.equipped_item_any_tag('slot.weapon.mainhand','is_pickaxe_costum')",
+				"event": "pick"
+			},
+			"minecraft:loot": "empty",
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.ore",
+				"category": "nature"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"pick": {
+				"spawn_loot": {
+					"table": "loot_tables/zirconium_drop.json"
+				},
+				"run_command": {
+					"command": [
+						"summon v:ore_item_deleter"
+					]
+				}
+			}
+		}
+	}
+}

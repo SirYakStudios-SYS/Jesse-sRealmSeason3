@@ -1,0 +1,326 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\weighted_random_flowers_forests_vegetation_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "595b02c1_7020_452e_a7c8_d422bafb3146",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "mv:weighted_random_flowers_forests_vegetation_feature"
+						},
+						"features": [
+							[
+								"mv:tulip_bush_feature",
+								1
+							],
+							[
+								"mv:sun_blossom_feature",
+								1
+							],
+							[
+								"mv:red_flaute_feature",
+								1
+							],
+							[
+								"mv:light_pink_mushroom_feature",
+								1
+							],
+							[
+								"mv:light_red_mushroom_feature",
+								1
+							],
+							[
+								"mv:toadshroom_feature",
+								1
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:weighted_random_flowers_forests_vegetation_feature"
+							},
+							"features": [
+								[
+									"mv:tulip_bush_feature",
+									1
+								],
+								[
+									"mv:sun_blossom_feature",
+									1
+								],
+								[
+									"mv:red_flaute_feature",
+									1
+								],
+								[
+									"mv:light_pink_mushroom_feature",
+									1
+								],
+								[
+									"mv:light_red_mushroom_feature",
+									1
+								],
+								[
+									"mv:toadshroom_feature",
+									1
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:weighted_random_flowers_forests_vegetation_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:weighted_random_flowers_forests_vegetation_feature"
+							},
+							"features": [
+								[
+									"mv:tulip_bush_feature",
+									1
+								],
+								[
+									"mv:sun_blossom_feature",
+									1
+								],
+								[
+									"mv:red_flaute_feature",
+									1
+								],
+								[
+									"mv:light_pink_mushroom_feature",
+									1
+								],
+								[
+									"mv:light_red_mushroom_feature",
+									1
+								],
+								[
+									"mv:toadshroom_feature",
+									1
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"mv:tulip_bush_feature",
+										1
+									],
+									[
+										"mv:sun_blossom_feature",
+										1
+									],
+									[
+										"mv:red_flaute_feature",
+										1
+									],
+									[
+										"mv:light_pink_mushroom_feature",
+										1
+									],
+									[
+										"mv:light_red_mushroom_feature",
+										1
+									],
+									[
+										"mv:toadshroom_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:tulip_bush_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:tulip_bush_feature",
+										1
+									],
+									[
+										"mv:sun_blossom_feature",
+										1
+									],
+									[
+										"mv:red_flaute_feature",
+										1
+									],
+									[
+										"mv:light_pink_mushroom_feature",
+										1
+									],
+									[
+										"mv:light_red_mushroom_feature",
+										1
+									],
+									[
+										"mv:toadshroom_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:sun_blossom_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:tulip_bush_feature",
+										1
+									],
+									[
+										"mv:sun_blossom_feature",
+										1
+									],
+									[
+										"mv:red_flaute_feature",
+										1
+									],
+									[
+										"mv:light_pink_mushroom_feature",
+										1
+									],
+									[
+										"mv:light_red_mushroom_feature",
+										1
+									],
+									[
+										"mv:toadshroom_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:red_flaute_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:tulip_bush_feature",
+										1
+									],
+									[
+										"mv:sun_blossom_feature",
+										1
+									],
+									[
+										"mv:red_flaute_feature",
+										1
+									],
+									[
+										"mv:light_pink_mushroom_feature",
+										1
+									],
+									[
+										"mv:light_red_mushroom_feature",
+										1
+									],
+									[
+										"mv:toadshroom_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:light_pink_mushroom_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:tulip_bush_feature",
+										1
+									],
+									[
+										"mv:sun_blossom_feature",
+										1
+									],
+									[
+										"mv:red_flaute_feature",
+										1
+									],
+									[
+										"mv:light_pink_mushroom_feature",
+										1
+									],
+									[
+										"mv:light_red_mushroom_feature",
+										1
+									],
+									[
+										"mv:toadshroom_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:light_red_mushroom_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:tulip_bush_feature",
+										1
+									],
+									[
+										"mv:sun_blossom_feature",
+										1
+									],
+									[
+										"mv:red_flaute_feature",
+										1
+									],
+									[
+										"mv:light_pink_mushroom_feature",
+										1
+									],
+									[
+										"mv:light_red_mushroom_feature",
+										1
+									],
+									[
+										"mv:toadshroom_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:toadshroom_feature",
+									1
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

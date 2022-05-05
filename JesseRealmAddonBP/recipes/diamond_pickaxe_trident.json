@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "new:diamond_pickaxe_trident"
+    },
+    "tags": ["trident_table"],
+    "pattern": [
+      "   ",
+      "PPC",
+      "   "
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:prismarine_shard"
+      },
+      "C": {
+        "item": "new:diamond_pickaxe_trident_edge"
+      }
+    },
+    "result": {
+      "item": "new:diamond_pickaxe_trident"
+    }
+  }
+}

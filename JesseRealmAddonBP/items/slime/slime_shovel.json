@@ -1,0 +1,144 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:slime_shovel"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 85,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},//SorYPMod
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 5,
+			"minecraft:enchantable": {
+				"value": 25,
+				"slot": "shovel"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:slime_shovel",
+							"minecraft:slime_ball"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "tp"
+				}
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+						},
+						"speed": 5,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 5,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 5,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],//SorYPMod
+				"on_dig": {
+					"event": "dmg"
+				}
+			},
+			"tag:minecraft:is_shovel": {},
+			"minecraft:icon": {
+				"texture": "slime_shovel"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.shovel"
+			},
+			"minecraft:display_name": {
+				"value": "Slime Shovel"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dmg_sound"
+				},
+				"on_not_hurt_entity": {
+					"event": "dmg"
+				},//SorYPMod
+				"on_hit_block": {
+					"event": "dmg"
+				}
+			}
+		},
+		"events": {
+			"dmg": {
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "self"
+				}
+			},
+			"tp": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 8,
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tp @e[type=item,r=25] ~ ~1 ~"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound mob.slime.jump @s ~ ~ ~"
+							]
+						}
+					}
+				]
+			},
+			"dmg_sound": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound mob.slime.jump @s ~ ~ ~"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

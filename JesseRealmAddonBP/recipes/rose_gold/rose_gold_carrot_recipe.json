@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:rose_gold_carrot_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:rose_gold_nugget"
+			},
+			"X": {
+				"item": "minecraft:carrot"
+			}
+		},
+		"result": {
+			"item": "m:rose_gold_carrot",
+			"data": 0
+		}
+	}
+}

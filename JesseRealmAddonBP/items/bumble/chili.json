@@ -1,0 +1,49 @@
+
+
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:chili"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.miscFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:chili"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:chili"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "good",
+        "can_always_eat": false,
+		"using_converts_to": "bowl",
+		"on_consume": {
+			"event": "on_consume",
+			"target": "self"
+		}      
+	  }
+	},
+	"events": {
+	  "on_consume": {
+		"add_mob_effect": {
+			"effect": "speed",
+			"target": "holder",
+			"duration": 5,
+			"amplifier": 2
+		}
+	  }
+    }
+  }
+}		

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "vp_crimson:shield",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Crimson Shield"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "apple"
+			}, 
+			"minecraft:enchantable": {
+				"slot": "shield",
+				"value": 30
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:creative_category": {
+				"parent": "shield"
+			},
+			"minecraft:durability": {
+				"max_durability": 337
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,287 @@
+{
+  "format_version": "1.10.0",
+  "geometry.pa_axolotlu": {
+    "texturewidth": 48,
+    "textureheight": 48,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 3,
+    "visible_bounds_offset": [
+      0,
+      0.5,
+      0
+    ],
+    "bones": [
+      {
+        "name": "snake",
+        "pivot": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "name": "bone",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -3.0,
+              1.0,
+              -4.0
+            ],
+            "size": [
+              6.0,
+              3.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              0
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake",
+        "rotation": [
+          -11.11803,
+          2.11217,
+          0.67419
+        ]
+      },
+      {
+        "name": "bone2",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -3.0,
+              0.0,
+              -4.0
+            ],
+            "size": [
+              6.0,
+              1.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              11
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake"
+      },
+      {
+        "name": "bone3",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "parent": "snake"
+      },
+      {
+        "name": "bone4",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -1.29022,
+              0.0,
+              3.88712
+            ],
+            "size": [
+              5.0,
+              3.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              20
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake"
+      },
+      {
+        "name": "bone5",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -0.93065,
+              0.0,
+              10.87748
+            ],
+            "size": [
+              5.0,
+              3.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              20
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake",
+        "rotation": [
+          0,
+          7.5,
+          0
+        ]
+      },
+      {
+        "name": "bone6",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -0.75089,
+              0.0,
+              17.88443
+            ],
+            "size": [
+              5.0,
+              3.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              20
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake",
+        "rotation": [
+          0,
+          7.5,
+          0
+        ]
+      },
+      {
+        "name": "bone7",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -0.93065,
+              0.0,
+              24.87748
+            ],
+            "size": [
+              5.0,
+              3.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              20
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake",
+        "rotation": [
+          0,
+          7.5,
+          0
+        ]
+      },
+      {
+        "name": "bone8",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -0.75089,
+              0.0,
+              31.88443
+            ],
+            "size": [
+              4.0,
+              2.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              31
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake",
+        "rotation": [
+          0,
+          7.5,
+          0
+        ]
+      },
+      {
+        "name": "bone9",
+        "pivot": [
+          0,
+          1,
+          4
+        ],
+        "cubes": [
+          {
+            "origin": [
+              0.06935,
+              0.0,
+              38.87748
+            ],
+            "size": [
+              3.0,
+              1.0,
+              8.0
+            ],
+            "uv": [
+              24,
+              33
+            ],
+            "inflate": 0
+          }
+        ],
+        "parent": "snake",
+        "rotation": [
+          0,
+          7.5,
+          0
+        ]
+      }
+    ]
+  }
+}

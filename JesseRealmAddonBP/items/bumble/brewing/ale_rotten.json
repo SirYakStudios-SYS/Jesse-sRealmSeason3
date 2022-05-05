@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bumble:ale_rotten",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "bumble:ale"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:ale"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			},
+			"minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"can_always_eat": true,
+				"nutrition": -4,
+				"saturation_modifier": "low",
+				"using_converts_to": "glass_bottle",
+				"on_consume": {
+					"event": "on_consume",
+					"target": "self"
+				}
+			},
+			"minecraft:use_animation": "drink",
+			"minecraft:max_stack_size": 8,
+			"minecraft:allow_off_hand": false,
+			"minecraft:foil": false,
+			"minecraft:render_offsets": "miscellaneous"
+		},
+		"events": {
+			"on_consume": {
+				"sequence": [{
+					"add_mob_effect": {
+						"effect": "nausea",
+						"duration": 15,
+						"amplifier": 1,
+						"target": "holder"
+					}
+				},
+				{
+					"add_mob_effect": {
+						"effect": "weakness",
+						"duration": 20,
+						"amplifier": 1,
+						"target": "holder"
+					}
+				},
+				{
+					"add_mob_effect": {
+						"effect": "slowness",
+						"duration": 25,
+						"amplifier": 1,
+						"target": "holder"
+					}
+				}]
+			}
+		}
+	}
+}

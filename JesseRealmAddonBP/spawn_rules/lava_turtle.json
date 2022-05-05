@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "nether:lava_turtle",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+			    "minecraft:spawns_underground": {},
+				"minecraft:difficulty_filter": {
+					"min": "peaceful",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 75
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 2
+				},
+				"minecraft:biome_filter": {
+				    "any_of": [
+				    	{
+				     		"test": "has_biome_tag",
+				    		"operator": "==",
+				    		"value": "netherwart_forest"
+				    	},
+				    	{
+				    		"test": "has_biome_tag",
+				    		"operator": "==",
+				    		"value": "nether_wastes"
+				    	}
+				    ]
+			    },
+				"minecraft:spawns_on_block_filter": [
+					"nether:lava_swamp_moss_block",
+					"nether:lava_swamp_sprout",
+					"nether:nether_reeds"
+				]
+			}
+		]
+	}
+}

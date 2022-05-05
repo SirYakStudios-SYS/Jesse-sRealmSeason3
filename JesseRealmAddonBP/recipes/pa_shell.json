@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shell_e513g989"
+    },
+    "tags": [ 
+      "crafting_table" 
+    ],
+    "group": "wooden_button",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "pa:shell_block"
+      }
+    },
+    "result": {
+      "item": "pa:shell",
+      "count": 9
+    }
+  }
+}

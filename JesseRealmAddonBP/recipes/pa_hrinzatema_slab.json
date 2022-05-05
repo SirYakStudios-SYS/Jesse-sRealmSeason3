@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hrinzatema_slab_752e4168"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:hrinzatema_fence",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:hrinzatema_slab",
+      "count": 1
+    }
+  }
+}

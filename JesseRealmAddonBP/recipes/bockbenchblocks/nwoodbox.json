@@ -1,0 +1,31 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:wooden_box"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#O#",
+			"# #",
+			"#O#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks"
+			},
+			"O": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:wooden_box",
+				"count": 1
+			}
+		]
+	}
+}

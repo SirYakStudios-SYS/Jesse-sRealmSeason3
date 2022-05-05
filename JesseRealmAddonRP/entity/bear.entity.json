@@ -1,0 +1,40 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mv:bear",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"look_for_honey": "textures/entity/bear/bear",
+				"hunger_timer": "textures/entity/bear/bear_honey"
+			},
+			"geometry": {
+				"default": "geometry.bear"
+			},
+			"animations": {
+				"walk": "animation.bear.walk",
+				"baby_transform": "animation.bear.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.ground_speed > 0.0"
+					},
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.bear"
+			],
+			"spawn_egg": {
+				"base_color": "#A25312",
+				"overlay_color": "#492406"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:bone_fish",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "bone_fish",
+
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

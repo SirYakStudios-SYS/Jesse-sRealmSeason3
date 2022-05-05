@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft:netherite_pickaxe_trident_edge"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "priority": 2,
+    "ingredients": [
+      {
+        "item": "new:diamond_pickaxe_trident_edge"
+      },
+      {
+        "item": "minecraft:netherite_ingot"
+      }
+    ],
+    "result": {
+      "item": "new:netherite_pickaxe_trident_edge",
+      "count": 1
+    }
+  }
+}

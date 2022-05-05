@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "icestone_slab_8874234b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      " AA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:icestone_stair",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:icestone_slab",
+      "count": 1
+    }
+  }
+}

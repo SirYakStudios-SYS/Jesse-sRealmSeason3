@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:brown_stonebrick_mossy_slab_0"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "minecraft:stone_slab4",
+               "data": 0
+           }
+       ],
+       "result": {
+           "item": "stonebrick:brown_stonebrick_mossy_slab_0",
+           "count": 1
+       }
+   }
+}

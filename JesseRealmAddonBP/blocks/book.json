@@ -1,0 +1,71 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "guardian:book",
+            "properties": {
+                "facing:direction": [ 1, 2, 3, 4, 5, 6 ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "book",
+                     "render_method": "alpha_test"
+                }
+            },
+			"minecraft:entity_collision": {
+                "origin": [ -3, 0, -5 ],
+                "size": [ 6, 1, 10 ]
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -3, 0, -5 ],
+                "size": [ 6, 1, 10 ]
+            },
+            "minecraft:loot": "loot_tables/blocks/bookblock.json",
+            "minecraft:geometry": "geometry.book",
+            "minecraft:destroy_time": 0.25,
+            "minecraft:on_player_placing": {
+                "event": "placement_state"
+            },
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:block_light_absorption": 0
+        },
+        "events": {
+            "placement_state": {
+                "set_block_property": {
+                    "facing:direction": "(query.cardinal_facing_2d)"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('facing:direction') == 2",
+                "components": {
+                    "minecraft:rotation": [ 0, 0, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('facing:direction') == 3",
+                "components": {
+                    "minecraft:rotation": [ 0, 180, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('facing:direction') == 4",
+                "components": {
+                    "minecraft:rotation": [ 0, 90, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('facing:direction') == 5",
+                "components": {
+                    "minecraft:rotation": [ 0, 270, 0 ]
+                }
+            }
+        ]
+    }
+}

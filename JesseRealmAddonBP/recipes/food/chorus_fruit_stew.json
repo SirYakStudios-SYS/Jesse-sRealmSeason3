@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:chorus_fruit_stew"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:chorus_fruit",
+        "count": 3
+      }
+    ],
+    "result": {
+      "item": "guardian:chorus_fruit_stew"
+    }
+  }
+}

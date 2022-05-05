@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ojfnv_12b91f1d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:darknet",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:ojfnv",
+      "count": 1
+    }
+  }
+}

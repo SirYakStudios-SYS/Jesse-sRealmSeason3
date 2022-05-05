@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:mollystatue2"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "mollystatue2item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:mollystatue2"
+        }
+      }
+    }
+  }

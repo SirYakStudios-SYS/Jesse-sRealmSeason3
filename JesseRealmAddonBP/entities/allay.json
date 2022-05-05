@@ -1,0 +1,1328 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mv:allay",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": true
+		},
+		"component_groups": {
+			"minecraft:search_noteblock": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 1,
+					"search_range": 16,
+					"search_height": 16,
+					"tick_interval": 1,
+					"goal_radius": 1,
+					"target_blocks": [
+						"minecraft:noteblock"
+					],
+					"on_reach": [
+						{
+							"event": "minecraft:on_reach_noteblock"
+						}
+					]
+				},
+				"minecraft:tameable": {
+					"probability": 0.33,
+					"tame_items": [
+						"minecraft:cookie"
+					],
+					"tame_event": {
+						"event": "minecraft:on_tame",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:tamed_allay": {
+				"minecraft:is_tamed": {},
+				"minecraft:timer": {
+					"time": 5,
+					"time_down_event": {
+						"event": "minecraft:carry_items_following_owner",
+						"target": "self"
+					}
+				},
+				"minecraft:behavior.follow_owner": {
+					"priority": 1,
+					"speed_multiplier": 1.4,
+					"start_distance": 10,
+					"stop_distance": 2
+				}
+			},
+			"minecraft:carry_items": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": 20,
+					"time_down_event": {
+						"event": "minecraft:search_for_noteblocks",
+						"target": "self"
+					}
+				},
+				"minecraft:equip_item": {},
+				"minecraft:behavior.equip_item": {
+					"priority": 2
+				},
+				"minecraft:behavior.pickup_items": {
+					"priority": 2,
+					"max_dist": 20,
+					"goal_radius": 2,
+					"speed_multiplier": 1,
+					"track_target": true
+				},
+				"minecraft:shareables": {
+					"all_items": true,
+					"all_items_max_amount": 1,
+					"items": [
+						{
+							"item": "minecraft:apple",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:appleEnchanted",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:baked_potato",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:beef",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:beetroot",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:beetroot_soup",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:bread",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:carrot",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:chicken",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:chorus_fruit",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:clownfish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_beef",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_chicken",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_fish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_porkchop",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_rabbit",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_salmon",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cookie",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:dried_kelp",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:fish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:golden_apple",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:golden_carrot",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:melon",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:mushroom_stew",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:muttonCooked",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:muttonRaw",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:poisonous_potato",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:porkchop",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:potato",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:pufferfish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:pumpkin_pie",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:rabbit",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:rabbit_stew",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:rotten_flesh",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:salmon",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:spider_eye",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:sweet_berries",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:glow_berries",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:suspicious_stew",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:netherite_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:stone_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:wooden_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:netherite_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:turtle_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 6
+						},
+						{
+							"item": "minecraft:skull:0",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 7
+						},
+						{
+							"item": "minecraft:skull:1",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 7
+						},
+						{
+							"item": "minecraft:carved_pumpkin",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 7
+						},
+						{
+							"item": "minecraft:netherite_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:netherite_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:netherite_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						}
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"event": "minecraft:drop_items"
+							},
+							"interact_text": "action.interact.grab_item"
+						}
+					]
+				}
+			},
+			"minecraft:track_to_noteblock": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 0,
+					"search_range": 32,
+					"search_height": 32,
+					"tick_interval": 1,
+					"goal_radius": 1,
+					"target_blocks": [
+						"minecraft:noteblock"
+					],
+					"on_reach": [
+						{
+							"event": "minecraft:drop_items"
+						}
+					]
+				}
+			},
+			"minecraft:drop_items": {
+				"minecraft:transformation": {
+					"into": "mv:allay<delay_for_items>",
+					"drop_equipment": true
+				}
+			},
+			"minecraft:carry_items_when_following_owner": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": 20,
+					"time_down_event": {
+						"event": "minecraft:search_for_player",
+						"target": "self"
+					}
+				},
+				"minecraft:equip_item": {},
+				"minecraft:behavior.equip_item": {
+					"priority": 1
+				},
+				"minecraft:behavior.pickup_items": {
+					"priority": 1,
+					"max_dist": 20,
+					"goal_radius": 2,
+					"speed_multiplier": 1,
+					"track_target": true
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"event": "minecraft:drop_items_when_following_owner",
+								"target": "self"
+							},
+							"interact_text": "action.interact.grab_item"
+						}
+					]
+				},
+				"minecraft:shareables": {
+					"all_items": true,
+					"all_items_max_amount": 1,
+					"items": [
+						{
+							"item": "minecraft:apple",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:appleEnchanted",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:baked_potato",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:beef",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:beetroot",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:beetroot_soup",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:bread",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:carrot",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:chicken",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:chorus_fruit",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:clownfish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_beef",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_chicken",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_fish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_porkchop",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_rabbit",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cooked_salmon",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:cookie",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:dried_kelp",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:fish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:golden_apple",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:golden_carrot",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:melon",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:mushroom_stew",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:muttonCooked",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:muttonRaw",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:poisonous_potato",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:porkchop",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:potato",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:pufferfish",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:pumpkin_pie",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:rabbit",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:rabbit_stew",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:rotten_flesh",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:salmon",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:spider_eye",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:sweet_berries",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:glow_berries",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:suspicious_stew",
+							"priority": 0,
+							"max_amount": 4
+						},
+						{
+							"item": "minecraft:netherite_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:stone_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:wooden_sword",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:netherite_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:turtle_helmet",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 6
+						},
+						{
+							"item": "minecraft:skull:0",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 7
+						},
+						{
+							"item": "minecraft:skull:1",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 7
+						},
+						{
+							"item": "minecraft:carved_pumpkin",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 7
+						},
+						{
+							"item": "minecraft:netherite_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_chestplate",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:netherite_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_leggings",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						},
+						{
+							"item": "minecraft:netherite_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 0
+						},
+						{
+							"item": "minecraft:diamond_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 1
+						},
+						{
+							"item": "minecraft:iron_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 2
+						},
+						{
+							"item": "minecraft:chainmail_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 3
+						},
+						{
+							"item": "minecraft:golden_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 4
+						},
+						{
+							"item": "minecraft:leather_boots",
+							"want_amount": 1,
+							"surplus_amount": 1,
+							"priority": 5
+						}
+					]
+				},
+				"minecraft:is_tamed": {}
+			},
+			"minecraft:drop_items_and_follow_owner": {
+				"minecraft:transformation": {
+					"into": "mv:allay<delay_for_items_on_follow_owner>",
+					"drop_equipment": true
+				}
+			},
+			"minecraft:search_for_owner": {
+				"minecraft:is_tamed": {},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"event": "minecraft:drop_items_when_following_owner",
+								"target": "self"
+							},
+							"interact_text": "action.interact.grab_item"
+						}
+					]
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"max_dist": 70
+						}
+					],
+					"must_see": true
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 1
+				},
+				"minecraft:behavior.follow_owner": {
+					"priority": 1,
+					"speed_multiplier": 1.4,
+					"start_distance": 10,
+					"stop_distance": 2
+				},
+				"minecraft:follow_range": {
+					"value": 1024
+				}
+			},
+			"delay_for_items": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": 5,
+					"time_down_event": {
+						"event": "minecraft:end_delay_for_items"
+					}
+				},
+				"minecraft:is_saddled": {}
+			},
+			"delay_for_items_on_follow_owner": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": 5,
+					"time_down_event": {
+						"event": "minecraft:end_delay_for_items_on_following_owner",
+						"target": "self"
+					}
+				},
+				"minecraft:is_saddled": {},
+				"minecraft:is_tamed": {},
+				"minecraft:behavior.follow_owner": {
+					"priority": 1,
+					"speed_multiplier": 1.4,
+					"start_distance": 10,
+					"stop_distance": 2
+				}
+			}
+		},
+		"components": {
+			"minecraft:home": {
+				"restriction_radius": 22,
+				"home_block_list": [
+					"minecraft:noteblock"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:type_family": {
+				"family": [
+					"allay"
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.7
+			},
+			"minecraft:health": {
+				"value": 7,
+				"max": 7
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": false
+				}
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 1.5
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1.5,
+				"target_dist": 0,
+				"track_target": true
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 4,
+				"speed_multiplier": 1,
+				"items": [
+					"torch"
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 8
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:movement.hover": {},
+			"minecraft:navigation.hover": {
+				"can_path_over_water": true,
+				"can_sink": false,
+				"can_pass_doors": false,
+				"can_path_from_air": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true,
+				"avoid_sun": false
+			},
+			"minecraft:flying_speed": {
+				"value": 0.15
+			},
+			"minecraft:movement": {
+				"value": 0.3
+			},
+			"minecraft:follow_range": {
+				"value": 1024
+			},
+			"minecraft:behavior.float": {
+				"priority": 19
+			},
+			"minecraft:behavior.random_hover": {
+				"priority": 12,
+				"xz_dist": 8,
+				"y_dist": 8,
+				"y_offset": -1,
+				"interval": 1,
+				"hover_height": [
+					1,
+					4
+				]
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 1,
+				"max_dist": 16,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "vex"
+								}
+							]
+						},
+						"max_dist": 16
+					}
+				]
+			},
+			"minecraft:behavior.look_at_target": {
+				"priority": 1,
+				"look_time": 3,
+				"probability": 100,
+				"look_distance": 10
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"minecraft:search_noteblock"
+					]
+				}
+			},
+			"minecraft:on_tame": {
+				"add": {
+					"component_groups": [
+						"minecraft:tamed_allay"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"mv:search_noteblock"
+					]
+				}
+			},
+			"minecraft:carry_items": {
+				"add": {
+					"component_groups": [
+						"minecraft:carry_items"
+					]
+				}
+			},
+			"minecraft:carry_items_following_owner": {
+				"add": {
+					"component_groups": [
+						"minecraft:carry_items_when_following_owner"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:tamed_allay",
+						"minecraft:search_for_owner"
+					]
+				}
+			},
+			"minecraft:search_for_player": {
+				"add": {
+					"component_groups": [
+						"minecraft:search_for_owner"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:carry_items_when_following_owner"
+					]
+				}
+			},
+			"minecraft:on_reach_noteblock": {
+				"remove": {
+					"component_groups": [
+						"mv:search_noteblock"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"seek_items"
+					]
+				}
+			},
+			"minecraft:drop_items_when_following_owner": {
+				"add": {
+					"component_groups": [
+						"minecraft:drop_items_and_follow_owner"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:search_for_owner",
+						"minecraft:carry_items_when_following_owner"
+					]
+				}
+			},
+			"minecraft:drop_items": {
+				"add": {
+					"component_groups": [
+						"minecraft:drop_items"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:track_to_noteblock",
+						"minecraft:carry_items"
+					]
+				}
+			},
+			"minecraft:search_for_noteblocks": {
+				"add": {
+					"component_groups": [
+						"minecraft:track_to_noteblock"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:carry_items"
+					]
+				}
+			},
+			"minecraft:end_delay_for_items_on_following_owner": {
+				"remove": {
+					"component_groups": [
+						"minecraft:search_for_owner",
+						"minecraft:tamed_allay",
+						"delay_for_items_on_follow_owner"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:tamed_allay"
+					]
+				}
+			},
+			"minecraft:end_delay_for_items": {
+				"remove": {
+					"component_groups": [
+						"delay_for_items"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:carry_items"
+					]
+				}
+			},
+			"minecraft:delay_for_items": {
+				"add": {
+					"component_groups": [
+						"delay_for_items"
+					]
+				}
+			},
+			"minecraft:delay_for_items_on_follow_owner": {
+				"add": {
+					"component_groups": [
+						"delay_for_items_on_follow_owner"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:search_for_owner"
+					]
+				}
+			}
+		}
+	}
+}

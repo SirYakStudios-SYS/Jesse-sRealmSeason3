@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "m:head_controller",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:instant_despawn": {},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+give @s viking_diamond_shield:shield

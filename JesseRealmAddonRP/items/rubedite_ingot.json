@@ -1,0 +1,14 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mc:rubedite_ingot",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rubedite_ingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

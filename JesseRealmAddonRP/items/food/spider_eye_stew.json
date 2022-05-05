@@ -1,0 +1,14 @@
+{
+	"format_version": 1.10,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:spider_eye_stew",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "spider_eye_stew",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

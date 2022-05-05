@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:cesium_tube_aluminum"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:aluminum_ingot"
+			},
+			"#": {
+				"item": "m:cesium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:aluminum_cesium_tube",
+				"count": 3
+			}
+		]
+	}
+}

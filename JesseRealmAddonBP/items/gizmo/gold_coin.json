@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:gold_coin",
+	 "category": "items"
+    },
+
+    "components": {}
+  }
+}

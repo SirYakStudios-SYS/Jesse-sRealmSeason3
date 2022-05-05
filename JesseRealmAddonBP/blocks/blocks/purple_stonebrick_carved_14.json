@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "stonebrick:purple_stonebrick_carved_14",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purple_stonebrick_carved_14",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destroy_time": 1.2,
+			"minecraft:explosion_resistance": 6.0,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.purpleStonebrickCarved"
+			},
+			"minecraft:block_light_absorption": 15,
+			"minecraft:map_color": "#1a237e",
+			"minecraft:block_light_emission": 0.0
+		}
+	}
+}

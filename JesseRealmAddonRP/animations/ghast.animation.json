@@ -1,0 +1,91 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ghast.move1": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"tentacles_3": {
+					"rotation": {
+						"0.0": [
+							"math.sin(query.life_time * 360.0 + 172) * 11.5 + 23",
+							"math.sin(query.life_time * 360.0 + 172) * 11.5 + 23",
+							"math.sin(query.life_time * 360.0 + 172) * 11.5 + 23"
+						],
+						"1.0": [
+							0,
+							0,
+							0
+						],
+						"2.0": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"tentacles_4": {
+					"rotation": {
+						"0.0": [
+							"math.sin(query.life_time * 360.0 + 229) * 11.5 + 23",
+							"math.sin(query.life_time * 360.0 + 229) * 11.5 + 23",
+							"math.sin(query.life_time * 360.0 + 229) * 11.5 + 23"
+						],
+						"1.0": [
+							0,
+							0,
+							0
+						],
+						"2.0": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"tentacles_6": {
+					"rotation": {
+						"0.0": [
+							"math.sin(query.life_time * 360.0 + 344) * 11.5 + 23",
+							"math.sin(query.life_time * 360.0 + 344) * 11.5 + 23",
+							"math.sin(query.life_time * 360.0 + 344) * 11.5 + 23"
+						],
+						"1.0": [
+							0,
+							0,
+							0
+						],
+						"2.0": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"bone": {
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"1.0": [
+							3,
+							3,
+							3
+						],
+						"2.0": [
+							4,
+							4,
+							4
+						]
+					}
+				}
+			}
+		},
+		"animation.ghast.scale1": {
+			"loop": true,
+			"animation_length": 11
+		}
+	}
+}

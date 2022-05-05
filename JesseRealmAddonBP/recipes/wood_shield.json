@@ -1,0 +1,25 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "log:shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"# #",
+			"###",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:log"
+			}
+		},
+		"result": {
+			"item": "log:shield"
+		}
+	}
+}

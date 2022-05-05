@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:ris_leather",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:ris_leather",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

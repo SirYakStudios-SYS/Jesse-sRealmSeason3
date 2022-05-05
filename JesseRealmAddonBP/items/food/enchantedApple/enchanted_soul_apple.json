@@ -1,0 +1,76 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:enchanted_soul_apple"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": true,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "sp_soul_apple"
+			},
+			"minecraft:display_name": {
+				"value": "§dEnchanted Soul Apple"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "wither",
+							"duration": 8,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "weakness",
+							"duration": 25,
+							"amplifier": 3,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "darkness",
+							"duration": 45,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "resistance",
+							"duration": 380,
+							"amplifier": 5,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "nausea",
+							"duration": 80,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:manganese_ingot_to_nugget"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:maganese_ingot"
+			}
+		],
+		"result": [
+			{
+				"item": "m:maganese_nugget",
+				"count": 9
+			}
+		]
+	}
+}

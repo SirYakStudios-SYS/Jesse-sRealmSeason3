@@ -1,0 +1,24 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:raw_aluminum_block_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:raw_aluminum"
+			}
+		},
+		"result": {
+			"item": "m:raw_aluminum_block"
+		}
+	}
+}

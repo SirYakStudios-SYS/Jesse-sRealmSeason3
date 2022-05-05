@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:soulstrider",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/soulstrider",
+				"saddled": "textures/entity/soulstrider",
+				"suffocated": "textures/entity/soulstrider",
+				"suffocated_saddled": "textures/entity/soulstrider"
+			},
+			"geometry": {
+				"default": "geometry.soulstrider"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+					"variable.speed = 85.9437;",
+					"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+					"variable.bristle_range_mod=1;",
+					"variable.bristle_speed_mod=1;"
+				],
+				"animate": [
+					"look_at_target",
+					"walk",
+					"bristle_flow"
+				]
+			},
+			"animations": {
+				"look_at_target": "animation.strider.look_at_target.default",
+				"walk": "animation.strider.walk",
+				"bristle_flow": "animation.strider.bristle_flow"
+			},
+			"render_controllers": [
+				"controller.render.strider"
+			],
+			"spawn_egg": {
+				"texture": "soulstrider"
+			}
+		}
+	}
+}

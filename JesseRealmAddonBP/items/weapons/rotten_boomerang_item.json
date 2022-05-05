@@ -1,0 +1,95 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nether:rotten_boomerang_item",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_duration": 0.01,
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 3150,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "flintsteel"
+			},
+            "minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:cooldown": {
+				"category": "rotten_boomerang",
+				"duration": 4
+			},
+			"minecraft:icon": {
+				"texture": "rotten_boomerang"
+			},
+			"minecraft:render_offsets": "tools",
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "nether:use",
+					"target": "self"
+				}
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "hit"
+				}
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "nether:undead_fragment"
+                        ],
+                        "repair_amount": 2100
+                    },
+                    {
+                        "items": [
+                            "minecraft:rotten_flesh",
+                            "minecraft:bone" 
+                        ],
+                        "repair_amount": 50
+                    }
+                ]
+            }
+		},
+		"events": {
+			"nether:use": {
+				"run_command": {
+					"command": [
+					    "playanimation @s animation.player.boomerang pose 3",
+					    "playsound random.bow @a[r=3]",
+						"tag @s add rotten_boomerang"
+					],
+					"target": "holder"
+				},
+				"shoot": {
+					"projectile": "nether:rotten_boomerang",
+					"launch_power": 1.5
+				},
+				"damage": {
+					"type": "magic",
+					"amount": 5
+				}
+			},
+			"hit": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 0,
+							"target": "self"
+						}
+					}
+				]
+			}
+		}
+	}
+}

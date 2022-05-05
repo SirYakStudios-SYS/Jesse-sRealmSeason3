@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:old_spider_eye"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "good",
+        "effects": [
+          {
+            "name": "wither",
+            "chance": 1.0,
+            "duration": 5,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

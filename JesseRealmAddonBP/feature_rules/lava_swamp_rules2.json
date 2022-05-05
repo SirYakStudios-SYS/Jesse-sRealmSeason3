@@ -1,0 +1,50 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "lava_swamp_rules2",
+			"places_feature": "lava_swamp_flora_patch"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "netherwart_forest"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "nether_wastes"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 2500,
+			"x": {
+				"extent": [
+					-32,
+					32
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					0,
+					40
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"extent": [
+					-32,
+					32
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

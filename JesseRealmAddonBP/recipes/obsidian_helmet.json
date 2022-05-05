@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "vatonage:obsidian_helmet"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "vatonage:obsidian_helmet"
+    }
+  }
+}

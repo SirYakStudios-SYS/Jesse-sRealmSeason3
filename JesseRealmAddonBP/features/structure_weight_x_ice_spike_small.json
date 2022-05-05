@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ice_spike_small"
+    },
+    "features": [
+      ["nicothekid:structure_x_ice_spike_small_01", 1],
+      ["nicothekid:structure_x_ice_spike_small_02", 1],
+      ["nicothekid:structure_x_ice_spike_small_03", 1],
+      ["nicothekid:structure_x_ice_spike_small_04", 1]
+    ]
+  }
+}

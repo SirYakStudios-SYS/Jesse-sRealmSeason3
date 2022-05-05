@@ -1,0 +1,382 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\allay.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "a2d6bdb5_dc49_4e93_bc51_e9f90339ce61",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:allay",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/allay/allay_transparent"
+							},
+							"geometry": {
+								"default": "geometry.allay"
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"base_color": "#53C3AE",
+								"overlay_color": "#255269"
+							},
+							"animations": {
+								"fly": "animation.allay.fly",
+								"grab_item": "animation.allay.grab_item"
+							},
+							"scripts": {
+								"animate": [
+									"fly",
+									{
+										"grab_item": "query.is_item_equipped"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:allay",
+								"materials": {
+									"default": "entity_emissive_alpha"
+								},
+								"textures": {
+									"default": "textures/entity/allay/allay_transparent"
+								},
+								"geometry": {
+									"default": "geometry.allay"
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"base_color": "#53C3AE",
+									"overlay_color": "#255269"
+								},
+								"animations": {
+									"fly": "animation.allay.fly",
+									"grab_item": "animation.allay.grab_item"
+								},
+								"scripts": {
+									"animate": [
+										"fly",
+										{
+											"grab_item": "query.is_item_equipped"
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:allay",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_emissive_alpha"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/allay/allay_transparent"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.allay"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#53C3AE",
+									"overlay_color": "#255269"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"fly": "animation.allay.fly",
+									"grab_item": "animation.allay.grab_item"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:allay",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/allay/allay_transparent"
+									},
+									"geometry": {
+										"default": "geometry.allay"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#53C3AE",
+										"overlay_color": "#255269"
+									},
+									"animations": {
+										"fly": "animation.allay.fly",
+										"grab_item": "animation.allay.grab_item"
+									},
+									"scripts": {
+										"animate": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"fly",
+												{
+													"grab_item": "query.is_item_equipped"
+												}
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"fly",
+											{
+												"grab_item": "query.is_item_equipped"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

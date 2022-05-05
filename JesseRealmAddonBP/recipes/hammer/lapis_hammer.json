@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:lapis_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:lapis_block"
+			},
+			"O": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"result": {
+			"item": "sp:lapis_hammer"
+		}
+	}
+}

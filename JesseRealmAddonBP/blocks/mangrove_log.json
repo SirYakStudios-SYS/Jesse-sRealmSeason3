@@ -1,0 +1,122 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:mangrove_log",
+			"properties": {
+				"mv:rotation": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Nature",
+				"group": "itemGroup.name.log"
+			},
+			"minecraft:destroy_time": 2,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:on_player_placing": {
+				"event": "mv:place_rotation",
+				"target": "self"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:rotation": [
+				0,
+				0,
+				0
+			],
+			"minecraft:explosion_resistance": 2,
+			"minecraft:breathability": "solid",
+			"minecraft:map_color": "#645B48",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mangrove_log_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "mangrove_log_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "mangrove_log_top",
+					"render_method": "opaque"
+				},
+				"side": {
+					"texture": "mangrove_log_side",
+					"render_method": "opaque"
+				}
+			},
+			"tag:wood": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('mv:rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('mv:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('mv:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"events": {
+			"mv:place_rotation": {
+				"set_block_property": {
+					"mv:rotation": "math.floor(query.cardinal_block_face_placed_on/2)"
+				}
+			}
+		}
+	}
+}

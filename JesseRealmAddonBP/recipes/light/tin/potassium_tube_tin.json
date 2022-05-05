@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:potassium_tube_tin"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:tin_ingot"
+			},
+			"#": {
+				"item": "m:potassium_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "m:tin_potassium_tube",
+				"count": 3
+			}
+		]
+	}
+}

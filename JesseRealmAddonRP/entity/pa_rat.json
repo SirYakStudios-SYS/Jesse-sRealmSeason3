@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:rat",
+      "materials": {
+        "default": "silverfish",
+        "body_layer": "silverfish_layers"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_rat"
+      },
+      "geometry": {
+        "default": "geometry.pa_rat"
+      },
+      "animations": {
+        "move": "animation.silverfish.move"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.silverfish.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.silverfish"
+      ],
+      "spawn_egg": {
+        "texture": "pa:rat",
+        "texture_index": 0
+      }
+    }
+  }
+}

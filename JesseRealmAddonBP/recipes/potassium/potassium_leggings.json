@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:potassium_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"+": {
+				"item": "m:potassium_block"
+			}
+		},
+		"pattern": [
+			"+++",
+			"+ +",
+			"+ +"
+		],
+		"result": [
+			{
+				"item": "m:potassium_leggings"
+			}
+		]
+	}
+}

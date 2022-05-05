@@ -1,0 +1,32 @@
+//bridge-file-version: #16
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:enderite_ingot"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			" O",
+			"###",
+			"YYY"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:ender_pearl"
+			},
+			"Y": {
+				"item": "minecraft:netherite_scrap"
+			},
+			"O": {
+				"item": "minecraft:ender_eye"
+			}
+		},
+		"result": {
+			"item": "sp:enderite_ingot",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:iron_block_chestplate",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:durability": {
+            "max_durability": 700,
+            "damage_chance": {
+               "min": 60,
+               "max": 100
+            }
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 12,
+            "slot": "armor_torso"
+         },
+         "minecraft:icon": {
+            "texture": "iron_block_chestplate"
+         },
+         "minecraft:render_offsets": "chestplates",
+         "minecraft:armor": {
+            "protection": 9
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.chest"
+         },
+         "minecraft:display_name": {
+            "value": "Iron Block Chestplate\n§99 Protection\n§6700 Durability"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.chestplate"
+         }
+      },
+      "events": {}
+   }
+}

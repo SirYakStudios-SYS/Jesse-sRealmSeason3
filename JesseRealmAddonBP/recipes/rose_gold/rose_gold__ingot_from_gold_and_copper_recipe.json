@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "m:rose_gold__ingot_from_gold_and_copper_recipe"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "m:copper_and_gold_ingot",
+		"output": "m:rose_gold_ingot"
+	}
+}

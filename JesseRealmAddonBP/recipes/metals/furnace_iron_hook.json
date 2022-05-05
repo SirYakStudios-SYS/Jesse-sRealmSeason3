@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:furnace_iron_hook"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "guardian:iron_hook",
+    "output": "minecraft:iron_nugget"
+  }
+  
+}

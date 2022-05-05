@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:forest_pocoh",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:forest_pocoh",
+      "minecraft:use_animation": "bow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

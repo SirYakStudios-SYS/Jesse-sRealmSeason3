@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "recipes_e5101f0d"
+    },
+    "tags": [
+      "brewing_stand"
+    ],
+    "output": "minecraft:potion_type:strong_poison",
+    "input": "minecraft:potion_type:water",
+    "reagent": "pa:jelly"
+  }
+}

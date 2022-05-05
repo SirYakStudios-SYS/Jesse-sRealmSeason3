@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:aluminum_nugget",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "aluminum_nugget"
+			},
+			"minecraft:display_name": {
+				"value": "Aluminum Nugget"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		}
+	}
+}

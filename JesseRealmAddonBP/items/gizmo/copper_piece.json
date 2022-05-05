@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:copper_piece",
+	 "category": "items"
+    },
+
+    "components": {}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "minecraft:roofed_tree_with_vines_feature"
+    },
+    "features": [
+      ["nicothekid:tree_v_dark_oak_x_roofed_tree", 100],
+      ["nicothekid:tree_v_dark_oak_x_roofed_tree_with_vines", 1],
+      ["nicothekid:tree_x_dark_oak_branched_tree", 25],
+      ["nicothekid:tree_x_dark_oak_cap_tree", 10],
+      ["nicothekid:tree_x_dark_oak_mega_branched_tree", 25],
+      ["nicothekid:tree_x_dark_oak_roofed_tree_01", 25],
+      ["nicothekid:tree_x_dark_oak_tall_tree", 25],
+      ["nicothekid:tree_x_oak_tall_n_roofed_tree", 5],
+      ["nicothekid:tree_x_dark_oak_tiny_tree", 10]
+    ]
+  }
+}

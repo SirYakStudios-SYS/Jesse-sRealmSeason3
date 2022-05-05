@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:axolotlstatue9",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/axolotlstatue9"
+        },
+        "geometry": {
+          "default": "geometry.axolotlstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "axolotlstatue9item"
+        }
+      }
+    }
+  }
+  

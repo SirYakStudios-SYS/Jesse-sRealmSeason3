@@ -1,0 +1,29 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:crystal_diamond_pickaxe"
+		},
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "m:cut_crystallized_diamond_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "m:crystal_diamond_hoe"
+			}
+		]
+	}
+}

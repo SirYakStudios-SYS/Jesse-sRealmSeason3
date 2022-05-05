@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_leviathan_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WX",
+			"X#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blaze_rod"
+			},
+			"W": {
+				"item": "minecraft:quartz"
+			},
+			"X": {
+				"item": "minecraft:quartz_block"
+			}
+		},
+		"result": {
+			"item": "sp:quartz_leviathan_axe"
+		}
+	}
+}

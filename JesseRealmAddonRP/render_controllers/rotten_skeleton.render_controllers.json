@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.rotten_skeleton": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [
+            "Geometry.lah",
+            "Geometry.ol",
+            "Geometry.oh",
+            "Geometry.head"
+          ] 
+        }
+      },
+      "geometry": "Array.geos[query.variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

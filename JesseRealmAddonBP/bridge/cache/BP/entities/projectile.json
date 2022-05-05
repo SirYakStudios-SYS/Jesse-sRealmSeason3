@@ -1,0 +1,829 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Lost Update\\entities\\button_press.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "cb72346d_9a81_4ebe_857a_6c4e96f4914c",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "mv:placeholder_projectile",
+							"runtime_identifier": "minecraft:arrow",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {
+							"despawn": {
+								"minecraft:instant_despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:timer": {
+								"looping": false,
+								"time": 3,
+								"time_down_event": {
+									"event": "despawn"
+								}
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:projectile": {
+								"on_hit": {
+									"impact_damage": {
+										"damage": [
+											0,
+											0
+										],
+										"knockback": false,
+										"semi_random_diff_damage": false,
+										"destroy_on_hit": true
+									},
+									"stick_in_ground": {
+										"shake_time": 0.35
+									},
+									"arrow_effect": {}
+								},
+								"power": 1.6,
+								"gravity": 0.05,
+								"uncertainty_base": 16,
+								"uncertainty_multiplier": 4,
+								"anchor": 1,
+								"should_bounce": true,
+								"offset": [
+									0,
+									0.5,
+									0
+								]
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": true
+							}
+						},
+						"events": {
+							"despawn": {
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:placeholder_projectile",
+								"runtime_identifier": "minecraft:arrow",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": 3,
+									"time_down_event": {
+										"event": "despawn"
+									}
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												0,
+												0
+											],
+											"knockback": false,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"stick_in_ground": {
+											"shake_time": 0.35
+										},
+										"arrow_effect": {}
+									},
+									"power": 1.6,
+									"gravity": 0.05,
+									"uncertainty_base": 16,
+									"uncertainty_multiplier": 4,
+									"anchor": 1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										0.5,
+										0
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:placeholder_projectile",
+							"runtime_identifier": "minecraft:arrow",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:placeholder_projectile",
+								"runtime_identifier": "minecraft:arrow",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": 3,
+									"time_down_event": {
+										"event": "despawn"
+									}
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												0,
+												0
+											],
+											"knockback": false,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"stick_in_ground": {
+											"shake_time": 0.35
+										},
+										"arrow_effect": {}
+									},
+									"power": 1.6,
+									"gravity": 0.05,
+									"uncertainty_base": 16,
+									"uncertainty_multiplier": 4,
+									"anchor": 1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										0.5,
+										0
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"minecraft:instant_despawn": {}
+									}
+								},
+								"key": "despawn",
+								"is_minified": true,
+								"children": {
+									"minecraft:instant_despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:placeholder_projectile",
+								"runtime_identifier": "minecraft:arrow",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": 3,
+									"time_down_event": {
+										"event": "despawn"
+									}
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												0,
+												0
+											],
+											"knockback": false,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"stick_in_ground": {
+											"shake_time": 0.35
+										},
+										"arrow_effect": {}
+									},
+									"power": 1.6,
+									"gravity": 0.05,
+									"uncertainty_base": 16,
+									"uncertainty_multiplier": 4,
+									"anchor": 1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										0.5,
+										0
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:timer",
+								"is_minified": true,
+								"children": {
+									"looping": false,
+									"time": 3,
+									"time_down_event": {
+										"event": "despawn"
+									}
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:projectile",
+								"children": [
+									{
+										"open": {
+											"on_hit": {
+												"impact_damage": {
+													"damage": [
+														0,
+														0
+													],
+													"knockback": false,
+													"semi_random_diff_damage": false,
+													"destroy_on_hit": true
+												},
+												"stick_in_ground": {
+													"shake_time": 0.35
+												},
+												"arrow_effect": {}
+											},
+											"power": 1.6,
+											"gravity": 0.05,
+											"uncertainty_base": 16,
+											"uncertainty_multiplier": 4,
+											"anchor": 1,
+											"should_bounce": true,
+											"offset": [
+												0,
+												0.5,
+												0
+											]
+										},
+										"key": "on_hit",
+										"children": [
+											{
+												"key": "impact_damage",
+												"children": [
+													{
+														"open": {
+															"damage": [
+																0,
+																0
+															],
+															"knockback": false,
+															"semi_random_diff_damage": false,
+															"destroy_on_hit": true
+														},
+														"key": "damage",
+														"is_minified": true,
+														"children": [
+															0,
+															0
+														]
+													},
+													{
+														"data": "false",
+														"key": "knockback"
+													},
+													{
+														"data": "false",
+														"key": "semi_random_diff_damage"
+													},
+													{
+														"data": "true",
+														"key": "destroy_on_hit"
+													}
+												]
+											},
+											{
+												"key": "stick_in_ground",
+												"is_minified": true,
+												"children": {
+													"shake_time": 0.35
+												}
+											},
+											{
+												"key": "arrow_effect",
+												"is_minified": true,
+												"children": {}
+											}
+										]
+									},
+									{
+										"data": "1.6",
+										"key": "power"
+									},
+									{
+										"data": "0.05",
+										"key": "gravity"
+									},
+									{
+										"data": "16",
+										"key": "uncertainty_base"
+									},
+									{
+										"data": "4",
+										"key": "uncertainty_multiplier"
+									},
+									{
+										"data": "1",
+										"key": "anchor"
+									},
+									{
+										"data": "true",
+										"key": "should_bounce"
+									},
+									{
+										"open": {
+											"on_hit": {
+												"impact_damage": {
+													"damage": [
+														0,
+														0
+													],
+													"knockback": false,
+													"semi_random_diff_damage": false,
+													"destroy_on_hit": true
+												},
+												"stick_in_ground": {
+													"shake_time": 0.35
+												},
+												"arrow_effect": {}
+											},
+											"power": 1.6,
+											"gravity": 0.05,
+											"uncertainty_base": 16,
+											"uncertainty_multiplier": 4,
+											"anchor": 1,
+											"should_bounce": true,
+											"offset": [
+												0,
+												0.5,
+												0
+											]
+										},
+										"key": "offset",
+										"is_minified": true,
+										"children": [
+											0,
+											0.5,
+											0
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:timer": {
+										"looping": false,
+										"time": 3,
+										"time_down_event": {
+											"event": "despawn"
+										}
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:projectile": {
+										"on_hit": {
+											"impact_damage": {
+												"damage": [
+													0,
+													0
+												],
+												"knockback": false,
+												"semi_random_diff_damage": false,
+												"destroy_on_hit": true
+											},
+											"stick_in_ground": {
+												"shake_time": 0.35
+											},
+											"arrow_effect": {}
+										},
+										"power": 1.6,
+										"gravity": 0.05,
+										"uncertainty_base": 16,
+										"uncertainty_multiplier": 4,
+										"anchor": 1,
+										"should_bounce": true,
+										"offset": [
+											0,
+											0.5,
+											0
+										]
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": true
+									}
+								},
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:timer": {
+										"looping": false,
+										"time": 3,
+										"time_down_event": {
+											"event": "despawn"
+										}
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:projectile": {
+										"on_hit": {
+											"impact_damage": {
+												"damage": [
+													0,
+													0
+												],
+												"knockback": false,
+												"semi_random_diff_damage": false,
+												"destroy_on_hit": true
+											},
+											"stick_in_ground": {
+												"shake_time": 0.35
+											},
+											"arrow_effect": {}
+										},
+										"power": 1.6,
+										"gravity": 0.05,
+										"uncertainty_base": 16,
+										"uncertainty_multiplier": 4,
+										"anchor": 1,
+										"should_bounce": true,
+										"offset": [
+											0,
+											0.5,
+											0
+										]
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": true
+									}
+								},
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:placeholder_projectile",
+								"runtime_identifier": "minecraft:arrow",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": 3,
+									"time_down_event": {
+										"event": "despawn"
+									}
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												0,
+												0
+											],
+											"knockback": false,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"stick_in_ground": {
+											"shake_time": 0.35
+										},
+										"arrow_effect": {}
+									},
+									"power": 1.6,
+									"gravity": 0.05,
+									"uncertainty_base": 16,
+									"uncertainty_multiplier": 4,
+									"anchor": 1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										0.5,
+										0
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"add": {
+											"component_groups": [
+												"despawn"
+											]
+										}
+									}
+								},
+								"key": "despawn",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"despawn"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"despawn"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"despawn"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

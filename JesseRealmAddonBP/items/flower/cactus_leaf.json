@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:cactus_leaf",
+	 "category": "items"
+    },
+
+    "components": {
+      "minecraft:use_duration": 20,
+
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "poor"
+      }
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\dandelion_bottom.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "a7bcd354_61f3_4946_8229_5e74f62adac7",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:dandelion_bottom"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.2,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "dandelion_bottom",
+									"render_method": "alpha_test",
+									"ambient_occlusion": false,
+									"face_dimming": false
+								}
+							},
+							"minecraft:ticking": {
+								"looping": false,
+								"range": [
+									0,
+									0
+								],
+								"on_tick": {
+									"event": "mv:auto_grow"
+								}
+							},
+							"minecraft:on_placed": {
+								"event": "mv:auto_grow"
+							},
+							"minecraft:on_player_placing": {
+								"event": "mv:auto_grow"
+							},
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:grass",
+											"minecraft:mycelium",
+											"minecraft:dirt",
+											"minecraft:podzol"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:geometry": "geometry.fixed_cross",
+							"minecraft:loot": "loot_tables/empty.json"
+						},
+						"events": {
+							"mv:auto_grow": {
+								"run_command": {
+									"command": [
+										"setblock ~ ~1 ~ mv:dandelion_top"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:dandelion_bottom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "dandelion_bottom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										0,
+										0
+									],
+									"on_tick": {
+										"event": "mv:auto_grow"
+									}
+								},
+								"minecraft:on_placed": {
+									"event": "mv:auto_grow"
+								},
+								"minecraft:on_player_placing": {
+									"event": "mv:auto_grow"
+								},
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:loot": "loot_tables/empty.json"
+							},
+							"events": {
+								"mv:auto_grow": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~1 ~ mv:dandelion_top"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:dandelion_bottom"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:dandelion_bottom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "dandelion_bottom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										0,
+										0
+									],
+									"on_tick": {
+										"event": "mv:auto_grow"
+									}
+								},
+								"minecraft:on_placed": {
+									"event": "mv:auto_grow"
+								},
+								"minecraft:on_player_placing": {
+									"event": "mv:auto_grow"
+								},
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:loot": "loot_tables/empty.json"
+							},
+							"events": {
+								"mv:auto_grow": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~1 ~ mv:dandelion_top"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.2",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "dandelion_bottom",
+												"render_method": "alpha_test",
+												"ambient_occlusion": false,
+												"face_dimming": false
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "dandelion_bottom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:ticking",
+								"children": [
+									{
+										"data": "false",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": false,
+											"range": [
+												0,
+												0
+											],
+											"on_tick": {
+												"event": "mv:auto_grow"
+											}
+										},
+										"key": "range",
+										"is_minified": true,
+										"children": [
+											0,
+											0
+										]
+									},
+									{
+										"open": {
+											"looping": false,
+											"range": [
+												0,
+												0
+											],
+											"on_tick": {
+												"event": "mv:auto_grow"
+											}
+										},
+										"key": "on_tick",
+										"is_minified": true,
+										"children": {
+											"event": "mv:auto_grow"
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:on_placed",
+								"is_minified": true,
+								"children": {
+									"event": "mv:auto_grow"
+								}
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "mv:auto_grow"
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.2,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "dandelion_bottom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									},
+									"minecraft:ticking": {
+										"looping": false,
+										"range": [
+											0,
+											0
+										],
+										"on_tick": {
+											"event": "mv:auto_grow"
+										}
+									},
+									"minecraft:on_placed": {
+										"event": "mv:auto_grow"
+									},
+									"minecraft:on_player_placing": {
+										"event": "mv:auto_grow"
+									},
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:grass",
+													"minecraft:mycelium",
+													"minecraft:dirt",
+													"minecraft:podzol"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:geometry": "geometry.fixed_cross",
+									"minecraft:loot": "loot_tables/empty.json"
+								},
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:grass",
+														"minecraft:mycelium",
+														"minecraft:dirt",
+														"minecraft:podzol"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:grass",
+															"minecraft:mycelium",
+															"minecraft:dirt",
+															"minecraft:podzol"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block_filter": [
+														"minecraft:grass",
+														"minecraft:mycelium",
+														"minecraft:dirt",
+														"minecraft:podzol"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"data": "geometry.fixed_cross",
+								"key": "minecraft:geometry"
+							},
+							{
+								"data": "loot_tables/empty.json",
+								"key": "minecraft:loot"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:dandelion_bottom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "dandelion_bottom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										0,
+										0
+									],
+									"on_tick": {
+										"event": "mv:auto_grow"
+									}
+								},
+								"minecraft:on_placed": {
+									"event": "mv:auto_grow"
+								},
+								"minecraft:on_player_placing": {
+									"event": "mv:auto_grow"
+								},
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:loot": "loot_tables/empty.json"
+							},
+							"events": {
+								"mv:auto_grow": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~1 ~ mv:dandelion_top"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"mv:auto_grow": {
+										"run_command": {
+											"command": [
+												"setblock ~ ~1 ~ mv:dandelion_top"
+											]
+										}
+									}
+								},
+								"key": "mv:auto_grow",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"setblock ~ ~1 ~ mv:dandelion_top"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"setblock ~ ~1 ~ mv:dandelion_top"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"setblock ~ ~1 ~ mv:dandelion_top"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:rog_ieti",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 16,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "pa:rog_ieti"
+      },
+      "minecraft:display_name": {
+        "value": "Yeti Horn"
+      }
+    }
+  }
+}

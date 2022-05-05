@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "magma:shield"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"# #",
+			"###",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:magma"
+			}
+		},
+		"result": {
+			"item": "magma:shield"
+		}
+	}
+}

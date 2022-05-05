@@ -1,0 +1,82 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\red_flaute_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "56abd3fc_5521_41bb_97da_19d02367a355",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "mv:red_flaute_feature"
+						},
+						"structure_name": "mystructure:red_flaute",
+						"adjustment_radius": 1,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:red_flaute_feature"
+							},
+							"structure_name": "mystructure:red_flaute",
+							"adjustment_radius": 1,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:red_flaute_feature"
+						}
+					},
+					{
+						"data": "mystructure:red_flaute",
+						"key": "structure_name"
+					},
+					{
+						"data": "1",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:red_flaute_feature"
+							},
+							"structure_name": "mystructure:red_flaute",
+							"adjustment_radius": 1,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "constraints",
+						"is_minified": true,
+						"children": {
+							"grounded": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

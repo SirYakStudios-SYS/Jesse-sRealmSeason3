@@ -1,0 +1,242 @@
+{
+  "format_version": "1.8.0",
+  "geometry.pa_soul": {
+    "visible_bounds_width": 1,
+    "visible_bounds_height": 1,
+    "visible_bounds_offset": [
+      0,
+      0.5,
+      0
+    ],
+    "bones": [
+      {
+        "name": "body",
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -4.0,
+              12.0,
+              -2.0
+            ],
+            "size": [
+              8.0,
+              12.0,
+              4.0
+            ],
+            "uv": [
+              16,
+              16
+            ],
+            "inflate": 0
+          }
+        ],
+        "rotation": [
+          14.3,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "waist",
+        "pivot": [
+          0.0,
+          12.0,
+          0.0
+        ]
+      },
+      {
+        "name": "head",
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -4.0,
+              24.0,
+              -4.0
+            ],
+            "size": [
+              8.0,
+              8.0,
+              8.0
+            ],
+            "uv": [
+              0,
+              0
+            ],
+            "inflate": 0
+          }
+        ],
+        "rotation": [
+          38.2,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "hat",
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -4.0,
+              24.0,
+              -4.0
+            ],
+            "size": [
+              8.0,
+              8.0,
+              8.0
+            ],
+            "uv": [
+              32,
+              0
+            ],
+            "inflate": 0.5
+          }
+        ],
+        "parent": "head"
+      },
+      {
+        "name": "rightArm",
+        "pivot": [
+          -5.0,
+          22.0,
+          0.0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -8.0,
+              12.0,
+              -2.0
+            ],
+            "size": [
+              4.0,
+              12.0,
+              4.0
+            ],
+            "uv": [
+              40,
+              16
+            ],
+            "inflate": 0
+          }
+        ],
+        "rotation": [
+          -70.2,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "rightItem",
+        "pivot": [
+          -6,
+          15,
+          1
+        ],
+        "parent": "rightArm"
+      },
+      {
+        "name": "leftArm",
+        "pivot": [
+          5.0,
+          22.0,
+          0.0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              4.0,
+              12.0,
+              -2.0
+            ],
+            "size": [
+              4.0,
+              12.0,
+              4.0
+            ],
+            "uv": [
+              40,
+              16
+            ],
+            "inflate": 0
+          }
+        ],
+        "mirror": true,
+        "rotation": [
+          -64.7,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "helmet",
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ]
+      },
+      {
+        "name": "rightArmArmor",
+        "pivot": [
+          -5.0,
+          22.0,
+          0.0
+        ],
+        "parent": "rightArm"
+      },
+      {
+        "name": "rightSock",
+        "pivot": [
+          -1.9,
+          12.0,
+          0.0
+        ],
+        "parent": "rightLeg"
+      },
+      {
+        "name": "leftSock",
+        "pivot": [
+          1.9,
+          12.0,
+          0.0
+        ],
+        "parent": "leftLeg",
+        "mirror": true
+      },
+      {
+        "name": "bodyArmor",
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "parent": "body"
+      },
+      {
+        "name": "belt",
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "parent": "body"
+      }
+    ]
+  }
+}

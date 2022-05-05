@@ -1,0 +1,56 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:lotus_pinka"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lotus_pink",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:geometry": "geometry.lotus",
+			"minecraft:entity_collision": false,
+			"minecraft:breakonpush": true,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:log2",
+							"minecraft:log",
+							"minecraft:stone",
+							"minecraft:grass",
+							"minecraft:dirt",
+							"minecraft:cobblestone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/lotus_pink.json",
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			}
+		},
+		"events": {}
+	}
+}

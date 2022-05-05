@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:enderite_scythe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"OXO",
+			"  #",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "sp:enderite_block"
+			},
+			"O": {
+				"item": "sp:enderite_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:enderite_scythe"
+		}
+	}
+}

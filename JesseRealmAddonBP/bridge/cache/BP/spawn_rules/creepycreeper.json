@@ -1,0 +1,15 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17\\spawn_rules\\creepycreeper.json",
+	"file_type": "spawn_rule",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:spawn_rules": {
+			"description": {
+				"identifier": "tt:creepycreeper",
+				"population_control": "monster"
+			}
+		}
+	},
+	"file_uuid": "dd4a259d_45b4_463f_8d04_de135b6fac40"
+}

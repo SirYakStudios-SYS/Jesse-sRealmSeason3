@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:mums_orange",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:mums"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:mums_orange"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:mums_orange"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

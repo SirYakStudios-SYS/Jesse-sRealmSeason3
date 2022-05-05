@@ -1,0 +1,209 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\sun_blossom.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "114183c8_cd9f_44a5_8d8e_cbbb90a932cb",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:sun_blossom"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0.7,
+							"minecraft:geometry": "geometry.fixed_cross",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "sun_blossom",
+									"render_method": "alpha_test",
+									"ambient_occlusion": false,
+									"face_dimming": false
+								}
+							},
+							"minecraft:loot": "loot_tables/sun_blossom.json",
+							"minecraft:entity_collision": false,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:grass",
+											"minecraft:mycelium",
+											"minecraft:dirt",
+											"minecraft:podzol"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:sun_blossom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0.7,
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "sun_blossom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:loot": "loot_tables/sun_blossom.json",
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:sun_blossom"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:sun_blossom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0.7,
+								"minecraft:geometry": "geometry.fixed_cross",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "sun_blossom",
+										"render_method": "alpha_test",
+										"ambient_occlusion": false,
+										"face_dimming": false
+									}
+								},
+								"minecraft:loot": "loot_tables/sun_blossom.json",
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.7",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"data": "geometry.fixed_cross",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "sun_blossom",
+												"render_method": "alpha_test",
+												"ambient_occlusion": false,
+												"face_dimming": false
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "sun_blossom",
+											"render_method": "alpha_test",
+											"ambient_occlusion": false,
+											"face_dimming": false
+										}
+									}
+								]
+							},
+							{
+								"data": "loot_tables/sun_blossom.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"key": "minecraft:placement_filter",
+								"is_minified": true,
+								"children": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:mycelium",
+												"minecraft:dirt",
+												"minecraft:podzol"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:foxstatue6",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/foxstatue6"
+        },
+        "geometry": {
+          "default": "geometry.foxstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "foxstatue6item"
+        }
+      }
+    }
+  }
+  

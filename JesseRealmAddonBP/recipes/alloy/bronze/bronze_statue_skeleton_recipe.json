@@ -1,0 +1,29 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:bronze_statue_skeleton_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" B",
+			" B",
+			"BBB"
+		],
+		"key": {
+			"R": {
+				"item": "m:bronze_ingot"
+			},
+			"B": {
+				"item": "m:bronze_block"
+			}
+		},
+		"result": [
+			{
+				"item": "m:skeleton_statue"
+			}
+		]
+	}
+}

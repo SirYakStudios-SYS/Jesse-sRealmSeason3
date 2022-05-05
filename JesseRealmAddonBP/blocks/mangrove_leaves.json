@@ -1,0 +1,63 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:mangrove_leaves"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Nature",
+				"group": "itemGroup.name.leaves"
+			},
+			"minecraft:block_light_absorption": 8,
+			"minecraft:destroy_time": 0.2,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "blend",
+					"texture": "mangrove_leaves",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:loot": "loot_tables/mangrove_leaves_loot.json",
+			"minecraft:unit_cube": {},
+			"minecraft:flammable": {
+				"burn_odds": 30,
+				"flame_odds": 60
+			},
+			"minecraft:rotation": [
+				0,
+				0,
+				0
+			],
+			"minecraft:breathability": "air",
+			"minecraft:map_color": "#C689BF"
+		},
+		"events": {}
+	}
+}

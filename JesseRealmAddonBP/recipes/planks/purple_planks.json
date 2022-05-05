@@ -1,0 +1,26 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:purple_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"YT"
+		],
+		"key": {
+			"Y": {
+				"item": "minecraft:planks"
+			},
+			"T": {
+				"item": "minecraft:purple_dye"
+			}
+		},
+		"result": {
+			"item": "sp:purple_planks"
+		}
+	}
+}

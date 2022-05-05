@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "guardian:beach_crab",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/guardian/crabs/crab"
+			},
+			"geometry": {
+				"default": "geometry.beach_crab"
+			},
+			"animations": {
+				"default_leg_pose": "animation.spider.default_leg_pose",
+				"look_at_target": "animation.spider.look_at_target",
+				"walk": "animation.spider.walk"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.spider.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.spider"
+			],
+			"spawn_egg": {
+				"base_color": "#c40404",
+				"overlay_color": "#a69c7a"
+			}
+		}
+	}
+}

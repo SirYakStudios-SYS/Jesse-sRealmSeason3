@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:soul_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "sp:soul"
+			}
+		},
+		"result": {
+			"item": "sp:sp_soul_block",
+			"count": 1
+		}
+	}
+}

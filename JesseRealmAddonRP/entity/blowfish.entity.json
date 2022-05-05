@@ -1,0 +1,30 @@
+{
+	"format_version" : "1.8.0",
+	"minecraft:client_entity" : {
+		"description" : {
+			"identifier" : "azc:blowfish",
+			"materials" : {
+				"default" : "cod"
+			},
+			"textures" : {
+				"default" : "textures/entity/fish/blowfish"
+			},
+			"geometry" : {
+				"default" : "geometry.blowfish"
+			},
+			"animations" : {
+				"swim" : "animation.blowfish.swim"
+			},
+			"animation_controllers" : [
+				{
+					"general" : "controller.animation.fishes.general"
+				}
+			],
+			"render_controllers" : [ "controller.render.cod" ],
+			"spawn_egg" : {
+				"texture" : "spawn_egg_blowfish",
+				"texture_index" : 0
+			}
+		}
+	}
+}

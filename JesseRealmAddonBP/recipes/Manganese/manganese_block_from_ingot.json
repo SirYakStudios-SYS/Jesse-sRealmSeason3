@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:manganese_block_from_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:maganese_ingot",
+				"count": 9
+			}
+		],
+		"result": [
+			{
+				"item": "m:maganese_block",
+				"count": 1
+			}
+		]
+	}
+}

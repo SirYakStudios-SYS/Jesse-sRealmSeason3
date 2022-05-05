@@ -1,0 +1,1 @@
+give @s viking:netherite_viking_axe

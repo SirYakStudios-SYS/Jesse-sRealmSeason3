@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nether:burnt_bush_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"use_block_description": true,
+				"block": "nether:burnt_bush_bottom"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.grass"
+			},
+			"minecraft:icon": {
+				"texture": "burnt_bush_item"
+			}
+		}
+	}
+}

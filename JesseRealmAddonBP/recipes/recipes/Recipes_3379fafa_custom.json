@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_81bd72aa"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:beach_flower",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:dye",
+      "count": 1,
+      "data": 13
+    }
+  }
+}

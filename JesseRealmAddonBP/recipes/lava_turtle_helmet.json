@@ -1,0 +1,25 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nether:lava_turtle_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "nether:lava_turtle_shell_piece"
+			}
+		},
+		"result": [
+			{
+				"item": "nether:lava_turtle_helmet_item"
+			}
+		]
+	}
+}

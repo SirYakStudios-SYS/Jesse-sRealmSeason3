@@ -1,0 +1,176 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nether:glowstone_bullet",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"component_groups": {
+		    "glowbeetle": {
+		      "minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [3, 5],
+						"knockback": false,
+						"catch_fire": false
+					},
+					"remove_on_hit": {}
+				},
+				"power": 1.5,
+                "gravity": 0.03,
+                "angle_offset": 0.5,
+                
+				"semi_random_diff_damage": true,
+				"reflect_on_hurt": true,
+				"hit_sound": "bullet.hit",
+				"is_dangerous": true,
+				"crit_particle_on_hurt": true
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
+			  }
+		    },
+		    "glowbeetle_tamed": {
+		      "minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [8, 12],
+						"knockback": false,
+						"catch_fire": false
+					},
+					"remove_on_hit": {}
+				},
+				"power": 1.5,
+                "gravity": 0.03,
+                "angle_offset": 0.5,
+                
+				"semi_random_diff_damage": true,
+				"reflect_on_hurt": true,
+				"hit_sound": "bullet.hit",
+				"is_dangerous": true,
+				"crit_particle_on_hurt": true
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
+			  }
+		    },
+		    "player": {
+		      "minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": 0,
+						"knockback": false,
+						"catch_fire": false
+					},
+					"definition_event": {
+						"affect_projectile": true,
+						"event_trigger": {
+							"event": "spawn_glowbeetles"
+						}
+					}
+				},
+				"power": 1.5,
+                "gravity": 0.04,
+                "angle_offset": 0.5,
+                
+				"semi_random_diff_damage": true,
+				"reflect_on_hurt": true,
+				"hit_sound": "bullet.hit",
+				"is_dangerous": false,
+				"crit_particle_on_hurt": true
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
+			  }
+		    }
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.31,
+				"height": 0.31
+			},
+			"minecraft:scale": {
+              "value": 1.5
+            }
+		},
+		"events": {
+		    "default": {
+				"add": {
+					"component_groups": [
+						"glowbeetle"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playsound mob.blaze.shoot @a[r=15] ~~~ 1 1.5"
+					]
+				}
+			},
+			"tamed": {
+				"add": {
+					"component_groups": [
+						"glowbeetle_tamed"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playsound mob.blaze.shoot @a[r=15] ~~~ 1 1.5"
+					]
+				}
+			},
+			"player_bullet": {
+				"add": {
+					"component_groups": [
+						"player"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playsound mob.blaze.shoot @a[r=15] ~~~ 1 1.5"
+					]
+				}
+			},
+			"spawn_glowbeetles": {
+				"run_command": {
+					"command": [
+						"playsound mob.blaze.shoot @a[r=15] ~~~ 1 2",
+						"summon nether:glowbeetle ~0.75~~-0.75 nether:on_tame",
+						"summon nether:glowbeetle ~-0.75~~-0.75 nether:on_tame",
+						"summon nether:glowbeetle ~~~0.75 nether:on_tame",
+						"kill @s"
+					]
+				}
+			}
+		}
+	}
+}

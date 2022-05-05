@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:kokos_os",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:kokos_os",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

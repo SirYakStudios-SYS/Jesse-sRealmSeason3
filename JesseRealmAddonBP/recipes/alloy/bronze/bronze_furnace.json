@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:bronze_furnace"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+",
+			"+++"
+		],
+		"key": {
+			"+": {
+				"item": "m:bronze_ingot"
+			},
+			"#": {
+				"item": "minecraft:furnace"
+			}
+		},
+		"result": [
+			{
+				"item": "m:bronze_furnace"
+			}
+		]
+	}
+}

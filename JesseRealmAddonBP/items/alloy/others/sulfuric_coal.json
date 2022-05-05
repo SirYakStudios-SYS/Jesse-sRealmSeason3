@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:sulfuric_coal"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sulfuric_coal"
+			},
+			"minecraft:display_name": {
+				"value": "Sulfuric Coal \n§7Used to activate the Aluminum- or Tin- or Bronze Furnace"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.coal"
+			},
+			"minecraft:fuel": {
+				"duration": 180
+			}
+		},
+		"events": {}
+	}
+}

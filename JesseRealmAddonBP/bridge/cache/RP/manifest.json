@@ -1,0 +1,146 @@
+{
+	"file_path": "C:\\Users\\jamie\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\JesseRealmAddonRP\\manifest.json",
+	"file_type": "manifest_rp",
+	"format_version": 1,
+	"file_uuid": "1854505c_5fff_471c_b1d0_f6d1d3b63aa9",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"description": "JesseRealmS3 Resource Pack",
+						"name": "JesseRealmS3 RP",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							14,
+							0
+						],
+						"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+					},
+					"modules": [
+						{
+							"description": "JesseRealmS3 Resource Pack",
+							"type": "resources",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e"
+						}
+					]
+				},
+				"key": "header",
+				"is_minified": true,
+				"children": {
+					"description": "JesseRealmS3 Resource Pack",
+					"name": "JesseRealmS3 RP",
+					"version": [
+						1,
+						0,
+						0
+					],
+					"min_engine_version": [
+						1,
+						14,
+						0
+					],
+					"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+				}
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"description": "JesseRealmS3 Resource Pack",
+						"name": "JesseRealmS3 RP",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							14,
+							0
+						],
+						"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+					},
+					"modules": [
+						{
+							"description": "JesseRealmS3 Resource Pack",
+							"type": "resources",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e"
+						}
+					]
+				},
+				"key": "modules",
+				"children": [
+					{
+						"open": [
+							{
+								"description": "JesseRealmS3 Resource Pack",
+								"type": "resources",
+								"version": [
+									1,
+									0,
+									0
+								],
+								"uuid": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e"
+							}
+						],
+						"children": [
+							{
+								"data": "JesseRealmS3 Resource Pack",
+								"key": "description"
+							},
+							{
+								"data": "resources",
+								"key": "type"
+							},
+							{
+								"open": {
+									"description": "JesseRealmS3 Resource Pack",
+									"type": "resources",
+									"version": [
+										1,
+										0,
+										0
+									],
+									"uuid": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									0
+								]
+							},
+							{
+								"data": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e",
+								"key": "uuid"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

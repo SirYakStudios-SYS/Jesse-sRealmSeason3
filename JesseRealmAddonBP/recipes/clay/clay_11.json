@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "presblock:clay_11"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "presblock:clay_1"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:clay", 
+      "count": 9
+      }
+    ]
+  }
+}

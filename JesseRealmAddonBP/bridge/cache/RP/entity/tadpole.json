@@ -1,0 +1,339 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\tadpole.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "de51f129_5ab0_48d4_b491_01398881df3e",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:tadpole",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"default": "textures/entity/tadpole"
+							},
+							"geometry": {
+								"default": "geometry.tadpole"
+							},
+							"animations": {
+								"idle": "animation.tadpole.idle"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"idle": "query.is_in_water"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"base_color": "#4F4234",
+								"overlay_color": "#7F7559"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:tadpole",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"default": "textures/entity/tadpole"
+								},
+								"geometry": {
+									"default": "geometry.tadpole"
+								},
+								"animations": {
+									"idle": "animation.tadpole.idle"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"idle": "query.is_in_water"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"base_color": "#4F4234",
+									"overlay_color": "#7F7559"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:tadpole",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:tadpole",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/tadpole"
+									},
+									"geometry": {
+										"default": "geometry.tadpole"
+									},
+									"animations": {
+										"idle": "animation.tadpole.idle"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.is_in_water"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#4F4234",
+										"overlay_color": "#7F7559"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:tadpole",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/tadpole"
+									},
+									"geometry": {
+										"default": "geometry.tadpole"
+									},
+									"animations": {
+										"idle": "animation.tadpole.idle"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.is_in_water"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#4F4234",
+										"overlay_color": "#7F7559"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/tadpole"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:tadpole",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/tadpole"
+									},
+									"geometry": {
+										"default": "geometry.tadpole"
+									},
+									"animations": {
+										"idle": "animation.tadpole.idle"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.is_in_water"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#4F4234",
+										"overlay_color": "#7F7559"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.tadpole"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"idle": "animation.tadpole.idle"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:tadpole",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/tadpole"
+									},
+									"geometry": {
+										"default": "geometry.tadpole"
+									},
+									"animations": {
+										"idle": "animation.tadpole.idle"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.is_in_water"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#4F4234",
+										"overlay_color": "#7F7559"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"idle": "query.is_in_water"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"idle": "query.is_in_water"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"idle": "query.is_in_water"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:tadpole",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/tadpole"
+									},
+									"geometry": {
+										"default": "geometry.tadpole"
+									},
+									"animations": {
+										"idle": "animation.tadpole.idle"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.is_in_water"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#4F4234",
+										"overlay_color": "#7F7559"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:tadpole",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/tadpole"
+									},
+									"geometry": {
+										"default": "geometry.tadpole"
+									},
+									"animations": {
+										"idle": "animation.tadpole.idle"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.is_in_water"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#4F4234",
+										"overlay_color": "#7F7559"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#4F4234",
+									"overlay_color": "#7F7559"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

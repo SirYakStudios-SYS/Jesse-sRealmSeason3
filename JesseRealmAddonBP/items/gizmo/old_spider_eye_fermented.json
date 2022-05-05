@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:old_spider_eye_fermented",
+	 "category": "items"
+    },
+
+    "components": {}
+  }
+}

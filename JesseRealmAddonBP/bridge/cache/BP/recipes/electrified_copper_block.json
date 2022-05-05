@@ -1,0 +1,327 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\recipes\\electrified_copper_block.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "f09875cf_70b6_42e9_97f7_679f9db3b9fd",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "mv:electrified_copper_block_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							" A",
+							"CBC",
+							" A"
+						],
+						"key": {
+							"A": {
+								"item": "minecraft:amethyst_shard"
+							},
+							"B": {
+								"item": "minecraft:carved_pumpkin"
+							},
+							"C": {
+								"item": "minecraft:copper_block"
+							}
+						},
+						"result": [
+							{
+								"item": "mv:electrified_copper_block"
+							}
+						]
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "mv:electrified_copper_block_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							" A",
+							"CBC",
+							" A"
+						],
+						"key": {
+							"A": {
+								"item": "minecraft:amethyst_shard"
+							},
+							"B": {
+								"item": "minecraft:carved_pumpkin"
+							},
+							"C": {
+								"item": "minecraft:copper_block"
+							}
+						},
+						"result": [
+							{
+								"item": "mv:electrified_copper_block"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" A",
+								"CBC",
+								" A"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:amethyst_shard"
+								},
+								"B": {
+									"item": "minecraft:carved_pumpkin"
+								},
+								"C": {
+									"item": "minecraft:copper_block"
+								}
+							},
+							"result": [
+								{
+									"item": "mv:electrified_copper_block"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:electrified_copper_block_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" A",
+								"CBC",
+								" A"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:amethyst_shard"
+								},
+								"B": {
+									"item": "minecraft:carved_pumpkin"
+								},
+								"C": {
+									"item": "minecraft:copper_block"
+								}
+							},
+							"result": [
+								{
+									"item": "mv:electrified_copper_block"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" A",
+								"CBC",
+								" A"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:amethyst_shard"
+								},
+								"B": {
+									"item": "minecraft:carved_pumpkin"
+								},
+								"C": {
+									"item": "minecraft:copper_block"
+								}
+							},
+							"result": [
+								{
+									"item": "mv:electrified_copper_block"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							" A",
+							"CBC",
+							" A"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" A",
+								"CBC",
+								" A"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:amethyst_shard"
+								},
+								"B": {
+									"item": "minecraft:carved_pumpkin"
+								},
+								"C": {
+									"item": "minecraft:copper_block"
+								}
+							},
+							"result": [
+								{
+									"item": "mv:electrified_copper_block"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:amethyst_shard"
+									},
+									"B": {
+										"item": "minecraft:carved_pumpkin"
+									},
+									"C": {
+										"item": "minecraft:copper_block"
+									}
+								},
+								"key": "A",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:amethyst_shard"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:amethyst_shard"
+									},
+									"B": {
+										"item": "minecraft:carved_pumpkin"
+									},
+									"C": {
+										"item": "minecraft:copper_block"
+									}
+								},
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:carved_pumpkin"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:amethyst_shard"
+									},
+									"B": {
+										"item": "minecraft:carved_pumpkin"
+									},
+									"C": {
+										"item": "minecraft:copper_block"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:copper_block"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:electrified_copper_block_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" A",
+								"CBC",
+								" A"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:amethyst_shard"
+								},
+								"B": {
+									"item": "minecraft:carved_pumpkin"
+								},
+								"C": {
+									"item": "minecraft:copper_block"
+								}
+							},
+							"result": [
+								{
+									"item": "mv:electrified_copper_block"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "mv:electrified_copper_block"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "mv:electrified_copper_block"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

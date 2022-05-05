@@ -1,0 +1,138 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:glowstone_hoe"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 120,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:glowstone_hoe",
+							"minecraft:glowstone"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:mining_speed": 8,
+			"minecraft:damage": 3,
+			"minecraft:enchantable": {
+				"value": 12,
+				"slot": "hoe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.hoe"
+			},
+			"minecraft:use_on": {
+				"blocks": [
+					"grass",
+					"dirt",
+					"grass_path"
+				]
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:nether_wart_block",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:hay_block",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:target",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:shroomlight",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:leaves",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:leaves2",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_wart_block",
+						"speed": 14,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dmg"
+				}
+			},
+			"tag:minecraft:is_hoe": {},
+			"minecraft:icon": {
+				"texture": "glowstone_hoe"
+			},
+			"minecraft:display_name": {
+				"value": "Glowstone Hoe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_not_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_hit_block": {
+					"event": "dmg"
+				}
+			}
+		},
+		"events": {
+			"on_tool_used": {
+				"swing": {},
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "self"
+				}
+			},
+			"dmg": {
+				"damage": {
+					"type": "durability",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

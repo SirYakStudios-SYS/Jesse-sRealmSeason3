@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:sweet_iron_swordd"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"XD",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:iron_ingot"
+			},
+			"D": {
+				"item": "minecraft:sweet_berries"
+			}
+		},
+		"result": {
+			"item": "sp:sweet_iron_sword"
+		}
+	}
+}

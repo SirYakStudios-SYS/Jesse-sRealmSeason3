@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:rose_gold_apple_enchanted"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"###",
+			"#G#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "sp:rose_gold_block"
+			},
+			"G": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "sp:enchanted_rose_gold_apple"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:nether_wart"
+    },
+
+    "components": {
+      "minecraft:seed": {
+        "plant_at": [
+          "soul_sand",
+          "nether_wart_block"
+        ],
+        "crop_result": "nether_wart"
+      }
+    }
+  }
+}

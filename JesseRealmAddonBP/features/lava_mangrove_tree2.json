@@ -1,0 +1,21 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "lava_mangrove_tree2"
+        },
+        "structure_name": "mystructure:lava_mangrove2",
+        "adjustment_radius": 8,
+        "facing_direction": "random",
+        "constraints": {
+        	"unburied": {},
+        	"block_intersection": {
+        		"block_allowlist": [
+          			"minecraft:air",
+          			"nether:lava_swamp_sprout",
+          			"nether:nether_reeds"
+        		]
+      		}
+    	}
+    }
+}

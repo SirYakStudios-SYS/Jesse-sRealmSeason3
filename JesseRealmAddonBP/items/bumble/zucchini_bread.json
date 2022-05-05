@@ -1,0 +1,33 @@
+
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:zucchini_bread"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+	  "minecraft:icon": {
+		"texture": "bumble:zucchini_bread"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:zucchini_bread"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": false
+	  }
+	}
+  }
+}		

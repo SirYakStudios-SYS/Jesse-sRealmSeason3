@@ -1,0 +1,38 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:item",
+			"is_spawnable": false,
+			"is_summonable": false
+		},
+		"components": {},
+		"component_groups": {
+			"fire_res": {
+				"minecraft:fire_immune": true
+			}
+		},
+		"events": {
+			"fire": {
+				"add": {
+					"component_groups": [
+						"fire_res"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"event entity @e[type=item,name=\"Duralumin Bundle\"] fire",
+								"event entity @e[type=item,name=\"Francium Bundle\"] fire",
+								"event entity @e[type=item,tag=fire] fire"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.large_ship.flop": {
+			"loop": true,
+			"bones": {
+				"mastil": {
+					"rotation": [0, 0, -30],
+					"position": [3, 0, 0]
+				},
+				"vela": {
+					"rotation": [0, 0, 0],
+					"position": [-29, -16, 0]
+				},
+				"base": {
+					"rotation": [0, 0, -30]
+				},
+				"seat": {
+					"rotation": [0, 0, -32.5],
+					"position": [3, 1, 0]
+				}
+			}
+		}
+	}
+}

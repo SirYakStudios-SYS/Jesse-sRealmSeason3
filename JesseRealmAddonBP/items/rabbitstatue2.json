@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:rabbitstatue2"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "rabbitstatue2item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:rabbitstatue2"
+        }
+      }
+    }
+  }

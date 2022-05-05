@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:upgrade_rose_ingot_from_copper"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"#G"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_ingot"
+			},
+			"G": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:rose_gold_ingot",
+			"count": 2
+		}
+	}
+}

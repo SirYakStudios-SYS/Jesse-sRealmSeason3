@@ -1,0 +1,306 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\entities\\despawn_entity.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "77d75f26_5fd1_492a_a047_3de338218093",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "mv:despawn_entity",
+							"is_summonable": true,
+							"is_spawnable": false
+						},
+						"component_groups": {
+							"despawn": {
+								"minecraft:instant_despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:timer": {
+								"looping": false,
+								"time": [
+									0,
+									0
+								],
+								"time_down_event": {
+									"event": "despawn"
+								}
+							}
+						},
+						"events": {
+							"despawn": {
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:despawn_entity",
+								"is_summonable": true,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										0,
+										0
+									],
+									"time_down_event": {
+										"event": "despawn"
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:despawn_entity",
+							"is_summonable": true,
+							"is_spawnable": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:despawn_entity",
+								"is_summonable": true,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										0,
+										0
+									],
+									"time_down_event": {
+										"event": "despawn"
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"minecraft:instant_despawn": {}
+									}
+								},
+								"key": "despawn",
+								"is_minified": true,
+								"children": {
+									"minecraft:instant_despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:despawn_entity",
+								"is_summonable": true,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										0,
+										0
+									],
+									"time_down_event": {
+										"event": "despawn"
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:timer",
+								"children": [
+									{
+										"data": "false",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": false,
+											"time": [
+												0,
+												0
+											],
+											"time_down_event": {
+												"event": "despawn"
+											}
+										},
+										"key": "time",
+										"is_minified": true,
+										"children": [
+											0,
+											0
+										]
+									},
+									{
+										"open": {
+											"looping": false,
+											"time": [
+												0,
+												0
+											],
+											"time_down_event": {
+												"event": "despawn"
+											}
+										},
+										"key": "time_down_event",
+										"is_minified": true,
+										"children": {
+											"event": "despawn"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:despawn_entity",
+								"is_summonable": true,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										0,
+										0
+									],
+									"time_down_event": {
+										"event": "despawn"
+									}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"add": {
+											"component_groups": [
+												"despawn"
+											]
+										}
+									}
+								},
+								"key": "despawn",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"despawn"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"despawn"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"despawn"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

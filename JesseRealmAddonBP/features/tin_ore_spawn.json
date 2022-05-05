@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "m:tin_ore_spawn"
+		},
+		"count": 9,
+		"replace_rules": [
+			{
+				"places_block": "m:tin_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {}
+					}
+				]
+			},
+			{
+				"places_block": "m:deepslate_tin_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					}
+				]
+			}
+		]
+	}
+}

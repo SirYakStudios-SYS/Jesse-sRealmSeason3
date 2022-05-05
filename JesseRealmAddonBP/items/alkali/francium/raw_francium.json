@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:raw_francium",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_francium"
+			},
+			"minecraft:display_name": {
+				"value": "Raw francium \n§eFound? \n§7Y=10 - 100 \n§eEnd"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

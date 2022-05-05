@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blaze_rod"
+			},
+			"X": {
+				"item": "minecraft:quartz_block"
+			},
+			"O": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": {
+			"item": "sp:quartz_hammer"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:taiga_tiny_trees"
+    },
+    "features": [
+      ["nicothekid:tree_x_spruce_bush_tree", 100],
+      ["nicothekid:tree_x_spruce_tall_01", 25],
+      ["nicothekid:tree_x_spruce_tiny_tree", 20]
+    ]
+  }
+}

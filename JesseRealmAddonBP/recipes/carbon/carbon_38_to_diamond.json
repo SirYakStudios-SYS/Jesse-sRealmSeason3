@@ -1,0 +1,13 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "m:carbon_38_to_diamond"
+		},
+		"tags": [
+			"blast_furnace"
+		],
+		"input": "m:carbon_38",
+		"output": "minecraft:diamond"
+	}
+}

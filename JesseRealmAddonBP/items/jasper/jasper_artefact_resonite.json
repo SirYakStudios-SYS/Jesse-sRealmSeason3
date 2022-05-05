@@ -1,0 +1,62 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:jasper_artefact_resonite",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "jasper_artefact_resonite"
+			},
+			"minecraft:display_name": {
+				"value": "Jasper Artefact \n§7haste III (0:30) \n§7absorption VI (0:30) \n Durability : 6"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.netherQuartz"
+			},
+			"minecraft:durability": {
+				"max_durability": 6
+			},
+			"minecraft:cooldown": {
+				"category": "jasper_artefact",
+				"duration": 4
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "broken"
+				}
+			},
+			"minecraft:use_animation": "bow",
+			"minecraft:hand_equipped": true
+		},
+		"events": {
+			"broken": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "haste",
+							"target": "holder",
+							"duration": 30,
+							"amplifier": 2
+						},
+						"damage": {
+							"type": "durablity",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"target": "holder",
+							"duration": 30,
+							"amplifier": 5,
+							"effect": "absorption"
+						}
+					}
+				]
+			}
+		}
+	}
+}

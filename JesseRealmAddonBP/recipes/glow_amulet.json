@@ -1,0 +1,35 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nether:glow_amulet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"? ?",
+			"! !",
+			"~#~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glowstone"
+			},
+			"~": {
+				"item": "minecraft:glowstone_dust"
+			},
+			"!": {
+				"item": "minecraft:gold_block"
+			},
+			"?": {
+				"item": "minecraft:string"
+			}
+		},
+		"result": [
+			{
+				"item": "nether:glow_amulet"
+			}
+		]
+	}
+}

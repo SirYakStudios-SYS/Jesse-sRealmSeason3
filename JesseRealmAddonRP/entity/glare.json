@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "guardian:glare",
+      "materials": { "default": "bat" },
+      "textures": {
+        "default": "textures/entity/guardian/minecon/glare"
+      },
+      "geometry": {
+        "default": "geometry.glare"
+      },
+      "animations": {
+        "flying": "animation.glare.flying"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.bat.move" }
+      ],
+      "render_controllers": [ "controller.render.bat" ],
+			"spawn_egg": {
+				"base_color": "#282828",
+				"overlay_color": "#679056"
+      }
+    }
+  }
+}

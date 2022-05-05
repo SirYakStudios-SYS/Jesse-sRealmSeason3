@@ -1,0 +1,54 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:steel_boots",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 6,
+				"slot": "armor_feet"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:steel_boots",
+							"sp:steel_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 269,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:armor": {
+				"protection": 3
+			},
+			"minecraft:icon": {
+				"texture": "steel_boots"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet"
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.boots"
+			},
+			"minecraft:display_name": {
+				"value": "Steel Boots"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.1
+			}
+		},
+		"events": {}
+	}
+}

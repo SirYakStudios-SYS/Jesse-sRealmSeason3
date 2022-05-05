@@ -1,0 +1,95 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:lava_mangrove_sapling",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lava_mangrove_sapling",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:aim_collision": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					14,
+					8
+				]
+			},
+			"minecraft:geometry": "geometry.flora",
+			"minecraft:destroy_time": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:netherrack",
+							"nether:lava_swamp_moss_block"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:breathability": "air",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_interact": {
+				"event": "grow",
+				"condition": "query.get_equipped_item_name('main_hand') == 'bone_meal'"
+			},
+			"minecraft:ticking": {
+				"range": [
+					300,
+					1200
+				],
+				"on_tick": {
+					"event": "grow_natural",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"grow_natural": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~ ~ air",
+								"structure load lava_mangrove ~-2~~-2"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"grow": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					},
+					{
+						"trigger": {
+							"event": "grow_natural"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,541 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\spawn_rules\\glare.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "7855b088_a718_4373_83a6_f001bc517a89",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mv:glare",
+							"population_control": "ambient"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_underground": {},
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 7,
+									"adjust_for_weather": true
+								},
+								"minecraft:height_filter": {
+									"min": 0,
+									"max": 63
+								},
+								"minecraft:weight": {
+									"default": 10
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 2
+								},
+								"minecraft:density_limit": {
+									"surface": 5
+								},
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:glare",
+								"population_control": "ambient"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": true
+									},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 2
+									},
+									"minecraft:density_limit": {
+										"surface": 5
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:glare",
+							"population_control": "ambient"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:glare",
+								"population_control": "ambient"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": true
+									},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 2
+									},
+									"minecraft:density_limit": {
+										"surface": 5
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_underground": {},
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": true
+										},
+										"minecraft:height_filter": {
+											"min": 0,
+											"max": 63
+										},
+										"minecraft:weight": {
+											"default": 10
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 2
+										},
+										"minecraft:density_limit": {
+											"surface": 5
+										},
+										"minecraft:biome_filter": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "overworld_generation"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "overworld"
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": true
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:height_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 63
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 10
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 2
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:density_limit",
+										"is_minified": true,
+										"children": {
+											"surface": 5
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 2
+											},
+											"minecraft:density_limit": {
+												"surface": 5
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"children": [
+											{
+												"open": {
+													"any_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld_generation"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld"
+														}
+													]
+												},
+												"key": "any_of",
+												"is_minified": true,
+												"children": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

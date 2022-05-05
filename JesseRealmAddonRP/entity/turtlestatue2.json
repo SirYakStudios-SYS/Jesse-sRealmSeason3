@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:turtlestatue2",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/turtlestatue2"
+        },
+        "geometry": {
+          "default": "geometry.turtlestatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "turtlestatue2item"
+        }
+      }
+    }
+  }
+  

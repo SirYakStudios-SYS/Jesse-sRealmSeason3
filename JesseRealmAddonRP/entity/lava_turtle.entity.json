@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nether:lava_turtle",
+			"materials": { "default": "skeleton" },
+			"textures": {
+				"default": "textures/entity/lava_turtle/lava_turtle",
+				"saddled": "textures/entity/lava_turtle/lava_turtle_saddled",
+				
+				"speed_upgrade": "textures/entity/lava_turtle/lava_turtle_speed_upgrade",
+				"hp_upgrade": "textures/entity/lava_turtle/lava_turtle_hp_upgrade",
+				"fire_immune_upgrade": "textures/entity/lava_turtle/lava_turtle_fire_immune_upgrade"
+			},
+			"geometry": {
+				"default": "geometry.lava_turtle"
+			},
+			"spawn_egg": {
+				"base_color": "#871478",
+				"overlay_color": "#c41d60"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"
+				]
+			},
+			"animations": {
+				"walk": "animation.frog.walk",
+				"swim": "animation.frog.swim",
+				"idle_water": "animation.frog.idle.water",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{ "general": "controller.animation.frog.general" }
+			],
+			"render_controllers": [ "controller.render.lava_turtle" ]
+		}
+	}
+}

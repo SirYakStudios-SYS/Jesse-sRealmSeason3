@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:pot_gold_rose"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.bum_flower_pot",
+			"minecraft:breathability": "air",
+			"minecraft:pick_collision": {
+				"origin": [-3, 0, -3],
+				"size": [6, 6, 6]
+			},
+			"minecraft:entity_collision": {
+				"origin": [-3, 0, -3],
+				"size": [6, 6, 6]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bum_pot_gold_rose",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:loot": "loot_tables/plants/potted_gold_rose.json",
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [4, 4],
+				"on_tick": {
+					"event": "AOEbuff",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"AOEbuff": {
+               "sequence": [
+					{
+						"run_command": {
+							"command": [
+								"effect @a[r=3] regeneration 4 3"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~1 ~ ~ ~1 ~ air 0 replace snow_layer"
+							]
+						}
+					}
+				]
+			}
+        }
+	}
+}

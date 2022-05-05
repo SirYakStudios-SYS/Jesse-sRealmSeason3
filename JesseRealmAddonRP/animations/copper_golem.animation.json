@@ -1,0 +1,183 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.copper_golem.attack": {
+			"loop": true,
+			"bones": {
+				"arm0": {
+					"rotation": ["-114+((1.5*math.abs(math.mod(variable.attack_animation_tick-query.frame_alpha,10)-5)-2.5)/5)*1", 0, 0]
+				},
+				"arm1": {
+					"rotation": ["-114+((1.5*math.abs(math.mod(variable.attack_animation_tick-query.frame_alpha,10)-5)-2.5)/5)*1", 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.flower": {
+			"loop": true,
+			"animation_length": 2.32,
+			"bones": {
+				"arm0": {
+					"rotation": ["-105.8+((0.25*math.abs(math.mod(variable.offer_flower_tick,70)-35)-17.5)/35)", 0, 0]
+				},
+				"head": {
+					"rotation": [-32.5, 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.move": {
+			"loop": true,
+			"bones": {
+				"arm0": {
+					"rotation": ["-variable.modified_tcos0*5", 0, 0]
+				},
+				"arm1": {
+					"rotation": ["variable.modified_tcos0*5", 0, 0]
+				},
+				"leg0": {
+					"rotation": ["variable.modified_tcos0*5", 0, 0]
+				},
+				"leg1": {
+					"rotation": ["-variable.modified_tcos0*5", 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.move_to_target": {
+			"loop": true,
+			"bones": {
+				"arm0": {
+					"rotation": ["((math.abs(math.mod(query.modified_distance_moved,13)-6.5)-3.25)/2.25)*30.0", 0, 0]
+				},
+				"arm1": {
+					"rotation": ["((math.abs(math.mod(query.modified_distance_moved,13)-6.5)-3.25)/2.25)*-30.0", 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, "variable.modified_tcos0/1.5"]
+				},
+				"head": {
+					"rotation": [0, 0, "variable.modified_tcos0/1.5"]
+				},
+				"leg0": {
+					"rotation": ["variable.modified_tcos0*6.0", 0, 0]
+				},
+				"leg1": {
+					"rotation": ["-variable.modified_tcos0*6.0", 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.walk_to_target": {
+			"loop": true,
+			"animation_length": 3.12,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, "2.0*(math.abs(math.mod(query.modified_distance_moved+6,13.0)-6.5)-3.25)"]
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, "2.0*(math.abs(math.mod(query.modified_distance_moved+6,13.0)-6.5)-3.25)"],
+						"1.0": [0, -175, "2.0*(math.abs(math.mod(query.modified_distance_moved+6,13.0)-6.5)-3.25)"],
+						"2.08": [0, -360, "2.0*(math.abs(math.mod(query.modified_distance_moved+6,13.0)-6.5)-3.25)"]
+					}
+				},
+				"leg0": {
+					"rotation": ["(math.cos(query.modified_distance_moved*38.17)*40.0)", 0, 0]
+				},
+				"leg1": {
+					"rotation": ["(math.cos(query.modified_distance_moved*38.17+180)*40.0)", 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.zombie_pose": {
+			"animation_length": 7.625,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 0]
+				},
+				"head": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"arm0": {
+					"rotation": [-92.5, 0, 0]
+				},
+				"arm1": {
+					"rotation": [-92.5, 0, 0]
+				},
+				"leg0": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"leg1": {
+					"rotation": [22.5, 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.naruto_pose": {
+			"animation_length": 7.625,
+			"bones": {
+				"body": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"head": {
+					"rotation": [-32.5, 0, 0]
+				},
+				"arm0": {
+					"rotation": [55, 0, 0]
+				},
+				"arm1": {
+					"rotation": [55, 0, 0]
+				},
+				"leg0": {
+					"rotation": [12.5, 0, 0]
+				},
+				"leg1": {
+					"rotation": [-65, 0, 0]
+				}
+			}
+		},
+		"animation.copper_golem.depressing_pose": {
+			"animation_length": 7.625,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [0, -3, 3]
+				},
+				"head": {
+					"rotation": [20, 0, 0]
+				},
+				"arm0": {
+					"rotation": [-52.5, 0, 0]
+				},
+				"arm1": {
+					"rotation": [-52.5, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"leg0": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 1, -2]
+				},
+				"leg1": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 1, -2]
+				}
+			}
+		},
+		"animation.copper_golem.entertain_pose": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-20, 0, 0]
+				},
+				"arm0": {
+					"rotation": [-140, 9, -11]
+				},
+				"arm1": {
+					"rotation": [-140, -9, 11]
+				}
+			}
+		}
+	}
+}

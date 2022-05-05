@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:briars",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.grass"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:briar_bush"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:briars"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:briar_bush"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

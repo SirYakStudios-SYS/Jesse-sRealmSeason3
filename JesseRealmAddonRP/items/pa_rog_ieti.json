@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:rog_ieti",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:rog_ieti",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

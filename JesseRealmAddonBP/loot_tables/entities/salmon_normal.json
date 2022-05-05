@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:salmon",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.25,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "guardian:bone_fish",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "guardian:caviar_salmon",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

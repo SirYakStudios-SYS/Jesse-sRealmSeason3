@@ -1,0 +1,26 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:shattered_glass_ing"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glass"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:shattered_glass",
+				"count": 9
+			}
+		]
+	}
+}

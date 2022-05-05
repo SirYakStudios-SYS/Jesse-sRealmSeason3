@@ -1,0 +1,70 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:sea_star",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "shulker"
+      },
+      "textures": {
+        "undyed": "textures/entity/pamobile/sea_star",
+        "white": "textures/entity/pamobile/sea_star",
+        "orange": "textures/entity/pamobile/sea_star",
+        "magenta": "textures/entity/pamobile/sea_star",
+        "light_blue": "textures/entity/pamobile/sea_star",
+        "yellow": "textures/entity/pamobile/sea_star",
+        "lime": "textures/entity/pamobile/sea_star",
+        "pink": "textures/entity/pamobile/sea_star_p",
+        "gray": "textures/entity/pamobile/sea_star",
+        "silver": "textures/entity/pamobile/sea_star",
+        "cyan": "textures/entity/pamobile/sea_star",
+        "purple": "textures/entity/pamobile/sea_stare",
+        "blue": "textures/entity/pamobile/sea_star",
+        "brown": "textures/entity/pamobile/sea_star",
+        "green": "textures/entity/pamobile/sea_star",
+        "red": "textures/entity/pamobile/sea_star",
+        "black": "textures/entity/pamobile/sea_star"
+      },
+      "geometry": {
+        "default": "geometry.sea_star"
+      },
+      "spawn_egg": {
+        "texture": "pa:sea_star",
+        "texture_index": 0
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Shulker.LidPositionFactor = 180 * (0.5 + variable.Shulker.PeekAmount);",
+          "variable.Shulker.LidRotationFactor = -1 + Math.sin(180 * (0.5 + variable.Shulker.PeekAmount));",
+          "variable.Shulker.UpFacing = variable.Shulker.FacingDirection == 1;",
+          "variable.Shulker.NorthFacing = variable.Shulker.FacingDirection == 2;",
+          "variable.Shulker.SouthFacing = variable.Shulker.FacingDirection == 3;",
+          "variable.Shulker.WestFacing = variable.Shulker.FacingDirection == 4;",
+          "variable.Shulker.EastFacing = variable.Shulker.FacingDirection == 5;",
+          "variable.Shulker.XPreRotation = variable.Shulker.UpFacing * 180 + variable.Shulker.NorthFacing * 90 - variable.Shulker.SouthFacing * 90;",
+          "variable.Shulker.ZPreRotation = variable.Shulker.NorthFacing * 180 + variable.Shulker.WestFacing * 90 - variable.Shulker.EastFacing * 90;",
+          "variable.Shulker.XOffset = -variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.YOffset = variable.Shulker.UpFacing * 16 + variable.Shulker.NorthFacing * 7.99 + variable.Shulker.SouthFacing * 7.99 + variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.ZOffset = variable.Shulker.NorthFacing * 7.99 - variable.Shulker.SouthFacing * 7.99;"
+        ]
+      },
+      "animations": {
+        "facing": "animation.sea_star.all",
+        "move": "animation.sea_star.all",
+        "look_at_target": "animation.sea_star.all"
+      },
+      "animation_controllers": [
+        {
+          "facing": "controller.animation.shulker.facing"
+        },
+        {
+          "move": "controller.animation.shulker.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.shulker"
+      ]
+    }
+  }
+}

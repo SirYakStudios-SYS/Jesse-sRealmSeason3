@@ -1,0 +1,102 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "pa:snail",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0.0,
+          "max": 15.0,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:herd": {
+          "min_size": 3,
+          "max_size": 7
+        },
+        "minecraft:density_limit": {
+          "surface": 8,
+          "underground": 0
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "swampland"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "swampland_mutated"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "sunflower_plains"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:brightness_filter": {
+          "min": 1,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 0
+        },
+        "minecraft:herd": {
+          "min_size": 0,
+          "max_size": 0
+        },
+        "minecraft:density_limit": {
+          "surface": 0,
+          "underground": 0
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "swampland"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "swampland_mutated"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "sunflower_plains"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

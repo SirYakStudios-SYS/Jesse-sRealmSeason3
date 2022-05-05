@@ -1,0 +1,20 @@
+##bridge-file-version: #22
+#
+tile.sp:glowing_ice.name=Glowing Ice
+tile.sp:butoi.name=Butoi
+tile.sp:pizza.name=Pizza
+tile.sp:full_pizza.name=Full Pizza
+tile.sp:cage.name=Cage
+tile.sp:sad_face.name=Sad Face
+tile.sp:smiley_face.name=Smiley Face
+tile.sp:wooden_box.name=New Cage
+tile.sp:regal_cheese.name=Regal Cheese
+tile.sp:cheese_2.name=Cheese 2
+tile.sp:cheese_4.name=Cheese 4
+tile.sp:cheese_3.name=Cheese 3
+tile.sp:cheese_5.name=Cheese 5
+tile.sp:table_vines.name=Old Table
+item.tt:basalt_rod.name=§l§8Basalt Rod
+item.tt:crimson_rod=§l§4Crimson Rod
+item.tt:soul_rod=§l§bSoul Sand Rod
+item.tt:twisted_rod=§l§5Twisted Rod

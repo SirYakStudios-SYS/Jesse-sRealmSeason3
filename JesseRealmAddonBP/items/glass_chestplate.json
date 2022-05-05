@@ -1,0 +1,40 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:glass_chestplate",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:durability": {
+            "max_durability": 50,
+            "damage_chance": {
+               "min": 60,
+               "max": 100
+            }
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 12,
+            "slot": "armor_torso"
+         },
+         "minecraft:icon": {
+            "texture": "glass_chestplate"
+         },
+         "minecraft:render_offsets": "chestplates",
+         "minecraft:armor": {
+            "protection": 1
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.chest"
+         },
+         "minecraft:display_name": {
+            "value": "Glass Chestplate\n§91 Protection\n§650 Durability\n§4Strength I"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.chestplate"
+         }
+      },
+      "events": {}
+   }
+}

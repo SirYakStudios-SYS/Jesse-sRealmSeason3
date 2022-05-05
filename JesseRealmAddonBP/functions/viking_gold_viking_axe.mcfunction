@@ -1,0 +1,1 @@
+give @s viking:gold_viking_axe

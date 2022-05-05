@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "guardian_totem_d062c0fe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:polished_pilestone",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:prismarine_crystals",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:guardian_totem",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:sheepstatue2",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/sheepstatue2"
+        },
+        "geometry": {
+          "default": "geometry.sheepstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "sheepstatue2item"
+        }
+      }
+    }
+  }
+  

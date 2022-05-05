@@ -1,0 +1,40 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:amethyst_boots",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:durability": {
+            "max_durability": 500,
+            "damage_chance": {
+               "min": 60,
+               "max": 100
+            }
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 12,
+            "slot": "armor_feet"
+         },
+         "minecraft:icon": {
+            "texture": "amethyst_boots"
+         },
+         "minecraft:render_offsets": "boots",
+         "minecraft:armor": {
+            "protection": 2
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.feet"
+         },
+         "minecraft:display_name": {
+            "value": "Amethyst Boots\n§92 Protection\n§6500 Durability\n§5Healing I"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.boots"
+         }
+      },
+      "events": {}
+   }
+}

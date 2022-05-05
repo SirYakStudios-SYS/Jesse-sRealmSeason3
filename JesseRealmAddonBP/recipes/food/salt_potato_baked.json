@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:salt_potato_baked"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:baked_potato",
+        "count": 1
+      },
+      {
+        "item": "guardian:salt",
+        "count": 1
+      }
+    ],
+    "result": [
+      { "item": "guardian:salt_potato_baked", "count": 1 }
+    ]
+  }
+}

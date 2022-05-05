@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "guardian:redstone_silverfish",
+      "materials": {
+        "default": "phantom",
+        "invisible": "phantom_invisible"
+      },
+			"textures": {
+				"default": "textures/entity/guardian/insects/redstone_silverfish"
+			},
+			"geometry": {
+				"default": "geometry.redstone_silverfish"
+			},
+			"animations": {
+				"move": "animation.redstone_silverfish.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.silverfish.move"
+				}
+			],
+			"render_controllers": ["controller.render.phantom"],
+			"spawn_egg": {
+				"base_color": "#ff0000",
+				"overlay_color": "#c40000"
+			}
+		}
+	}
+}

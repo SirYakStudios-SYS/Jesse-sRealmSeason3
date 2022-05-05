@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "pa:pa_vish_berrt_feature"
+    },
+    "places_block": "pa:vish_berrt",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:dirt",
+        "minecraft:grass"
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

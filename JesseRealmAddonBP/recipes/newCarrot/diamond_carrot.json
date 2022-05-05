@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:diamond_carrot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"OOO",
+			"O#O",
+			"OOO"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:carrot"
+			},
+			"O": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": {
+			"item": "sp:diamond_carrot"
+		}
+	}
+}

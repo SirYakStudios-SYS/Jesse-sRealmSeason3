@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:creeperstatue1"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "creeperstatue1item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:creeperstatue1"
+        }
+      }
+    }
+  }

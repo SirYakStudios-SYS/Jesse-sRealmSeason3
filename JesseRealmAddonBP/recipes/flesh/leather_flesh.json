@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:leather_flesh"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:string",
+        "count": 4
+      },
+      {
+        "item": "guardian:husk_flesh",
+        "count": 5
+      }
+    ],
+    "result": {
+      "item": "guardian:leather_flesh",
+        "count": 1
+    }
+  }
+}

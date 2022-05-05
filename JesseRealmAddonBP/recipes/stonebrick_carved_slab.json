@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stonebrick:stonebrick_carved_slab"
+    },
+	"tags": [ "crafting_table" ],
+	"pattern": [
+	  "###"
+	],
+	"key": {
+	  "#": {
+	    "item": "minecraft:stonebrick",
+	"data": 3
+	  }
+    },
+    "result": {
+      "item": "stonebrick:stonebrick_carved_slab",
+	  "count": 6
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "guardian:iron_sky_lanterns_feature_mcstructure"
+		},
+		"structure_name": "mystructure:sky_lanterns_2",
+		"adjustment_radius": 8,
+		"facing_direction": "south",
+		"constraints": {}
+	}
+}

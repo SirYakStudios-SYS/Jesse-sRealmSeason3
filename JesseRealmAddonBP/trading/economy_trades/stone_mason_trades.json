@@ -1,0 +1,1509 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:clay_ball",
+              "quantity": 10,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "trader_exp": 1,
+          "max_uses": 6,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:brick",
+              "quantity": 16
+            }
+          ],
+          "trader_exp": 2,
+          "max_uses": 5,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "total_exp_required": 10,
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stone:0",
+              "quantity": 20,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "trader_exp": 5,
+          "max_uses": 5,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "choice": [
+                {
+                  "item": "minecraft:stonebrick:3",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stone:2",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stone:4",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stone:6",
+                  "quantity": 4
+                }
+              ]
+            }
+          ],
+          "trader_exp": 10,
+          "max_uses": 5,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "total_exp_required": 60,
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "choice": [
+                {
+                  "item": "jctstatues:dirtsteve1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatuediamondore1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatuenetherrack1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatueendstone1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatueice1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatueprismarine1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatuecake1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatueice1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatueamethyst1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatueamethyst1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatueamethyst1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatueamethyst1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatuediamond1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderjockeystatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:coppergolemstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dragonstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:stoicstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:mollystatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:jaystatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:swordstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:creeperstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:chickenstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:irongolemstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pigstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:dogstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:pandastatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:foxstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:axolotlstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:parrotstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:beestatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:catstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:cowstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:squidstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:horsestatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:rabbitstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:sheepstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:striderstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:turtlestatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:villagerstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:spiderstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:endermanstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:hoglinstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:skeletonstatue10",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue1",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue2",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue3",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue4",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue5",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue6",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue7",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue8",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue9",
+                  "quantity": 1
+                },
+                {
+                  "item": "jctstatues:witherstatue10",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "trader_exp": 10,
+          "max_uses": 5,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "choice": [
+                {
+                  "item": "minecraft:stained_hardened_clay:0",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:1",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:2",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:3",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:4",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:5",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:6",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:7",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:8",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:9",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:10",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:11",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:12",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:13",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:14",
+                  "quantity": 4
+                },
+                {
+                  "item": "minecraft:stained_hardened_clay:15",
+                  "quantity": 4
+                }
+              ]
+            }
+          ],
+          "trader_exp": 20,
+          "max_uses": 5,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "total_exp_required": 160,
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:quartz",
+              "quantity": 12,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "trader_exp": 15,
+          "max_uses": 5,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "choice": [
+                {
+                  "item": "minecraft:black_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:blue_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:brown_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:cyan_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:gray_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:green_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:light_blue_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:lime_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:magenta_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:orange_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:pink_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:purple_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:red_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:silver_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:white_glazed_terracotta"
+                },
+                {
+                  "item": "minecraft:yellow_glazed_terracotta"
+                }
+              ]
+            }
+          ],
+          "trader_exp": 30,
+          "max_uses": 5,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "total_exp_required": 310,
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1,
+              "price_multiplier": 0.05
+            }
+          ],
+          "gives": [
+            {
+              "choice": [
+                {
+                  "item": "minecraft:quartz_block:0"
+                },
+                {
+                  "item": "minecraft:quartz_block:2"
+                }
+              ]
+            }
+          ],
+          "trader_exp": 0,
+          "max_uses": 5,
+          "reward_exp": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:coconut_from_coconut_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:coconut_block"
+      }
+    },
+    "result": {
+      "item": "guardian:coconut",
+      "count": 2
+    }
+  }
+}

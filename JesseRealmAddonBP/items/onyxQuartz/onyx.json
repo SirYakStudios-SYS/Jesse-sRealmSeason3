@@ -1,0 +1,19 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:onyx",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sp_onyx"
+			},
+			"minecraft:display_name": {
+				"value": "§8Onyx"
+			}
+		},
+		"events": {}
+	}
+}

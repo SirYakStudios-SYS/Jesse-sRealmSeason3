@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:suspicious_stew_from_blue_rose"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "guardian:blue_rose"
+      }
+    ],
+    "result": {
+      "item": "minecraft:suspicious_stew",
+      "data": 6
+    }
+  }
+}

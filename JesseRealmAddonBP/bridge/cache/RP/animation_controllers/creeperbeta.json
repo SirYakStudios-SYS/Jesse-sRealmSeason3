@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\animation_controllers\\creeperbeta.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "5ed4c2a2_486c_4cac_87f6_1c401313a294",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"key": "animation_controllers",
+				"is_active": false,
+				"children": [
+					{
+						"open": {
+							"controller.animation.creeperpet.move": {
+								"initial_state": "particle",
+								"states": {
+									"default": {
+										"particle_effects": [
+											{
+												"effect": "prueba",
+												"locator": "prueba"
+											},
+											{
+												"effect": "prueba",
+												"locator": "prueba2"
+											}
+										],
+										"transitions": [
+											{
+												"default": "query.on_loop"
+											}
+										]
+									},
+									"default2": {
+										"particle_effects": [
+											{
+												"effect": "prueba",
+												"locator": "prueba"
+											},
+											{
+												"effect": "prueba",
+												"locator": "prueba2"
+											}
+										],
+										"transitions": [
+											{
+												"default2": "!query.is_moving"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.creeperpet.move",
+						"children": [
+							{
+								"data": "particle",
+								"key": "initial_state"
+							},
+							{
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"particle_effects": [
+													{
+														"effect": "prueba",
+														"locator": "prueba"
+													},
+													{
+														"effect": "prueba",
+														"locator": "prueba2"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.on_loop"
+													}
+												]
+											},
+											"default2": {
+												"particle_effects": [
+													{
+														"effect": "prueba",
+														"locator": "prueba"
+													},
+													{
+														"effect": "prueba",
+														"locator": "prueba2"
+													}
+												],
+												"transitions": [
+													{
+														"default2": "!query.is_moving"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"key": "particle_effects",
+												"children": [
+													{
+														"open": [
+															{
+																"effect": "prueba",
+																"locator": "prueba"
+															},
+															{
+																"effect": "prueba",
+																"locator": "prueba2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"effect": "prueba",
+															"locator": "prueba"
+														}
+													},
+													{
+														"open": [
+															{
+																"effect": "prueba",
+																"locator": "prueba"
+															},
+															{
+																"effect": "prueba",
+																"locator": "prueba2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"effect": "prueba",
+															"locator": "prueba2"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"particle_effects": [
+														{
+															"effect": "prueba",
+															"locator": "prueba"
+														},
+														{
+															"effect": "prueba",
+															"locator": "prueba2"
+														}
+													],
+													"transitions": [
+														{
+															"default": "query.on_loop"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.on_loop"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.on_loop"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"key": "default2",
+										"children": [
+											{
+												"key": "particle_effects",
+												"children": [
+													{
+														"open": [
+															{
+																"effect": "prueba",
+																"locator": "prueba"
+															},
+															{
+																"effect": "prueba",
+																"locator": "prueba2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"effect": "prueba",
+															"locator": "prueba"
+														}
+													},
+													{
+														"open": [
+															{
+																"effect": "prueba",
+																"locator": "prueba"
+															},
+															{
+																"effect": "prueba",
+																"locator": "prueba2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"effect": "prueba",
+															"locator": "prueba2"
+														}
+													}
+												]
+											},
+											{
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default2": "!query.is_moving"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default2": "!query.is_moving"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,146 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "stonebrick:brown_stonebrick_carved_stairs_13",
+			"properties": {
+				"stonebrick:facing_direction": [0, 1, 2, 3, 4, 5, 6],
+				"stonebrick:set_up": ["270_grades","270_corner","270_inv","180_grades","180_corner","180_inv","90_grades","90_corner","90_inv","0_grades","0_corner","0_inv"]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_property('stonebrick:facing_direction') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.stairs_top_0",
+					"minecraft:entity_collision": {
+						"origin": [-8, 8, -8],
+						"size": [16, 8, 16]
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('stonebrick:facing_direction') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.stairs_top_180",
+					"minecraft:entity_collision": {
+						"origin": [-8, 8, -8],
+						"size": [16, 8, 16]
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('stonebrick:facing_direction') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.stairs_top_90",
+					"minecraft:entity_collision": {
+						"origin": [-8, 8, -8],
+						"size": [16, 8, 16]
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('stonebrick:facing_direction') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.stairs_top_270",
+					"minecraft:entity_collision": {
+						"origin": [-8, 8, -8],
+						"size": [16, 8, 16]
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '270_grades' && q.block_property('stonebrick:facing_direction') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.stairs_270",
+					"minecraft:rotation": [0, 90, 0]
+				}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '270_grades' && (q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_270"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '270_corner' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_corner_270"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '270_inv' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_inv_270"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '180_grades' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_0"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '180_corner' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_corner_180"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '180_inv' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_inv_180"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '90_grades' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_90"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '90_corner' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_corner_90"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '90_inv' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_inv_90"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '0_grades' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_180"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '0_corner' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_corner_0"}
+			},
+			{
+				"condition": "q.block_property('stonebrick:set_up') == '0_inv' && (q.block_property('stonebrick:facing_direction') == 0 || q.block_property('stonebrick:facing_direction') == 1 || q.block_property('stonebrick:facing_direction') == 6)",
+				"components": {"minecraft:geometry": "geometry.stairs_inv_0"}
+			}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.stairs_180",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "brown_stonebrick_carved_13",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "set_facing_direction"
+			},
+			"minecraft:entity_collision": {
+			"origin": [-8,0.0,-8],
+			"size": [16,9,16]
+			},
+			"minecraft:block_light_absorption": 1.0,
+			"minecraft:block_light_emission": 0.0,
+			"minecraft:explosion_resistance": 6.0,
+			"minecraft:map_color": "#5d4037",
+			"minecraft:destroy_time": 1.2
+		},
+		"events": {
+			"set_facing_direction": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"stonebrick:facing_direction": "q.cardinal_block_face_placed_on"
+						}
+					},
+					{
+						"set_block_property": {
+							"stonebrick:set_up": "((q.head_y_rotation(0) >= -15 && q.head_y_rotation(0) < 0.0) ? '0_grades' :((q.head_y_rotation(0) >= 0.0 && q.head_y_rotation(0) < 15) ? '0_grades' :((q.head_y_rotation(0) >= 15 && q.head_y_rotation(0) < 45.5) ? '0_corner' :((q.head_y_rotation(0) >= 45.5 && q.head_y_rotation(0) < 75) ? '0_inv' :((q.head_y_rotation(0) >= 75 && q.head_y_rotation(0) < 105) ? '90_grades' :((q.head_y_rotation(0) >= 105 && q.head_y_rotation(0) < 135) ? '90_corner' :((q.head_y_rotation(0) >= 135 && q.head_y_rotation(0) < 165) ? '90_inv' :((q.head_y_rotation(0) >= 165 && q.head_y_rotation(0) < 180.0) ? '180_grades' :((q.head_y_rotation(0) >= -180.0 && q.head_y_rotation(0) < -165) ? '180_grades' :((q.head_y_rotation(0) >= -165 && q.head_y_rotation(0) < -135) ? '180_corner' :((q.head_y_rotation(0) >= -135 && q.head_y_rotation(0) < -105) ? '180_inv' :((q.head_y_rotation(0) >= -105 && q.head_y_rotation(0) < -75) ? '270_grades' :((q.head_y_rotation(0) >= -75 && q.head_y_rotation(0) < -45.5) ? '270_corner' :((q.head_y_rotation(0) >= -45.5 && q.head_y_rotation(0) < -15) ? '270_inv' : '0_grades'))))))))))))))"
+						}
+					}
+				]
+			}
+		}
+	}
+}

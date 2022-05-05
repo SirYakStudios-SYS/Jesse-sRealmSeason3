@@ -1,0 +1,25 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:long_tongue_raw"
+		},
+		"components": {
+			"minecraft:use_duration": 20,
+      	"minecraft:max_stack_size": 64,
+			"minecraft:food": {
+				"can_always_eat": false,
+				"nutrition": 8,
+        "saturation_modifier": "supernatural",
+        "effects": [
+          {
+            "name": "poison",
+            "chance": 0.6,
+            "duration": 2,
+            "amplifier": 2
+					}
+				]
+			}
+		}
+	}
+}

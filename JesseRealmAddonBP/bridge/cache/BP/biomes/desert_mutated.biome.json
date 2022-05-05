@@ -1,0 +1,140 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\biomes\\desert_mutated.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "251e9e9b_4e8d_4d89_b843_114a54491765",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "desert_mutated"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2
+							},
+							"minecraft:overworld_height": {
+								"noise_params": [
+									0.225,
+									0.25
+								]
+							},
+							"minecraft:mesa_surface": {
+								"bryce_pillars": false,
+								"clay_material": "mv:chalkstone",
+								"sea_floor_depth": 7,
+								"sea_floor_material": "minecraft:gravel",
+								"foundation_material": "minecraft:stone",
+								"hard_clay_material": "mv:jade",
+								"has_forest": false,
+								"mid_material": "minecraft:sand",
+								"top_material": "minecraft:sand",
+								"sea_material": "minecraft:water"
+							},
+							"desert": {},
+							"monster": {},
+							"mutated": {},
+							"overworld_generation": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "desert_mutated"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "desert_mutated"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2
+								},
+								"minecraft:overworld_height": {
+									"noise_params": [
+										0.225,
+										0.25
+									]
+								},
+								"minecraft:mesa_surface": {
+									"bryce_pillars": false,
+									"clay_material": "mv:chalkstone",
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"hard_clay_material": "mv:jade",
+									"has_forest": false,
+									"mid_material": "minecraft:sand",
+									"top_material": "minecraft:sand",
+									"sea_material": "minecraft:water"
+								},
+								"desert": {},
+								"monster": {},
+								"mutated": {},
+								"overworld_generation": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2
+							},
+							"minecraft:overworld_height": {
+								"noise_params": [
+									0.225,
+									0.25
+								]
+							},
+							"minecraft:mesa_surface": {
+								"bryce_pillars": false,
+								"clay_material": "mv:chalkstone",
+								"sea_floor_depth": 7,
+								"sea_floor_material": "minecraft:gravel",
+								"foundation_material": "minecraft:stone",
+								"hard_clay_material": "mv:jade",
+								"has_forest": false,
+								"mid_material": "minecraft:sand",
+								"top_material": "minecraft:sand",
+								"sea_material": "minecraft:water"
+							},
+							"desert": {},
+							"monster": {},
+							"mutated": {},
+							"overworld_generation": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

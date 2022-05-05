@@ -1,0 +1,93 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "places_feature": "pa:icestone_caves",
+      "identifier": "pa:icestone_caves_rules"
+    },
+    "conditions": {
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_taiga"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_taiga_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_taiga_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ice_plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ice_mountains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ice_plains_spikes"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "deep"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ice"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mountain"
+            }
+          ]
+        }
+      ],
+      "placement_pass": "pregeneration_pass"
+    },
+    "distribution": {
+      "iterations": 100,
+      "x": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "y": {
+        "extent": [
+          2,
+          127
+        ],
+        "distribution": "uniform"
+      },
+      "z": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:witherstatue8",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/witherstatue8"
+        },
+        "geometry": {
+          "default": "geometry.witherstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "witherstatue8item"
+        }
+      }
+    }
+  }
+  

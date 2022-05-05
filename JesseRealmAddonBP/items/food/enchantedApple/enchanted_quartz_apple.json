@@ -1,0 +1,84 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:enchanted_quartz_apple"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": true,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "quartz_apple"
+			},
+			"minecraft:display_name": {
+				"value": "§dEnchanted Quartz Apple"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 120,
+							"amplifier": 4,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "absorption",
+							"duration": 180,
+							"amplifier": 3,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "speed",
+							"duration": 80,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"duration": 360,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "strength",
+							"duration": 280,
+							"amplifier": 4,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "resistance",
+							"duration": 380,
+							"amplifier": 4,
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

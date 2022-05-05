@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:eletric_rose_gold_recipe_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#+#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:electrum_nugget"
+			},
+			"+": {
+				"item": "m:rose_gold_axe"
+			}
+		},
+		"result": [
+			{
+				"item": "m:electric_rose_gold_axe"
+			}
+		]
+	}
+}

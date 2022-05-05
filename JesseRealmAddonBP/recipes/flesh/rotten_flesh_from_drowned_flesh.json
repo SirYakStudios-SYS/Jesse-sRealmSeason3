@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:rotten_flesh_from_drowned_flesh"
+    },
+
+    
+    "tags": ["furnace", "smoker"],
+    "input": "guardian:drowned_flesh",
+    "output": "minecraft:rotten_flesh"
+  }
+  
+}

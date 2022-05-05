@@ -1,0 +1,474 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\bear.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "a32cf694_f2de_4d6e_a896_12f9c517e16b",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:bear",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"look_for_honey": "textures/entity/bear/bear",
+								"hunger_timer": "textures/entity/bear/bear_honey"
+							},
+							"geometry": {
+								"default": "geometry.bear"
+							},
+							"animations": {
+								"walk": "animation.bear.walk",
+								"baby_transform": "animation.bear.baby_transform"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"walk": "query.ground_speed > 0.0"
+									},
+									{
+										"baby_transform": "query.is_baby"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.bear"
+							],
+							"spawn_egg": {
+								"base_color": "#A25312",
+								"overlay_color": "#492406"
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:bear",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"look_for_honey": "textures/entity/bear/bear",
+								"hunger_timer": "textures/entity/bear/bear_honey"
+							},
+							"geometry": {
+								"default": "geometry.bear"
+							},
+							"animations": {
+								"walk": "animation.bear.walk",
+								"baby_transform": "animation.bear.baby_transform"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"walk": "query.ground_speed > 0.0"
+									},
+									{
+										"baby_transform": "query.is_baby"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.bear"
+							],
+							"spawn_egg": {
+								"base_color": "#A25312",
+								"overlay_color": "#492406"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:bear",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"look_for_honey": "textures/entity/bear/bear",
+									"hunger_timer": "textures/entity/bear/bear_honey"
+								},
+								"geometry": {
+									"default": "geometry.bear"
+								},
+								"animations": {
+									"walk": "animation.bear.walk",
+									"baby_transform": "animation.bear.baby_transform"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"walk": "query.ground_speed > 0.0"
+										},
+										{
+											"baby_transform": "query.is_baby"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.bear"
+								],
+								"spawn_egg": {
+									"base_color": "#A25312",
+									"overlay_color": "#492406"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:bear",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"look_for_honey": "textures/entity/bear/bear",
+									"hunger_timer": "textures/entity/bear/bear_honey"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.bear"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.bear.walk",
+									"baby_transform": "animation.bear.baby_transform"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"walk": "query.ground_speed > 0.0"
+												},
+												{
+													"baby_transform": "query.is_baby"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"walk": "query.ground_speed > 0.0"
+													},
+													{
+														"baby_transform": "query.is_baby"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"walk": "query.ground_speed > 0.0"
+												}
+											},
+											{
+												"open": [
+													{
+														"walk": "query.ground_speed > 0.0"
+													},
+													{
+														"baby_transform": "query.is_baby"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"baby_transform": "query.is_baby"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.bear"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:bear",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"look_for_honey": "textures/entity/bear/bear",
+										"hunger_timer": "textures/entity/bear/bear_honey"
+									},
+									"geometry": {
+										"default": "geometry.bear"
+									},
+									"animations": {
+										"walk": "animation.bear.walk",
+										"baby_transform": "animation.bear.baby_transform"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.ground_speed > 0.0"
+											},
+											{
+												"baby_transform": "query.is_baby"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.bear"
+									],
+									"spawn_egg": {
+										"base_color": "#A25312",
+										"overlay_color": "#492406"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#A25312",
+									"overlay_color": "#492406"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

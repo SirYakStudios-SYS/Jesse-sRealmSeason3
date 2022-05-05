@@ -1,0 +1,41 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "mv:firefly",
+			"population_control": "ambient"
+		},
+		"conditions": [
+			{
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 7
+				},
+				"minecraft:weight": {
+					"default": 50
+				},
+				"minecraft:herd": {
+					"min_size": 3,
+					"max_size": 10
+				},
+				"minecraft:density_limit": {
+					"surface": 5
+				},
+				"minecraft:biome_filter": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "mangrove_swamp"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "river"
+					}
+				],
+				"minecraft:spawns_on_surface": {}
+			}
+		]
+	}
+}

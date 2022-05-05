@@ -1,0 +1,23 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.17.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "mv:grass_with_forest_flowers_patch_feature"
+		},
+		"replaceable_blocks": [
+			"minecraft:grass"
+		],
+		"ground_block": "minecraft:grass",
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 5,
+		"vegetation_chance": 0.05,
+		"horizontal_radius": {
+			"range_min": 5,
+			"range_max": 7
+		},
+		"extra_edge_column_chance": 1,
+		"vegetation_feature": "mv:weighted_random_flowers_forests_vegetation_feature"
+	}
+}

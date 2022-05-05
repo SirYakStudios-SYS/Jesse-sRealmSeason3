@@ -1,0 +1,197 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\bloodymeat.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "a40cac19_f376_4133_8058_185744c27fc0",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tt:bloodymeat",
+							"materials": {
+								"default": "cow"
+							},
+							"textures": {
+								"default": "textures/entity/bloodymeat"
+							},
+							"geometry": {
+								"default": "geometry.bloodymeat"
+							},
+							"animations": {
+								"setup": "animation.crysoul.eyes",
+								"look_at_target": "animation.common.look_at_target"
+							},
+							"render_controllers": [
+								"controller.render.bloodymeat"
+							],
+							"spawn_egg": {
+								"texture": "bloody"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									},
+									"look_at_target"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:bloodymeat",
+								"materials": {
+									"default": "cow"
+								},
+								"textures": {
+									"default": "textures/entity/bloodymeat"
+								},
+								"geometry": {
+									"default": "geometry.bloodymeat"
+								},
+								"animations": {
+									"setup": "animation.crysoul.eyes",
+									"look_at_target": "animation.common.look_at_target"
+								},
+								"render_controllers": [
+									"controller.render.bloodymeat"
+								],
+								"spawn_egg": {
+									"texture": "bloody"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "tt:bloodymeat",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "cow"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/bloodymeat"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.bloodymeat"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"setup": "animation.crysoul.eyes",
+									"look_at_target": "animation.common.look_at_target"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.bloodymeat"
+								]
+							},
+							{
+								"open": {
+									"identifier": "tt:bloodymeat",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/bloodymeat"
+									},
+									"geometry": {
+										"default": "geometry.bloodymeat"
+									},
+									"animations": {
+										"setup": "animation.crysoul.eyes",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"render_controllers": [
+										"controller.render.bloodymeat"
+									],
+									"spawn_egg": {
+										"texture": "bloody"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#C72121",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#FCFEFF",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"data": "bloody",
+										"key": "texture"
+									}
+								]
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,210 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\blocks\\mangrove_leaves.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "407cf6eb_11e7_4150_b8ec_4bda803165e9",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mv:mangrove_leaves"
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.leaves"
+							},
+							"minecraft:block_light_absorption": 8,
+							"minecraft:destroy_time": 0.2,
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "blend",
+									"texture": "mangrove_leaves",
+									"ambient_occlusion": true,
+									"face_dimming": true
+								}
+							},
+							"minecraft:loot": "loot_tables/mangrove_leaves_loot.json",
+							"minecraft:unit_cube": {},
+							"minecraft:flammable": {
+								"burn_odds": 30,
+								"flame_odds": 60
+							},
+							"minecraft:rotation": [
+								0,
+								0,
+								0
+							],
+							"minecraft:breathability": "air",
+							"minecraft:map_color": "#C689BF"
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:mangrove_leaves"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:mangrove_leaves"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"category": "Nature",
+									"group": "itemGroup.name.leaves"
+								},
+								"minecraft:block_light_absorption": 8,
+								"minecraft:destroy_time": 0.2,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "blend",
+										"texture": "mangrove_leaves",
+										"ambient_occlusion": true,
+										"face_dimming": true
+									}
+								},
+								"minecraft:loot": "loot_tables/mangrove_leaves_loot.json",
+								"minecraft:unit_cube": {},
+								"minecraft:flammable": {
+									"burn_odds": 30,
+									"flame_odds": 60
+								},
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								],
+								"minecraft:breathability": "air",
+								"minecraft:map_color": "#C689BF"
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:creative_category": {
+								"category": "Nature",
+								"group": "itemGroup.name.leaves"
+							},
+							"minecraft:block_light_absorption": 8,
+							"minecraft:destroy_time": 0.2,
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "blend",
+									"texture": "mangrove_leaves",
+									"ambient_occlusion": true,
+									"face_dimming": true
+								}
+							},
+							"minecraft:loot": "loot_tables/mangrove_leaves_loot.json",
+							"minecraft:unit_cube": {},
+							"minecraft:flammable": {
+								"burn_odds": 30,
+								"flame_odds": 60
+							},
+							"minecraft:rotation": [
+								0,
+								0,
+								0
+							],
+							"minecraft:breathability": "air",
+							"minecraft:map_color": "#C689BF"
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

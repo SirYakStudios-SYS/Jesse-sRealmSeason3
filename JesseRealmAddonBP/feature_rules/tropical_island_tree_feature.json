@@ -1,0 +1,32 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "mc:tropical_island_tree_feature",
+      "places_feature": "mc:tropical_tree_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "tropical_forest"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": "math.clamp(math.trunc(math.ceil((query.noise(math.trunc(variable.originx / 70), math.trunc(variable.originz / 25)) + 0.2) * 25)), 2, 70)",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 8 ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform", 
+        "extent": [ 0, 8 ]
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:enderite_apple"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "enderite_apple"
+			},
+			"minecraft:display_name": {
+				"value": "§bEnderite Apple"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 25,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "health_boost",
+							"duration": 80,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "strength",
+							"duration": 80,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"duration": 120,
+							"amplifier": 0,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "slow_falling",
+							"duration": 30,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "speed",
+							"duration": 60,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "absorption",
+							"duration": 120,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

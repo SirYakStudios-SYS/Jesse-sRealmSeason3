@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:explosivs_core",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "explosive_core"
+			},
+			"minecraft:display_name": {
+				"value": "Explosive Core\n§4WARNING:EXTREMELY UNSTABLE\n§ccore will explode in 10 seconds \n§7Used for: \n-Make Tnt"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

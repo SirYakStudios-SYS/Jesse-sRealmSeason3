@@ -1,0 +1,40 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:item": {
+      "description": {
+         "identifier": "vatonage:bookshelf_chestplate",
+         "category": "equipment"
+      },
+      "components": {
+         "minecraft:durability": {
+            "max_durability": 300,
+            "damage_chance": {
+               "min": 60,
+               "max": 100
+            }
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:enchantable": {
+            "value": 12,
+            "slot": "armor_torso"
+         },
+         "minecraft:icon": {
+            "texture": "bookshelf_chestplate"
+         },
+         "minecraft:render_offsets": "chestplates",
+         "minecraft:armor": {
+            "protection": 2
+         },
+         "minecraft:wearable": {
+            "slot": "slot.armor.chest"
+         },
+         "minecraft:display_name": {
+            "value": "Bookshelf Chestplate\n§92 Protection\n§6300 Durability\n§aExp Generation"
+         },
+         "minecraft:creative_category": {
+            "parent": "itemGroup.name.chestplate"
+         }
+      },
+      "events": {}
+   }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:potato_golden"
+    },
+
+    "components": {
+      "minecraft:icon": "potato_golden",
+      "minecraft:use_animation": "eat"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:cut_lithium_soul_lantern"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"...",
+			".|.",
+			"..."
+		],
+		"key": {
+			"|": {
+				"item": "minecraft:soul_torch"
+			},
+			".": {
+				"item": "m:lithium_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "m:soul_cut_lithium_lantern"
+			}
+		]
+	}
+}

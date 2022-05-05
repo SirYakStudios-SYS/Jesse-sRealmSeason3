@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:stoicstatueprismarine1"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "stoicstatueprismarine1item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:stoicstatueprismarine1"
+        }
+      }
+    }
+  }

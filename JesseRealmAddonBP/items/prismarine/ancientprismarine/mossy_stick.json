@@ -1,0 +1,21 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:mossy_stick"
+		},//MCPEDL:SorYPMod
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "mossy_stick"
+			},
+			"minecraft:render_offsets": "stick",
+			"minecraft:hand_equipped": true,
+			"minecraft:display_name": {
+				"value": "§2Mossy Stick"
+			}
+		},
+		"events": {}
+	}
+}

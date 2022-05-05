@@ -1,0 +1,285 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\spawn_rules\\tadpole.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "026c338c_9d11_4cce_a06f_609bfa84a86b",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mv:tadpole",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_underwater": {},
+								"minecraft:weight": {
+									"default": 35
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 3
+								},
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "mangrove_swamp"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "river"
+									}
+								]
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:tadpole",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underwater": {},
+									"minecraft:weight": {
+										"default": 35
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 3
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "river"
+										}
+									]
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:tadpole",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:tadpole",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underwater": {},
+									"minecraft:weight": {
+										"default": 35
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 3
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "river"
+										}
+									]
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_underwater": {},
+										"minecraft:weight": {
+											"default": 35
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 3
+										},
+										"minecraft:biome_filter": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "mangrove_swamp"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "river"
+											}
+										]
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_underwater",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underwater": {},
+											"minecraft:weight": {
+												"default": 35
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											]
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 35
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underwater": {},
+											"minecraft:weight": {
+												"default": 35
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											]
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 2,
+											"max_size": 3
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underwater": {},
+											"minecraft:weight": {
+												"default": 35
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:biome_filter": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											]
+										},
+										"key": "minecraft:biome_filter",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "mangrove_swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "river"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "mangrove_swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "river"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "river"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

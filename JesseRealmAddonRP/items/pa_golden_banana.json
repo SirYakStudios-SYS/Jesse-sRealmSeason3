@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:golden_banana",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "pa:golden_banana",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

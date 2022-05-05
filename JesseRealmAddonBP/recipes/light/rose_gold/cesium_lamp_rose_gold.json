@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:cesium_lamp_rose_gold"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:rose_gold_ingot"
+			},
+			"#": {
+				"item": "m:cesium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:rose_gold_cesium_lamp",
+				"count": 3
+			}
+		]
+	}
+}

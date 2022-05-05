@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:hopper_from_steel_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"# #",
+			"#G#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "sp:steel_ingot"
+			},
+			"G": {
+				"item": "minecraft:chest"
+			}
+		},
+		"result": {
+			"item": "minecraft:hopper",
+			"count": 1
+		}
+	}
+}

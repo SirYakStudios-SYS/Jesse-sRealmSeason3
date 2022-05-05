@@ -1,0 +1,131 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:blazed_karambit",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 2378,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 8,
+			"minecraft:enchantable": {
+				"value": 24,
+				"slot": "sword"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:blazed_karambit",
+							"minecraft:blaze_powder"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 24,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 24,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dmg"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "blazed_karambit"
+			},
+			"minecraft:display_name": {
+				"value": "§6Blazed Quartz Karambit"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "effect"
+				},
+				"on_not_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_hit_block": {
+					"event": "dmg"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		},
+		"events": {
+			"dmg": {
+				"damage": {
+					"type": "none",
+					"amount": 1,
+					"target": "self"
+				}
+			},
+			"effect": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "none",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "instant_health",
+							"target": "holder",
+							"duration": 1,
+							"amplifier": 2
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "strength",
+							"target": "holder",
+							"duration": 5,
+							"amplifier": 2
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @p ~ ~ ~ execute @e[type=!player,r=5] ~ ~ ~ fill ~ ~1 ~ ~ ~1 ~ fire 0 hollow"
+							]
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"target": "holder",
+							"duration": 5,
+							"amplifier": 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

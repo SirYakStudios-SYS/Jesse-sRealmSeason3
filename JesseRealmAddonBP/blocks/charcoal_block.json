@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "guardian:charcoal_block",
+			"register_to_creative_menu": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/blocks/charcoal_block.json",
+			"minecraft:destroy_time": 1.0,
+			"minecraft:explosion_resistance": 15,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

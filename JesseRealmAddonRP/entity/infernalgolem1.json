@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:infernalgolem",
+			"materials": {
+				"default": "cow"
+			},
+			"textures": {
+				"default": "textures/entity/golemblack"
+			},
+			"geometry": {
+				"default": "geometry.unknown"
+			},
+			"animations": {
+				"setup": "animation.model.new",
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.infernalgolem1.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.infernalgolem1"
+			],
+			"spawn_egg": {
+				"texture": "infernal"
+			}
+		}
+	}
+}

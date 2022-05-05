@@ -1,0 +1,587 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:aluminum_furnace",
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"m:first": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1,
+			"tag:fast_pickaxe_mineable": {},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 3.5,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "aluminum_furnace_side"
+				},
+				"up": {
+					"texture": "aluminum_furnace_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "aluminum_furnace_top",
+					"render_method": "opaque"
+				},
+				"north": {
+					"texture": "aluminum_furnace_front_off",
+					"render_method": "opaque"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('m:first') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "opaque",
+							"texture": "aluminum_furnace_side"
+						},
+						"up": {
+							"texture": "aluminum_furnace_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "aluminum_furnace_top",
+							"render_method": "opaque"
+						},
+						"north": {
+							"texture": "aluminum_furnace_front_off",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "placed"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('m:first') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "opaque",
+							"texture": "aluminum_furnace_side"
+						},
+						"up": {
+							"texture": "aluminum_furnace_top",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "aluminum_furnace_top",
+							"render_method": "opaque"
+						},
+						"north": {
+							"texture": "aluminum_furnace_front_on",
+							"render_method": "opaque"
+						}
+					},
+					"minecraft:block_light_emission": 0.7,
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "off"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "smelt"
+					}
+				}
+			}
+		],
+		"events": {
+			"bridge:update_rotation": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"bridge:block_rotation": "query.cardinal_facing_2d"
+						}
+					},
+					{
+						"set_block_property": {
+							"m:first": 0
+						}
+					}
+				]
+			},
+			"off": {
+				"set_block_property": {
+					"m:first": 0
+				}
+			},
+			"smelt": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound block.furnace.lit @p",
+								"particle minecraft:misc_fire_vapor_particle ~ ~1 ~"
+							]
+						}
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='raw_tin'",
+								"run_command": {
+									"command": [
+										"give @s m:tin_ingot",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_aluminum'",
+								"run_command": {
+									"command": [
+										"give @s m:aluminum_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_maganese'",
+								"run_command": {
+									"command": [
+										"give @s m:maganese_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='aluminum_and_copper_and_manganese_ingot'",
+								"run_command": {
+									"command": [
+										"give @s m:duralumin_ingot",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='copper_and_tin_ingot'",
+								"run_command": {
+									"command": [
+										"give @s m:bronze_ingot",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='copper_and_gold_ingot'",
+								"run_command": {
+									"command": [
+										"give @s m:rose_gold_ingot",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='carbon_38'",
+								"run_command": {
+									"command": [
+										"give @s diamond",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='raw_copper_block'",
+								"run_command": {
+									"command": [
+										"give @s copper_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_iron_block'",
+								"run_command": {
+									"command": [
+										"give @s iron_block",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_gold_block'",
+								"run_command": {
+									"command": [
+										"give @s gold_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='raw_tin_block'",
+								"run_command": {
+									"command": [
+										"give @s m:tin_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_aluminum_block'",
+								"run_command": {
+									"command": [
+										"give @s m:aluminum_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_manganese_block'",
+								"run_command": {
+									"command": [
+										"give @s m:maganese_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='carbon_38_block'",
+								"run_command": {
+									"command": [
+										"give @s diamond_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='raw_cesium'",
+								"run_command": {
+									"command": [
+										"give @s m:cesium_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_sodium'",
+								"run_command": {
+									"command": [
+										"give @s m:sodium_ingot",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_lithium'",
+								"run_command": {
+									"command": [
+										"give @s m:lithium_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_francium'",
+								"run_command": {
+									"command": [
+										"give @s m:francium_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_potassium'",
+								"run_command": {
+									"command": [
+										"give @s potassium_ingot:netherite_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_rubidium'",
+								"run_command": {
+									"command": [
+										"give @s m:rubidium_ingot",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.get_equipped_item_name=='raw_cesium_block'",
+								"run_command": {
+									"command": [
+										"give @s m:cesium_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_sodium_block'",
+								"run_command": {
+									"command": [
+										"give @s m:sodium_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_lithium_block'",
+								"run_command": {
+									"command": [
+										"give @s m:lithium_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_francium_block'",
+								"run_command": {
+									"command": [
+										"give @s m:francium_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_potassium_block'",
+								"run_command": {
+									"command": [
+										"give @s m:potassium_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.get_equipped_item_name=='raw_rubidium_block'",
+								"run_command": {
+									"command": [
+										"give @s m:rubidium_block",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									],
+									"target": "other"
+								},
+								"decrement_stack": {}
+							}
+						]
+					}
+				]
+			},
+			"placed": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name=='sulfuric_coal'",
+						"set_block_property": {
+							"m:first": 1
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"tag @p add oghfjhg",
+								"tellraw @p {\"rawtext\":[{\"text\":\"§7You get the Recipe Book by interacting the turned off Aluminum/Tin Furnace\"}]}"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tellraw @p[tag=!oghfjhg] {\"rawtext\":[{\"text\":\"§7Use Sulfuric Coal on it to activate\"}]}",
+								"execute @p[tag=!oghfjhg] ~~~ structure load recipe_book ~ ~2 ~",
+								"tag @p remove oghfjhg"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

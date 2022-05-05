@@ -1,0 +1,22 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mv:firefly",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:foil": false,
+			"minecraft:render_offsets": "flowers",
+			"minecraft:icon": {
+				"texture": "firefly"
+			},
+			"minecraft:entity_placer": {
+				"entity": "mv:firefly"
+			}
+		},
+		"events": {}
+	}
+}

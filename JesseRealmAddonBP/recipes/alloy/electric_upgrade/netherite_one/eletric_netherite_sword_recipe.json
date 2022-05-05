@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:eletric_netherite_sword_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#+#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:electrum_nugget"
+			},
+			"+": {
+				"item": "minecraft:netherite_sword"
+			}
+		},
+		"result": [
+			{
+				"item": "m:electric_netherite_sword"
+			}
+		]
+	}
+}

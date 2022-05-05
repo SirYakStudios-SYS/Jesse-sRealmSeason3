@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:bronze_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "bronze_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Bronze Ingot \n§7Used for: \n-Bronze Bundle \n-Bronze Furnace \n-Bronze Golem \n§eFound? \n§7Alloy out of Copper and Tin \n§eGolem properties:\n-Health : 200 \n-Attack Damage : 7-22 \n-Abilities : None"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

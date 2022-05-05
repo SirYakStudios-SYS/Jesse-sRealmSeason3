@@ -1,0 +1,99 @@
+
+
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:cattails_top",
+            "properties": {
+                "bumble:shape": [0, 1, 2]
+            }
+        },
+        "components": {
+            "minecraft:entity_collision": false,
+            "minecraft:pick_collision": {
+                "origin": [-8,0,-8],
+                "size": [0,0,0]
+            },
+            "minecraft:breathability": "air",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cattails_top",
+					"render_method": "alpha_test"
+				}
+			},
+            "minecraft:destroy_time": 1,
+            "minecraft:block_light_absorption": 0.0,
+			"minecraft:loot": "loot_tables/plants/plant_cattails.json",
+			
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["bumble:cattails"]
+                    }
+                ]
+            },
+			"minecraft:on_player_destroyed": {
+				"event": "reset_bottom"
+			},
+			"minecraft:on_placed": {
+				"event": "pick_shape"
+			}
+        },
+		
+		"events": {
+			
+			"reset_bottom": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:air",
+					"block_offset": [0,-1,0]
+				}
+			},
+			
+			
+            "pick_shape": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "set_block_property": {
+                            "bumble:shape": 0
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "set_block_property": {
+                            "bumble:shape": 1
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "set_block_property": {
+                            "bumble:shape": 2
+                        }
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('bumble:shape') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.crop.hash"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:shape') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.crop.cross"
+                }
+            },
+            {
+                "condition": "query.block_property('bumble:shape') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.crop.patch"
+                }
+            }
+		]
+    }
+}

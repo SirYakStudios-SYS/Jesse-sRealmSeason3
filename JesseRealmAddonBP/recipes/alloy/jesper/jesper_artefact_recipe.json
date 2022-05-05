@@ -1,0 +1,29 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:jesper_artefact_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" GG",
+			"GJG",
+			"GG"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gold_nugget"
+			},
+			"J": {
+				"item": "m:jasper_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "m:jasper_artefact"
+			}
+		]
+	}
+}

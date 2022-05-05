@@ -1,0 +1,29 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:god_apple_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"GGG",
+			"GJG",
+			"GGG"
+		],
+		"key": {
+			"G": {
+				"item": "m:calm_quartz"
+			},
+			"J": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:appleenchanted"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "nether:speed_upgrade_orb",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

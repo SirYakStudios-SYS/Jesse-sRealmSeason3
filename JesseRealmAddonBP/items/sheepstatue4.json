@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:sheepstatue4"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "sheepstatue4item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:sheepstatue4"
+        }
+      }
+    }
+  }

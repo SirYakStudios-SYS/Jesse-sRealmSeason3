@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:witherstatue8"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "witherstatue8item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:witherstatue8"
+        }
+      }
+    }
+  }

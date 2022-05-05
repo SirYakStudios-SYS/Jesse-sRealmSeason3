@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:hallucigenia_fossil",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "pa:hallucigenia_fossil",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

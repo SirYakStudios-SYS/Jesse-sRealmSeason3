@@ -1,0 +1,132 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:netherite_scythe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 3789,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "farm"
+				}
+			},//MCPEDL:SorYPMod
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:netherite_scythe",
+							"minecraft:netherite_block"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:mining_speed": 8,
+			"minecraft:damage": 12,
+			"minecraft:enchantable": {
+				"value": 19,
+				"slot": "hoe"
+			},
+			"minecraft:display_name": {
+				"value": "§bNetherite Scythe"
+			},
+			"minecraft:icon": {
+				"texture": "netherite_scythe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_not_hurt_entity": {
+					"event": "dmg"
+				},
+				"on_hit_block": {
+					"event": "dmg"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.hoe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:nether_wart_block",
+						"speed": 37,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:hay_block",
+						"speed": 37,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:leaves",
+						"speed": 37,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:leaves2",
+						"speed": 37,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_wart_block",
+						"speed": 37,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dmg"
+				}
+			}
+		},
+		"events": {
+			"dmg": {
+				"damage": {
+					"type": "none",
+					"amount": 1,
+					"target": "self"
+				}
+			},
+			"farm": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "none",
+							"amount": 4,
+							"target": "item"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"function farm_block2"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

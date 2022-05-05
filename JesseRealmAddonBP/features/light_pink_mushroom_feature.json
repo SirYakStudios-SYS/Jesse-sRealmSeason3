@@ -1,0 +1,17 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.17.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "mv:light_pink_mushroom_feature"
+		},
+		"places_block": {
+			"name": "mv:light_pink_mushroom"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

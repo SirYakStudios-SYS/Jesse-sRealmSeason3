@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:lime_shroomlight"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:shroomlight"
+			},
+			"X": {
+				"item": "minecraft:lime_dye"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:lime_shroomlight"
+			}
+		]
+	}
+}

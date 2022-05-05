@@ -1,0 +1,278 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\animation_controllers\\ostrich.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "adf8f733_60d2_4a6d_bfff_0cbb2066992d",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.ostrich.general": {
+							"initial_state": "idle",
+							"states": {
+								"idle": {
+									"animations": [
+										"idle"
+									],
+									"transitions": [
+										{
+											"walk": "query.is_moving>= 1"
+										}
+									],
+									"blend_transition": 0.2
+								},
+								"walk": {
+									"animations": [
+										"walk"
+									],
+									"transitions": [
+										{
+											"idle": "!query.is_moving>= 1"
+										}
+									],
+									"blend_transition": 0.2
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.ostrich.general": {
+								"initial_state": "idle",
+								"states": {
+									"idle": {
+										"animations": [
+											"idle"
+										],
+										"transitions": [
+											{
+												"walk": "query.is_moving>= 1"
+											}
+										],
+										"blend_transition": 0.2
+									},
+									"walk": {
+										"animations": [
+											"walk"
+										],
+										"transitions": [
+											{
+												"idle": "!query.is_moving>= 1"
+											}
+										],
+										"blend_transition": 0.2
+									}
+								}
+							}
+						},
+						"key": "controller.animation.ostrich.general",
+						"children": [
+							{
+								"data": "idle",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "idle",
+									"states": {
+										"idle": {
+											"animations": [
+												"idle"
+											],
+											"transitions": [
+												{
+													"walk": "query.is_moving>= 1"
+												}
+											],
+											"blend_transition": 0.2
+										},
+										"walk": {
+											"animations": [
+												"walk"
+											],
+											"transitions": [
+												{
+													"idle": "!query.is_moving>= 1"
+												}
+											],
+											"blend_transition": 0.2
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"idle": {
+												"animations": [
+													"idle"
+												],
+												"transitions": [
+													{
+														"walk": "query.is_moving>= 1"
+													}
+												],
+												"blend_transition": 0.2
+											},
+											"walk": {
+												"animations": [
+													"walk"
+												],
+												"transitions": [
+													{
+														"idle": "!query.is_moving>= 1"
+													}
+												],
+												"blend_transition": 0.2
+											}
+										},
+										"key": "idle",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"idle"
+													],
+													"transitions": [
+														{
+															"walk": "query.is_moving>= 1"
+														}
+													],
+													"blend_transition": 0.2
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"idle"
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"idle"
+													],
+													"transitions": [
+														{
+															"walk": "query.is_moving>= 1"
+														}
+													],
+													"blend_transition": 0.2
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"walk": "query.is_moving>= 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"walk": "query.is_moving>= 1"
+														}
+													}
+												]
+											},
+											{
+												"data": "0.2",
+												"key": "blend_transition"
+											}
+										]
+									},
+									{
+										"open": {
+											"idle": {
+												"animations": [
+													"idle"
+												],
+												"transitions": [
+													{
+														"walk": "query.is_moving>= 1"
+													}
+												],
+												"blend_transition": 0.2
+											},
+											"walk": {
+												"animations": [
+													"walk"
+												],
+												"transitions": [
+													{
+														"idle": "!query.is_moving>= 1"
+													}
+												],
+												"blend_transition": 0.2
+											}
+										},
+										"key": "walk",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"walk"
+													],
+													"transitions": [
+														{
+															"idle": "!query.is_moving>= 1"
+														}
+													],
+													"blend_transition": 0.2
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"walk"
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"walk"
+													],
+													"transitions": [
+														{
+															"idle": "!query.is_moving>= 1"
+														}
+													],
+													"blend_transition": 0.2
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"idle": "!query.is_moving>= 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"idle": "!query.is_moving>= 1"
+														}
+													}
+												]
+											},
+											{
+												"data": "0.2",
+												"key": "blend_transition"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

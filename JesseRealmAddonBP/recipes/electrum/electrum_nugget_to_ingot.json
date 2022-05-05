@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:electrum_nugget_to_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:electrum_nugget",
+				"count": 9
+			}
+		],
+		"result": [
+			{
+				"item": "m:electrum_ingot",
+				"count": 1
+			}
+		]
+	}
+}

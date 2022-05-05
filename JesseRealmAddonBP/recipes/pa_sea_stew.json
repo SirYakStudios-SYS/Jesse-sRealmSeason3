@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sea_stew_r5r76ab1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DBC",
+      "EBF",
+      "#A#"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:cooked_sardine",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:oil",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:cooked_clam",
+        "data": 0
+      },
+      "E": {
+        "item": "pa:cooked_crab",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:dried_kelp",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:sea_stew",
+      "count": 1
+    }
+  }
+}

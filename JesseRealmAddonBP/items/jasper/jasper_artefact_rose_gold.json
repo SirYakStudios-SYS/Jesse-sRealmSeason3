@@ -1,0 +1,50 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:jasper_artefact_rose_gold",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "jasper_artefact_rose_gold"
+			},
+			"minecraft:display_name": {
+				"value": "Jasper Artefact \n§7haste III (0:20)\n Durability : 6"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.netherQuartz"
+			},
+			"minecraft:durability": {
+				"max_durability": 6
+			},
+			"minecraft:cooldown": {
+				"category": "jasper_artefact",
+				"duration": 4
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "broken"
+				}
+			},
+			"minecraft:use_animation": "bow",
+			"minecraft:hand_equipped": true
+		},
+		"events": {
+			"broken": {
+				"damage": {
+					"type": "durablity",
+					"amount": 1,
+					"target": "self"
+				},
+				"add_mob_effect": {
+					"target": "holder",
+					"duration": 20,
+					"amplifier": 2,
+					"effect": "haste"
+				}
+			}
+		}
+	}
+}

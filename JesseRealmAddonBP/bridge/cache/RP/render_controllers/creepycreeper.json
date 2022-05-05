@@ -1,0 +1,125 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\render_controllers\\creepycreeper.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "fc3c0975_1142_44bf_af2f_5c72ef47454d",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.creepycreeper": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.body"
+								},
+								{
+									"head": "Material.head"
+								}
+							],
+							"textures": [
+								"Texture.default"
+							],
+							"overlay_color": {
+								"r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+								"g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+								"b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+								"a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+							}
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.creepycreeper": {
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.body"
+									},
+									{
+										"head": "Material.head"
+									}
+								],
+								"textures": [
+									"Texture.default"
+								],
+								"overlay_color": {
+									"r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+									"g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+									"b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+									"a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+								}
+							}
+						},
+						"key": "controller.render.creepycreeper",
+						"children": [
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": [
+									{
+										"*": "Material.body"
+									},
+									{
+										"head": "Material.head"
+									}
+								]
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Texture.default"
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.body"
+										},
+										{
+											"head": "Material.head"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									],
+									"overlay_color": {
+										"r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+										"g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+										"b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+										"a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+									}
+								},
+								"key": "overlay_color",
+								"is_minified": true,
+								"children": {
+									"r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+									"g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+									"b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+									"a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

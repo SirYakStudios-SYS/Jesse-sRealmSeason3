@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:raw_aluminum",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_aluminum"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Aluminum \n§eFound? \n§7Y=-10 - 79 \n§2Overworld "
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		}
+	}
+}

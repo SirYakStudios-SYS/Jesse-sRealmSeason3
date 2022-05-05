@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:potassium_tube_rose_gold"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:rose_gold_ingot"
+			},
+			"#": {
+				"item": "m:potassium_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "m:rose_gold_potassium_tube",
+				"count": 3
+			}
+		]
+	}
+}

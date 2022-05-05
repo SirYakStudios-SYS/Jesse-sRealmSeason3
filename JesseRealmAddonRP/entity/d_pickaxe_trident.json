@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "new:d_pickaxe_trident",
+      "materials": { "default": "arrow" },
+      "textures": {
+        "default": "textures/trident/diamond_pickaxe_trident"
+      },
+      "geometry": {
+        "default": "geometry.miner_trident_throw"
+      },
+      "animations": {
+        "move": "animation.new_trident.move"
+      },
+      "scripts":{
+        "animate":[
+          "move"
+
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

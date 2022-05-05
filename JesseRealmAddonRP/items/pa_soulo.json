@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:soulo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:soulo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

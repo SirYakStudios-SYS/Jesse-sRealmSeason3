@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "new:netherite_trident2"
+    },
+    "tags": ["trident_table"],
+    "pattern": [
+      "   ",
+      "PPC",
+      "   "
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "C": {
+        "item": "new:netherite_trident_edge"
+      }
+    },
+    "result": {
+      "item": "new:netherite_trident"
+    }
+  }
+}

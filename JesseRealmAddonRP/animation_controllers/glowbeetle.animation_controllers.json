@@ -1,0 +1,81 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.glowbeetle.main": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+					    {
+							"angr": "!query.is_on_ground && query.variant == 1"
+						},
+						{
+							"fly": "!query.is_on_ground && query.variant == 0"
+						},
+						{
+							"walk": "query.is_on_ground && query.is_moving"
+						}
+					]
+				},
+				"fly": {
+					"animations": [
+						"flying",
+						"look_at_target"
+					],
+					"transitions": [
+						{
+							"default": "query.is_on_ground"
+						},
+						{
+							"angr": "!query.is_on_ground && query.variant == 1"
+						}
+					]
+				},
+				"walk": {
+					"animations": [
+						"walking", 
+						"look_at_target"
+					],
+					"transitions": [
+						{
+							"default": "query.is_on_ground && !query.is_moving"
+						},
+						{
+							"fly": "!query.is_on_ground"
+						},
+						{
+							"angr": "!query.is_on_ground && query.variant == 1"
+						}
+					]
+				},
+				"angr": {
+					"animations": [
+						"angry",
+						"flying",
+						"look_at_target"
+					],
+					"transitions": [
+						{
+							"default": "!query.has_target"
+						},
+						{
+							"fly": "!query.is_on_ground && query.variant == 0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.wungus.attack" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						{
+							"attack" : "variable.attack_time > 0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

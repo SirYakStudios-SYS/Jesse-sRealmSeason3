@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:lithium_nugget_from_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:lithium_ingot",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "m:lithium_nugget",
+				"count": 9
+			}
+		]
+	}
+}

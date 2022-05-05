@@ -1,0 +1,35 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.17.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "mv:weighted_random_flowers_forests_vegetation_feature"
+		},
+		"features": [
+			[
+				"mv:tulip_bush_feature",
+				1
+			],
+			[
+				"mv:sun_blossom_feature",
+				1
+			],
+			[
+				"mv:red_flaute_feature",
+				1
+			],
+			[
+				"mv:light_pink_mushroom_feature",
+				1
+			],
+			[
+				"mv:light_red_mushroom_feature",
+				1
+			],
+			[
+				"mv:toadshroom_feature",
+				1
+			]
+		]
+	}
+}

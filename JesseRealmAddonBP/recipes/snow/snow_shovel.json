@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:snow_shovel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"O",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"O": {
+				"item": "minecraft:snow"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:snow_shovel",
+				"count": 1
+			}
+		]
+	}
+}

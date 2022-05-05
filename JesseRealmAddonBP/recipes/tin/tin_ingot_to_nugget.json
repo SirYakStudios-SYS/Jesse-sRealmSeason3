@@ -1,0 +1,22 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:tin_ingot_to_nugget"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:tin_ingot"
+			}
+		],
+		"result": [
+			{
+				"item": "m:tin_nugget",
+				"count": 9
+			}
+		]
+	}
+}

@@ -1,0 +1,560 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17\\blocks\\pilarvolcano.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "edc9672d_241c_49c0_b03e_f861fc9a50f8",
+	"file_version": 90,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": 1.17,
+					"minecraft:block": {
+						"description": {
+							"identifier": "tt:pilarvolcano",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 3,
+							"minecraft:map_color": "#ffffff",
+							"minecraft:explosion_resistance": 4,
+							"minecraft:geometry": "geometry.pilarvolcano",
+							"minecraft:block_light_emission": 1,
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "alpha_test",
+									"texture": "volcano"
+								}
+							},
+							"minecraft:ticking": {
+								"on_tick": {
+									"event": "test_event"
+								},
+								"looping": true,
+								"range": [
+									2,
+									3
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:block_light_absorption": 0.9,
+							"bridge:rotate_y_on_place": {
+								"flip": true
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							}
+						},
+						"events": {
+							"test_event": {
+								"run_command": {
+									"command": [
+										"particle tt:prueba ~ ~1.5 ~",
+										"effect @e[r=2] instant_damage 1 1 true"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.17",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.17,
+					"minecraft:block": {
+						"description": {
+							"identifier": "tt:pilarvolcano",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 3,
+							"minecraft:map_color": "#ffffff",
+							"minecraft:explosion_resistance": 4,
+							"minecraft:geometry": "geometry.pilarvolcano",
+							"minecraft:block_light_emission": 1,
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "alpha_test",
+									"texture": "volcano"
+								}
+							},
+							"minecraft:ticking": {
+								"on_tick": {
+									"event": "test_event"
+								},
+								"looping": true,
+								"range": [
+									2,
+									3
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"minecraft:block_light_absorption": 0.9,
+							"bridge:rotate_y_on_place": {
+								"flip": true
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							}
+						},
+						"events": {
+							"test_event": {
+								"run_command": {
+									"command": [
+										"particle tt:prueba ~ ~1.5 ~",
+										"effect @e[r=2] instant_damage 1 1 true"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:pilarvolcano",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:map_color": "#ffffff",
+								"minecraft:explosion_resistance": 4,
+								"minecraft:geometry": "geometry.pilarvolcano",
+								"minecraft:block_light_emission": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "volcano"
+									}
+								},
+								"minecraft:ticking": {
+									"on_tick": {
+										"event": "test_event"
+									},
+									"looping": true,
+									"range": [
+										2,
+										3
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:block_light_absorption": 0.9,
+								"bridge:rotate_y_on_place": {
+									"flip": true
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								}
+							},
+							"events": {
+								"test_event": {
+									"run_command": {
+										"command": [
+											"particle tt:prueba ~ ~1.5 ~",
+											"effect @e[r=2] instant_damage 1 1 true"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tt:pilarvolcano",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:pilarvolcano",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:map_color": "#ffffff",
+								"minecraft:explosion_resistance": 4,
+								"minecraft:geometry": "geometry.pilarvolcano",
+								"minecraft:block_light_emission": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "volcano"
+									}
+								},
+								"minecraft:ticking": {
+									"on_tick": {
+										"event": "test_event"
+									},
+									"looping": true,
+									"range": [
+										2,
+										3
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:block_light_absorption": 0.9,
+								"bridge:rotate_y_on_place": {
+									"flip": true
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								}
+							},
+							"events": {
+								"test_event": {
+									"run_command": {
+										"command": [
+											"particle tt:prueba ~ ~1.5 ~",
+											"effect @e[r=2] instant_damage 1 1 true"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "#ffffff",
+								"key": "minecraft:map_color"
+							},
+							{
+								"data": "4",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"data": "geometry.pilarvolcano",
+								"key": "minecraft:geometry"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_minified": true,
+								"children": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "volcano"
+									}
+								}
+							},
+							{
+								"key": "minecraft:ticking",
+								"is_minified": true,
+								"children": {
+									"on_tick": {
+										"event": "test_event"
+									},
+									"looping": true,
+									"range": [
+										2,
+										3
+									]
+								}
+							},
+							{
+								"key": "minecraft:entity_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"data": "0.9",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"key": "bridge:rotate_y_on_place",
+								"is_minified": true,
+								"children": {
+									"flip": true
+								}
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:pilarvolcano",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:map_color": "#ffffff",
+								"minecraft:explosion_resistance": 4,
+								"minecraft:geometry": "geometry.pilarvolcano",
+								"minecraft:block_light_emission": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "volcano"
+									}
+								},
+								"minecraft:ticking": {
+									"on_tick": {
+										"event": "test_event"
+									},
+									"looping": true,
+									"range": [
+										2,
+										3
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"minecraft:block_light_absorption": 0.9,
+								"bridge:rotate_y_on_place": {
+									"flip": true
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								}
+							},
+							"events": {
+								"test_event": {
+									"run_command": {
+										"command": [
+											"particle tt:prueba ~ ~1.5 ~",
+											"effect @e[r=2] instant_damage 1 1 true"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "test_event",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"particle tt:prueba ~ ~1.5 ~",
+													"effect @e[r=2] instant_damage 1 1 true"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"particle tt:prueba ~ ~1.5 ~",
+														"effect @e[r=2] instant_damage 1 1 true"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"particle tt:prueba ~ ~1.5 ~",
+													"effect @e[r=2] instant_damage 1 1 true"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

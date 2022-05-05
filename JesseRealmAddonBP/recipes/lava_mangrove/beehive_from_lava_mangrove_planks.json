@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:beehive_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~", 
+            "###",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_planks"
+            },
+            "#": {
+                "item": "minecraft:honeycomb"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:beehive",
+				"count": 1
+			}
+		]
+    }
+}

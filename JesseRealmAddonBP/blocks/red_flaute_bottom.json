@@ -1,0 +1,65 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:red_flaute_bottom"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.2,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "red_flaute_bottom",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:ticking": {
+				"looping": false,
+				"range": [
+					0,
+					0
+				],
+				"on_tick": {
+					"event": "mv:auto_grow"
+				}
+			},
+			"minecraft:on_placed": {
+				"event": "mv:auto_grow"
+			},
+			"minecraft:on_player_placing": {
+				"event": "mv:auto_grow"
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:mycelium",
+							"minecraft:dirt",
+							"minecraft:podzol"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:geometry": "geometry.fixed_cross",
+			"minecraft:loot": "loot_tables/empty.json"
+		},
+		"events": {
+			"mv:auto_grow": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~1 ~ mv:red_flaute_top"
+					]
+				}
+			}
+		}
+	}
+}

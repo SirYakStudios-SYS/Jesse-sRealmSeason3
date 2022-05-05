@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:maganese_soul_lantern_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+",
+			"+++"
+		],
+		"key": {
+			"+": {
+				"item": "m:maganese_nugget"
+			},
+			"#": {
+				"item": "minecraft:soul_torch"
+			}
+		},
+		"result": [
+			{
+				"item": "m:soul_maganese_lantern"
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:blue_dye_from_blue_rose"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:blue_rose"
+      }
+    },
+    "result": {
+      "item": "minecraft:dye",
+      "data": 12,
+      "count": 1
+    }
+  }
+}

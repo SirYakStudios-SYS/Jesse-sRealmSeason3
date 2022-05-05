@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:redstone_mace"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"OXO",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:redstone_block"
+			},
+			"O": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": {
+			"item": "sp:redstone_mace"
+		}
+	}
+}

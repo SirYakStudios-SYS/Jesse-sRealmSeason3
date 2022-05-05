@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:copperstep_disk",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:copperstep_disk",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

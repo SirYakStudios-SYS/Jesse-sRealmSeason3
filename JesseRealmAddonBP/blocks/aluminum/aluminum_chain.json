@@ -1,0 +1,124 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"m:display": [
+					0,
+					1
+				],
+				"bridge:block_rotation": [
+					0,
+					1,
+					2
+				]
+			},
+			"identifier": "m:aluminum_chains"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('m:display') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.chain_cross_display"
+				}
+			},
+			{
+				"condition": "query.block_property('m:display') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.chain_crooos"
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 0,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:pick_collision": {
+				"origin": [
+					-1.5,
+					0,
+					-1.5
+				],
+				"size": [
+					3,
+					16,
+					3
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "aluminum_chains"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-1.5,
+					0,
+					-1.5
+				],
+				"size": [
+					3,
+					16,
+					3
+				]
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_placed": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"bridge:block_rotation": "math.floor(query.block_face / 2.0)"
+						}
+					},
+					{
+						"set_block_property": {
+							"m:display": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "m:aluminum_raw_get_recipe"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "m:raw_aluminum",
+		"output": "m:aluminum_ingot"
+	}
+}

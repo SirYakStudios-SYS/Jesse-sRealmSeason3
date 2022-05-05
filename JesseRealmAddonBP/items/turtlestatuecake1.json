@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jctstatues:turtlestatuecake1"
+    },
+    "components": {
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:food": {
+        "nutrition": 50,
+        "saturation_modifier": "good",
+        "can_always_eat": true,
+        "using_converts_to": "jctstatues:quartzpedestal1"
+      },
+      "minecraft:icon": {
+        "texture": "turtlestatuecake1item"
+      },
+      "minecraft:entity_placer": {
+        "entity": "jctstatues:turtlestatuecake1"
+      }
+    }
+  }
+}

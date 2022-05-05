@@ -1,0 +1,32 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "iii",
+            "I/I",
+            " / "
+        ],
+        "key": {
+            "i": {
+                "item": "mc:dwarven_ingot"
+            },
+            "I": {
+                "item": "minecraft:iron_block"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mc:dwarven_hammer",
+            "count": 1
+        },
+        "description": {
+            "identifier": "mc:dwarven_hammer"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "e773c03f_ce6d_44f1_9377_c41dcbb0d7c1",
+	"file_version": 4,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": [
+				0,
+				1,
+				2
+			],
+			"tt:pilarvolcano": {
+				"textures": "volcano",
+				"brightness_gamma": 0.9,
+				"sound": "netherrack"
+			},
+			"tt:glowmushroom": {
+				"textures": "glowmushroom",
+				"sound": "stone"
+			}
+		}
+	}
+}

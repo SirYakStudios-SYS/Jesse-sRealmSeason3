@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:foxstatue2"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "foxstatue2item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:foxstatue2"
+        }
+      }
+    }
+  }

@@ -1,0 +1,189 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:aloe",
+			"properties": {
+				"bumble:has_leaves": [4, 3, 2, 1]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.crop.cross",
+			"minecraft:entity_collision": false,
+			"minecraft:breathability": "air",
+			"minecraft:pick_collision": {
+				"origin": [-4, 0, -4],
+				"size": [8, 8, 8]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "aloe_item",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "grow_leaf"
+				}
+			},
+			"minecraft:loot": "loot_tables/plants/plant_aloe.json",
+
+			"minecraft:placement_filter": {
+				"conditions": [{
+					"allowed_faces": ["up"],
+					"block_filter": ["sand", "dirt", "podzol"]
+				}]
+			}
+		},
+
+
+
+
+		"events": {
+			"grow_leaf": {
+				"randomize": [{
+						"weight": 1
+					},
+					{
+						"weight": 1,
+						"set_block_property": {
+							"bumble:has_leaves": "(query.block_property('bumble:has_leaves')<4) ? query.block_property('bumble:has_leaves') + 1 : 4"
+						}
+					}
+				]
+			},
+			
+			
+			
+			"final_drop": {
+				"spawn_loot": {
+					"table": "loot_tables/plants/plant_aloe_death.json"
+				},
+				"set_block": {
+					"block_type": "minecraft:air"
+				}
+			},
+			
+			
+			"flowerpot": {
+               "sequence": [
+                    {
+                        "decrement_stack": {}
+                    },
+					{
+						"run_command": {
+							"command": [
+								"give @s bumble:potted_aloe"
+							],
+							"target": "other"
+						}
+					},
+					{
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					}
+				]
+            },
+			
+			
+            "potorharvest": {
+                "sequence": [
+                    {
+						"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:flower_pot') == true",
+                        "trigger": {
+                            "event": "flowerpot"
+                        }
+                    },
+                    {
+						"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:flower_pot') == false",
+                        "trigger": {
+                            "event": "harvest"
+                        }
+                    }
+                ]
+            },
+			
+			
+			
+			
+			"harvest": {
+				"sequence": [{
+						"set_block_property": {
+							"bumble:has_leaves": "(query.block_property('bumble:has_leaves')>1) ? query.block_property('bumble:has_leaves') - 1 : 1"
+						}
+					},
+					{
+						"spawn_loot": {
+							"table": "loot_tables/plants/plant_aloe_leaf.json"
+						}
+					}
+				]
+			}
+		},
+		"permutations": [{
+				"condition": "query.block_property('bumble:has_leaves') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "aloe_plant_1",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/plants/plant_aloe_leaf.json",
+					"minecraft:on_interact": {
+						"event": "final_drop",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:has_leaves') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "aloe_plant_2",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/plants/plant_aloe_leaf_2.json",
+					"minecraft:on_interact": {
+						"event": "harvest"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:has_leaves') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "aloe_plant_3",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/plants/plant_aloe_leaf_3.json",
+					"minecraft:on_interact": {
+						"event": "harvest"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('bumble:has_leaves') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "aloe_plant_4",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/plants/plant_aloe.json",
+					"minecraft:on_interact": {
+						"event": "potorharvest"
+					}
+				}
+			}
+		]
+	}
+}

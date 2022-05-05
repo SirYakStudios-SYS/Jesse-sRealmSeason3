@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:aluminum_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "aluminum_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Aluminum Ingot \n§7Used for: \n-Aluminum Carrot/Apple \n-Aluminum Foil \n-Aluminum Furnace \n-Golem Aluminum \n§eFound? \n§7Y=-10 - 79 \n§2Overworld \n§eGolem properties:\n-Health : 500 \n-Attack Damage : 5-18 \n-Abilities : Faster"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		}
+	}
+}

@@ -1,0 +1,255 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\feature_rules\\birch_tree2_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "d7a61d6a_3b44_4ed1_b5d3_e9259cb53ec6",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "mv:birch_tree2_feature_rule",
+							"places_feature": "mv:birch_tree2_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "revamped_birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											}
+										]
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 6,
+							"scatter_chance": 30.5,
+							"x": 3,
+							"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+							"z": 6
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "mv:birch_tree2_feature_rule",
+							"places_feature": "mv:birch_tree2_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "revamped_birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											}
+										]
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 6,
+							"scatter_chance": 30.5,
+							"x": 3,
+							"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+							"z": 6
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:birch_tree2_feature_rule",
+							"places_feature": "mv:birch_tree2_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:birch_tree2_feature_rule",
+								"places_feature": "mv:birch_tree2_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "revamped_birch"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "birch"
+												}
+											]
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 6,
+								"scatter_chance": 30.5,
+								"x": 3,
+								"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+								"z": 6
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "revamped_birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													}
+												]
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"any_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "revamped_birch"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "birch"
+														}
+													]
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"any_of": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "revamped_birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															}
+														]
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"any_of": [
+																{
+																	"test": "has_biome_tag",
+																	"operator": "==",
+																	"value": "revamped_birch"
+																},
+																{
+																	"test": "has_biome_tag",
+																	"operator": "==",
+																	"value": "birch"
+																}
+															]
+														},
+														"key": "any_of",
+														"is_minified": true,
+														"children": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "revamped_birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "distribution",
+						"is_minified": true,
+						"children": {
+							"iterations": 6,
+							"scatter_chance": 30.5,
+							"x": 3,
+							"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+							"z": 6
+						}
+					}
+				]
+			}
+		]
+	}
+}

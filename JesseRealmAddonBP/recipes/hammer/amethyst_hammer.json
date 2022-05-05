@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:amethyst_hammer"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:amethyst_block"
+			},
+			"O": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": {
+			"item": "sp:amethyst_hammer"
+		}
+	}
+}

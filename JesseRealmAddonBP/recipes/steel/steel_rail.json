@@ -1,0 +1,29 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.16.100,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:steel_rail"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"# #",
+			"#G#",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "sp:steel_ingot"
+			},
+			"G": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "minecraft:rail",
+			"count": 16
+		}
+	}
+}

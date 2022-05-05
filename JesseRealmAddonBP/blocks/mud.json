@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:mud"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Nature",
+				"group": "itemGroup.name.none"
+			},
+			"minecraft:destroy_time": 1
+		},
+		"events": {}
+	}
+}

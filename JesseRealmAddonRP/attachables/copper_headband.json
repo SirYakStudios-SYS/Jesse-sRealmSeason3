@@ -1,0 +1,22 @@
+{
+  "minecraft:attachable" : {
+    "description" : {
+      "textures" : {
+        "default" : "textures/models/armor/copper_headband.png",
+        "enchanted" : "textures/misc/enchanted_item_glint"
+      },
+      "materials" : {
+        "default" : "armor",
+        "enchanted" : "armor_enchanted"
+      },
+      "identifier" : "guardian:copper_headband",
+      "geometry" : {
+        "default" : "geometry.copper_headband"
+      },
+      "render_controllers" : [
+        "controller.render.armor"
+      ]
+    }
+  },
+  "format_version" : "1.8.0"
+}

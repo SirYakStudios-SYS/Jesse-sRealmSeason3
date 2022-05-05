@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:unpot_hyacinth_purple_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:potted_hyacinth_purple"
+			}
+		],
+		"result": {
+			"item": "minecraft:flower_pot",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:tin_head"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tin_block"
+				},
+				"north": {
+					"texture": "tin_head"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					0,
+					0
+				],
+				"on_tick": {
+					"event": "hm"
+				}
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.lantern",
+				"category": "items"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {},
+			"bridge:rotate_y_on_place": {
+				"flip": true
+			}
+		},
+		"events": {
+			"hm": {
+				"run_command": {
+					"command": [
+						"function spawn_tin_golem"
+					]
+				}
+			}
+		}
+	}
+}

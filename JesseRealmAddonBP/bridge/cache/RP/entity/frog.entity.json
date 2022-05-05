@@ -1,0 +1,662 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\entity\\frog.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "6a10ef53_8a44_43e0_85ab_fb398bd1080c",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mv:frog",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"geometry": {
+								"default": "geometry.frog"
+							},
+							"textures": {
+								"default": "textures/entity/frog/frog",
+								"cold_type": "textures/entity/frog/frog_cold",
+								"tropical_type": "textures/entity/frog/frog_tropical"
+							},
+							"render_controllers": [
+								"controller.render.frog"
+							],
+							"animations": {
+								"walk": "animation.frog.walk",
+								"swim": "animation.frog.swim",
+								"idle": "animation.frog.idle",
+								"attack": "animation.frog.attack",
+								"jump": "animation.frog.jump",
+								"controllers": "controller.animation.frog.walk"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"walk": "(query.modified_move_speed > 0.1)"
+									},
+									{
+										"swim": "query.is_swimming"
+									},
+									{
+										"idle": "!(query.modified_move_speed > 0.1)"
+									},
+									{
+										"attack": "query.is_delayed_attacking"
+									},
+									{
+										"jump": "query.is_jumping"
+									}
+								]
+							},
+							"spawn_egg": {
+								"base_color": "#B37C4A",
+								"overlay_color": "#694725"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:frog",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"geometry": {
+									"default": "geometry.frog"
+								},
+								"textures": {
+									"default": "textures/entity/frog/frog",
+									"cold_type": "textures/entity/frog/frog_cold",
+									"tropical_type": "textures/entity/frog/frog_tropical"
+								},
+								"render_controllers": [
+									"controller.render.frog"
+								],
+								"animations": {
+									"walk": "animation.frog.walk",
+									"swim": "animation.frog.swim",
+									"idle": "animation.frog.idle",
+									"attack": "animation.frog.attack",
+									"jump": "animation.frog.jump",
+									"controllers": "controller.animation.frog.walk"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"walk": "(query.modified_move_speed > 0.1)"
+										},
+										{
+											"swim": "query.is_swimming"
+										},
+										{
+											"idle": "!(query.modified_move_speed > 0.1)"
+										},
+										{
+											"attack": "query.is_delayed_attacking"
+										},
+										{
+											"jump": "query.is_jumping"
+										}
+									]
+								},
+								"spawn_egg": {
+									"base_color": "#B37C4A",
+									"overlay_color": "#694725"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mv:frog",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.frog"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/frog/frog",
+									"cold_type": "textures/entity/frog/frog_cold",
+									"tropical_type": "textures/entity/frog/frog_tropical"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.frog"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.frog.walk",
+									"swim": "animation.frog.swim",
+									"idle": "animation.frog.idle",
+									"attack": "animation.frog.attack",
+									"jump": "animation.frog.jump",
+									"controllers": "controller.animation.frog.walk"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"walk": "(query.modified_move_speed > 0.1)"
+												},
+												{
+													"swim": "query.is_swimming"
+												},
+												{
+													"idle": "!(query.modified_move_speed > 0.1)"
+												},
+												{
+													"attack": "query.is_delayed_attacking"
+												},
+												{
+													"jump": "query.is_jumping"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"walk": "(query.modified_move_speed > 0.1)"
+													},
+													{
+														"swim": "query.is_swimming"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"attack": "query.is_delayed_attacking"
+													},
+													{
+														"jump": "query.is_jumping"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"walk": "(query.modified_move_speed > 0.1)"
+												}
+											},
+											{
+												"open": [
+													{
+														"walk": "(query.modified_move_speed > 0.1)"
+													},
+													{
+														"swim": "query.is_swimming"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"attack": "query.is_delayed_attacking"
+													},
+													{
+														"jump": "query.is_jumping"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"swim": "query.is_swimming"
+												}
+											},
+											{
+												"open": [
+													{
+														"walk": "(query.modified_move_speed > 0.1)"
+													},
+													{
+														"swim": "query.is_swimming"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"attack": "query.is_delayed_attacking"
+													},
+													{
+														"jump": "query.is_jumping"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"idle": "!(query.modified_move_speed > 0.1)"
+												}
+											},
+											{
+												"open": [
+													{
+														"walk": "(query.modified_move_speed > 0.1)"
+													},
+													{
+														"swim": "query.is_swimming"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"attack": "query.is_delayed_attacking"
+													},
+													{
+														"jump": "query.is_jumping"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"attack": "query.is_delayed_attacking"
+												}
+											},
+											{
+												"open": [
+													{
+														"walk": "(query.modified_move_speed > 0.1)"
+													},
+													{
+														"swim": "query.is_swimming"
+													},
+													{
+														"idle": "!(query.modified_move_speed > 0.1)"
+													},
+													{
+														"attack": "query.is_delayed_attacking"
+													},
+													{
+														"jump": "query.is_jumping"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"jump": "query.is_jumping"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "mv:frog",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.frog"
+									},
+									"textures": {
+										"default": "textures/entity/frog/frog",
+										"cold_type": "textures/entity/frog/frog_cold",
+										"tropical_type": "textures/entity/frog/frog_tropical"
+									},
+									"render_controllers": [
+										"controller.render.frog"
+									],
+									"animations": {
+										"walk": "animation.frog.walk",
+										"swim": "animation.frog.swim",
+										"idle": "animation.frog.idle",
+										"attack": "animation.frog.attack",
+										"jump": "animation.frog.jump",
+										"controllers": "controller.animation.frog.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "(query.modified_move_speed > 0.1)"
+											},
+											{
+												"swim": "query.is_swimming"
+											},
+											{
+												"idle": "!(query.modified_move_speed > 0.1)"
+											},
+											{
+												"attack": "query.is_delayed_attacking"
+											},
+											{
+												"jump": "query.is_jumping"
+											}
+										]
+									},
+									"spawn_egg": {
+										"base_color": "#B37C4A",
+										"overlay_color": "#694725"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#B37C4A",
+									"overlay_color": "#694725"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

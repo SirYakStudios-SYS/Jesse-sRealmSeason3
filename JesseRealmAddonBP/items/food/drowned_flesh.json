@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:drowned_flesh"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "poor",
+        "effects": [
+          {
+            "name": "nausea",
+            "chance": 1.0,
+            "duration": 50,
+            "amplifier": 0
+          },
+          {
+            "name": "hunger",
+            "chance": 1.0,
+            "duration": 20,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

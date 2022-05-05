@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:smithsonite_totem_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"#+#",
+			"---"
+		],
+		"key": {
+			"+": {
+				"item": "m:smithsonite_shard"
+			},
+			"-": {
+				"item": "minecraft:gold_ingot"
+			},
+			"#": {
+				"item": "minecraft:gold_block"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:totem"
+			}
+		]
+	}
+}

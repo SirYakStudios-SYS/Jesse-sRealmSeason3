@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:cesium_tube_tin"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:tin_ingot"
+			},
+			"#": {
+				"item": "m:cesium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:tin_cesium_tube",
+				"count": 3
+			}
+		]
+	}
+}

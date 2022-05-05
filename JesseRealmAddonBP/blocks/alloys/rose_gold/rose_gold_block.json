@@ -1,0 +1,49 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:rose_gold_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "rose_gold_block"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.block",
+				"category": "construction"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,124 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "pa:banana",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:apple",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "pa:cherry",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:azalea",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:moss_block",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:beetroot",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:double_plant",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:kelp",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:big_dripleaf",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "pa:banana_block",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "pa:kokos_n",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "pa:golden_banana",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "pa:shsrf_ghb",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "pa:stone_forrst_shard",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:totem",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

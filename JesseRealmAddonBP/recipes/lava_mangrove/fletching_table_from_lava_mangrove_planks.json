@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:fletching_table_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "##", 
+            "~~",
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_planks"
+            },
+            "#": {
+                "item": "minecraft:flint"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:fletching_table",
+				"count": 1
+			}
+		]
+    }
+}

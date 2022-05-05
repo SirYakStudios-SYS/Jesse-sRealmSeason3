@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:leather_flesh",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "leather_flesh",
+
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

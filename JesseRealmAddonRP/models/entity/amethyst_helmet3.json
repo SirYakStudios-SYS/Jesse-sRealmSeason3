@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.amethyst_helmet3",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 24, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.6, "uv": [18, 18], "mirror": false}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "head",
+					"pivot": [-2.96945, 24.54844, 2.72047],
+					"rotation": [-10, 105, -17.5],
+					"cubes": [
+						{"origin": [-2.14476, 31.60817, 3.80108], "size": [10, 6, 0], "pivot": [2.03055, 33.54844, 4.72047], "rotation": [10.71677, -29.67295, 25.92978], "uv": [0, 0]},
+						{"origin": [-2.05006, 31.60817, 5.54517], "size": [10, 6, 0], "pivot": [2.03055, 33.54844, 4.72047], "rotation": [18.07514, 58.61762, 46.85144], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "head",
+					"pivot": [1, 25, 0],
+					"rotation": [-15, -5, -7.5],
+					"cubes": [
+						{"origin": [1, 31, 2], "size": [10, 6, 0], "pivot": [6, 34, 2], "rotation": [0, -45, 32.5], "uv": [0, 0]},
+						{"origin": [1, 31, 2], "size": [10, 6, 0], "pivot": [6, 34, 2], "rotation": [0, 45, 32.5], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

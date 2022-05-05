@@ -1,0 +1,336 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\soulstrider.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "62c0b747_68e7_4cf8_98b1_47d433c1b1bd",
+	"file_version": 27,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tt:soulstrider",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/soulstrider",
+								"saddled": "textures/entity/soulstrider",
+								"suffocated": "textures/entity/soulstrider",
+								"suffocated_saddled": "textures/entity/soulstrider"
+							},
+							"geometry": {
+								"default": "geometry.soulstrider"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+									"variable.speed = 85.9437;",
+									"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+									"variable.bristle_range_mod=1;",
+									"variable.bristle_speed_mod=1;"
+								],
+								"animate": [
+									"look_at_target",
+									"walk",
+									"bristle_flow"
+								]
+							},
+							"animations": {
+								"look_at_target": "animation.strider.look_at_target.default",
+								"walk": "animation.strider.walk",
+								"bristle_flow": "animation.strider.bristle_flow"
+							},
+							"render_controllers": [
+								"controller.render.strider"
+							],
+							"spawn_egg": {
+								"texture": "soulstrider"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tt:soulstrider",
+								"materials": {
+									"default": "entity_emissive_alpha"
+								},
+								"textures": {
+									"default": "textures/entity/soulstrider",
+									"saddled": "textures/entity/soulstrider",
+									"suffocated": "textures/entity/soulstrider",
+									"suffocated_saddled": "textures/entity/soulstrider"
+								},
+								"geometry": {
+									"default": "geometry.soulstrider"
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+										"variable.speed = 85.9437;",
+										"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+										"variable.bristle_range_mod=1;",
+										"variable.bristle_speed_mod=1;"
+									],
+									"animate": [
+										"look_at_target",
+										"walk",
+										"bristle_flow"
+									]
+								},
+								"animations": {
+									"look_at_target": "animation.strider.look_at_target.default",
+									"walk": "animation.strider.walk",
+									"bristle_flow": "animation.strider.bristle_flow"
+								},
+								"render_controllers": [
+									"controller.render.strider"
+								],
+								"spawn_egg": {
+									"texture": "soulstrider"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "tt:soulstrider",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/soulstrider",
+										"saddled": "textures/entity/soulstrider",
+										"suffocated": "textures/entity/soulstrider",
+										"suffocated_saddled": "textures/entity/soulstrider"
+									},
+									"geometry": {
+										"default": "geometry.soulstrider"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+											"variable.speed = 85.9437;",
+											"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+											"variable.bristle_range_mod=1;",
+											"variable.bristle_speed_mod=1;"
+										],
+										"animate": [
+											"look_at_target",
+											"walk",
+											"bristle_flow"
+										]
+									},
+									"animations": {
+										"look_at_target": "animation.strider.look_at_target.default",
+										"walk": "animation.strider.walk",
+										"bristle_flow": "animation.strider.bristle_flow"
+									},
+									"render_controllers": [
+										"controller.render.strider"
+									],
+									"spawn_egg": {
+										"texture": "soulstrider"
+									}
+								},
+								"data": "tt:soulstrider",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "tt:soulstrider",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/soulstrider",
+										"saddled": "textures/entity/soulstrider",
+										"suffocated": "textures/entity/soulstrider",
+										"suffocated_saddled": "textures/entity/soulstrider"
+									},
+									"geometry": {
+										"default": "geometry.soulstrider"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+											"variable.speed = 85.9437;",
+											"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+											"variable.bristle_range_mod=1;",
+											"variable.bristle_speed_mod=1;"
+										],
+										"animate": [
+											"look_at_target",
+											"walk",
+											"bristle_flow"
+										]
+									},
+									"animations": {
+										"look_at_target": "animation.strider.look_at_target.default",
+										"walk": "animation.strider.walk",
+										"bristle_flow": "animation.strider.bristle_flow"
+									},
+									"render_controllers": [
+										"controller.render.strider"
+									],
+									"spawn_egg": {
+										"texture": "soulstrider"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_emissive_alpha"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/soulstrider",
+									"saddled": "textures/entity/soulstrider",
+									"suffocated": "textures/entity/soulstrider",
+									"suffocated_saddled": "textures/entity/soulstrider"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.soulstrider"
+								}
+							},
+							{
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"pre_animation": [
+												"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+												"variable.speed = 85.9437;",
+												"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+												"variable.bristle_range_mod=1;",
+												"variable.bristle_speed_mod=1;"
+											],
+											"animate": [
+												"look_at_target",
+												"walk",
+												"bristle_flow"
+											]
+										},
+										"key": "pre_animation",
+										"is_minified": true,
+										"children": [
+											"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+											"variable.speed = 85.9437;",
+											"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+											"variable.bristle_range_mod=1;",
+											"variable.bristle_speed_mod=1;"
+										]
+									},
+									{
+										"open": {
+											"pre_animation": [
+												"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+												"variable.speed = 85.9437;",
+												"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+												"variable.bristle_range_mod=1;",
+												"variable.bristle_speed_mod=1;"
+											],
+											"animate": [
+												"look_at_target",
+												"walk",
+												"bristle_flow"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"look_at_target",
+											"walk",
+											"bristle_flow"
+										]
+									}
+								]
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"look_at_target": "animation.strider.look_at_target.default",
+									"walk": "animation.strider.walk",
+									"bristle_flow": "animation.strider.bristle_flow"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.strider"
+								]
+							},
+							{
+								"open": {
+									"identifier": "tt:soulstrider",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/soulstrider",
+										"saddled": "textures/entity/soulstrider",
+										"suffocated": "textures/entity/soulstrider",
+										"suffocated_saddled": "textures/entity/soulstrider"
+									},
+									"geometry": {
+										"default": "geometry.soulstrider"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.animation_speed = Math.min(query.modified_move_speed, 0.25);",
+											"variable.speed = 85.9437;",
+											"variable.bristle_flow=Math.cos(query.modified_distance_moved * variable.speed + 180) * variable.animation_speed;",
+											"variable.bristle_range_mod=1;",
+											"variable.bristle_speed_mod=1;"
+										],
+										"animate": [
+											"look_at_target",
+											"walk",
+											"bristle_flow"
+										]
+									},
+									"animations": {
+										"look_at_target": "animation.strider.look_at_target.default",
+										"walk": "animation.strider.walk",
+										"bristle_flow": "animation.strider.bristle_flow"
+									},
+									"render_controllers": [
+										"controller.render.strider"
+									],
+									"spawn_egg": {
+										"texture": "soulstrider"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "soulstrider"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

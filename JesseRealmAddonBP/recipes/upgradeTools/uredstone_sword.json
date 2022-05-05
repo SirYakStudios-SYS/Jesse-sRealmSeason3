@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:uredstone_sword"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:quartz"
+			},
+			"Y": {
+				"item": "sp:redstone_sword"
+			}
+		},
+		"result": {
+			"item": "sp:uredstone_sword"
+		}
+	}
+}

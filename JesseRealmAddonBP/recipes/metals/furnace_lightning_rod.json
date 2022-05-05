@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:furnace_lightning_rod"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "minecraft:lightning_rod",
+    "output": "guardian:copper_nugget"
+  }
+}

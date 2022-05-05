@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:stone_forrst_shard",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:stone_forrst_shard",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

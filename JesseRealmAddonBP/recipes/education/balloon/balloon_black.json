@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:balloon_15_black"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A",
+      "C",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wool",
+        "data": 15
+      },
+      "B": {
+        "item": "minecraft:lead"
+      },
+      "C": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "result": {
+      "item": "minecraft:balloon",
+      "data": 15
+    }
+  }
+}

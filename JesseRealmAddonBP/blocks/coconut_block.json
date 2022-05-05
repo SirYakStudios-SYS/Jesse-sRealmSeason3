@@ -1,0 +1,15 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "guardian:coconut_block",
+			"register_to_creative_menu": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/blocks/coconut_block.json",
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 15
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:waxed_cut_weathered_sodium_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:waxed_weathered_sodium_block",
+				"count": 4
+			}
+		],
+		"result": [
+			{
+				"count": 4,
+				"item": "m:waxed_cut_weathered_sodium_block"
+			}
+		]
+	}
+}

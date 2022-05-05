@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:frame_dream_bav"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "guardian:frame_dream"
+      },
+      {
+        "item": "minecraft:sweet_berries"
+      }
+    ],
+    "result": {
+      "item": "guardian:frame_dream_bav"
+    }
+  }
+}

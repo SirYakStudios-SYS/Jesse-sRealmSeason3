@@ -1,0 +1,226 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\hongo_carmesiblack.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "f1e4e36d_bf34_4c28_ac9c_9361d0b26b5c",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:hongo_carmesiblack",
+							"materials": {
+								"default": "cow"
+							},
+							"textures": {
+								"default": "textures/entity/hongo/carmesi_black"
+							},
+							"geometry": {
+								"default": "geometry.hongocarmesi"
+							},
+							"animations": {
+								"setup": "animation.hongocarmesi.setup",
+								"walk": "animation.hongocarmesi.walk"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.cow"
+							],
+							"spawn_egg": {
+								"texture": "hongocarmesi"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:hongo_carmesiblack",
+								"materials": {
+									"default": "cow"
+								},
+								"textures": {
+									"default": "textures/entity/hongo/carmesi_black"
+								},
+								"geometry": {
+									"default": "geometry.hongocarmesi"
+								},
+								"animations": {
+									"setup": "animation.hongocarmesi.setup",
+									"walk": "animation.hongocarmesi.walk"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.cow"
+								],
+								"spawn_egg": {
+									"texture": "hongocarmesi"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:hongo_carmesiblack",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "cow"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/hongo/carmesi_black"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.hongocarmesi"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"setup": "animation.hongocarmesi.setup",
+									"walk": "animation.hongocarmesi.walk"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"identifier": "sc:hongo_carmesiblack",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/hongo/carmesi_black"
+									},
+									"geometry": {
+										"default": "geometry.hongocarmesi"
+									},
+									"animations": {
+										"setup": "animation.hongocarmesi.setup",
+										"walk": "animation.hongocarmesi.walk"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.cow"
+									],
+									"spawn_egg": {
+										"texture": "hongocarmesi"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.cow"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:hongo_carmesiblack",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/hongo/carmesi_black"
+									},
+									"geometry": {
+										"default": "geometry.hongocarmesi"
+									},
+									"animations": {
+										"setup": "animation.hongocarmesi.setup",
+										"walk": "animation.hongocarmesi.walk"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.cow"
+									],
+									"spawn_egg": {
+										"texture": "hongocarmesi"
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#2F2F2F",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#B52525",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"open": {
+											"texture": "hongocarmesi"
+										},
+										"data": "hongocarmesi",
+										"key": "texture"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

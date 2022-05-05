@@ -1,0 +1,56 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:lava_mangrove_sprout"
+		},
+		"components": {
+		    "minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+            "minecraft:breathability": "air",
+			"minecraft:entity_collision": false,
+			"minecraft:loot": "empty",
+			"minecraft:geometry": "geometry.flora",
+			"minecraft:material_instances": {
+			    "*": {
+					"texture": "lava_mangrove_sprout",
+					"render_method": "alpha_test",
+	          		"ambient_occlusion": false,
+          		    "face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					16,
+					4
+				]
+			},
+	  "minecraft:placement_filter": {
+        "conditions": [
+           {
+            "block_filter": [
+              "nether:lava_mangrove_leaves"],
+                    "allowed_faces": [ "down" ]
+                    }
+                ]
+            },
+            "minecraft:on_player_destroyed": {
+				"event": "shear",
+				"condition": "query.get_equipped_item_name('main_hand') == 'shears'"
+			}
+		},
+		"events": {
+			"shear": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/lava_mangrove_sprout.json"
+				}
+			}
+		}
+	}
+}

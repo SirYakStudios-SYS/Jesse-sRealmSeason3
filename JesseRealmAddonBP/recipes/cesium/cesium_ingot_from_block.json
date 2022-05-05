@@ -1,0 +1,23 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:cesium_ingot_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:cesium_block",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "m:cesium_ingot",
+				"count": 9
+			}
+		]
+	}
+}

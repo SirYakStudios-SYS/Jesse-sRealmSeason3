@@ -1,0 +1,22 @@
+{
+  "minecraft:attachable" : {
+    "description" : {
+      "textures" : {
+        "default" : "textures/models/armor/copper_boots.png",
+        "enchanted" : "textures/misc/enchanted_item_glint"
+      },
+      "materials" : {
+        "default" : "armor",
+        "enchanted" : "armor_enchanted"
+      },
+      "identifier" : "guardian:copper_boots",
+      "geometry" : {
+        "default" : "geometry.player.armor.boots"
+      },
+      "render_controllers" : [
+        "controller.render.armor"
+      ]
+    }
+  },
+  "format_version" : "1.8.0"
+}

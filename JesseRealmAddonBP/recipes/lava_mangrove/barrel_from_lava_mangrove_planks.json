@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:barrel_from_lava_mangrove_planks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "#~#", 
+            "# #",
+            "#~#"
+        ],
+        "key": {
+            "~": {
+                "item": "nether:lava_mangrove_planks_slab"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:barrel",
+				"count": 1
+			}
+		]
+    }
+}

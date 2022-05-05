@@ -1,0 +1,232 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shield V2\\recipes\\diamond_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "d1a27a0e_5caa_4a81_a65e_2ed6fa29eba8",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "diamond:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#D#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:iron_ingot"
+							},
+							"D": {
+								"item": "minecraft:diamond"
+							}
+						},
+						"result": {
+							"item": "diamond:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#D#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"D": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "diamond:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#D#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"D": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#D#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"D": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#D#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#D#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"D": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:iron_ingot"
+									},
+									"D": {
+										"item": "minecraft:diamond"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:iron_ingot"
+									},
+									"D": {
+										"item": "minecraft:diamond"
+									}
+								},
+								"key": "D",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:diamond"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#D#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"D": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "diamond:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

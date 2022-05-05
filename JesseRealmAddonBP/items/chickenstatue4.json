@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:chickenstatue4"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "chickenstatue4item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:chickenstatue4"
+        }
+      }
+    }
+  }

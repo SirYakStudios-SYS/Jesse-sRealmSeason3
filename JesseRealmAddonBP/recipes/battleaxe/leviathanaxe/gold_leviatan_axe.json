@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:gold_leviathan_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WX",
+			"X#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:gold_ingot"
+			},
+			"X": {
+				"item": "minecraft:gold_block"
+			}
+		},
+		"result": {
+			"item": "sp:gold_leviathan_axe"
+		}
+	}
+}

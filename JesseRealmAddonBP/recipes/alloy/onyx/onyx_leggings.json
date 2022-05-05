@@ -1,0 +1,26 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:onyx_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "m:onyx"
+			}
+		},
+		"result": [
+			{
+				"item": "m:onyx_leggings"
+			}
+		]
+	}
+}

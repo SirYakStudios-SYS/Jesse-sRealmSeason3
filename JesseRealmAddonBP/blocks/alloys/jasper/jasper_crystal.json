@@ -1,0 +1,133 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:jasper_crystal",
+			"properties": {
+				"block:stats": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jasper_crystal",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:geometry": "geometry.crystal_tem",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:loot": "loot_tables/jasper_drop.json",
+			"minecraft:on_player_placing": {
+				"event": "m:cry"
+			},
+			"minecraft:block_light_emission": 0.3,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.ore",
+				"category": "nature"
+			},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"m:cry": {
+				"set_block_property": {
+					"block:stats": "query.cardinal_player_facing"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('block:stats') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 1",
+				"components": {
+					"minecraft:rotation": [
+						180,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 2",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 3",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 4",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 5",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						-90,
+						0
+					]
+				}
+			}
+		]
+	}
+}

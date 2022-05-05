@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:pandastatueamethyst1"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "pandastatueamethyst1item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:pandastatueamethyst1"
+        }
+      }
+    }
+  }

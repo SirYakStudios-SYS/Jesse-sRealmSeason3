@@ -1,0 +1,1 @@
+effect @p water_breathing 8 1 true

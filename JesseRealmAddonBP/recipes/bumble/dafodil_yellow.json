@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:dafodil_yellow_dye"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:dafodil_yellow"
+			}
+		],
+		"result": {
+			"item": "yellow_dye",
+			"count": 1
+		}
+	}
+}

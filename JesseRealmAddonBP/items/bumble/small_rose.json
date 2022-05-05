@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:small_rose",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:small_rose"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:small_rose"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:small_rose"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

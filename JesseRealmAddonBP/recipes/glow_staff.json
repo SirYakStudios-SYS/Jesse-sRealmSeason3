@@ -1,0 +1,35 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nether:glow_staff"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ??",
+			"?~?",
+			"#? "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_block"
+			},
+			"~": {
+				"item": "minecraft:blaze_rod"
+			},
+			"!": {
+				"item": "minecraft:shield"
+			},
+			"?": {
+				"item": "nether:glowcrystal"
+			}
+		},
+		"result": [
+			{
+				"item": "nether:glow_staff"
+			}
+		]
+	}
+}

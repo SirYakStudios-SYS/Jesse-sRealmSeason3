@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "guardian:smoldering_soul",
+      "min_engine_version": "1.8.0",
+      "textures": {
+        "default": "textures/entity/guardian/soul/smoldering_soul"
+      },
+      "materials": { 
+        "default": "wither_boss_armor" 
+      },
+      "geometry": {
+        "default": "geometry.smoldering_soul"
+      },
+      "render_controllers": [ "controller.render.smoldering_soul" ],
+      "spawn_egg": {
+        "base_color": "#ffffff",
+        "overlay_color": "#ffffff"
+      }
+    }
+  }
+}

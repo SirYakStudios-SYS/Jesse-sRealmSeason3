@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_1507c019"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "zg:leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:leaves",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

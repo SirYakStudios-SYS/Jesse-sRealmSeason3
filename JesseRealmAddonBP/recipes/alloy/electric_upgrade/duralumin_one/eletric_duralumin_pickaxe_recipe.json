@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:eletric_duralumin_recipe_pickaxe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#+#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:electrum_nugget"
+			},
+			"+": {
+				"item": "m:duralumin_pickaxe"
+			}
+		},
+		"result": [
+			{
+				"item": "m:electric_duralumin_pickaxe"
+			}
+		]
+	}
+}

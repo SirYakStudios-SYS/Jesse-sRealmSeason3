@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 4,
+				"max": 6
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "m:rose_gold_ingot"
+				},
+				{
+					"type": "item",
+					"name": "minecraft:red_flower",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

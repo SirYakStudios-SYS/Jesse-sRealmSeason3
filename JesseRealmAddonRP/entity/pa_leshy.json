@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:leshy",
+      "materials": {
+        "default": "televisor"
+      },
+      "textures": {
+        "light_blue": "textures/entity/pamobile/pa_leshy"
+      },
+      "geometry": {
+        "default": "geometry.pa_leshy"
+      },
+      "render_controllers": [
+        "controller.render.shulker"
+      ],
+      "spawn_egg": {
+        "texture": "pa:leshy",
+        "texture_index": 0
+      }
+    }
+  }
+}

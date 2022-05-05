@@ -1,0 +1,25 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mv:firefly",
+			"materials": {
+				"default": "firefly"
+			},
+			"textures": {
+				"default": "textures/entity/firefly"
+			},
+			"geometry": {
+				"default": "geometry.firefly"
+			},
+			"render_controllers": [
+				"controller.render.firefly"
+			],
+			"spawn_egg": {
+				"base_color": "#FCFD7C",
+				"overlay_color": "#1A2E0D"
+			}
+		}
+	}
+}

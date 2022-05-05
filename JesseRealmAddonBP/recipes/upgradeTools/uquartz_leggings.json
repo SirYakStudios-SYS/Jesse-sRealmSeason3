@@ -1,0 +1,28 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:uquartz_leggings"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"D#D"
+		],
+		"key": {
+			"#": {
+				"item": "sp:armor1_leggings"
+			},
+			"D": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:uquartz_leggings"
+			}
+		]
+	}
+}

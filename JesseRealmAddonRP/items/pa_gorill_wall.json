@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:gorill_wall",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:gorill_wall",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

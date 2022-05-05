@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "new:lapis_trident_edge"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+            "PPP"
+        ],
+		"key": {
+			"P": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"result": {
+			"item": "new:lapis_trident_edge"
+		}
+	}
+}

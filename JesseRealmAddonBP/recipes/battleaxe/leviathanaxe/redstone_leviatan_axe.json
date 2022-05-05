@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:redstone_leviathan_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WX",
+			"X#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:redstone"
+			},
+			"X": {
+				"item": "minecraft:redstone_block"
+			}
+		},
+		"result": {
+			"item": "sp:redstone_leviathan_axe"
+		}
+	}
+}

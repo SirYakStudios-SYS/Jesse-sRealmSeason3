@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "presblock:netherrack_55"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "presblock:netherrack_5"
+      }
+    },
+    "result": [
+      {
+        "item": "presblock:netherrack_4",
+        "count": 9
+      }
+    ]
+  }
+}

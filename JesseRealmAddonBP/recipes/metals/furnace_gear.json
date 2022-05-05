@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "guardian:furnace_gear"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "guardian:gear",
+    "output": "guardian:copper_nugget"
+  }
+}

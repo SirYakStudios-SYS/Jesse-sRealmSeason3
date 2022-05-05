@@ -1,0 +1,1548 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\animations\\crimson_creeperpet.animation.json",
+	"file_type": "rp_animation",
+	"format_version": 1,
+	"file_uuid": "e2c9c985_b2f9_4828_bd3b_1f163e52ae2f",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"animations": {
+						"animation.crimson_creeperpet.legs": {
+							"loop": true,
+							"animation_length": 1.04,
+							"bones": {
+								"leg0": {
+									"rotation": {
+										"0": "variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"leg1": {
+									"rotation": {
+										"0": "-variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"leg2": {
+									"rotation": {
+										"0": "-variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"leg3": {
+									"rotation": {
+										"0": "variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"hongo2": {
+									"rotation": {
+										"0.0": [
+											7.5,
+											0,
+											0
+										],
+										"0.52": [
+											7.5,
+											0,
+											0
+										],
+										"1.04": [
+											7.5,
+											0,
+											0
+										]
+									},
+									"position": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											-1,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"scale": {
+										"0.0": [
+											1,
+											1,
+											1
+										],
+										"0.52": [
+											1,
+											1.2,
+											0.8
+										],
+										"1.04": [
+											1,
+											1,
+											1
+										]
+									}
+								},
+								"hongocabeza": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"position": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"scale": {
+										"0.0": [
+											1,
+											1,
+											1
+										],
+										"0.52": [
+											1,
+											1.2,
+											1
+										],
+										"1.04": [
+											1,
+											1,
+											1
+										]
+									}
+								},
+								"hongo1": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"position": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"scale": {
+										"0.0": [
+											1,
+											1,
+											1
+										],
+										"0.52": [
+											1,
+											1.2,
+											0.8
+										],
+										"1.04": [
+											1,
+											1,
+											1
+										]
+									}
+								}
+							}
+						},
+						"animation.crimson_creeperpet.swelling": {
+							"loop": true,
+							"bones": {
+								"bone2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"cuerpo": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hojas1": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hojas2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg0": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg1": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg3": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hongo2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hongocabeza": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"cara": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"pelo": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hongo1": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								}
+							}
+						},
+						"animation.common.look_at_targett": {
+							"loop": true,
+							"bones": {
+								"cara": {
+									"rotation": {
+										"0": "query.target_x_rotation - this",
+										"1": "query.target_y_rotation - this",
+										"2": 0
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.crimson_creeperpet.legs": {
+								"loop": true,
+								"animation_length": 1.04,
+								"bones": {
+									"leg0": {
+										"rotation": {
+											"0": "variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg1": {
+										"rotation": {
+											"0": "-variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg2": {
+										"rotation": {
+											"0": "-variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg3": {
+										"rotation": {
+											"0": "variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"hongo2": {
+										"rotation": {
+											"0.0": [
+												7.5,
+												0,
+												0
+											],
+											"0.52": [
+												7.5,
+												0,
+												0
+											],
+											"1.04": [
+												7.5,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												-1,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												0.8
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									},
+									"hongocabeza": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												1
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									},
+									"hongo1": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												0.8
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									}
+								}
+							},
+							"animation.crimson_creeperpet.swelling": {
+								"loop": true,
+								"bones": {
+									"bone2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"cuerpo": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hojas1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hojas2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg0": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg3": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongo2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongocabeza": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"cara": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"pelo": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongo1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									}
+								}
+							},
+							"animation.common.look_at_targett": {
+								"loop": true,
+								"bones": {
+									"cara": {
+										"rotation": {
+											"0": "query.target_x_rotation - this",
+											"1": "query.target_y_rotation - this",
+											"2": 0
+										}
+									}
+								}
+							}
+						},
+						"key": "animation.crimson_creeperpet.legs",
+						"is_minified": true,
+						"children": {
+							"loop": true,
+							"animation_length": 1.04,
+							"bones": {
+								"leg0": {
+									"rotation": {
+										"0": "variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"leg1": {
+									"rotation": {
+										"0": "-variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"leg2": {
+									"rotation": {
+										"0": "-variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"leg3": {
+									"rotation": {
+										"0": "variable.leg_rot - this",
+										"1": 0,
+										"2": 0
+									}
+								},
+								"hongo2": {
+									"rotation": {
+										"0.0": [
+											7.5,
+											0,
+											0
+										],
+										"0.52": [
+											7.5,
+											0,
+											0
+										],
+										"1.04": [
+											7.5,
+											0,
+											0
+										]
+									},
+									"position": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											-1,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"scale": {
+										"0.0": [
+											1,
+											1,
+											1
+										],
+										"0.52": [
+											1,
+											1.2,
+											0.8
+										],
+										"1.04": [
+											1,
+											1,
+											1
+										]
+									}
+								},
+								"hongocabeza": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"position": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"scale": {
+										"0.0": [
+											1,
+											1,
+											1
+										],
+										"0.52": [
+											1,
+											1.2,
+											1
+										],
+										"1.04": [
+											1,
+											1,
+											1
+										]
+									}
+								},
+								"hongo1": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"position": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											0,
+											0
+										],
+										"1.04": [
+											0,
+											0,
+											0
+										]
+									},
+									"scale": {
+										"0.0": [
+											1,
+											1,
+											1
+										],
+										"0.52": [
+											1,
+											1.2,
+											0.8
+										],
+										"1.04": [
+											1,
+											1,
+											1
+										]
+									}
+								}
+							}
+						}
+					},
+					{
+						"open": {
+							"animation.crimson_creeperpet.legs": {
+								"loop": true,
+								"animation_length": 1.04,
+								"bones": {
+									"leg0": {
+										"rotation": {
+											"0": "variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg1": {
+										"rotation": {
+											"0": "-variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg2": {
+										"rotation": {
+											"0": "-variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg3": {
+										"rotation": {
+											"0": "variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"hongo2": {
+										"rotation": {
+											"0.0": [
+												7.5,
+												0,
+												0
+											],
+											"0.52": [
+												7.5,
+												0,
+												0
+											],
+											"1.04": [
+												7.5,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												-1,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												0.8
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									},
+									"hongocabeza": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												1
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									},
+									"hongo1": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												0.8
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									}
+								}
+							},
+							"animation.crimson_creeperpet.swelling": {
+								"loop": true,
+								"bones": {
+									"bone2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"cuerpo": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hojas1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hojas2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg0": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg3": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongo2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongocabeza": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"cara": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"pelo": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongo1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									}
+								}
+							},
+							"animation.common.look_at_targett": {
+								"loop": true,
+								"bones": {
+									"cara": {
+										"rotation": {
+											"0": "query.target_x_rotation - this",
+											"1": "query.target_y_rotation - this",
+											"2": 0
+										}
+									}
+								}
+							}
+						},
+						"key": "animation.crimson_creeperpet.swelling",
+						"is_minified": true,
+						"children": {
+							"loop": true,
+							"bones": {
+								"bone2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"cuerpo": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hojas1": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hojas2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg0": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg1": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"leg3": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hongo2": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hongocabeza": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"cara": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"pelo": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								},
+								"hongo1": {
+									"scale": {
+										"0": "variable.swelling_scale1",
+										"1": "variable.swelling_scale2",
+										"2": "variable.swelling_scale1"
+									}
+								}
+							}
+						}
+					},
+					{
+						"open": {
+							"animation.crimson_creeperpet.legs": {
+								"loop": true,
+								"animation_length": 1.04,
+								"bones": {
+									"leg0": {
+										"rotation": {
+											"0": "variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg1": {
+										"rotation": {
+											"0": "-variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg2": {
+										"rotation": {
+											"0": "-variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"leg3": {
+										"rotation": {
+											"0": "variable.leg_rot - this",
+											"1": 0,
+											"2": 0
+										}
+									},
+									"hongo2": {
+										"rotation": {
+											"0.0": [
+												7.5,
+												0,
+												0
+											],
+											"0.52": [
+												7.5,
+												0,
+												0
+											],
+											"1.04": [
+												7.5,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												-1,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												0.8
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									},
+									"hongocabeza": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												1
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									},
+									"hongo1": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"position": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												0,
+												0
+											],
+											"1.04": [
+												0,
+												0,
+												0
+											]
+										},
+										"scale": {
+											"0.0": [
+												1,
+												1,
+												1
+											],
+											"0.52": [
+												1,
+												1.2,
+												0.8
+											],
+											"1.04": [
+												1,
+												1,
+												1
+											]
+										}
+									}
+								}
+							},
+							"animation.crimson_creeperpet.swelling": {
+								"loop": true,
+								"bones": {
+									"bone2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"cuerpo": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hojas1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hojas2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg0": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"leg3": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongo2": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongocabeza": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"cara": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"pelo": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									},
+									"hongo1": {
+										"scale": {
+											"0": "variable.swelling_scale1",
+											"1": "variable.swelling_scale2",
+											"2": "variable.swelling_scale1"
+										}
+									}
+								}
+							},
+							"animation.common.look_at_targett": {
+								"loop": true,
+								"bones": {
+									"cara": {
+										"rotation": {
+											"0": "query.target_x_rotation - this",
+											"1": "query.target_y_rotation - this",
+											"2": 0
+										}
+									}
+								}
+							}
+						},
+						"key": "animation.common.look_at_targett",
+						"is_minified": true,
+						"children": {
+							"loop": true,
+							"bones": {
+								"cara": {
+									"rotation": {
+										"0": "query.target_x_rotation - this",
+										"1": "query.target_y_rotation - this",
+										"2": 0
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

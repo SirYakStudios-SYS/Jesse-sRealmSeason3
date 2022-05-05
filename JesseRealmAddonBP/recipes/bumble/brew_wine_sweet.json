@@ -1,0 +1,29 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:wine_sweet_brew"
+		},
+		"tags": [
+			"keg"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:fermented_grapes"
+			},
+			{
+				"item": "minecraft:sugar"
+			},
+			{
+				"item": "minecraft:potion"
+			},
+			{
+				"item": "minecraft:sweet_berries"
+			}
+		],
+		"result": {
+			"item": "bumble:wine_sweet"
+		}
+	}
+}

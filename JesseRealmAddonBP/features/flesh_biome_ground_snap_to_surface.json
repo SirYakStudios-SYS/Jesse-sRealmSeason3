@@ -1,0 +1,11 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "flesh_biome_ground_snap_to_surface"
+		},
+		"vertical_search_range": 70,
+		"surface": "floor",
+		"feature_to_snap": "flesh_biome_ground_scatter"
+	}
+}

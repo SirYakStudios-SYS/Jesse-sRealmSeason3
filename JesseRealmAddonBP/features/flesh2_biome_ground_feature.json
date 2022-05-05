@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "flesh2_biome_ground_feature"
+		},
+		"places_block": {
+			"name": "nether:flesh_block2"
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:netherrack",
+			"minecraft:magma",
+			"minecraft:quartz_ore",
+			"minecraft:nether_gold_ore"
+		],
+		"may_attach_to": {
+			"top": [
+				"minecraft:air",
+				"nether:flesh_block",
+				"nether:flesh_block2"
+			]
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "guardian:nest_of_endermare",
+            "properties": {
+                "facing:direction": [ 1, 2, 3, 4, 5, 6 ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "nest_of_endermare",
+                     "render_method": "alpha_test"
+                }
+            },
+			"minecraft:entity_collision": {
+                "origin": [ -4, 0, -4 ],
+                "size": [ 9, 7, 9 ]
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -4, 0, -4 ],
+                "size": [ 9, 7, 9 ]
+            },
+            "minecraft:loot": "loot_tables/blocks/nest_of_endermare.json",
+            "minecraft:geometry": "geometry.nest_of_endermare",
+            "minecraft:destroy_time": 3,
+            "minecraft:on_player_placing": {
+                "event": "placement_state"
+            },
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:block_light_absorption": 0
+        },
+        "events": {
+            "placement_state": {
+                "set_block_property": {
+                    "facing:direction": "(query.cardinal_facing_2d)"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('facing:direction') == 2",
+                "components": {
+                    "minecraft:rotation": [ 0, 0, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('facing:direction') == 3",
+                "components": {
+                    "minecraft:rotation": [ 0, 180, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('facing:direction') == 4",
+                "components": {
+                    "minecraft:rotation": [ 0, 90, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('facing:direction') == 5",
+                "components": {
+                    "minecraft:rotation": [ 0, 270, 0 ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:hyacinth_blue_dye"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:hyacinth_blue"
+			}
+		],
+		"result": {
+			"item": "blue_dye",
+			"count": 1
+		}
+	}
+}

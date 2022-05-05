@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:bronze_chains_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"+",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "m:bronze_nugget"
+			},
+			"+": {
+				"item": "m:bronze_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:bronze_chains"
+			}
+		]
+	}
+}

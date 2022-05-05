@@ -1,0 +1,52 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:rose_gold_beetroot",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "Rose_Gold_beetroot"
+			},
+			"minecraft:display_name": {
+				"value": "Rose Gold Beetroot \n§7Effects: \n-Regeneration II (0:50) \n-Absorption II (0:50)"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 8,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consume"
+				}
+			}
+		},
+		"events": {
+			"consume": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 50,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 50,
+							"amplifier": 1,
+							"target": "holder",
+							"effect": "absorption"
+						}
+					}
+				]
+			}
+		}
+	}
+}

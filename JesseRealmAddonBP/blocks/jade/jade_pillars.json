@@ -1,0 +1,55 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:jade_pillars"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jade_pillar_side"
+				},
+				"up": {
+					"texture": "jade_pillar_top"
+				},
+				"down": {
+					"texture": "jade_pillar_top"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.block",
+				"category": "construction"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {},
+			"bridge:log_rotate_on_place": {
+				"rotation_from": "block_face"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:cowstatue7"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "cowstatue7item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:cowstatue7"
+        }
+      }
+    }
+  }

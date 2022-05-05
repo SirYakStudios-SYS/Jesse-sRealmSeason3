@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:duralumin_bundle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#+#",
+			"+o+",
+			"+++"
+		],
+		"key": {
+			"#": {
+				"item": "m:maganese_nugget"
+			},
+			"+": {
+				"item": "m:duralumin_ingot"
+			},
+			"o": {
+				"item": "rubidium_bundle:netherite_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "duralumin_bundle:netherite_ingot"
+			}
+		]
+	}
+}

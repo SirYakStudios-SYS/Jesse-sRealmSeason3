@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:skeletonstatue5"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "skeletonstatue5item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:skeletonstatue5"
+        }
+      }
+    }
+  }

@@ -1,0 +1,24 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "flesh_bone_str1"
+        },
+        "structure_name": "mystructure:flesh_bone_str",
+        "adjustment_radius": 8,
+        "facing_direction": "random",
+        "constraints": {
+        	"grounded": {},
+        	"unburied": {},
+        	"block_intersection": {
+        		"block_allowlist": [
+          			"minecraft:air",
+          			"minecraft:red_mushroom",
+          			"minecraft:brown_mushroom",
+          			"minecraft:fire",
+          			"nether:small_flesh_bone_block"
+        		]
+      		}
+    	}
+    }
+}

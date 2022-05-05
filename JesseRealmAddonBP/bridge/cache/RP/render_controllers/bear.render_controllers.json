@@ -1,0 +1,186 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Biome Revamp RES\\render_controllers\\bear.render_controllers.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "9a753294_80ab_4fee_ad9c_7274b3751be4",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.bear": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.look_for_honey",
+										"Texture.hunger_timer"
+									]
+								}
+							},
+							"textures": [
+								"Array.skins[query.variant]"
+							],
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.bear": {
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.look_for_honey",
+											"Texture.hunger_timer"
+										]
+									}
+								},
+								"textures": [
+									"Array.skins[query.variant]"
+								],
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								]
+							}
+						},
+						"key": "controller.render.bear",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.look_for_honey",
+												"Texture.hunger_timer"
+											]
+										}
+									},
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.look_for_honey",
+													"Texture.hunger_timer"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.look_for_honey",
+														"Texture.hunger_timer"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.look_for_honey",
+													"Texture.hunger_timer"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.look_for_honey",
+												"Texture.hunger_timer"
+											]
+										}
+									},
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							},
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.look_for_honey",
+												"Texture.hunger_timer"
+											]
+										}
+									},
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

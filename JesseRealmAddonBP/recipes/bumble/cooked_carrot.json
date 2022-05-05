@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:furnace_carrot"
+    },
+
+    
+    "tags": ["furnace", "smoker"],
+    "input": "minecraft:carrot",
+    "output": "bumble:cooked_carrot"
+  }
+  
+}

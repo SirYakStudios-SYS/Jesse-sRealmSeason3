@@ -1,0 +1,127 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:small_crystallized_diamond_bud",
+			"properties": {
+				"block:stats": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "small_Crystallized_diamond_bud",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					5,
+					6
+				]
+			},
+			"minecraft:geometry": "geometry.crooos",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_player_placing": {
+				"event": "m:cry"
+			},
+			"minecraft:block_light_emission": 0.6,
+			"minecraft:entity_collision": false,
+			"minecraft:loot": "empty",
+			"minecraft:on_player_destroyed": {
+				"condition": "query.get_equipped_item_name=='diamond_pickaxe'||query.get_equipped_item_name=='netherite_pickaxe'||query.get_equipped_item_name=='iron_pickaxe'||query.equipped_item_any_tag('slot.weapon.mainhand','is_pickaxe_costum')",
+				"event": "pick"
+			},
+			"tag:fast_pickaxe_mineable": {}
+		},
+		"events": {
+			"pick": {
+				"spawn_loot": {
+					"table": "loot_tables/crystalized_diamond_drop_stage_1.json"
+				}
+			},
+			"m:cry": {
+				"set_block_property": {
+					"block:stats": "query.cardinal_player_facing"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('block:stats') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 1",
+				"components": {
+					"minecraft:rotation": [
+						180,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 2",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 3",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 4",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('block:stats') == 5",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						-90,
+						0
+					]
+				}
+			}
+		]
+	}
+}

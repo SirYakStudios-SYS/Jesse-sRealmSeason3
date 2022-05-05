@@ -1,0 +1,26 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:tin_head_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			" # ",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:tin_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "m:tin_head"
+			}
+		]
+	}
+}

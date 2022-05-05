@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:quartzpedestal1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XDX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:quartz"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "jctstatues:quartzpedestal1"
+    }
+  }
+}

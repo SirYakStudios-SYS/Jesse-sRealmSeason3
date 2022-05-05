@@ -1,0 +1,33 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mv:electrified_copper_block_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A",
+			"CBC",
+			" A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"B": {
+				"item": "minecraft:carved_pumpkin"
+			},
+			"C": {
+				"item": "minecraft:copper_block"
+			}
+		},
+		"result": [
+			{
+				"item": "mv:electrified_copper_block"
+			}
+		]
+	}
+}

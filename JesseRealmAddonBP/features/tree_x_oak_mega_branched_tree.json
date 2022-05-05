@@ -1,0 +1,143 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:tree_feature": {
+    "description": {
+      "identifier": "nicothekid:tree_x_oak_mega_branched_tree"
+    },
+    "acacia_trunk": {
+      "trunk_width": 2,
+      "trunk_height": {
+        "base": 6,
+        "intervals": [ 3, 3 ]
+      },
+      "trunk_block": {
+        "name": "minecraft:log",
+        "states": {
+          "old_log_type": "oak"
+        }
+      },
+      "trunk_lean": {
+        "allow_diagonal_growth": true,
+        "lean_height": {
+          "range_min": 3,
+          "range_max": 5
+        },
+        "lean_steps": {
+          "range_min": 1,
+          "range_max": 4
+        }
+      },
+      "trunk_decoration": {
+        "decoration_block": "minecraft:vine",
+        "decoration_chance": {
+          "numerator": 6,
+          "denominator": 7
+        }
+      },
+      "branches": {
+        "branch_chance": 100.0,
+        "branch_length": {
+          "range_min": 3,
+          "range_max": 6
+        },
+        "branch_position": {
+          "range_min": 3,
+          "range_max": 5
+        },
+        "branch_canopy": {
+          "acacia_canopy": {
+            "canopy_size": 3,
+            "leaf_block": {
+              "name": "minecraft:leaves",
+              "states": {
+                "old_leaf_type": "oak"
+              }
+            }
+          }
+        }
+      }
+    },
+    "acacia_canopy": {
+      "canopy_size": 4,
+      "leaf_block": {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "oak"
+        }
+      }
+    },
+    "base_block": [
+      "minecraft:dirt",
+      "minecraft:dirt_with_roots"
+    ],
+    "may_grow_on": [
+      "minecraft:grass",
+      "minecraft:podzol",
+      "minecraft:dirt",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      },
+      "minecraft:dirt_with_roots",
+      "minecraft:moss_block"
+    ],
+    "may_replace": [
+      "minecraft:air",
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "oak"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "spruce"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "birch"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "jungle"
+        }
+      },
+      {
+        "name": "minecraft:leaves2",
+        "states": {
+          "new_leaf_type": "acacia"
+        }
+      },
+      {
+        "name": "minecraft:leaves2",
+        "states": {
+          "new_leaf_type": "dark_oak"
+        }
+      },
+      "minecraft:azalea_leaves",
+      "minecraft:azalea_leaves_flowered",
+      "minecraft:vine",
+      "minecraft:tallgrass"
+    ],
+    "may_grow_through": [
+      "minecraft:grass",
+      "minecraft:podzol",
+      "minecraft:dirt",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      },
+      "minecraft:dirt_with_roots",
+      "minecraft:moss_block"
+    ]
+  }
+}

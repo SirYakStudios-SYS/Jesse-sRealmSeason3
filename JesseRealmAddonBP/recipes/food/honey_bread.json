@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "guardian:honey_bread"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:bread",
+        "count": 4
+      },
+      {
+        "item": "minecraft:honey_block",
+        "count": 1
+      }
+    ],
+    "result": [
+      { "item": "guardian:honey_bread", "count": 4 }
+    ]
+  }
+}

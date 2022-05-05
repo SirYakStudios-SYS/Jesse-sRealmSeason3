@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rod_59880471"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:stone_sword",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:rog_ieti",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:rod",
+      "count": 1
+    }
+  }
+}

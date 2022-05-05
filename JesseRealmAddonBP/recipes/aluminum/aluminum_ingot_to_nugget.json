@@ -1,0 +1,22 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:aluminum_ingot_to_nugget"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:aluminum_ingot"
+			}
+		],
+		"result": [
+			{
+				"item": "m:aluminum_nugget",
+				"count": 9
+			}
+		]
+	}
+}

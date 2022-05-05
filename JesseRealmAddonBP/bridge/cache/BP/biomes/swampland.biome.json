@@ -1,0 +1,506 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\biomes\\swampland.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "fd53b42e_46d3_4d7d_93ee_6f88cc8dfac7",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "swampland"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0.5,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 0.8
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "swamp"
+							},
+							"minecraft:swamp_surface": {
+								"sea_floor_depth": 7,
+								"sea_floor_material": "minecraft:gravel",
+								"foundation_material": "minecraft:stone",
+								"mid_material": "minecraft:dirt",
+								"top_material": "mv:mud",
+								"sea_material": "minecraft:water"
+							},
+							"minecraft:overworld_generation_rules": {
+								"mutate_transformation": "swampland_mutated",
+								"generate_for_climates": [
+									[
+										"medium",
+										2
+									],
+									[
+										"warm",
+										1
+									],
+									[
+										"cold",
+										1
+									]
+								]
+							},
+							"animal": {},
+							"monster": {},
+							"overworld": {},
+							"mangrove_swamp": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "swampland"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0.5,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.8
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "swamp"
+								},
+								"minecraft:swamp_surface": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "mv:mud",
+									"sea_material": "minecraft:water"
+								},
+								"minecraft:overworld_generation_rules": {
+									"mutate_transformation": "swampland_mutated",
+									"generate_for_climates": [
+										[
+											"medium",
+											2
+										],
+										[
+											"warm",
+											1
+										],
+										[
+											"cold",
+											1
+										]
+									]
+								},
+								"animal": {},
+								"monster": {},
+								"overworld": {},
+								"mangrove_swamp": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "swampland"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "swampland"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0.5,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.8
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "swamp"
+								},
+								"minecraft:swamp_surface": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "mv:mud",
+									"sea_material": "minecraft:water"
+								},
+								"minecraft:overworld_generation_rules": {
+									"mutate_transformation": "swampland_mutated",
+									"generate_for_climates": [
+										[
+											"medium",
+											2
+										],
+										[
+											"warm",
+											1
+										],
+										[
+											"cold",
+											1
+										]
+									]
+								},
+								"animal": {},
+								"monster": {},
+								"overworld": {},
+								"mangrove_swamp": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0.5,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 0.8
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "swamp"
+									},
+									"minecraft:swamp_surface": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "minecraft:gravel",
+										"foundation_material": "minecraft:stone",
+										"mid_material": "minecraft:dirt",
+										"top_material": "mv:mud",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"mutate_transformation": "swampland_mutated",
+										"generate_for_climates": [
+											[
+												"medium",
+												2
+											],
+											[
+												"warm",
+												1
+											],
+											[
+												"cold",
+												1
+											]
+										]
+									},
+									"animal": {},
+									"monster": {},
+									"overworld": {},
+									"mangrove_swamp": {}
+								},
+								"key": "minecraft:climate",
+								"is_minified": true,
+								"children": {
+									"downfall": 0.5,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.8
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0.5,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 0.8
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "swamp"
+									},
+									"minecraft:swamp_surface": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "minecraft:gravel",
+										"foundation_material": "minecraft:stone",
+										"mid_material": "minecraft:dirt",
+										"top_material": "mv:mud",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"mutate_transformation": "swampland_mutated",
+										"generate_for_climates": [
+											[
+												"medium",
+												2
+											],
+											[
+												"warm",
+												1
+											],
+											[
+												"cold",
+												1
+											]
+										]
+									},
+									"animal": {},
+									"monster": {},
+									"overworld": {},
+									"mangrove_swamp": {}
+								},
+								"key": "minecraft:overworld_height",
+								"is_minified": true,
+								"children": {
+									"noise_type": "swamp"
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0.5,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 0.8
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "swamp"
+									},
+									"minecraft:swamp_surface": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "minecraft:gravel",
+										"foundation_material": "minecraft:stone",
+										"mid_material": "minecraft:dirt",
+										"top_material": "mv:mud",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"mutate_transformation": "swampland_mutated",
+										"generate_for_climates": [
+											[
+												"medium",
+												2
+											],
+											[
+												"warm",
+												1
+											],
+											[
+												"cold",
+												1
+											]
+										]
+									},
+									"animal": {},
+									"monster": {},
+									"overworld": {},
+									"mangrove_swamp": {}
+								},
+								"key": "minecraft:swamp_surface",
+								"is_minified": true,
+								"children": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "mv:mud",
+									"sea_material": "minecraft:water"
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0.5,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 0.8
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "swamp"
+									},
+									"minecraft:swamp_surface": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "minecraft:gravel",
+										"foundation_material": "minecraft:stone",
+										"mid_material": "minecraft:dirt",
+										"top_material": "mv:mud",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"mutate_transformation": "swampland_mutated",
+										"generate_for_climates": [
+											[
+												"medium",
+												2
+											],
+											[
+												"warm",
+												1
+											],
+											[
+												"cold",
+												1
+											]
+										]
+									},
+									"animal": {},
+									"monster": {},
+									"overworld": {},
+									"mangrove_swamp": {}
+								},
+								"key": "minecraft:overworld_generation_rules",
+								"children": [
+									{
+										"open": {
+											"mutate_transformation": "swampland_mutated",
+											"generate_for_climates": [
+												[
+													"medium",
+													2
+												],
+												[
+													"warm",
+													1
+												],
+												[
+													"cold",
+													1
+												]
+											]
+										},
+										"data": "swampland_mutated",
+										"key": "mutate_transformation"
+									},
+									{
+										"open": {
+											"mutate_transformation": "swampland_mutated",
+											"generate_for_climates": [
+												[
+													"medium",
+													2
+												],
+												[
+													"warm",
+													1
+												],
+												[
+													"cold",
+													1
+												]
+											]
+										},
+										"key": "generate_for_climates",
+										"children": [
+											{
+												"open": [
+													[
+														"medium",
+														2
+													],
+													[
+														"warm",
+														1
+													],
+													[
+														"cold",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"medium",
+													2
+												]
+											},
+											{
+												"open": [
+													[
+														"medium",
+														2
+													],
+													[
+														"warm",
+														1
+													],
+													[
+														"cold",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"warm",
+													1
+												]
+											},
+											{
+												"open": [
+													[
+														"medium",
+														2
+													],
+													[
+														"warm",
+														1
+													],
+													[
+														"cold",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"cold",
+													1
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "animal",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "monster",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "overworld",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "mangrove_swamp",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

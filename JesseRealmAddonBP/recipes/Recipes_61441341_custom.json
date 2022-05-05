@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_af50d5a6"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "pa:shsrf_ghb",
+        "data": 0
+      },
+      {
+        "item": "pa:forest_stone",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "pa:forest_pocoh",
+      "count": 1
+    }
+  }
+}

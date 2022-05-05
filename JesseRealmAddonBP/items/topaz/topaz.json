@@ -1,0 +1,19 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:topaz",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "topaz"
+			},
+			"minecraft:display_name": {
+				"value": "Topaz"
+			}
+		},
+		"events": {}
+	}
+}

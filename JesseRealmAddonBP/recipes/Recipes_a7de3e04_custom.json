@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_5c237432"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:gorill_wall",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:wool",
+      "count": 1,
+      "data": 15
+    }
+  }
+}

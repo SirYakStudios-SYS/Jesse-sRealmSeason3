@@ -1,0 +1,28 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bumble:zucchini_bread"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ZZZ",
+			"ZBZ",
+			"ZZZ"
+		],
+		"key": {
+			"Z": {
+				"item": "bumble:zucchini"
+			},
+			"B": {
+				"item": "minecraft:bread"
+			}
+		},
+		"result": {
+			"item": "bumble:zucchini_bread"
+		}
+	}
+}

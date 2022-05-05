@@ -1,0 +1,539 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Shields V2\\items\\amethyst_shield.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "2a25d4e8_bf7d_4c13_be0a_12a2051ccfec",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "amethyst:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "Amethyst Shield"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "amethyst_shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 10
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:durability": {
+								"max_durability": 772
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"amethyst:shield"
+										],
+										"repair_amount": "query.max_durability"
+									},
+									{
+										"items": [
+											"minecraft:amethyst_cluster"
+										],
+										"repair_amount": 150
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "amethyst:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "Amethyst Shield"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "amethyst_shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 10
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:durability": {
+								"max_durability": 772
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"amethyst:shield"
+										],
+										"repair_amount": "query.max_durability"
+									},
+									{
+										"items": [
+											"minecraft:amethyst_cluster"
+										],
+										"repair_amount": 150
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "amethyst:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "Amethyst Shield"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "amethyst_shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 10
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:durability": {
+									"max_durability": 772
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"amethyst:shield"
+											],
+											"repair_amount": "query.max_durability"
+										},
+										{
+											"items": [
+												"minecraft:amethyst_cluster"
+											],
+											"repair_amount": 150
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "amethyst:shield",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "amethyst:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "Amethyst Shield"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "amethyst_shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 10
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:durability": {
+									"max_durability": 772
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"amethyst:shield"
+											],
+											"repair_amount": "query.max_durability"
+										},
+										{
+											"items": [
+												"minecraft:amethyst_cluster"
+											],
+											"repair_amount": 150
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Amethyst Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "amethyst_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 772
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"amethyst:shield"
+												],
+												"repair_amount": "query.max_durability"
+											},
+											{
+												"items": [
+													"minecraft:amethyst_cluster"
+												],
+												"repair_amount": 150
+											}
+										]
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Amethyst Shield"
+								}
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Amethyst Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "amethyst_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 772
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"amethyst:shield"
+												],
+												"repair_amount": "query.max_durability"
+											},
+											{
+												"items": [
+													"minecraft:amethyst_cluster"
+												],
+												"repair_amount": 150
+											}
+										]
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "amethyst_shield"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Amethyst Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "amethyst_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 772
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"amethyst:shield"
+												],
+												"repair_amount": "query.max_durability"
+											},
+											{
+												"items": [
+													"minecraft:amethyst_cluster"
+												],
+												"repair_amount": 150
+											}
+										]
+									}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "shield",
+									"value": 10
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Amethyst Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "amethyst_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 772
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"amethyst:shield"
+												],
+												"repair_amount": "query.max_durability"
+											},
+											{
+												"items": [
+													"minecraft:amethyst_cluster"
+												],
+												"repair_amount": 150
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 772
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Amethyst Shield"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "amethyst_shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 10
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:durability": {
+										"max_durability": 772
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"amethyst:shield"
+												],
+												"repair_amount": "query.max_durability"
+											},
+											{
+												"items": [
+													"minecraft:amethyst_cluster"
+												],
+												"repair_amount": 150
+											}
+										]
+									}
+								},
+								"key": "minecraft:repairable",
+								"children": [
+									{
+										"open": {
+											"repair_items": [
+												{
+													"items": [
+														"amethyst:shield"
+													],
+													"repair_amount": "query.max_durability"
+												},
+												{
+													"items": [
+														"minecraft:amethyst_cluster"
+													],
+													"repair_amount": 150
+												}
+											]
+										},
+										"key": "repair_items",
+										"children": [
+											{
+												"open": [
+													{
+														"items": [
+															"amethyst:shield"
+														],
+														"repair_amount": "query.max_durability"
+													},
+													{
+														"items": [
+															"minecraft:amethyst_cluster"
+														],
+														"repair_amount": 150
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"amethyst:shield"
+															],
+															"repair_amount": "query.max_durability"
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"amethyst:shield"
+														]
+													},
+													{
+														"open": {
+															"items": [
+																"amethyst:shield"
+															],
+															"repair_amount": "query.max_durability"
+														},
+														"data": "query.max_durability",
+														"key": "repair_amount"
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"items": [
+															"amethyst:shield"
+														],
+														"repair_amount": "query.max_durability"
+													},
+													{
+														"items": [
+															"minecraft:amethyst_cluster"
+														],
+														"repair_amount": 150
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"minecraft:amethyst_cluster"
+															],
+															"repair_amount": 150
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"minecraft:amethyst_cluster"
+														]
+													},
+													{
+														"open": {
+															"items": [
+																"minecraft:amethyst_cluster"
+															],
+															"repair_amount": 150
+														},
+														"data": "150",
+														"key": "repair_amount"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

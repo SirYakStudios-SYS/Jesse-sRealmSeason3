@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:cyan_stonebrick_slab_0"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "minecraft:stone_slab",
+               "data": 5
+           }
+       ],
+       "result": {
+           "item": "stonebrick:cyan_stonebrick_slab_0",
+           "count": 1
+       }
+   }
+}

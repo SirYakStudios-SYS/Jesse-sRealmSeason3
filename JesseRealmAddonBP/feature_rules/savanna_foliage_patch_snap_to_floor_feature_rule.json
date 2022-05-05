@@ -1,0 +1,46 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "mv:savanna_foliage_patch_snap_to_floor_feature_rule",
+			"places_feature": "mv:savanna_foliage_patch_snap_to_surface_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "savanna"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": "math.random_integer(1,3)",
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "gaussian"
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					50,
+					90
+				]
+			},
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "gaussian"
+			}
+		}
+	}
+}

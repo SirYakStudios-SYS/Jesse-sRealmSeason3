@@ -1,0 +1,631 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shield V2\\entities\\item.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "a55e5ef7_f425_4a14_84be_cb6875eb1358",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "minecraft:item",
+							"runtime_identifier": {},
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {
+							"netherite": {
+								"minecraft:fire_immune": true
+							}
+						},
+						"components": {
+							"minecraft:environment_sensor": {
+								"triggers": [
+									{
+										"event": "netherite_test",
+										"target": "self"
+									},
+									{
+										"event": "add_r",
+										"target": "self"
+									}
+								]
+							}
+						},
+						"events": {
+							"netherite_test": {
+								"run_command": {
+									"command": [
+										"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+										"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+									]
+								}
+							},
+							"add_r": {
+								"sequence": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "has_tag",
+													"operator": "==",
+													"subject": "self",
+													"value": "netherite"
+												}
+											]
+										},
+										"add": {
+											"component_groups": [
+												"netherite"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:item",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"netherite": {
+									"minecraft:fire_immune": true
+								}
+							},
+							"components": {
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"event": "netherite_test",
+											"target": "self"
+										},
+										{
+											"event": "add_r",
+											"target": "self"
+										}
+									]
+								}
+							},
+							"events": {
+								"netherite_test": {
+									"run_command": {
+										"command": [
+											"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+											"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+										]
+									}
+								},
+								"add_r": {
+									"sequence": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "self",
+														"value": "netherite"
+													}
+												]
+											},
+											"add": {
+												"component_groups": [
+													"netherite"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:item",
+							"runtime_identifier": {},
+							"is_summonable": true,
+							"is_spawnable": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:item",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"netherite": {
+									"minecraft:fire_immune": true
+								}
+							},
+							"components": {
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"event": "netherite_test",
+											"target": "self"
+										},
+										{
+											"event": "add_r",
+											"target": "self"
+										}
+									]
+								}
+							},
+							"events": {
+								"netherite_test": {
+									"run_command": {
+										"command": [
+											"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+											"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+										]
+									}
+								},
+								"add_r": {
+									"sequence": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "self",
+														"value": "netherite"
+													}
+												]
+											},
+											"add": {
+												"component_groups": [
+													"netherite"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"netherite": {
+										"minecraft:fire_immune": true
+									}
+								},
+								"key": "netherite",
+								"is_minified": true,
+								"children": {
+									"minecraft:fire_immune": true
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:item",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"netherite": {
+									"minecraft:fire_immune": true
+								}
+							},
+							"components": {
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"event": "netherite_test",
+											"target": "self"
+										},
+										{
+											"event": "add_r",
+											"target": "self"
+										}
+									]
+								}
+							},
+							"events": {
+								"netherite_test": {
+									"run_command": {
+										"command": [
+											"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+											"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+										]
+									}
+								},
+								"add_r": {
+									"sequence": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "self",
+														"value": "netherite"
+													}
+												]
+											},
+											"add": {
+												"component_groups": [
+													"netherite"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:environment_sensor": {
+										"triggers": [
+											{
+												"event": "netherite_test",
+												"target": "self"
+											},
+											{
+												"event": "add_r",
+												"target": "self"
+											}
+										]
+									}
+								},
+								"key": "minecraft:environment_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": [
+												{
+													"event": "netherite_test",
+													"target": "self"
+												},
+												{
+													"event": "add_r",
+													"target": "self"
+												}
+											]
+										},
+										"key": "triggers",
+										"children": [
+											{
+												"open": [
+													{
+														"event": "netherite_test",
+														"target": "self"
+													},
+													{
+														"event": "add_r",
+														"target": "self"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"event": "netherite_test",
+													"target": "self"
+												}
+											},
+											{
+												"open": [
+													{
+														"event": "netherite_test",
+														"target": "self"
+													},
+													{
+														"event": "add_r",
+														"target": "self"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"event": "add_r",
+													"target": "self"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:item",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"netherite": {
+									"minecraft:fire_immune": true
+								}
+							},
+							"components": {
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"event": "netherite_test",
+											"target": "self"
+										},
+										{
+											"event": "add_r",
+											"target": "self"
+										}
+									]
+								}
+							},
+							"events": {
+								"netherite_test": {
+									"run_command": {
+										"command": [
+											"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+											"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+										]
+									}
+								},
+								"add_r": {
+									"sequence": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "has_tag",
+														"operator": "==",
+														"subject": "self",
+														"value": "netherite"
+													}
+												]
+											},
+											"add": {
+												"component_groups": [
+													"netherite"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"netherite_test": {
+										"run_command": {
+											"command": [
+												"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+												"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+											]
+										}
+									},
+									"add_r": {
+										"sequence": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "has_tag",
+															"operator": "==",
+															"subject": "self",
+															"value": "netherite"
+														}
+													]
+												},
+												"add": {
+													"component_groups": [
+														"netherite"
+													]
+												}
+											}
+										]
+									}
+								},
+								"key": "netherite_test",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+													"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+														"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+													"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"netherite_test": {
+										"run_command": {
+											"command": [
+												"execute @e[type=item,name=\"Netherite Shield§7(Warped Wood Planks)\"] ~ ~ ~ tag @s add netherite",
+												"execute @e[type=item,name=\"Netherite Shield§7(Crimson Wood Planks)\"] ~ ~ ~ tag @s add netherite"
+											]
+										}
+									},
+									"add_r": {
+										"sequence": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "has_tag",
+															"operator": "==",
+															"subject": "self",
+															"value": "netherite"
+														}
+													]
+												},
+												"add": {
+													"component_groups": [
+														"netherite"
+													]
+												}
+											}
+										]
+									}
+								},
+								"key": "add_r",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"filters": {
+														"any_of": [
+															{
+																"test": "has_tag",
+																"operator": "==",
+																"subject": "self",
+																"value": "netherite"
+															}
+														]
+													},
+													"add": {
+														"component_groups": [
+															"netherite"
+														]
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"filters": {
+															"any_of": [
+																{
+																	"test": "has_tag",
+																	"operator": "==",
+																	"subject": "self",
+																	"value": "netherite"
+																}
+															]
+														},
+														"add": {
+															"component_groups": [
+																"netherite"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"filters": {
+																"any_of": [
+																	{
+																		"test": "has_tag",
+																		"operator": "==",
+																		"subject": "self",
+																		"value": "netherite"
+																	}
+																]
+															},
+															"add": {
+																"component_groups": [
+																	"netherite"
+																]
+															}
+														},
+														"key": "filters",
+														"children": [
+															{
+																"open": {
+																	"any_of": [
+																		{
+																			"test": "has_tag",
+																			"operator": "==",
+																			"subject": "self",
+																			"value": "netherite"
+																		}
+																	]
+																},
+																"key": "any_of",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"test": "has_tag",
+																				"operator": "==",
+																				"subject": "self",
+																				"value": "netherite"
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"test": "has_tag",
+																			"operator": "==",
+																			"subject": "self",
+																			"value": "netherite"
+																		}
+																	}
+																]
+															}
+														]
+													},
+													{
+														"key": "add",
+														"is_minified": true,
+														"children": {
+															"component_groups": [
+																"netherite"
+															]
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

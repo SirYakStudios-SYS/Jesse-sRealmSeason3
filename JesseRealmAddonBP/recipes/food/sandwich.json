@@ -1,0 +1,37 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:sandwich"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BEB",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:bread"
+			},
+			"B": {
+				"item": "sp:cheese"
+			},
+			"C": {
+				"item": "minecraft:cooked_chicken"
+			},
+			"E": {
+				"item": "minecraft:cooked_beef"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:sandwich",
+				"count": 3
+			}
+		]
+	}
+}

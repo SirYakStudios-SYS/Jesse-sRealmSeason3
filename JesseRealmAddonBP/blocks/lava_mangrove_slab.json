@@ -1,0 +1,146 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:lava_mangrove_slab",
+			"properties": {
+				"nether:slab": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1.5,
+			"minecraft:on_player_placing": {
+				"event": "nether:up",
+				"target": "self",
+				"condition": "query.target_x_rotation <= 0"
+			},
+			"minecraft:map_color": "#411806",
+			"minecraft:flammable": {
+				"burn_odds": 30,
+				"flame_odds": 30
+			},
+			"minecraft:explosion_resistance": 1.5,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.slab",
+				"category": "construction"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nether:slab') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.slab_down",
+					"minecraft:block_light_absorption": 0,
+					"minecraft:on_interact": {
+						"event": "nether:block",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'lava_mangrove_slab' && query.block_face == 1"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "lava_mangrove_planks",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nether:slab') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.slab_up",
+					"minecraft:block_light_absorption": 0,
+					"minecraft:on_interact": {
+						"event": "nether:block",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'lava_mangrove_slab' && query.block_face == 0"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "chorus_planks",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nether:slab') == 2",
+				"components": {
+					"minecraft:unit_cube": {},
+					"minecraft:block_light_absorption": 15,
+					"minecraft:loot": "loot_tables/blocks/lava_mangrove_slab.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "lava_mangrove_planks",
+							"render_method": "opaque"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"nether:block": {
+				"set_block_property": {
+					"nether:slab": 2
+				},
+				"decrement_stack": {}
+			},
+			"nether:up": {
+				"set_block_property": {
+					"nether:slab": 1
+				}
+			}
+		}
+	}
+}

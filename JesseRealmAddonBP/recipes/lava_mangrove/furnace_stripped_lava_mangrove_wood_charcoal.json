@@ -1,0 +1,13 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "nether:furnace_stripped_lava_mangrove_wood_charcoal"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "nether:stripped_lava_mangrove_wood",
+		"output": "minecraft:charcoal"
+	}
+}

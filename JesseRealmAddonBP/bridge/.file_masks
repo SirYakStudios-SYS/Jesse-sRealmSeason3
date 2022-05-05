@@ -1,0 +1,455 @@
+{
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"a7e78f52_3bdd_4cf4_be77_8407a1957c9d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9ac49e5e_cf71_441e_b414_d0afbef5255a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d5aa2f5d_fc9d_482f_8881_e67a76fcecef": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2a25d4e8_bf7d_4c13_be0a_12a2051ccfec": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"193d1f60_8ddf_4c0b_8f84_cc1d65ab779a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"65a55d97_8b65_4a52_a167_f6fa0da3ba76": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dcfe9e0b_1e81_4857_a197_176591715645": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e323e506_202f_4c6a_a837_354f2226c3c8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1f7ad3d9_5644_4a2d_a407_7b0307df57f7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a89cf0d4_b62e_4a6d_b6ce_f027a093c5a7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"07916343_c1cd_491d_9f9e_468970465e16": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f9c2d7cc_9856_49c3_b944_374939249231": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9c870830_e808_4dab_8fd6_53108d163f1a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"08b6fd8f_b98a_490a_8222_8c14ae80fd96": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ed5fffd0_fe73_4268_b631_3030ff17364f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d32c978c_9a05_4afc_8b70_042069cd4885": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3149c46d_8f54_40e5_8ada_fc8a14a98236": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/evocation_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/evocation_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/evocation_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/diamond_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/diamond_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/cactus_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/cactus_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/amethyst_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/netherite_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/netherite_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/roble/roble_hierro.json": {
+		"data": {}
+	},
+	"BP/items/roble/roble_cobre.json": {
+		"data": {}
+	},
+	"BP/items/roble/roble_oro.json": {
+		"data": {}
+	},
+	"RP/attachables/oak_iron_shield.entity.json": {
+		"data": {}
+	},
+	"RP/attachables/oak_copper_shield.entity.json": {
+		"data": {}
+	},
+	"RP/attachables/oak_gold_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/netherite_shield_2.json": {
+		"data": {}
+	},
+	"RP/attachables/netherite_shield_2.entity.json": {
+		"data": {}
+	},
+	"BP/items/woood_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/wood_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/gold_combat_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/gold_combat_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/light_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/light_shield.entity.json": {
+		"data": {}
+	},
+	"BP/items/iron_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/iron_shield.entity.json": {
+		"data": {}
+	},
+	"BP/functions/tick.json": {
+		"data": {}
+	},
+	"BP/entities/kb.json": {
+		"data": {}
+	},
+	"BP/items/woooden_shield.json": {
+		"data": {}
+	},
+	"BP/items/slime_shield.json": {
+		"data": {}
+	},
+	"BP/items/shulker_shield.json": {
+		"data": {}
+	},
+	"BP/items/magma_shield.json": {
+		"data": {}
+	},
+	"BP/entities/item.json": {
+		"data": {}
+	},
+	"BP/recipes/roble_cobre.json": {
+		"data": {}
+	},
+	"BP/recipes/roble_oro.json": {
+		"data": {}
+	},
+	"BP/recipes/roble_hierro.json": {
+		"data": {}
+	},
+	"BP/recipes/amethyst_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/cactus_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/evocation_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/iron_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/light_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/magma_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/shulker_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/slime_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/wood_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/wooden_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/diamond_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/gold_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/netherite_shield.json": {
+		"data": {}
+	},
+	"BP/recipes/netherite_shield_2.json": {
+		"data": {}
+	},
+	"BP/entities/pigga.json": {
+		"data": {}
+	},
+	"BP/entities/zombie.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/attacking.json": {
+		"data": {}
+	},
+	"RP/attachables/magma_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/amethyst_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/wooden_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/log_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/cactus_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/iron_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/diamond_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/gold_black_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/netherite_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/netherite_2shield.json": {
+		"data": {}
+	},
+	"RP/attachables/light_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/shulker_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/slimne_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/roble_hierro_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/roble_oro_shield.json": {
+		"data": {}
+	},
+	"RP/attachables/roble_cobre_shield.json": {
+		"data": {}
+	},
+	"BP/entities/phantom.json": {
+		"data": {}
+	},
+	"BP/entities/ravager.json": {
+		"data": {}
+	},
+	"BP/entities/blaze.json": {
+		"data": {}
+	},
+	"BP/entities/hoglin.json": {
+		"data": {}
+	},
+	"BP/entities/magma.json": {
+		"data": {}
+	},
+	"BP/entities/slime.json": {
+		"data": {}
+	},
+	"BP/entities/pigman.json": {
+		"data": {}
+	},
+	"BP/entities/enderman.json": {
+		"data": {}
+	},
+	"BP/entities/spider.json": {
+		"data": {}
+	},
+	"BP/entities/cave_spider.json": {
+		"data": {}
+	},
+	"BP/entities/vex.json": {
+		"data": {}
+	},
+	"BP/entities/drowned.json": {
+		"data": {}
+	},
+	"BP/entities/piglin_brute.json": {
+		"data": {}
+	},
+	"BP/entities/piglin.json": {
+		"data": {}
+	},
+	"BP/entities/husk.json": {
+		"data": {}
+	},
+	"BP/entities/luz.json": {
+		"data": {}
+	},
+	"BP/entities/wither_skeleton.json": {
+		"data": {}
+	},
+	"BP/entities/zombie_villager.json": {
+		"data": {}
+	},
+	"BP/entities/brute.json": {
+		"data": {}
+	},
+	"BP/entities/vindicator.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	}
+}

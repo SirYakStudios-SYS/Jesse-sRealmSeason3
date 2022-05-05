@@ -1,0 +1,23 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:onyx_block_from_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "m:onyx",
+				"count": 9
+			}
+		],
+		"result": [
+			{
+				"item": "m:onyx_block",
+				"count": 1
+			}
+		]
+	}
+}

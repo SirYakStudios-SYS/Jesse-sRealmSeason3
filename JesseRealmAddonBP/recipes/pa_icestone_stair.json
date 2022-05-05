@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "icestone_stair_94d8edbf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:icestone_stair",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:icestone_stair",
+      "count": 1
+    }
+  }
+}

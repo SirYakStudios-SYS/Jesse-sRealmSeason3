@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Lost Update RES\\texts\\es_MX.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "a3f2f631_ba1c_4202_8c77_338177998661",
+	"file_version": 3,
+	"cache_content": "pack.name=Lost Update\r\npack.description=Hecho Por Team Azonix\r\nitem.spawn_egg.entity.mv:glare.name=Generador de Destello\r\nentity.mv:glare.name=Destello\r\nentity.mv:copper_golem.name=Golem de Cobre\r\nitem.spawn_egg.entity.mv:copper_golem.name=Generador de Golem de Cobre"
+}

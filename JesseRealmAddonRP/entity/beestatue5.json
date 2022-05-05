@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:beestatue5",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/beestatue5"
+        },
+        "geometry": {
+          "default": "geometry.beestatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "beestatue5item"
+        }
+      }
+    }
+  }
+  

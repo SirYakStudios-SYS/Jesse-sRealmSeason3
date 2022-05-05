@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:lapis_mace"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"OXO",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:lapis_block"
+			},
+			"O": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"result": {
+			"item": "sp:lapis_mace"
+		}
+	}
+}

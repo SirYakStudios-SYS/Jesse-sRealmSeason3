@@ -1,0 +1,19 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:citrine",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sp_citrine"
+			},
+			"minecraft:display_name": {
+				"value": "Citrine Gemstone"
+			}
+		},
+		"events": {}
+	}
+}

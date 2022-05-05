@@ -1,0 +1,14 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "m:tin_and_copper_to_ingot"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "m:copper_and_tin_ingot",
+		"output": "m:bronze_ingot"
+	}
+}

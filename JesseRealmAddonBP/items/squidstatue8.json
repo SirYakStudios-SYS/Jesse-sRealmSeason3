@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:squidstatue8"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "squidstatue8item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:squidstatue8"
+        }
+      }
+    }
+  }

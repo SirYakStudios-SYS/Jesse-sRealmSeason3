@@ -1,0 +1,67 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "zg:rock_entity",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "component_groups": {
+      "exploding": {
+        "minecraft:explode": {
+          "fuseLength": 2,
+          "power": 4,
+          "fuseLit": true,
+          "causesFire": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "impact_damage": {
+            "damage": 1,
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "mob_effect": {
+            "effect": "",
+            "durationeasy": 200,
+            "durationnormal": 200,
+            "durationhard": 200,
+            "amplifier": 1
+          },
+          "stick_in_ground": {
+            "shake_time": 0.15
+          },
+          "arrow_effect": {},
+          "definition_event": {
+            "affect_projectile": true,
+            "eventTrigger": {
+              "event": "on:hit",
+              "target": "self"
+            }
+          }
+        },
+        "power": 2.2,
+        "gravity": 0.02,
+        "angleoffset": 0.0
+      },
+      "minecraft:physics": {}
+    },
+    "events": {
+      "on:hit": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

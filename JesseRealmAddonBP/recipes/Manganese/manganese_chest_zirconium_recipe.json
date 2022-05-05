@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:manganese_chest_zirconium_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"IAI",
+			"A A",
+			"IAI"
+		],
+		"key": {
+			"A": {
+				"item": "m:maganese_ingot"
+			},
+			"I": {
+				"item": "m:zirconium"
+			}
+		},
+		"result": {
+			"item": "m:maganese_chest_zirconium",
+			"count": 1
+		}
+	}
+}

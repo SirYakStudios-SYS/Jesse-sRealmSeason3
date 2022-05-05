@@ -1,0 +1,26 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:ale_brew"
+		},
+		"tags": [
+			"keg"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:wort_base"
+			},
+			{
+				"item": "minecraft:sugar"
+			},
+			{
+				"item": "minecraft:potion"
+			}
+		],
+		"result": {
+			"item": "bumble:ale"
+		}
+	}
+}

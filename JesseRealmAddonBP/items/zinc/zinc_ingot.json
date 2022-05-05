@@ -1,0 +1,19 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:zinc_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "zinc_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Zinc Ingot"
+			}
+		},
+		"events": {}
+	}
+}

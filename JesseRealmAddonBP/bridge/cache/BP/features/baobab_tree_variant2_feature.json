@@ -1,0 +1,82 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\baobab_tree_variant2_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "967ec526_db54_4769_a85f_e847658c4a16",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "mv:baobab_tree_variant2_feature"
+						},
+						"structure_name": "mystructure:baobab_tree2",
+						"adjustment_radius": 4,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:baobab_tree_variant2_feature"
+							},
+							"structure_name": "mystructure:baobab_tree2",
+							"adjustment_radius": 4,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:baobab_tree_variant2_feature"
+						}
+					},
+					{
+						"data": "mystructure:baobab_tree2",
+						"key": "structure_name"
+					},
+					{
+						"data": "4",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:baobab_tree_variant2_feature"
+							},
+							"structure_name": "mystructure:baobab_tree2",
+							"adjustment_radius": 4,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "constraints",
+						"is_minified": true,
+						"children": {
+							"grounded": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

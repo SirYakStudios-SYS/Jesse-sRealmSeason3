@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:maganese_ingot"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "Manganese_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Manganese Ingot \n§7Used for: \n-Storage blocks \n§eFound? \n§7Y=0 - 120 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

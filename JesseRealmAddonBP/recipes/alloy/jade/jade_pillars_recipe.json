@@ -1,0 +1,26 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:jade_pillars_recipe_gg"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "m:polished_jade_slab"
+			}
+		},
+		"result": [
+			{
+				"item": "m:jade_pillars",
+				"count": 4
+			}
+		]
+	}
+}

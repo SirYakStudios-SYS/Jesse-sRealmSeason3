@@ -1,0 +1,92 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.pa_forest_pocoh",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "cubes": [
+            {
+              "origin": [
+                -6.0,
+                11.0,
+                -11.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                17.0
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -7.0,
+                10.0,
+                -11.0
+              ],
+              "size": [
+                3.0,
+                3.0,
+                1.0
+              ],
+              "uv": [
+                0,
+                6
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -17.0,
+                8.0,
+                -8.0
+              ],
+              "size": [
+                3.0,
+                3.0,
+                3.0
+              ],
+              "pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                33.27013,
+                -13.95809,
+                49.95255
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "inflate": 0
+            }
+          ],
+          "rotation": [
+            -12.1,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+	"file_path": "C:\\Users\\Marco\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nether Plus Add-on 1.17 B\\entities\\blazebasalto.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "9f228e61_7985_4d8e_a02b_832a64592249",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "sc:blazebasalto",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:blaze"
+						},
+						"components": {
+							"minecraft:experience_reward": {
+								"on_death": "query.last_hit_by_player ? 10 : 0"
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/blazebasalto.json"
+							},
+							"minecraft:collision_box": {
+								"width": 0.5,
+								"height": 1.8
+							},
+							"minecraft:attack": {
+								"damage": 15
+							},
+							"minecraft:movement": {
+								"value": 0.23
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"avoid_water": true,
+								"avoid_damage_blocks": true
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:health": {
+								"value": 55,
+								"max": 55
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_water_or_rain",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "drowning",
+										"damage_per_tick": 1
+									}
+								]
+							},
+							"minecraft:follow_range": {
+								"value": 48,
+								"max": 48
+							},
+							"minecraft:fire_immune": true,
+							"minecraft:nameable": {},
+							"minecraft:despawn": {
+								"despawn_from_distance": {}
+							},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"must_see": true,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 48
+									}
+								]
+							},
+							"minecraft:behavior.melee_attack": {
+								"priority": 3,
+								"track_target": true,
+								"random_stop_interval": 2
+							},
+							"minecraft:shooter": {
+								"def": "minecraft:small_fireball"
+							},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 4,
+								"burst_shots": 3,
+								"burst_interval": 0.3,
+								"charge_charged_trigger": 0.3,
+								"charge_shoot_trigger": 4,
+								"attack_interval_min": 3,
+								"attack_interval_max": 5,
+								"attack_radius": 20
+							},
+							"minecraft:behavior.random_stroll": {
+								"priority": 5,
+								"speed_multiplier": 1
+							},
+							"minecraft:behavior.random_look_around": {
+								"priority": 6
+							},
+							"minecraft:type_family": {
+								"family": [
+									"blaze"
+								]
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:conditional_bandwidth_optimization": {
+								"default_values": {
+									"max_optimized_distance": 80,
+									"max_dropped_ticks": 10,
+									"use_motion_prediction_hints": true
+								}
+							}
+						},
+						"events": {},
+						"component_groups": {}
+					}
+				},
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "sc:blazebasalto",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:blaze"
+						},
+						"components": {
+							"minecraft:experience_reward": {
+								"on_death": "query.last_hit_by_player ? 10 : 0"
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/blazebasalto.json"
+							},
+							"minecraft:collision_box": {
+								"width": 0.5,
+								"height": 1.8
+							},
+							"minecraft:attack": {
+								"damage": 15
+							},
+							"minecraft:movement": {
+								"value": 0.23
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"avoid_water": true,
+								"avoid_damage_blocks": true
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:health": {
+								"value": 55,
+								"max": 55
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_water_or_rain",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "drowning",
+										"damage_per_tick": 1
+									}
+								]
+							},
+							"minecraft:follow_range": {
+								"value": 48,
+								"max": 48
+							},
+							"minecraft:fire_immune": true,
+							"minecraft:nameable": {},
+							"minecraft:despawn": {
+								"despawn_from_distance": {}
+							},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"must_see": true,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 48
+									}
+								]
+							},
+							"minecraft:behavior.melee_attack": {
+								"priority": 3,
+								"track_target": true,
+								"random_stop_interval": 2
+							},
+							"minecraft:shooter": {
+								"def": "minecraft:small_fireball"
+							},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 4,
+								"burst_shots": 3,
+								"burst_interval": 0.3,
+								"charge_charged_trigger": 0.3,
+								"charge_shoot_trigger": 4,
+								"attack_interval_min": 3,
+								"attack_interval_max": 5,
+								"attack_radius": 20
+							},
+							"minecraft:behavior.random_stroll": {
+								"priority": 5,
+								"speed_multiplier": 1
+							},
+							"minecraft:behavior.random_look_around": {
+								"priority": 6
+							},
+							"minecraft:type_family": {
+								"family": [
+									"blaze"
+								]
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:conditional_bandwidth_optimization": {
+								"default_values": {
+									"max_optimized_distance": 80,
+									"max_dropped_ticks": 10,
+									"use_motion_prediction_hints": true
+								}
+							}
+						},
+						"events": {},
+						"component_groups": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:blazebasalto",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:blaze"
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 10 : 0"
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/blazebasalto.json"
+								},
+								"minecraft:collision_box": {
+									"width": 0.5,
+									"height": 1.8
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:movement": {
+									"value": 0.23
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:health": {
+									"value": 55,
+									"max": 55
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_water_or_rain",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "drowning",
+											"damage_per_tick": 1
+										}
+									]
+								},
+								"minecraft:follow_range": {
+									"value": 48,
+									"max": 48
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 48
+										}
+									]
+								},
+								"minecraft:behavior.melee_attack": {
+									"priority": 3,
+									"track_target": true,
+									"random_stop_interval": 2
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 4,
+									"burst_shots": 3,
+									"burst_interval": 0.3,
+									"charge_charged_trigger": 0.3,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 3,
+									"attack_interval_max": 5,
+									"attack_radius": 20
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 5,
+									"speed_multiplier": 1
+								},
+								"minecraft:behavior.random_look_around": {
+									"priority": 6
+								},
+								"minecraft:type_family": {
+									"family": [
+										"blaze"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {
+									"default_values": {
+										"max_optimized_distance": 80,
+										"max_dropped_ticks": 10,
+										"use_motion_prediction_hints": true
+									}
+								}
+							},
+							"events": {},
+							"component_groups": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "sc:blazebasalto",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:blaze"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:blazebasalto",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:blaze"
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 10 : 0"
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/blazebasalto.json"
+								},
+								"minecraft:collision_box": {
+									"width": 0.5,
+									"height": 1.8
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:movement": {
+									"value": 0.23
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:health": {
+									"value": 55,
+									"max": 55
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_water_or_rain",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "drowning",
+											"damage_per_tick": 1
+										}
+									]
+								},
+								"minecraft:follow_range": {
+									"value": 48,
+									"max": 48
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 48
+										}
+									]
+								},
+								"minecraft:behavior.melee_attack": {
+									"priority": 3,
+									"track_target": true,
+									"random_stop_interval": 2
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 4,
+									"burst_shots": 3,
+									"burst_interval": 0.3,
+									"charge_charged_trigger": 0.3,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 3,
+									"attack_interval_max": 5,
+									"attack_radius": 20
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 5,
+									"speed_multiplier": 1
+								},
+								"minecraft:behavior.random_look_around": {
+									"priority": 6
+								},
+								"minecraft:type_family": {
+									"family": [
+										"blaze"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {
+									"default_values": {
+										"max_optimized_distance": 80,
+										"max_dropped_ticks": 10,
+										"use_motion_prediction_hints": true
+									}
+								}
+							},
+							"events": {},
+							"component_groups": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:experience_reward",
+								"is_minified": true,
+								"children": {
+									"on_death": "query.last_hit_by_player ? 10 : 0"
+								}
+							},
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/blazebasalto.json"
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 0.5,
+									"height": 1.8
+								}
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 15
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.23
+								}
+							},
+							{
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								}
+							},
+							{
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:can_climb",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 55,
+									"max": 55
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_water_or_rain",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "drowning",
+											"damage_per_tick": 1
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:follow_range",
+								"is_minified": true,
+								"children": {
+									"value": 48,
+									"max": 48
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:fire_immune"
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:despawn",
+								"is_minified": true,
+								"children": {
+									"despawn_from_distance": {}
+								}
+							},
+							{
+								"key": "minecraft:behavior.float",
+								"is_minified": true,
+								"children": {
+									"priority": 0
+								}
+							},
+							{
+								"key": "minecraft:behavior.hurt_by_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"is_minified": true,
+								"children": {
+									"priority": 2,
+									"must_see": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 48
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.melee_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 3,
+									"track_target": true,
+									"random_stop_interval": 2
+								}
+							},
+							{
+								"key": "minecraft:shooter",
+								"is_minified": true,
+								"children": {
+									"def": "minecraft:small_fireball"
+								}
+							},
+							{
+								"key": "minecraft:behavior.ranged_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 4,
+									"burst_shots": 3,
+									"burst_interval": 0.3,
+									"charge_charged_trigger": 0.3,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 3,
+									"attack_interval_max": 5,
+									"attack_radius": 20
+								}
+							},
+							{
+								"key": "minecraft:behavior.random_stroll",
+								"is_minified": true,
+								"children": {
+									"priority": 5,
+									"speed_multiplier": 1
+								}
+							},
+							{
+								"key": "minecraft:behavior.random_look_around",
+								"is_minified": true,
+								"children": {
+									"priority": 6
+								}
+							},
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"blaze"
+									]
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": "query.last_hit_by_player ? 10 : 0"
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/blazebasalto.json"
+									},
+									"minecraft:collision_box": {
+										"width": 0.5,
+										"height": 1.8
+									},
+									"minecraft:attack": {
+										"damage": 15
+									},
+									"minecraft:movement": {
+										"value": 0.23
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"avoid_water": true,
+										"avoid_damage_blocks": true
+									},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:can_climb": {},
+									"minecraft:health": {
+										"value": 55,
+										"max": 55
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_water_or_rain",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "drowning",
+												"damage_per_tick": 1
+											}
+										]
+									},
+									"minecraft:follow_range": {
+										"value": 48,
+										"max": 48
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:nameable": {},
+									"minecraft:despawn": {
+										"despawn_from_distance": {}
+									},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 48
+											}
+										]
+									},
+									"minecraft:behavior.melee_attack": {
+										"priority": 3,
+										"track_target": true,
+										"random_stop_interval": 2
+									},
+									"minecraft:shooter": {
+										"def": "minecraft:small_fireball"
+									},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 4,
+										"burst_shots": 3,
+										"burst_interval": 0.3,
+										"charge_charged_trigger": 0.3,
+										"charge_shoot_trigger": 4,
+										"attack_interval_min": 3,
+										"attack_interval_max": 5,
+										"attack_radius": 20
+									},
+									"minecraft:behavior.random_stroll": {
+										"priority": 5,
+										"speed_multiplier": 1
+									},
+									"minecraft:behavior.random_look_around": {
+										"priority": 6
+									},
+									"minecraft:type_family": {
+										"family": [
+											"blaze"
+										]
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:conditional_bandwidth_optimization": {
+										"default_values": {
+											"max_optimized_distance": 80,
+											"max_dropped_ticks": 10,
+											"use_motion_prediction_hints": true
+										}
+									}
+								},
+								"key": "minecraft:conditional_bandwidth_optimization",
+								"children": [
+									{
+										"open": {
+											"default_values": {
+												"max_optimized_distance": 80,
+												"max_dropped_ticks": 10,
+												"use_motion_prediction_hints": true
+											}
+										},
+										"key": "default_values",
+										"is_minified": true,
+										"children": {
+											"max_optimized_distance": 80,
+											"max_dropped_ticks": 10,
+											"use_motion_prediction_hints": true
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:blazebasalto",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:blaze"
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 10 : 0"
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/blazebasalto.json"
+								},
+								"minecraft:collision_box": {
+									"width": 0.5,
+									"height": 1.8
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:movement": {
+									"value": 0.23
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:health": {
+									"value": 55,
+									"max": 55
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_water_or_rain",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "drowning",
+											"damage_per_tick": 1
+										}
+									]
+								},
+								"minecraft:follow_range": {
+									"value": 48,
+									"max": 48
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 48
+										}
+									]
+								},
+								"minecraft:behavior.melee_attack": {
+									"priority": 3,
+									"track_target": true,
+									"random_stop_interval": 2
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 4,
+									"burst_shots": 3,
+									"burst_interval": 0.3,
+									"charge_charged_trigger": 0.3,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 3,
+									"attack_interval_max": 5,
+									"attack_radius": 20
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 5,
+									"speed_multiplier": 1
+								},
+								"minecraft:behavior.random_look_around": {
+									"priority": 6
+								},
+								"minecraft:type_family": {
+									"family": [
+										"blaze"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {
+									"default_values": {
+										"max_optimized_distance": 80,
+										"max_dropped_ticks": 10,
+										"use_motion_prediction_hints": true
+									}
+								}
+							},
+							"events": {},
+							"component_groups": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:blazebasalto",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:blaze"
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 10 : 0"
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/blazebasalto.json"
+								},
+								"minecraft:collision_box": {
+									"width": 0.5,
+									"height": 1.8
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:movement": {
+									"value": 0.23
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:health": {
+									"value": 55,
+									"max": 55
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_water_or_rain",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "drowning",
+											"damage_per_tick": 1
+										}
+									]
+								},
+								"minecraft:follow_range": {
+									"value": 48,
+									"max": 48
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 48
+										}
+									]
+								},
+								"minecraft:behavior.melee_attack": {
+									"priority": 3,
+									"track_target": true,
+									"random_stop_interval": 2
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 4,
+									"burst_shots": 3,
+									"burst_interval": 0.3,
+									"charge_charged_trigger": 0.3,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 3,
+									"attack_interval_max": 5,
+									"attack_radius": 20
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 5,
+									"speed_multiplier": 1
+								},
+								"minecraft:behavior.random_look_around": {
+									"priority": 6
+								},
+								"minecraft:type_family": {
+									"family": [
+										"blaze"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {
+									"default_values": {
+										"max_optimized_distance": 80,
+										"max_dropped_ticks": 10,
+										"use_motion_prediction_hints": true
+									}
+								}
+							},
+							"events": {},
+							"component_groups": {}
+						},
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,63 @@
+{
+  "minecraft:item" : {
+    "events" : {
+      "coals:on_use" : {
+
+      }
+    },
+    "components" : {
+      "minecraft:max_stack_size" : 64,
+      "minecraft:foil" : false,
+      "minecraft:hand_equipped" : false,
+      "minecraft:icon" : {
+        "texture" : "coals:gold_coal"
+      },
+      "minecraft:render_offsets" : {
+        "main_hand" : {
+          "third_person" : {
+            "scale" : [
+              0.10000000000000001,
+              0.10000000000000001,
+              0.10000000000000001
+            ]
+          },
+          "first_person" : {
+            "scale" : [
+              0.037999999999999999,
+              0.037999999999999999,
+              0.037999999999999999
+            ]
+          }
+        },
+        "off_hand" : {
+          "third_person" : {
+            "scale" : [
+              0.10000000000000001,
+              0.10000000000000001,
+              0.10000000000000001
+            ]
+          },
+          "first_person" : {
+            "scale" : [
+              0.037999999999999999,
+              0.037999999999999999,
+              0.037999999999999999
+            ]
+          }
+        }
+      },
+      "minecraft:fuel" : {
+        "duration" : 320
+      },
+      "minecraft:cooldown" : {
+        "category" : "change_mehuine",
+        "duration" : 1
+      }
+    },
+    "description" : {
+      "category" : "equipment",
+      "identifier" : "coals:gold_coal"
+    }
+  },
+  "format_version" : "1.16.100"
+}

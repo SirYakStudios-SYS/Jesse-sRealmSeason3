@@ -1,0 +1,51 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:obsidian_helmet",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 11,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 520,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:obsidian_helmet",
+							"minecraft:obsidian"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:icon": {
+				"texture": "sp_obsidian_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:render_offsets": "helmets",
+			"minecraft:armor": {
+				"protection": 4
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.2
+			}
+		},
+		"events": {}
+	}
+}

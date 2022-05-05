@@ -1,0 +1,1 @@
+give @s pa:hrinzatema_stair

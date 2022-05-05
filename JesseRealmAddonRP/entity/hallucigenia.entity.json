@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pa:hallucigenia",
+			"materials": {
+				"default": "silverfish",
+				"body_layer": "silverfish_layers"
+			},
+			"textures": {
+				"default": "textures/entity/hallucigenia"
+			},
+			"geometry": {
+				"default": "geometry.hallucigenia"
+			},
+			"animations": {
+				"move": "animation.hallucigenia.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.silverfish.move"
+				}
+			],
+			"render_controllers": ["controller.render.silverfish"],
+			"spawn_egg": {
+				"base_color": "#f26430",
+				"overlay_color": "#cdb067"
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:aetherium_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XOX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "sp:aetherium_block"
+			},
+			"O": {
+				"item": "sp:aetherium_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:aetherium_hammer"
+		}
+	}
+}

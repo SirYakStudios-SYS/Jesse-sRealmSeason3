@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "flesh_biome_ground_scatter"
+		},
+		"iterations": 300,
+		"x": {
+			"extent": [
+				-32,
+				32
+			],
+			"distribution": "uniform"
+		},
+		"z": {
+			"extent": [
+				-32,
+				32
+			],
+			"distribution": "uniform"
+		},
+		"y": -1,
+		"places_feature": "flesh_biome_ground"
+	}
+}

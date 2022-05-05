@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:skeletonstatue10quartz"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "BPB",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:skeletonstatue2"
+      },
+      "B": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:skeletonstatue10"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_amethyst_hoe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "sp:quartz_stick"
+			},
+			"X": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:quartz_amethyst_hoe",
+				"count": 1
+			}
+		]
+	}
+}

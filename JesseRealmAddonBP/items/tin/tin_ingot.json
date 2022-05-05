@@ -1,0 +1,19 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:tin_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "tin_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Tin Ingot"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:villagerstatue6"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "villagerstatue6item"
+        },
+        "minecraft:fuel": {
+          "duration": 120.0
+       },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:villagerstatue6"
+        }
+      }
+    }
+  }

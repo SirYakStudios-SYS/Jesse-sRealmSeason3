@@ -1,0 +1,54 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:tin_foil"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "tin_foil"
+			},
+			"minecraft:display_name": {
+				"value": "Tin Foil \n-§7Removes the Wax of Copper, Lithium and Sodium"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:durability": {
+				"max_durability": 10
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "unoxide"
+				}
+			},
+			"minecraft:max_stack_size": 1
+		},
+		"events": {
+			"unoxide": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durablity",
+							"amount": 1,
+							"target": "holder"
+						},
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~ ~ copper_block -1 replace waxed_copper",
+								"fill ~ ~ ~ ~ ~ ~ exposed_copper -1 replace waxed_exposed_copper",
+								"fill ~ ~ ~ ~ ~ ~ weathered_copper -1 replace waxed_weathered_copper",
+								"fill ~ ~ ~ ~ ~ ~ cut_copper -1 replace waxed_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ exposed_cut_copper -1 replace waxed_exposed_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ weathered_cut_copper -1 replace waxed_weathered_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ oxidized_cut_copper -1 replace waxed_oxidized_cut_copper",
+								"playsound copper.wax.off @p"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

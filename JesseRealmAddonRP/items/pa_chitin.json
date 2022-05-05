@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:chitin",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:chitin",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

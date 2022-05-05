@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_600e23fa"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:glow_berries",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:bucket",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "pa:iogurt_bucket",
+      "count": 1
+    }
+  }
+}

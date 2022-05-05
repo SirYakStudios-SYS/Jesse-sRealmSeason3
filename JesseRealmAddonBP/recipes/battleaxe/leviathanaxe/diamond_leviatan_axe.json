@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:diamond_leviathan_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WX",
+			"X#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:diamond"
+			},
+			"X": {
+				"item": "minecraft:diamond_block"
+			}
+		},
+		"result": {
+			"item": "sp:diamond_leviathan_axe"
+		}
+	}
+}

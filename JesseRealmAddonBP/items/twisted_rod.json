@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "tt:twisted_rod",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "torcido_rod"
+			},
+			"minecraft:enchantable": {
+				"slot": "axe",
+				"value": 1
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			}
+		},
+		"events": {}
+	}
+}

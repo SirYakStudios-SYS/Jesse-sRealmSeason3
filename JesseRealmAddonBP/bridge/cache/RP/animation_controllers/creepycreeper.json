@@ -1,0 +1,254 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\animation_controllers\\creepycreeper.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "8a149660_934f_40f6_ba5d_929688a8121f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.creepycreeper.flame": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"flaming": "query.is_charged"
+										}
+									]
+								},
+								"flaming": {
+									"particle_effects": [
+										{
+											"effect": "charged_flames"
+										}
+									],
+									"transitions": [
+										{
+											"default": "!query.is_charged"
+										}
+									]
+								}
+							}
+						},
+						"controller.animation.creepycreeper.move": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"move",
+										"look_at_target"
+									]
+								}
+							}
+						},
+						"controller.animation.creeper.head": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"creeper_head"
+									]
+								}
+							}
+						},
+						"controller.animation.creeper.legs": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"creeper_legs"
+									]
+								}
+							}
+						},
+						"controller.animation.creeper.swelling": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"creeper_swelling"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"key": "controller.animation.creepycreeper.flame",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"flaming": "query.is_charged"
+												}
+											]
+										},
+										"flaming": {
+											"particle_effects": [
+												{
+													"effect": "charged_flames"
+												}
+											],
+											"transitions": [
+												{
+													"default": "!query.is_charged"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"flaming": "query.is_charged"
+													}
+												]
+											},
+											"flaming": {
+												"particle_effects": [
+													{
+														"effect": "charged_flames"
+													}
+												],
+												"transitions": [
+													{
+														"default": "!query.is_charged"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"is_minified": true,
+										"children": {
+											"transitions": [
+												{
+													"flaming": "query.is_charged"
+												}
+											]
+										}
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"flaming": "query.is_charged"
+													}
+												]
+											},
+											"flaming": {
+												"particle_effects": [
+													{
+														"effect": "charged_flames"
+													}
+												],
+												"transitions": [
+													{
+														"default": "!query.is_charged"
+													}
+												]
+											}
+										},
+										"key": "flaming",
+										"is_minified": true,
+										"children": {
+											"particle_effects": [
+												{
+													"effect": "charged_flames"
+												}
+											],
+											"transitions": [
+												{
+													"default": "!query.is_charged"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "controller.animation.creepycreeper.move",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"move",
+										"look_at_target"
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.creeper.head",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"creeper_head"
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.creeper.legs",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"creeper_legs"
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.creeper.swelling",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"creeper_swelling"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

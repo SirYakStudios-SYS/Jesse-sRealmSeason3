@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:salt_fish_cooked"
+    },
+
+    "components": {
+      "minecraft:use_duration": 35,
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation_modifier": "normal"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:sushi"
+    },
+
+    "components": {
+      "minecraft:use_duration": 20,
+
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "good"
+      }
+    }
+  }
+}

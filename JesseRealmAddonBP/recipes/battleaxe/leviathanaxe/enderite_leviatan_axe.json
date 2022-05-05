@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:enderite_leviathan_axe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"WX",
+			"X#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "sp:enderite_ingot"
+			},
+			"X": {
+				"item": "sp:enderite_block"
+			}
+		},
+		"result": {
+			"item": "sp:enderite_leviathan_axe"
+		}
+	}
+}

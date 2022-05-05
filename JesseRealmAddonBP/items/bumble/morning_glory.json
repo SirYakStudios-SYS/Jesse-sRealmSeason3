@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:morning_glory",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:morning_glory"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:morning_glory"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:morning_glory"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

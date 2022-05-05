@@ -1,0 +1,55 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mv:copper_golem",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"default": "geometry.copper_golem"
+			},
+			"textures": {
+				"copper_stage": "textures/entity/copper_golem",
+				"exposed_stage": "textures/entity/exposed_copper_golem",
+				"weathered_stage": "textures/entity/weathered_copper_golem",
+				"oxidized_stage": "textures/entity/oxidized_copper_golem"
+			},
+			"render_controllers": [
+				"controller.render.copper_golem"
+			],
+			"animations": {
+				"idle": "animation.copper_golem.idle",
+				"walk": "animation.copper_golem.walk",
+				"press_button": "animation.copper_golem.press_button",
+				"rotate_head": "animation.copper_golem.rotate_head",
+				"oxidized": "animation.copper_golem.oxidized",
+				"controllers": "controller.animation.copper_golem.walk"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"press_button": "query.can_fly"
+					},
+					{
+						"rotate_head": "query.can_power_jump"
+					},
+					{
+						"idle": "!(query.modified_move_speed > 0.1)"
+					},
+					{
+						"walk": "query.modified_move_speed"
+					},
+					{
+						"oxidized": "query.is_saddled"
+					}
+				]
+			},
+			"spawn_egg": {
+				"base_color": "#C87456",
+				"overlay_color": "#59B292"
+			}
+		}
+	}
+}

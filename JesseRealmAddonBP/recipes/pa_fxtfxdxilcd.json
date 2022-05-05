@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fxtfxdxilcd_aa3c879d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:fxtfxdxilcd",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:fxtfxdxilcd",
+      "count": 1
+    }
+  }
+}

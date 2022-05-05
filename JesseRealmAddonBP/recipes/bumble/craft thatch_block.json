@@ -1,0 +1,21 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "bumble:thatch_block_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "bumble:cattail_reed"
+			}
+		],
+		"result": {
+			"item": "bumble:fresh_thatch_block",
+			"count": 1
+		}
+	}
+}

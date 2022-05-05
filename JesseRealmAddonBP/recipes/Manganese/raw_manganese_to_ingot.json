@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "m:raw_manganese_to_ingot"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "m:raw_maganese",
+		"output": "m:maganese_ingot"
+	}
+}

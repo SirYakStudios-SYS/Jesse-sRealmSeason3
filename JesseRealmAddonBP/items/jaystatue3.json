@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:jaystatue3"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "jaystatue3item"
+        },
+        "minecraft:fuel": {
+          "duration": 120.0
+       },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:jaystatue3"
+        }
+      }
+    }
+  }

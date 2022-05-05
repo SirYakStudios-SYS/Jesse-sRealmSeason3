@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:coalpedestal1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XDX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:coal"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "jctstatues:coalpedestal1"
+    }
+  }
+}

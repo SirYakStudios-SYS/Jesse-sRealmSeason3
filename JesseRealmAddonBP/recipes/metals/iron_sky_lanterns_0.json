@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:iron_sky_lanterns_0"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:iron_sky_lanterns"
+      }
+    },
+    "result": {
+      "item": "guardian:iron_sky_lanterns_0",
+      "count": 1
+    }
+  }
+}

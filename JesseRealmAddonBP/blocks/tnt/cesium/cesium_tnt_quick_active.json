@@ -1,0 +1,46 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:cesium_tnt_quick_active"
+		},
+		"components": {
+			"minecraft:destroy_time": 9999,
+			"minecraft:map_color": "#887A8A",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "cesium_tnt_side_on"
+				},
+				"down": {
+					"texture": "cesium_tnt_bottom_on"
+				},
+				"up": {
+					"texture": "cesium_tnt_top_on"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:ticking": {
+				"range": [
+					0.2,
+					0.2
+				],
+				"on_tick": {
+					"event": "fuse"
+				}
+			},
+			"minecraft:explosion_resistance": 9999
+		},
+		"events": {
+			"fuse": {
+				"run_command": {
+					"command": [
+						"summon m:cesium_tnt",
+						"setblock ~~~air",
+						"fill ~5 ~5 ~5 ~-5 ~-3 ~-5 m:cesium_tnt_quick_active 0 replace m:cesium_tnt"
+					]
+				}
+			}
+		}
+	}
+}

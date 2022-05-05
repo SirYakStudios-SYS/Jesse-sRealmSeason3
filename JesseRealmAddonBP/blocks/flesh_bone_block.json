@@ -1,0 +1,169 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nether:flesh_bone_block",      
+			"register_to_creative_menu":true,
+            "is_experimental":false,
+			"properties": {
+				"nether:rotation": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:friction": 0.3,
+            "minecraft:loot":"loot_tables/blocks/flesh_bone_block.json",
+            "minecraft:creative_category": {
+              "group": "itemGroup.name.construction",
+		      "category": "construction"
+		    },
+            "minecraft:material_instances": {
+				"*": {
+					"texture": "flesh_bone_block_side",
+					"render_method": "alpha_test",
+					"ambient_occlusion": true
+				},
+				"up": {
+					"texture": "bone_block_top",
+					"ambient_occlusion": true
+				},
+				"down": {
+					"texture": "flesh_block",
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:on_player_placing": {
+				"event": "nether:rotation2"
+			},
+			"minecraft:on_interact": {
+			    "condition": "query.get_equipped_item_name('main_hand') == 'shears'",
+			    "event": "nether:undead_fragment_drop"
+		    }
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nether:rotation') == 1",
+				"components": {}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						180,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('nether:rotation') == 6",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"nether:rotation2": {
+				"set_block_property": {
+					"nether:rotation": "query.cardinal_player_facing + 1"
+				}
+			},
+			"nether:undead_fragment_drop": {
+                "randomize": [
+    			    {
+    			    	"weight": 30,
+    			    	"spawn_loot": {
+				    		"table": "loot_tables/blocks/flesh_bone_block1.json"
+    			    	},	
+				        "run_command": {
+    			            "command": [
+				                "setblock ~~~ bone_block"
+                            ]
+    			        },
+                        "damage": {
+                            "amount": 1,
+                            "type": "durability",
+                            "target": "item"
+				    	}
+    		    	},
+    		        {
+    			    	"weight": 15,
+    			    	"spawn_loot": {
+				    		"table": "loot_tables/blocks/flesh_bone_block2.json"
+    			    	},	
+				        "run_command": {
+    			            "command": [
+				                "setblock ~~~ bone_block"
+                            ]
+    			        },
+                        "damage": {
+                            "amount": 1,
+                            "type": "durability",
+                            "target": "item"
+				    	}
+    		    	},
+    		    	{
+    			    	"weight": 1,
+    			    	"spawn_loot": {
+				    		"table": "loot_tables/blocks/flesh_bone_block3.json"
+    			    	},	
+				        "run_command": {
+    			            "command": [
+				                "setblock ~~~ bone_block"
+                            ]
+    			        },
+                        "damage": {
+                            "amount": 1,
+                            "type": "durability",
+                            "target": "item"
+				    	}
+    		    	}
+    		    ]
+			}
+		}
+	}
+}

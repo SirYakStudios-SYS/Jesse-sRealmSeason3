@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "presblock:end_stone_1",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:block_light_emission": 0,
+      "minecraft:destroy_time": 1.6,
+      "minecraft:explosion_resistance": 10,
+      "minecraft:friction": 0.1,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      }
+    }
+  }
+}

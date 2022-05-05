@@ -1,0 +1,22 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:piglin_totem",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "piglin_totem"
+			},
+			"minecraft:display_name": {
+				"value": "Totem of Piglin Protection"
+			},
+			"minecraft:allow_off_hand": true
+		},
+		"events": {}
+	}
+}
+//SorYPMod

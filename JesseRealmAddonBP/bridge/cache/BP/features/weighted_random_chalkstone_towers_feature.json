@@ -1,0 +1,114 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\weighted_random_chalkstone_towers_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "24d47c8b_65a7_4e31_8ff1_b6c390bee5dc",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:weighted_random_feature": {
+						"features": [
+							[
+								"mv:chalkstone_pillar2_feature",
+								1
+							],
+							[
+								"mv:chalkstone_pillar3_feature",
+								1
+							]
+						],
+						"description": {
+							"identifier": "mv:weighted_random_chalkstone_towers_feature"
+						}
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"features": [
+								[
+									"mv:chalkstone_pillar2_feature",
+									1
+								],
+								[
+									"mv:chalkstone_pillar3_feature",
+									1
+								]
+							],
+							"description": {
+								"identifier": "mv:weighted_random_chalkstone_towers_feature"
+							}
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"mv:chalkstone_pillar2_feature",
+										1
+									],
+									[
+										"mv:chalkstone_pillar3_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:chalkstone_pillar2_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:chalkstone_pillar2_feature",
+										1
+									],
+									[
+										"mv:chalkstone_pillar3_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:chalkstone_pillar3_feature",
+									1
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"features": [
+								[
+									"mv:chalkstone_pillar2_feature",
+									1
+								],
+								[
+									"mv:chalkstone_pillar3_feature",
+									1
+								]
+							],
+							"description": {
+								"identifier": "mv:weighted_random_chalkstone_towers_feature"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:weighted_random_chalkstone_towers_feature"
+						}
+					}
+				]
+			}
+		]
+	}
+}

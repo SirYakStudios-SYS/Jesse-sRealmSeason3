@@ -1,0 +1,45 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "m:resonite_crystal_down_spawning",
+			"places_feature": "m:resonite_crystal_down_snap_to_surface"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": {
+				"test": "has_biome_tag",
+				"operator": "==",
+				"value": "warped_forest"
+			}
+		},
+		"distribution": {
+			"iterations": 8,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					10,
+					100
+				]
+			},
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"scatter_chance": {
+				"numerator": 7,
+				"denominator": 80
+			}
+		}
+	}
+}

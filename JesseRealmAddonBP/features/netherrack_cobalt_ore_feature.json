@@ -1,0 +1,20 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "sp:netherrack_cobalt_ore_feature"
+		},
+
+		"count": 10,
+		"discard_chance_on_air_exposure": 0.5,
+		"replace_rules": [
+			{
+				"places_block": "sp:netherrack_cobalt_ore",
+				"may_replace": [
+					"minecraft:netherrack"
+				]
+			}
+		]
+	}
+}

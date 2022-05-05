@@ -1,0 +1,14 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:meat_crab_raw",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "meat_crab_raw",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "meats"
+		}
+	}
+}

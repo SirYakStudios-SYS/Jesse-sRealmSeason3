@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:potassium_lamp_bronze"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:bronze_ingot"
+			},
+			"#": {
+				"item": "m:potassium_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "m:bronze_potassium_lamp",
+				"count": 3
+			}
+		]
+	}
+}

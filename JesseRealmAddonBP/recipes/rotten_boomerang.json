@@ -1,0 +1,35 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nether:rotten_boomerang"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#!~",
+			"!~?",
+			"~? "
+		],
+		"key": {
+			"#": {
+				"item": "nether:glowcrystal"
+			},
+			"~": {
+				"item": "nether:undead_fragment"
+			},
+			"!": {
+				"item": "minecraft:gold_block"
+			},
+			"?": {
+				"item": "minecraft:ghast_tear"
+			}
+		},
+		"result": [
+			{
+				"item": "nether:rotten_boomerang_item"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jctstatues:sheepstatue3"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " B ",
+      " P ",
+      "   "
+    ],
+    "key": {
+      "P": {
+        "item": "jctstatues:coalpedestal1"
+      },
+      "B": {
+        "item": "minecraft:wool"
+      }
+    },
+    
+    "result": {
+      "item": "jctstatues:sheepstatue3"
+    }
+  }
+}

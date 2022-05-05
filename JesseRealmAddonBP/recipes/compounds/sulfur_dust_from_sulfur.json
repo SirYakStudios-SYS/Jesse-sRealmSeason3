@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "guardian:sulfur_dust_from_sulfur"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "guardian:sulfur"
+      }
+    },
+    "result": {
+      "item": "guardian:sulfur_dust",
+      "count": 1
+    }
+  }
+}

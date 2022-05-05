@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bumble:dafodil_yellow",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.flower"
+            },
+            "minecraft:block_placer": {
+                "block": "bumble:dafodil_yellow"
+            },
+			"minecraft:icon": {
+                "texture": "bumble:dafodil_yellow"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:dafodil_yellow"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

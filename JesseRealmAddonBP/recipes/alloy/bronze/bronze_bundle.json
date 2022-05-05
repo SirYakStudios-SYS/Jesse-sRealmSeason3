@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:bronze_bundle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#+#",
+			"+ +",
+			"+++"
+		],
+		"key": {
+			"#": {
+				"item": "m:maganese_nugget"
+			},
+			"+": {
+				"item": "m:bronze_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "bronze_bundle:netherite_ingot"
+			}
+		]
+	}
+}

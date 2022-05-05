@@ -1,0 +1,79 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "new:axe",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:despawn": {
+        }
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:timer": {
+        "time": 0.2,
+        "time_down_event": {
+          "event": "new:despawn"
+        }
+      },
+      "minecraft:pushable": {
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      }
+    },
+    "events": {
+      "new:despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      },
+      "new:axe_function": {
+        "run_command": {
+          "command": [
+            "execute @s ~~~ detect ~~~ log -1 tag @s add active",
+            "execute @s ~~~ detect ~~~ log2 -1 tag @s add active",
+            "execute @s ~~~ detect ~~~ crimson_stem -1 tag @s add active",
+            "execute @s ~~~ detect ~~~ warped_stem -1 tag @s add active",
+            "execute @s ~~~ detect ~~~ stripped_crimson_stem 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_acacia_log 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_birch_log 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_dark_oak_log 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_oak_log 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_jungle_log 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_spruce_log 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_warped_stem 0 tag @s add active2",
+            "execute @s ~~~ detect ~~~ stripped_acacia_log 0 tag @s add active2",
+
+            "execute @s[tag=active] ~~~ function axe",
+            "execute @s[tag=active2] ~~~ function axe2",
+            "execute @s[tag=active] ~~~ function leaves",
+            "execute @s[tag=active2] ~~~ function leaves",
+
+            "playsound random.axe @s[tag=active] ~~~ 4 1 4",
+            "execute @s[tag=active] ~~~ particle new:polvo ~~~",
+            "playsound random.axe @s[tag=active2] ~~~ 4 1 4",
+            "execute @s[tag=active2] ~~~ particle new:polvo ~~~"
+          ]
+        }
+      }
+    }
+  }
+}

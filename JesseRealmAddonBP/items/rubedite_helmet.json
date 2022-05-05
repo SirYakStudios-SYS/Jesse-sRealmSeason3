@@ -1,0 +1,53 @@
+//made by SalvoDizzy, any distribution of my code without my permission is not allowed and will result in your addon being taken down.
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mc:rubedite_helmet",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "armor_head"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"mc:rubedite_ingot"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 650,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:icon": {
+				"texture": "rubedite_helmet"
+			},
+			"minecraft:armor": {
+				"protection": 5
+
+                        }, "minecraft:display_name": {}
+                                                        }
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.1
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			}
+		},
+		"events": {}
+	}
+}

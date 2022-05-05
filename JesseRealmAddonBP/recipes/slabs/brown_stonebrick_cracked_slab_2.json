@@ -1,0 +1,19 @@
+{
+   "format_version": "1.12",
+   "minecraft:recipe_shapeless": {
+       "description": {
+          "identifier": "stonebrick:brown_stonebrick_cracked_slab_2"
+       },
+       "tags": [ "stonecutter" ],
+       "ingredients": [
+           {
+               "item": "stonebrick:stonebrick_cracked_slab",
+               "data": 0
+           }
+       ],
+       "result": {
+           "item": "stonebrick:brown_stonebrick_cracked_slab_2",
+           "count": 1
+       }
+   }
+}

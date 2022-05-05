@@ -1,0 +1,120 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "c1a7e96d_0593_44df_ad66_fdc52115597a",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.17,
+					"resource_pack_name": "NETHERPLUS",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"block": {
+							"textures": [
+								"textures/blocks/glowmushroom"
+							]
+						},
+						"volcano": {
+							"textures": [
+								"textures/blocks/pilarvolcano1"
+							]
+						}
+					}
+				},
+				"data": "NETHERPLUS",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"format_version": 1.17,
+					"resource_pack_name": "NETHERPLUS",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"block": {
+							"textures": [
+								"textures/blocks/glowmushroom"
+							]
+						},
+						"volcano": {
+							"textures": [
+								"textures/blocks/pilarvolcano1"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "block",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/glowmushroom"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/glowmushroom"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"block": {
+								"textures": [
+									"textures/blocks/glowmushroom"
+								]
+							},
+							"volcano": {
+								"textures": [
+									"textures/blocks/pilarvolcano1"
+								]
+							}
+						},
+						"key": "volcano",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/pilarvolcano1"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/pilarvolcano1"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

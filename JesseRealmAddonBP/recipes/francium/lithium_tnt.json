@@ -1,0 +1,29 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:lithium_tnt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#F#",
+			"###"
+		],
+		"key": {
+			"F": {
+				"item": "m:explosivs_core"
+			},
+			"#": {
+				"item": "m:lithium_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "m:lithium_tnt"
+			}
+		]
+	}
+}

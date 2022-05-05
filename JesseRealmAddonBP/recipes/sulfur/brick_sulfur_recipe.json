@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:brick_sulfur_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "m:smooth_sulfur"
+			}
+		},
+		"result": [
+			{
+				"item": "m:sulfur_brick",
+				"count": 4
+			}
+		]
+	}
+}

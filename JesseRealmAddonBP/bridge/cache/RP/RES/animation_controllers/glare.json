@@ -1,0 +1,260 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Glare Test RES\\animation_controllers\\glare.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "36957b55_6523_4f9f_b7c1_e953137e164e",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.glare": {
+							"states": {
+								"default": {
+									"animations": [
+										"idle"
+									],
+									"transitions": [
+										{
+											"move": "q.is_moving"
+										}
+									],
+									"blend_transition": 0.5
+								},
+								"move": {
+									"animations": [
+										"move"
+									],
+									"transitions": [
+										{
+											"default": "!q.is_moving"
+										}
+									],
+									"blend_transition": 0.5
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.glare": {
+								"states": {
+									"default": {
+										"animations": [
+											"idle"
+										],
+										"transitions": [
+											{
+												"move": "q.is_moving"
+											}
+										],
+										"blend_transition": 0.5
+									},
+									"move": {
+										"animations": [
+											"move"
+										],
+										"transitions": [
+											{
+												"default": "!q.is_moving"
+											}
+										],
+										"blend_transition": 0.5
+									}
+								}
+							}
+						},
+						"key": "controller.animation.glare",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"animations": [
+												"idle"
+											],
+											"transitions": [
+												{
+													"move": "q.is_moving"
+												}
+											],
+											"blend_transition": 0.5
+										},
+										"move": {
+											"animations": [
+												"move"
+											],
+											"transitions": [
+												{
+													"default": "!q.is_moving"
+												}
+											],
+											"blend_transition": 0.5
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"animations": [
+													"idle"
+												],
+												"transitions": [
+													{
+														"move": "q.is_moving"
+													}
+												],
+												"blend_transition": 0.5
+											},
+											"move": {
+												"animations": [
+													"move"
+												],
+												"transitions": [
+													{
+														"default": "!q.is_moving"
+													}
+												],
+												"blend_transition": 0.5
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"idle"
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"idle"
+													],
+													"transitions": [
+														{
+															"move": "q.is_moving"
+														}
+													],
+													"blend_transition": 0.5
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"move": "q.is_moving"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"move": "q.is_moving"
+														}
+													}
+												]
+											},
+											{
+												"data": "0.5",
+												"key": "blend_transition"
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"animations": [
+													"idle"
+												],
+												"transitions": [
+													{
+														"move": "q.is_moving"
+													}
+												],
+												"blend_transition": 0.5
+											},
+											"move": {
+												"animations": [
+													"move"
+												],
+												"transitions": [
+													{
+														"default": "!q.is_moving"
+													}
+												],
+												"blend_transition": 0.5
+											}
+										},
+										"key": "move",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"move"
+													],
+													"transitions": [
+														{
+															"default": "!q.is_moving"
+														}
+													],
+													"blend_transition": 0.5
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"move"
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"move"
+													],
+													"transitions": [
+														{
+															"default": "!q.is_moving"
+														}
+													],
+													"blend_transition": 0.5
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!q.is_moving"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!q.is_moving"
+														}
+													}
+												]
+											},
+											{
+												"data": "0.5",
+												"key": "blend_transition"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nether:glowbeetle",
+			"materials": {
+			  "default": "spider"
+			},
+			"textures": {
+			  "default": "textures/entity/glowbeetle/glowbeetle",
+			  "charged": "textures/entity/glowbeetle/glowbeetle_charged"
+			},
+			"geometry": {
+				"default": "geometry.glowbeetle"
+			},
+          "scripts": {
+            "animate": [
+	  	    {
+		  	    "walk": "2 * query.modified_move_speed"
+		    },
+		      "look_at_target",
+              "main_controller"
+            ]
+          },
+	  	  "animations": {
+	  	    "look_at_target": "animation.humanoid.look_at_target.default",
+	  	     
+		    "main_controller": "controller.animation.glowbeetle.main",
+		    "walking": "animation.glowbeetle.walk",
+		    "flying": "animation.glowbeetle.fly",
+            "angry": "animation.glowbeetle.angry"
+		    },
+			"render_controllers": [
+				"controller.render.glowbeetle"
+			],
+			"spawn_egg": {
+			  "base_color": "#d67600",
+			  "overlay_color": "#ffda94"
+			}
+		}
+	}
+}

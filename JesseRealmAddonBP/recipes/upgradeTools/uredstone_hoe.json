@@ -1,0 +1,26 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:uredstone_hoe"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:quartz"
+			},
+			"Y": {
+				"item": "sp:redstone_hoe"
+			}
+		},
+		"result": {
+			"item": "sp:uredstone_hoe"
+		}
+	}
+}

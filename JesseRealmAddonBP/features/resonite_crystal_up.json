@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "m:resonite_crystal_up"
+		},
+		"structure_name": "mystructure:resonite_crystal_up",
+		"adjustment_radius": 16,
+		"facing_direction": "random",
+		"constraints": {
+			"unburied": {}
+		}
+	}
+}

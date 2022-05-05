@@ -1,0 +1,48 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mv:electrified_copper_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Items",
+				"group": "itemGroup.name.none"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:breathability": "solid",
+			"minecraft:on_placed": {
+				"event": "dettect_and_spawn"
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"on_tick": {
+					"event": "dettect_and_spawn"
+				},
+				"range": [
+					0,
+					0
+				]
+			}
+		},
+		"events": {
+			"dettect_and_spawn": {
+				"run_command": {
+					"command": [
+						"summon mv:dettect_blocks ~ ~ ~",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 summon mv:copper_golem ~ ~1 ~",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 0 fill ~ ~ ~ ~ ~1 ~ air",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 1 summon mv:copper_golem ~ ~1 ~",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 1 fill ~ ~ ~ ~ ~1 ~ air",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 2 summon mv:copper_golem ~ ~1 ~",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 2 fill ~ ~ ~ ~ ~1 ~ air",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 3 summon mv:copper_golem ~ ~1 ~",
+						"execute @e[type=mv:dettect_blocks,c=1] ~ ~ ~ detect ~ ~1 ~ carved_pumpkin 3 fill ~ ~ ~ ~ ~1 ~ air",
+						"event entity @e[type=mv:dettect_blocks,c=1] mv:despawn"
+					]
+				}
+			}
+		}
+	}
+}

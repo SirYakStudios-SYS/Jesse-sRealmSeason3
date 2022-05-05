@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:catstatue1"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "catstatue1item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:catstatue1"
+        }
+      }
+    }
+  }

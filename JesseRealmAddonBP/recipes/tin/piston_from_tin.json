@@ -1,0 +1,36 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.16.100,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:piston_from_tin"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"OGO",
+			"OHO"
+		],
+		"key": {
+			"H": {
+				"item": "minecraft:redstone"
+			},
+			"G": {
+				"item": "sp:tin_ingot"
+			},
+			"O": {
+				"item": "minecraft:cobblestone"
+			},
+			"#": {
+				"item": "minecraft:planks"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:piston"
+			}
+		]
+	}
+}

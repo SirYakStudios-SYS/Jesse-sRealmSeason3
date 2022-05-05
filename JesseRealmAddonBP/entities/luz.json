@@ -1,0 +1,66 @@
+//bridge-file-version: #61
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ray:shield_luz",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:nameable": {
+				"always_show": false
+			},
+			"minecraft:entity_sensor": {
+				"sensor_range": 8,
+				"minimum_count": 1,
+				"maximum_count": 1,
+				"event_filters": {
+					"any_of": [
+						{
+							"test": "has_equipment",
+							"operator": "==",
+							"subject": "other",
+							"value": "light:shield",
+							"domain": "hand"
+						}
+					]
+				},
+				"event": "light"
+			}
+		},
+		"events": {
+			"light": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p luz2 0"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		}
+	}
+}

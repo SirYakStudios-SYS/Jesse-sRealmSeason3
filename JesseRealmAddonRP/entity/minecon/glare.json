@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "guardian:glare",
+      "materials": {
+        "default": "enderman",
+        "invisible": "enderman_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/guardian/minecon/glare"
+      },
+      "geometry": {
+        "default": "geometry.glare"
+      },
+      "animations": {
+        "flying": "animation.glare.flying"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.bat.move" }
+      ],
+      "render_controllers": [ "controller.render.enderman" ],
+			"spawn_egg": {
+				"base_color": "#70922D",
+				"overlay_color": "#FFFFFF"
+      }
+    }
+  }
+}

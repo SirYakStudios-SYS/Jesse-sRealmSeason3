@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:gold_nugget"
+				}
+			]
+		}
+	]
+}

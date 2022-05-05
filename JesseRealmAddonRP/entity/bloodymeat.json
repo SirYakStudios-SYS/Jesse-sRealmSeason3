@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:bloodymeat",
+			"materials": {
+				"default": "cow"
+			},
+			"textures": {
+				"default": "textures/entity/bloodymeat"
+			},
+			"geometry": {
+				"default": "geometry.bloodymeat"
+			},
+			"animations": {
+				"setup": "animation.crysoul.eyes",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"render_controllers": [
+				"controller.render.bloodymeat"
+			],
+			"spawn_egg": {
+				"texture": "bloody"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"setup": "query.modified_move_speed"
+					},
+					"look_at_target"
+				]
+			}
+		}
+	}
+}

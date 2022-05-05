@@ -1,0 +1,63 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bumble:cherry_leaves"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			},
+			"minecraft:loot": "loot_tables/fruits/cherry_leaves.json",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8, 0, -8
+				],
+				"size": [
+					16, 16, 16
+				]
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:rotation": [
+				0, 0, 0
+			],
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "blend",
+					"texture": "cherry_leaves",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:explosion_resistance": 2,
+			"minecraft:breathability": "air",
+			"minecraft:on_player_destroyed": {
+				"event": "bumble:on_break_with_shear",
+				"target": "self",
+				"condition": "query.get_equipped_item_name('main_hand') == 'shears'"
+			}
+		},
+		"events": {
+			"bumble:on_break_with_shear": {
+				"spawn_loot": {
+					"table": "loot_tables/fruits/cherry_leaves_sheared.json"
+				}
+			}
+		}
+	}
+}

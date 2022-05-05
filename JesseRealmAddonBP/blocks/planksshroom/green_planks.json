@@ -1,0 +1,16 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sp:green_planks"
+		},
+		"components": {
+			"minecraft:creative_category": { "category": "Construction" },
+			"minecraft:destroy_time": 0.1,
+			"minecraft:friction": 0.6,
+			"minecraft:explosion_resistance": 0.6
+		},
+		"events": {}
+	}
+}

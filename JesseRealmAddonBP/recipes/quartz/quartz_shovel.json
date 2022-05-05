@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:quartz_shovel"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"X",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blaze_rod"
+			},
+			"X": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:quartz_shovel",
+				"count": 1
+			}
+		]
+	}
+}

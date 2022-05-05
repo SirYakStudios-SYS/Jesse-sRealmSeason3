@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:hoglinstatue10"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "hoglinstatue10item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:hoglinstatue10"
+        }
+      }
+    }
+  }

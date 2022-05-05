@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:rose_gold_head_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			" # ",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "m:rose_gold_ingot",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "m:rose_gold_head",
+				"count": 1,
+				"data": 0
+			}
+		]
+	}
+}

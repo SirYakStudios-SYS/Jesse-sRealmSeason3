@@ -1,0 +1,22 @@
+{
+  "minecraft:attachable" : {
+    "description" : {
+      "textures" : {
+        "default" : "textures/models/armor/quiver_for_arrows.png",
+        "enchanted" : "textures/misc/enchanted_item_glint"
+      },
+      "materials" : {
+        "default" : "armor",
+        "enchanted" : "armor_enchanted"
+      },
+      "identifier" : "guardian:quiver_for_arrows",
+      "geometry" : {
+        "default" : "geometry.quiver_for_arrows"
+      },
+      "render_controllers" : [
+        "controller.render.armor"
+      ]
+    }
+  },
+  "format_version" : "1.8.0"
+}

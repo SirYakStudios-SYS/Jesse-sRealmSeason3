@@ -1,0 +1,86 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:aluminum_foil"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "aluminum_foil"
+			},
+			"minecraft:display_name": {
+				"value": "Aluminum Foil \n-§7Unoxidises Copper, Lithium and Sodium"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "unoxide"
+				}
+			}
+		},
+		"events": {
+			"unoxide": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~ ~ copper_block -1 replace exposed_copper",
+								"fill ~ ~ ~ ~ ~ ~ exposed_copper -1 replace weathered_copper",
+								"fill ~ ~ ~ ~ ~ ~ weathered_copper -1 replace oxidized_copper",
+								"playsound copper.wax.off @p",
+								"fill ~ ~ ~ ~ ~ ~ cut_copper -1 replace exposed_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ exposed_cut_copper -1 replace weathered_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ weathered_cut_copper -1 replace oxidized_cut_copper"
+							]
+						}
+					},
+					{
+						"damage": {
+							"type": "durablity",
+							"amount": 1,
+							"target": "holder"
+						},
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~ ~ waxed_copper -1 replace waxed_exposed_copper",
+								"fill ~ ~ ~ ~ ~ ~ waxed_exposed_copper -1 replace waxed_weathered_copper",
+								"fill ~ ~ ~ ~ ~ ~ waxed_weathered_copper -1 replace waxed_oxidized_copper",
+								"fill ~ ~ ~ ~ ~ ~ waxed_cut_copper -1 replace waxed_exposed_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ waxed_exposed_cut_copper -1 replace waxed_weathered_cut_copper",
+								"fill ~ ~ ~ ~ ~ ~ waxed_weathered_cut_copper -1 replace waxed_oxidized_cut_copper"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~ ~ waxed_cut_copper_stairs -1 replace waxed_exposed_cut_copper_stairs",
+								"fill ~ ~ ~ ~ ~ ~ waxed_exposed_cut_copper_stairs -1 replace waxed_weathered_cut_copper_stairs",
+								"fill ~ ~ ~ ~ ~ ~ waxed_weathered_cut_copper_stairs -1 replace waxed_oxidized_cut_copper_stairs",
+								"fill ~ ~ ~ ~ ~ ~ waxed_cut_copper_slab -1 replace waxed_exposed_cut_copper_slab",
+								"fill ~ ~ ~ ~ ~ ~ waxed_exposed_cut_copper_slab -1 replace waxed_weathered_cut_copper_slab",
+								"fill ~ ~ ~ ~ ~ ~ waxed_weathered_cut_copper_slab -1 replace waxed_oxidized_cut_copper_slab"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~ ~ cut_copper_stairs -1 replace exposed_cut_copper_stairs",
+								"fill ~ ~ ~ ~ ~ ~ exposed_cut_copper_stairs -1 replace weathered_cut_copper_stairs",
+								"fill ~ ~ ~ ~ ~ ~ weathered_cut_copper_stairs -1 replace oxidized_cut_copper_stairs",
+								"fill ~ ~ ~ ~ ~ ~ cut_copper_slab -1 replace exposed_cut_copper_slab",
+								"fill ~ ~ ~ ~ ~ ~ exposed_cut_copper_slab -1 replace weathered_cut_copper_slab",
+								"fill ~ ~ ~ ~ ~ ~ weathered_cut_copper_slab -1 replace oxidized_cut_copper_slab"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

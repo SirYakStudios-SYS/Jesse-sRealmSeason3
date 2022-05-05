@@ -1,0 +1,157 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\biomes\\revamped_birch_forest_mutated.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "cb12e73b_c285_4584_8930_758bff250f69",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "revamped_birch_forest_mutated"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0.8,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 0.7
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "default_mutated"
+							},
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 7,
+								"sea_floor_material": "minecraft:gravel",
+								"foundation_material": "minecraft:stone",
+								"mid_material": "minecraft:dirt",
+								"top_material": "minecraft:grass",
+								"sea_material": "minecraft:water"
+							},
+							"animal": {},
+							"revamped_birch": {},
+							"monster": {},
+							"mutated": {},
+							"bee_habitat": {},
+							"overworld_generation": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "revamped_birch_forest_mutated"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0.8,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.7
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "default_mutated"
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "minecraft:grass",
+									"sea_material": "minecraft:water"
+								},
+								"animal": {},
+								"revamped_birch": {},
+								"monster": {},
+								"mutated": {},
+								"bee_habitat": {},
+								"overworld_generation": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "revamped_birch_forest_mutated"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "revamped_birch_forest_mutated"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0.8,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 0.7
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "default_mutated"
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "minecraft:gravel",
+									"foundation_material": "minecraft:stone",
+									"mid_material": "minecraft:dirt",
+									"top_material": "minecraft:grass",
+									"sea_material": "minecraft:water"
+								},
+								"animal": {},
+								"revamped_birch": {},
+								"monster": {},
+								"mutated": {},
+								"bee_habitat": {},
+								"overworld_generation": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:climate": {
+								"downfall": 0.8,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 0.7
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "default_mutated"
+							},
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 7,
+								"sea_floor_material": "minecraft:gravel",
+								"foundation_material": "minecraft:stone",
+								"mid_material": "minecraft:dirt",
+								"top_material": "minecraft:grass",
+								"sea_material": "minecraft:water"
+							},
+							"animal": {},
+							"revamped_birch": {},
+							"monster": {},
+							"mutated": {},
+							"bee_habitat": {},
+							"overworld_generation": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

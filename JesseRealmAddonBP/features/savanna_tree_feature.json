@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "minecraft:savanna_tree_feature"
+    },
+    "features": [
+      ["nicothekid:tree_v_acacia_x_savanna_tree", 100],
+      ["nicothekid:tree_x_acacia_cap_tree", 10],
+      ["nicothekid:tree_x_acacia_mega_tree", 10],
+      ["nicothekid:tree_x_acacia_super_tree", 5],
+      ["nicothekid:tree_x_acacia_roofed_tree", 20],
+      ["nicothekid:tree_x_acacia_tall_tree_01", 20],
+      ["nicothekid:tree_x_acacia_tall_tree_02", 20],
+      ["nicothekid:tree_x_acacia_tall_n_roofed_tree", 20],
+      ["nicothekid:tree_x_acacia_tiny_tree", 10]
+    ]
+  }
+}

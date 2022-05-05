@@ -1,0 +1,60 @@
+
+
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bumble:corpse_flower"
+        },
+        "components": {
+			"minecraft:creative_category": {
+				"category": "nature"
+			},
+            "minecraft:geometry": "geometry.corpse_flower",
+            "minecraft:entity_collision": false,
+            "minecraft:breathability": "air",
+            "minecraft:pick_collision": {
+                "origin": [-8,0,-8],
+                "size": [16,8,16]
+            },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "corpse_flower",
+					"render_method": "alpha_test"
+				}
+			},
+            "minecraft:destroy_time": 1,
+            "minecraft:block_light_absorption": 0.1,
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [1, 2],
+                "on_tick": {
+                    "event": "particle_time"
+                }
+            }
+        },
+        "events": {
+ 
+ 
+			"particle_time": {
+				
+              "sequence": [
+                    {
+						"run_command": {
+							"command": [
+								"particle minecraft:rising_border_dust_particle ~~~"
+							]
+						}
+                    },
+					{
+						"run_command": {
+							"command": [
+								"effect @e[r=4] poison 1 1"
+							]
+						}
+					}
+				]
+            }
+		}
+	}
+}

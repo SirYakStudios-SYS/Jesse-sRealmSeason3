@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:raw_potassium",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_potassium"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Potassium \n§eFound? \n§7Y=50 - 120 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:explodable": false
+		},
+		"events": {}
+	}
+}

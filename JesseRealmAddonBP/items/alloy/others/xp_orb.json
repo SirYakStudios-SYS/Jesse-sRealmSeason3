@@ -1,0 +1,39 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:xp_orb"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "xp_orb"
+			},
+			"minecraft:display_name": {
+				"value": "XP Orb \nInteract to get Xp Orbs \n§eFound? \n§7Y=-30 - 30 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "summon"
+				}
+			}
+		},
+		"events": {
+			"summon": {
+				"run_command": {
+					"command": [
+						"summon minecraft:xp_orb",
+						"summon minecraft:xp_orb",
+						"summon minecraft:xp_orb",
+						"summon minecraft:xp_orb",
+						"summon minecraft:xp_orb"
+					]
+				},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

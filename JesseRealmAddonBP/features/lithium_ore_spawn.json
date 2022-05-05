@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "m:lithium_ore_spawn"
+		},
+		"count": 12,
+		"replace_rules": [
+			{
+				"may_replace": [
+					{
+						"states": {},
+						"name": "minecraft:netherrack"
+					}
+				],
+				"places_block": "m:lithium_ore"
+			}
+		]
+	}
+}

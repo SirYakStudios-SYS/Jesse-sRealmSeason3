@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "new:ic_trident",
+      "materials": { "default": "arrow" },
+      "textures": {
+        "default": "textures/trident/ice_trident"
+      },
+      "geometry": {
+        "default": "geometry.new_trident_throw"
+      },
+      "animations": {
+        "move": "animation.new_trident.move"
+      },
+      "scripts":{
+        "animate":[
+          "move"
+
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

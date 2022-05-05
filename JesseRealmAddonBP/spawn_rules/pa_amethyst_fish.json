@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "pa:amethyst_fish",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_underwater": {},
+        "minecraft:disallow_spawns_in_bubble": {},
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 0,
+          "adjust_for_weather": false
+        },
+        
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 0,
+          "underground": 1
+        },
+        "minecraft:height_filter": {
+          "min": -64,
+          "max": 20
+        }
+      }
+    ]
+  }
+}

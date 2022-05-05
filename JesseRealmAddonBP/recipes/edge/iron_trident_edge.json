@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "new:iron_trident_edge"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+            "PPP"
+        ],
+		"key": {
+			"P": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "new:iron_trident_edge"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:silver_ingot_from_copper_gold_tin_ingots"
+		},
+		"tags": [
+			"emerald_upgrade"
+		],
+		"pattern": [
+			"#GI"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_ingot"
+			},
+			"G": {
+				"item": "minecraft:copper_ingot"
+			},
+			"I": {
+				"item": "sp:zinc_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:silver_ingot",
+			"count": 2
+		}
+	}
+}

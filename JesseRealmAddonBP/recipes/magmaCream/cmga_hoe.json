@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:magma_cream_hoe"
+		},
+		"tags": [
+			"enderite_upgrade"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blaze_rod"
+			},
+			"X": {
+				"item": "minecraft:magma_cream"
+			}
+		},
+		"result": [
+			{
+				"item": "sp:magma_cream_hoe",
+				"count": 1
+			}
+		]
+	}
+}

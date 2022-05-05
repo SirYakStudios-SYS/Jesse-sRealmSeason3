@@ -1,0 +1,44 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:peridot_carrot"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 7,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "peridot_carrot"
+			},
+			"minecraft:display_name": {
+				"value": "§bPeridot Carrot"
+			},
+			"minecraft:use_animation": "eat"
+		},//MCPEDL:SorYPMod
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "absorption",
+							"duration": 60,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

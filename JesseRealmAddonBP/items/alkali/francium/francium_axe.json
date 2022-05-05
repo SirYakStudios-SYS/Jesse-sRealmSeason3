@@ -1,0 +1,344 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:francium_axe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 64,
+				"damage_chance": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:enchantable": {
+				"value": 17,
+				"slot": "axe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant', 'fast_axe_minable')"
+						},
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crimson_hyphae",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_hyphae",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crimson_slab",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crimson_door",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crimson_button",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_hyphae",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_hyphae",
+						"speed": 25,
+						"on_dig": {}
+					},
+					{
+						"block": "minecraft:warped_slab",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_door",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_button",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:lectern",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:composter",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_pressure_plate",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_standing_sign",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:cartography_table",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_trapdoor",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:loom",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence_gate",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"on_dig": {
+							"event": "dam"
+						},
+						"block": "minecraft:crimson_fence",
+						"speed": 25
+					},
+					{
+						"on_dig": {
+							"event": "dam"
+						},
+						"block": "minecraft:crimson_fence_gate",
+						"speed": 25
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 25,
+						"on_dig": {
+							"event": "dam"
+						}
+					},
+					{
+						"on_dig": {
+							"event": "dam"
+						},
+						"block": "minecraft:crimson_pressure_plate",
+						"speed": 25
+					},
+					{
+						"on_dig": {
+							"event": "dam"
+						},
+						"block": "minecraft:standing_banner",
+						"speed": 25
+					},
+					{
+						"block": "minecraft:wall_banner",
+						"on_dig": {
+							"event": "dam"
+						},
+						"speed": 25
+					},
+					{
+						"on_dig": {
+							"event": "dam"
+						},
+						"block": "minecraft:trapped_chest",
+						"speed": 25
+					},
+					{
+						"on_dig": {
+							"event": "dam"
+						},
+						"block": "minecraft:crimson_trapdoor",
+						"speed": 25
+					}
+				],
+				"on_dig": {
+					"event": "dam"
+				}
+			},
+			"minecraft:damage": 13,
+			"tag:minecraft:is_axe": {},
+			"minecraft:display_name": {
+				"value": "Francium Axe \n§7Durability: 64 \nMining Speed: 25 \n-Explodes when mining"
+			},
+			"minecraft:icon": {
+				"texture": "francium_axe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dam"
+				}
+			}
+		},
+		"events": {
+			"dam": {
+				"damage": {
+					"type": "durability",
+					"target": "self",
+					"amount": 1
+				},
+				"run_command": {
+					"command": [
+						"summon m:francium_explode"
+					],
+					"target": "block"
+				}
+			},
+			"use": {
+				"run_command": {
+					"command": [
+						"playsound use.grass @a[r=5]"
+					]
+				}
+			}
+		}
+	}
+}

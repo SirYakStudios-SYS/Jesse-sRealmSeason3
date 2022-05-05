@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nether:lava_mangrove_planks_from_stripped"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "nether:stripped_lava_mangrove_log"
+			}
+		],
+		"result": [
+			{
+				"item": "nether:lava_mangrove_planks",
+				"count": 4
+			}
+		]
+	}
+}

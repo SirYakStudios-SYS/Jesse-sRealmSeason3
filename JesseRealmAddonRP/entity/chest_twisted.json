@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:pettwisted",
+			"materials": {
+				"default": "cow"
+			},
+			"textures": {
+				"default": "textures/entity/chest/twistedpatitas"
+			},
+			"geometry": {
+				"default": "geometry.patitastwisted"
+			},
+			"animations": {
+				"setup": "animation.patitastwisted.setup",
+				"walk": "animation.patitastwisted.walk",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"setup": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.chets"
+			],
+			"spawn_egg": {
+				"texture": "patitastwisted"
+			}
+		}
+	}
+}

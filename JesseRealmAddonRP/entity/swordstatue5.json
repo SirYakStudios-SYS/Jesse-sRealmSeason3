@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "jctstatues:swordstatue5",
+        "materials": { "default": "bat" },
+        "textures": {
+          "default": "textures/entity/swordstatue5"
+        },
+        "geometry": {
+          "default": "geometry.swordstatue1"
+        },
+        "render_controllers": [ "controller.render.statue" ],
+        "spawn_egg": {
+          "texture": "swordstatue5item"
+        }
+      }
+    }
+  }
+  

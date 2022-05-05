@@ -1,0 +1,19 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:raw_rose_gold",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_rose_gold"
+			},
+			"minecraft:display_name": {
+				"value": "Raw Rose Gold"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,114 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\features\\weighted_random_savanna_foliage_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "14ef7aa9_1ba1_41ab_bbd1_60dd74b78d61",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "mv:weighted_random_savanna_foliage_feature"
+						},
+						"features": [
+							[
+								"mv:pampas_feature",
+								1
+							],
+							[
+								"mv:sand_grass_feature",
+								1
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:weighted_random_savanna_foliage_feature"
+							},
+							"features": [
+								[
+									"mv:pampas_feature",
+									1
+								],
+								[
+									"mv:sand_grass_feature",
+									1
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:weighted_random_savanna_foliage_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:weighted_random_savanna_foliage_feature"
+							},
+							"features": [
+								[
+									"mv:pampas_feature",
+									1
+								],
+								[
+									"mv:sand_grass_feature",
+									1
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"mv:pampas_feature",
+										1
+									],
+									[
+										"mv:sand_grass_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:pampas_feature",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"mv:pampas_feature",
+										1
+									],
+									[
+										"mv:sand_grass_feature",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"mv:sand_grass_feature",
+									1
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+
+
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "bumble:pepper"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.crop"
+      },
+	  "minecraft:icon": {
+		"texture": "bumble:pepper"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:pepper"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "good",
+        "can_always_eat": false,
+		"on_consume": {
+			"event": "on_consume",
+			"target": "self"
+		}      
+	  }
+	},
+	"events": {
+	  "on_consume": {
+        "add_mob_effect": {
+            "effect": "speed",
+            "target": "holder",
+            "duration": 5,
+            "amplifier": 1
+        }
+	  }
+    }
+  }
+}		

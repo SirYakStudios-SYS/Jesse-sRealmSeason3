@@ -1,0 +1,28 @@
+{
+  "minecraft:attachable" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.armor"
+      ],
+      "materials" : {
+        "default" : "armor",
+        "enchanted" : "armor_enchanted"
+      },
+      "geometry" : {
+        "default" : "geometry.viking_helmet"
+      },
+      "identifier" : "guardian:viking_helmet.player",
+      "scripts" : {
+        "parent_setup" : "variable.helmet_layer_visible = 0.0;"
+      },
+      "item" : {
+        "guardian:viking_helmet" : "query.owner_identifier == 'minecraft:player'"
+      },
+      "textures" : {
+        "default" : "textures/models/armor/viking_helmet",
+        "enchanted" : "textures/misc/enchanted_item_glint"
+      }
+    }
+  },
+  "format_version" : "1.10.0"
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:rubidium_bundle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#+#",
+			"+o+",
+			"+++"
+		],
+		"key": {
+			"#": {
+				"item": "m:maganese_nugget"
+			},
+			"+": {
+				"item": "m:rubidium_ingot"
+			},
+			"o": {
+				"item": "bronze_bundle:netherite_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "rubidium_bundle:netherite_ingot"
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "bumble:shrooms"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 2,
+	  "minecraft:use_animation": "eat",
+      "minecraft:foil": false,
+	  "minecraft:creative_category": {
+			"parent": "itemGroup.name.crop"
+	  },
+	  "minecraft:block_placer": {
+			"block": "bumble:shrooms_crop"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:shrooms"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:shrooms"
+	  },
+	  "minecraft:render_offsets": "seeds",
+      "minecraft:food": {
+        "nutrition": -10,
+        "saturation_modifier": "poor",
+        "can_always_eat": true,
+		"on_consume": {
+			"event": "on_consume",
+			"target": "self"
+		}      
+	  }
+	},
+	"events": {
+	  "on_consume": {
+		"sequence": [
+			{
+				"add_mob_effect": {
+					"effect": "jump_boost",
+					"duration": 40,
+					"amplifier": 8,
+					"target": "holder"
+				}
+			},
+			{
+				"add_mob_effect": {
+					"effect": "nausea",
+					"duration": 15,
+					"amplifier": 4,
+					"target": "holder"
+				}
+			},
+			{
+				"add_mob_effect": {
+					"effect": "slow_falling",
+					"duration": 60,
+					"amplifier": 4,
+					"target": "holder"
+				}
+			}
+		  ]
+	  }
+    }
+  }
+}		

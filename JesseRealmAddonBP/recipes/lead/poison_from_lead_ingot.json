@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_brewing_mix": {
+		"description": {
+			"identifier": "m:poison_from_lead_ingot"
+		},
+		"tags": [
+			"brewing_stand"
+		],
+		"reagent": "m:lead_ingot",
+		"input": "minecraft:potion_type:water",
+		"output": "minecraft:potion_type:poison"
+	}
+}

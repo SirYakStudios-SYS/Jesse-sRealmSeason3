@@ -1,0 +1,33 @@
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:cabbage_stew"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 2,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.miscFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:cabbage_stew"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:cabbage_stew"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": "good",
+        "can_always_eat": false,
+		"using_converts_to": "bowl"
+	  }
+    }
+  }
+}		

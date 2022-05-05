@@ -1,0 +1,15 @@
+//bridge-file-version: #5
+{
+	"pools": [
+		{
+			"rolls": 9,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:barrel"
+				}
+			]
+		}
+	],
+	"to put the recipe you need to type to the block minecraft:loot then the folder adica loot_tables fix asta apoi/butoi.json logic basicalli minecraft:loot : loot_tables/butoi.json": {}
+}

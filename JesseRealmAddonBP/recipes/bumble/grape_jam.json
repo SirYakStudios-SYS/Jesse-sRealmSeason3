@@ -1,0 +1,31 @@
+
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bumble:grape_jam"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SXS",
+			"XGX",
+			"SXS"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:sugar"
+			},
+			"X": {
+				"item": "bumble:grapes"
+			},
+			"G": {
+				"item": "minecraft:glass_bottle"
+			}
+		},
+		"result": {
+			"item": "bumble:grape_jam"
+		}
+	}
+}

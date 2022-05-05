@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "research_table_d1b69866"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "D D",
+      "ABA",
+      "C C"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:shell_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:crafting_table",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:ice_skin_block",
+        "data": 0
+      },
+    "D": {
+      "item": "pa:plankton_bottle",
+      "data": 0
+    }
+    },
+
+    "result": {
+      "item": "pa:research_table",
+      "count": 1
+    }
+  }
+}

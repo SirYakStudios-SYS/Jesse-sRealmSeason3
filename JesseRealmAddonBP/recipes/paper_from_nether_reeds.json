@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nether:paper_from_nether_reeds"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "nether:nether_reeds_item"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:paper",
+				"count": 3
+			}
+		]
+    }
+}

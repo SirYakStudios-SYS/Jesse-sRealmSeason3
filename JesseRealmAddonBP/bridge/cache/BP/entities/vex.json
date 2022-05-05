@@ -1,0 +1,480 @@
+{
+	"file_path": "C:\\Users\\Owner\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shield V2\\entities\\vex.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "97525ed8_ab4d_4f5f_922c_63c1be667735",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "minecraft:vex",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"scripts": {
+								"animate": [
+									"atk"
+								]
+							},
+							"animations": {
+								"atk": "controller.animation.attacking"
+							}
+						},
+						"components": {
+							"minecraft:is_hidden_when_invisible": {},
+							"minecraft:experience_reward": {
+								"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+							},
+							"minecraft:nameable": {},
+							"minecraft:type_family": {
+								"family": [
+									"vex",
+									"monster",
+									"mob"
+								]
+							},
+							"minecraft:equipment": {
+								"table": "loot_tables/entities/vex_gear.json"
+							},
+							"minecraft:health": {
+								"value": 14,
+								"max": 14
+							},
+							"minecraft:attack": {
+								"damage": 3
+							},
+							"minecraft:collision_box": {
+								"width": 0.4,
+								"height": 0.8
+							},
+							"minecraft:movement": {
+								"value": 1
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:fire_immune": {},
+							"minecraft:despawn": {
+								"despawn_from_distance": {}
+							},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.charge_attack": {
+								"priority": 4
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 3,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "irongolem"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "wandering_trader"
+												}
+											]
+										},
+										"max_dist": 70
+									},
+									{
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												},
+												{
+													"test": "has_component",
+													"subject": "other",
+													"operator": "!=",
+													"value": "minecraft:is_baby"
+												}
+											]
+										},
+										"max_dist": 70
+									}
+								],
+								"must_see": true
+							},
+							"minecraft:behavior.look_at_player": {
+								"priority": 9,
+								"look_distance": 6,
+								"probability": 0.02
+							},
+							"minecraft:behavior.look_at_entity": {
+								"priority": 9,
+								"look_distance": 6,
+								"probability": 0.02,
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "mob"
+								}
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:conditional_bandwidth_optimization": {}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:vex",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"scripts": {
+									"animate": [
+										"atk"
+									]
+								},
+								"animations": {
+									"atk": "controller.animation.attacking"
+								}
+							},
+							"components": {
+								"minecraft:is_hidden_when_invisible": {},
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+								},
+								"minecraft:nameable": {},
+								"minecraft:type_family": {
+									"family": [
+										"vex",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:equipment": {
+									"table": "loot_tables/entities/vex_gear.json"
+								},
+								"minecraft:health": {
+									"value": 14,
+									"max": 14
+								},
+								"minecraft:attack": {
+									"damage": 3
+								},
+								"minecraft:collision_box": {
+									"width": 0.4,
+									"height": 0.8
+								},
+								"minecraft:movement": {
+									"value": 1
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:fire_immune": {},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.charge_attack": {
+									"priority": 4
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 3,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "player"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "irongolem"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "wandering_trader"
+													}
+												]
+											},
+											"max_dist": 70
+										},
+										{
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "villager"
+													},
+													{
+														"test": "has_component",
+														"subject": "other",
+														"operator": "!=",
+														"value": "minecraft:is_baby"
+													}
+												]
+											},
+											"max_dist": 70
+										}
+									],
+									"must_see": true
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 9,
+									"look_distance": 6,
+									"probability": 0.02
+								},
+								"minecraft:behavior.look_at_entity": {
+									"priority": 9,
+									"look_distance": 6,
+									"probability": 0.02,
+									"filters": {
+										"test": "is_family",
+										"subject": "other",
+										"value": "mob"
+									}
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:conditional_bandwidth_optimization": {}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "minecraft:vex",
+								"key": "identifier"
+							},
+							{
+								"data": "true",
+								"key": "is_spawnable"
+							},
+							{
+								"data": "true",
+								"key": "is_summonable"
+							},
+							{
+								"open": {
+									"identifier": "minecraft:vex",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"scripts": {
+										"animate": [
+											"atk"
+										]
+									},
+									"animations": {
+										"atk": "controller.animation.attacking"
+									}
+								},
+								"data": "false",
+								"key": "is_experimental"
+							},
+							{
+								"open": {
+									"identifier": "minecraft:vex",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"scripts": {
+										"animate": [
+											"atk"
+										]
+									},
+									"animations": {
+										"atk": "controller.animation.attacking"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"atk"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"atk"
+										]
+									}
+								]
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"atk": "controller.animation.attacking"
+								}
+							}
+						]
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:is_hidden_when_invisible": {},
+							"minecraft:experience_reward": {
+								"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+							},
+							"minecraft:nameable": {},
+							"minecraft:type_family": {
+								"family": [
+									"vex",
+									"monster",
+									"mob"
+								]
+							},
+							"minecraft:equipment": {
+								"table": "loot_tables/entities/vex_gear.json"
+							},
+							"minecraft:health": {
+								"value": 14,
+								"max": 14
+							},
+							"minecraft:attack": {
+								"damage": 3
+							},
+							"minecraft:collision_box": {
+								"width": 0.4,
+								"height": 0.8
+							},
+							"minecraft:movement": {
+								"value": 1
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:fire_immune": {},
+							"minecraft:despawn": {
+								"despawn_from_distance": {}
+							},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.charge_attack": {
+								"priority": 4
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 3,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "irongolem"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "wandering_trader"
+												}
+											]
+										},
+										"max_dist": 70
+									},
+									{
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												},
+												{
+													"test": "has_component",
+													"subject": "other",
+													"operator": "!=",
+													"value": "minecraft:is_baby"
+												}
+											]
+										},
+										"max_dist": 70
+									}
+								],
+								"must_see": true
+							},
+							"minecraft:behavior.look_at_player": {
+								"priority": 9,
+								"look_distance": 6,
+								"probability": 0.02
+							},
+							"minecraft:behavior.look_at_entity": {
+								"priority": 9,
+								"look_distance": 6,
+								"probability": 0.02,
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "mob"
+								}
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:conditional_bandwidth_optimization": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

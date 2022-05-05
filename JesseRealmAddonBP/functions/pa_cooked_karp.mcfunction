@@ -1,0 +1,1 @@
+give @p pa:cooked_karp

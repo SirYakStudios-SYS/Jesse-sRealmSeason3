@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:zirconium",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "zirconium"
+			},
+			"minecraft:display_name": {
+				"value": "Zirconium \n§7Used for: \n-Zirconium Lanterns which will scare mobs \n§eFound? \n§7Y=8 - 120 \n§4Nether"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

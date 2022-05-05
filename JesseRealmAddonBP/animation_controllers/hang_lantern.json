@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.hang_lantern": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "setup": "(1.0)"
+            }
+          ],
+          "on_entry": [
+            "/setblock ~~~ lantern 1",
+            "/kill @e[type=mc:hang_lantern]"
+          ]
+        }
+      }
+    }
+  }
+}

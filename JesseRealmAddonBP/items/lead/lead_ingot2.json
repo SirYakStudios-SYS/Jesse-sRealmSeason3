@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:lead_ingot2"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "lead_ingot2"
+			},
+			"minecraft:display_name": {
+				"value": "Lead Ingot \n§7Used for: \n-Tools and Armor \n§eFound? \n§7Y=-23 - 70 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

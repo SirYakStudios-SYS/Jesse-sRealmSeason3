@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:smithsonite_charm_recipe_diamond"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  .",
+			"#+#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:diamond"
+			},
+			".": {
+				"item": "minecraft:ender_pearl"
+			},
+			"+": {
+				"item": "m:smithsonite_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "m:smithsonite_charm_diamond"
+			}
+		]
+	}
+}

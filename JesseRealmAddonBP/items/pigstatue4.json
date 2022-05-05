@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "jctstatues:pigstatue4"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "pigstatue4item"
+        },
+        "minecraft:entity_placer": {
+          "entity": "jctstatues:pigstatue4"
+        }
+      }
+    }
+  }

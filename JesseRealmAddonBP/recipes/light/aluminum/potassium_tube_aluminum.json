@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:potassium_tube_aluminum"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"+++",
+			"+#+"
+		],
+		"key": {
+			"+": {
+				"item": "m:aluminum_ingot"
+			},
+			"#": {
+				"item": "m:potassium_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "m:aluminum_potassium_tube",
+				"count": 3
+			}
+		]
+	}
+}

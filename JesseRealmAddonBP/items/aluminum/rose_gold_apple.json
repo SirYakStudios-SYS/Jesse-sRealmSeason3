@@ -1,0 +1,61 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:rose_gold_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "Rose_Gold_apple"
+			},
+			"minecraft:display_name": {
+				"value": "Rose Gold Apple \n§7Effects: \n-Regeneration III (3:00) \n-Night Vision (5:00) \n-Jump Boost III (0:35)"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 7,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 180,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 300,
+							"amplifier": 1,
+							"target": "holder",
+							"effect": "night_vision"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"duration": 35,
+							"amplifier": 2,
+							"target": "holder",
+							"effect": "jump_boost"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,279 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:leshy",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:shulker_light_blue": {
+        "minecraft:variant": {
+          "value": 12
+        }
+      },
+      "minecraft:pig_transform": {
+        "minecraft:transformation": {
+          "into": "pa:standing_leshy"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "villager"
+        ]
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100.0,
+        "max": 100.0
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:fall_damage": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:collision_box": {
+        "height": 0.5,
+        "width": 0.5
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "planks:5"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_ability",
+                  "subject": "other",
+                  "value": "instabuild"
+                }
+              ]
+            },
+            "event": "minecraft:turn_light_blue"
+          },
+          "use_item": true
+        }
+      ],
+      "minecraft:physics": {},
+      "minecraft:navigation.walk": {},
+      "minecraft:item_controllable": {
+        "control_items": "diamond_hoe"
+      },
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 1 : 0"
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.02
+      },
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval_min": 1,
+        "attack_interval_max": 3,
+        "attack_radius": 15,
+        "burst_shots": 1,
+        "burst_interval": 0.5
+      },
+      "minecraft:shooter": {
+        "type": "Staff of the Forest",
+        "def": "pa:forest_pocoh"
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "within_radius": 25,
+        "must_reach": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "illager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "vex"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pillager"
+                }
+              ]
+            },
+            "max_dist": 35.0,
+            "must_see": true
+          }
+        ],
+        "must_see": true,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3
+      },
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2
+      },
+      "minecraft:on_death": {
+        "event": "on:death",
+        "target": "self"
+      },
+      "minecraft:on_hurt": {
+        "event": "on:hurt",
+        "target": "self"
+      },
+      "minecraft:on_hurt_by_player": {
+        "event": "on:hurt_by_player",
+        "target": "self"
+      },
+      "minecraft:on_ignite": {
+        "event": "on:ignite",
+        "target": "self"
+      },
+      "minecraft:on_target_acquired": {
+        "event": "on:target_acquired",
+        "target": "self"
+      },
+      "minecraft:on_target_escape": {
+        "event": "on:target_escape",
+        "target": "self"
+      },
+      "minecraft:on_wake_with_owner": {
+        "event": "on:wake_with_owner",
+        "target": "self"
+      },
+      "minecraft:annotation.open_door": {},
+      "minecraft:behavior.open_door": {
+        "on_death": "query.last_hit_by_player ? 10 : 0",
+        "close_door_after": true
+      },
+      "minecraft:transformed": {
+        "minecraft:transformation": {
+          "into": "pa:standing_leshy"
+        }
+      },
+      "minecraft:damage_sensor": [
+        {
+          "on_damage": {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "illager"
+            },
+            "event": "become_zombie"
+          },
+          "deals_damage": true
+        },
+        {
+          "on_damage": {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "lightning"
+            },
+            "event": "become_zombie"
+          },
+          "deals_damage": true
+        }
+      ],
+      "minecraft:loot": {
+        "table": "loot_tables/entities/pa_leshy.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 6,
+            "add": {
+              "component_groups": [
+                "minecraft:shulker_light_blue"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:turn_light_blue": {
+        "add": {
+          "component_groups": [
+            "minecraft:shulker_light_blue"
+          ]
+        }
+      },
+      "on:death": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:hurt": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:hurt_by_player": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:ignite": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:target_acquired": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:target_escape": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:wake_with_owner": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "become_zombie": {
+        "remove": {},
+        "add": {
+          "component_groups": [
+            "minecraft:pig_transform"
+          ]
+        }
+      }
+    }
+  }
+}

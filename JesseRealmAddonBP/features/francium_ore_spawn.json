@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "m:francium_ore_spawn"
+		},
+		"count": 4,
+		"replace_rules": [
+			{
+				"places_block": "m:francium_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:end_stone",
+						"states": {}
+					}
+				]
+			}
+		]
+	}
+}

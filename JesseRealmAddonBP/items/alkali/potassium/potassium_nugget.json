@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:potassium_nugget"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "potassium_nugget"
+			},
+			"minecraft:display_name": {
+				"value": "Potassium nugget"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			},
+			"minecraft:explodable": false
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:raw_sodium_block_to_raw_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "m:raw_sodium_block"
+			}
+		},
+		"result": {
+			"item": "m:raw_sodium",
+			"count": 9
+		}
+	}
+}

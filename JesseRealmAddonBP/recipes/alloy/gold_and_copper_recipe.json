@@ -1,0 +1,27 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "m:gold_and_copper_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"count": 1,
+				"item": "minecraft:gold_ingot"
+			},
+			{
+				"item": "minecraft:copper_ingot",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "m:copper_and_gold_ingot",
+				"count": 2
+			}
+		]
+	}
+}

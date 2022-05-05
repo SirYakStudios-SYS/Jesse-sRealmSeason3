@@ -1,0 +1,45 @@
+
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "bumble:strawberry"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.crop"
+      },
+	  "minecraft:icon": {
+		"texture": "bumble:strawberry"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:strawberry"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": "low",
+        "can_always_eat": true,
+		"on_consume": {
+			"event": "on_consume",
+			"target": "self"
+		}      
+	  }
+	},
+	"events": {
+	  "on_consume": {
+		"remove_mob_effect": {
+		  "effect": "poison",
+		  "target": "holder"
+		}
+	  }
+    }
+  }
+}		

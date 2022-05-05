@@ -1,0 +1,25 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:lead_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "m:lead_ingot2"
+			}
+		},
+		"result": [
+			{
+				"item": "m:lead_boots"
+			}
+		]
+	}
+}

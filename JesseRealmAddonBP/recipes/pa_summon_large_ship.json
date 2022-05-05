@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "summon_large_ship_715h90b1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "ADE",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:fence",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:wool",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:log",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:barrel",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:compass",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:summon_large_ship",
+      "count": 1
+    }
+  }
+}

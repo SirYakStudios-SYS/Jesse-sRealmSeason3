@@ -1,0 +1,30 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "warden_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B B",
+			"CBC",
+            "BDB"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:sculk_catalyst"
+			},
+      "C": {
+				"item": "minecraft:bone_block"
+			},
+      "D": {
+				"item": "minecraft:sculk"
+			}
+		},
+		"result": {
+			"item": "wb:warden_chestplate"
+		}
+	}
+}

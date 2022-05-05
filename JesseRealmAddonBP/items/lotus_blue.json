@@ -1,0 +1,26 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mv:lotus_blue",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:foil": false,
+			"minecraft:render_offsets": "flowers",
+			"minecraft:icon": {
+				"texture": "lotus_blue"
+			},
+			"minecraft:block_placer": {
+				"use_block_description": true,
+				"block": "mv:lotus_bluea"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.flower"
+			}
+		},
+		"events": {}
+	}
+}

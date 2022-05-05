@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:frozen_chestplate",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 19,
+				"slot": "armor_torso"
+			},
+			"minecraft:durability": {
+				"max_durability": 199,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.chestplate"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sp:frozen_chestplate",
+							"minecraft:snow"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},//MCPEDL:SorYPMod
+			"minecraft:knockback_resistance": {
+				"protection": 0.1
+			},
+			"minecraft:icon": {
+				"texture": "sp_frozen_chestplate"
+			},
+			"minecraft:render_offsets": "chestplates",
+			"minecraft:armor": {
+				"protection": 5
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest"
+			}
+		},
+		"events": {}
+	}
+}

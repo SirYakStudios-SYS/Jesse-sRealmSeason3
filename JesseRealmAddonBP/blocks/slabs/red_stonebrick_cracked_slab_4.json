@@ -1,0 +1,85 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "stonebrick:red_stonebrick_cracked_slab_4",
+			"properties": {
+				"stonebrick:facing_direction": [0,1]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('stonebrick:facing_direction') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.slab",
+					"minecraft:entity_collision": {
+						"origin": [-8,0.0,-8],
+						"size": [16,8,16]
+					},
+					"minecraft:pick_collision": {
+						"origin": [-8,0.0,-8],
+						"size": [16,8,16]
+					},
+					"minecraft:on_interact": {
+						"condition": "query.get_equipped_item_name == 'red_stonebrick_cracked_slab_4' && query.block_face == 1",
+						"event": "complete",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('stonebrick:facing_direction') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.slab_top",
+					"minecraft:entity_collision": {
+						"origin": [-8,8,-8],
+						"size": [16,8,16]
+					},
+					"minecraft:pick_collision": {
+						"origin": [-8,8,-8],
+						"size": [16,8,16]
+					},
+					"minecraft:on_interact": {
+						"condition": "query.get_equipped_item_name == 'red_stonebrick_cracked_slab_4' && query.block_face == 0",
+						"event": "complete",
+						"target": "self"
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "red_stonebrick_cracked_4",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:block_light_absorption": 1.0,
+			"minecraft:block_light_emission": 0.0,
+			"minecraft:explosion_resistance": 6.0,
+			"minecraft:map_color": "#a41213",
+			"minecraft:geometry": "geometry.slab",
+			"minecraft:on_player_placing": {
+				"event": "set_up_down"
+			},
+			"minecraft:destroy_time": 1.2
+		},
+		"events": {
+			"set_up_down": {
+				"set_block_property": {
+					"stonebrick:facing_direction": "query.block_face"
+				}
+			},
+			"complete": {
+				"set_block": {
+					"block_type": "stonebrick:red_stonebrick_cracked_4"
+				},
+				"decrement_stack": {},
+				"run_command": {
+					"command": "playsound dig.stone @a ~ ~ ~",
+					"target": "self"
+				}
+			}
+		}
+	}
+}

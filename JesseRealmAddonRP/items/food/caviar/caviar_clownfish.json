@@ -1,0 +1,14 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "guardian:caviar_clownfish",
+      "category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "caviar_clownfish",
+			"minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

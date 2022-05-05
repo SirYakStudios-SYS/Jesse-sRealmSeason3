@@ -1,0 +1,23 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.17.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "mv:beach_sand_grass_feature"
+		},
+		"replaceable_blocks": [
+			"minecraft:sand"
+		],
+		"ground_block": "minecraft:sand",
+		"vegetation_feature": "mv:sand_grass_feature",
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 5,
+		"vegetation_chance": 0.1,
+		"horizontal_radius": {
+			"range_min": 5,
+			"range_max": 7
+		},
+		"extra_edge_column_chance": 1
+	}
+}

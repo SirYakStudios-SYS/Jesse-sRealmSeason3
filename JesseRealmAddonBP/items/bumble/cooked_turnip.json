@@ -1,0 +1,32 @@
+
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "bumble:cooked_turnip"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+	  "minecraft:use_animation": "eat",
+	  "minecraft:creative_category": {
+		"parent": "itemGroup.name.cookedFood"
+	  },
+	  "minecraft:icon": {
+		"texture": "bumble:cooked_turnip"
+	  },
+	  "minecraft:display_name": {
+		"value": "item.bumble:cooked_turnip"
+	  },
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": false
+	  }
+	}
+  }
+}		

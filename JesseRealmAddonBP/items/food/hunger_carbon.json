@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "guardian:hunger_carbon"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "poor",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "hunger",
+            "chance": 1.0,
+            "duration": 3,
+            "amplifier": 300
+          }
+        ]
+      }
+    }
+  }
+}

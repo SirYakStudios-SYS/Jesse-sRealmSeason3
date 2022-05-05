@@ -1,0 +1,320 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\feature_rules\\beach_sand_grass_snap_to_floor_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "d41fa5a2_a658_45a7_9314_fbd881cd604c",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "mv:beach_sand_grass_snap_to_floor_feature_rule",
+							"places_feature": "mv:beach_sand_grass_snap_to_floor_feature"
+						},
+						"conditions": {
+							"placement_pass": "after_surface_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "beach"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": "math.random_integer(3,10)",
+							"x": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									50,
+									90
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:beach_sand_grass_snap_to_floor_feature_rule",
+								"places_feature": "mv:beach_sand_grass_snap_to_floor_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "beach"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,10)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:beach_sand_grass_snap_to_floor_feature_rule",
+							"places_feature": "mv:beach_sand_grass_snap_to_floor_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:beach_sand_grass_snap_to_floor_feature_rule",
+								"places_feature": "mv:beach_sand_grass_snap_to_floor_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "beach"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,10)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "after_surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "after_surface_pass",
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "beach"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "beach"
+												}
+											]
+										},
+										"key": "any_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "beach"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "beach"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:beach_sand_grass_snap_to_floor_feature_rule",
+								"places_feature": "mv:beach_sand_grass_snap_to_floor_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "beach"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,10)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "math.random_integer(3,10)",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(3,10)",
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											50,
+											90
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "y",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

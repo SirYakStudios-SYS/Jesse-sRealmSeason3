@@ -1,0 +1,30 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "m:zirconium_lantern_tin_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" #",
+			"#X#",
+			" #"
+		],
+		"key": {
+			"X": {
+				"item": "m:tin_lantern"
+			},
+			"#": {
+				"item": "m:zirconium"
+			}
+		},
+		"result": [
+			{
+				"item": "m:zirconium_tin_lantern",
+				"count": 4
+			}
+		]
+	}
+}

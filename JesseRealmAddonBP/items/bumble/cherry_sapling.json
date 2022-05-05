@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bumble:cherry_sapling",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:stacked_by_data": true,
+			"minecraft:block_placer": {
+				"block": "bumble:cherry_sapling",
+				"use_block_description": true,
+				"use_on": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:podzol"
+				]
+			},
+			"minecraft:icon": {
+				"texture": "bumble:cherry_sapling"
+			},
+			"minecraft:display_name": {
+				"value": "item.bumble:cherry_sapling"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			},
+			"minecraft:render_offsets": "saplings"
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "pa:beachflower_feature"
+    },
+    "places_block": "pa:beach_flower_block",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_replace": [
+      "minecraft:air",
+      "sand"
+    ]
+  }
+}

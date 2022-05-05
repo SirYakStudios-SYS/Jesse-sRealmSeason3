@@ -1,0 +1,68 @@
+{
+  "mob.pa_ris.say": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_ris/say"
+    ]
+  },
+  "mob.pa_ris.death": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_ris/death"
+    ]
+  },
+  "mob.pa_axolotlu.idle": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/idle"
+    ]
+  },
+  "mob.pa_axolotlu.idle_water": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/idle_water"
+    ]
+  },
+  "mob.pa_axolotlu.attack": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/attack"
+    ]
+  },
+  "mob.pa_axolotlu.death": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/death"
+    ]
+  },
+  "mob.pa_axolotlu.hurt": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/hurt"
+    ]
+  },
+  "mob.pa_axolotlu.splash": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/splash"
+    ]
+  },
+  "mob.pa_axolotlu.swim": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_axolotlu/swim"
+    ]
+  },
+  "mob.pa_soul.idle": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_soul/idle"
+    ]
+  },
+  "mob.pa_soul.hit": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/pa_soul/hit"
+    ]
+  }
+}

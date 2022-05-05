@@ -1,0 +1,346 @@
+{
+	"file_path": "C:\\Users\\239168\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Biome Revamp DAT\\feature_rules\\grass_with_flowers_patch_snap_to_floor_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "10bdc5fe_ef40_4432_8bc3_9c5769e0ed0c",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "mv:grass_with_flowers_patch_snap_to_floor_feature_rule",
+							"places_feature": "mv:grass_with_flowers_patch_snap_to_floor_feature"
+						},
+						"conditions": {
+							"placement_pass": "after_surface_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "revamped_birch"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "birch"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": "math.random_integer(3,10)",
+							"x": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									50,
+									90
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:grass_with_flowers_patch_snap_to_floor_feature_rule",
+								"places_feature": "mv:grass_with_flowers_patch_snap_to_floor_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "revamped_birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,10)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mv:grass_with_flowers_patch_snap_to_floor_feature_rule",
+							"places_feature": "mv:grass_with_flowers_patch_snap_to_floor_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:grass_with_flowers_patch_snap_to_floor_feature_rule",
+								"places_feature": "mv:grass_with_flowers_patch_snap_to_floor_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "revamped_birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,10)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "after_surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "after_surface_pass",
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "revamped_birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "revamped_birch"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "birch"
+												}
+											]
+										},
+										"key": "any_of",
+										"is_minified": true,
+										"children": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "revamped_birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mv:grass_with_flowers_patch_snap_to_floor_feature_rule",
+								"places_feature": "mv:grass_with_flowers_patch_snap_to_floor_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "revamped_birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.random_integer(3,10)",
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "math.random_integer(3,10)",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": "math.random_integer(3,10)",
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											50,
+											90
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "y",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										50,
+										90
+									]
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

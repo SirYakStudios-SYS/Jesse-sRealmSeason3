@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:brass_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"G#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:copper_ingot"
+			},
+			"G": {
+				"item": "sp:zinc_ingot"
+			}
+		},
+		"result": {
+			"item": "sp:brass_ingot",
+			"count": 1
+		}
+	}
+}

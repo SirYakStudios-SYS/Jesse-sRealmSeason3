@@ -1,0 +1,1 @@
+"give @p pa:hardened_chest\ngive @p pa:swim_glasses\ngive @p pa:swiming_boots\ngive @p pa:ice_skin_block\ngive @p pa:oxygen_tank\ngive @p pa:jelly\ngive @p pa:raw_moon_fish\ngive @p pa:raw_karp\ngive @p pa:cooked_karp\ngive @p pa:icefish_skin\n"

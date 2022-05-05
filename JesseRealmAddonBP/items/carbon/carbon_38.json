@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "m:carbon_38"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "carbon_38"
+			},
+			"minecraft:display_name": {
+				"value": "Carbon (38) \n§7Used for: \n-Put in Blast Furnace to get Diamond \n§eFound? \n§7Y=-64 - 9 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}

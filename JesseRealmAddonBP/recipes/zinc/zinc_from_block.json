@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sp:zinc_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "sp:zinc_block"
+			}
+		},
+		"result": {
+			"item": "sp:zinc_ingot",
+			"count": 9
+		}
+	}
+}

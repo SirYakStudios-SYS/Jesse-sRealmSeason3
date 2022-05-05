@@ -1,0 +1,61 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "m:oxidised_cut_sodium_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "oxidised_cut_sodium_block"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.block",
+				"category": "construction"
+			},
+			"minecraft:unit_cube": {},
+			"tag:fast_pickaxe_mineable": {},
+			"tag:sodium": {},
+			"minecraft:on_interact": {
+				"event": "turn_back",
+				"condition": "query.get_equipped_item_name=='aluminum_foil'"
+			}
+		},
+		"events": {
+			"turn_back": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~ ~ m:cut_weathered_sodium_block",
+						"playsound copper.wax.off @p"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:sulfur_dust",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sulfur"
+			},
+			"minecraft:display_name": {
+				"value": "Sulfur Dust \n§7Used for: \n-Sulfuric Coal \n-Decoration \n-Crafting Gun powder \n§eFound? \n§7Y=-8 - 93 \n§2Overworld"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.nature"
+			}
+		},
+		"events": {}
+	}
+}

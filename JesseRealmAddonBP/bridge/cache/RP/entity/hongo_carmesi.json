@@ -1,0 +1,193 @@
+{
+	"file_path": "C:\\Users\\Geovanny\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nether Plus Add-on 1.17\\entity\\hongo_carmesi.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "e1dfd5ed_c7a1_48dc_8193_15fcb4ab7a8a",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "sc:hongo_carmesi",
+							"materials": {
+								"default": "cow"
+							},
+							"textures": {
+								"default": "textures/entity/hongo/carmesi"
+							},
+							"geometry": {
+								"default": "geometry.hongocarmesi"
+							},
+							"animations": {
+								"setup": "animation.hongocarmesi.setup",
+								"walk": "animation.hongocarmesi.walk"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"walk": "query.modified_move_speed"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.cow"
+							],
+							"spawn_egg": {
+								"texture": "hongocarmesii"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sc:hongo_carmesi",
+								"materials": {
+									"default": "cow"
+								},
+								"textures": {
+									"default": "textures/entity/hongo/carmesi"
+								},
+								"geometry": {
+									"default": "geometry.hongocarmesi"
+								},
+								"animations": {
+									"setup": "animation.hongocarmesi.setup",
+									"walk": "animation.hongocarmesi.walk"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.cow"
+								],
+								"spawn_egg": {
+									"texture": "hongocarmesii"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "sc:hongo_carmesi",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "cow"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/hongo/carmesi"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.hongocarmesi"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"setup": "animation.hongocarmesi.setup",
+									"walk": "animation.hongocarmesi.walk"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.cow"
+								]
+							},
+							{
+								"open": {
+									"identifier": "sc:hongo_carmesi",
+									"materials": {
+										"default": "cow"
+									},
+									"textures": {
+										"default": "textures/entity/hongo/carmesi"
+									},
+									"geometry": {
+										"default": "geometry.hongocarmesi"
+									},
+									"animations": {
+										"setup": "animation.hongocarmesi.setup",
+										"walk": "animation.hongocarmesi.walk"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.cow"
+									],
+									"spawn_egg": {
+										"texture": "hongocarmesii"
+									}
+								},
+								"key": "spawn_egg",
+								"children": [
+									{
+										"data": "#B05000",
+										"key": "base_color",
+										"is_active": false
+									},
+									{
+										"data": "#D21721",
+										"key": "overlay_color",
+										"is_active": false
+									},
+									{
+										"data": "hongocarmesii",
+										"key": "texture"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

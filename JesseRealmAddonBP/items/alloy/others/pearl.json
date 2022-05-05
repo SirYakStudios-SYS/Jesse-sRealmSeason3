@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "m:pearl",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "pearl"
+			},
+			"minecraft:display_name": {
+				"value": "Pearl \n§7Used for: \n-Decoration \n§eFound? \n§1Oceans"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ingot"
+			}
+		},
+		"events": {}
+	}
+}
