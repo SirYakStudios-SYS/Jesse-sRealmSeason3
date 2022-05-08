@@ -1,0 +1,1300 @@
+{
+	"file_path": "C:\\Users\\jamie\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\RejuvinatedNetheriteV2.2_behavior_pack\\items\\sys_rejuvinated_netherite_sword_t1.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "fdd5142a_2d57_4cb4_b6c1_8566917d6d51",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"category": "equipment",
+							"identifier": "sys:rejuvinated_netherite_sword_t1"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "sys_rejuvinated_netherite_sword_t1"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:allow_off_hand": true,
+							"minecraft:foil": false,
+							"minecraft:durability": {
+								"max_durability": 1500,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"sys:rejuvinated_netherite_sword_t1"
+										],
+										"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+									}
+								]
+							},
+							"minecraft:mining_speed": 1,
+							"minecraft:damage": 8,
+							"minecraft:enchantable": {
+								"value": 15,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": true,
+							"minecraft:weapon": {
+								"on_hurt_entity": {
+									"event": "hurt"
+								},
+								"on_not_hurt_entity": {
+									"event": "hurt"
+								},
+								"on_hit_block": {
+									"event": "hurt"
+								}
+							},
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.1,
+											0.1,
+											0.1
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.037999999999977205,
+											0.037999999999977205,
+											0.037999999999977205
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.1,
+											0.1,
+											0.1
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.037999999999977205,
+											0.037999999999977205,
+											0.037999999999977205
+										]
+									}
+								}
+							},
+							"tag:minecraft:is_sword": {},
+							"minecraft:display_name": {},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "ability_activate"
+								}
+							},
+							"minecraft:cooldown": {
+								"category": "rejuvinated_netherite_t1",
+								"duration": 1
+							}
+						},
+						"events": {
+							"on_use_event": {
+								"sequence": [
+									{
+										"damage": {
+											"type": "magic",
+											"amount": 1,
+											"target": "self"
+										}
+									}
+								]
+							},
+							"hurt": {
+								"damage": {
+									"type": "magic",
+									"amount": 1,
+									"target": "self"
+								}
+							},
+							"ability_activate": {
+								"sequence": [
+									{
+										"condition": "query.is_sneaking",
+										"shoot": {
+											"projectile": "minecraft:ender_pearl",
+											"launch_power": 1
+										}
+									},
+									{
+										"condition": "!query.is_sneaking",
+										"shoot": {
+											"projectile": "minecraft:arrow",
+											"launch_power": 0.5
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "sys:rejuvinated_netherite_sword_t1"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "sys_rejuvinated_netherite_sword_t1"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"minecraft:foil": false,
+								"minecraft:durability": {
+									"max_durability": 1500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"sys:rejuvinated_netherite_sword_t1"
+											],
+											"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+										}
+									]
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": true,
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_not_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_hit_block": {
+										"event": "hurt"
+									}
+								},
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									}
+								},
+								"tag:minecraft:is_sword": {},
+								"minecraft:display_name": {},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "ability_activate"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "rejuvinated_netherite_t1",
+									"duration": 1
+								}
+							},
+							"events": {
+								"on_use_event": {
+									"sequence": [
+										{
+											"damage": {
+												"type": "magic",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								},
+								"hurt": {
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								},
+								"ability_activate": {
+									"sequence": [
+										{
+											"condition": "query.is_sneaking",
+											"shoot": {
+												"projectile": "minecraft:ender_pearl",
+												"launch_power": 1
+											}
+										},
+										{
+											"condition": "!query.is_sneaking",
+											"shoot": {
+												"projectile": "minecraft:arrow",
+												"launch_power": 0.5
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"category": "equipment",
+							"identifier": "sys:rejuvinated_netherite_sword_t1"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "sys:rejuvinated_netherite_sword_t1"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "sys_rejuvinated_netherite_sword_t1"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"minecraft:foil": false,
+								"minecraft:durability": {
+									"max_durability": 1500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"sys:rejuvinated_netherite_sword_t1"
+											],
+											"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+										}
+									]
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": true,
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_not_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_hit_block": {
+										"event": "hurt"
+									}
+								},
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									}
+								},
+								"tag:minecraft:is_sword": {},
+								"minecraft:display_name": {},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "ability_activate"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "rejuvinated_netherite_t1",
+									"duration": 1
+								}
+							},
+							"events": {
+								"on_use_event": {
+									"sequence": [
+										{
+											"damage": {
+												"type": "magic",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								},
+								"hurt": {
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								},
+								"ability_activate": {
+									"sequence": [
+										{
+											"condition": "query.is_sneaking",
+											"shoot": {
+												"projectile": "minecraft:ender_pearl",
+												"launch_power": 1
+											}
+										},
+										{
+											"condition": "!query.is_sneaking",
+											"shoot": {
+												"projectile": "minecraft:arrow",
+												"launch_power": 0.5
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "sys_rejuvinated_netherite_sword_t1"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 1500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								}
+							},
+							{
+								"key": "minecraft:repairable",
+								"is_minified": true,
+								"children": {
+									"repair_items": [
+										{
+											"items": [
+												"sys:rejuvinated_netherite_sword_t1"
+											],
+											"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+										}
+									]
+								}
+							},
+							{
+								"data": "1",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "8",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 15,
+									"slot": "sword"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {
+									"on_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_not_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_hit_block": {
+										"event": "hurt"
+									}
+								}
+							},
+							{
+								"key": "minecraft:render_offsets",
+								"is_minified": true,
+								"children": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "sys_rejuvinated_netherite_sword_t1"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"minecraft:foil": false,
+									"minecraft:durability": {
+										"max_durability": 1500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"sys:rejuvinated_netherite_sword_t1"
+												],
+												"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+											}
+										]
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_not_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_hit_block": {
+											"event": "hurt"
+										}
+									},
+									"minecraft:render_offsets": {
+										"main_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										},
+										"off_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										}
+									},
+									"tag:minecraft:is_sword": {},
+									"minecraft:display_name": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ability_activate"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "rejuvinated_netherite_t1",
+										"duration": 1
+									}
+								},
+								"key": "tag:minecraft:is_sword",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "sys_rejuvinated_netherite_sword_t1"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"minecraft:foil": false,
+									"minecraft:durability": {
+										"max_durability": 1500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"sys:rejuvinated_netherite_sword_t1"
+												],
+												"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+											}
+										]
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_not_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_hit_block": {
+											"event": "hurt"
+										}
+									},
+									"minecraft:render_offsets": {
+										"main_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										},
+										"off_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										}
+									},
+									"tag:minecraft:is_sword": {},
+									"minecraft:display_name": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ability_activate"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "rejuvinated_netherite_t1",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "sys_rejuvinated_netherite_sword_t1"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"minecraft:foil": false,
+									"minecraft:durability": {
+										"max_durability": 1500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"sys:rejuvinated_netherite_sword_t1"
+												],
+												"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+											}
+										]
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_not_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_hit_block": {
+											"event": "hurt"
+										}
+									},
+									"minecraft:render_offsets": {
+										"main_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										},
+										"off_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										}
+									},
+									"tag:minecraft:is_sword": {},
+									"minecraft:display_name": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ability_activate"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "rejuvinated_netherite_t1",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:on_use",
+								"children": [
+									{
+										"open": {
+											"on_use": {
+												"event": "ability_activate"
+											}
+										},
+										"key": "on_use",
+										"is_minified": true,
+										"children": {
+											"event": "ability_activate"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "sys_rejuvinated_netherite_sword_t1"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"minecraft:foil": false,
+									"minecraft:durability": {
+										"max_durability": 1500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"sys:rejuvinated_netherite_sword_t1"
+												],
+												"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+											}
+										]
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_not_hurt_entity": {
+											"event": "hurt"
+										},
+										"on_hit_block": {
+											"event": "hurt"
+										}
+									},
+									"minecraft:render_offsets": {
+										"main_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										},
+										"off_hand": {
+											"third_person": {
+												"scale": [
+													0.1,
+													0.1,
+													0.1
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.037999999999977205,
+													0.037999999999977205,
+													0.037999999999977205
+												]
+											}
+										}
+									},
+									"tag:minecraft:is_sword": {},
+									"minecraft:display_name": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ability_activate"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "rejuvinated_netherite_t1",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "rejuvinated_netherite_t1",
+									"duration": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "sys:rejuvinated_netherite_sword_t1"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "sys_rejuvinated_netherite_sword_t1"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"minecraft:foil": false,
+								"minecraft:durability": {
+									"max_durability": 1500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"sys:rejuvinated_netherite_sword_t1"
+											],
+											"repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+										}
+									]
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": true,
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_not_hurt_entity": {
+										"event": "hurt"
+									},
+									"on_hit_block": {
+										"event": "hurt"
+									}
+								},
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.1,
+												0.1,
+												0.1
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.037999999999977205,
+												0.037999999999977205,
+												0.037999999999977205
+											]
+										}
+									}
+								},
+								"tag:minecraft:is_sword": {},
+								"minecraft:display_name": {},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "ability_activate"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "rejuvinated_netherite_t1",
+									"duration": 1
+								}
+							},
+							"events": {
+								"on_use_event": {
+									"sequence": [
+										{
+											"damage": {
+												"type": "magic",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								},
+								"hurt": {
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								},
+								"ability_activate": {
+									"sequence": [
+										{
+											"condition": "query.is_sneaking",
+											"shoot": {
+												"projectile": "minecraft:ender_pearl",
+												"launch_power": 1
+											}
+										},
+										{
+											"condition": "!query.is_sneaking",
+											"shoot": {
+												"projectile": "minecraft:arrow",
+												"launch_power": 0.5
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "on_use_event",
+								"is_minified": true,
+								"children": {
+									"sequence": [
+										{
+											"damage": {
+												"type": "magic",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								}
+							},
+							{
+								"key": "hurt",
+								"is_minified": true,
+								"children": {
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"on_use_event": {
+										"sequence": [
+											{
+												"damage": {
+													"type": "magic",
+													"amount": 1,
+													"target": "self"
+												}
+											}
+										]
+									},
+									"hurt": {
+										"damage": {
+											"type": "magic",
+											"amount": 1,
+											"target": "self"
+										}
+									},
+									"ability_activate": {
+										"sequence": [
+											{
+												"condition": "query.is_sneaking",
+												"shoot": {
+													"projectile": "minecraft:ender_pearl",
+													"launch_power": 1
+												}
+											},
+											{
+												"condition": "!query.is_sneaking",
+												"shoot": {
+													"projectile": "minecraft:arrow",
+													"launch_power": 0.5
+												}
+											}
+										]
+									}
+								},
+								"key": "ability_activate",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"condition": "query.is_sneaking",
+													"shoot": {
+														"projectile": "minecraft:ender_pearl",
+														"launch_power": 1
+													}
+												},
+												{
+													"condition": "!query.is_sneaking",
+													"shoot": {
+														"projectile": "minecraft:arrow",
+														"launch_power": 0.5
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"condition": "query.is_sneaking",
+														"shoot": {
+															"projectile": "minecraft:ender_pearl",
+															"launch_power": 1
+														}
+													},
+													{
+														"condition": "!query.is_sneaking",
+														"shoot": {
+															"projectile": "minecraft:arrow",
+															"launch_power": 0.5
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"condition": "query.is_sneaking",
+															"shoot": {
+																"projectile": "minecraft:ender_pearl",
+																"launch_power": 1
+															}
+														},
+														"data": "query.is_sneaking",
+														"key": "condition"
+													},
+													{
+														"open": {
+															"condition": "query.is_sneaking",
+															"shoot": {
+																"projectile": "minecraft:ender_pearl",
+																"launch_power": 1
+															}
+														},
+														"key": "shoot",
+														"is_minified": true,
+														"children": {
+															"projectile": "minecraft:ender_pearl",
+															"launch_power": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"condition": "query.is_sneaking",
+														"shoot": {
+															"projectile": "minecraft:ender_pearl",
+															"launch_power": 1
+														}
+													},
+													{
+														"condition": "!query.is_sneaking",
+														"shoot": {
+															"projectile": "minecraft:arrow",
+															"launch_power": 0.5
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"condition": "!query.is_sneaking",
+															"shoot": {
+																"projectile": "minecraft:arrow",
+																"launch_power": 0.5
+															}
+														},
+														"data": "!query.is_sneaking",
+														"key": "condition"
+													},
+													{
+														"open": {
+															"condition": "!query.is_sneaking",
+															"shoot": {
+																"projectile": "minecraft:arrow",
+																"launch_power": 0.5
+															}
+														},
+														"key": "shoot",
+														"is_minified": true,
+														"children": {
+															"projectile": "minecraft:arrow",
+															"launch_power": 0.5
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

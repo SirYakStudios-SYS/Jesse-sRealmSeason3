@@ -1,214 +1,25 @@
-//bridge-file-version: #0
 {
 	"namespace": "start",
-	"we_panel": {
-		"type": "stack_panel",
-		"orientation": "horizontal",
-		"size": [
-			"100%+8px",
-			"100%+31px"
-		],
-		"offset": [
-			4,
-			4
-		],
-		"controls": [
+	"panorama_overlay_image": {
+		"type": "image",
+		"size": ["100%", "100%"],
+		"alpha": 1.0,
+		"texture": "textures/ui/panorama_overlay"
+	},
+
+	"start_screen_content": {
+		"modifications": [
 			{
-				"l": {
-					"type": "stack_panel",
-					"size": [
-						132,
-						"100%"
-					],
-					"controls": [
-						{
-							"i": {
-								"type": "image",
-								"texture": "we_icon",
-								"size": [
-									128,
-									128
-								]
-							}
-						},
-						{
-							"s": {
-								"type": "panel",
-								"size": [
-									6,
-									6
-								]
-							}
-						},
-						{
-							"v": {
-								"type": "label",
-								"font_scale_factor": 1.5,
-								"text": "§cWorld §bExpansion §fAdd-On"
-							}
-						},
-						{
-							"c": {
-								"type": "label",
-								"font_scale_factor": 1.2,
-								"text": "Created in bridgeV2 and VSCode [ Textures by @_1Gian1_, Polar, CeasingBonsai17, Rimestor,\n Fox Arts and Star Origins ]"
-							}
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"panorama_overlay@start.panorama_overlay_image": {
+							"layer": -10
 						}
-					]
-				}
-			},
-			{
-				"r_panel": {
-					"type": "stack_panel",
-					"controls": [
-						{
-							"r_control": {
-								"type": "stack_panel",
-								"size": [
-									"100%",
-									134
-								],
-								"controls": [
-									{
-										"n": {
-											"type": "label",
-											"font_scale_factor": 1.5,
-											"text": "§cWorld §bExpansion §fAdd-On 1.5.9 By §eTeam Azonix"
-										}
-									},
-									{
-										"l": {
-											"type": "label",
-											"text": "§e@AzonixTeam §b(Twitter)"
-										}
-									},
-									{
-										"u": {
-											"type": "label",
-											"font_scale_factor": 0.8,
-											"text": "\nOfficial pages of our addon\n ( MCPEDL, MCPECORE and soon in Belytra ) [§cReport If This Add-On Is In Other Pages§f]"
-										}
-									}
-								]
-							}
-						},
-						[
-							{
-								"type": "label",
-								"text": "we.c0"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c1"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c2"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c3"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c4"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c5"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c6"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c7"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c8"
-							}
-						],
-						[
-							{
-								"type": "label",
-								"text": "we.c9"
-							}
-						]
-					]
-				}
+					}
+				]
 			}
 		]
-	},
-	"we_scroll@common.scrolling_panel": {
-		"$show_background": false,
-		"$scrolling_content": "start.we_panel"
-	},
-	"we_fsc@common.fullscreen_header": {
-		"$back_button_has_title": true,
-		"$button_text": "World Expansion Info",
-		"$child_control": "start.we_scroll"
-	},
-	"we_main@common.base_screen": {
-		"button_mappings": [
-			{
-				"from_button_id": "button.menu_cancel",
-				"to_button_id": "button.menu_exit",
-				"mapping_type": "global"
-			}
-		],
-		"$screen_bg_content": "persona.persona_screen_background_content",
-		"$screen_content": "start.we_fsc"
-	},
-	"we_start": {
-		"type": "stack_panel",
-		"orientation": "horizontal",
-		"controls": [
-			{
-				"icon": {
-					"type": "image",
-					"texture": "we_icon",
-					"size": [
-						20,
-						20
-					]
-				}
-			},
-			{
-				"version": {
-					"type": "label",
-					"text": "WE Info"
-				}
-			}
-		]
-	},
-	"copyright@common_buttons.light_content_button": {
-		"anchor_from": "bottom_left",
-		"anchor_to": "bottom_left",
-		"size": [
-			80,
-			26
-		],
-		"$pressed_button_name": "button.menu_buy_game",
-		"$button_content": "start.we_start",
-		"$default_button_alpha": 0.5,
-		"$default_hover_alpha": 0.5
 	}
 }

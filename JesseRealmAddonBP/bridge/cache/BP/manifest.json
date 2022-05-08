@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\jamie\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\JesseRealmAddonBP\\manifest.json",
 	"file_type": "manifest_bp",
 	"format_version": 1,
-	"file_uuid": "b439b1f6_4322_4999_9368_df37e2612237",
-	"file_version": 1,
+	"file_uuid": "85851829_922f_492f_bbf7_aff7500a1eb7",
+	"file_version": 0,
 	"cache_content": {
 		"children": [
 			{
@@ -11,25 +11,11 @@
 				"key": "format_version"
 			},
 			{
-				"key": "header",
-				"is_minified": true,
-				"children": {
-					"description": "§6An AddonPack built for Jesse's Realm Season 3,\n§acreated/compiled by SirYakStudios",
-					"name": "§l§bJesseRealmS3 BP",
-					"version": [
-						1,
-						0,
-						0
-					],
-					"uuid": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155"
-				}
-			},
-			{
 				"open": {
 					"format_version": 1,
 					"header": {
-						"description": "§6An AddonPack built for Jesse's Realm Season 3,\n§acreated/compiled by SirYakStudios",
-						"name": "§l§bJesseRealmS3 BP",
+						"description": "JesseRealmS3 Behavior Pack",
+						"name": "JesseRealmS3 BP",
 						"version": [
 							1,
 							0,
@@ -47,28 +33,84 @@
 							],
 							"type": "data",
 							"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
-						},
+						}
+					],
+					"metadata": {
+						"generated_with": {
+							"bridge": [
+								"1.8.4"
+							]
+						}
+					},
+					"dependencies": [
 						{
-							"description": "Script that implements basic starter tests.",
-							"type": "javascript",
-							"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
 							"version": [
 								1,
 								0,
 								0
 							],
-							"entry": "scripts/index.js"
-						},
-						{
-							"description": "scripts",
-							"type": "javascript",
-							"uuid": "7f97c5a5-a9ec-4773-b29f-a26e0f653ee2",
+							"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "JesseRealmS3 Behavior Pack",
+						"key": "description"
+					},
+					{
+						"data": "JesseRealmS3 BP",
+						"key": "name"
+					},
+					{
+						"open": {
+							"description": "JesseRealmS3 Behavior Pack",
+							"name": "JesseRealmS3 BP",
 							"version": [
 								1,
 								0,
 								0
 							],
-							"entry": "scripts/server/index.js"
+							"uuid": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155"
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							0,
+							0
+						]
+					},
+					{
+						"data": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155",
+						"key": "uuid"
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "JesseRealmS3 Behavior Pack",
+						"name": "JesseRealmS3 BP",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"uuid": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155"
+					},
+					"modules": [
+						{
+							"description": "JesseRealmS3 Behavior Pack",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"type": "data",
+							"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
 						}
 					],
 					"metadata": {
@@ -102,184 +144,150 @@
 								],
 								"type": "data",
 								"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
-							},
-							{
-								"description": "Script that implements basic starter tests.",
-								"type": "javascript",
-								"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"entry": "scripts/index.js"
-							},
-							{
-								"description": "scripts",
-								"type": "javascript",
-								"uuid": "7f97c5a5-a9ec-4773-b29f-a26e0f653ee2",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"entry": "scripts/server/index.js"
-							}
-						],
-						"children": [
-							{
-								"data": "JesseRealmS3 Behavior Pack",
-								"key": "description"
-							},
-							{
-								"open": {
-									"description": "JesseRealmS3 Behavior Pack",
-									"version": [
-										1,
-										0,
-										0
-									],
-									"type": "data",
-									"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
-								},
-								"key": "version",
-								"is_minified": true,
-								"children": [
-									1,
-									0,
-									0
-								]
-							},
-							{
-								"data": "data",
-								"key": "type"
-							},
-							{
-								"data": "1a7cb521-0a14-482d-96ab-a81ec7e88982",
-								"key": "uuid"
-							}
-						]
-					},
-					{
-						"open": [
-							{
-								"description": "JesseRealmS3 Behavior Pack",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"type": "data",
-								"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
-							},
-							{
-								"description": "Script that implements basic starter tests.",
-								"type": "javascript",
-								"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"entry": "scripts/index.js"
-							},
-							{
-								"description": "scripts",
-								"type": "javascript",
-								"uuid": "7f97c5a5-a9ec-4773-b29f-a26e0f653ee2",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"entry": "scripts/server/index.js"
 							}
 						],
 						"is_minified": true,
 						"children": {
-							"description": "Script that implements basic starter tests.",
-							"type": "javascript",
-							"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
+							"description": "JesseRealmS3 Behavior Pack",
 							"version": [
 								1,
 								0,
 								0
 							],
-							"entry": "scripts/index.js"
-						}
-					},
-					{
-						"open": [
-							{
-								"description": "JesseRealmS3 Behavior Pack",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"type": "data",
-								"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
-							},
-							{
-								"description": "Script that implements basic starter tests.",
-								"type": "javascript",
-								"uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"entry": "scripts/index.js"
-							},
-							{
-								"description": "scripts",
-								"type": "javascript",
-								"uuid": "7f97c5a5-a9ec-4773-b29f-a26e0f653ee2",
-								"version": [
-									1,
-									0,
-									0
-								],
-								"entry": "scripts/server/index.js"
-							}
-						],
-						"is_minified": true,
-						"children": {
-							"description": "scripts",
-							"type": "javascript",
-							"uuid": "7f97c5a5-a9ec-4773-b29f-a26e0f653ee2",
-							"version": [
-								1,
-								0,
-								0
-							],
-							"entry": "scripts/server/index.js"
+							"type": "data",
+							"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
 						}
 					}
 				]
 			},
 			{
-				"key": "metadata",
-				"is_minified": true,
-				"children": {
-					"generated_with": {
-						"bridge": [
-							"1.8.4"
-						]
-					}
-				}
-			},
-			{
-				"key": "dependencies",
-				"is_minified": true,
-				"children": [
-					{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "JesseRealmS3 Behavior Pack",
+						"name": "JesseRealmS3 BP",
 						"version": [
 							1,
 							0,
 							0
 						],
-						"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+						"uuid": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155"
+					},
+					"modules": [
+						{
+							"description": "JesseRealmS3 Behavior Pack",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"type": "data",
+							"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
+						}
+					],
+					"metadata": {
+						"generated_with": {
+							"bridge": [
+								"1.8.4"
+							]
+						}
+					},
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+						}
+					]
+				},
+				"key": "metadata",
+				"children": [
+					{
+						"open": {
+							"generated_with": {
+								"bridge": [
+									"1.8.4"
+								]
+							}
+						},
+						"key": "generated_with",
+						"is_minified": true,
+						"children": {
+							"bridge": [
+								"1.8.4"
+							]
+						}
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "JesseRealmS3 Behavior Pack",
+						"name": "JesseRealmS3 BP",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"uuid": "aa8f236a-603d-4d4e-9ba1-7e8574bf5155"
+					},
+					"modules": [
+						{
+							"description": "JesseRealmS3 Behavior Pack",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"type": "data",
+							"uuid": "1a7cb521-0a14-482d-96ab-a81ec7e88982"
+						}
+					],
+					"metadata": {
+						"generated_with": {
+							"bridge": [
+								"1.8.4"
+							]
+						}
+					},
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+						}
+					]
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									1,
+									0,
+									0
+								],
+								"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+							}
+						],
+						"is_minified": true,
+						"children": {
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "72f15454-e662-421c-9de0-4588c9f358aa"
+						}
 					}
 				]
 			}

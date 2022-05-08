@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sys:rejuvinated_netherite_ingot_t3",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rejuvinated_netherite_ingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -26,12 +26,6 @@
 				0
 			],
 			"uuid": "c65ae0b1-e715-4478-bdc3-e2e29c6b9a7e"
-		},
-		{
-			"description": "pack.description", 
-			"type": "resources", 
-			"uuid": "c6a4c8e5-b3cc-5754-b7fd-b7d0f544caf7", 
-			"version": [0, 0, 1] 
 		}
 	]
 }

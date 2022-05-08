@@ -6,38 +6,12 @@
 			"identifier": "minecraft:item",
 			"runtime_identifier": {},
 			"is_summonable": true,
-			"is_spawnable": true,
-			"scripts":{
-        "animate":[
-          "fire_inmune"
-        ]
-      },
-      "animations":{
-        "fire_inmune": "controller.animation.fire_inmune"
-      }
+			"is_spawnable": true
 		},
 		"component_groups": {
 			"netherite": {
 				"minecraft:fire_immune": true
-			},
-			"fire_inmune": {
-        "minecraft:damage_sensor": {
-          "triggers": [
-            {
-              "cause": "fire",
-              "deals_damage": false
-            },
-            {
-              "cause": "fire_tick",
-              "deals_damage": false
-            },
-            {
-              "cause": "lava",
-              "deals_damage": false
-            }
-          ]
-        }
-      }
+			}
 		},
 		"components": {
 			"minecraft:environment_sensor": {
@@ -46,18 +20,6 @@
 						"event": "netherite_test",
 						"target": "self"
 					},
-					{
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_tag",
-                  "operator": "==",
-                  "value": "fire_inmune"
-                }
-              ]
-            },
-            "event": "new:fire_inmune"
-          },
 					{
 						"event": "add_r",
 						"target": "self"
@@ -74,13 +36,6 @@
 					]
 				}
 			},
-			"new:fire_inmune": {
-        "add": {
-          "component_groups": [
-            "fire_inmune"
-          ]
-        }
-      },
 			"add_r": {
 				"sequence": [
 					{

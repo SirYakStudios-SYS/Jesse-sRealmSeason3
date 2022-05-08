@@ -1,0 +1,121 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "sys:rejuvinated_netherite_crafter",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:destroy_time": 3.0,
+      "minecraft:friction": 0.7,
+      "minecraft:map_color": "#414141",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_destroyed": {
+        "event": "remove:block",
+        "target": "self"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "sys:rejuvinated_netherite_crafter",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:on_step_on": {
+        "event": "step:on",
+        "target": "self"
+      },
+      "minecraft:on_step_off": {
+        "event": "step:off",
+        "target": "self"
+      },
+      "minecraft:on_placed": {
+        "event": "size:block",
+        "target": "self"
+      },
+      "minecraft:random_ticking": {
+        "on_tick": {
+          "event": "random:tick",
+          "target": "self"
+        }
+      },
+      "minecraft:on_fall_on": {
+        "event": "fall:on",
+        "target": "self"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          10,
+          10
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      },
+      "minecraft:crafting_table": {
+        "grid_size": 3,
+        "crafting_tags": [
+          "crafting_table",
+          "Rejuvinated Netherite Crafter"
+        ]
+      },
+      "minecraft:creative_category": {
+        "category": "nature"
+      }
+    },
+    "events": {
+      "remove:block": {},
+      "size:block": {},
+      "step:on": {},
+      "step:off": {},
+      "on_tick": {},
+      "random:tick": {},
+      "fall:on": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}

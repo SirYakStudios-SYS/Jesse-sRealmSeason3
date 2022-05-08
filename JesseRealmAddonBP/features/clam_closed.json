@@ -5,7 +5,7 @@
 			"identifier": "m:clam_closed"
 		},
 		"structure_name": "mystructure:clam_closed",
-		"adjustment_radius": 128,
+		"adjustment_radius": 16,
 		"facing_direction": "random",
 		"constraints": {
 			"grounded": {}

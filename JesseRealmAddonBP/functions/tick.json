@@ -9,7 +9,6 @@
 		"nocommandspog",
 		"countdown",
 		"self_destruct",
-		"timerloop",
-		"rule"
+		"timerloop"
 	]
 }

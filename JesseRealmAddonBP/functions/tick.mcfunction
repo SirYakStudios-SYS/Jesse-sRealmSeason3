@@ -19,9 +19,6 @@ scoreboard objectives add tick dummy
  
 scoreboard players add @e tick 1
  
-effect @a [tag=pick,scores={pick=1}] haste 1 255 true
-effect @a [tag=!pick] haste 0 0 true
-effect @a [scores={pick=0}] haste 0 0 true
  
 execute @e[scores={tick=1}] ~ ~ ~ event entity @s sneak
 execute @e[scores={tick=2}] ~ ~ ~ event entity @s slime
@@ -37,5 +34,3 @@ execute @e[scores={tick=9}] ~ ~ ~ event entity @s copper
 execute @e[scores={tick=9..}] ~ ~ ~ scoreboard players set @s tick 0
  
 function pulsar
-
-

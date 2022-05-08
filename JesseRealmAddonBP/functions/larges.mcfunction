@@ -1,1 +1,0 @@
-summon pa:large_ship ~ ~ ~

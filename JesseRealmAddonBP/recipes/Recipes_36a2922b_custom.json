@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_13e6ec31"
+    },
+    "tags": [
+      "crafting_table",
+      "Rejuvinated Netherite Crafter"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "sys:rejuvinated_netherite_ingot_t5",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sys:rejuvinated_netherite_boots_t1",
+      "count": 1
+    }
+  }
+}

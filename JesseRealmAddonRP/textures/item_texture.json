@@ -27,7 +27,57 @@
     "egg_penguin": {
       "textures": "textures/items/egg_penguin"
     },
-    "firefly": {
+    "rejuvinated_netherite_ingot": {
+      "textures": "textures/items/rejuvinated_netherite_ingot"
+    },
+    "rejuvinated_netherite_helmet": {
+      "textures": [
+        "textures/items/rejuvinated_netherite_helmet"
+      ]
+    },
+    "rejuvinated_netherite_chestplate": {
+      "textures": [
+        "textures/items/rejuvinated_netherite_chestplate"
+      ]
+    },
+    "rejuvinated_netherite_leggings": {
+      "textures": [
+        "textures/items/rejuvinated_netherite_leggings"
+      ]
+    },
+    "rejuvinated_netherite_boots": {
+      "textures": [
+        "textures/items/rejuvinated_netherite_boots"
+      ]
+    },
+    "rejuvinated_netherite_sword": {
+      "textures": "textures/items/rejuvinated_netherite_sword"
+    },
+    "rejuvinated_netherite_stick": {
+      "textures": "textures/items/rejuvinated_netherite_stick"
+    },
+    "bordure_indented_banner_pattern": {
+			"textures": "textures/items/bordure_indented_banner_pattern"
+		},
+		"creeper_banner_pattern": {
+			"textures": "textures/items/creeper_banner_pattern"
+		},
+		"flower_banner_pattern": {
+			"textures": "textures/items/flower_banner_pattern"
+		},
+		"field_masoned_banner_pattern": {
+			"textures": "textures/items/field_masoned_banner_pattern"
+		},
+		"skull_banner_pattern": {
+			"textures": "textures/items/skull_banner_pattern"
+		},
+		"piglin_banner_pattern": {
+			"textures": "textures/items/piglin_banner_pattern"
+		},
+		"mojang_banner_pattern": {
+			"textures": "textures/items/mojang_banner_pattern"
+		},
+		"firefly": {
 			"textures": [
 				"textures/items/firefly"
 			]
@@ -152,781 +202,916 @@
 				"textures/items/toadshroom"
 			]
 		},
-		"pa:penguin": {
-      "textures": "textures/items/pamobile/pa_penguin"
-    },
-    "pa:quartz_shard": {
-      "textures": "textures/items/pamobile/pa_quartz_shard"
-    },
-    "pa:coelacanth_fossil": {
-      "textures": "textures/items/pamobile/pa_coelacanth_fossil"
-    },
-    "pa:anomalocaris_fossil": {
-      "textures": "textures/items/pamobile/pa_anomalocaris_fossil"
-    },
-    "pa:hallucigenia_fossil": {
-      "textures": "textures/items/pamobile/pa_hallucigenia_fossil"
-    },
-    "pa_ink_bomb": {
-      "textures": "textures/items/pamobile/pa_ink_bomb"
-    },
-    "pa:clam_bucket": {
-      "textures": "textures/items/pamobile/pa_clam_bucket"
-    },
-        "pa:star_bucket": {
-      "textures": "textures/items/pamobile/pa_star_bucket"
-    },
-        "pa:sponge_bucket": {
-      "textures": "textures/items/pamobile/pa_sponge_bucket"
-    },
-    "pa:karp_bucket": {
-      "textures": "textures/items/pamobile/pa_karp_bucket"
-    },
-    "pa:wild_bucket": {
-      "textures": "textures/items/pamobile/pa_wild_bucket"
-    },
-    "pa:crab_bucket": {
-      "textures": "textures/items/pamobile/pa_crab_bucket"
-    },
-    "pa:horse_bucket": {
-      "textures": "textures/items/pamobile/pa_horse_bucket"
-    },
-    "pa:gold_bucket": {
-      "textures": "textures/items/pamobile/pa_gold_bucket"
-    },
-    "pa:tang_bucket": {
-      "textures": "textures/items/pamobile/pa_tang_bucket"
-    },
-    "pa:jelly_bucket": {
-      "textures": "textures/items/pamobile/pa_jelly_bucket"
-    },
-    "pa_snake_chestplate": {
-      "textures": [
-        "textures/items/pamobile/snake_chestplate"
-      ]
-    },
-    "pa:raw_sardine": {
-      "textures": "textures/items/pamobile/pa_raw_sardine"
-    },
-    "pa:sea_shroom": {
-      "textures": "textures/items/pamobile/pa_sea_shroom"
-    },
-    "pa:cooked_sardine": {
-      "textures": "textures/items/pamobile/pa_cooked_sardine"
-    },
-    "pa:oil": {
-      "textures": "textures/items/pamobile/pa_oil"
-    },
-    "pa:sea_stew": {
-      "textures": "textures/items/pamobile/pa_sea_stew"
-    },
-    "pa:hard_scale": {
-      "textures": "textures/items/pamobile/pa_hard_scale"
-    },
-    "pa:snake_scale": {
-      "textures": "textures/items/pamobile/pa_snake_scale"
-    },
-    "pa_hard_swim_suit_top": {
-      "textures": [
-        "textures/items/pamobile/pa_hard_swim_suit_top"
-      ]
-    },
-    "pa_shell_hammer": {
-      "textures": "textures/items/pamobile/pa_shell_hammer"
-    },
-    "pa_hard_swim_suit_bottom": {
-      "textures": [
-        "textures/items/pamobile/pa_hard_swim_suit_bottom"
-      ]
-    },
-    "pa_hard_swim_suit_bottom_b": {
-      "textures": [
-        "textures/items/pamobile/pa_hard_swim_suit_bottom_b"
-      ]
-    },
-    "pa:deep_shark": {
-      "textures": "textures/items/pamobile/pa_deep_shark"
-    },
-    "pa:cave_fish": {
-      "textures": "textures/items/pamobile/pa_cave_fish"
-    },
-    "pa:cave_crab": {
-      "textures": "textures/items/pamobile/pa_cave_crab"
-    },
-    "pa:raw_fang_fish": {
-      "textures": "textures/items/pamobile/pa_raw_fang_fish"
-    },
-    "pa:cooked_fang_fish": {
-      "textures": "textures/items/pamobile/pa_cooked_fang_fish"
-    },
-    "pa:fang_fish": {
-      "textures": "textures/items/pamobile/pa_fang_fish"
-    },
-    "pa:latex": {
-      "textures": "textures/items/pamobile/pa_latex"
-    },
-    "pa:shell": {
-      "textures": "textures/items/pamobile/pa_shell"
-    },
-    "pa:pearl": {
-      "textures": "textures/items/pamobile/pa_pearl"
-    },
-    "pa:raw_clam": {
-      "textures": "textures/items/pamobile/pa_raw_clam"
-    },
-    "pa:cooked_clam": {
-      "textures": "textures/items/pamobile/pa_cooked_clam"
-    },
-    "pa:river_crab": {
-      "textures": "textures/items/pamobile/pa_river_crab"
-    },
-    "pa:cooked_crab": {
-      "textures": "textures/items/pamobile/pa_cooked_crab"
-    },
-    "pa:raw_crab": {
-      "textures": "textures/items/pamobile/pa_raw_crab"
-    },
-    "pa_hardened_chest": {
-      "textures": [
-        "textures/items/pamobile/pa_hardened_chest"
-      ]
-    },
-    "pa_swim_glasses": {
-      "textures": [
-        "textures/items/pamobile/pa_swim_glasses"
-      ]
-    },
-    "pa_swiming_boots": {
-      "textures": [
-        "textures/items/pamobile/pa_swiming_boots"
-      ]
-    },
-    "pa_oxygen_tank": {
-      "textures": "textures/items/pamobile/pa_oxygen_tank"
-    },
-    "pa_pearled_rod": {
-      "textures": "textures/items/pamobile/pa_pearled_rod"
-    },
-    "pa_booster_crab_sword": {
-      "textures": "textures/items/pamobile/pa_booster_crab_sword"
-    },
-    "pa_amethystenite_lance": {
-      "textures": "textures/items/pamobile/pa_amethystenite_lance"
-    },
-    "pa:amethystenite": {
-      "textures": "textures/items/pamobile/pa_amethystenite"
-    },
-    "pa:crab_armor_shard": {
-      "textures": "textures/items/pamobile/pa_crab_armor_shard"
-    },
-    "pa_high_oxygen_tank": {
-      "textures": "textures/items/pamobile/pa_high_oxygen_tank"
-    },
-    "pa:jelly": {
-      "textures": "textures/items/pamobile/pa_jelly"
-    },
-    "pa:raw_moon_fish": {
-      "textures": "textures/items/pamobile/pa_raw_moon_fish"
-    },
-    "pa:raw_karp": {
-      "textures": "textures/items/pamobile/pa_raw_karp"
-    },
-    "pa:cooked_karp": {
-      "textures": "textures/items/pamobile/pa_cooked_karp"
-    },
-    "pa:icefish_skin": {
-      "textures": "textures/items/pamobile/pa_icefish_skin"
-    },
-    "pa:laud_turtle": {
-      "textures": "textures/items/pamobile/pa_laud_turtle"
-    },
-    "pa:sea_horse": {
-      "textures": "textures/items/pamobile/pa_sea_horse"
-    },
-    "pa:orca": {
-      "textures": "textures/items/pamobile/pa_orca"
-    },
-    "pa:seal": {
-      "textures": "textures/items/pamobile/pa_seal"
-    },
-    "pa:hammer_shark": {
-      "textures": "textures/items/pamobile/pa_hammer_shark"
-    },
-    "pa:jellyfish": {
-      "textures": "textures/items/pamobile/pa_jellyfish"
-    },
-    "pa:big_jellyfish": {
-      "textures": "textures/items/pamobile/pa_big_jellyfish"
-    },
-    "pa:big_clam": {
-      "textures": "textures/items/pamobile/pa_big_clam"
-    },
-    "pa:moon_fish": {
-      "textures": "textures/items/pamobile/pa_moon_fish"
-    },
-    "pa:sea_snake": {
-      "textures": "textures/items/pamobile/pa_sea_snake"
-    },
-    "pa:karp": {
-      "textures": "textures/items/pamobile/pa_karp"
-    },
-    "pa:karp_wild": {
-      "textures": "textures/items/pamobile/pa_karp_wild"
-    },
-    "pa:sea_star": {
-      "textures": "textures/items/pamobile/pa_sea_star"
-    },
-    "pa:goldfish": {
-      "textures": "textures/items/pamobile/pa_goldfish"
-    },
-    "pa:clam": {
-      "textures": "textures/items/pamobile/pa_clam"
-    },
-    "pa:icefish": {
-      "textures": "textures/items/pamobile/pa_icefish"
-    },
-    "pa:mantray": {
-      "textures": "textures/items/pamobile/pa_mantray"
-    },
-    "pa:spider_crab": {
-      "textures": "textures/items/pamobile/pa_spider_crab"
-    },
-    "pa:summon_large_ship": {
-      "textures": "textures/items/pamobile/pa_summon_large_ship"
-    },
-    "pa:large_ship": {
-      "textures": "textures/items/pamobile/pa_large_ship"
-    },
-    "pa_summon_medium_boat": {
-      "textures": "textures/items/pamobile/pa_summon_medium_boat"
-    },
-    "pa_medium_boat": {
-      "textures": "textures/items/pamobile/pa_medium_boat"
-    },
-    "pa_sail_sword": {
-      "textures": "textures/items/pamobile/pa_sail_sword"
-    },
-    "pa:sail_fish_sword": {
-      "textures": "textures/items/pamobile/pa_sail_fish_sword"
-    },
-    "pa:raw_shrimp": {
-      "textures": "textures/items/pamobile/pa_raw_shrimp"
-    },
-    "pa:cooked_shrimp": {
-      "textures": "textures/items/pamobile/pa_cooked_shrimp"
-    },
-    "pa:whale_shark": {
-      "textures": "textures/items/pamobile/pa_whale_shark"
-    },
-    "pa:shrimp": {
-      "textures": "textures/items/pamobile/pa_shrimp"
-    },
-    "pa:sail_fish": {
-      "textures": "textures/items/pamobile/pa_sail_fish"
-    },
-    "pa:sardine": {
-      "textures": "textures/items/pamobile/pa_sardine"
-    },
-   "pa:angler": {
-      "textures": "textures/items/pamobile/pa_angler"
-    },
-    "pa:sponge": {
-      "textures": "textures/items/pamobile/pa_sponge"
-    },
-    "pa:yellow_tang": {
-      "textures": "textures/items/pamobile/pa_yellow_tang"
-    },
-    "pa:snail": {
-      "textures": "textures/items/pamobile/pa_snail"
-    },
-    "pa:cavern_crab": {
-      "textures": "textures/items/pamobile/pa_cavern_crab"
-    },
-    "pa:amethyst_fish": {
-      "textures": "textures/items/pamobile/pa_amethyst_fish"
-    },
-    "pa:walrus": {
-     "textures": "textures/items/pamobile/pa_walrus"
-    },
-    "pa:sea_snail": {
-      "textures": "textures/items/pamobile/pa_sea_snail"
-    },
-    "pa:beach_flower": {
-      "textures": "textures/items/pamobile/pa_beach_flower"
-    },
-    "pa:plankton_bottle": {
-      "textures": "textures/items/pamobile/pa_plankton_bottle"
-    },
-    "soul_pickaxe": {
-			"textures": [
-				"textures/items/soul_pickaxe.png"
-			]
-		},
-		"soul_sword": {
-			"textures": [
-				"textures/items/soul_sword.png"
-			]
-		},
-
-	"soul_ingot": {
-			"textures": [
-				"textures/items/soul_ingot.png"
-			]
-                },
-
-        "soul_helmet": {
-			"textures": [
-				"textures/items/soul_helmet.png"
-			]
-		},
-		"soul_chestplate": {
-			"textures": [
-				"textures/items/soul_chestplate.png"
-			]
-		},
-
-	"soul_leggings": {
-			"textures": [
-				"textures/items/soul_leggings.png"
-			]
-		},
-		"soul_boots": {
-			"textures": [
-				"textures/items/soul_boots.png"
-			]
-		},
-		"soul_axe": {
-			"textures": [
-				"textures/items/soul_axe.png"
-			]
-		},
-		"soul_battle_axe": {
-			"textures": [
-				"textures/items/soul_battle_axe.png"
-			]
-		},
-		"rubedite_sword": {
-			"textures": [
-				"textures/items/rubedite_sword.png"
-			]
-		},
-		"rubedite_chestplate": {
-			"textures": [
-				"textures/items/rubedite_chestplate.png"
-			]
-		},
-		"dwarven_ingot": {
-			"textures": [
-				"textures/items/dwarven_ingot.png"
-			]
-		},
-		"dwarven_battle_axe": {
-			"textures": [
-				"textures/items/dwarven_battle_axe.png"
-			]
-		},
-		"dwarven_axe": {
-			"textures": [
-				"textures/items/dwarven_axe.png"
-			]
-		},
-		"dwarven_shovel": {
-			"textures": [
-				"textures/items/dwarven_shovel.png"
-			]
-		},
-		"dwarven_hammer": {
-			"textures": [
-				"textures/items/dwarven_hammer.png"
-			]
-		},
-		"dwarven_sword": {
-			"textures": [
-				"textures/items/dwarven_sword.png"
-			]
-		},
-		"dwarven_pickaxe": {
-			"textures": [
-				"textures/items/dwarven_pickaxe.png"
-			]
-		},
-		"rubedite_battle_axe": {
-			"textures": [
-				"textures/items/rubedite_battle_axe.png"
-			]
-		},
-		"iron_battle_axe": {
-			"textures": [
-				"textures/items/iron_battle_axe.png"
-			]
-		},
-		"gold_battle_axe": {
-			"textures": [
-				"textures/items/gold_battle_axe.png"
-			]
-		},
-		"diamond_battle_axe": {
-			"textures": [
-				"textures/items/diamond_battle_axe.png"
-			]
-		},
-		"netherite_battle_axe": {
-			"textures": [
-				"textures/items/netherite_battle_axe.png"
-			]
-		},
-		"rubedite_axe": {
-			"textures": [
-				"textures/items/rubedite_axe.png"
-			]
-		},
-		"rubedite_helmet": {
-			"textures": [
-				"textures/items/rubedite_helmet.png"
-			]
-		},
-		"rubedite_leggings": {
-			"textures": [
-				"textures/items/rubedite_leggings.png"
-			]
-		},
-		"rubedite_shovel": {
-			"textures": [
-				"textures/items/rubedite_shovel.png"
-			]
-		},
-		"rubedite_ingot": {
-			"textures": [
-				"textures/items/rubedite_ingot.png"
-			]
-		},
-		"rubedite_boots": {
-			"textures": [
-				"textures/items/rubedite_boots.png"
-			]
-		},
-		"rubedite_pickaxe": {
-			"textures": [
-				"textures/items/rubedite_pickaxe.png"
-			]
-		},
-				"soul_shovel": {
-			"textures": [
-				"textures/items/soul_shovel.png"
-			]
-		},
-		"diamond_trident_edge": {
-			"textures": "textures/items/trident_edge/diamond_trident_edge.png"
-		},
-		"copper_trident_edge": {
-			"textures": "textures/items/trident_edge/copper_trident_edge.png"
-		},
-		"copper_trident": {
-			"textures": "textures/items/copper_trident.png"
-		},
-		"gold_trident_edge": {
-			"textures": "textures/items/trident_edge/gold_trident_edge.png"
-		},
-		"iron_trident_edge": {
-			"textures": "textures/items/trident_edge/iron_trident_edge.png"
-		},
-
-		"diamond_pickaxe_trident_edge": {
-			"textures": "textures/items/trident_edge/diamond_pickaxe_trident_edge.png"
-		},
-		"gold_pickaxe_trident_edge": {
-			"textures": "textures/items/trident_edge/gold_pickaxe_trident_edge.png"
-		},
-		"iron_pickaxe_trident_edge": {
-			"textures": "textures/items/trident_edge/iron_pickaxe_trident_edge.png"
-		},
-		"netherite_pickaxe_trident_edge": {
-			"textures": "textures/items/trident_edge/netherite_pickaxe_trident_edge.png"
-		},
-
-		"diamond_pickaxe_trident": {
-			"textures": "textures/items/diamond_pickaxe_trident.png"
-		},
-		"gold_pickaxe_trident": {
-			"textures": "textures/items/gold_pickaxe_trident.png"
-		},
-		"iron_pickaxe_trident": {
-			"textures": "textures/items/iron_pickaxe_trident.png"
-		},
-		"netherite_pickaxe_trident": {
-			"textures": "textures/items/netherite_pickaxe_trident.png"
-		},
-
-		"redstone_trident_edge": {
-			"textures": "textures/items/trident_edge/redstone_trident_edge.png"
-		},
-		"lapis_trident_edge": {
-			"textures": "textures/items/trident_edge/lapis_trident_edge.png"
-		},
-		"blaze_trident_edge": {
-			"textures": "textures/items/trident_edge/blaze_trident_edge.png"
-		},
-		"ender_trident_edge": {
-			"textures": "textures/items/trident_edge/ender_trident_edge.png"
-		},
-		"obsidian_trident_edge": {
-			"textures": "textures/items/trident_edge/obsidian_trident_edge.png"
-		},
-		"tnt_trident_edge": {
-			"textures": "textures/items/trident_edge/tnt_trident_edge.png"
-		},
-		"netherite_trident_edge": {
-			"textures": "textures/items/trident_edge/netherite_trident_edge.png"
-		},
-		"ice_trident_edge": {
-			"textures": "textures/items/trident_edge/ice_trident_edge.png"
-		},
-		"shulker_trident_edge": {
-			"textures": "textures/items/trident_edge/shulker_trident_edge.png"
-		},
-		"diamond_trident": {
-			"textures": "textures/items/diamond_trident.png"
-		},
-		"gold_trident": {
-			"textures": "textures/items/gold_trident.png"
-		},
-		"iron_trident": {
-			"textures": "textures/items/iron_trident.png"
-		},
-		"redstone_trident": {
-			"textures": "textures/items/redstone_trident.png"
-		},
-		"lapis_trident": {
-			"textures": "textures/items/lapis_trident.png"
-		},
-		"blaze_trident": {
-			"textures": "textures/items/blaze_trident.png"
-		},
-		"ender_trident": {
-			"textures": "textures/items/ender_trident.png"
-		},
-		"obsidian_trident": {
-			"textures": "textures/items/obsidian_trident.png"
-		},
-		"tnt_trident": {
-			"textures": "textures/items/tnt_trident.png"
-		},
-		"netherite_trident": {
-			"textures": "textures/items/netherite_trident.png"
-		},
-		"ice_trident": {
-			"textures": "textures/items/ice_trident.png"
-		},
-		"shulker_trident": {
-			"textures": "textures/items/shulker_trident.png"
-		},
-		"copy": {
-            "textures": "textures/items/copy"
-        },
-        "cut": {
-            "textures": "textures/items/cut"
-        },
-        "paste": {
-            "textures": "textures/items/paste"
-        },
-        "undo": {
-            "textures": "textures/items/undo"
-        },
-        "redo": {
-            "textures": "textures/items/redo"
-        },
-        "rotate_cw": {
-            "textures": "textures/items/rotate_cw"
-        },
-        "rotate_ccw": {
-            "textures": "textures/items/rotate_ccw"
-        },
-        "flip": {
-            "textures": "textures/items/flip"
-        },
-        "eyedropper": {
-            "textures": "textures/items/eyedropper"
-        },
-        "maskdropper": {
-            "textures": "textures/items/maskdropper"
-        },
-        "spawn_glass": {
-            "textures": "textures/items/spawn_glass"
-        },
-        "selection_hollow": {
-            "textures": "textures/items/selection_hollow"
-        },
-        "selection_fill": {
-            "textures": "textures/items/selection_fill"
-        },
-        "selection_outline": {
-            "textures": "textures/items/selection_outline"
-        },
-        "selection_wall": {
-            "textures": "textures/items/selection_wall"
-        },
-        "draw_line": {
-            "textures": "textures/items/draw_line"
-        },
-        "config": {
-            "textures": "textures/ui/gear"
-        },
-        "confirm": {
-            "textures": "textures/ui/confirm"
-        },
-        "cancel": {
-            "textures": "textures/ui/cancel"
-        },
-        "delete": {
-            "textures": "textures/ui/icon_trash"
-        },
-        "arrow_left": {
-            "textures": "textures/ui/arrow_left"
-        },
-        "arrow_right": {
-            "textures": "textures/ui/arrow_right"
-        },
-        "plus": {
-            "textures": "textures/ui/color_plus"
-        },
-        "blank": {
-            "textures": "textures/ui/blank"
-        },
-        "brush_config": {
-            "textures": "textures/ui/brush_config"
-        },
-        "tool_config": {
-            "textures": "textures/ui/tool_config"
-        },
-        "cylinder_brush": {
-            "textures": "textures/ui/cylinder_brush"
-        },
-        "sphere_brush": {
-            "textures": "textures/ui/sphere_brush"
-        },
-        "smooth_brush": {
-            "textures": "textures/ui/smooth_brush"
-        },
-        "selection_wand": {
-            "textures": "textures/ui/selection_wand"
-        },
-        "far_selection_wand": {
-            "textures": "textures/ui/far_selection_wand"
-        },
-        "navigation_wand": {
-            "textures": "textures/ui/navigation_wand"
-        },
-        "stacker_wand": {
-            "textures": "textures/ui/stacker_wand"
-        },
-        "number_one": {
-            "textures": "textures/ui/one"
-        },
-        "number_two": {
-            "textures": "textures/ui/two"
-        },
-        "number_three": {
-            "textures": "textures/ui/three"
-        },
-        "number_four": {
-            "textures": "textures/ui/four"
-        },
-        "number_five": {
-            "textures": "textures/ui/five"
-        },
-        "number_six": {
-            "textures": "textures/ui/six"
-        },
-        "include_entities_on": {
-            "textures": "textures/ui/include_entities_on"
-        },
-        "include_entities_off": {
-            "textures": "textures/ui/include_entities_off"
-        },
-        "include_air_on": {
-            "textures": "textures/ui/include_air_on"
-        },
-        "include_air_off": {
-            "textures": "textures/ui/include_air_off"
-        },
-        "egg_camel": {
-      "textures": "textures/items/egg_camel"
-    },
-    "egg_lion": {
-      "textures": "textures/items/egg_lion"
-    },
-    "egg_penguin": {
-      "textures": "textures/items/egg_penguin"
-    },
-    "egg_tiger": {
-      "textures": "textures/items/egg_tiger"
-    },
-    "egg_elephant": {
-      "textures": "textures/items/egg_elephant"
-    },
-    "egg_deer": {
-      "textures": "textures/items/egg_deer"
-    },
-    "egg_panther": {
-      "textures": "textures/items/egg_panther"
-    },
-    "egg_frog": {
-      "textures": "textures/items/egg_frog"
-    },
-    "egg_crocodile": {
-      "textures": "textures/items/egg_crocodile"
-    },
-    "egg_mouse": {
-      "textures": "textures/items/egg_mouse"
-    },
-    "gallardo": {
-      "textures": "textures/items/gallardo"
-    },
-    "bench": {
-      "textures": "textures/items/bench"
-    },
-    "christmas_tree": {
-      "textures": "textures/items/christmas_tree"
-    },
-    "tivi": {
-      "textures": "textures/items/tivi"
-    },
-    "closet": {
-      "textures": "textures/items/closet"
-    },
-    "laptop": {
-      "textures": "textures/items/laptop"
-    },
-    "piano": {
-      "textures": "textures/items/piano"
-    },
-    "armchairs": {
-      "textures": "textures/items/armchairs"
-    },
-    "chair": {
-      "textures": "textures/items/chair"
-    },
-    "big_table": {
-      "textures": "textures/items/big_table"
-    },
-    "small_table": {
-      "textures": "textures/items/small_table"
-    },
-    "drone": {
-      "textures": "textures/items/drone"
-    },
-    "colorful_gifts": {
-      "textures": "textures/items/colorful_gifts"
-    },
-    "zg:leaf": {
-      "textures": "textures/items/pamobile/zg_leaf"
-    },
-    "zg_sandstone_rock_entity": {
-      "textures": "textures/items/pamobile/zg_sandstone_rock_entity"
-    },
-    "zg_rock_entity": {
-      "textures": "textures/items/pamobile/zg_rock_entity"
-    },
+		"hh.xisuma.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/xisuma"
+         ]
+      },
+      "mb.cyan_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/cyan_concrete"
+         ]
+      },
+      "hh.drav0011.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/drav0011"
+         ]
+      },
+      "mb.glowstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/glowstone"
+         ]
+      },
+      "hh.welsknight.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/welsknight"
+         ]
+      },
+      "mb.warped_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/warped_planks"
+         ]
+      },
+      "mb.sticky_piston.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/sticky_piston"
+         ]
+      },
+      "hh.mumbo_jumbo.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/mumbo_jumbo"
+         ]
+      },
+      "mb.chiseled_stone_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/chiseled_stone_bricks"
+         ]
+      },
+      "mb.gold_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/gold_block"
+         ]
+      },
+      "mb.gray_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/gray_concrete"
+         ]
+      },
+      "mb.smoker.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/smoker"
+         ]
+      },
+      "tg.sapphire_gem.helmet":{
+         "textures":[
+            "textures/treasure_gems/helmets/sapphire_gem"
+         ]
+      },
+      "mb.nether_wart_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/nether_wart_block"
+         ]
+      },
+      "mb.spruce_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/spruce_planks"
+         ]
+      },
+      "mb.shulker_box.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/shulker_box"
+         ]
+      },
+      "mb.chiseled_nether_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/chiseled_nether_bricks"
+         ]
+      },
+      "mb.emerald_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/emerald_block"
+         ]
+      },
+      "mb.tube_coral_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/tube_coral_block"
+         ]
+      },
+      "mb.red_sandstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/red_sandstone"
+         ]
+      },
+      "mb.red_sand.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/red_sand"
+         ]
+      },
+      "mb.hay_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/hay_block"
+         ]
+      },
+      "mb.clay.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/clay"
+         ]
+      },
+      "hh.renthedog.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/renthedog"
+         ]
+      },
+      "mb.ender_chest.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/ender_chest"
+         ]
+      },
+      "mb.beehive.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/beehive"
+         ]
+      },
+      "mb.end_stone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/end_stone"
+         ]
+      },
+      "mb.andesite.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/andesite"
+         ]
+      },
+      "mb.enchanting_table.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/enchanting_table"
+         ]
+      },
+      "mb.horn_coral_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/horn_coral_block"
+         ]
+      },
+      "mb.stone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/stone"
+         ]
+      },
+      "mb.bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/bricks"
+         ]
+      },
+      "mb.polished_granite.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/polished_granite"
+         ]
+      },
+      "mb.brown_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/brown_concrete"
+         ]
+      },
+      "mb.podzol.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/podzol"
+         ]
+      },
+      "mb.sand.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/sand"
+         ]
+      },
+      "mb.slime_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/slime_block"
+         ]
+      },
+      "mb.bee_nest.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/bee_nest"
+         ]
+      },
+      "hh.zedaph.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/zedaph"
+         ]
+      },
+      "mb.diamond_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/diamond_ore"
+         ]
+      },
+      "mb.lime_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/lime_concrete"
+         ]
+      },
+      "mb.quartz_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/quartz_block"
+         ]
+      },
+      "mb.granite.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/granite"
+         ]
+      },
+      "mb.nether_quartz_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/nether_quartz_ore"
+         ]
+      },
+      "mb.brain_coral_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/brain_coral_block"
+         ]
+      },
+      "mb.crafting_table.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/crafting_table"
+         ]
+      },
+      "mb.cartography_table.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/cartography_table"
+         ]
+      },
+      "mb.packed_ice.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/packed_ice"
+         ]
+      },
+      "tg.ruby_gem.helmet":{
+         "textures":[
+            "textures/treasure_gems/helmets/ruby_gem"
+         ]
+      },
+      "mb.acacia_log.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/acacia_log"
+         ]
+      },
+      "mb.nether_gold_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/nether_gold_ore"
+         ]
+      },
+      "hh.goodtimeswithscar.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/goodtimeswithscar"
+         ]
+      },
+      "mb.cobblestone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/cobblestone"
+         ]
+      },
+      "mb.smooth_stone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/smooth_stone"
+         ]
+      },
+      "mb.sponge.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/sponge"
+         ]
+      },
+      "mb.polished_diorite.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/polished_diorite"
+         ]
+      },
+      "mb.acacia_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/acacia_planks"
+         ]
+      },
+      "mb.sea_lantern.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/sea_lantern"
+         ]
+      },
+      "mb.green_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/green_concrete"
+         ]
+      },
+      "mb.bubble_coral_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/bubble_coral_block"
+         ]
+      },
+      "hh.stressmonster101.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/stressmonster101"
+         ]
+      },
+      "mb.crimson_stem.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/crimson_stem"
+         ]
+      },
+      "mb.chest.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/chest"
+         ]
+      },
+      "mb.coal_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/coal_block"
+         ]
+      },
+      "mb.gilded_blackstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/gilded_blackstone"
+         ]
+      },
+      "mb.lapis_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/lapis_ore"
+         ]
+      },
+      "mb.iron_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/iron_block"
+         ]
+      },
+      "mb.chiseled_polished_blackstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/chiseled_polished_blackstone"
+         ]
+      },
+      "mb.stone_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/stone_bricks"
+         ]
+      },
+      "mb.birch_log.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/birch_log"
+         ]
+      },
+      "mb.crimson_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/crimson_planks"
+         ]
+      },
+      "mb.blue_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/blue_concrete"
+         ]
+      },
+      "mb.grass_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/grass_block"
+         ]
+      },
+      "mb.terracotta.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/terracotta"
+         ]
+      },
+      "hh.pythongb.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/pythongb"
+         ]
+      },
+      "mb.noteblock.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/noteblock"
+         ]
+      },
+      "mb.pink_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/pink_concrete"
+         ]
+      },
+      "mb.target.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/target"
+         ]
+      },
+      "mb.birch_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/birch_planks"
+         ]
+      },
+      "mb.diamond_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/diamond_block"
+         ]
+      },
+      "mb.purpur_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/purpur_block"
+         ]
+      },
+      "tg.topaz_gem.helmet":{
+         "textures":[
+            "textures/treasure_gems/helmets/topaz_gem"
+         ]
+      },
+      "mb.loom.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/loom"
+         ]
+      },
+      "mb.fire_coral_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/fire_coral_block"
+         ]
+      },
+      "mb.gravel.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/gravel"
+         ]
+      },
+      "mb.pumpkin.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/pumpkin"
+         ]
+      },
+      "mb.melon.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/melon"
+         ]
+      },
+      "mb.white_wool.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/white_wool"
+         ]
+      },
+      "mb.prismarine_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/prismarine_bricks"
+         ]
+      },
+      "hh.tango_tek.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/tango_tek"
+         ]
+      },
+      "mb.polished_andesite.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/polished_andesite"
+         ]
+      },
+      "mb.diorite.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/diorite"
+         ]
+      },
+      "hh.bdoubleo100.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/bdoubleo100"
+         ]
+      },
+      "mb.magma_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/magma_block"
+         ]
+      },
+      "mb.orange_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/orange_concrete"
+         ]
+      },
+      "hh.vintagebeef.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/vintagebeef"
+         ]
+      },
+      "hh.tinfoilchef.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/tinfoilchef"
+         ]
+      },
+      "mb.barrel.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/barrel"
+         ]
+      },
+      "mb.jungle_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/jungle_planks"
+         ]
+      },
+      "mb.redstone_lamp_lit.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/redstone_lamp_lit"
+         ]
+      },
+      "hh.jessassin.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/jessassin"
+         ]
+      },
+      "mb.magenta_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/magenta_concrete"
+         ]
+      },
+      "mb.nether_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/nether_bricks"
+         ]
+      },
+      "mb.polished_blackstone_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/polished_blackstone_bricks"
+         ]
+      },
+      "mb.iron_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/iron_ore"
+         ]
+      },
+      "mb.warped_nylium.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/warped_nylium"
+         ]
+      },
+      "mb.dried_kelp_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dried_kelp_block"
+         ]
+      },
+      "mb.lodestone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/lodestone"
+         ]
+      },
+      "mb.red_mushroom_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/red_mushroom_block"
+         ]
+      },
+      "mb.redstone_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/redstone_block"
+         ]
+      },
+      "hh.ijevin.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/ijevin"
+         ]
+      },
+      "mb.warped_wart_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/warped_wart_block"
+         ]
+      },
+      "hh.joehillssays.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/joehillssays"
+         ]
+      },
+      "mb.dark_prismarine.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dark_prismarine"
+         ]
+      },
+      "mb.snow_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/snow_block"
+         ]
+      },
+      "mb.crying_obsidian.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/crying_obsidian"
+         ]
+      },
+      "mb.mossy_cobblestone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/mossy_cobblestone"
+         ]
+      },
+      "mb.crimson_nylium.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/crimson_nylium"
+         ]
+      },
+      "mb.oak_log.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/oak_log"
+         ]
+      },
+      "mb.tnt.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/tnt"
+         ]
+      },
+      "mb.red_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/red_concrete"
+         ]
+      },
+      "hh.keralis1.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/keralis1"
+         ]
+      },
+      "mb.light_gray_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/light_gray_concrete"
+         ]
+      },
+      "mb.dropper.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dropper"
+         ]
+      },
+      "mb.soul_sand.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/soul_sand"
+         ]
+      },
+      "mb.basalt.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/basalt"
+         ]
+      },
+      "mb.redstone_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/redstone_ore"
+         ]
+      },
+      "hh.falsesymmetry.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/falsesymmetry"
+         ]
+      },
+      "mb.blast_furnace.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/blast_furnace"
+         ]
+      },
+      "mb.dark_oak_log.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dark_oak_log"
+         ]
+      },
+      "mb.jukebox.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/jukebox"
+         ]
+      },
+      "mb.oak_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/oak_planks"
+         ]
+      },
+      "mb.white_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/white_concrete"
+         ]
+      },
+      "mb.redstone_lamp_unlit.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/redstone_lamp_unlit"
+         ]
+      },
+      "mb.honey_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/honey_block"
+         ]
+      },
+      "mb.light_blue_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/light_blue_concrete"
+         ]
+      },
+      "mb.fletching_table.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/fletching_table"
+         ]
+      },
+      "hh.zombiecleo.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/zombiecleo"
+         ]
+      },
+      "hh.etho.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/etho"
+         ]
+      },
+      "mb.end_stone_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/end_stone_bricks"
+         ]
+      },
+      "mb.dark_oak_planks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dark_oak_planks"
+         ]
+      },
+      "mb.netherite_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/netherite_block"
+         ]
+      },
+      "hh.biffa2001.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/biffa2001"
+         ]
+      },
+      "mb.emerald_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/emerald_ore"
+         ]
+      },
+      "mb.piston.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/piston"
+         ]
+      },
+      "mb.polished_blackstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/polished_blackstone"
+         ]
+      },
+      "hh.impulsesv.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/impulsesv"
+         ]
+      },
+      "hh.iskall85.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/iskall85"
+         ]
+      },
+      "mb.ancient_debris.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/ancient_debris"
+         ]
+      },
+      "mb.dirt.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dirt"
+         ]
+      },
+      "mb.gold_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/gold_ore"
+         ]
+      },
+      "mb.mycelium.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/mycelium"
+         ]
+      },
+      "mb.observer.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/observer"
+         ]
+      },
+      "hh.hypnotizd.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/hypnotizd"
+         ]
+      },
+      "mb.lapis_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/lapis_block"
+         ]
+      },
+      "mb.yellow_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/yellow_concrete"
+         ]
+      },
+      "mb.blackstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/blackstone"
+         ]
+      },
+      "mb.furnace.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/furnace"
+         ]
+      },
+      "tg.amethyst_gem.helmet":{
+         "textures":[
+            "textures/treasure_gems/helmets/amethyst_gem"
+         ]
+      },
+      "tg.aquamarine_gem.helmet":{
+         "textures":[
+            "textures/treasure_gems/helmets/aquamarine_gem"
+         ]
+      },
+      "hh.xbcrafted.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/xbcrafted"
+         ]
+      },
+      "mb.respawn_anchor.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/respawn_anchor"
+         ]
+      },
+      "mb.coal_ore.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/coal_ore"
+         ]
+      },
+      "mb.obsidian.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/obsidian"
+         ]
+      },
+      "mb.honeycomb_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/honeycomb_block"
+         ]
+      },
+      "hh.grian.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/grian"
+         ]
+      },
+      "mb.spruce_log.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/spruce_log"
+         ]
+      },
+      "mb.smithing_table.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/smithing_table"
+         ]
+      },
+      "hh.docm77.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/docm77"
+         ]
+      },
+      "mb.red_nether_bricks.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/red_nether_bricks"
+         ]
+      },
+      "mb.polished_basalt.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/polished_basalt"
+         ]
+      },
+      "mb.shroomlight.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/shroomlight"
+         ]
+      },
+      "mb.dispenser.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/dispenser"
+         ]
+      },
+      "hh.cubfan135.helmet":{
+         "textures":[
+            "textures/hermit_heads/helmets/cubfan135"
+         ]
+      },
+      "mb.jungle_log.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/jungle_log"
+         ]
+      },
+      "mb.prismarine.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/prismarine"
+         ]
+      },
+      "mb.bone_block.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/bone_block"
+         ]
+      },
+      "mb.black_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/black_concrete"
+         ]
+      },
+      "mb.warped_stem.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/warped_stem"
+         ]
+      },
+      "mb.netherrack.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/netherrack"
+         ]
+      },
+      "mb.purple_concrete.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/purple_concrete"
+         ]
+      },
+      "mb.sandstone.helmet":{
+         "textures":[
+            "textures/mini_blocks/helmets/sandstone"
+         ]
+      },
     "sould_rod": {
 			"textures": "textures/items/sould_rod"
 		},

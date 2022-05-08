@@ -1,1 +1,0 @@
-give @p pa:raw_karp

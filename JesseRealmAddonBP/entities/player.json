@@ -16,6 +16,7 @@
           "viking:iron_viking_helmet",
           "viking:gold_viking_helmet",
           "viking:viking_helmet",
+          "afk_check",
           "viking:diamond_viking_helmet",
           "viking:iron_viking_chestplate",
           "viking:gold_viking_chestplate",
@@ -23,12 +24,6 @@
           "viking:diamond_viking_chestplate",
           "viking:netherite_viking_chestplate",
           "viking:viking_boots",
-          "pa:hardened_chest",
-          "zg:sandstone_rock_entity",
-          "zg:rock_entity",
-          "pick",
-          "pa:swim_glasses",
-          "pa:swiming_boots",
           "viking:diamond_viking_boots",
           "viking:gold_viking_boots",
           "viking:iron_viking_boots",
@@ -43,13 +38,9 @@
       },
       "animations": {
         "walk": "controller.animation.walk",
-        "pick": "controller.animation.pickaxe",
-        "zg:sandstone_rock_entity": "controller.animation.zg_sandstone_rock_entity",
-        "zg:rock_entity": "controller.animation.zg_rock_entity",
-        "pa:hardened_chest": "controller.animation.pa_hardened_chest",
-		"pa:swim_glasses": "controller.animation.pa_swim_glasses",
-        "pa:swiming_boots": "controller.animation.pa_swiming_boots",
         "pa:komos": "controller.animation.pa_komos",
+        "afk_check": "controller.animation.bp.player.afk_check",
+		"afk_timer": "animation.bp.player.afk_timer",
         "pa:forest_pocoh": "controller.animation.pa_forest_pocoh",
         "pa:sxuna": "controller.animation.pa_sxuna",
         "pa:ll": "controller.animation.pa_ll",
@@ -86,76 +77,6 @@
           }
         }
       },
-      "zg:sandstone_rock_entity_fire": {
-        "minecraft:spawn_entity": [
-          {
-            "min_wait_time": 0,
-            "max_wait_time": 0,
-            "single_use": true,
-            "spawn_entity": "zg:sandstone_rock_entity",
-            "num_to_spawn": 1
-          }
-        ]
-      },
-      "zg:rock_entity_fire": {
-        "minecraft:spawn_entity": [
-          {
-            "min_wait_time": 0,
-            "max_wait_time": 0,
-            "single_use": true,
-            "spawn_entity": "zg:rock_entity",
-            "num_to_spawn": 1
-          }
-        ]
-      },
-      "pa:oxygen_tank": {
-        "minecraft:health": {
-          "value": 20,
-          "max": 20
-        },
-        "minecraft:movement": {
-          "value": 0.1
-        },
-        "minecraft:spell_effects": {
-          "add_effects": []
-        }
-      },
-      "pa:hardened_chest_event_play": {
-        "minecraft:health": {
-          "value": 20,
-          "max": 20
-        },
-        "minecraft:movement": {
-          "value": 0.1
-        },
-        "minecraft:spell_effects": {
-          "add_effects": []
-        }
-      },
-      "pa:swim_glasses_event_play": {
-        "minecraft:health": {
-          "value": 20,
-          "max": 20
-        },
-        "minecraft:movement": {
-          "value": 0.1
-        },
-        "minecraft:spell_effects": {
-          "add_effects": []
-        }
-      },
-      "pa:swiming_boots_event_play": {
-        "minecraft:health": {
-          "value": 20,
-          "max": 20
-        },
-        "minecraft:movement": {
-          "value": 0.1
-        },
-        "minecraft:spell_effects": {
-          "add_effects": []
-        }
-      }
       "neptunes_dry" : {
 				"minecraft:spell_effects" : {
 					"remove_effects" : [
@@ -796,151 +717,6 @@
               ]
             },
             "event": "viking:viking_axe_event"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "hand",
-                  "value": "pa:oxygen_tank"
-                }
-              ]
-            },
-            "event": "pa:oxygen_tank_event"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "hand",
-                  "value": "pa:hardened_chest"
-                }
-              ]
-            },
-            "event": "pa:hardened_chest_event_hold"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "head",
-                  "value": "pa:hardened_chest"
-                }
-              ]
-            },
-            "event": "pa:hardened_chest_event_play"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "hand",
-                  "value": "pa:swim_glasses"
-                }
-              ]
-            },
-            "event": "pa:swim_glasses_event_hold"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "head",
-                  "value": "pa:swim_glasses"
-                }
-              ]
-            },
-            "event": "pa:swim_glasses_event_play"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "hand",
-                  "value": "zg:sandstone_rock_entity"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "self",
-                  "value": "player"
-                }
-              ]
-            },
-            "event": "ammo:1"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "hand",
-                  "value": "zg:rock_entity"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "self",
-                  "value": "player"
-                }
-              ]
-            },
-            "event": "ammo:1"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "hand",
-                  "value": "pa:swiming_boots"
-                }
-              ]
-            },
-            "event": "pa:swiming_boots_event_hold"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "head",
-                  "value": "pa:swiming_boots"
-                }
-              ]
-            },
-            "event": "pa:swiming_boots_event_play"
           }
         },
         {
@@ -1977,6 +1753,7 @@
         "alwaysShow": true,
         "allowNameTagRenaming": false
       },
+      "minecraft:npc": {},
       "minecraft:physics": {},
       "minecraft:insomnia": {
         "days_until_insomnia": 3
@@ -2096,55 +1873,6 @@
           ]
         }
       },
-      "pa:oxygen_tank_event": {
-        "add": {
-          "component_groups": [
-            "pa:oxygen_tank"
-          ]
-        }
-      },
-      "pa:hardened_chest_event_hold": {
-        "add": {
-          "component_groups": [
-            "pa:hardened_chest_event_hold"
-          ]
-        }
-      },
-      "pa:hardened_chest_event_play": {
-        "add": {
-          "component_groups": [
-            "pa:hardened_chest_event_play"
-          ]
-        }
-      },
-      "pa:swim_glasses_event_hold": {
-        "add": {
-          "component_groups": [
-            "pa:swim_glasses_event_hold"
-          ]
-        }
-      },
-      "pa:swim_glasses_event_play": {
-        "add": {
-          "component_groups": [
-            "pa:swim_glasses_event_play"
-          ]
-        }
-      },
-      "pa:swiming_boots_event_hold": {
-        "add": {
-          "component_groups": [
-            "pa:swiming_boots_event_hold"
-          ]
-        }
-      },
-      "pa:swiming_boots_event_play": {
-        "add": {
-          "component_groups": [
-            "pa:swiming_boots_event_play"
-          ]
-        }
-      },
       "viking:viking_axe_event": {
         "add": {
           "component_groups": [
@@ -2186,7 +1914,7 @@
             "viking:iron_viking_helmet_event_hold"
           ]
         }
-      },
+      },"minecraft:npc": {},
       "neptunes_dry" : {
 				"add" : {
 					"component_groups" : [ "neptunes_dry" ]
@@ -2489,20 +2217,6 @@
         "add": {
           "component_groups": [
             "ammo:2"
-          ]
-        }
-      },
-      "zg:sandstone_rock_entity_fire": {
-        "add": {
-          "component_groups": [
-            "zg:sandstone_rock_entity_fire"
-          ]
-        }
-      },
-      "zg:rock_entity_fire": {
-        "add": {
-          "component_groups": [
-            "zg:rock_entity_fire"
           ]
         }
       },

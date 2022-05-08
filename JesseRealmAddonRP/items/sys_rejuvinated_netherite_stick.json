@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sys:rejuvinated_netherite_stick",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rejuvinated_netherite_stick",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
