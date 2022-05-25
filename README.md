@@ -5,3 +5,5 @@
 - aaa
 - aaaa
 - aaaaa
+
+(if you couldn't tell, I don't remember all the addons and am probally going to have to spend a few days in season 4's repo trying to find all the addons and list them lol)
